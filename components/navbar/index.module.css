@@ -1,0 +1,88 @@
+.navbar2{
+    height: 85px;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(12px) !important;
+    z-index: 999;
+    top: 0;
+}
+
+.navlink4:hover{
+    background: none !important;
+
+}
+
+.navLink{
+    color: #000;
+}
+
+.navLink:hover{
+    color: #000;
+}
+.navDropdown{
+    background: #fff!important;
+   
+}
+
+.dropdown-menu{
+    background: #fff!important;
+   
+    color: #000 !important;
+    border-radius: 20px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 100% !important;
+    
+  }
+
+.navLink1{
+    margin-right: auto !important;
+}
+.sublink{
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 16px;
+text-decoration: none;
+
+
+text-align: center;
+
+
+
+color: rgba(255, 255, 255, 0.7);
+}
+
+.appLink{
+    background: rgba(153, 248, 208, 0.1);
+ 
+    color: white;
+    border: 0.7px solid #99F8D0;
+    border-radius: 50px;
+   width: 150px;
+   padding: 10px 0px;
+}
+
+.arrowBtn{
+  float: right;
+  margin-right: 15px;
+ 
+  
+} 
+
+.arrowBtn img{
+    height: 10px !important;
+    width: 15px !important;
+}
+
+
+
+
+
+
+
+
+
+
+

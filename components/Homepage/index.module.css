@@ -1,0 +1,309 @@
+.main{
+    margin-top: 200px;
+}
+
+.section1{
+    height: 700px;
+}
+
+.section1 h1{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 84px;
+    /* or 133% */
+    /* Main white */
+    color: var(--text-primary);
+}
+
+.section1 h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    
+    /* Text color */
+    
+    color: var(--text-grey);
+    margin-bottom: 50px;
+}
+
+.buttons{
+    display: inline-flex;
+}
+
+.btn1{
+    border: 2px solid var(--text-blue);
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: var(--text-blue) !important;
+    text-decoration: none;
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.btn2{
+    background: var(--text-blue);
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: var(--text-white) !important;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.section2{
+        margin-bottom: 100px;
+}
+.section3{
+    background-color: var(--text-blue) ;
+    height: auto;
+    padding: 20px 0px;
+    display: flex;
+   align-items: center;
+   justify-content: center !important;
+   text-align: center;
+}
+
+.section4{
+    background-color: #f5f5f5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section4 h1{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 84px;
+    /* or 133% */
+    /* Main white */
+    color: var(--text-primary);
+}
+.section4 h5{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    
+    /* Text color */
+    
+    color: var(--text-blue);
+    margin-bottom: 10px;
+}
+
+
+
+.partners img{
+    width: 120px;
+    height: 25px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+
+.card1 h5{
+    color: black;
+    margin-top: 10px;
+}
+.card1 h6{
+    margin-top: 0px;
+    color: var(--text-grey);
+}
+
+.card1{
+    margin-bottom: 50px;
+}
+
+.section5{
+    padding: 10px 20px;
+    background-color: #1d2951;
+
+}
+.nodes h6{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nodes h2{
+    color: white;
+    font-size: 42px;
+    font-weight: 800;
+}
+.nodes{
+    padding: 15px;
+    border-left: 3px solid var(--text-blue);
+    /* margin: auto; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+   align-items: center;
+    
+}
+.nodesBtn{
+    background-color: var(--text-blue);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.section6{
+    padding-top: 100px;
+    background-color: #0e1222;
+    height: 500px;
+}
+.section6 h2{
+    color: rgba(255, 255, 255, 0.818);
+}
+.section6 h6{
+    color: rgba(255, 255, 255, 0.818);
+}
+
+
+
+@media all and (min-width: 992px){
+    .videoPlayer{
+        width: 80%;
+        height: 500px;
+        text-align: center;
+        margin: auto;
+    }
+    .section3{
+        height: 250px;
+    }
+    .nodes{
+        margin: auto;
+    }
+    .section5{
+        padding: 20px 20px;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .section3{
+        height: 250px;
+    }
+    .videoPlayer{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        margin: auto;
+    }
+   
+    .section1 h1{
+      font-size: 68px;
+    line-height: 78px;
+    }
+    .section4 h1{
+        font-size: 48px;
+      line-height: 58px;
+      }
+      .nodes h6{
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .nodes h2{
+        color: white;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .nodes{
+        height: 120px;
+    }
+ 
+  }
+
+  @media (max-width: 767.98px) { 
+    .section3{
+        height: 250px;
+    }
+    .section4 h5{
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.6px;
+    }
+    .section4 h1{
+        font-size: 38px;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+      }
+      .nodes h6{
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .nodes h2{
+        color: white;
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .nodes{
+        height: 100px;
+    }
+  }
+
+  @media (max-width: 575.98px){
+    .section3{
+        height: 350px;
+    }
+   
+    .section1 h1{
+      font-size: 58px;
+      line-height: 68px;
+      letter-spacing: 0.5px;
+    }
+    .section4 h1{
+        font-size: 38px;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+      }
+
+    .section1 h6{
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.6px;
+    }
+    .section4 h5{
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.6px;
+    }
+    .section1{
+        height: 500px;
+    }
+    .videoPlayer{
+        height: 300px;
+    }
+
+    .btn1,.btn2{
+        width: 150px;
+        padding: 10px 10px;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .nodes{
+        height: 100px;
+    }
+    .nodesBtn{
+        font-size: 12px;
+    }
+}
