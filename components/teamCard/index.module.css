@@ -1,0 +1,98 @@
+.card img{
+
+}
+.icon{
+    height: 18px;
+    width: 18px;
+    margin: 4px;
+}
+.nameSection{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 0px !important;
+}
+.nameSection h5{
+    float: left ;
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 0px !important;
+    font-family: Montserrat, sans-serif;
+    color: #313457;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.1em;
+}
+.icons{
+    float: right;
+    text-align: right;
+    margin-right: auto;
+}
+.card h4{
+    margin: 0.2em auto 0em 0px;
+    font-family: Montserrat, sans-serif;
+    color: #313457;
+    font-size: 1em;
+    font-weight: 500 !important;
+    line-height: 1.1em;
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.card p{
+    margin: 0.2em auto 0em 0px;
+    font-family: Montserrat, sans-serif;
+    color: #313457;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: -12px;
+}
+
+@media (max-width: 991.98px) {
+    .card h4{
+        margin: 0.2em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        color: #313457;
+        font-size: 0.8em;
+        line-height: 1.1em;
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    .card p{
+        margin: 0.2em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        color: #313457;
+        font-size: 0.8em;
+        line-height: 1.7em;
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 30px;
+        margin-top: -20px !important;
+    }
+}
+@media (max-width: 767.98px) {
+    .card h4{
+        margin: 0.1em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        color: #313457;
+        font-size: 0.7em;
+       
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    .card p{
+        margin: 0.1em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        color: #313457;
+        font-size: 0.7em;
+        line-height: 1.7em;
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+ }

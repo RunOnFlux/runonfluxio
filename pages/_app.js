@@ -3,7 +3,7 @@ import '../styles/globals.css'
 import React, { useEffect } from 'react';
 import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import { SSRProvider } from 'react-bootstrap';
 function MyApp({ Component, pageProps }) {
 
 
@@ -15,9 +15,11 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <React.Fragment>
+       <SSRProvider>
       <Layout>
         <Component {...pageProps} />
       </Layout>  
+      </SSRProvider>
     </React.Fragment>
  
   )
