@@ -4,7 +4,7 @@ import styles from "./index.module.css"
 import Head from "next/head";
 import dynamic from 'next/dynamic';
 import Image from "next/image";
-import map from "../../public/images/Map.svg"
+import map from "../../public/images/map.svg"
 import globeImg from "../../public/images/globe-alt.svg"
 import arrowUp from "../../public/images/gree-yello-up.svg"
 import ProgressBar from 'react-bootstrap/ProgressBar';
@@ -386,7 +386,7 @@ export function HomePage(){
                     <div className="row">
                     <a href="#" className={styles.btn2} style={{margin: "auto", marginBottom: "20px"}}>View Dashboard</a>
                     <div className={styles.map}>
-                        <Image alt="map" src={map} layout="responsive"/>
+                        <Image alt="map" src={map}  />
                     </div>
                     </div>
                 </div>

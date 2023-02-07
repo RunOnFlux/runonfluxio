@@ -1,7 +1,7 @@
 
 import Head from 'next/head'
 import Image from 'next/image'
-import { HomePage } from '../components/Homepage/homePage'
+import { HomePage } from '../components/Homepage/homePage.js'
 
 export default function Home() {
   return (

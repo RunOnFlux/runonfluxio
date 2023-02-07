@@ -558,8 +558,9 @@ color: #7EC897;
 .map img{
     width: 100% !important;
     transform-origin: 50% 65% !important;
-    transition: transform 5s, filter 5s ease-in-out !important;
+    transition: transform 7s, filter 7s ease-in-out !important;
     cursor: pointer;
+    height:auto !important;
 }
 
 .map img:hover{
