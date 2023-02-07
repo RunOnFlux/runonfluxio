@@ -26,9 +26,9 @@ export function Slider2(){
                     arrows: 0,
                     autoplay: true,
                     rewind: true,
-                    rewindSpeed: 1000,
+                   
                     gap: "5rem",
-                    type: "slide",
+                   
                     perMove: 1,
                     breakpoints: {
                       

@@ -1,4 +1,5 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import styles from "./index.module.css"
 import Head from "next/head";
 import dynamic from 'next/dynamic';
@@ -36,13 +37,83 @@ import POUW from "../../public/images/greenIcons/pouw.svg"
 import cloud from "../../public/images/greenIcons/cloud.svg"
 import climate from "../../public/images/greenIcons/climate.svg"
 import dollar from "../../public/images/greenIcons/dollar$.svg"
-
-
+import axios from 'axios';
+import { Slider4 } from "../Slider/slider4";
 
 
 
 
 export function HomePage(){
+
+    const [totalNodes, setTotalNodes] = useState('loading...');
+    const [totalCores, setTotalCores] = useState('loading...');
+    const [totalRAM, setTotalRAM] = useState('loading...');
+    const [totalSSD, setTotalSSD] = useState('loading...');
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const request = await axios.get(
+              "https://stats.runonflux.io/fluxinfo?projection=tier,benchmark"
+            );
+          
+            if (request.data) {
+              const nodes = request.data.data;
+              let vcores = 0;
+              let ssd = 0;
+              let hdd = 0;
+              let ram = 0;
+              nodes.forEach((node) => {
+                if (node.tier === "CUMULUS" && node.benchmark && node.benchmark.bench) {
+                  let bm = node.benchmark.bench;
+                  vcores += bm.cores === 0 ? 2 : bm.cores;
+                  ram += bm.ram < 4 ? 4 : Math.round(bm.ram);
+                  ssd += bm.ssd;
+                  hdd += bm.hdd;
+                } else if (node.tier === "CUMULUS") {
+                  vcores += 2;
+                  ram += 4;
+                  hdd += 50;
+                } else if (
+                  node.tier === "NIMBUS" &&
+                  node.benchmark &&
+                  node.benchmark.bench
+                ) {
+                  let bm = node.benchmark.bench;
+                  vcores += bm.cores === 0 ? 4 : bm.cores;
+                  ram += bm.ram < 8 ? 8 : Math.round(bm.ram);
+                  ssd += bm.ssd;
+                  hdd += bm.hdd;
+                } else if (node.tier === "NIMBUS") {
+                  vcores += 4;
+                  ram += 8;
+                  ssd += 150;
+                } else if (
+                  node.tier === "STRATUS" &&
+                  node.benchmark &&
+                  node.benchmark.bench
+                ) {
+                  let bm = node.benchmark.bench;
+                  vcores += bm.cores === 0 ? 8 : bm.cores;
+                  ram += bm.ram < 32 ? 32 : Math.round(bm.ram);
+                  ssd += bm.ssd;
+                  hdd += bm.hdd;
+                } else if (node.tier === "STRATUS") {
+                  vcores += 8;
+                  ram += 32;
+                  ssd += 600;
+                }
+              });
+            
+              setTotalNodes(nodes.length.toLocaleString());
+              setTotalCores(vcores.toLocaleString());
+              setTotalRAM(ram.toLocaleString());
+              setTotalSSD(parseFloat(ssd).toFixed(2).toLocaleString());
+        
+            }
+          };
+          fetchData();
+    },[])
+
     // const ReactPlayer = dynamic(() => import('react-player/lazy'), { ssr: false });
     return(
         <main className={styles.main}>
@@ -99,7 +170,7 @@ export function HomePage(){
                                     <span><Image alt="img" src={nodes}/></span>
                                     <div>
                                         <h6>Total Nodes</h6>
-                                        <div className={styles.headerTitle}><h4>15,157</h4></div>
+                                        <div className={styles.headerTitle}><h4>{totalNodes}</h4></div>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +182,7 @@ export function HomePage(){
                                     <span><Image alt="img" src={cores}/></span>
                                     <div>
                                         <h6>Total Cores</h6>
-                                        <div className={styles.headerTitle}><h4>111,029</h4></div>
+                                        <div className={styles.headerTitle}><h4>{totalCores}</h4></div>
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +194,7 @@ export function HomePage(){
                                     <span><Image alt="img" src={ram}/></span>
                                     <div>
                                         <h6>Total RAM</h6>
-                                        <div className={styles.headerTitle}><h4>293.04 TB</h4></div>
+                                        <div className={styles.headerTitle}><h4>{totalRAM} TB</h4></div>
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +205,7 @@ export function HomePage(){
                                     <span><Image alt="img" src={ssd}/></span>
                                     <div>
                                         <h6>Total SSD</h6>
-                                        <div className={styles.headerTitle}><h4>6,722.21 TB</h4></div>
+                                        <div className={styles.headerTitle}><h4>{totalSSD} TB</h4></div>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +221,7 @@ export function HomePage(){
                                     <span><Image alt="img" src={ram}/></span>
                                     <div>
                                         <h6>Total RAM</h6>
-                                        <div className={styles.headerTitle}><h4>293.04 TB</h4></div>
+                                        <div className={styles.headerTitle}><h4>{totalRAM} TB</h4></div>
                                     </div>
                                 </div>
                             </div>
@@ -161,7 +232,7 @@ export function HomePage(){
                                     <span><Image alt="img" src={ssd}/></span>
                                     <div>
                                         <h6>Total SSD</h6>
-                                        <div className={styles.headerTitle}><h4>6,722.21 TB</h4></div>
+                                        <div className={styles.headerTitle}><h4>{totalSSD} TB</h4></div>
                                     </div>
                                 </div>
                             </div>
@@ -409,6 +480,7 @@ export function HomePage(){
                 <div className="container-fluid">
                     <div className="row">
                         <Slider3/>
+                        <Slider4/>
                     </div>
                 </div>
             </section>

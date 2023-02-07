@@ -37,8 +37,8 @@ export function Slider1(){
                     arrows: 0,
                     autoplay: true,
                     rewind: true,
-                    rewindSpeed: 1000,
-                    type: 'slide',
+                   
+                  
                     perMove: 1,
                     gap: "5rem",
 

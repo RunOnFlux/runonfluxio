@@ -62,6 +62,7 @@
     border-radius: 100px;
     color: #1354FC;
     font-size: 14px;
+    transition: .3s;
 }
 
 .btn2{
@@ -78,7 +79,29 @@
     box-shadow: 0px 3.17664px 15.8832px 1.58832px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
     font-size: 14px;
+    transition: .3s;
 }
+.btn2:hover{
+    animation: pulse 1s infinite;
+    transition: .3s;
+}
+.btn1:hover{
+    animation: pulse 1s infinite;
+    transition: .3s;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+
 
 .section2{
         margin-bottom: 100px;
@@ -139,6 +162,12 @@
     padding: 5px;
     margin-right: 20px;
     height: fit-content;
+
+
+}
+.headerCard .cardHeader span img{
+    animation: pulse-animation 2s infinite;
+    border-radius: 100px;
 }
 
 .cardTotal .cardHeader span{
@@ -148,6 +177,12 @@
     padding: 5px;
     margin-right: 20px;
     height: fit-content;
+   
+}
+
+.cardTotal .cardHeader span img{
+    animation: pulse-animation 2s infinite;
+    border-radius: 100px;
 }
 
 .cardHeader .headerTitle{
@@ -216,6 +251,16 @@ color: #7EC897;
    justify-content: center !important;
    text-align: center;
 } */
+
+   
+@keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+  }
 
 .section3 h5{
     font-family: 'Montserrat';
@@ -367,6 +412,20 @@ color: #7EC897;
     padding: 30px 20px;
     height: 100%;
 }
+.card1:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(14, 13, 111, 0.394);
+    top: -4px;
+   
+    background-color: white;
+}
+.card2:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(14, 13, 111, 0.394);
+    top: -4px;
+   
+    background-color: white;
+}
 
 .card1 .icon{
     border-radius: 100px;
@@ -386,7 +445,9 @@ color: #7EC897;
     background-size: cover;
     background-position: center center;
     height: 350px;
+   
 }
+
 
 
 
@@ -458,6 +519,10 @@ color: #7EC897;
     font-size: 14px;
 
 }
+.section5 a:hover {
+    box-shadow: 0 0 3px 0 #98A7B9 inset, 0 0 20px 1px #98A7B9;
+    border: 3px solid #98A7B9;
+  }
 
 .section6{
     margin-bottom: 100px;
@@ -489,6 +554,16 @@ color: #7EC897;
 
     color: #98A7B9;
   
+}
+.map img{
+    width: 100% !important;
+    transform-origin: 50% 65% !important;
+    transition: transform 5s, filter 5s ease-in-out !important;
+    cursor: pointer;
+}
+
+.map img:hover{
+    transform: scale(1.2) !important;
 }
 
 .section7 h2{
@@ -607,8 +682,12 @@ color: #7EC897;
     display: block; 
     padding: 13px 0px; 
     color: #98A7B9;
- 
+    transition: .3s;
 }
+.card2 a:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }
 
 .section9{
     margin-bottom: 50px;
@@ -690,6 +769,11 @@ color: #7EC897;
     box-shadow: 0px 3.74807px 18.7404px 1.87404px rgba(0, 0, 0, 0.1);
     border-radius: 26.2365px;
     font-size: 14px;
+    transition: .3s;
+}
+.btn3:hover{
+    animation: pulse 1s infinite;
+    transition: .3s;
 }
 
 .card3 h5{
@@ -1495,7 +1579,7 @@ color: #7EC897;
  
   and (orientation: landscape) { 
     .section1{
-        height: 150vh;
+        height: 200vh;
     }
     .section1 h1{
         font-size: 48px;
@@ -1503,7 +1587,7 @@ color: #7EC897;
         letter-spacing: 0.5px;
       }
     .header{
-        margin-top: 100px;
+        margin-top: 200px;
         height: 100vh;
         display: flex;
         align-items: center;

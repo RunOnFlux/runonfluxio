@@ -1,9 +1,10 @@
 .costCard{
-    background: #2B61D1 ;
+    background-color: #2B61D1 ;
     box-shadow: 3.74807px 3.74807px 18.7404px 1.87404px rgba(43, 97, 209, 0.1); 
     border-radius: 18.7404px ;
     width: fit-content !important;
     margin: auto;
+    transition: background-color 10000ms linear !important;;
 }
 
 .header{

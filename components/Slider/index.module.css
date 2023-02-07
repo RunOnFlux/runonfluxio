@@ -42,7 +42,23 @@
     color: #98A7B9;
     padding: 14px 0px;
     margin-top: 30px;
+    transition: .3s;
 }
+.appCard a:hover{
+        animation: pulse 1s infinite;
+        transition: .3s;
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
 .appCard div{
     border-radius: 100px;
     background: #FFFFFF;

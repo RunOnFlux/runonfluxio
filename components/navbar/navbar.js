@@ -86,8 +86,8 @@ export function NavBar(){
                     onMouseLeave={hideDropdown}
                   >
                      <div className={styles.dropMenu}>
-                    <NavDropdown.Item >
-                      <Link href={'/'} className={styles.link} eventKey="1"> 
+                    <NavDropdown.Item>
+                     <Link href={'https://www.runonflux.io/flux-dapps.html'} className={styles.link}  eventKey={1}> 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                     Flux OS<br/>
                     <div className={styles.sublink}>Flux's revolutionary second-layer operating<br/> system that is the heart of Flux.</div>
@@ -97,9 +97,9 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item >
-                      <Link href={'/'} className={styles.link} eventKey="2"> 
+                      <Link href={'https://www.runonflux.io/flux-dapps.html'} className={styles.link} eventKey="2"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        Apps
+                        DApps
                       <br/>
                     <div className={styles.sublink}>Explore some of the applications running on<br/> Flux.</div>
                       </div>
@@ -108,7 +108,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                     
                     <NavDropdown.Item >
-                      <Link href={'/'} className={styles.link} eventKey="3"> 
+                      <Link href={'https://www.runonflux.io/flux-dapps.html'} className={styles.link} eventKey="3"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Flux Nodes
                      <br/>
@@ -467,8 +467,8 @@ export function NavBar(){
                    
                   >
                     <NavDropdown.Item eventKey="31" >
-                      <Link href={'/'} className={styles.link} > 
-                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
+                      <Link href={'https://www.runonflux.io/flux-dapps.html'} className={styles.link} > 
+                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
                     Flux OS<br/>
                     <div className={styles.sublink}>Flux's revolutionary second-layer operating<br/> system that is the heart of Flux.</div>
                       </div>
@@ -802,7 +802,7 @@ export function NavBar(){
                 </Nav>
                 <div className={styles.topNav2} style={{marginTop: "100px"}}>
                 <div className="container">
-                    <div className="row mx-auto text-center">
+                    <div className="row text-center">
                                 <div className={styles.topNavLink}> <a href="#">Whitepaper</a></div>
                                 <div className={styles.topNavLink}> <a href="#">Wiki</a></div>
                                 <div className={styles.topNavLink}> <a href="#">Flux Store </a></div>

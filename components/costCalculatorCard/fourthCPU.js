@@ -6,22 +6,28 @@ import aws from "../../public/images/aws.svg"
 import azure from "../../public/images/azure.svg"
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import axios from 'axios';
+
+
 export function FourthCPU(){
 
-    const [price, setPrice] = useState ('2.07')
+    const [price, setPrice] = useState ('loading...')
     useEffect(() => {
         async function getData() {
-          const Data = await fetch(
-          `https://api.coingecko.com/api/v3/simple/price?ids=zelcash&vs_currencies=usd`
-          ).then(response => response.json());
-      
-            const fluxPrice = Data.zelcash.usd;
+        await axios.get(`https://api.coingecko.com/api/v3/simple/price?ids=zelcash&vs_currencies=usd`)
+        .then(res => {
+          const Data = res.data;
+          const fluxPrice = Data.zelcash.usd;
             const fluxCloudPrice = fluxPrice * 26;
             const roundedOff = parseFloat(fluxCloudPrice).toFixed(2);
             setPrice(roundedOff);
-        }
-        getData()
+        
+        })
+    }
+    getData()
+
       }, [])
+
 
 
     return(

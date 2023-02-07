@@ -163,7 +163,7 @@ padding-right: 10px !important;
 }
 
 .navNav{
-  background-color: rgba(17,24,39,.85) !important;
+  background-color: transparent !important;
 }
 
 .navNav.active{
@@ -207,12 +207,12 @@ padding-right: 10px !important;
 @media (max-width: 991.98px){
   .navbar-collapse{
     margin-top: -2px;
-    background: rgba(17,24,39,.85)!important;
+    background: rgba(17,24,39)!important;
     max-width: 100% !important;
     box-sizing: content-box !important;
     padding-bottom: 50px !important;
     /* padding-left: 20px; */
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px) !important;
     height: 100vh !important;
     /* border: 2px solid red; */
     position: absolute !important;
@@ -238,7 +238,7 @@ padding-right: 10px !important;
   .navbar{
     /* background: #111827 !important;
      */
-     background: rgba(17,24,39,.85)!important;
+     background: rgba(17,24,39)!important;
     /* background: rgba(14, 32, 48, 0.85) !important; */
     border-bottom: 1px solid var(--border) !important;
   }
