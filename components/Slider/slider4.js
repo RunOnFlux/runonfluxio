@@ -29,8 +29,8 @@ export function Slider4(){
                     arrows: 0,
                     autoplay: true,
                     rewind: true,
+                    rewindSpeed: 10,
                     gap: "5rem",
-                   
                     perMove: 1,
                     direction: 'rtl',
                     breakpoints: {
@@ -49,25 +49,246 @@ export function Slider4(){
                         //     perPage: 4,
                            
                         // },
-                        // 991.98: {
-                        //     perPage: 3.2,
-                        //   },
-                        //   767.98: {
-                        //     perPage: 2.5,
-                        //     gap: "3rem",
-                        //   },
-                        //   640: {
-                        //     perPage: 2,
-                        // },
-                        //   575.98: {
-                        //     perPage: 1.5
-                        //   },
+                        991.98: {
+                            gap: "2rem"
+                          },
+                          767.98: {
+                            gap: "2rem"
+                          },
+                          640: {
+                            gap: "2rem"
+                        },
+                          575.98: {
+                           gap: "2rem"
+                          },
                     },
                      
                 }}
             >
                 
               
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={keep} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Keep</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={teamspeak} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Teamspeak</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={yearn} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Yearn</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={osmosis} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Osmosis</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={kaspa} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Kaspa</a>
+                    </div>
+                </SplideSlide>
+              
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={minecraft} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Minecraft</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={keep} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Keep</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={teamspeak} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Teamspeak</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={yearn} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Yearn</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={osmosis} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Osmosis</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={kaspa} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Kaspa</a>
+                    </div>
+                </SplideSlide>
+              
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={minecraft} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Minecraft</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={keep} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Keep</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={teamspeak} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Teamspeak</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={yearn} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Yearn</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={osmosis} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Osmosis</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={kaspa} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Kaspa</a>
+                    </div>
+                </SplideSlide>
+              
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={minecraft} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Minecraft</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={keep} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Keep</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={teamspeak} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Teamspeak</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={yearn} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Yearn</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={osmosis} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Osmosis</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={kaspa} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Kaspa</a>
+                    </div>
+                </SplideSlide>
+              
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={minecraft} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Minecraft</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={keep} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Keep</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={teamspeak} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Teamspeak</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={yearn} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Yearn</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={osmosis} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Osmosis</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={kaspa} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Kaspa</a>
+                    </div>
+                </SplideSlide>
+              
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={minecraft} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Minecraft</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={keep} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Keep</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={teamspeak} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Teamspeak</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={yearn} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Yearn</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={osmosis} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Osmosis</a>
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={kaspa} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Kaspa</a>
+                    </div>
+                </SplideSlide>
+              
+                <SplideSlide>
+                <div className={styles.appCard}>
+                    <div><Image src={minecraft} alt="Image 1"/></div>
+                    <a className={styles.btn} href="#">Minecraft</a>
+                    </div>
+                </SplideSlide>
                 <SplideSlide>
                 <div className={styles.appCard}>
                     <div><Image src={keep} alt="Image 1"/></div>

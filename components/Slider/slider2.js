@@ -26,12 +26,10 @@ export function Slider2(){
                     arrows: 0,
                     autoplay: true,
                     rewind: true,
-                   
+                    rewindSpeed: 10,
                     gap: "5rem",
-                   
                     perMove: 1,
                     breakpoints: {
-                      
 
                         // 1371:{
                         //     perPage: 7,
@@ -46,60 +44,275 @@ export function Slider2(){
                         //     perPage: 5,
                            
                         // },
-                        // 991.98: {
-                        //     perPage: 5,
-                        //   },
-                        //   767.98: {
-                        //     perPage: 4,
-                        //   },
-                        //   640: {
-                        //     perPage: 3,
-                        // },
-                        //   575.98: {
-                        //     perPage: 2
-                        //   },
+                        991.98: {
+                            gap: "2rem"
+                          },
+                          767.98: {
+                            gap: "2rem"
+                          },
+                          640: {
+                            gap: "2rem"
+                        },
+                          575.98: {
+                           gap: "1.5rem"
+                          },
                     },
                      
                 }}
             >
                 
               
-                <SplideSlide>
+                <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={platform1} alt="Image 1"/>
                     </div>
                 </SplideSlide>
-                <SplideSlide>
+                <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={platform2} alt="Image 1"/>
                     </div>
                 </SplideSlide>
-                <SplideSlide>
+                <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={platform3} alt="Image 1"/>
                     </div>
                 </SplideSlide>
-                <SplideSlide>
+                <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={platform4} alt="Image 1"/>
                     </div>
                 </SplideSlide>
-                <SplideSlide>
+                <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={platform5} alt="Image 1"/>
                     </div>
                 </SplideSlide>
-                <SplideSlide>
+                <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={platform6} alt="Image 1"/>
                     </div>
                 </SplideSlide>
-                <SplideSlide>
+                <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={platform7} alt="Image 1"/>
                     </div>
                 </SplideSlide>
-                <SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform4} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform5} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform6} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform7} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform4} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform5} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform6} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform7} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform4} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform5} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform6} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform7} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform4} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform5} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform6} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform7} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={platform1} alt="Image 1"/>
                     </div>
@@ -109,7 +322,292 @@ export function Slider2(){
                     <Image src={platform2} alt="Image 1"/>
                     </div>
                 </SplideSlide>
-                <SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform4} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform5} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform6} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform7} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform4} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform5} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform6} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform7} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform4} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform5} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform6} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform7} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform4} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform5} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform6} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform7} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform4} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform5} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform6} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform7} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform3} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform4} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform5} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform6} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform7} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform1} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
+                <div className={styles.partnerImg}>
+                    <Image src={platform2} alt="Image 1"/>
+                    </div>
+                </SplideSlide>
+                <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={platform3} alt="Image 1"/>
                     </div>

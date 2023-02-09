@@ -125,10 +125,10 @@ export function HomePage(){
                             <h1>Build on <br/><span>Web3.0 </span>Today</h1><br/>
                             <h6>The Flux Cloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance</h6>
                             <div className={styles.buttons}>
-                            <a href="#" className={styles.btn2}>Deploy Now</a>
-                            <a href="#" className={styles.btn1}>Marketplace</a>
+                            <a href="https://jetpack2.app.runonflux.io/hello.html" className={styles.btn2}>Deploy Now</a>
+                            <a href="https://home.runonflux.io/apps/marketplace" rel="noreferrer" target="_blank" className={styles.btn1}>Marketplace</a>
                             </div>
-                            <p>$ Calculate the cost for your solution.   <a href="#">View Cost</a></p>
+                            <p>$ Calculate the cost for your solution.   <a href="https://jetpack2.app.runonflux.io/hello.html#cost-calculator"  rel="noreferrer" target="_blank">View Cost</a></p>
                             </div>
                         </div>
                         <div className="col-lg-6"></div>
@@ -365,7 +365,7 @@ export function HomePage(){
                             <h3><span>Flux Cloud </span><br/>
                                 Estimated Cost</h3>
                                 <p>The Flux Cloud assures next generation pricing, Today! The Customer only pays for selected computer specifications in regards to their personal demand.</p>
-                                <a href="#">Cost Calculator</a>
+                                <a href="https://jetpack2.app.runonflux.io/hello.html#cost-calculator" rel="noreferrer" target="_blank">Cost Calculator</a>
                         </div>
                         <div className="col-lg-6 col-md-6">
                             <div className={styles.cost}>
@@ -384,7 +384,7 @@ export function HomePage(){
                         <p className="mb-4">The Flux Cloud is connected world wide. It  spans across all continents, within X geographical regions around the world.  Its strongest Availability Zone are the whole EU zone and United States, but also other Zones like  South Asia, and Australia are witnessing an increase of Server deployments.  </p>
                     </div>
                     <div className="row">
-                    <a href="#" className={styles.btn2} style={{margin: "auto", marginBottom: "20px"}}>View Dashboard</a>
+                    <a href="https://home.runonflux.io/dashboard/map" rel="noreferrer" target="_blank" className={styles.btn2} style={{margin: "auto", marginBottom: "20px"}}>View Dashboard</a>
                     <div className={styles.map}>
                         <Image alt="map" src={map}  />
                     </div>
@@ -396,7 +396,7 @@ export function HomePage(){
                 <div className="container">
                     <div className="row text-center mx-auto">
                     <h2 className="mb-3">Learn How <span>Flux Cloud</span> Works</h2>
-                    <a href="#" className={styles.btn2} style={{margin: "auto"}}>View Video</a>
+                    <a href="https://youtu.be/cqZkNO7KM00" className={styles.btn2} target="_blank" rel="noreferrer" style={{margin: "auto"}}>View Video</a>
                     </div> 
                 </div>
             </section>
@@ -417,9 +417,9 @@ export function HomePage(){
                         <p className="mb-3">Whether you are looking for simple compute power, databases, content delivery, or other functionalities, the Flux Cloud has you covered! Is it the service to keep your infrastructure decentralized, flexibly, scaleable. and censorship resistant</p>
                         
                     </div>
-                    <div className="row mb-5">
+                    {/* <div className="row mb-5">
                     <a href="#" className={styles.btn2} style={{margin: "auto"}}>View Products</a>
-                    </div>
+                    </div> */}
                     <div className="row mx-auto">
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5">
                         <div className={styles.card2}>
@@ -438,7 +438,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Flux Drive</h5>
                                 <h6>Not your Drive, Not your File! Flux Drive stores your data in a decentralized manner using the Flux Cloud.</h6>
-                                <a href="#">Store Now</a>
+                                <a href="https://jetpack2.app.runonflux.io/#/flux-drive" target="_blank" rel="noreferrer">Store Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5">
@@ -448,19 +448,36 @@ export function HomePage(){
                                 </div>
                                 <h5>Flux Marketplace</h5>
                                 <h6>Interact and transact on a permission-less, and self-executing Marketplace powered by the Flux Cloud.</h6>
-                                <a href="#">Visit Now</a>
+                                <a href="https://home.runonflux.io/apps/marketplace" target="_blank" rel="noreferrer">Visit Now</a>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 mb-5">
+                        <div className="col-lg-4 col-md-6 col-sm-6 mb-5 d-block d-lg-none">
                         <div className={styles.card2}>
                                 <div className={styles.icon}>
                                     <Image alt="logo" src={dropletIcon}/>
                                 </div>
                                 <h5>Run Droplet</h5>
                                 <h6>Make use of the secure, and battle proven technology of Docker Hub containers to deploy applications in a decentralized manner.</h6>
-                                <a href="#">Launch Now</a>
+                                <a href="https://jetpack2.app.runonflux.io/#/launch/details" target="_blank" rel="noreferrer">Launch Now</a>
                             </div>
                         </div>
+                    </div>
+                    <div className="d-none d-lg-block">
+                    <div className="row ">
+                    <div className="col-lg-4 col-md-6 col-sm-6 mb-5"></div>
+                    <div className="col-lg-4 col-md-6 col-sm-6 mb-5">
+                        <div className={styles.card2}>
+                                <div className={styles.icon}>
+                                    <Image alt="logo" src={dropletIcon}/>
+                                </div>
+                                <h5>Run Droplet</h5>
+                                <h6>Make use of the secure, and battle proven technology of Docker Hub containers to deploy applications in a decentralized manner.</h6>
+                                <a href="https://jetpack2.app.runonflux.io/#/launch/details" target="_blank" rel="noreferrer">Launch Now</a>
+                            </div>
+                            
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-6 mb-5"></div>
+                    </div>
                     </div>
                 </div>
             </section>
@@ -473,7 +490,7 @@ export function HomePage(){
                         
                     </div>
                     <div className="row">
-                    <a href="#" className={styles.btn2} style={{margin: "auto"}}>Launch App</a>
+                    <a href="https://jetpack2.app.runonflux.io/hello.html" target="_blank" rel="noreferrer" className={styles.btn2} style={{margin: "auto"}}>Launch App</a>
                     </div>
                    
                 </div>
@@ -490,10 +507,11 @@ export function HomePage(){
                     <div className="row">
                         <h2><span className={styles.cloudText1}>Cloud Computing</span> that is<br/> 
                                 <span>Climate Friendly</span></h2>
+                               
                         <p>Flux is actively developing sustainable solutions for proof of work and cloud computing. Flux believes that blockchains are not the sole cause of environmental problems but that it instead can provide solutions that will ultimately create more energy-efficient solutions than legacy technology can.</p> 
                     </div>
                     <div className="row mb-5">
-                        <a href="#" className={styles.btn3} style={{margin: "auto"}}> Discover More</a>
+                        <a href="https://runonflux.io/zero-carbon.html" target="_blank" rel="noreferrer" className={styles.btn3} style={{margin: "auto"}}> Discover More</a>
                         </div>
 
                         <div className="row">

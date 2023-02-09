@@ -50,15 +50,15 @@ export function NavBar(){
                         <div className="col-md-3"></div>
                         <div className="col-md-9">
                             <ul>
-                                <li> <a href="#">Whitepaper <Image alt="img" src={target}/></a></li>
-                                <li> <a href="#">Wiki <Image alt="img" src={target}/></a></li>
-                                <li> <a href="#">Flux Store <Image alt="img" src={target}/></a></li>
-                                <li> <a href="#">Zelcore <Image alt="img" src={target}/></a></li>
-                                <li className={styles.navLogo}> <a href="#"><Image alt="logo" src={twitter} /></a></li>
-                                <li className={styles.navLogo}> <a href="#"><Image alt="logo" src={discord}/></a></li>
-                                <li className={styles.navLogo}> <a href="#"><Image alt="logo" src={github}/></a></li>
-                                <li className={styles.navBtn}> <a href="#">Support</a></li>
-                                <li className={styles.navBtn}> <a href="#">Contact</a></li>
+                                <li> <a href="https://fluxwhitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper <Image alt="img" src={target}/></a></li>
+                                <li> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki <Image alt="img" src={target}/></a></li>
+                                <li> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">Flux Store <Image alt="img" src={target}/></a></li>
+                                <li> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore <Image alt="img" src={target}/></a></li>
+                                <li className={styles.navLogo}> <a href="https://twitter.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={twitter} /></a></li>
+                                <li className={styles.navLogo}> <a href="https://discord.io/runonflux" target="_blank" rel="noreferrer"><Image alt="logo" src={discord}/></a></li>
+                                <li className={styles.navLogo}> <a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={github}/></a></li>
+                                <li className={styles.navBtn}> <a href="https://support.runonflux.io/">Support</a></li>
+                                <li className={styles.navBtn}> <a href="mailto:info@runonflux.io?subject=Contact%20Flux!">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -87,8 +87,8 @@ export function NavBar(){
                   >
                      <div className={styles.dropMenu}>
                     <NavDropdown.Item>
-                     <Link href={'https://www.runonflux.io/flux-dapps.html'} className={styles.link}  eventKey={1}> 
-                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
+                     <Link href={'/fluxOS'} className={styles.link}  eventKey={1} > 
+                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
                     Flux OS<br/>
                     <div className={styles.sublink}>Flux's revolutionary second-layer operating<br/> system that is the heart of Flux.</div>
                       </div>
@@ -97,7 +97,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item >
-                      <Link href={'https://www.runonflux.io/flux-dapps.html'} className={styles.link} eventKey="2"> 
+                      <Link href={'/DApps'} className={styles.link} eventKey="2"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         DApps
                       <br/>
@@ -108,7 +108,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                     
                     <NavDropdown.Item >
-                      <Link href={'https://www.runonflux.io/flux-dapps.html'} className={styles.link} eventKey="3"> 
+                      <Link href={'/fluxNodes'} className={styles.link} eventKey="3"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Flux Nodes
                      <br/>
@@ -119,7 +119,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item >
-                      <Link href={'/'} className={styles.link} eventKey="4"> 
+                      <Link href={'/flux'} className={styles.link} eventKey="4"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Flux
                      <br/>
@@ -130,7 +130,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item >
-                      <Link href={'/'} className={styles.link} eventKey="5"> 
+                      <Link href={'/parallelMining'} className={styles.link} eventKey="5"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Parallel Mining
                      <br/>
@@ -141,7 +141,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item >
-                      <Link href={'/'} className={styles.link} eventKey="6"> 
+                      <Link href={'/zelcore'} className={styles.link} eventKey="6"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Zelcore
                      <br/>
@@ -152,7 +152,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item >
-                      <Link href={'/'} className={styles.link} eventKey="7"> 
+                      <Link href={'/dashboard'} className={styles.link} eventKey="7"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Dashboard
                      <br/>
@@ -163,7 +163,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item >
-                      <Link href={'/'} className={styles.link} eventKey="8"> 
+                      <Link href={'/XDAO'} className={styles.link} eventKey="8"> 
                       <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
                         XDAO
                      <br/>
@@ -187,9 +187,9 @@ export function NavBar(){
                   >
                     <div className={styles.dropMenu}>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={9} className={styles.link} >
+                        <Link href={'/whitepaper'} eventKey={9} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
-                        Whitepaper
+                         Whitepaper
                         <br/>
                         <div className={styles.sublink}>Read the Flux whitepaper and discover<br/>the scope of the project.</div>
                         </div>
@@ -197,7 +197,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={10} className={styles.link} >
+                        <Link href={'/roadmap'} eventKey={10} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Roadmap
                         <br/>
@@ -208,7 +208,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={11} className={styles.link} >
+                        <Link href={'/team'} eventKey={11} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Team<br/>
                         <div className={styles.sublink}>Meet the members of the fully<br/> distributed Flux team.</div>
@@ -217,7 +217,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={12} className={styles.link} >
+                        <Link href={'/partners'} eventKey={12} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Partners<br/>
                         <div className={styles.sublink}>Collaboration is at the heart of Flux and <br/> our partners are key to that.</div>
@@ -226,7 +226,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={13} className={styles.link} >
+                        <Link href={'/documentation'} eventKey={13} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Documentation <br/>
                         <div className={styles.sublink}>Read the Flux docs and get building on <br/> Flux today.</div>
@@ -235,7 +235,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={14} className={styles.link} >
+                        <Link href={'/blockExplorer'} eventKey={14} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Block Explorer
                         <div className={styles.sublink}>View blocks mined, statistics, pools, <br/> nodes and status of the network.</div>
@@ -244,7 +244,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={15} className={styles.link} >
+                        <Link href={'/carbonNeutrality'} eventKey={15} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Carbon Neutrality <br/>
                         <div className={styles.sublink}>Flux emphasis a Sustainable Future <br/>in Blockchain &amp; Cloud Computing.</div>
@@ -253,7 +253,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={16} className={styles.link} >
+                        <Link href={'/fluxLabs'} eventKey={16} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
                         FluxLabs
                         <div className={styles.sublink}>An incubation and acceleration project <br/>for blockchain and technology-based <br/> start-ups.</div>
@@ -274,7 +274,7 @@ export function NavBar(){
                   >
                     <div className={styles.dropMenu}>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={17} className={styles.link} >
+                        <Link href={'/app'} eventKey={17} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                         App
                         <br/>
@@ -284,7 +284,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={18} className={styles.link} >
+                        <Link href={'/node'} eventKey={18} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Node
                         <br/>
@@ -294,7 +294,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={19} className={styles.link} >
+                        <Link href={'/miner'} eventKey={19} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Miner
                         <br/>
@@ -305,7 +305,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                    
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={20} className={styles.link} >
+                        <Link href={'/buyFlux'} eventKey={20} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Buy Flux
                         <br/>
@@ -315,7 +315,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={21} className={styles.link} >
+                        <Link href={'/fluxStore'} eventKey={21} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
                         Flux store
                         <br/>
@@ -337,7 +337,7 @@ export function NavBar(){
                   >
                     <div className={styles.dropMenu}>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={22} className={styles.link} >
+                        <Link href={'/blog'} eventKey={22} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Blog
                         <br/>
@@ -347,7 +347,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={23} className={styles.link} >
+                        <Link href={'/github'} eventKey={23} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Github
                         <br/>
@@ -357,7 +357,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={24} className={styles.link} >
+                        <Link href={'/pressKit'} eventKey={24} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Press kit
                         <br/>
@@ -367,7 +367,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={25} className={styles.link} >
+                        <Link href={'/social'} eventKey={25} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Social
                         <br/>
@@ -377,7 +377,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={26} className={styles.link} >
+                        <Link href={'/careers'} eventKey={26} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Careers
                         <br/>
@@ -387,7 +387,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={27} className={styles.link} >
+                        <Link href={'/bugBounty'} eventKey={27} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Bug bounty
                         <br/>
@@ -397,7 +397,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={28} className={styles.link} >
+                        <Link href={'/donate'} eventKey={28} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Donate
                         <br/>
@@ -407,7 +407,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'#'} eventKey={29} className={styles.link} >
+                        <Link href={'/support'} eventKey={29} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Support
                         <br/>
@@ -419,7 +419,7 @@ export function NavBar(){
                       </div>
                     </NavDropdown>
                  {/* <Nav.Link href={'#'} eventKey={3}>Explore</Nav.Link> */}
-                 <Nav.Link href={'#'} eventKey={30}>Pricing</Nav.Link>
+                 {/* <Nav.Link href={'/pricing'} eventKey={30}>Pricing</Nav.Link> */}
                  {/* <Nav.Link href={'#'} eventKey={5}>Community</Nav.Link> */}
                 </Nav>
 
@@ -467,7 +467,7 @@ export function NavBar(){
                    
                   >
                     <NavDropdown.Item eventKey="31" >
-                      <Link href={'https://www.runonflux.io/flux-dapps.html'} className={styles.link} > 
+                      <Link href={'/fluxOS'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
                     Flux OS<br/>
                     <div className={styles.sublink}>Flux's revolutionary second-layer operating<br/> system that is the heart of Flux.</div>
@@ -477,9 +477,9 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="32">
-                      <Link href={'/'} className={styles.link} > 
+                      <Link href={'/DApps'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        Apps
+                        DApps
                       <br/>
                     <div className={styles.sublink}>Explore some of the applications running on<br/> Flux.</div>
                       </div>
@@ -488,7 +488,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                     
                     <NavDropdown.Item eventKey="33">
-                      <Link href={'/'} className={styles.link} > 
+                      <Link href={'/fluxNodes'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Flux Nodes
                      <br/>
@@ -499,7 +499,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="34">
-                      <Link href={'/'} className={styles.link} > 
+                      <Link href={'/flux'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Flux
                      <br/>
@@ -510,7 +510,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="35">
-                      <Link href={'/'} className={styles.link} > 
+                      <Link href={'/parallelMining'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Parallel Mining
                      <br/>
@@ -521,7 +521,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="36">
-                      <Link href={'/'} className={styles.link} > 
+                      <Link href={'/zelcore'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Zelcore
                      <br/>
@@ -532,7 +532,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="37">
-                      <Link href={'/'} className={styles.link} > 
+                      <Link href={'/dashboard'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Dashboard
                      <br/>
@@ -543,7 +543,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="38">
-                      <Link href={'/'} className={styles.link} > 
+                      <Link href={'/XDAO'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         XDAO
                      <br/>
@@ -564,7 +564,7 @@ export function NavBar(){
                    
                   >
                     <NavDropdown.Item eventKey="39">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/whitepaper'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                         Whitepaper
                         <br/>
@@ -574,7 +574,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="40">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/roadmap'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Roadmap
                         <br/>
@@ -585,7 +585,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="41">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/team'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Team<br/>
                         <div className={styles.sublink}>Meet the members of the fully<br/> distributed Flux team.</div>
@@ -594,7 +594,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="42">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/partners'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Partners<br/>
                         <div className={styles.sublink}>Collaboration is at the heart of Flux and <br/> our partners are key to that.</div>
@@ -603,7 +603,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="43">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/documentation'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Documentation <br/>
                         <div className={styles.sublink}>Read the Flux docs and get building on <br/> Flux today.</div>
@@ -612,7 +612,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="44">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/blockExplorer'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Block Explorer
                         <div className={styles.sublink}>View blocks mined, statistics, pools, <br/> nodes and status of the network.</div>
@@ -621,7 +621,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="45">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/carbonNeutrality'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Carbon Neutrality <br/>
                         <div className={styles.sublink}>Flux emphasis a Sustainable Future <br/>in Blockchain &amp; Cloud Computing.</div>
@@ -630,7 +630,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="46">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/fluxLabs'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
                         FluxLabs
                         <div className={styles.sublink}>An incubation and acceleration project <br/>for blockchain and technology-based <br/> start-ups.</div>
@@ -651,7 +651,7 @@ export function NavBar(){
                   >
 
                       <NavDropdown.Item eventKey="47">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/app'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                         App
                         <br/>
@@ -661,7 +661,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="48">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/node'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Node
                         <br/>
@@ -671,7 +671,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="49">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/miner'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Miner
                         <br/>
@@ -682,7 +682,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                    
                     <NavDropdown.Item eventKey="50" >
-                        <Link href={'#'} className={styles.link} >
+                        <Link href={'/buyFlux'} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Buy Flux
                         <br/>
@@ -692,7 +692,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="51">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/fluxStore'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
                         Flux store
                         <br/>
@@ -713,7 +713,7 @@ export function NavBar(){
                   >
                     
                     <NavDropdown.Item eventKey="52" >
-                        <Link href={'#'} className={styles.link} >
+                        <Link href={'/blog'} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Blog
                         <br/>
@@ -723,7 +723,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="53">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/github'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Github
                         <br/>
@@ -733,7 +733,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="54">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'pressKit'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Press kit
                         <br/>
@@ -743,7 +743,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="55">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/social'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Social
                         <br/>
@@ -753,7 +753,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="56">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/careers'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Careers
                         <br/>
@@ -763,7 +763,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="57">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/bugBounty'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Bug bounty
                         <br/>
@@ -773,7 +773,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="58">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/donate'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Donate
                         <br/>
@@ -783,7 +783,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="59">
-                        <Link href={'#'}  className={styles.link} >
+                        <Link href={'/support'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Support
                         <br/>
@@ -795,7 +795,7 @@ export function NavBar(){
                    
                     
                     </NavDropdown>
-                 <Nav.Link href={'#'} eventKey="60">Pricing</Nav.Link>
+                 {/* <Nav.Link href={'/pricing'} eventKey="60">Pricing</Nav.Link> */}
               
 
                 
@@ -803,17 +803,17 @@ export function NavBar(){
                 <div className={styles.topNav2} style={{marginTop: "100px"}}>
                 <div className="container">
                     <div className="row text-center">
-                                <div className={styles.topNavLink}> <a href="#">Whitepaper</a></div>
-                                <div className={styles.topNavLink}> <a href="#">Wiki</a></div>
-                                <div className={styles.topNavLink}> <a href="#">Flux Store </a></div>
-                                <div className={styles.topNavLink}> <a href="#">Zelcore</a></div>
-                                <div className={styles.topNavLink}> <a href="#">Support</a></div>
-                                <div className={styles.topNavLink}> <a href="#">Contact</a></div>
+                                <div className={styles.topNavLink}> <a href="https://fluxwhitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></div>
+                                <div className={styles.topNavLink}> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki</a></div>
+                                <div className={styles.topNavLink}> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">Flux Store </a></div>
+                                <div className={styles.topNavLink}> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></div>
+                                <div className={styles.topNavLink}> <a href="https://support.runonflux.io/">Support</a></div>
+                                <div className={styles.topNavLink}> <a href="mailto:info@runonflux.io?subject=Contact%20Flux!">Contact</a></div>
 
                                 <div className={styles.mobileTopNav}>
-                                 <a href="#"><Image alt="logo" src={twitter} /></a>
-                                <a href="#"><Image alt="logo" src={discord}/></a>
-                                <a href="#"><Image alt="logo" src={github}/></a>
+                                 <a href="https://twitter.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={twitter} /></a>
+                                <a href="https://discord.io/runonflux" target="_blank" rel="noreferrer"><Image alt="logo" src={discord}/></a>
+                                <a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={github}/></a>
                                 </div>
 
                     </div>
