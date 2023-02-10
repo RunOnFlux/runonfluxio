@@ -445,7 +445,7 @@ export function NavBar(){
 
             <div className="d-block d-lg-none">
             <div className={styles.navbar2}></div>
-            <Navbar  expand="lg" fixed="top"  collapseOnSelect >
+            <Navbar  expand="lg" fixed="top"  collapseOnSelect variant="dark">
             <Container>
                 <Navbar.Brand>
                     <Link href={'/'} className={styles.link4}><Image alt="logo" src={Logo}  height="40px" width="170px"/></Link>
