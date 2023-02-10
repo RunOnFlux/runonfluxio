@@ -17,23 +17,23 @@ export function CostCalculatorCard(){
             <p>Estimate the cost of your application on different cloud providers</p>
         </div>
     <Tabs
-      defaultActiveKey="5"
+      defaultActiveKey="2"
       id="uncontrolled-tab-example"
       className="mb-3"
       >
        
-      <Tab eventKey="0.1" title="0.1 CPU">
+      <Tab eventKey="2" title="2 vCPU">
         <FirstCPU/>
       </Tab>
-      <Tab eventKey="5" title="5 CPUs">
+      <Tab eventKey="4" title="4 vCPU">
         <SecondCPU/>
       </Tab>
-      <Tab eventKey="10" title="10 CPUs">
+      <Tab eventKey="8" title="8 vCPU">
        <ThirdCPU/>
       </Tab>
-      <Tab eventKey="15" title="15 CPUs">
+      {/* <Tab eventKey="15" title="15 CPUs">
         <FourthCPU/>
-      </Tab>
+      </Tab> */}
     </Tabs>             
            </div>
      

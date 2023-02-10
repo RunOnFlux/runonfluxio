@@ -18,7 +18,7 @@ export function SecondCPU(){
         .then(res => {
           const Data = res.data;
           const fluxPrice = Data.zelcash.usd;
-            const fluxCloudPrice = fluxPrice * 11;
+            const fluxCloudPrice = fluxPrice * 16;
             const roundedOff = parseFloat(fluxCloudPrice).toFixed(2);
             setPrice(roundedOff);
         
@@ -31,7 +31,7 @@ export function SecondCPU(){
 
     return(
         <div className={styles.content}>
-            <h5 className="mb-4">5 GB Memory / 50 GB Storage / 3 Instantes</h5>
+            <h5 className="mb-4">16 GB Memory / 100 GB Storage </h5>
             <div className={styles.priceList}>
                 <div className="row">
                     <div className="col" style={{paddingBottom: "0px"}}>
@@ -57,7 +57,7 @@ export function SecondCPU(){
                     </div>
                 <div className="col" style={{paddingBottom: "0px"}}>
                 <div className={styles.price}>
-                    <h6>$27.55</h6>
+                    <h6>$323.51</h6>
                     <p>Includes bandwidth</p>
                 </div>
                 </div>        
@@ -73,7 +73,7 @@ export function SecondCPU(){
                     </div>
                 <div className="col" style={{paddingBottom: "0px"}}>
                 <div className={styles.price}>
-                    <h6>$30.37</h6>
+                    <h6>$135.85</h6>
                     <p>Includes bandwidth</p>
                 </div>
                 </div>        
@@ -89,7 +89,7 @@ export function SecondCPU(){
                     </div>
                 <div className="col" style={{paddingBottom: "0px"}}>
                 <div className={styles.price}>
-                    <h6>$30.37</h6>
+                    <h6>$233.60</h6>
                     <p>Includes bandwidth</p>
                 </div>
                 </div>        
