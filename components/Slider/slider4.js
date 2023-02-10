@@ -7,6 +7,7 @@ import '@splidejs/react-splide/css/sea-green';
 import '@splidejs/react-splide/css/core';
 import Image from "next/image";
 
+
 import keep from  "../../public/images/launchApp/keep.svg";
 import yearn from "../../public/images/launchApp/yearn.svg";
 import osmosis from "../../public/images/launchApp/osmosis.svg";
@@ -26,11 +27,13 @@ import sushiSwap from "../../public/images/launchApp/sushiswap-sushi-logo.svg";
 import syncpaint from "../../public/images/launchApp/syncpaint.png";
 import yacy from "../../public/images/launchApp/YaCyLogo2011.svg";
 import kdLaunch from "../../public/images/launchApp/kds-logo.svg";
-
-
 export function Slider4(){
     return(
         <React.Fragment>
+           
+
+
+            <div style={{marginTop: "-100px"}}>
             <Splide aria-label="My Favorite Images"
                   options={{
                     // perPage: 5.5,
@@ -499,7 +502,7 @@ export function Slider4(){
                 </Splide>
                 
 
-
-                </React.Fragment>
+            </div>
+        </React.Fragment>
     )
 }
