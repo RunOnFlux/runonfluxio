@@ -70,7 +70,7 @@ module.exports = {
         basePath: false
       },
       {
-        source: '/team',
+        source: '/teams',
         destination: 'https://www.runonflux.io/team.html',
         permanent: false,
         basePath: false
