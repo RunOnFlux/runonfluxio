@@ -64,7 +64,7 @@ module.exports = {
         basePath: false
       },
       {
-        source: '/roadmap',
+        source: '/roadmaps',
         destination: 'https://www.runonflux.io/roadmap.html',
         permanent: false,
         basePath: false
@@ -76,7 +76,7 @@ module.exports = {
         basePath: false
       },
       {
-        source: '/partners',
+        source: '/partner',
         destination: 'https://www.runonflux.io/partners.html',
         permanent: false,
         basePath: false

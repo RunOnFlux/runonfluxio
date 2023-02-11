@@ -197,7 +197,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'/roadmap'} eventKey={10} className={styles.link} >
+                        <Link href={'/roadmaps'} eventKey={10} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Roadmap
                         <br/>
@@ -217,7 +217,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'/partners'} eventKey={12} className={styles.link} >
+                        <Link href={'/partner'} eventKey={12} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Partners<br/>
                         <div className={styles.sublink}>Collaboration is at the heart of Flux and <br/> our partners are key to that.</div>
@@ -574,7 +574,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="40">
-                        <Link href={'/roadmap'}  className={styles.link} >
+                        <Link href={'/roadmaps'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Roadmap
                         <br/>
@@ -594,7 +594,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="42">
-                        <Link href={'/partners'}  className={styles.link} >
+                        <Link href={'/partner'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Partners<br/>
                         <div className={styles.sublink}>Collaboration is at the heart of Flux and <br/> our partners are key to that.</div>
