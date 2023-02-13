@@ -62,6 +62,11 @@ a {
 .modal-header .btn-close{
   background:  url('/images/close-icon.png') center/1em auto no-repeat !important;
 }
+.modal-backdrop {
+  background: rgba(6, 15, 22, 0.95) !important;
+ backdrop-filter: blur(12px) !important;
+ --bs-backdrop-opacity: 0.8 !important;
+}
 .navbar{
   /* background:  transparent !important; */
   border-bottom: 1px solid var(--border) !important;

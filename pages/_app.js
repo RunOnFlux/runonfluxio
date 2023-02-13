@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react';
 import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.css';
 import { SSRProvider } from 'react-bootstrap';
-import { Breakpoint, BreakpointProvider } from 'react-socks';
+import { BreakpointProvider } from 'react-socks';
 
 
 function MyApp({ Component, pageProps }) {
