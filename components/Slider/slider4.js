@@ -27,6 +27,10 @@ import sushiSwap from "../../public/images/launchApp/sushiswap-sushi-logo.svg";
 import syncpaint from "../../public/images/launchApp/syncpaint.png";
 import yacy from "../../public/images/launchApp/YaCyLogo2011.svg";
 import kdLaunch from "../../public/images/launchApp/kds-logo.svg";
+import pao from "../../public/images/launchApp/paoverview_black.svg"
+import os13k from "../../public/images/launchApp/os13k_black.svg"
+import evolve from "../../public/images/launchApp/evolve_black.svg"
+import lightbike from "../../public/images/launchApp/lightbike_black.svg"
 export function Slider4(){
     return(
         <React.Fragment>
@@ -100,7 +104,7 @@ export function Slider4(){
                 </SplideSlide>
                 <SplideSlide>
                 <div className={styles.appCard}>
-                    <div><Image src={''} alt="PAO"/></div>
+                    <div><Image src={pao} alt="PAO"/></div>
                     <a className={styles.btn} href="https://paoverview.app.runonflux.io/" target="_blank" rel="noreferrer">PAOverview</a>
                     </div>
                 </SplideSlide>
@@ -130,19 +134,19 @@ export function Slider4(){
                 </SplideSlide>
                 <SplideSlide>
                 <div className={styles.appCard}>
-                    <div><Image src={''} alt="evolve"/></div>
+                    <div><Image src={evolve} alt="evolve"/></div>
                     <a className={styles.btn} href="https://evolve.app.runonflux.io/" target="_blank" rel="noreferrer">Evolve</a>
                     </div>
                 </SplideSlide>
                 <SplideSlide>
                 <div className={styles.appCard}>
-                    <div><Image src={''} alt="OS13k"/></div>
+                    <div><Image src={os13k} alt="OS13k"/></div>
                     <a className={styles.btn} href="https://os13k.app.runonflux.io/" target="_blank" rel="noreferrer">OS13k</a>
                     </div>
                 </SplideSlide>
                 <SplideSlide>
                 <div className={styles.appCard}>
-                    <div><Image src={''} alt="lightbike"/></div>
+                    <div><Image src={lightbike} alt="lightbike"/></div>
                     <a className={styles.btn} href="https://lightbike.app.runonflux.io/" target="_blank" rel="noreferrer">Lightbike</a>
                     </div>
                 </SplideSlide>
@@ -167,7 +171,7 @@ export function Slider4(){
                 </SplideSlide>
                 <SplideSlide>
                 <div className={styles.appCard}>
-                    <div><Image src={''} alt="PAO"/></div>
+                    <div><Image src={pao} alt="PAO"/></div>
                     <a className={styles.btn} href="https://paoverview.app.runonflux.io/" target="_blank" rel="noreferrer">PAOverview</a>
                     </div>
                 </SplideSlide>
@@ -197,19 +201,19 @@ export function Slider4(){
                 </SplideSlide>
                 <SplideSlide>
                 <div className={styles.appCard}>
-                    <div><Image src={''} alt="evolve"/></div>
+                    <div><Image src={evolve} alt="evolve"/></div>
                     <a className={styles.btn} href="https://evolve.app.runonflux.io/" target="_blank" rel="noreferrer">Evolve</a>
                     </div>
                 </SplideSlide>
                 <SplideSlide>
                 <div className={styles.appCard}>
-                    <div><Image src={''} alt="OS13k"/></div>
+                    <div><Image src={os13k} alt="OS13k"/></div>
                     <a className={styles.btn} href="https://os13k.app.runonflux.io/" target="_blank" rel="noreferrer">OS13k</a>
                     </div>
                 </SplideSlide>
                 <SplideSlide>
                 <div className={styles.appCard}>
-                    <div><Image src={''} alt="lightbike"/></div>
+                    <div><Image src={lightbike} alt="lightbike"/></div>
                     <a className={styles.btn} href="https://lightbike.app.runonflux.io/" target="_blank" rel="noreferrer">Lightbike</a>
                     </div>
                 </SplideSlide>

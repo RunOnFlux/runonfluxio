@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { useState, useEffect } from "react";
 import styles from "./index.module.css"
@@ -39,7 +40,7 @@ import climate from "../../public/images/greenIcons/climate.svg"
 import dollar from "../../public/images/greenIcons/dollar$.svg"
 import axios from 'axios';
 import { Slider4 } from "../Slider/slider4";
-
+import Modal from 'react-bootstrap/Modal';
 
 
 
@@ -50,6 +51,10 @@ export function HomePage(){
     const [totalRAM, setTotalRAM] = useState('loading...');
     const [totalSSD, setTotalSSD] = useState('loading...');
 
+    const [show, setShow] = useState(true);
+
+    const handleClose = () => setShow(false);
+   
     useEffect(() => {
         const fetchData = async () => {
             const request = await axios.get(
@@ -112,15 +117,29 @@ export function HomePage(){
             }
           };
           fetchData();
+         
+         
     },[])
+
+    
+
+  
 
     // const ReactPlayer = dynamic(() => import('react-player/lazy'), { ssr: false });
     return(
+        
         <main className={styles.main}>
             <section className={styles.section1}>
                 <div className="container">
                     <div className="row">
-                        <div className={`${styles.header} col-lg-6`}>
+                    <div className={styles.modal}>
+                        <Modal show={show} onHide={handleClose} centered size="lg">
+                            <Modal.Header closeButton>
+                            </Modal.Header>
+                            <Modal.Body></Modal.Body>
+                        </Modal>
+                    </div>
+                        <div className={`${styles.header} col-lg-5`}>
                             <div>
                             <h1>Build on <br/><span>Web3.0 </span>Today</h1><br/>
                             <h6>The Flux Cloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance</h6>
@@ -131,7 +150,7 @@ export function HomePage(){
                             <p>$ Calculate the cost for your solution.   <a href="https://jetpack2.app.runonflux.io/hello.html#cost-calculator"  rel="noreferrer" target="_blank">View Cost</a></p>
                             </div>
                         </div>
-                        <div className="col-lg-6"></div>
+                        <div className="col-lg-7"></div>
                     </div>
                 </div>
             </section>
@@ -139,7 +158,7 @@ export function HomePage(){
             <section className={styles.section2}>
                 <div className="container">
                     <div className="row">
-                      
+                  
                         <div className="col-lg-5 col-md-7 mb-3">
                             <div className={styles.headerCard}>
                                 <div className={styles.cardHeader}>

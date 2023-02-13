@@ -120,7 +120,7 @@ color: rgba(255, 255, 255, 0.7);
 
 .topNav ul li a{
     text-decoration: none;
-    color: #96A5B7;
+    color: #000;
     /* font-size: 12px; */
     display: inline-flex;
     font-family: 'Montserrat';
@@ -146,7 +146,7 @@ color: rgba(255, 255, 255, 0.7);
 }
 
 .topNav ul li.navBtn a {
-    border: 0.749614px solid #98A7B9;
+    border: 0.749614px solid #000;
     border-radius: 26.2365px;
     padding: 7px 20px;
 }

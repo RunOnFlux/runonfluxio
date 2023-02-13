@@ -43,7 +43,18 @@ a {
 * {
   box-sizing: border-box;
 }
+.modal-content{
+  background: url('/images/flux-cloud-wordpress.jpg');
+  background-size: cover;
+  height: 500px;
+}
+.modal-header{
+  border-bottom: 0px !important;
+}
 
+.modal-header .btn-close{
+  background:  url('/images/close-icon.png') center/1em auto no-repeat !important;
+}
 .navbar{
   /* background:  transparent !important; */
   border-bottom: 1px solid var(--border) !important;
@@ -189,7 +200,7 @@ padding-right: 10px !important;
   /* width: 500px !important; */
 }
 
-.container, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+/* .container, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
@@ -197,7 +208,7 @@ padding-right: 10px !important;
   padding-left: calc(var(--bs-gutter-x) * 2.5) !important;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 .dropdown-menu{
   /* width: 100%; */
 }

@@ -2,11 +2,11 @@
 
 import Head from 'next/head'
 import '../styles/globals.css'
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.css';
 import { SSRProvider } from 'react-bootstrap';
-
+import { Breakpoint, BreakpointProvider } from 'react-socks';
 
 
 function MyApp({ Component, pageProps }) {
@@ -14,6 +14,16 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     import ('bootstrap/dist/js/bootstrap.js')
 }, []);
+
+const [showChild, setShowChild] = useState(false)
+
+  useEffect(() => {
+    setShowChild(true)
+  }, [])
+
+  if (!showChild) {
+    return null
+  }
    
   return (
     <>
@@ -24,7 +34,9 @@ function MyApp({ Component, pageProps }) {
     <React.Fragment>
        <SSRProvider>
       <Layout>
+      <BreakpointProvider>
         <Component {...pageProps} />
+        </BreakpointProvider>
       </Layout>  
       </SSRProvider>
     </React.Fragment>

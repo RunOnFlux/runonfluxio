@@ -31,7 +31,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 25px;
     /* identical to box height, or 178% */
     
     
@@ -123,6 +123,7 @@
     padding: 20px 10px;
     /* width: fit-content; */
     margin-top: 25px;
+   
 }
 
 .headerCard .cardHeader{
@@ -379,7 +380,7 @@ color: #7EC897;
 .section4 p{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16.4915px;
     line-height: 125%;
     text-align: center;
@@ -462,13 +463,13 @@ color: #7EC897;
     margin-top: 20px;
     text-align: left;
 
-    color: #98A7B9;
+    color: #fff;
 
 
 }
 .section1 p a{
     font-weight: bold;
-    color: #98A7B9;
+    color: #fff;
 }
 
 .section5{
@@ -495,7 +496,7 @@ color: #7EC897;
 .section5 p{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16.4915px;
     line-height: 125%;
     margin-bottom: 40px;
@@ -547,7 +548,7 @@ color: #7EC897;
 .section6 p{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16.4915px;
     line-height: 125%;
 
@@ -620,7 +621,7 @@ color: #7EC897;
 .section9 p{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16.4915px;
     line-height: 125%;
 
@@ -713,7 +714,7 @@ color: #7EC897;
 .section10 p{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16.4915px;
     line-height: 125%;
 
@@ -747,7 +748,7 @@ color: #7EC897;
 .section11 p{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16.4915px;
     line-height: 125%;
 
@@ -1085,7 +1086,7 @@ color: #7EC897;
     }
     
     .section5 p{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 13.4915px;
         line-height: 125%;
         margin-bottom: 40px;
@@ -1113,7 +1114,7 @@ color: #7EC897;
    
     
     .section6 p{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 13.4915px;
         line-height: 125%;
         margin-bottom: 40px;
@@ -1131,7 +1132,7 @@ color: #7EC897;
    
     
     .section9 p{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 13.4915px;
         line-height: 125%;
         margin-bottom: 40px;
@@ -1160,7 +1161,7 @@ color: #7EC897;
    
     
     .section10 p{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 13.4915px;
         line-height: 125%;
         margin-bottom: 40px;
@@ -1368,7 +1369,7 @@ color: #7EC897;
     }
     
     .section5 p{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 13px;
         line-height: 135%;
         margin-bottom: 20px;
@@ -1399,7 +1400,7 @@ color: #7EC897;
     }
     
     .section6 p{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 13px;
         line-height: 135%;
         margin-bottom: 20px;
@@ -1420,7 +1421,7 @@ color: #7EC897;
     }
     
     .section9 p{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 13px;
         line-height: 125%;
         margin-bottom: 20px;
@@ -1453,7 +1454,7 @@ color: #7EC897;
     }
     
     .section10 p{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 13px;
         line-height: 135%;
         margin-bottom: 20px;
@@ -1468,7 +1469,7 @@ color: #7EC897;
     }
     
     .section11 p{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 13px;
         line-height: 135%;
         margin-bottom: 20px;
@@ -1583,7 +1584,7 @@ color: #7EC897;
 
     }
     .section4 p{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 13px;
         line-height: 135%;
     }
