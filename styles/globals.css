@@ -44,12 +44,19 @@ a {
   box-sizing: border-box;
 }
 .modal-content{
-  background: url('/images/flux-cloud-wordpress.jpg');
+  /* background: url('/images/flux-cloud-wordpress.jpg');
   background-size: cover;
-  height: 500px;
+  height: 500px; */
+  padding: 0px !important;
+  margin: 0px !important;
 }
 .modal-header{
   border-bottom: 0px !important;
+  padding: 7px !important;
+  background-color: #052929db !important;
+}
+.modal-body{
+  padding: 0px !important;
 }
 
 .modal-header .btn-close{

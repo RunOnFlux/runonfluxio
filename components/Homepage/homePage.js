@@ -41,7 +41,7 @@ import dollar from "../../public/images/greenIcons/dollar$.svg"
 import axios from 'axios';
 import { Slider4 } from "../Slider/slider4";
 import Modal from 'react-bootstrap/Modal';
-
+import wordpressImg from "../../public/images/flux-cloud-wordpress.jpg"
 
 
 export function HomePage(){
@@ -132,11 +132,16 @@ export function HomePage(){
             <section className={styles.section1}>
                 <div className="container">
                     <div className="row">
-                    <div className={styles.modal}>
+                    <div>
                         <Modal show={show} onHide={handleClose} centered size="lg">
                             <Modal.Header closeButton>
                             </Modal.Header>
-                            <Modal.Body></Modal.Body>
+                            <Modal.Body>
+                                <div className={styles.modal}>
+                                <Image alt="wordpress" src={wordpressImg} />
+                                </div>
+                               
+                            </Modal.Body>
                         </Modal>
                     </div>
                         <div className={`${styles.header} col-lg-5`}>
