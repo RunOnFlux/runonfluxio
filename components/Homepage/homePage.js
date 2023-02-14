@@ -41,7 +41,7 @@ import dollar from "../../public/images/greenIcons/dollar$.svg"
 import axios from 'axios';
 import { Slider4 } from "../Slider/slider4";
 import Modal from 'react-bootstrap/Modal';
-import wordpressImg from "../../public/images/flux-cloud-wordpress.jpg"
+import wordpressImg from "../../public/images/flux-cloud-wordpress.svg"
 
 
 export function HomePage(){
