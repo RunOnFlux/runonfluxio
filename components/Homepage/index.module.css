@@ -126,7 +126,8 @@
     padding: 20px 10px;
     /* width: fit-content; */
     margin-top: 25px;
-   
+    display: flex !important;
+    align-items: center !important;
 }
 
 .headerCard .cardHeader{
@@ -135,6 +136,7 @@
 
 .cardTotal .cardHeader{
     display: inline-flex;
+    margin-bottom: -15px;
 }
 .headerCard .cardHeader h6{
     font-family: 'Montserrat';
@@ -340,7 +342,7 @@ color: #7EC897;
 
 .web1Icons img{
     width: 200px !important;
-    height: 150px !important;
+    height: 200px !important;
     
 }
 .section3{
@@ -997,12 +999,13 @@ color: #7EC897;
     .cardHeader{
         margin-bottom: -15px !important;
     }
+   .webCard{
+    max-width: 366px;
+    margin: auto;
+   }
+
+
    
-   
-  
-
-
-
 }
 
 @media (max-width: 991.98px) {
@@ -1074,7 +1077,7 @@ color: #7EC897;
     }
     .web1Icons img{
         width: 180px !important;
-        height: 120px !important;
+        height: 180px !important;
     }
 
     .section4 h1{
@@ -1346,8 +1349,8 @@ color: #7EC897;
     
     }
     .web1Icons img{
-        width: 140px !important;
-        height: 100px !important;
+        width: 180px !important;
+        height: 150px !important;
     }
 
     .section4 h1{
@@ -1701,6 +1704,10 @@ color: #7EC897;
     }
     .card4 p{
         font-size: 15px;
+    }
+
+    .web1Icons img{
+        width: 170px !important;
     }
 
 }

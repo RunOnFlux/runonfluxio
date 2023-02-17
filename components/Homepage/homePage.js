@@ -146,7 +146,7 @@ export function HomePage(){
                     </div>
                         <div className={`${styles.header} col-lg-6`}>
                             <div>
-                            <h1>Build on <br/><span>Web3.0 </span>Today</h1><br/>
+                            <h1>Build on <br/><span>Web 3.0 </span>Today</h1><br/>
                             <h6>The Flux Cloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance</h6>
                             <div className={styles.buttons}>
                             <a href="https://cloud.runonflux.io/" className={styles.btn2}>Deploy Now</a>
