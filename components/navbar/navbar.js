@@ -14,7 +14,9 @@ import target from "../../public/images/target.svg"
 import twitter from "../../public/images/twitter.svg"
 import discord from "../../public/images/discord.svg"
 import github from "../../public/images/github.svg"
-
+import twitter01 from "../../public/images/twitter01.svg"
+import discord01 from "../../public/images/discord01.svg"
+import github01 from "../../public/images/github01.svg"
 export function NavBar(){
 
     const [show, setShow] = useState(false);
@@ -811,9 +813,9 @@ export function NavBar(){
                                 <div className={styles.topNavLink}> <a href="mailto:info@runonflux.io?subject=Contact%20Flux!">Contact</a></div>
 
                                 <div className={styles.mobileTopNav}>
-                                 <a href="https://twitter.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={twitter} /></a>
-                                <a href="https://discord.io/runonflux" target="_blank" rel="noreferrer"><Image alt="logo" src={discord}/></a>
-                                <a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={github}/></a>
+                                 <a href="https://twitter.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={twitter01} /></a>
+                                <a href="https://discord.io/runonflux" target="_blank" rel="noreferrer"><Image alt="logo" src={discord01}/></a>
+                                <a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={github01}/></a>
                                 </div>
 
                     </div>
