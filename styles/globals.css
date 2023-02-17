@@ -212,7 +212,7 @@ padding-right: 10px !important;
   /* width: 500px !important; */
 }
 
-/* .container, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+.container, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
@@ -220,7 +220,7 @@ padding-right: 10px !important;
   padding-left: calc(var(--bs-gutter-x) * 2.5) !important;
   margin-right: auto;
   margin-left: auto;
-} */
+}
 .dropdown-menu{
   /* width: 100%; */
 }

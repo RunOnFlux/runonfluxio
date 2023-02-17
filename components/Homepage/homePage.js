@@ -144,18 +144,18 @@ export function HomePage(){
                             </Modal.Body>
                         </Modal>
                     </div>
-                        <div className={`${styles.header} col-lg-5`}>
+                        <div className={`${styles.header} col-lg-6`}>
                             <div>
                             <h1>Build on <br/><span>Web3.0 </span>Today</h1><br/>
                             <h6>The Flux Cloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance</h6>
                             <div className={styles.buttons}>
-                            <a href="https://jetpack2.app.runonflux.io/hello.html" className={styles.btn2}>Deploy Now</a>
+                            <a href="https://cloud.runonflux.io/" className={styles.btn2}>Deploy Now</a>
                             <a href="https://home.runonflux.io/apps/marketplace" rel="noreferrer" target="_blank" className={styles.btn1}>Marketplace</a>
                             </div>
-                            <p>$ Calculate the cost for your solution.   <a href="https://jetpack2.app.runonflux.io/hello.html#cost-calculator"  rel="noreferrer" target="_blank">View Cost</a></p>
+                            <p>$ Calculate the cost for your solution.   <a href="https://cloud.runonflux.io/"  rel="noreferrer" target="_blank">View Cost</a></p>
                             </div>
                         </div>
-                        <div className="col-lg-7"></div>
+                        <div className="col-lg-6"></div>
                     </div>
                 </div>
             </section>
@@ -452,7 +452,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Run Wordpress</h5>
                                 <h6>Run your Website using Wordpress in a decentralized, and redundant manner.</h6>
-                                <a href="#">Coming Soon</a>
+                                <a href="https://cloud.runonflux.io/#/wordpress">Visit Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5">
@@ -462,7 +462,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Flux Drive</h5>
                                 <h6>Not your Drive, Not your File! Flux Drive stores your data in a decentralized manner using the Flux Cloud.</h6>
-                                <a href="https://jetpack2.app.runonflux.io/#/flux-drive" target="_blank" rel="noreferrer">Store Now</a>
+                                <a href="https://cloud.runonflux.io/#/plans" target="_blank" rel="noreferrer">Store Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5">
@@ -514,7 +514,7 @@ export function HomePage(){
                         
                     </div>
                     <div className="row">
-                    <a href="https://jetpack2.app.runonflux.io/hello.html" target="_blank" rel="noreferrer" className={styles.btn2} style={{margin: "auto"}}>Launch App</a>
+                    <a href="https://cloud.runonflux.io/#/launch" target="_blank" rel="noreferrer" className={styles.btn2} style={{margin: "auto"}}>Launch App</a>
                     </div>
                    
                 </div>
