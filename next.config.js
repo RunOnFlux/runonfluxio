@@ -10,8 +10,8 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/fluxOS',
-        destination: 'https://www.runonflux.io/flux-dapps.html',
+        source: '/fluxCloud',
+        destination: 'https://cloud.runonflux.io/hello.html',
         permanent: false,
         basePath: false
       },

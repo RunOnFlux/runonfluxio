@@ -138,7 +138,8 @@ export function HomePage(){
                             </Modal.Header>
                             <Modal.Body>
                                 <div className={styles.modal}>
-                                <Image alt="wordpress" src={wordpressImg} />
+                                    <a href="https://cloud.runonflux.io/login.html#/wordpress" target="_blank" rel="noreferrer">
+                                <Image alt="wordpress" src={wordpressImg} /></a>
                                 </div>
                                
                             </Modal.Body>
@@ -452,7 +453,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Run Wordpress</h5>
                                 <h6>Run your Website using Wordpress in a decentralized, and redundant manner.</h6>
-                                <a href="https://cloud.runonflux.io/#/wordpress">Visit Now</a>
+                                <a href="https://cloud.runonflux.io/#/wordpress" target="_blank" rel="noreferrer">Visit Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5">

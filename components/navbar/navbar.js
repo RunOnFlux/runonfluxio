@@ -89,10 +89,10 @@ export function NavBar(){
                   >
                      <div className={styles.dropMenu}>
                     <NavDropdown.Item>
-                     <Link href={'/fluxOS'} className={styles.link}  eventKey={1} > 
+                     <Link href={'/fluxCloud'} className={styles.link}  eventKey={1} > 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
-                    Flux OS<br/>
-                    <div className={styles.sublink}>Flux's revolutionary second-layer operating<br/> system that is the heart of Flux.</div>
+                    Flux Cloud<br/>
+                    <div className={styles.sublink}>Flux Cloud presents the next generation of <br/>cloud infrastructure.</div>
                       </div>
                     
                       </Link> 
@@ -469,10 +469,10 @@ export function NavBar(){
                    
                   >
                     <NavDropdown.Item eventKey="31" >
-                      <Link href={'/fluxOS'} className={styles.link} > 
+                      <Link href={'/fluxCloud'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
-                    Flux OS<br/>
-                    <div className={styles.sublink}>Flux's revolutionary second-layer operating<br/> system that is the heart of Flux.</div>
+                    Flux Cloud<br/>
+                    <div className={styles.sublink}>Flux Cloud presents the next generation of <br/>cloud infrastructure.</div>
                       </div>
                     
                       </Link> 
