@@ -112,7 +112,7 @@ export function HomePage(){
               setTotalNodes(nodes.length.toLocaleString());
               setTotalCores(vcores.toLocaleString());
               setTotalRAM(ram.toLocaleString());
-              setTotalSSD(parseFloat(ssd).toFixed(2).toLocaleString());
+              setTotalSSD(ssd.toLocaleString());
         
             }
           };
