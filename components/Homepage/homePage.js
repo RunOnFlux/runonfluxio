@@ -112,7 +112,7 @@ export function HomePage(){
               setTotalNodes(nodes.length.toLocaleString());
               setTotalCores(vcores.toLocaleString());
               setTotalRAM((ram/1000).toFixed(2));
-              setTotalSSD((ssd/10000).toFixed(2));
+              setTotalSSD((ssd/1000000).toFixed(3));
         
             }
           };
@@ -219,7 +219,7 @@ export function HomePage(){
                                     <span><Image alt="img" src={ram}/></span>
                                     <div>
                                         <h6>Total RAM</h6>
-                                        <div className={styles.headerTitle}><h4>{totalRAM} GB</h4></div>
+                                        <div className={styles.headerTitle}><h4>{totalRAM} TB</h4></div>
                                     </div>
                                 </div>
                             </div>
@@ -230,7 +230,7 @@ export function HomePage(){
                                     <span><Image alt="img" src={ssd}/></span>
                                     <div>
                                         <h6>Total SSD</h6>
-                                        <div className={styles.headerTitle}><h4>{totalSSD} SSD</h4></div>
+                                        <div className={styles.headerTitle}><h4>{totalSSD} PT</h4></div>
                                     </div>
                                 </div>
                             </div>
@@ -246,7 +246,7 @@ export function HomePage(){
                                     <span><Image alt="img" src={ram}/></span>
                                     <div>
                                         <h6>Total RAM</h6>
-                                        <div className={styles.headerTitle}><h4>{totalRAM} GB</h4></div>
+                                        <div className={styles.headerTitle}><h4>{totalRAM} TB</h4></div>
                                     </div>
                                 </div>
                             </div>
@@ -257,7 +257,7 @@ export function HomePage(){
                                     <span><Image alt="img" src={ssd}/></span>
                                     <div>
                                         <h6>Total SSD</h6>
-                                        <div className={styles.headerTitle}><h4>{totalSSD} SSD</h4></div>
+                                        <div className={styles.headerTitle}><h4>{totalSSD} PT</h4></div>
                                     </div>
                                 </div>
                             </div>
