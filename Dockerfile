@@ -1,6 +1,6 @@
 FROM node:alpine
 
-RUN mkdir -p /
+RUN mkdir -p /data
 WORKDIR /data
 
 COPY . /data
