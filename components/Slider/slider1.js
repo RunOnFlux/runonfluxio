@@ -32,14 +32,15 @@ export function Slider1(){
             <Splide aria-label="My Favorite Images"
                   options={{
                     // perPage: 8,
-                    fixedWidth: "10rem",
+                   
                     pagination: false,
                     arrows: 0,
                     autoplay: true,
-                    rewind: true,
-                    rewindSpeed: 10,
                     perMove: 1,
                     gap: "5rem",
+                    fixedWidth: "10rem",
+                    rewind: true,
+                    rewindSpeed: 10,
 
                     breakpoints: {
                       

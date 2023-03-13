@@ -1,6 +1,7 @@
 .partnerImg img{
     width: 150px !important;
     height: auto !important;
+
 }
 
 .partnerImg{
@@ -96,7 +97,8 @@
 @media (max-width: 575.98px){
     .partnerImg img{
         width: 100px !important;
-        height: auto !important;
+        height: 40px !important;
+        object-fit: contain !important;
     }
     .splider{
         width: fit-content !important;
