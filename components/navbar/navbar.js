@@ -89,7 +89,7 @@ export function NavBar(){
                   >
                      <div className={styles.dropMenu}>
                     <NavDropdown.Item href='https://cloud.runonflux.io/hello.html'>
-                     <Link href='https://cloud.runonflux.io/hello.html' className={styles.link}  eventKey={1} passHref={true}> 
+                     <Link href='https://cloud.runonflux.io/hello.html' className={styles.link}  eventKey="1" passHref={true}> 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
                     Flux Cloud<br/>
                     <div className={styles.sublink}>Flux Cloud presents the next generation of <br/>cloud infrastructure.</div>
@@ -466,9 +466,8 @@ export function NavBar(){
                       <span>Ecosystem<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
                   }
                     id="basic-nav-dropdown" 
-                    href='https://cloud.runonflux.io/hello.html'
                   >
-                    <NavDropdown.Item eventKey="31" >
+                    <NavDropdown.Item eventKey="31" href='https://cloud.runonflux.io/hello.html'>
                       <Link href='https://cloud.runonflux.io/hello.html' className={styles.link} passHref={true}> 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
                     Flux Cloud<br/>
@@ -563,9 +562,8 @@ export function NavBar(){
                       <span>Discover<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
                   }
                     id="basic-nav-dropdown" 
-                    href='https://fluxwhitepaper.app.runonflux.io/'
                   >
-                    <NavDropdown.Item eventKey="39">
+                    <NavDropdown.Item eventKey="39" href='https://fluxwhitepaper.app.runonflux.io/'>
                         <Link href='https://fluxwhitepaper.app.runonflux.io/'  className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                         Whitepaper
@@ -649,10 +647,9 @@ export function NavBar(){
                       <span>Explore<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
                   }
                     id="basic-nav-dropdown" 
-                    href='https://jetpack2.app.runonflux.io/hello.html'
                   >
 
-                      <NavDropdown.Item eventKey="47">
+                      <NavDropdown.Item eventKey="47" href='https://jetpack2.app.runonflux.io/hello.html'>
                         <Link href='https://jetpack2.app.runonflux.io/hello.html'  className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                         App
@@ -711,10 +708,9 @@ export function NavBar(){
                       <span>Community<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
                   }
                     id="basic-nav-dropdown" 
-                    href='https://www.runonflux.io/blog.html'
                   >
                     
-                    <NavDropdown.Item eventKey="52" >
+                    <NavDropdown.Item eventKey="52" href='https://www.runonflux.io/blog.html'>
                         <Link href='https://www.runonflux.io/blog.html' className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Blog
