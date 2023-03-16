@@ -120,7 +120,8 @@
     }
     .partnerImg2 img{
         width: 100px !important;
-        height: auto !important;
+        height: 40px !important;
+        object-fit: contain !important;
     }
   
    
