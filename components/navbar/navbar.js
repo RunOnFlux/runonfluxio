@@ -92,7 +92,7 @@ export function NavBar(){
                      <Link href={'/fluxCloud'} className={styles.link}  eventKey={1} > 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
                     Flux Cloud<br/>
-                    <div className={styles.sublink}>Flux Cloud presents the next generation of <br/>cloud infrastructure.</div>
+                    <div className={styles.sublink}>Flux Cloud presents the next generation of cloud <br/>infrastructure.</div>
                       </div>
                     
                       </Link> 
@@ -103,7 +103,7 @@ export function NavBar(){
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         DApps
                       <br/>
-                    <div className={styles.sublink}>Explore some of the applications running on<br/> Flux.</div>
+                    <div className={styles.sublink}>Explore some of the applications running on Flux.</div>
                       </div>
                     
                       </Link> 
@@ -114,7 +114,7 @@ export function NavBar(){
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Flux Nodes
                      <br/>
-                    <div className={styles.sublink}>Learn more about the independently run <br/>FluxNodes that power the Flux network.</div>
+                    <div className={styles.sublink}>Learn more about the independently run FluxNodes that<br/> power the Flux network.</div>
                       </div>
                     
                       </Link> 
@@ -125,7 +125,7 @@ export function NavBar(){
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Flux
                      <br/>
-                    <div className={styles.sublink}>Our Proof-of-Work cryptocurrency that<br/> powers the Flux ecosystem.</div>
+                    <div className={styles.sublink}>Our Proof-of-Work cryptocurrency that powers the <br/>Flux ecosystem.</div>
                       </div>
                     
                       </Link> 
@@ -136,7 +136,7 @@ export function NavBar(){
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Parallel Mining
                      <br/>
-                    <div className={styles.sublink}>Flux assets can be mined on other <br/>blockchains that are interchangeable with <br/>the main chain.</div>
+                    <div className={styles.sublink}>Flux assets can be mined on other blockchains <br/> that are interchangeable with the main chain.</div>
                       </div>
                     
                       </Link> 
@@ -147,7 +147,7 @@ export function NavBar(){
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Zelcore
                      <br/>
-                     <div className={styles.sublink}>A multi-asset, multi-platform wallet with a <br/> long list of market leading features.</div>
+                     <div className={styles.sublink}>A multi-asset, multi-platform wallet with a  long list <br/> of market leading features.</div>
                       </div>
                     
                       </Link> 
@@ -158,7 +158,7 @@ export function NavBar(){
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Dashboard
                      <br/>
-                    <div className={styles.sublink}>Explore the latest stats on the Flux network <br/>via the Flux dashboard.</div>
+                    <div className={styles.sublink}>Explore the latest stats on the Flux network via the <br/> Flux dashboard.</div>
                       </div>
                     
                       </Link> 
@@ -169,7 +169,7 @@ export function NavBar(){
                       <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
                         XDAO
                      <br/>
-                    <div className={styles.sublink}>Discover Flux decentralized governance <br/> organization.</div>
+                    <div className={styles.sublink}>Discover Flux decentralized governance organization.</div>
                       </div>
                     
                       </Link> 
@@ -193,7 +193,7 @@ export function NavBar(){
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                          Whitepaper
                         <br/>
-                        <div className={styles.sublink}>Read the Flux whitepaper and discover<br/>the scope of the project.</div>
+                        <div className={styles.sublink}>Read the Flux whitepaper and discover the scope of the <br/> project.</div>
                         </div>
                         </Link>
                        
@@ -203,7 +203,7 @@ export function NavBar(){
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Roadmap
                         <br/>
-                        <div className={styles.sublink}>Check out the Flux roadmap and our<br/> plans for this year and beyond.</div>
+                        <div className={styles.sublink}>Check out the Flux roadmap and our plans for this year <br/> and beyond.</div>
                         </div>
                         </Link>
                        
@@ -213,7 +213,7 @@ export function NavBar(){
                         <Link href={'/teams'} eventKey={11} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Team<br/>
-                        <div className={styles.sublink}>Meet the members of the fully<br/> distributed Flux team.</div>
+                        <div className={styles.sublink}>Meet the members of the fully distributed Flux team.</div>
                         </div>
                         </Link>
                        
@@ -222,7 +222,7 @@ export function NavBar(){
                         <Link href={'/partner'} eventKey={12} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Partners<br/>
-                        <div className={styles.sublink}>Collaboration is at the heart of Flux and <br/> our partners are key to that.</div>
+                        <div className={styles.sublink}>Collaboration is at the heart of Flux and  our partners <br/> are key to that.</div>
                         </div>
                         </Link>
                        
@@ -231,7 +231,7 @@ export function NavBar(){
                         <Link href={'/documentation'} eventKey={13} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Documentation <br/>
-                        <div className={styles.sublink}>Read the Flux docs and get building on <br/> Flux today.</div>
+                        <div className={styles.sublink}>Read the Flux docs and get building on Flux today.</div>
                         </div>
                         </Link>
                        
@@ -240,7 +240,7 @@ export function NavBar(){
                         <Link href={'/blockExplorer'} eventKey={14} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Block Explorer
-                        <div className={styles.sublink}>View blocks mined, statistics, pools, <br/> nodes and status of the network.</div>
+                        <div className={styles.sublink}>View blocks mined, statistics, pools, nodes and status of  <br/> the network.</div>
                         </div>
                         </Link>
                        
@@ -249,7 +249,7 @@ export function NavBar(){
                         <Link href={'/carbonNeutrality'} eventKey={15} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Carbon Neutrality <br/>
-                        <div className={styles.sublink}>Flux emphasis a Sustainable Future <br/>in Blockchain &amp; Cloud Computing.</div>
+                        <div className={styles.sublink}>Flux emphasis a Sustainable Future in Blockchain  &amp; <br/> Cloud Computing.</div>
                         </div>
                         </Link>
                        
@@ -258,7 +258,7 @@ export function NavBar(){
                         <Link href={'/fluxLabs'} eventKey={16} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
                         FluxLabs
-                        <div className={styles.sublink}>An incubation and acceleration project <br/>for blockchain and technology-based <br/> start-ups.</div>
+                        <div className={styles.sublink}>An incubation and acceleration project for blockchain <br/> and technology-based start-ups.</div>
                         </div>
                         </Link>
                        
@@ -280,7 +280,7 @@ export function NavBar(){
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                         App
                         <br/>
-                        <div className={styles.sublink}>Discover how to launch an app on the <br/>Flux network.</div>
+                        <div className={styles.sublink}>Discover how to launch an app on the Flux network.</div>
                         </div>
                         </Link>
                        
@@ -290,7 +290,7 @@ export function NavBar(){
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Node
                         <br/>
-                        <div className={styles.sublink}>Become a FluxNode operator with our <br/> easy to follow guides.</div>
+                        <div className={styles.sublink}>Become a FluxNode operator with our easy to <br/> follow guides.</div>
                         </div>
                         </Link>
                        
@@ -300,7 +300,7 @@ export function NavBar(){
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Miner
                         <br/>
-                        <div className={styles.sublink}>Learn how to mine Flux with your GPU <br/>and what pools to join.</div>
+                        <div className={styles.sublink}>Learn how to mine Flux with your GPU and what pools <br/> to join.</div>
                         </div>
                         </Link>
                        
@@ -311,7 +311,7 @@ export function NavBar(){
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Buy Flux
                         <br/>
-                        <div className={styles.sublink}>Learn how to trade, buy, swap or <br/>stake Flux.</div>
+                        <div className={styles.sublink}>Learn how to trade, buy, swap or stake Flux.</div>
                         </div>
                         </Link>
                        
@@ -343,7 +343,7 @@ export function NavBar(){
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Blog
                         <br/>
-                        <div className={styles.sublink}>Discover all the latest news on the official <br/>Flux blog on Medium.</div>
+                        <div className={styles.sublink}>Discover all the latest news on the official Flux blog <br/> on Medium.</div>
                         </div>
                         </Link>
                        
@@ -353,7 +353,7 @@ export function NavBar(){
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Github
                         <br/>
-                        <div className={styles.sublink}>Explore the code that powers Flux in our <br/> Github repositories.</div>
+                        <div className={styles.sublink}>Explore the code that powers Flux in our Github <br/> repositories.</div>
                         </div>
                         </Link>
                        

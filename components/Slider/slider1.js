@@ -10,7 +10,7 @@ import Image from "next/image";
 import partner2 from "../../public/images/partners/partner2.svg"
 import partner3 from "../../public/images/partners/partner3.png"
 import partner4 from "../../public/images/partners/partner4.png"
-import partner5 from "../../public/images/partners/partner5.png"
+import partner5 from "../../public/images/partners/partner5.jpeg"
 import partner6 from "../../public/images/partners/partner6.png"
 import partner7 from "../../public/images/partners/partner7.svg"
 import partner8 from "../../public/images/partners/partner8.svg"
