@@ -410,7 +410,7 @@ export function HomePage(){
                 <div className="container">
                     <div className="row text-center mb-4">
                         <h2>A Global <span>Cloud</span> Network</h2>
-                        <p className="mb-4">The Flux Cloud is connected world wide. It  spans across all continents, within 76 geographical regions around the world.  Its strongest Availability Zone are the whole EU zone and United States, but also other Zones like  South Asia, and Australia are witnessing an increase of Server deployments.  </p>
+                        <p className="mb-4">Flux Cloud is connected worldwide, across all continents. Its strongest Availability Zones are the whole EU zone and United States, South Asia and Australia are also witnessing an increase of Server deployments. Flux Cloud is the most decentralized and fastest growing network in the world. </p>
                     </div>
                     <div className="row">
                     <a href="https://home.runonflux.io/dashboard/map" rel="noreferrer" target="_blank" className={styles.btn2} style={{margin: "auto", marginBottom: "20px"}}>View Dashboard</a>
