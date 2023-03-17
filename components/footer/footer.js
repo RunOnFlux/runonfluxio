@@ -92,7 +92,7 @@ export function Footer(){
                 </div>
                 <div className={`${styles.footerSubSection} row`}>
                     <div className="col-lg-6 col-md-12 col-12 mb-4">
-                        <h3>©2023 Zel Technologies Limited.<br/>
+                        <h3>©2023 InFlux Technologies Limited.<br/>
                         All rights reserved.</h3>
                     </div>
                     <div className="col-lg-2 col-md-4 col-4">

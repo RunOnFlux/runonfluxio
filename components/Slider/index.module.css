@@ -1,10 +1,23 @@
 .partnerImg img{
-    width: 150px !important;
+    width: 120px !important;
     height: auto !important;
 }
 
 .partnerImg{
     height: 50px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.partnerImg2 img{
+    width: 100px !important;
+    height: auto !important;
+}
+
+.partnerImg2{
+    max-height: 55px;
     display: flex;
     align-items: center;
     width: fit-content;
@@ -82,6 +95,10 @@
         width: 120px !important;
         height: auto !important;
     }
+    .partnerImg2 img{
+        width: 120px !important;
+        height: auto !important;
+    }
     .appCard div img{
         width: 30px !important;
         height: 30px !important;
@@ -101,5 +118,11 @@
     .splider{
         width: fit-content !important;
     }
+    .partnerImg2 img{
+        width: 100px !important;
+        height: 40px !important;
+        object-fit: contain !important;
+    }
+  
    
 }

@@ -104,6 +104,7 @@ color: rgba(255, 255, 255, 0.7);
 .topNav ul{
     display: inline-flex;
     float: right;
+  
 }
 
 .topNav ul li{
@@ -149,11 +150,13 @@ color: rgba(255, 255, 255, 0.7);
     border: 0.749614px solid #000;
     border-radius: 26.2365px;
     padding: 7px 20px;
+
 }
 
 .topNav ul li.navBtn{
     padding-left: 5px;
     padding-right: 5px;
+    margin-top: -3px;
 
 }
 

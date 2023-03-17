@@ -51,7 +51,7 @@ export function HomePage(){
     const [totalRAM, setTotalRAM] = useState('loading...');
     const [totalSSD, setTotalSSD] = useState('loading...');
 
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
    
@@ -117,6 +117,10 @@ export function HomePage(){
             }
           };
           fetchData();
+
+          setTimeout(()=>{
+            setShow(true)
+          }, 2000)
          
          
     },[])
@@ -406,7 +410,7 @@ export function HomePage(){
                 <div className="container">
                     <div className="row text-center mb-4">
                         <h2>A Global <span>Cloud</span> Network</h2>
-                        <p className="mb-4">The Flux Cloud is connected world wide. It  spans across all continents, within X geographical regions around the world.  Its strongest Availability Zone are the whole EU zone and United States, but also other Zones like  South Asia, and Australia are witnessing an increase of Server deployments.  </p>
+                        <p className="mb-4">Flux Cloud is connected worldwide, across all continents. Its strongest Availability Zones are the whole EU zone and United States, South Asia and Australia are also witnessing an increase of Server deployments. Flux Cloud is the most decentralized and fastest growing network in the world. </p>
                     </div>
                     <div className="row">
                     <a href="https://home.runonflux.io/dashboard/map" rel="noreferrer" target="_blank" className={styles.btn2} style={{margin: "auto", marginBottom: "20px"}}>View Dashboard</a>
@@ -439,7 +443,7 @@ export function HomePage(){
                 <div className="container">
                 <div className="row text-center mb-4">
                         <h2><span>Flux Cloud</span> Products</h2>
-                        <p className="mb-3">Whether you are looking for simple compute power, databases, content delivery, or other functionalities, the Flux Cloud has you covered! Is it the service to keep your infrastructure decentralized, flexibly, scaleable. and censorship resistant</p>
+                        <p className="mb-3">Whether you are looking for simple compute power, databases, content delivery, or other functionalities, the Flux Cloud has you covered! It is the service to keep your infrastructure decentralized, flexibly, scalable and censorship resistant.</p>
                         
                     </div>
                     {/* <div className="row mb-5">
@@ -581,7 +585,7 @@ export function HomePage(){
                                 <h6>100 % MONEY BACK</h6>
                                 <h3>30 Day Guarantee</h3>
                                 <p>Not happy with our services? We’ll send you your money back for the first trial month! Open a ticket at support.runonflux.io</p>
-                                <div className="row"><a href="#" className={styles.btn2} style={{}}>Discover More</a></div>
+                                <div className="row"><a href="https://support.runonflux.io/support/home" target="_blank" rel="noreferrer" className={styles.btn2} style={{}}>Open Ticket</a></div>
                                
                             </div>
                             <div className="col-lg-5" style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
