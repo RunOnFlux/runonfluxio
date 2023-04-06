@@ -344,7 +344,7 @@ const teamAsset = [
     {
         name: 'Farid Akintola',
         thumbnail: farid,
-        twitterLink: '',
+        twitterLink: 'https://twitter.com/rainlow9',
         linkedInLink: '',
         title: 'Marketing Director and Community Member',
         intro: 'Farid is a web3 and blockchain enthusiast from the United Kingdom with a degree in international relations and politics from the University of Leicester.',
