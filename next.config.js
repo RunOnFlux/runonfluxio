@@ -6,6 +6,9 @@ const nextConfig = {
 
 module.exports =nextConfig
 module.exports = {
+  images: {
+    unoptimized: true
+  },
   
   async redirects() {
     return [
