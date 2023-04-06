@@ -83,7 +83,7 @@ a.readMoreLink{
         font-size: 0.8em;
         line-height: 1.1em;
         text-align: left;
-        font-weight: normal;
+        font-weight: 500 !important;
         margin-bottom: 30px;
     }
     .card p{
@@ -106,10 +106,10 @@ a.readMoreLink{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
         color: #313457;
-        font-size: 0.7em;
+        font-size: 0.8em;
         line-height: 1.5em;
         text-align: left;
-        font-weight: normal;
+        font-weight: 600 !important;
         margin-bottom: 30px;
     }
     .card p{
