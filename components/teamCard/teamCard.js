@@ -25,7 +25,7 @@ const linkName=readMore?'Read Less << ':'Read More >> '
                 </div>
             </div>
             <h4>{props.title}</h4>
-            <p style={{marginBottom: "10px"}}>{props.intro}</p>
+            <p className={styles.intro}>{props.intro}</p>
             {readMore && extraContent}
             <a className={styles.readMoreLink} onClick={()=>{setReadMore(!readMore)}}><h4>{linkName}</h4></a>
                
