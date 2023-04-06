@@ -43,7 +43,7 @@ export function Footer(){
                             <a href="https://support.runonflux.io/" className={styles.btn}>Support Center</a>
                         </div>
                     </div>
-                    <div className="col-lg-2 col-md-3 col-6 mb-5">
+                    <div className="col-lg-2 col-md-3 col-6 mb-5" >
                         <h5>ECOSYSTEM</h5>
                         <ul>
                             <li><a href="https://www.runonflux.io/fluxos.html">FluxOS</a></li>

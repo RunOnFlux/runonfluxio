@@ -28,10 +28,11 @@ export function NavBar(){
     }
 
     const [navBar, setNavBar] = useState(false);
+
   
     useEffect(() => {
       const changeBackground = () =>{
-        if(window.scrollY >= 850){
+        if(window.scrollY >= 50){
          setNavBar(true);
         } else{
          setNavBar(false);
@@ -41,11 +42,12 @@ export function NavBar(){
      window.addEventListener('scroll', changeBackground);
     });
   
+  
 
     return(
         <React.Fragment>
              <div className="d-none d-lg-block">
-            <div className={styles.navbar2}>
+           
             <div className={styles.topNav}>
                 <div className="container">
                     <div className="row">
@@ -53,8 +55,8 @@ export function NavBar(){
                         <div className="col-md-9">
                             <ul>
                                 <li> <a href="https://fluxwhitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper <Image alt="img" src={target}/></a></li>
-                                <li> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki <Image alt="img" src={target}/></a></li>
-                                <li> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">Flux Store <Image alt="img" src={target}/></a></li>
+                                <li> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki<Image alt="img" src={target}/></a></li>
+                                <li> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">FluxStore <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore <Image alt="img" src={target}/></a></li>
                                 <li className={styles.navLogo}> <a href="https://twitter.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={twitter} /></a></li>
                                 <li className={styles.navLogo}> <a href="https://discord.io/runonflux" target="_blank" rel="noreferrer"><Image alt="logo" src={discord}/></a></li>
@@ -66,6 +68,7 @@ export function NavBar(){
                     </div>
                 </div>
             </div>
+         
            <Navbar className={navBar ? 'navNav active' : 'navNav'} expand="lg"  collapseOnSelect  >    
              <Container>
                 <Navbar.Brand>
@@ -209,8 +212,8 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
 
-                    <NavDropdown.Item href='https://www.runonflux.io/team.html'>
-                        <Link href='https://www.runonflux.io/team.html' eventKey={11} className={styles.link} passHref={true}>
+                    <NavDropdown.Item>
+                        <Link href={'/team'} eventKey={11} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Team<br/>
                         <div className={styles.sublink}>Meet the members of the fully distributed Flux team.</div>
@@ -218,8 +221,8 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item href='https://www.runonflux.io/partners.html'>
-                        <Link href='https://www.runonflux.io/partners.html' eventKey={12} className={styles.link} passHref={true}>
+                    <NavDropdown.Item>
+                        <Link href={'/partners'} eventKey={12} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Partners<br/>
                         <div className={styles.sublink}>Collaboration is at the heart of Flux and  our partners <br/> are key to that.</div>
@@ -267,7 +270,7 @@ export function NavBar(){
                  </NavDropdown> 
 
                  <NavDropdown title={
-                      <span>Explore<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Developers<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
                   }
                     id="basic-nav-dropdown1" 
                     show={show}
@@ -326,6 +329,36 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
+                    <NavDropdown.Item>
+                        <Link href={'/github'} eventKey={23} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                       Github
+                        <br/>
+                        <div className={styles.sublink}>Explore the code that powers Flux in our Github <br/> repositories.</div>
+                        </div>
+                        </Link>
+                       
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                        <Link href={'/pressKit'} eventKey={24} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                       Press kit
+                        <br/>
+                        <div className={styles.sublink}>Our press kit and other related resources.</div>
+                        </div>
+                        </Link>
+                       
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                        <Link href={'/bugBounty'} eventKey={27} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                       Bug bounty
+                        <br/>
+                        <div className={styles.sublink}>Get rewarded for finding bugs and exploits.</div>
+                        </div>
+                        </Link>
+                       
+                    </NavDropdown.Item>
                     </div>
                     </NavDropdown>
 
@@ -338,8 +371,8 @@ export function NavBar(){
                     onMouseLeave={hideDropdown}
                   >
                     <div className={styles.dropMenu}>
-                    <NavDropdown.Item href='https://www.runonflux.io/blog.html'>
-                        <Link href='https://www.runonflux.io/blog.html' eventKey={22} className={styles.link} passHref={true}>
+                    <NavDropdown.Item>
+                        <Link href={'/blog'} eventKey={22} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Blog
                         <br/>
@@ -348,28 +381,10 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item href='https://github.com/runonflux'>
-                        <Link href='https://github.com/runonflux' eventKey={23} className={styles.link} passHref={true}>
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Github
-                        <br/>
-                        <div className={styles.sublink}>Explore the code that powers Flux in our Github <br/> repositories.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href='https://github.com/RunOnFlux/press'>
-                        <Link href='https://github.com/RunOnFlux/press' eventKey={24} className={styles.link} passHref={true}>
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Press kit
-                        <br/>
-                        <div className={styles.sublink}>Our press kit and other related resources.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href='https://www.runonflux.io/flux-social.html'>
-                        <Link href='https://www.runonflux.io/flux-social.html' eventKey={25} className={styles.link} passHref={true}>
+                   
+                   
+                    <NavDropdown.Item>
+                        <Link href={'/social'} eventKey={25} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Social
                         <br/>
@@ -378,8 +393,8 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item href='https://www.runonflux.io/careers.html'>
-                        <Link href='https://www.runonflux.io/careers.html' eventKey={26} className={styles.link} passHref={true}>
+                    <NavDropdown.Item>
+                        <Link href={'/careers'} eventKey={26} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Careers
                         <br/>
@@ -388,18 +403,9 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item href='https://www.runonflux.io/bug-bounty-program.html'>
-                        <Link href='https://www.runonflux.io/bug-bounty-program.html' eventKey={27} className={styles.link} passHref={true}>
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Bug bounty
-                        <br/>
-                        <div className={styles.sublink}>Get rewarded for finding bugs and exploits.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href='https://www.runonflux.io/donate.html'>
-                        <Link href='https://www.runonflux.io/donate.html' eventKey={28} className={styles.link} passHref={true}>
+                   
+                    <NavDropdown.Item>
+                        <Link href={'/donate'} eventKey={28} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Donate
                         <br/>
@@ -429,7 +435,7 @@ export function NavBar(){
                 </Navbar.Collapse>
             </Container>
         </Navbar>
-            </div>
+    
             </div>
 
 
@@ -584,8 +590,8 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
 
-                    <NavDropdown.Item eventKey="41" href='https://www.runonflux.io/team.html'>
-                        <Link href='https://www.runonflux.io/team.html'  className={styles.link} passHref={true}>
+                    <NavDropdown.Item eventKey="41">
+                        <Link href={'/team'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Team<br/>
                         <div className={styles.sublink}>Meet the members of the fully<br/> distributed Flux team.</div>
@@ -593,8 +599,8 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="42" href='https://www.runonflux.io/partners.html'>
-                        <Link href='https://www.runonflux.io/partners.html'  className={styles.link} passHref={true}>
+                    <NavDropdown.Item eventKey="42">
+                        <Link href={'/partners'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Partners<br/>
                         <div className={styles.sublink}>Collaboration is at the heart of Flux and <br/> our partners are key to that.</div>
@@ -644,7 +650,7 @@ export function NavBar(){
                  </NavDropdown>  
 
                  <NavDropdown title={
-                      <span>Explore<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Developers<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
                   }
                     id="basic-nav-dropdown" 
                   >
@@ -700,7 +706,37 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
+                    <NavDropdown.Item eventKey="53">
+                        <Link href={'/github'}  className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                       Github
+                        <br/>
+                        <div className={styles.sublink}>Explore the code that powers Flux in our <br/> Github repositories.</div>
+                        </div>
+                        </Link>
+                       
+                    </NavDropdown.Item>
+                    <NavDropdown.Item eventKey="54">
+                        <Link href={'pressKit'}  className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                       Press kit
+                        <br/>
+                        <div className={styles.sublink}>Our press kit and other related resources.</div>
+                        </div>
+                        </Link>
+                       
+                    </NavDropdown.Item>
 
+                    <NavDropdown.Item eventKey="57"  href='https://www.runonflux.io/bug-bounty-program.html'>
+                        <Link href='https://www.runonflux.io/bug-bounty-program.html'  className={styles.link} passHref={true}>
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                       Bug bounty
+                        <br/>
+                        <div className={styles.sublink}>Get rewarded for finding bugs and exploits.</div>
+                        </div>
+                        </Link>
+                       
+                    </NavDropdown.Item>
                    
                     
                     </NavDropdown>
@@ -720,28 +756,9 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="53" href='https://github.com/runonflux'>
-                        <Link href='https://github.com/runonflux'  className={styles.link} passHref={true}>
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Github
-                        <br/>
-                        <div className={styles.sublink}>Explore the code that powers Flux in our <br/> Github repositories.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="54" href='https://github.com/RunOnFlux/press' >
-                        <Link href='https://github.com/RunOnFlux/press'  className={styles.link} passHref={true}>
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Press kit
-                        <br/>
-                        <div className={styles.sublink}>Our press kit and other related resources.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="55" href='https://www.runonflux.io/flux-social.html'>
-                        <Link href='https://www.runonflux.io/flux-social.html'  className={styles.link} passHref={true}>
+                   
+                    <NavDropdown.Item eventKey="55">
+                        <Link href={'/social'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Social
                         <br/>
@@ -760,16 +777,7 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="57"  href='https://www.runonflux.io/bug-bounty-program.html'>
-                        <Link href='https://www.runonflux.io/bug-bounty-program.html'  className={styles.link} passHref={true}>
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Bug bounty
-                        <br/>
-                        <div className={styles.sublink}>Get rewarded for finding bugs and exploits.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
+                   
                     <NavDropdown.Item eventKey="58"  href='https://www.runonflux.io/donate.html'>
                         <Link href='https://www.runonflux.io/donate.html'  className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>

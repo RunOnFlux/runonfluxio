@@ -317,7 +317,7 @@ export function HomePage(){
             <section className={styles.sliderSection}>
                 <div className="container-fluid">
                     <div className="row">
-                        <h6 style={{marginTop: "30px"}}>Trusted by our Partners</h6>
+                        <h6>Trusted by our Partners</h6>
                         <Slider1/>
                     </div>
                 </div>
@@ -433,7 +433,7 @@ export function HomePage(){
             <section className={styles.section8}>
                 <div className="container-fluid">
                         <div className="row mx-auto text-center">
-                        <h6 style={{marginTop: "30px"}}>Supported Platforms Running On Flux</h6>
+                        <h6 className="mb-3">Supported Platforms Running On Flux</h6>
                             <Slider2/>
                         </div>
                     </div>

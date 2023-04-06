@@ -2,28 +2,33 @@
 import React from "react";
 import styles from "./index.module.css";
 import Image from "next/image";
-import partner1 from "../../public/images/partners/nvidia-logo.png"
+import partner1 from "../../public/images/partners/partner15.svg"
 import partner2 from "../../public/images/partners/partner2.svg";
-import partner3 from "../../public/images/partners/partner3.png";
-import partner4 from "../../public/images/partners/partner4.png";
-import partner5 from "../../public/images/partners/partner5.png";
-import partner6 from "../../public/images/partners/partner6.png";
+import partner3 from "../../public/images/partners/partner3.svg";
+// import partner4 from "../../public/images/partners/partner4.png";
+import partner5 from "../../public/images/partners/partner5.svg";
+// import partner6 from "../../public/images/partners/partner6.png";
 import partner7 from "../../public/images/partners/partner7.svg";
 import partner8 from "../../public/images/partners/partner8.svg"
-import partner9 from "../../public/images/partners/partner9.png"
-import partner10 from "../../public/images/partners/partner10.png"
+import partner9 from "../../public/images/partners/partner9.svg"
+// import partner10 from "../../public/images/partners/partner10.png"
 import partner11 from "../../public/images/partners/partner11.svg"
 import partner12 from "../../public/images/partners/partner12.svg"
-import partner13 from "../../public/images/partners/partner13.png"
-import partner14 from "../../public/images/partners/partner14.png"
+import partner13 from "../../public/images/partners/partner13.svg"
+import partner14 from "../../public/images/partners/partner14.svg"
 import partner15 from "../../public/images/partners/partner15.svg"
-import partner16 from "../../public/images/partners/partner16.png"
-import partner17 from "../../public/images/partners/partner17.png"
-import partner18 from "../../public/images/partners/partner18.png"
+import partner16 from "../../public/images/partners/partner16.svg"
+import partner17 from "../../public/images/partners/partner17.svg"
+import partner18 from "../../public/images/partners/partner18.svg"
+import partner19 from "../../public/images/partners/partner19.svg"
+import partner20 from "../../public/images/partners/partner20.svg"
+import partner21 from "../../public/images/partners/partner21.svg"
+import partner22 from "../../public/images/partners/partner22.svg"
 import kucoin from "../../public/images/partners/kucoin-partners.png"
 import gemini from "../../public/images/partners/Gemini.png"
 import paxos from "../../public/images/partners/Paxos.png"
 import maker from "../../public/images/partners/MakerDAO.png"
+import monero from "../../public/images/partners/mymonero-p-500.png"
 import binance from "../../public/images/partners/Binance.png"
 import linkIcon from "../../public/images/partners/icons8-external-link.svg"
 export function PartnersPage(){
@@ -32,7 +37,7 @@ export function PartnersPage(){
             <section className={styles.section1}>
                 <div className="container">
                     <div className="row mb-5">
-                        <h6>PARTNERS</h6>
+                        {/* <h6>PARTNERS</h6> */}
                         <h4>Partners and teams that work with Flux</h4>
                         <h5>FluxOS is a revolutionary second-layer operating system application that allows hardened Dockerized apps to run on Flux’s fully decentralized computational network.</h5>  
                     </div>
@@ -40,7 +45,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner1} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner15} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>NVIDIA</h1>
@@ -57,7 +62,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner2} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner16} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>OVHcloud</h1>
@@ -74,7 +79,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner3} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner14} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>LUMEN</h1>
@@ -91,7 +96,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner4} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner5} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>FIO</h1>
@@ -108,7 +113,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image  src={partner5} alt="partners" /></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image  src={partner12} alt="partners" /></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>KADDEX</h1>
@@ -125,7 +130,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner6} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner19} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Seeed Studio</h1>
@@ -142,7 +147,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer7} col-lg-6`}><Image className={styles.partnerLogo} src={partner7} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer7} col-lg-6`}><Image className={styles.partnerLogo} src={partner21} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Swapzone</h1>
@@ -159,7 +164,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer8} col-lg-6`}><Image className={styles.partnerLogo} src={partner8} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer8} col-lg-6`}><Image className={styles.partnerLogo} src={partner20} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Simple Hold</h1>
@@ -193,7 +198,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner10} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner13} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Kadena</h1>
@@ -210,7 +215,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner11} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner2} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Coinmetro</h1>
@@ -227,7 +232,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner12} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner17} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Presearch</h1>
@@ -245,7 +250,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner13} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner22} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Wyre</h1>
@@ -262,7 +267,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner14} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner7} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Getblock</h1>
@@ -279,7 +284,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner15} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner18} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Rosetta</h1>
@@ -296,7 +301,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer16} col-lg-6`}><Image className={styles.partnerLogo} src={partner16} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer16} col-lg-6`}><Image className={styles.partnerLogo} src={monero} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>MyMonero</h1>
@@ -313,7 +318,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner17} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner11} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>js13kGames</h1>
@@ -329,7 +334,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner18} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner3} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>CoinRequest</h1>
@@ -342,9 +347,9 @@ export function PartnersPage(){
                         </div> 
                     </div>
 
-                <div className="container" style={{marginTop: "100px"}}>
-                <div className="row mb-5">
-                        <h6>AFFILIATES</h6>
+                <div style={{marginTop: "100px"}}>
+                <div className="row mb-3">
+                        {/* <h6>AFFILIATES</h6> */}
                         <h4>Affiliates with Flux project</h4>
                     </div>
                     <div className="row">

@@ -186,13 +186,23 @@ padding-right: 10px !important;
 }
 
 .navNav{
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
+  background: rgba(17,24,39,.85)!important;
 }
+
 
 .navNav.active{
   background: rgba(17,24,39,.85)!important;
   transition: background-color 300ms linear !important;
+  position: fixed !important;
+   height: 138px;
+    /* position: fixed; */
+    width: 100%;
+    backdrop-filter: blur(12px) !important;
+    z-index: 999;
+    top: 0;
 }
+
 
 
 
