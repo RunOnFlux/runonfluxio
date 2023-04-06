@@ -1,5 +1,26 @@
-.card img{
-
+.cardImg img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
+.card{
+    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    height: 100%;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+a.readMoreLink h4{
+    font-weight: 600 !important;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.9em;
+    text-align: left;
+    color: #313457;
+}
+a.readMoreLink{
+    text-decoration: none;
+    cursor: pointer;
 }
 .icon{
     height: 18px;
@@ -29,7 +50,7 @@
     margin-right: auto;
 }
 .card h4{
-    margin: 0.2em auto 0em 0px;
+    margin: 0em auto 0em 0px;
     font-family: Montserrat, sans-serif;
     color: #313457;
     font-size: 1em;
@@ -37,17 +58,17 @@
     line-height: 1.1em;
     text-align: left;
     font-weight: normal;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .card p{
     margin: 0.2em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: rgba(49, 52, 87, 0.6);
     font-size: 0.9em;
-    line-height: 1.7em;
+    line-height: 1.5em;
     text-align: left;
     font-weight: normal;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-top: -12px;
 }
 
@@ -80,7 +101,7 @@
         font-family: Montserrat, sans-serif;
         color: #313457;
         font-size: 0.7em;
-       
+        line-height: 1.5em;
         text-align: left;
         font-weight: normal;
         margin-bottom: 30px;
@@ -94,5 +115,8 @@
         text-align: left;
         font-weight: normal;
         margin-bottom: 30px;
+    }
+    a.readMoreLink h4{
+        font-size: 0.7em;
     }
  }

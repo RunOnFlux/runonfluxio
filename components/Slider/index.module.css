@@ -1,6 +1,6 @@
 .partnerImg img{
-    width: 120px !important;
-    height: auto !important;
+    width: 100% !important;
+    height: 40px !important;
 }
 
 .partnerImg{
@@ -12,8 +12,8 @@
 }
 
 .partnerImg2 img{
-    width: 100px !important;
-    height: auto !important;
+    width: 100% !important;
+    height: 40px !important;
 }
 
 .partnerImg2{
@@ -23,13 +23,21 @@
     width: fit-content;
     margin: auto;
 }
+.splider1{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.splider2{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
 
 
 
 
 .appCard{
     background: #FFFFFF;
-    box-shadow: 3.74807px 3.74807px 18.7404px 1.87404px rgba(43, 97, 209, 0.1);
+    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
     border-radius: 9.37018px;
     height: 200px;
     width: 200px;
@@ -58,11 +66,13 @@
     color: #98A7B9;
     padding: 14px 0px;
     margin-top: 30px;
-    transition: .3s;
+    transition: all .2s ease-in-out;
 }
 .appCard a:hover{
-        animation: pulse 1s infinite;
-        transition: .3s;
+        /* animation: pulse 1s infinite;
+        transition: .3s; */
+        transform: scale(1.1); 
+       
 }
 @keyframes pulse {
     0% {
@@ -92,8 +102,8 @@
 
 @media (max-width: 991.98px) {
     .partnerImg img{
-        width: 120px !important;
-        height: auto !important;
+        width: 100% !important;
+        height: 30px !important;
     }
     .partnerImg2 img{
         width: 120px !important;
@@ -112,8 +122,8 @@
 
 @media (max-width: 575.98px){
     .partnerImg img{
-        width: 100px !important;
-        height: auto !important;
+        width: 100% !important;
+        height: 25px !important;
     }
     .splider{
         width: fit-content !important;

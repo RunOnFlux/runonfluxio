@@ -14,10 +14,10 @@ export function ThirdCPU(){
     const [price, setPrice] = useState ('loading...')
     useEffect(() => {
         async function getData() {
-        await axios.get(`https://api.coingecko.com/api/v3/simple/price?ids=zelcash&vs_currencies=usd`)
-        .then(res => {
-          const Data = res.data;
-          const fluxPrice = Data.zelcash.usd;
+            await axios.get(`https://explorer.runonflux.io/api/currency`)
+            .then(res => {
+              const Data = res.data.data;
+              const fluxPrice = Data.rate;
             const fluxCloudPrice = fluxPrice * 30;
             const roundedOff = parseFloat(fluxCloudPrice).toFixed(2);
             setPrice(roundedOff);

@@ -9,6 +9,7 @@
     background-position: center;
     background-size: cover;
     margin-bottom: 50px;
+    margin-top: -130px;
 }
 .header{
     margin-top: 100px;
@@ -41,7 +42,7 @@
     /* Text color */
     color: #fff;
     /* color: var(--text-grey); */
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .buttons{
@@ -57,15 +58,15 @@
     /* color: var(--text-blue) !important; */
     text-decoration: none;
    
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 15px;
+    margin-left: 0px;
     text-align: center;
     background: #FFFFFF;
     border: 1.27066px solid #FFFFFF;
     border-radius: 100px;
     color: #1354FC;
     font-size: 14px;
-    transition: .3s;
+    transition: all .2s ease-in-out;
 }
 
 .btn2{
@@ -74,23 +75,23 @@
     /* border-radius: 10px; */
     color: var(--text-white) !important;
     text-decoration: none;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 15px;
+    margin-left: 0px;
     width: 180px;
     text-align: center;
     background: #2B61D1;
     box-shadow: 0px 3.17664px 15.8832px 1.58832px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
     font-size: 14px;
-    transition: .3s;
+    transition: all .2s ease-in-out;
 }
 .btn2:hover{
-    animation: pulse 1s infinite;
-    transition: .3s;
+    transform: scale(1.1); 
+   
 }
 .btn1:hover{
-    animation: pulse 1s infinite;
-    transition: .3s;
+    transform: scale(1.1); 
+    
 }
 
 @keyframes pulse {
@@ -113,7 +114,8 @@
 
 .headerCard{
     background: #FFFFFF;
-    box-shadow: 10.74807px 10.74807px 10.7404px 10.87404px rgba(43, 97, 209, 0.1);
+    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    /* box-shadow: 10.74807px 10.74807px 10.7404px 10.87404px rgba(43, 97, 209, 0.1); */
     border-radius: 18.7404px;
     padding: 15px 30px;
     /* width: fit-content; */
@@ -121,7 +123,8 @@
 
 .cardTotal{
     background: #FFFFFF;
-    box-shadow: 10.74807px 10.74807px 10.7404px 10.87404px rgba(43, 97, 209, 0.1);
+    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    /* box-shadow: 10.74807px 10.74807px 10.7404px 10.87404px rgba(43, 97, 209, 0.1); */
     border-radius: 18.7404px;
     padding: 20px 10px;
     /* width: fit-content; */
@@ -288,7 +291,7 @@ color: #7EC897;
 
 .webCard{
     background: #FFFFFF;
-    box-shadow: 7.74807px 7.74807px 18.7404px 7.87404px rgba(0, 0, 0, 0.05);
+    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
     border-radius: 18.7404px;
     padding: 30px 20px;
     height: 100%;
@@ -346,11 +349,11 @@ color: #7EC897;
     
 }
 .section3{
-    margin-bottom: 25px;
+    margin-bottom: 100px;
 }
 
 .sliderSection{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .sliderSection h6{
     font-family: 'Montserrat';
@@ -364,9 +367,10 @@ color: #7EC897;
 }
 
 .section4{
-    padding-top: 25px;
-    padding-bottom: 50px;
+    /* padding-top: 25px; */
+    /* padding-bottom: 50px; */
     background: #FCFDFF;
+    margin-bottom: 100px;
 } 
 
 .section4 h1 span{
@@ -415,21 +419,19 @@ color: #7EC897;
 
 .card1{
     background: #FFFFFF;
-    box-shadow: 7.74807px 7.74807px 18.7404px 7.87404px rgba(43, 97, 209, 0.05);
+    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
     border-radius: 18.7404px;
     padding: 30px 20px;
     height: 100%;
 }
 .card1:hover{
-    transition: all 0.2s ease-out;
-    box-shadow: 0px 4px 8px rgba(14, 13, 111, 0.394);
+    /* transition: all 0.2s ease-out; */
     top: -4px;
-   
     background-color: white;
 }
 .card2:hover{
     transition: all 0.2s ease-out;
-    box-shadow: 0px 4px 8px rgba(14, 13, 111, 0.394);
+    /* box-shadow: 0px 4px 8px rgba(14, 13, 111, 0.394); */
     top: -4px;
    
     background-color: white;
@@ -528,8 +530,10 @@ color: #7EC897;
 
 }
 .section5 a:hover {
-    box-shadow: 0 0 3px 0 #98A7B9 inset, 0 0 20px 1px #98A7B9;
-    border: 3px solid #98A7B9;
+    /* box-shadow: 0 0 3px 0 #98A7B9 inset, 0 0 20px 1px #98A7B9; */
+    /* border: 3px solid #98A7B9; */
+    border:  2px solid #2B61D1;
+    color: #2B61D1;
   }
 
 .section6{
@@ -591,12 +595,13 @@ color: #7EC897;
 }
 
 .section7{
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .section8{
     background: #2B61D1;
     margin-bottom: 100px;
+    padding: 50px 0px;
 }
 
 .section8 h6{
@@ -691,15 +696,15 @@ color: #7EC897;
     display: block; 
     padding: 13px 0px; 
     color: #98A7B9;
-    transition: .3s;
+    transition: all .2s ease-in-out;
 }
 .card2 a:hover {
-    animation: pulse 1s infinite;
-    transition: .3s;
+    transform: scale(1.1); 
+   
   }
 
 .section9{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .section10 h2{
@@ -731,7 +736,7 @@ color: #7EC897;
 }
 
 .section10{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .section11 h2{
@@ -778,11 +783,12 @@ color: #7EC897;
     box-shadow: 0px 3.74807px 18.7404px 1.87404px rgba(0, 0, 0, 0.1);
     border-radius: 26.2365px;
     font-size: 14px;
-    transition: .3s;
+    transition: all .2s ease-in-out;
 }
 .btn3:hover{
-    animation: pulse 1s infinite;
-    transition: .3s;
+    /* animation: pulse 1s infinite;
+    transition: .3s; */
+    transform: scale(1.1); 
 }
 
 .card3 h5{
@@ -807,7 +813,7 @@ color: #7EC897;
 .card3{
     background: rgba(255, 255, 255, 0.5);
     border: 1.49923px solid #52D46F;
-    box-shadow: 7.74807px 7.74807px 18.7404px 7.87404px rgba(0, 0, 0, 0.05);
+    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
     border-radius: 18.7404px;    
     padding: 30px 20px;
     height: 100%;
@@ -872,7 +878,7 @@ color: #7EC897;
 }
 
 .section12{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .dollar{
     background: #2B61D1;
@@ -1265,7 +1271,9 @@ color: #7EC897;
   }
 
   @media (max-width: 767.98px) { 
-   
+   .section4{
+    margin-bottom: 100px;
+   }
     .section4 h5{
         font-size: 12px;
         line-height: 16px;
@@ -1416,10 +1424,10 @@ color: #7EC897;
         margin-top: 0px;
     }
     .section5{
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .section6{
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .section6 h2{
         font-weight: 700;
@@ -1440,7 +1448,7 @@ color: #7EC897;
         line-height: 115%;
     }
     .section8{
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .section9 h2{
         font-weight: 700;
@@ -1473,7 +1481,7 @@ color: #7EC897;
         padding: 20px 10px;
     }
     .section9{
-        margin-bottom: 25px;
+        margin-bottom: 100px;
     }
     .section10 h2{
         font-weight: 700;
@@ -1488,7 +1496,7 @@ color: #7EC897;
         margin-bottom: 20px;
     }
     .section10{
-        margin-bottom: 25px;
+        margin-bottom: 100px;
     }
     .section11 h2{
         font-weight: 700;
@@ -1503,6 +1511,8 @@ color: #7EC897;
         margin-bottom: 20px;
 
     }
+
+   
     .card3 h5{
         font-weight: 600;
         font-size: 14.9907px;
@@ -1522,7 +1532,7 @@ color: #7EC897;
         padding: 20px 10px;
     }
     .section11{
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .card4 h3{
         font-size: 30px !important;
