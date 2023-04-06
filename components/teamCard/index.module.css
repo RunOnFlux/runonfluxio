@@ -58,7 +58,7 @@ a.readMoreLink{
     color: #313457;
     font-size: 1em;
     font-weight: 500 !important;
-    line-height: 1.1em;
+    line-height: 1.4em;
     text-align: left;
     font-weight: normal;
     margin-bottom: 20px;
@@ -109,7 +109,7 @@ a.readMoreLink{
         font-size: 0.8em;
         line-height: 1.5em;
         text-align: left;
-        font-weight: 600 !important;
+        font-weight: 500 !important;
         margin-bottom: 30px;
     }
     .card p{
