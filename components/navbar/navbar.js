@@ -212,8 +212,8 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
 
-                    <NavDropdown.Item>
-                        <Link href={'/team'} eventKey={11} className={styles.link} >
+                    <NavDropdown.Item href='https://www.runonflux.io/team.html'>
+                        <Link href='https://www.runonflux.io/team.html' eventKey={11} className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Team<br/>
                         <div className={styles.sublink}>Meet the members of the fully distributed Flux team.</div>
@@ -221,8 +221,8 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        <Link href={'/partners'} eventKey={12} className={styles.link} >
+                    <NavDropdown.Item href='https://www.runonflux.io/partners.html'>
+                        <Link href='https://www.runonflux.io/partners.html' eventKey={12} className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Partners<br/>
                         <div className={styles.sublink}>Collaboration is at the heart of Flux and  our partners <br/> are key to that.</div>
@@ -329,8 +329,8 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        <Link href={'/github'} eventKey={23} className={styles.link} >
+                    <NavDropdown.Item href='https://github.com/runonflux'>
+                        <Link href='https://github.com/runonflux' eventKey={23} className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Github
                         <br/>
@@ -339,8 +339,8 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        <Link href={'/pressKit'} eventKey={24} className={styles.link} >
+                    <NavDropdown.Item href='https://github.com/RunOnFlux/press'>
+                        <Link href='https://github.com/RunOnFlux/press' eventKey={24} className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Press kit
                         <br/>
@@ -349,8 +349,8 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        <Link href={'/bugBounty'} eventKey={27} className={styles.link} >
+                    <NavDropdown.Item href='https://www.runonflux.io/bug-bounty-program.html'>
+                        <Link href='https://www.runonflux.io/bug-bounty-program.html' eventKey={27} className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Bug bounty
                         <br/>
@@ -371,8 +371,8 @@ export function NavBar(){
                     onMouseLeave={hideDropdown}
                   >
                     <div className={styles.dropMenu}>
-                    <NavDropdown.Item>
-                        <Link href={'/blog'} eventKey={22} className={styles.link} >
+                    <NavDropdown.Item href='https://www.runonflux.io/blog.html'>
+                      <Link href='https://www.runonflux.io/blog.html' eventKey={22} className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Blog
                         <br/>
@@ -383,8 +383,8 @@ export function NavBar(){
                     </NavDropdown.Item>
                    
                    
-                    <NavDropdown.Item>
-                        <Link href={'/social'} eventKey={25} className={styles.link} >
+                    <NavDropdown.Item href='https://www.runonflux.io/flux-social.html'>
+                      <Link href='https://www.runonflux.io/flux-social.html' eventKey={25} className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Social
                         <br/>
@@ -393,8 +393,8 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        <Link href={'/careers'} eventKey={26} className={styles.link} >
+                    <NavDropdown.Item href='https://www.runonflux.io/careers.html'>
+                      <Link href='https://www.runonflux.io/careers.html' eventKey={26} className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Careers
                         <br/>
@@ -404,8 +404,8 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                    
-                    <NavDropdown.Item>
-                        <Link href={'/donate'} eventKey={28} className={styles.link} >
+                    <NavDropdown.Item href='https://www.runonflux.io/donate.html'>
+                      <Link href='https://www.runonflux.io/donate.html' eventKey={28} className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Donate
                         <br/>
@@ -590,8 +590,8 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
 
-                    <NavDropdown.Item eventKey="41">
-                        <Link href={'/team'}  className={styles.link} >
+                    <NavDropdown.Item eventKey="41" href='https://www.runonflux.io/team.html'>
+                        <Link href='https://www.runonflux.io/team.html'  className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Team<br/>
                         <div className={styles.sublink}>Meet the members of the fully<br/> distributed Flux team.</div>
@@ -599,8 +599,8 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="42">
-                        <Link href={'/partners'}  className={styles.link} >
+                    <NavDropdown.Item eventKey="41" href='https://www.runonflux.io/partners.html'>
+                        <Link href='https://www.runonflux.io/partners.html'  className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Partners<br/>
                         <div className={styles.sublink}>Collaboration is at the heart of Flux and <br/> our partners are key to that.</div>
@@ -706,8 +706,8 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="53">
-                        <Link href={'/github'}  className={styles.link} >
+                    <NavDropdown.Item eventKey="53" href='https://github.com/runonflux' >
+                        <Link href='https://github.com/runonflux'  className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Github
                         <br/>
@@ -716,8 +716,8 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="54">
-                        <Link href={'pressKit'}  className={styles.link} >
+                    <NavDropdown.Item eventKey="54" href='https://github.com/RunOnFlux/press' >
+                        <Link href='hhttps://github.com/RunOnFlux/press'  className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Press kit
                         <br/>
@@ -757,8 +757,8 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                    
-                    <NavDropdown.Item eventKey="55">
-                        <Link href={'/social'}  className={styles.link} >
+                    <NavDropdown.Item eventKey="55" href='https://www.runonflux.io/flux-social.html'>
+                        <Link href='https://www.runonflux.io/flux-social.html' className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Social
                         <br/>

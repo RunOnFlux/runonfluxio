@@ -73,13 +73,13 @@ module.exports = {
         basePath: false
       },
       {
-        source: '/teams',
+        source: '/team',
         destination: 'https://www.runonflux.io/team.html',
         permanent: false,
         basePath: false
       },
       {
-        source: '/partner',
+        source: '/partners',
         destination: 'https://www.runonflux.io/partners.html',
         permanent: false,
         basePath: false
