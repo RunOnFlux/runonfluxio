@@ -60,7 +60,7 @@ a {
 }
 
 .modal-header .btn-close{
-  background:  url('/images-next/close-icon.svg') center/1em auto no-repeat !important;
+  background:  url('/images/close-icon.svg') center/1em auto no-repeat !important;
 }
 .modal-backdrop {
   background: rgba(6, 15, 22, 0.95) !important;
