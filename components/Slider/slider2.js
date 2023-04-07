@@ -49,7 +49,7 @@ export function Slider2(){
                     rewind: true,
                     rewindSpeed: 20000,
                     speed: 20000,
-                    gap: "1rem",
+                    gap: "0rem",
                     perMove: 1,
                     breakpoints: {
 
@@ -67,19 +67,19 @@ export function Slider2(){
                            
                         // },
                         991.98: {
-                            gap: "2rem",
+                            gap: "0rem",
                             fixedWidth: "8rem",
                           },
                           767.98: {
-                            gap: "2rem",
+                            gap: "0rem",
                             fixedWidth: "6rem",
                           },
                           640: {
-                            gap: "2rem",
+                            gap: "0rem",
                             fixedWidth: "4rem",
                         },
                           575.98: {
-                           gap: "1.5rem",
+                           gap: "0rem",
                            fixedWidth: "3rem",
                           },
                     },

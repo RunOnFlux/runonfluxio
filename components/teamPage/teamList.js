@@ -342,6 +342,15 @@ const teamAsset = [
         description: ''
     },
     {
+        name: 'Farid Akintola',
+        thumbnail: farid,
+        twitterLink: 'https://twitter.com/rainlow9',
+        linkedInLink: '',
+        title: 'Marketing Director and Community Member',
+        intro: 'Farid is a web3 and blockchain enthusiast from the United Kingdom with a degree in international relations and politics from the University of Leicester.',
+        description: 'He is deeply passionate about the ethos of decentralisation and the potential it holds for shaping the future of our society. Farid has experience working within marketing and social media in the web3 space, and is dedicated to spreading awareness and understanding of these technologies.'
+    }, 
+    {
         name: 'Dibi',
         thumbnail: dibi,
         twitterLink: '',
@@ -350,15 +359,7 @@ const teamAsset = [
         intro: '',
         description: ''
     }, 
-    {
-        name: 'Farid Akintola',
-        thumbnail: farid,
-        twitterLink: '',
-        linkedInLink: '',
-        title: 'Marketing Director and Community Member',
-        intro: 'Farid is a web3 and blockchain enthusiast from the United Kingdom with a degree in international relations and politics from the University of Leicester.',
-        description: 'He is deeply passionate about the ethos of decentralisation and the potential it holds for shaping the future of our society. Farid has experience working within marketing and social media in the web3 space, and is dedicated to spreading awareness and understanding of these technologies.'
-    }, 
+   
 ]
 
 export { teamAsset };

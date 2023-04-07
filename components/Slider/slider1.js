@@ -43,7 +43,7 @@ export function Slider1(){
                     arrows: 0,
                     autoplay: true,
                     perMove: 1,
-                    gap: "1rem",
+                    gap: "0rem",
                     fixedWidth: "10rem",
                     rewind: true,
                     rewindSpeed: 20000,
@@ -66,19 +66,19 @@ export function Slider1(){
                            
                         // },
                         991.98: {
-                            gap: "1rem",
+                            gap: "0rem",
                             fixedWidth: "8rem",
                           },
                           767.98: {
-                            gap: "1rem",
+                            gap: "0rem",
                             fixedWidth: "6rem",
                           },
                           640: {
-                            gap: "1rem",
+                            gap: "0rem",
                             fixedWidth: "4rem",
                         },
                           575.98: {
-                           gap: "1rem",
+                           gap: "0rem",
                            fixedWidth: "3rem",
                           },
                      },
