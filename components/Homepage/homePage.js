@@ -457,7 +457,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Run Wordpress</h5>
                                 <h6>Run your Website using Wordpress in a decentralized, and redundant manner.</h6>
-                                <a href="https://cloud.runonflux.io/#/wordpress" target="_blank" rel="noreferrer">Visit Now</a>
+                                <a href="https://wordpress.runonflux.io" target="_blank" rel="noreferrer">Visit Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5">
