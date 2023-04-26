@@ -10,6 +10,7 @@ import styles from "./index.module.css";
 import arrowDown from "../../public/images/dropdown-icon.png"
 import Image from 'next/image'
 import Logo from "../../public/images/Flux_white_logo.svg"
+import Rabbit from "../../public/images/rabbit.png"
 import target from "../../public/images/target.svg"
 import twitter from "../../public/images/twitter.svg"
 import discord from "../../public/images/discord.svg"
@@ -426,6 +427,10 @@ export function NavBar(){
                     </NavDropdown.Item>
                       </div>
                     </NavDropdown>
+                    <Navbar.Brand>
+                      <Link href={'https://www.youtube.com/watch?v=GJVk_LfASxk'}><Image alt="logo" src={Rabbit} style={{ width: "18.5px", height: "28.5px", marginTop: "20px" }}/></Link>
+                    </Navbar.Brand>
+
                  {/* <Nav.Link href={'#'} eventKey={3}>Explore</Nav.Link> */}
                  {/* <Nav.Link href={'/pricing'} eventKey={30}>Pricing</Nav.Link> */}
                  {/* <Nav.Link href={'#'} eventKey={5}>Community</Nav.Link> */}
