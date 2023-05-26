@@ -62,7 +62,7 @@ module.exports = {
       },
       {
         source: '/whitepaper',
-        destination: 'https://fluxwhitepaper.app.runonflux.io/',
+        destination: 'https://whitepaper.app.runonflux.io/',
         permanent: false,
         basePath: false
       },
