@@ -55,7 +55,7 @@ export function NavBar(){
                         <div className="col-md-3"></div>
                         <div className="col-md-9">
                             <ul>
-                                <li> <a href="https://fluxwhitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper <Image alt="img" src={target}/></a></li>
+                                <li> <a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki<Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">FluxStore <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore <Image alt="img" src={target}/></a></li>
@@ -192,8 +192,8 @@ export function NavBar(){
                     onMouseLeave={hideDropdown}
                   >
                     <div className={styles.dropMenu}>
-                    <NavDropdown.Item href='https://fluxwhitepaper.app.runonflux.io/'>
-                        <Link href='https://fluxwhitepaper.app.runonflux.io/' eventKey={9} className={styles.link} passHref={true}>
+                    <NavDropdown.Item href='https://whitepaper.app.runonflux.io/'>
+                        <Link href='https://whitepaper.app.runonflux.io/' eventKey={9} className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                          Whitepaper
                         <br/>
@@ -574,8 +574,8 @@ export function NavBar(){
                   }
                     id="basic-nav-dropdown" 
                   >
-                    <NavDropdown.Item eventKey="39" href='https://fluxwhitepaper.app.runonflux.io/'>
-                        <Link href='https://fluxwhitepaper.app.runonflux.io/'  className={styles.link} passHref={true}>
+                    <NavDropdown.Item eventKey="39" href='https://whitepaper.app.runonflux.io/'>
+                        <Link href='https://whitepaper.app.runonflux.io/'  className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                         Whitepaper
                         <br/>
@@ -814,7 +814,7 @@ export function NavBar(){
                 <div className={styles.topNav2} style={{marginTop: "100px"}}>
                 <div className="container">
                     <div className="row text-center">
-                                <div className={styles.topNavLink}> <a href="https://fluxwhitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></div>
+                                <div className={styles.topNavLink}> <a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></div>
                                 <div className={styles.topNavLink}> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki</a></div>
                                 <div className={styles.topNavLink}> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">Flux Store </a></div>
                                 <div className={styles.topNavLink}> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></div>
