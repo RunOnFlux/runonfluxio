@@ -61,7 +61,7 @@ export function Footer(){
                         <ul>
                             <li><a href="https://runonflux.io/fluxlabs.html" target="_blank" rel="noreferrer"> FluxLabs</a></li>
                             <li><a href="https://www.runonflux.io/zero-carbon.html" target="_blank" rel="noreferrer"> Carbon Neutrality</a></li>
-                            <li><a href="https://fluxwhitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></li>
+                            <li><a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></li>
                             <li><a href="https://www.runonflux.io/roadmap.html"> Roadmap</a></li>
                             <li><a href="https://www.runonflux.io/team.html"> Team</a></li>
                             <li><a href="https://docs.runonflux.io/" target="_blank" rel="noreferrer"> Documentation</a></li>
