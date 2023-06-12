@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { PartnersPage } from '../components/partnersPage/partnersPage'
 
-export default function Team() {
+export default function Partners() {
   return (
     <div>
       <Head>

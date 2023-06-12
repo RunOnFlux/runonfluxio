@@ -1,0 +1,185 @@
+.card img{
+    /* height: 280px !important;
+    max-width: 320 !important; */
+  
+    object-fit: cover !important;
+    /* border-radius: 5px !important; */
+    /* margin-bottom: 20px; */
+    /* height: 400px !important; */
+    width: 100% !important;
+    height: auto !important;
+   
+}
+.imgContainer{
+    display: block;
+    /* height: 300px; */
+
+}
+
+.card{
+    width: auto !important;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    border-radius: 16px;
+    text-align: center;
+    padding: 15px;
+    height: 100%;
+    /* margin: auto; */
+    position: relative !important;
+  
+}
+.Tab{
+    margin-top: 40px;
+}
+
+.card h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    padding-left: 5px;
+        background: linear-gradient(169.19deg, #22202E 8.02%, #252C32 109.11%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+}
+
+.card h4{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    /* liner */
+    padding-left: 5px;
+    background: linear-gradient(169.19deg, #22202E 8.02%, #252C32 109.11%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card h5{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+
+    /* liner */
+    text-align: left;
+    background: linear-gradient(169.19deg, #22202E 8.02%, #252C32 109.11%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding-left: 5px;
+    margin-bottom: 40px;
+}
+
+.card a{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+
+    /* liner */
+    color:  #22202E ;
+    /* background: linear-gradient(169.19deg, #22202E 8.02%, #252C32 109.11%); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; */
+    /* float: right !important; */
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+   
+    padding-right: 25px;
+    /* padding-top: 30px !important; */
+}
+
+.card a:hover{
+    color:  #22202E ;
+}
+
+.card a span img{
+    height: 20px !important;
+    width: 20px !important;
+    margin-top: 2px !important;
+    margin-left: 2px !important;
+}
+
+.card a{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+and (max-width: 1200px) 
+{
+.card h4{
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+}
+
+@media (max-width: 991.98px) {
+    .card{
+        /* max-width: 298.99px; */
+    }
+   
+}
+
+@media (max-width: 767.98px) {
+    .card{
+        margin-left: 10px;
+        margin-right: 10px;
+        /* max-width: 353px; */
+        margin: auto;
+    }
+  
+   
+}
+
+@media (max-width: 575.98px){
+   
+
+    .card h4{
+        font-size: 15.246px;
+        line-height: 24px;
+    }
+
+    .card h5{
+        font-size: 10.164px;
+        line-height: 14px;
+    }
+    .card{
+        /* max-width: 298.99px; */
+    }
+}
