@@ -114,7 +114,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                     
                     <NavDropdown.Item >
-                      <Link href={'/fluxNodes'} className={styles.link} eventKey="3"> 
+                      <Link href={'/nodes'} className={styles.link} eventKey="3"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Flux Nodes
                      <br/>
@@ -501,7 +501,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                     
                     <NavDropdown.Item eventKey="33">
-                      <Link href={'/fluxNodes'} className={styles.link} > 
+                      <Link href={'/nodes'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         Flux Nodes
                      <br/>
