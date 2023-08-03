@@ -101,60 +101,83 @@ import classNames from "classnames";
 
 
 export function Flux() {
-    const url = 'https://api.runonflux.io/daemon/getzelnodecount';
-
+    let circsup = 0;
+    const url = 'https://explorer.runonflux.io/api/statistics/circulating-supply';
+    const url2 = 'https://api.runonflux.io/daemon/getzelnodecount';
     fetch(url)
       .then((response) => {
         return response.json();
       })
       .then((data) => {
         let thedata = data;
-        let element = document.getElementById('percent');
-        let element2 = document.getElementById('percent2');
-        numofnodes.innerHTML = `${thedata.data.total}`;
+        let roundedData = String(thedata).split('.')[0];
+        circsup = parseInt(roundedData);
+        move(roundedData);
       })
       .catch(function(error) {
         console.log(error);
       });
 
+    fetch(url2)
+        .then((response) => {
+            return response.json();
+        })
+        .then((data) =>{
+            let thedata = data;
+            let whatweneed = "cumulus-enabled";
+            let cumulus = thedata.data["cumulus-enabled"];
+            let stratus = thedata.data["stratus-enabled"];
+            let nimbus = thedata.data["nimbus-enabled"];
+            let cumulusAmount = parseInt(cumulus) * 1000;
+            let stratisAmount = parseInt(stratus) * 40000;
+            let nimbusAmount = parseInt(nimbus) * 12500;
+            let locked = cumulusAmount + stratisAmount + nimbusAmount;
+            // stratus 40k
+            // nimbus 12500
+            move2(locked);
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+
     var i = 0;
-    function move(elem2) {
+    function move(percent) {
       if (i == 0) {
         i = 1;
         var elem = document.getElementById("myBar");
-        var percentage = elem2.innerHTML.slice(0,2);
-        var width = 1;
-        var id = setInterval(frame, 10);
-        function frame() {
-          if (width >= percentage) {
-            clearInterval(id);
-            i = 0;
-          } else {
-            width++;
-            elem.style.width = width + "%";
-          }
+        var elemnum = document.getElementById("percent");
+        var elemtext = document.getElementById("amount");
+        var percentage = parseInt(percent)/440000000 * 100;
+        percentage = Math.round(percentage)
+        console.log(percent);
+        var width = percentage;
+        elemnum.innerHTML = width + "%";
+        elem.style.width = width + "%";
+
+        let ccnum = String(percent);
+        let ccnumspaced = ccnum.match(/.{1,3}/g);
+        elemtext.innerHTML = ccnumspaced.join(',') + " FLUX";
         }
       }
-    }
+
 
     var j = 0;
-    function move2(elem2) {
-      if (j == 0) {
-        j = 1;
-        var elem = document.getElementById("myBar2");
-        var percentage = elem2.innerHTML.slice(0,2);
-        var width = 1;
-        var id = setInterval(frame, 10);
-        function frame() {
-          if (width >= percentage) {
-            clearInterval(id);
-            j = 0;
-          } else {
-            width++;
+    function move2(percent) {
+        if (j == 0) {
+            j = 1;
+            var elem = document.getElementById("myBar2");
+            var elemnum = document.getElementById("percent2");
+            var elemtext = document.getElementById("amount2");
+            var percentage = parseInt(percent)/circsup * 100;
+            percentage = Math.round(percentage)
+            var width = percentage;
+            elemnum.innerHTML = width + "%";
             elem.style.width = width + "%";
-          }
+
+            let ccnum = String(percent);
+            let ccnumspaced = ccnum.match(/.{1,3}/g);
+            elemtext.innerHTML = ccnumspaced.join(',') + " FLUX";
         }
-      }
     }
 
     return (
@@ -242,7 +265,7 @@ export function Flux() {
                         <div className={styles.barTitle}>Circulating Supply</div>
                     </div>
                     <div className={styles.right}>
-                        <div className={styles.blue}>440,000,000 FLUX</div>
+                        <div id="amount" className={styles.blue}>440,000,000 FLUX</div>
                         <div id="percent" className={styles.centerBlue}>73%</div>
 
                         <div className={styles.myProgress} id="myProgress">
@@ -256,7 +279,7 @@ export function Flux() {
                         <div className={styles.barTitle}>Locked Supply <span className={styles.hidden}>_||||</span></div>
                     </div>
                     <div className={styles.right}>
-                        <div className={styles.blue}>123,430,000 FLUX</div>
+                        <div id="amount2" className={styles.blue}>123,430,000 FLUX</div>
                         <div id="percent2" className={styles.centerBlue}>42%</div>
 
                         <div className={styles.myProgress} id="myProgress2">

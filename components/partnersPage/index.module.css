@@ -18,7 +18,7 @@
     margin-top: 0em;
     margin-bottom: 60px !important;
     padding-top: 0em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Montserrat, sans-serif;
     color: rgba(4, 4, 11, 0.6);
     font-size: 1.1em;
     line-height: 1.5;
@@ -27,7 +27,7 @@
   
 }
 .section1 h6{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #4c80ee;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -116,14 +116,14 @@
     margin-bottom: 10px;
 }
 .card h2{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Montserrat, sans-serif;
     color: rgba(49, 52, 87, 0.6);
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 10px;
 }
 .card h3{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Montserrat, sans-serif;
     color: rgba(49, 52, 87, 0.6);
     font-size: 15px;
     line-height: 1.5;
@@ -163,14 +163,14 @@
     margin-bottom: 10px;
 }
 .card2 h2{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Montserrat, sans-serif;
     color: rgba(49, 52, 87, 0.6);
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 10px;
 }
 .card2 h3{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Montserrat, sans-serif;
     color: rgba(49, 52, 87, 0.6);
     font-size: 15px;
     line-height: 1.5;
@@ -191,7 +191,7 @@
 }
 
 .link a{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Montserrat, sans-serif;
     color: rgba(49, 52, 87, 0.6);
     font-size: 15px;
     line-height: 1.5;
