@@ -42,12 +42,12 @@ export function Slider1(){
                     pagination: false,
                     arrows: 0,
                     autoplay: true,
-                    perMove: 1,
+                    perMove: 2,
                     gap: "0rem",
                     fixedWidth: "10rem",
                     rewind: true,
-                    rewindSpeed: 20000,
-                    speed: 20000,
+                    rewindSpeed: 10000,
+                    speed: 10000,
 
                     breakpoints: {
                       

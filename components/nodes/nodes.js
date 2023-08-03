@@ -37,6 +37,7 @@ import Line from "../../public/images/images/Line.svg"
 import seedIcon from "../../public/images/images/seedicon.svg"
 import CAP from "../../public/images/images/CAPM4.svg"
 import COT from "../../public/images/images/cotx-cumulus.jpg"
+import BMO from "../../public/images/BMO.jpeg"
 import cotx from "../../public/images/images/cotxicon.svg";
 import bmo from '../../public/images/images/bmoicon.svg';
 import { Slider4 } from "../Slider/slider4";
@@ -153,9 +154,9 @@ export function Node() {
                 </div>
 
                 <div className={styles.nodes}>
-                    <h3>Nodes</h3>
-                    <h1 className={styles.blueDot}></h1>
-                    <h2 id="danodes">...</h2>
+                    <div><h3>Nodes</h3>
+                        <h1 className={styles.blueDot}></h1>
+                        <h2 id="danodes">...</h2></div>
                     <p className={styles.smallDesc}>Decentralized infrastructure nodes live.</p>
                 </div>
             </section>
@@ -239,12 +240,12 @@ export function Node() {
                 <div className={dDivClasses2} style={{ marginTop: "5%" }}>
                     {/* <div className={styles.Reqs}><span className={styles.darker}>Hardware Requirements</span><br /> 2 Cores <br /> 4 Threads <br /> 8 GB RAM<br /> 220 GB SSD/NVME <br /> 180 MB/s DWS <br /> 240 EPS Min. Requirements <br /> 25 Mb down/up speed<br /><span className={styles.darker}>VPS and ARM64 compatible</span></div> */}
 
-                    <br/>
+                    <br />
                     <div className={styles.Node}><span className={styles.lightbluetext}>Titan Sharing</span><br />From 50 Flux</div>
 
                     <div style={{ marginLeft: "13%" }} className={styles.btnTrans}>Titan Sharing</div>
-                    
-                    <br/>
+
+                    <br />
                 </div>
                 <h1 className={styles.TitleText} style={{ paddingTop: "0%" }}><span className={styles.bluetext}>Shared</span> Nodes</h1>
                 <h5 className={subTxtClasses}>The minimum collateral requirement for the base FluxNode tier may not be feasible for all participants. In such scenarios therefore, alternative support mechanisms such as the Titan modulus have been developed to provide viable options for network participation.</h5>
@@ -255,72 +256,33 @@ export function Node() {
             <section className={styles.hardware}>
                 <div className={styles.parent}>
                     <div className={styles.div1}>
-                        <div className={styles.hardwareDiv}>
-                            <div className={productClass}>SenceCAP M4</div>
-                            <a href="https://www.seeedstudio.com/SenseCAP-M4-p-5556.html"><div className={styles.btnTrans}>Buy Now</div></a>
-                            <h5 className={styles.SubText} style={{ width: "85%", fontSize: "1vw" }}>
-                                SenseCAP M4 Square is a play and play Cumulus FluxNode, which provides
-                                an easy and friendly install process via the SenseCAP Hotspot Mobile
-                                App. Further projects will be supported soon, which will allow you to
-                                support multiple projects via one device!{" "}
-                            </h5>
-                            <Image alt={"img"} src={CAP} />
-                        </div>
-                    </div>
-                    <div className={styles.div2}>
                         <div className={styles.puchaseOption}>
                             <Image alt={"img"} src={seedIcon} />
                             <div className={hardwareNameClass}>Seeed Studio</div>
                             <a href="https://www.seeedstudio.com/flux"><div className={styles.btnTrans2}>Buy Now</div></a>
                         </div>
                     </div>
-                    <div className={styles.div3}>
+                    <div className={styles.div2}>
                         <div className={styles.puchaseOption}>
                             <Image alt={"img"} src={cotx} />
                             <div className={hardwareNameClass}>Cotx</div>
                             <a href="https://cotx-store.com/collections/cotx-fluxnode/products/cotx-fluxnode-cumulus"><div className={styles.btnTrans2}>Buy Now</div></a>
                         </div>
                     </div>
-                    <div className={styles.div4}>
+                    <div className={styles.div3}>
                         <div className={styles.puchaseOption}>
                             <Image alt={"img"} src={bmo} />
                             <div className={hardwareNameClass}>BMO</div>
                             <a href="https://bmoblockchain.us/shop/"><div className={styles.btnTrans2}>Buy Now</div></a>
                         </div>
                     </div>
-                    <div className={styles.div5}>
-                        <div className={styles.puchaseOption}>
-                            <Image alt={"img"} src={ovh} />
-                            <div className={hardwareNameClass}>OVH</div>
-                            <div className={styles.btnTrans2}>Buy Now</div>
-                        </div>
-                    </div>
                     <div className={styles.div6}>
-                        <div className={styles.puchaseOption}>
-                            <Image alt={"img"} src={lumen} />
-                            <div className={hardwareNameClass}>Lumen</div>
-                            <div className={styles.btnTrans2}>Buy Now</div>
-                        </div>
-                    </div>
-                    <div className={styles.div7}>
-                        <div className={styles.hardwareDiv}>
-                            <div className={productClass}>Cotx</div>
-                            <a href="https://cotx-store.com/collections/cotx-fluxnode/products/cotx-fluxnode-cumulus"><div className={styles.btnTrans}>Buy Now</div></a>
-                            <h5 className={styles.SubText} style={{ width: "85%", fontSize: "1vw" }}>
-                                COTX IOT Cloud service and FluxOS software, presenting this brand new FluxNode.
-                                High performance and small power consumption COTX - FluxNode brings you excellent
-                                expandability and serviceability.{" "}
-                            </h5>
-                            <Image alt={"img"} src={COT} />
-                        </div>
-                    </div>
-                    <div className={styles.div8}>
                         <h1 className={styles.TitleText} style={{ marginTop: 0, paddingTop: 0 }}>
                             <span className={styles.bluetext}>Infrastructure</span>{" "}
                             <span className={styles.lineBreak}>HardWare</span>
                         </h1>
                     </div>
-                    <div className={styles.div9}>
+                    <div className={styles.div7}>
                         <h5 className={styles.SubText} style={{ width: "100%", marginTop: 0 }}>
                             To ensure the Flux Cloud network functions optimally, multiple tiers of
                             FluxNodes are available for deployment, each with specific collateral
@@ -330,6 +292,39 @@ export function Node() {
                             of the technical and financial parameters of each FluxNode tier,
                             enabling informed selection.
                         </h5>
+                    </div>
+                </div>
+                <div className={styles.scroll}>
+                    <div className={styles.hardwareDiv}>
+                        <div className={productClass}>SenceCAP M4</div>
+                        <a href="https://www.seeedstudio.com/SenseCAP-M4-p-5556.html"><div className={styles.btnTrans}>Buy Now</div></a>
+                        <h5 className={styles.SubText} style={{ width: "85%", fontSize: "15px" }}>
+                            SenseCAP M4 Square is a play and play Cumulus FluxNode, which provides
+                            an easy and friendly install process via the SenseCAP Hotspot Mobile
+                            App. Further projects will be supported soon, which will allow you to
+                            support multiple projects via one device!{" "}
+                        </h5>
+                        <Image alt={"img"} src={CAP} />
+                    </div>
+                    <br></br>
+                    <div className={styles.hardwareDiv}>
+                        <div className={productClass}>Cotx</div>
+                        <a href="https://cotx-store.com/collections/cotx-fluxnode/products/cotx-fluxnode-cumulus"><div className={styles.btnTrans}>Buy Now</div></a>
+                        <h5 className={styles.SubText} style={{ width: "85%", fontSize: "15px" }}>
+                            COTX IOT Cloud service and FluxOS software, presenting this brand new FluxNode.
+                            High performance and small power consumption COTX - FluxNode brings you excellent
+                            expandability and serviceability.{" "}
+                        </h5>
+                        <Image alt={"img"} src={COT} />
+                    </div>
+                    <br></br>
+                    <div className={styles.hardwareDiv}>
+                        <div className={productClass}>BMO</div>
+                        <a href="https://bmoblockchain.us/shop/"><div className={styles.btnTrans}>Buy Now</div></a>
+                        <h5 className={styles.SubText} style={{ width: "85%", fontSize: "15px" }}>
+                        BMO Advanced Managed Services (BAMS) is a one stop solution. With expertise in design, implementation, optimization, troubleshooting and the documentation of various projects around blockchain ecosystem.{" "}
+                        </h5>
+                        <Image alt={"img"} src={BMO} />
                     </div>
                 </div>
             </section>
@@ -348,16 +343,51 @@ export function Node() {
                     including the most commonly used methods. Accompanying video guides are also
                     available to provide step-by-step assistance with the setup process.
                 </p>
+                <div className={styles.containGuides}>
                     <div className={styles.guidesContain}>
                         <Image alt={"img"} src={wallet} />
                         <div className={guideClasses}>
-                            <a href="https://support.runonflux.io/support/solutions/articles/151000020722-flux-node-install-guides">Flux Light Node Setup</a>
+                            <a href="https://medium.com/@mmalik4/flux-light-node-setup-as-easy-as-it-gets-833f17c73dbb">Flux Light Node Setup</a>
                         </div>
                         <br />
                     </div>
+                    <div className={styles.guidesContain}>
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/RT1uaSrurv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div className={guideClasses}>
+                            <p>Flux LightNode Wallet</p>
+                        </div>
+                        <br />
+                    </div>
+                    <div className={styles.guidesContain}>
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/-lJJyuliR38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div className={guideClasses}>
+                            <p>FluxNode Setup for Raspberry Pi4B</p>
+                        </div>
+                        <br />
+                    </div>
+                    <div className={styles.guidesContain}>
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/FITPHv52Fyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div className={guideClasses}>
+                            <p>Self-Hosted Flux Node Setup Guide</p>
+                        </div>
+                        <br />
+                    </div>
+                    <div className={styles.guidesContain}>
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/n2CMwfahUBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div className={guideClasses}>
+                            <p>Raspberry Pi FluxNode Setup Guide</p>
+                        </div>
+                        <br />
+                    </div>
+                    <div className={styles.guidesContain}>
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/akfV5WhmE-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div className={guideClasses}>
+                            <p>Cumulus Mini-PC and other alternatives</p>
+                        </div>
+                        <br />
+                    </div>
+                </div>
             </section>
-
-
 
         </main>
     );
