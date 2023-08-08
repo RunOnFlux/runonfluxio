@@ -20,7 +20,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: radial-gradient(circle farthest-corner at 100% 100%, #36c9a5, #4ee8c1);
+    background-image: radial-gradient(circle farthest-corner at 100% 100%, rgba(43, 97, 209, 1), rgba(43, 97, 209, 1));;
     -webkit-background-clip: text;
     background-clip: text;
 }
@@ -49,7 +49,7 @@
 
 .btns a{
     background-color: white !important;
-    color: #36c9a5 !important;
+    color: #324ab2 !important;
     margin: 10px;
     align-items: center;
     border-radius: 0.4em;
@@ -57,7 +57,7 @@
     background-image: none;
     box-shadow: 6px 6px 14px 1px rgba(37, 44, 97, 0.14);
     font-family: Montserrat, sans-serif;
-    color: #2fc29e;
+    color: #324ab2;
     font-size: 0.8em;
     line-height: 1px;
     font-weight: 600;
