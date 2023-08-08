@@ -41,7 +41,7 @@ import dollar from "../../public/images/greenIcons/dollar$.svg"
 import axios from 'axios';
 import { Slider4 } from "../Slider/slider4";
 import Modal from 'react-bootstrap/Modal';
-import wordpressImg from "../../public/images/flux-cloud-wordpress.svg"
+import cypherpunkImg from "../../public/images/cyperpunk.jpeg"
 
 
 export function HomePage(){
@@ -142,8 +142,8 @@ export function HomePage(){
                             </Modal.Header>
                             <Modal.Body>
                                 <div className={styles.modal}>
-                                    <a href="https://cloud.runonflux.io/login.html#/wordpress" target="_blank" rel="noreferrer">
-                                <Image alt="wordpress" src={wordpressImg} /></a>
+                                    <a href="https://cypherpunk2023.com/" target="_blank" rel="noreferrer">
+                                <Image alt="cypherpunk" src={cypherpunkImg} /></a>
                                 </div>
                                
                             </Modal.Body>

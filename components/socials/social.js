@@ -18,7 +18,6 @@ import mediumImg from "../../public/images/socials/Vector-8.svg"
 import linkedinImg from "../../public/images/socials/Vector-9.svg"
 import twitchImg from "../../public/images/socials/Vector-10.svg"
 import instagramImg from "../../public/images/socials/Vector-11.svg"
-import tiktokImg from "../../public/images/socials/Vector-12.svg"
 
 // Countrys
 import indonesia from "../../public/images/socials/indonesia.svg"
@@ -51,12 +50,6 @@ import arabic from "../../public/images/socials/arabic.svg"
 
 // Icons
 import icon_twitter from "../../public/images/socials/icon/vecter5.svg"
-import icon_medium from "../../public/images/socials/icon/vector1.svg"
-import icon_telegram from "../../public/images/socials/icon/vector2.svg"
-import icon_facebook from "../../public/images/socials/icon/vector3.svg"
-import icon_instagram from "../../public/images/socials/icon/vector4.svg"
-import icon_greyTwitter from "../../public/images/socials/icon/twitterGrey.svg"
-import icon_globe from "../../public/images/socials/icon/globe.svg"
 
 
 import Modal from 'react-bootstrap/Modal';
@@ -158,13 +151,6 @@ export function Social() {
                             <br></br>
                             <a href="" className={styles.btn}>Instagram</a>
                         </div></div>
-                    <div className={styles.div13}> 
-                    </div>
-                    <div className={styles.div14}> </div>
-                    <div className={styles.div15}> </div>
-                    <div className={styles.div16}> </div>
-                    <div className={styles.div17}> </div>
-                    <div className={styles.div18}> </div>
                 </div>
             </section>
 

@@ -405,7 +405,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                    
-                    <NavDropdown.Item>
+                    {/* <NavDropdown.Item>
                         <Link href={'/donate'} eventKey={28} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Donate
@@ -414,7 +414,7 @@ export function NavBar(){
                         </div>
                         </Link>
                        
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
                     <NavDropdown.Item>
                         <Link href={'/support'} eventKey={29} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
@@ -787,7 +787,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                    
-                    <NavDropdown.Item eventKey="58">
+                    {/* <NavDropdown.Item eventKey="58">
                         <Link href={'/donate'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Donate
@@ -796,7 +796,7 @@ export function NavBar(){
                         </div>
                         </Link>
                        
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
                     <NavDropdown.Item eventKey="59">
                         <Link href={'/support'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
