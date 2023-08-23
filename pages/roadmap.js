@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { RoadMapPage } from '../components/roadmapPage/roadmapPage'
 
-export default function Team() {
+export default function RoadMap() {
   return (
     <div>
       <Head>

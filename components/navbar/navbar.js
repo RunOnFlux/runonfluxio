@@ -405,16 +405,6 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                    
-                    <NavDropdown.Item href='https://www.runonflux.io/donate.html'>
-                      <Link href='https://www.runonflux.io/donate.html' eventKey={28} className={styles.link} passHref={true}>
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Donate
-                        <br/>
-                        <div className={styles.sublink}>Help us grow the Flux project and contribute <br/>to the foundation funds.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
                     <NavDropdown.Item href='https://support.runonflux.io/'>
                         <Link href='https://support.runonflux.io/' eventKey={29} className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
@@ -783,16 +773,6 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                    
-                    <NavDropdown.Item eventKey="58"  href='https://www.runonflux.io/donate.html'>
-                        <Link href='https://www.runonflux.io/donate.html'  className={styles.link} passHref={true}>
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Donate
-                        <br/>
-                        <div className={styles.sublink}>Help us grow the Flux project and contribute <br/>to the foundation funds.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
                     <NavDropdown.Item eventKey="59" href='https://support.runonflux.io/'>
                         <Link href='https://support.runonflux.io/'  className={styles.link} passHref={true}>
                         <div style={{textDecoration: "none", color: "inherit"}}>
