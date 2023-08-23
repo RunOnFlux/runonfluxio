@@ -144,7 +144,7 @@ export function MiningPage(){
             <section className={styles.section3}>
                 <div className="container">
                     <div className="row">
-                        <h3>Mining Pools</h3>
+                        <h3 className="mb-3">Mining Pools</h3>
                         <p>Be aware that there are pools that allow you to mine <span>Flux parallel assets </span><br/> through which the reward is higher.</p>
                     </div>
                     <div className="row">

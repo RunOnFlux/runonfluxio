@@ -47,8 +47,8 @@ export function Slider2(){
                     arrows: 0,
                     autoplay: true,
                     rewind: true,
-                    rewindSpeed: 20000,
-                    speed: 20000,
+                    rewindSpeed: 100,
+                    speed: 5000,
                     gap: "0rem",
                     perMove: 1,
                     breakpoints: {

@@ -44,7 +44,7 @@
 .socials {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 25px;
     grid-row-gap: 25px;
     width: 100%;
@@ -77,12 +77,7 @@
 .socials .div10 { grid-area: 2 / 4 / 3 / 5; }
 .socials .div11 { grid-area: 2 / 5 / 3 / 6; }
 .socials .div12 { grid-area: 2 / 6 / 3 / 7; }
-.socials .div13 { grid-area: 3 / 1 / 4 / 2; }
-.socials .div14 { grid-area: 3 / 2 / 4 / 3; } 
-.socials .div15 { grid-area: 3 / 3 / 4 / 4; }
-.socials .div16 { grid-area: 3 / 4 / 4 / 5; }
-.socials .div17 { grid-area: 3 / 5 / 4 / 6; }
-.socials .div18 { grid-area: 3 / 6 / 4 / 7; }
+
 
 .card{
     width: 230px;
