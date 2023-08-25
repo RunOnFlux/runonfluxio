@@ -203,7 +203,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'/roadmaps'} eventKey={10} className={styles.link} >
+                        <Link href={'/roadmap'} eventKey={10} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Roadmap
                         <br/>
@@ -300,7 +300,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'/miner'} eventKey={19} className={styles.link} >
+                        <Link href={'/mining'} eventKey={19} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Miner
                         <br/>
@@ -351,7 +351,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'/bugBounty'} eventKey={27} className={styles.link} >
+                        <Link href={'/bugBountyProgram'} eventKey={27} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Bug bounty
                         <br/>
@@ -587,7 +587,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="40">
-                        <Link href={'/roadmaps'}  className={styles.link} >
+                        <Link href={'/roadmap'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Roadmap
                         <br/>
@@ -684,7 +684,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="49">
-                        <Link href={'/miner'}  className={styles.link} >
+                        <Link href={'/mining'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Miner
                         <br/>

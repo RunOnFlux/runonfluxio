@@ -1,14 +1,4 @@
-.section1 h1{
-    margin: 0.2em auto 0em 0px;
-    font-family: Montserrat, sans-serif;
-    color: #313457;
-    font-size: 3.7em;
-    line-height: 1.1em;
-    text-align: left;
-    font-weight: bold;
-    margin-bottom: 20px;
-  
-}
+
 
 .section1{
     margin-top: 100px;
@@ -23,6 +13,18 @@
     background-image: radial-gradient(circle farthest-corner at 100% 100%, rgba(43, 97, 209, 1), rgba(43, 97, 209, 1));;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+.section1 h1{
+  margin: 0.2em auto 0em 0px;
+  font-family: Montserrat, sans-serif;
+  color: #313457;
+  font-size: 3.7em;
+  line-height: 1.1em;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 20px;
+
 }
 
 .section1 p{

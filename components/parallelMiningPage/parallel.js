@@ -26,7 +26,7 @@ export function ParallelMiningPage(){
                     <div className={styles.header}>
                         <h1>We use <span className={styles.span1}>multiple blockchains </span><br/> So you can focus <span className={styles.span2}>on building</span></h1>
                         <p>Flux provides access to multiple blockchains through parallel assets. Flux is creating ten parallel Flux assets on ten other blockchains that will be interchangeable with the main Flux chain. This provides Flux holders with easy access to all major DeFi platforms.</p>
-                        <p>To date, seven parallel assets (KDA, ETH, BSC, SOL, TRX, AVAX and ERG) have already been created and distributed to Flux holders, with three others that will be announced and distributed as in the following snapshot event.</p>
+                        <p>To date, seven parallel assets (KDA, ETH, BSC, SOL, TRX, AVAX and ERG) have already been created and distributed to Flux holders with three others that will be announced and distributed as in the following snapshot event.</p>
                         </div>
                     </div>
                     <div className="row mb-4">
