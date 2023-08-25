@@ -300,7 +300,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'/miner'} eventKey={19} className={styles.link} >
+                        <Link href={'/mining'} eventKey={19} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Miner
                         <br/>
@@ -684,7 +684,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="49">
-                        <Link href={'/miner'}  className={styles.link} >
+                        <Link href={'/mining'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Miner
                         <br/>

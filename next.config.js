@@ -56,12 +56,12 @@ async redirects() {
     //   permanent: false,
     //   basePath: false
     // },
-    // {
-    //   source: '/whitepaper',
-    //   destination: 'https://whitepaper.app.runonflux.io/',
-    //   permanent: false,
-    //   basePath: false
-    // },
+    {
+      source: '/whitepaper',
+      destination: 'https://whitepaper.app.runonflux.io/',
+      permanent: false,
+      basePath: false
+    },
     // {
     //   source: '/roadmaps',
     //   destination: 'https://www.runonflux.io/roadmap.html',
@@ -102,12 +102,12 @@ async redirects() {
       permanent: false,
       basePath: false
     },
-    // {
-    //   source: '/node',
-    //   destination: 'https://medium.com/@mmalik4/flux-light-node-setup-as-easy-as-it-gets-833f17c73dbb',
-    //   permanent: false,
-    //   basePath: false
-    // },
+    {
+      source: '/node',
+      destination: 'https://medium.com/@mmalik4/flux-light-node-setup-as-easy-as-it-gets-833f17c73dbb',
+      permanent: false,
+      basePath: false
+    },
     // {
     //   source: '/miner',
     //   destination: 'https://www.runonflux.io/mining.html',
