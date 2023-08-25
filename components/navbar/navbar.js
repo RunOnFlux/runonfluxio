@@ -203,7 +203,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'/roadmaps'} eventKey={10} className={styles.link} >
+                        <Link href={'/roadmap'} eventKey={10} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Roadmap
                         <br/>
@@ -587,7 +587,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="40">
-                        <Link href={'/roadmaps'}  className={styles.link} >
+                        <Link href={'/roadmap'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Roadmap
                         <br/>
