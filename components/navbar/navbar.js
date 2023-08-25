@@ -60,7 +60,7 @@ export function NavBar(){
                                 <li> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">FluxStore <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore <Image alt="img" src={target}/></a></li>
                                 <li className={styles.navLogo}> <a href="https://twitter.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={twitter} /></a></li>
-                                <li className={styles.navLogo}> <a href="https://discord.io/runonflux" target="_blank" rel="noreferrer"><Image alt="logo" src={discord}/></a></li>
+                                <li className={styles.navLogo}> <a href="https://discord.gg/runonflux" target="_blank" rel="noreferrer"><Image alt="logo" src={discord}/></a></li>
                                 <li className={styles.navLogo}> <a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={github}/></a></li>
                                 <li className={styles.navBtn}> <a href="https://support.runonflux.io/">Support</a></li>
                                 <li className={styles.navBtn}> <a href="mailto:info@runonflux.io?subject=Contact%20Flux!">Contact</a></li>
@@ -827,7 +827,7 @@ export function NavBar(){
 
                                 <div className={styles.mobileTopNav}>
                                  <a href="https://twitter.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={twitter01} /></a>
-                                <a href="https://discord.io/runonflux" target="_blank" rel="noreferrer"><Image alt="logo" src={discord01}/></a>
+                                <a href="https://discord.gg/runonflux" target="_blank" rel="noreferrer"><Image alt="logo" src={discord01}/></a>
                                 <a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={github01}/></a>
                                 </div>
 
