@@ -421,7 +421,7 @@ export function Flux() {
                 <Image src={ecosystemImg}></Image>
             </div>
 
-            <div className={styles.exchanges}>
+            <div className={styles.exchanges} id="exchanges">
             <div className={styles.titleText2}>Exchanges</div>
                 <div className={styles.subText2}>
                     Flux is a digital asset that is listed on several different exchanges, each of which offers various features 

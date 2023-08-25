@@ -114,12 +114,12 @@ async redirects() {
     //   permanent: false,
     //   basePath: false
     // },
-    {
-      source: '/buyFlux',
-      destination: 'https://runonflux.io/flux.html#exchanges',
-      permanent: false,
-      basePath: false
-    },
+    // {
+    //   source: '/buyFlux',
+    //   destination: 'https://runonflux.io/flux.html#exchanges',
+    //   permanent: false,
+    //   basePath: false
+    // },
     {
       source: '/fluxStore',
       destination: 'https://gotflux.store/',
