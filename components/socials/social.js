@@ -79,7 +79,7 @@ export function Social() {
                         <div className={styles.card}>
                             <Image className={styles.cardImg} alt={"img"} src={discordImg}></Image>
                             <br></br>
-                            <a href="https://discord.io/runonflux" className={styles.btn}>Discord</a>
+                            <a href="https://discord.gg/runonflux" className={styles.btn}>Discord</a>
                         </div>
                     </div>
                     <div className={styles.div3}> 

@@ -26,7 +26,7 @@ export function Footer(){
                             <h6>Flux is a decentralized Web3 cloud infrastructure comprised of user-operated, scalable and globally distributed computational nodes.</h6>
                             <div className={styles.icons}>
                             <a href="https://twitter.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="icon" src={image1}/></a>
-                            <a href="https://discord.io/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image2}/></a>
+                            <a href="https://discord.gg/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image2}/></a>
                             <a href="https://www.facebook.com/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image3}/></a>
                             <a href="https://bitcointalk.org/index.php?topic=2853688.0" target="_blank" rel="noreferrer"><Image alt="icon" src={image4}/></a>
                             <a href="https://t.me/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image5}/></a>
