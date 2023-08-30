@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { FluxDappsPage } from '../components/fluxDapps/fluxDappsPage'
-
+import { NavBar } from '../components/navbar/navbar'
 export default function Dapps() {
   return (
     <div>
@@ -10,6 +10,7 @@ export default function Dapps() {
         <meta name="description" content="official website of flux" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <NavBar/>
      <FluxDappsPage/>
     </div>
   )

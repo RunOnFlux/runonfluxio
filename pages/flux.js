@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Flux } from '../components/fluxCoin/fluxpage.js'
-
+import { NavBar } from '../components/navbar/navbar.js'
 export default function Home() {
   return (
     <div>
@@ -9,6 +9,7 @@ export default function Home() {
         <meta name="description" content="official website of flux" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <NavBar/>
       <Flux/> 
     </div>
   )

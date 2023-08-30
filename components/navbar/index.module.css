@@ -7,6 +7,100 @@
     /* top: 0; */
     /* margin-top: 50px; */
 }
+
+.navBar1{
+    background-color: rgb(13, 17, 23);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.497) !important;
+}
+.navBar2{
+    background-color: rgb(13, 17, 23);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.497) !important;
+}
+.nav2Link{
+  font-family: 'Plus Jakarta Sans' ;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  text-decoration: none;
+}
+.nav2Link:hover{
+    color: #bdf328;
+    -webkit-transition: -webkit-transform 200ms ease;
+    transition: -webkit-transform 200ms ease;
+    transition: transform 200ms ease;
+    transition: transform 200ms ease, -webkit-transform 200ms ease;
+}
+.nav2LinkBtn{
+    font-family: 'Plus Jakarta Sans' ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #000;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    text-decoration: none;
+    margin-right: 2em;
+    margin-left: 0em;
+    background-color: #bdf328;
+    padding: 12px;
+    border-radius: 5px;
+  }
+  .nav2LinkBtn:hover{
+    color: #000;
+  }
+
+  
+
+
+
+
+
+
+
+
+  .nav3Link{
+    font-family: 'Plus Jakarta Sans' ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    text-decoration: none;
+  }
+  .nav3Link:hover{
+      color: #77d261;
+      -webkit-transition: -webkit-transform 200ms ease;
+      transition: -webkit-transform 200ms ease;
+      transition: transform 200ms ease;
+      transition: transform 200ms ease, -webkit-transform 200ms ease;
+  }
+  .nav3LinkBtn{
+      font-family: 'Plus Jakarta Sans' ;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 24px;
+      color: #000;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+      text-decoration: none;
+      margin-right: 2em;
+      margin-left: 0em;
+      background-color: #77d261;
+      padding: 12px ;
+      border-radius: 5px;
+    }
+    .nav3LinkBtn:hover{
+      color: #000;
+    }
+
 .dropMenu{
     backdrop-filter: blur(15px);
     height: auto;
@@ -204,10 +298,51 @@ color: rgba(255, 255, 255, 0.7);
     .navbar2{
         height: 85px;
     }
+    .navBar1{
+        background-color: rgb(13, 17, 23) !important;
+    }
+    .navBar2{
+        background-color: rgb(13, 17, 23) !important;
+    }
     }
 
 @media (max-width: 575.98px){
 .navbar2{
     height: 85px;
 }
+.nav2LinkBtn{
+    font-family: 'Plus Jakarta Sans' ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #000;
+    /* padding-left: 20px !important;
+    padding-right: 20px !important; */
+    text-decoration: none;
+    margin-right: 0em !important;
+    margin-left: 0em !important;
+    background-color: #bdf328;
+    padding: 10px !important;
+    border-radius: 5px;
+  }
+  .nav3LinkBtn{
+    font-family: 'Plus Jakarta Sans' ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #000;
+    /* padding-left: 20px !important;
+    padding-right: 20px !important; */
+    text-decoration: none;
+    margin-right: 0em !important;
+    margin-left: 0em !important;
+    background-color: #77d261;
+    padding: 10px !important;
+    border-radius: 5px;
+  }
+  .link4 img{
+    height: 25px !important;
+  }
 }
