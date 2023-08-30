@@ -311,7 +311,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                    
                     <NavDropdown.Item>
-                        <Link href={'/buyFlux'} eventKey={20} className={styles.link} >
+                        <Link href={'/flux#exchanges'} eventKey={20} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Buy Flux
                         <br/>
@@ -695,7 +695,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                    
                     <NavDropdown.Item eventKey="50" >
-                        <Link href={'/buyFlux'} className={styles.link} >
+                        <Link href={'/flux#exchanges'} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Buy Flux
                         <br/>
