@@ -102,9 +102,6 @@ export function Dapp(){
                 <DappCard2 header={infrastructure27} logo={logo27} title={'Keep3r'} name={'Keep3r'} content={'network is a decentralized keeper network – it connects projects off-loading devops jobs and external teams ready to help. A Job is a term used to refer to a smart contract which is awaiting for an external entity to perform an action.'} btn1={'Infrastructure'} btn2={'Dapp'}  />
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
-                <DappCard2 header={infrastructure28} logo={logo28} title={'Docushield'} name={'Docushield'} content={'is taking what you need to keep private and secure, and using the most advanced forms of coding, encryption, smart contracts & data scalability to deliver a solution that is easy for everyone to use, impossible to hack, cost effective and will ensure that your documents are forever secure and accessible.'} btn1={'Infrastructure'} btn2={'Dapp'}  />
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
                 <DappCard2 header={infrastructure29} logo={logo29} title={'Liquity Developer UI'} name={'Liquity'} content={'is a decentralized borrowing protocol that allows you to draw 0% interest loans against Ether used as collateral. Loans are paid out in LUSD - a USD pegged stablecoin, and need to maintain a minimum collateral ratio of only 110%.In addition to the collateral, the loans are secured by a Stability Pool containing LUSD and by fellow borrowers collectively acting as guarantors of last resort'} btn1={'Infrastructure'} btn2={'Dapp'} />
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-3">

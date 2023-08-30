@@ -250,23 +250,6 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner22} alt="partners"/></div>
-                                    <div className="col-lg-6">
-                                        <div>
-                                            <h1>Wyre</h1>
-                                            <h2><b>Fiat to Crypto Payments Service</b></h2>
-                                            <h3>Super simple Payment APIs. Wyre provides a wide variety of world-class payment APIs to power your fintech application.</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div className="row">
-                        <div className="col mb-5">
-                            <div className={styles.card}>
-                                <div className="row">
                                     <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner7} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>

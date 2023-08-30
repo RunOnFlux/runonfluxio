@@ -193,11 +193,6 @@ export function Slider1(){
                 </SplideSlide>
                 <SplideSlide className={styles.splider}>
                     <div className={styles.partnerImg}>
-                    <Image src={partner22} alt="Image 1"/>
-                    </div>
-                </SplideSlide>
-                <SplideSlide className={styles.splider}>
-                    <div className={styles.partnerImg}>
                     <Image src={partner23} alt="Image 1"/>
                     </div>
                 </SplideSlide>
