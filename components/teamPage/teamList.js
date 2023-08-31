@@ -430,7 +430,6 @@ const teamAsset = [
         intro: '',
         description: ''
     }, 
-   
 ]
 
 export { teamAsset };
