@@ -277,6 +277,23 @@ padding-right: 10px !important;
     
   }
 
+  .navbar2 .navbar-collapse{
+    margin-top: -2px;
+    background:rgb(13, 17, 23, 0.8)!important;
+    max-width: 100% !important;
+    box-sizing: content-box !important;
+    padding-bottom: 50px !important;
+    /* padding-left: 20px; */
+    backdrop-filter: blur(12px) !important;
+    height: 100vh !important;
+    /* border: 2px solid red; */
+    position: absolute !important;
+    width: 100% !important;
+    top: 100% !important;
+    transition: 0.1s cubic-bezier(0, 0, 0, 1) !important;
+    
+  }
+
   .navbar > .container{
     max-width: 100% !important;
     padding-left: 0px !important;
