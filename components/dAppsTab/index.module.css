@@ -1,0 +1,155 @@
+.card{
+  height: 100%;
+  padding: 20px;
+  background: white;
+  box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+  border-radius: 16px;
+  width: 100%;
+  position: relative !important;
+}
+
+.header img{
+  background-color: rgba(23, 34, 56, 0.19) ;
+  padding: 20px;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.header{
+  margin-bottom: 20px;
+}
+
+.logo{
+  display: flex;
+}
+
+.logo img{
+  width: 50px !important;
+  height: 50px !important;
+  margin-right: 7px;
+}
+
+.logo h3{
+    align-self: center;
+    font-family: Montserrat, sans-serif;
+    color: rgba(49, 52, 87, 0.8);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.card p{
+   margin-bottom: 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: rgba(49, 52, 87, 0.62);
+    font-size: 0.9em;
+}
+.card p span{
+  color: #5d91ff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btnrow{
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  padding-right: 25px;
+
+}
+
+.btn1,.btn2,.btn3{
+  color: #5d91ff;
+  border: 2px solid #5d91ff;
+  padding: 3px 5px;
+  text-decoration: none;
+  margin: 4px;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+.btn2:hover{
+  background-color: #5d91ff;
+  color: #fff;
+}
+.btn1:hover{
+  background-color: #5d91ff;
+  color: #fff;
+}
+.btn3:hover{
+  background-color: #5d91ff;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+and (max-width: 1200px) 
+{
+
+  
+  
+}
+
+@media (max-width: 991.98px) {
+  .logo img{
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 20px;
+  }
+  
+  .logo h3{
+      align-self: center;
+      font-family: Montserrat, sans-serif;
+      color: rgba(49, 52, 87, 0.8);
+      font-size: 1.3em;
+      font-weight: 600;
+  }
+  
+  .card p{
+     margin-bottom: 50px;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      color: rgba(49, 52, 87, 0.62);
+      font-size: 0.8em;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .logo img{
+    width: 30px !important;
+    height: 30px !important;
+    margin-right: 20px;
+  }
+  
+  .logo h3{
+      align-self: center;
+      font-family: Montserrat, sans-serif;
+      color: rgba(49, 52, 87, 0.8);
+      font-size: 1.2em;
+      font-weight: 600;
+  }
+  
+  .card p{
+     margin-bottom: 50px;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      color: rgba(49, 52, 87, 0.62);
+      font-size: 0.75em;
+  }
+}
+
+@media (max-width: 575.98px){
+
+}

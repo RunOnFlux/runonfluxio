@@ -1,0 +1,570 @@
+.section1{
+    padding-top: 15em;
+    padding-bottom: 15em;
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(82, 82, 82, 0.51), #333), url('../../public/images/fluxCarbon-bg.jpeg');
+    background-position: 0px 0px, 50% 50%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.card1:hover{
+    transform: scale(1.1); 
+}
+.card1{
+    border: 7px solid white;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    transition: all 200ms ease;
+    margin-bottom: 30px;
+}
+
+.card1 h1{
+    font-size: 4.5em;
+    font-weight: 700;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+.card1 h3{
+    font-size: 4.5em;
+    font-weight: 700;
+    color: #77d261;
+    font-family: Montserrat, sans-serif;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+
+  .icons{
+    filter: brightness(147%);
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.icons img{
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+}
+
+.section2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-width: 1em;
+    border-color: #77d261;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    background-color: #77d261;
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, #77d261, rgba(10, 14, 10, 0.11));
+    background-position: 0px 0px;
+}
+
+
+
+.section2 h3 span{
+   color: #1f1f1f;
+}
+
+.section2 h3{
+  margin: 0.8em auto 0em 0px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 2.1em;
+  line-height: 1.7em;
+  text-align: left;
+  font-weight: bold;
+}
+.section2 p{
+    margin-top: 0em;
+    /* margin-bottom: 60px !important; */
+    padding-top: 0em;
+    font-family: 'Open Sans', sans-serif;
+    color: #1f1f1f;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+}
+
+.section2 h6{
+    margin-top: 0em;
+    /* margin-bottom: 60px !important; */
+    padding-top: 0em;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 600;
+    text-align: left;
+}
+.section2 h6 span{
+    color: #150;
+}
+
+.section3{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-style: solid none;
+    border-width: 1px 1px 4px;
+    border-color: #77d261;
+    border-radius: 0em;
+    background-color: rgb(31, 31, 31,1);
+  
+
+
+}
+
+.section3::before{
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+    background-image: url(../../public/images/fluxcarbon-bg2.png);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.section3 h3{
+    margin: 0.8em auto 0em 0px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 2.1em;
+    line-height: 1.3em;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .section3 p{
+      margin-top: 0em;
+      /* margin-bottom: 60px !important; */
+      padding-top: 0em;
+      font-family: 'Open Sans', sans-serif;
+      color: #fff;
+      font-size: 1em;
+      line-height: 1.5;
+      font-weight: 400;
+      text-align: left;
+  }
+
+  .section3 h3 span{
+    color: #77d261;
+ }
+
+ .nav3LinkBtn{
+    font-family: 'Plus Jakarta Sans' ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #000;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    text-decoration: none;
+    margin-right: 2em;
+    margin-left: 0em;
+    background-color: #77d261;
+    padding: 12px ;
+    border-radius: 5px;
+  }
+  .nav3LinkBtn:hover{
+    color: #000;
+  }
+.section3 img{
+    width: 210px;
+    height: auto;
+}
+
+.section3 .imgContainer{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img2Container img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.img2Container{
+    border-bottom: 3px solid #77d261;
+}
+
+.card2{
+    border: 3px solid #77d261;
+    height: 100%;
+    position: relative;
+}
+
+.card2 p{
+    font-family: Montserrat, sans-serif;
+    color: hsla(0, 0%, 100%, 0.8);
+    font-size: 0.8em;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.card2 h5{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 700;
+    text-align: left;
+}
+
+.cardContent a{
+    color: #77d261;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 20px;
+
+}
+
+.cardContent{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media all and (min-width: 992px){
+   .section2 p{
+    width: 60%;
+   }
+  }
+
+  @media (max-width: 991.98px) {
+    .card1{
+        border: 7px solid white;
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        padding: 40px;
+        transition: all 200ms ease;
+        margin-bottom: 30px;
+    }
+    
+    .card1 h1{
+        font-size: 4em;
+        font-weight: 700;
+        color: white;
+        font-family: Montserrat, sans-serif;
+    }
+    
+    .card1 h3{
+        font-size: 4em;
+        font-weight: 700;
+        color: #77d261;
+        font-family: Montserrat, sans-serif;
+    }
+    .icons img{
+        height: 22px;
+        width: 22px;
+        margin: 10px;
+    }
+    .section2 p{
+        font-size: 1.0em;
+        line-height: 1.6;
+        /* margin-bottom: 50px !important; */
+    }
+    .section2 h3{
+        margin: 0.8em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+
+        font-size: 1.9em;
+    }
+    .section2 h6{
+        font-size: 1.1em;
+        line-height: 1.6;
+        /* margin-bottom: 50px !important; */
+    }
+    .section3 p{
+        font-size: 1.0em;
+        line-height: 1.6;
+        /* margin-bottom: 50px !important; */
+    }
+    .section3 h3{
+        margin: 0.8em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+
+        font-size: 1.9em;
+    }
+    .img2Container img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .card2 p{
+      
+        color: hsla(0, 0%, 100%, 0.8);
+        font-size: 0.7em;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+    
+    .card2 h5{
+        color: #fff;
+        font-size: 0.9em;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+    
+    .cardContent a{
+
+        font-family: Montserrat, sans-serif;
+        font-size: 0.7em;
+        font-weight: 600;
+    
+    }
+    .cardContent{
+        padding: 20px;
+    }
+  }
+
+  @media (max-width: 767.98px) { 
+    .card1{
+        border: 7px solid white;
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        padding: 40px;
+        transition: all 200ms ease;
+        margin-bottom: 20px;
+    }
+    
+    .card1 h1{
+        font-size: 3em;
+        font-weight: 700;
+        color: white;
+        font-family: Montserrat, sans-serif;
+    }
+    
+    .card1 h3{
+        font-size: 3em;
+        font-weight: 700;
+        color: #77d261;
+        font-family: Montserrat, sans-serif;
+    }
+    .icons img{
+        height: 20px;
+        width: 20px;
+        margin: 10px;
+    }
+    .section2 h3{
+        margin: 0.8em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+
+        font-size: 1.8em;
+    }
+    .section2 p{
+        font-size: 0.9em;
+        line-height: 1.6;
+        /* margin-bottom: 50px !important; */
+    }
+    .section2 h6{
+        font-size: 1.0em;
+        line-height: 1.6;
+        /* margin-bottom: 50px !important; */
+    }
+    .section3 h3{
+        margin: 0.8em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+
+        font-size: 1.8em;
+    }
+    .section3 p{
+        font-size: 0.9em;
+        line-height: 1.6;
+        /* margin-bottom: 50px !important; */
+    }
+    .section3 img{
+        width: 180px;
+        height: auto;
+    }
+    .img2Container img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .card2 p{
+      
+        color: hsla(0, 0%, 100%, 0.8);
+        font-size: 0.7em;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+    
+    .card2 h5{
+        color: #fff;
+        font-size: 0.9em;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+    
+    .cardContent a{
+
+        font-family: Montserrat, sans-serif;
+        font-size: 0.7em;
+        font-weight: 600;
+    
+    }
+    .cardContent{
+        padding: 20px;
+    }
+  
+  }
+
+  @media (max-width: 575.98px){
+    .card1{
+        border: 5px solid white;
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        padding: 30px;
+        transition: all 200ms ease;
+        margin-bottom: 20px;
+    }
+    
+    .card1 h1{
+        font-size: 2em;
+        font-weight: 700;
+        color: white;
+        font-family: Montserrat, sans-serif;
+    }
+    
+    .card1 h3{
+        font-size: 2em;
+        font-weight: 700;
+        color: #77d261;
+        font-family: Montserrat, sans-serif;
+    }
+    .icons img{
+        height: 18px;
+        width: 18px;
+        margin: 7px;
+    }
+    .section2 h3{
+        margin: 0.8em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+
+        font-size: 1.7em;
+    }
+    .section2 p{
+        font-size: 0.8em;
+        line-height: 1.6;
+        /* margin-bottom: 50px !important; */
+    }
+    .section2 h6{
+        font-size: 0.9em;
+        line-height: 1.6;
+        /* margin-bottom: 50px !important; */
+    }
+    .nav3LinkBtn{
+        font-family: 'Plus Jakarta Sans' ;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        color: #000;
+        /* padding-left: 20px !important;
+        padding-right: 20px !important; */
+        text-decoration: none;
+        margin-right: 0em !important;
+        margin-left: 0em !important;
+        background-color: #77d261;
+        padding: 10px !important;
+        border-radius: 5px;
+      }
+      .section3 h3{
+        margin: 0.8em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+
+        font-size: 1.7em;
+    }
+    .section3 p{
+        font-size: 0.8em;
+        line-height: 1.6;
+        /* margin-bottom: 50px !important; */
+    }
+    .section3 img{
+        width: 150px;
+        height: auto;
+    }
+    .img2Container img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .card2 p{
+      
+        color: hsla(0, 0%, 100%, 0.8);
+        font-size: 0.7em;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+    
+    .card2 h5{
+        color: #fff;
+        font-size: 0.9em;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+    
+    .cardContent a{
+
+        font-family: Montserrat, sans-serif;
+        font-size: 0.7em;
+        font-weight: 600;
+    
+    }
+    .cardContent{
+        padding: 20px;
+    }
+  }
+
