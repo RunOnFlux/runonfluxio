@@ -247,7 +247,7 @@ export function Node() {
 
                     <br />
                 </div>
-                <h1 className={styles.TitleText} style={{ paddingTop: "0%" }}><span className={styles.bluetext}>Shared</span> Nodes</h1>
+                <h1 className={styles.TitleText} style={{ paddingTop: "0%" }}><span className={styles.bluetext}>Titan</span> Nodes</h1>
                 <h5 className={subTxtClasses}>The minimum collateral requirement for the base FluxNode tier may not be feasible for all participants. In such scenarios therefore, alternative support mechanisms such as the Titan modulus have been developed to provide viable options for network participation.</h5>
                 <br />
                 <h5 className={subTxtClasses2}>The Titan nodes will enable users to pool their resources to run enterprise-level hardware, thereby exposing them to a new customer set.</h5>

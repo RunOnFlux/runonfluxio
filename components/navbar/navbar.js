@@ -116,7 +116,7 @@ export function NavBar(){
                     <NavDropdown.Item >
                       <Link href={'/nodes'} className={styles.link} eventKey="3"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        Flux Nodes
+                        FluxNodes
                      <br/>
                     <div className={styles.sublink}>Learn more about the independently run FluxNodes that<br/> power the Flux network.</div>
                       </div>
@@ -503,7 +503,7 @@ export function NavBar(){
                     <NavDropdown.Item eventKey="33">
                       <Link href={'/nodes'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        Flux Nodes
+                        FluxNodes
                      <br/>
                     <div className={styles.sublink}>Learn more about the independently run <br/>FluxNodes that power the Flux network.</div>
                       </div>

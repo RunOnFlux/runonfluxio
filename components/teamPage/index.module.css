@@ -36,6 +36,10 @@
     font-weight: bold;
 }
 
+.team h4 span{
+    color: #4c80ee;
+}
+
 
 @media all and (min-width: 992px){
     .team h5{
