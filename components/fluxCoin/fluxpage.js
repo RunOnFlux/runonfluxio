@@ -191,7 +191,7 @@ export function Flux() {
                             nodes, and fuel transactions on FluxOS. It rewards both miners for validating transactions and FluxNode
                             operators for providing computational resources</div>
                         <br></br>
-                        <a href="https://fluxwhitepaper.app.runonflux.io/" className={styles.btnBlue}>Whitepaper</a>
+                        <a href="https://whitepaper.app.runonflux.io/" className={styles.btnBlue}>Whitepaper</a>
                         <a href="https://docs.runonflux.io/" className={styles.btn}>Docs</a>
                     </div>
                     <div className={styles.headerright}>

@@ -46,47 +46,44 @@ export function Footer(){
                     <div className="col-lg-2 col-md-3 col-6 mb-5" >
                         <h5>ECOSYSTEM</h5>
                         <ul>
-                            <li><a href="https://www.runonflux.io/fluxos.html">FluxOS</a></li>
-                            <li><a href="https://www.runonflux.io/fluxos.html#dapps-section">Apps</a></li>
-                            <li><a href="https://www.runonflux.io/flux-nodes.html">FluxNodes</a></li>
-                            <li><a href="https://www.runonflux.io/flux.html">Flux</a></li>
-                            <li><a href="https://www.runonflux.io/parallel.html">Parallel Mining</a></li>
+                            <li><a href="/fluxCloud">Flux Cloud</a></li>
+                            <li><a href="/fluxDapps">DApps</a></li>
+                            <li><a href="/nodes">FluxNodes</a></li>
+                            <li><a href="/flux">Flux</a></li>
                             <li><a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></li>
-                            <li><a href="https://home.runonflux.io/dashboard/overview">Dashboard</a></li>
-                            <li><a href="https://www.runonflux.io/xdao.html">XDAO</a></li>
+                            <li><a href="/dashboard">Dashboard</a></li>
+                            <li><a href="/XDAO">XDAO</a></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
                         <h5>DISCOVER</h5>
                         <ul>
-                            <li><a href="https://runonflux.io/fluxlabs.html" target="_blank" rel="noreferrer"> FluxLabs</a></li>
-                            <li><a href="https://www.runonflux.io/zero-carbon.html" target="_blank" rel="noreferrer"> Carbon Neutrality</a></li>
+                            <li><a href="/fluxLabs" target="_blank" rel="noreferrer"> FluxLabs</a></li>
+                            <li><a href="/fluxCarbon" target="_blank" rel="noreferrer"> Carbon Neutrality</a></li>
                             <li><a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></li>
-                            <li><a href="https://www.runonflux.io/roadmap.html"> Roadmap</a></li>
-                            <li><a href="https://www.runonflux.io/team.html"> Team</a></li>
-                            <li><a href="https://docs.runonflux.io/" target="_blank" rel="noreferrer"> Documentation</a></li>
-                            <li><a href="https://www.runonflux.io/partners.html"> Partners</a></li>
+                            <li><a href="/roadmap"> Roadmap</a></li>
+                            <li><a href="/team"> Team</a></li>
+                            <li><a href="/documentation" target="_blank" rel="noreferrer"> Documentation</a></li>
+                            <li><a href="/partners"> Partners</a></li>
                             <li><a href="https://explorer.runonflux.io/" target="_blank" rel="noreferrer"> Block Explorer</a></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
-                        <h5>EXPLORE</h5>
+                        <h5>DEVELOPERS</h5>
                         <ul>
-                            <li><a href="https://jetpack2.app.runonflux.io/hello.html" target="_blank" rel="noreferrer" >App</a></li>
-                            <li><a href="https://medium.com/zelinsights/zelnode-setup-the-easy-peasy-lemon-squeezy-way-fd89706ea03c" target="_blank" rel="noreferrer"> Node</a></li>
-                            <li><a href="https://www.runonflux.io/mining.html"> Miner</a></li>
-                            <li><a href="https://runonflux.io/flux.html#exchanges"> Buy Flux</a></li>
+                            <li><a href="https://medium.com/zelinsights/zelnode-setup-the-easy-peasy-lemon-squeezy-way-fd89706ea03c" target="_blank" rel="noreferrer"> Fluxnode Startup Guide</a></li>
+                            <li><a href="/mining"> Mining</a></li>
+                            <li><a href="/flux#exchanges"> Buy Flux</a></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
                         <h5>COMMUNITY</h5>
                         <ul>
-                            <li><a href="https://www.runonflux.io/blog.html">Blog</a></li>
+                            <li><a href="/blog">Blog</a></li>
                             <li><a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer">Github</a></li>
                             <li><a href="https://github.com/RunOnFlux/press" target="_blank" rel="noreferrer">Brand Assets</a></li>
-                            <li><a href="https://www.runonflux.io/careers.html">Careers</a></li>
-                            <li><a href="https://www.runonflux.io/bug-bounty-program.html">Bug bounty</a></li>
-                            <li><a href="https://www.runonflux.io/donate.html">Donate</a></li>
+                            <li><a href="/careers">Careers</a></li>
+                            <li><a href="/bugBountyProgram">Bug bounty</a></li>
                         </ul>
                     </div>
                 </div>
@@ -102,7 +99,7 @@ export function Footer(){
                         <h3><a href="https://www.runonflux.io/privacy-policy.html" target="_blank" rel="noreferrer">Privacy Policy</a></h3>
                     </div>
                     <div className="col-lg-2 col-md-4 col-4">
-                        <h3><a href="https://www.runonflux.io/bug-bounty-program.html" target="_blank" rel="noreferrer">Bug Bounty Program</a></h3>
+                        <h3><a href="/bugBountyProgram" target="_blank" rel="noreferrer">Bug Bounty Program</a></h3>
                     </div>
                 </div>
             </div>
