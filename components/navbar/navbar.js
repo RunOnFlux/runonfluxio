@@ -55,7 +55,7 @@ export function NavBar(){
                         <div className="col-md-3"></div>
                         <div className="col-md-9">
                             <ul>
-                                <li> <a href="https://fluxwhitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper <Image alt="img" src={target}/></a></li>
+                                <li> <a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki<Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">FluxStore <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore <Image alt="img" src={target}/></a></li>
@@ -818,7 +818,7 @@ export function NavBar(){
                 <div className={styles.topNav2} style={{marginTop: "100px"}}>
                 <div className="container">
                     <div className="row text-center">
-                                <div className={styles.topNavLink}> <a href="https://fluxwhitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></div>
+                                <div className={styles.topNavLink}> <a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></div>
                                 <div className={styles.topNavLink}> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki</a></div>
                                 <div className={styles.topNavLink}> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">Flux Store </a></div>
                                 <div className={styles.topNavLink}> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></div>
