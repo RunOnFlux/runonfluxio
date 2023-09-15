@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
 import Image from "next/image";
+import Link from "next/link";
 import logo from "../../public/images/Flux_white_logo.svg"
 import image1 from "../../public/images/twitter_flux_grey2x.png"
 import image2 from "../../public/images/discord_fux_grey2x.png"
@@ -46,47 +47,44 @@ export function Footer(){
                     <div className="col-lg-2 col-md-3 col-6 mb-5" >
                         <h5>ECOSYSTEM</h5>
                         <ul>
-                            <li><a href="https://www.runonflux.io/fluxos.html">FluxOS</a></li>
-                            <li><a href="https://www.runonflux.io/fluxos.html#dapps-section">Apps</a></li>
-                            <li><a href="https://www.runonflux.io/flux-nodes.html">FluxNodes</a></li>
-                            <li><a href="https://www.runonflux.io/flux.html">Flux</a></li>
-                            <li><a href="https://www.runonflux.io/parallel.html">Parallel Mining</a></li>
+                            <li><a href="/fluxCloud">Flux Cloud</a></li>
+                            <li><Link href="/fluxDapps">DApps</Link></li>
+                            <li><Link href="/nodes">FluxNodes</Link></li>
+                            <li><Link href="/flux">Flux</Link></li>
                             <li><a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></li>
-                            <li><a href="https://home.runonflux.io/dashboard/overview">Dashboard</a></li>
-                            <li><a href="https://www.runonflux.io/xdao.html">XDAO</a></li>
+                            <li><a href="/dashboard">Dashboard</a></li>
+                            <li><Link href="/XDAO">XDAO</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
                         <h5>DISCOVER</h5>
                         <ul>
-                            <li><a href="https://runonflux.io/fluxlabs.html" target="_blank" rel="noreferrer"> FluxLabs</a></li>
-                            <li><a href="https://www.runonflux.io/zero-carbon.html" target="_blank" rel="noreferrer"> Carbon Neutrality</a></li>
+                            <li><a href="/fluxLabs" target="_blank" rel="noreferrer"> FluxLabs</a></li>
+                            <li><a href="/fluxCarbon" target="_blank" rel="noreferrer"> Carbon Neutrality</a></li>
                             <li><a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></li>
-                            <li><a href="https://www.runonflux.io/roadmap.html"> Roadmap</a></li>
-                            <li><a href="https://www.runonflux.io/team.html"> Team</a></li>
-                            <li><a href="https://docs.runonflux.io/" target="_blank" rel="noreferrer"> Documentation</a></li>
-                            <li><a href="https://www.runonflux.io/partners.html"> Partners</a></li>
+                            <li><Link href="/roadmap"> Roadmap</Link></li>
+                            <li><Link href="/team"> Team</Link></li>
+                            <li><a href="/documentation" target="_blank" rel="noreferrer"> Documentation</a></li>
+                            <li><Link href="/partners"> Partners</Link></li>
                             <li><a href="https://explorer.runonflux.io/" target="_blank" rel="noreferrer"> Block Explorer</a></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
-                        <h5>EXPLORE</h5>
+                        <h5>DEVELOPERS</h5>
                         <ul>
-                            <li><a href="https://jetpack2.app.runonflux.io/hello.html" target="_blank" rel="noreferrer" >App</a></li>
-                            <li><a href="https://medium.com/zelinsights/zelnode-setup-the-easy-peasy-lemon-squeezy-way-fd89706ea03c" target="_blank" rel="noreferrer"> Node</a></li>
-                            <li><a href="https://www.runonflux.io/mining.html"> Miner</a></li>
-                            <li><a href="https://runonflux.io/flux.html#exchanges"> Buy Flux</a></li>
+                            <li><a href="https://medium.com/zelinsights/zelnode-setup-the-easy-peasy-lemon-squeezy-way-fd89706ea03c" target="_blank" rel="noreferrer"> Fluxnode Startup Guide</a></li>
+                            <li><Link href="/mining"> Mining</Link></li>
+                            <li><Link href="/flux#exchanges"> Buy Flux</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
                         <h5>COMMUNITY</h5>
                         <ul>
-                            <li><a href={'/blog'}>Blog</a></li>
+                            <li><Link href="/blog">Blog</Link></li>
                             <li><a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer">Github</a></li>
                             <li><a href="https://github.com/RunOnFlux/press" target="_blank" rel="noreferrer">Brand Assets</a></li>
-                            <li><a href={'/careers'}>Careers</a></li>
-                            <li><a href={'/bugBountyProgram'}>Bug bounty</a></li>
-                            <li><a href={'/donate'}>Donate</a></li>
+                            <li><Link href="/careers">Careers</Link></li>
+                            <li><Link href="/bugBountyProgram">Bug bounty</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -102,7 +100,7 @@ export function Footer(){
                         <h3><a href={'/privacyPolicy'} rel="noreferrer">Privacy Policy</a></h3>
                     </div>
                     <div className="col-lg-2 col-md-4 col-4">
-                        <h3><a href="https://www.runonflux.io/bug-bounty-program.html"rel="noreferrer">Bug Bounty Program</a></h3>
+                        <h3><a href="/bugBountyProgram" target="_blank" rel="noreferrer">Bug Bounty Program</a></h3>
                     </div>
                 </div>
             </div>

@@ -160,203 +160,203 @@ export function Social() {
                 <div className={styles.parent}>
                     <div className={styles.div1}> 
                         <div className={styles.ambCard}>
-                            <Image src={indonesia} className={styles.ambCardImg}></Image>
+                            <Image src={indonesia} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Indonesia Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxIndonesia"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxIndonesia"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div>
                     </div>
                     <div className={styles.div2}> 
                         <div className={styles.ambCard}>
-                            <Image src={bulgaria} className={styles.ambCardImg}></Image>
+                            <Image src={bulgaria} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Bulgaria Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxBulgaria"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxBulgaria"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div>
                     </div>
                     <div className={styles.div3}> 
                         <div className={styles.ambCard}>
-                            <Image src={canada} className={styles.ambCardImg}></Image>
+                            <Image src={canada} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Canada Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxCanada"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxCanada"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div>
                     </div>
                     <div className={styles.div4}> 
                         <div className={styles.ambCard}>
-                            <Image src={china} className={styles.ambCardImg}></Image>
+                            <Image src={china} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> China Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/Flux_Chinese"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/Flux_Chinese"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div>
                     </div>
                     <div className={styles.div5}> 
                         <div className={styles.ambCard}>
-                            <Image src={croatia} className={styles.ambCardImg}></Image>
+                            <Image src={croatia} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Croatia Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/Flux_Croatia"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/Flux_Croatia"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div>
                     </div>
                     <div className={styles.div6}> 
                         <div className={styles.ambCard}>
-                            <Image src={czech} className={styles.ambCardImg}></Image>
+                            <Image src={czech} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Czech Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/Flux_CzSk"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/Flux_CzSk"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div>
                     </div>
                     <div className={styles.div7}> 
                         <div className={styles.ambCard}>
-                            <Image src={nederland} className={styles.ambCardImg}></Image>
+                            <Image src={nederland} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Nederland Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxNederland"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxNederland"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div>
                     </div>
                     <div className={styles.div8}> 
                         <div className={styles.ambCard}>
-                            <Image src={persian} className={styles.ambCardImg}></Image>
+                            <Image src={persian} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Persian Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/Fluxpersian"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/Fluxpersian"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div9}> 
                         <div className={styles.ambCard}>
-                            <Image src={germany} className={styles.ambCardImg}></Image>
+                            <Image src={germany} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Deutsch Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxDeutsch"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxDeutsch"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div>
                     </div>
                     <div className={styles.div10}> 
                         <div className={styles.ambCard}>
-                            <Image src={greece} className={styles.ambCardImg}></Image>
+                            <Image src={greece} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Greek Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxHellas"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxHellas"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div>
                     </div>
                     <div className={styles.div11}> 
                         <div className={styles.ambCard}>
-                            <Image src={france} className={styles.ambCardImg}></Image>
+                            <Image src={france} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> France Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/Flux_France"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/Flux_France"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div12}> 
                         <div className={styles.ambCard}>
-                            <Image src={india} className={styles.ambCardImg}></Image>
+                            <Image src={india} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> India Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxIndonesia"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxIndonesia"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div13}> 
                         <div className={styles.ambCard}>
-                            <Image src={italy} className={styles.ambCardImg}></Image>
+                            <Image src={italy} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Italy Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/ItaliaFlux"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/ItaliaFlux"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div14}> 
                         <div className={styles.ambCard}>
-                            <Image src={japan} className={styles.ambCardImg}></Image>
+                            <Image src={japan} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Japan Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/japan_flux"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/japan_flux"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div15}> 
                         <div className={styles.ambCard}>
-                            <Image src={pakistan} className={styles.ambCardImg}></Image>
+                            <Image src={pakistan} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Pakistan Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxPakistan"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxPakistan"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div16}> 
                         <div className={styles.ambCard}>
-                            <Image src={poland} className={styles.ambCardImg}></Image>
+                            <Image src={poland} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Poland Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxPoland"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxPoland"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div17}> 
                         <div className={styles.ambCard}>
-                            <Image src={portugal} className={styles.ambCardImg}></Image>
+                            <Image src={portugal} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Português Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxPortugues"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxPortugues"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div18}> 
                         <div className={styles.ambCard}>
-                            <Image src={romania} className={styles.ambCardImg}></Image>
+                            <Image src={romania} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Romenia Ambassador</p>
                             <div className={styles.links}>
-                                <a href=""><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href=""><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div19}> 
                         <div className={styles.ambCard}>
-                            <Image src={russia} className={styles.ambCardImg}></Image>
+                            <Image src={russia} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Russian Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/RussianFlux"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/RussianFlux"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div20}> 
                         <div className={styles.ambCard}>
-                            <Image src={spain} className={styles.ambCardImg}></Image>
+                            <Image src={spain} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Espanõl Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxEspanol"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxEspanol"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div21}> 
                         <div className={styles.ambCard}>
-                            <Image src={thailand} className={styles.ambCardImg}></Image>
+                            <Image src={thailand} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Thailand Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxThailand"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxThailand"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div22}> 
                         <div className={styles.ambCard}>
-                            <Image src={venezuela} className={styles.ambCardImg}></Image>
+                            <Image src={venezuela} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Venezuela Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxVenezuela"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxVenezuela"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div23}> 
                         <div className={styles.ambCard}>
-                            <Image src={vietnam} className={styles.ambCardImg}></Image>
+                            <Image src={vietnam} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Vietnam Ambassador</p>
                             <div className={styles.links}>
-                                <a href="https://twitter.com/FluxVietNam"><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href="https://twitter.com/FluxVietNam"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                     <div className={styles.div24}> 
                         <div className={styles.ambCard}>
-                            <Image src={arabic} className={styles.ambCardImg}></Image>
+                            <Image src={arabic} className={styles.ambCardImg} alt=""></Image>
                             <p className={styles.ambText}>Flux Official <br></br> Arabic Ambassador</p>
                             <div className={styles.links}>
-                                <a href=""><Image  className={styles.noBord} src={icon_twitter}></Image></a>
+                                <a href=""><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div></div>
                 </div>

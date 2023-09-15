@@ -191,7 +191,7 @@ export function Flux() {
                             nodes, and fuel transactions on FluxOS. It rewards both miners for validating transactions and FluxNode
                             operators for providing computational resources</div>
                         <br></br>
-                        <a href="https://fluxwhitepaper.app.runonflux.io/" className={styles.btnBlue}>Whitepaper</a>
+                        <a href="https://whitepaper.app.runonflux.io/" className={styles.btnBlue}>Whitepaper</a>
                         <a href="https://docs.runonflux.io/" className={styles.btn}>Docs</a>
                     </div>
                     <div className={styles.headerright}>
@@ -202,7 +202,7 @@ export function Flux() {
                 <div className={styles.headerInfo}>
                     <div className={styles.infoCard}>
                         <div className={styles.iconCircle}>
-                            <Image src={icon1}></Image>
+                            <Image src={icon1} alt=""></Image>
                         </div>
                         <div className={styles.infoCardText}>
                             <div className={styles.blue}>25.4M+</div>
@@ -212,7 +212,7 @@ export function Flux() {
                     </div>
                     <div className={styles.infoCardMiddle}>
                         <div className={styles.iconCircle}>
-                            <Image src={icon2}></Image>
+                            <Image src={icon2} alt=""></Image>
                         </div>
                         <div className={styles.infoCardText}>
                             <div className={styles.blue}>4.6M+ Ts/s</div>
@@ -222,7 +222,7 @@ export function Flux() {
                     </div>
                     <div className={styles.infoCard}>
                         <div className={styles.iconCircle}>
-                            <Image src={icon3}></Image>
+                            <Image src={icon3} alt=""></Image>
                         </div>
                         <div className={styles.infoCardText}>
                             <div className={styles.blue}>342k+</div>
@@ -295,7 +295,7 @@ export function Flux() {
                 <div className={styles.div1}> 
                     <div className={styles.statCard}>
                         <div className={styles.statImgContainer}>
-                            <Image src={icon4} className={styles.statImg}></Image>
+                            <Image src={icon4} className={styles.statImg} alt=""></Image>
                         </div>
                         <div className={styles.smallBlackText}>Hashing Algorithm</div>
                         <div className={styles.subTitle2}>FLUXPoUW</div>
@@ -305,7 +305,7 @@ export function Flux() {
                 <div className={styles.div2}> 
                     <div className={styles.statCard}>
                         <div className={styles.statImgContainer}>
-                            <Image src={icon5} className={styles.statImg}></Image>
+                            <Image src={icon5} className={styles.statImg} alt=""></Image>
                         </div>
                         <div className={styles.smallBlackText}>Block Reward</div>
                         <div className={styles.subTitle2}>37.5 FLUX</div>
@@ -314,7 +314,7 @@ export function Flux() {
                 <div className={styles.div3}> 
                     <div className={styles.statCard}>
                         <div className={styles.statImgContainer}>
-                            <Image src={icon6} className={styles.statImg}></Image>
+                            <Image src={icon6} className={styles.statImg} alt=""></Image>
                         </div>
                         <div className={styles.smallBlackText}>Reward Distribution</div>
                         <div className={styles.subTitle2}>50% POW - 50% NODE</div>
@@ -323,7 +323,7 @@ export function Flux() {
                 <div className={styles.div4}> 
                     <div className={styles.statCard}>
                         <div className={styles.statImgContainer}>
-                            <Image src={icon7} className={styles.statImg}></Image>
+                            <Image src={icon7} className={styles.statImg} alt=""></Image>
                         </div>
                         <div className={styles.smallBlackText}>Block Time</div>
                         <div className={styles.subTitle2}>2 MINUTES</div>
@@ -332,7 +332,7 @@ export function Flux() {
                 <div className={styles.div5}> 
                     <div className={styles.statCard}>
                         <div className={styles.statImgContainer}>
-                            <Image src={icon8} className={styles.statImg}></Image>
+                            <Image src={icon8} className={styles.statImg} alt=""></Image>
                         </div>
                         <div className={styles.smallBlackText}>Max Supply</div>
                         <div className={styles.subTitle2}>440,000,000</div>
@@ -341,7 +341,7 @@ export function Flux() {
                 <div className={styles.div6}> 
                     <div className={styles.statCard}>
                         <div className={styles.statImgContainer}>
-                            <Image src={icon9} className={styles.statImg}></Image>
+                            <Image src={icon9} className={styles.statImg} alt=""></Image>
                         </div>
                         <div className={styles.smallBlackText}>Halving</div>
                         <div className={styles.subTitle2}>2,5 YEARS</div>
@@ -368,38 +368,38 @@ export function Flux() {
             <div className={styles.tron}>
                 <div className={styles.tronImgCont}>
                     <div className={styles.linelogoclass}>
-                        <Image src={lineLogos}></Image>
+                        <Image src={lineLogos} alt=""></Image>
                     </div>
                     {/* <div className={styles.fluxlogo}>
-                        <Image src={icon10}></Image>
+                        <Image src={icon10} alt=""></Image>
                     </div> */}
                     {/* <div className={styles.lineConecter}>
-                        <Image src={lineConecter}></Image>
+                        <Image src={lineConecter} alt=""></Image>
                     </div>
                     <div className={styles.logoLinks}>
                         <a className={styles.circles}>
-                            <Image src={icon11}></Image>
+                            <Image src={icon11} alt=""></Image>
                         </a>
                         <a className={styles.circles2}>
-                            <Image src={icon12}></Image>
+                            <Image src={icon12} alt=""></Image>
                         </a>
                         <a className={styles.circles3}>
-                            <Image src={icon13}></Image>
+                            <Image src={icon13} alt=""></Image>
                         </a>
                         <a className={styles.circles4}>
-                            <Image src={icon14}></Image>
+                            <Image src={icon14} alt=""></Image>
                         </a>
                         <a className={styles.circles5}>
-                            <Image src={icon15}></Image>
+                            <Image src={icon15} alt=""></Image>
                         </a>
                         <a className={styles.circles6}>
-                            <Image src={icon16}></Image>
+                            <Image src={icon16} alt=""></Image>
                         </a>
                         <a className={styles.circles7}>
-                            <Image src={icon17}></Image>
+                            <Image src={icon17} alt=""></Image>
                         </a>
                         <a className={styles.circles8}>
-                            <Image src={icon18}></Image>
+                            <Image src={icon18} alt=""></Image>
                         </a>
                     </div> */}
                 </div>
@@ -419,7 +419,7 @@ export function Flux() {
                         decentralization. Other essential elements of the Flux Ecosystem include Flux Cloud, FluxNodes, and various
                         decentralized applications (dApps) that operate on the Flux network.</div></div>
                
-                <Image src={ecosystemImg}></Image>
+                <Image src={ecosystemImg} alt=""></Image>
             </div>
 
             <div className={styles.exchanges} id="exchanges">
@@ -448,7 +448,7 @@ export function Flux() {
                         <div className={styles.div1}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon19}></Image>
+                                    <Image src={icon19} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Coinmetro
@@ -460,7 +460,7 @@ export function Flux() {
                         <div className={styles.div2}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon20}></Image>
+                                    <Image src={icon20} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     KuCoin
@@ -473,7 +473,7 @@ export function Flux() {
                         <div className={styles.div3}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon17}></Image>
+                                    <Image src={icon17} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Binance
@@ -485,7 +485,7 @@ export function Flux() {
                         <div className={styles.div4}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image className={styles.autoHeight} src={icon21}></Image>
+                                    <Image className={styles.autoHeight} src={icon21} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Onus
@@ -497,7 +497,7 @@ export function Flux() {
                         <div className={styles.div5}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon22}></Image>
+                                    <Image src={icon22} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     STEX
@@ -509,7 +509,7 @@ export function Flux() {
                         <div className={styles.div6}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon23}></Image>
+                                    <Image src={icon23} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Gate.io
@@ -520,7 +520,7 @@ export function Flux() {
                         <div className={styles.div7}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon24}></Image>
+                                    <Image src={icon24} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     CoinEx
@@ -531,7 +531,7 @@ export function Flux() {
                         <div className={styles.div8}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image className={styles.autoHeight} src={icon82}></Image>
+                                    <Image className={styles.autoHeight} src={icon82} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     TRADEOGRE
@@ -542,7 +542,7 @@ export function Flux() {
                         <div className={styles.div9}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon25}></Image>
+                                    <Image src={icon25} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     PancakeSwap
@@ -553,7 +553,7 @@ export function Flux() {
                         <div className={styles.div10}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image className={styles.autoHeight} src={icon26}></Image>
+                                    <Image className={styles.autoHeight} src={icon26} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     UNISWAP
@@ -564,7 +564,7 @@ export function Flux() {
                         <div className={styles.div11}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon27}></Image>
+                                    <Image src={icon27} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     HotBit
@@ -575,7 +575,7 @@ export function Flux() {
                         <div className={styles.div12}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon28}></Image>
+                                    <Image src={icon28} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Tokok
@@ -587,7 +587,7 @@ export function Flux() {
                         <div className={styles.div1}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon29}></Image>
+                                    <Image src={icon29} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     SafeTrade
@@ -598,7 +598,7 @@ export function Flux() {
                         <div className={styles.div2}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image className={styles.autoHeight} src={icon30}></Image>
+                                    <Image className={styles.autoHeight} src={icon30} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Citex
@@ -609,7 +609,7 @@ export function Flux() {
                         <div className={styles.div3}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon31}></Image>
+                                    <Image src={icon31} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     BitForex
@@ -620,7 +620,7 @@ export function Flux() {
                         <div className={styles.div4}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon32}></Image>
+                                    <Image src={icon32} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Bittrex
@@ -631,7 +631,7 @@ export function Flux() {
                         <div className={styles.div5}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image className={styles.autoHeight} src={icon33}></Image>
+                                    <Image className={styles.autoHeight} src={icon33} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Bitrue
@@ -642,7 +642,7 @@ export function Flux() {
                         <div className={styles.div6}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image className={styles.autoHeight} src={icon34}></Image>
+                                    <Image className={styles.autoHeight} src={icon34} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Bitkan
@@ -653,7 +653,7 @@ export function Flux() {
                         <div className={styles.div7}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon35}></Image>
+                                    <Image src={icon35} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     ZT Global
@@ -664,7 +664,7 @@ export function Flux() {
                         <div className={styles.div8}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon36}></Image>
+                                    <Image src={icon36} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Mandala
@@ -675,7 +675,7 @@ export function Flux() {
                         <div className={styles.div9}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon37}></Image>
+                                    <Image src={icon37} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -686,7 +686,7 @@ export function Flux() {
                         <div className={styles.div10}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon38}></Image>
+                                    <Image src={icon38} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -697,7 +697,7 @@ export function Flux() {
                         <div className={styles.div11}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon39}></Image>
+                                    <Image src={icon39} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -708,7 +708,7 @@ export function Flux() {
                         <div className={styles.div12}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image className={styles.autoHeight} src={icon40}></Image>
+                                    <Image className={styles.autoHeight} src={icon40} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Attlas
@@ -721,7 +721,7 @@ export function Flux() {
                         <div className={styles.div1}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon41}></Image>
+                                    <Image src={icon41} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Sevenb
@@ -732,7 +732,7 @@ export function Flux() {
                         <div className={styles.div2}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon42}></Image>
+                                    <Image src={icon42} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -743,7 +743,7 @@ export function Flux() {
                         <div className={styles.div3}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon43}></Image>
+                                    <Image src={icon43} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -754,7 +754,7 @@ export function Flux() {
                         <div className={styles.div4}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon44}></Image>
+                                    <Image src={icon44} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     ExchangeAssets
@@ -765,7 +765,7 @@ export function Flux() {
                         <div className={styles.div5}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon45}></Image>
+                                    <Image src={icon45} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Hitbtc
@@ -776,7 +776,7 @@ export function Flux() {
                         <div className={styles.div6}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image className={styles.autoHeight} src={icon46}></Image>
+                                    <Image className={styles.autoHeight} src={icon46} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     LBank
@@ -787,7 +787,7 @@ export function Flux() {
                         <div className={styles.div7}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image className={styles.autoHeight} src={icon47}></Image>
+                                    <Image className={styles.autoHeight} src={icon47} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -798,7 +798,7 @@ export function Flux() {
                         <div className={styles.div8}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon48}></Image>
+                                    <Image src={icon48} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     SerumDex
@@ -809,7 +809,7 @@ export function Flux() {
                         <div className={styles.div9}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image className={styles.autoHeight} src={icon49}></Image>
+                                    <Image className={styles.autoHeight} src={icon49} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     BKEX
@@ -825,7 +825,7 @@ export function Flux() {
                         <div className={styles.div1}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon50}></Image>
+                                    <Image src={icon50} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Bolsadx
@@ -836,7 +836,7 @@ export function Flux() {
                         <div className={styles.div2}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image className={styles.autoHeight} src={icon51}></Image>
+                                    <Image className={styles.autoHeight} src={icon51} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Coinone
@@ -847,7 +847,7 @@ export function Flux() {
                         <div className={styles.div3}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon52}></Image>
+                                    <Image src={icon52} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     InstaSwap
@@ -858,7 +858,7 @@ export function Flux() {
                         <div className={styles.div4}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image className={styles.autoHeight} src={icon53}></Image>
+                                    <Image className={styles.autoHeight} src={icon53} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Changelly
@@ -869,7 +869,7 @@ export function Flux() {
                         <div className={styles.div5}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image className={styles.vert} src={icon54}></Image>
+                                    <Image className={styles.vert} src={icon54} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -880,7 +880,7 @@ export function Flux() {
                         <div className={styles.div6}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon55}></Image>
+                                    <Image src={icon55} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                 </div>
@@ -890,7 +890,7 @@ export function Flux() {
                         <div className={styles.div7}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon56}></Image>
+                                    <Image src={icon56} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -901,7 +901,7 @@ export function Flux() {
                         <div className={styles.div8}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon57}></Image>
+                                    <Image src={icon57} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -912,7 +912,7 @@ export function Flux() {
                         <div className={styles.div9}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon58}></Image>
+                                    <Image src={icon58} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Binance.us
@@ -923,7 +923,7 @@ export function Flux() {
                         <div className={styles.div10}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon59}></Image>
+                                    <Image src={icon59} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -934,7 +934,7 @@ export function Flux() {
                         <div className={styles.div11}> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon60}></Image>
+                                    <Image src={icon60} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -945,7 +945,7 @@ export function Flux() {
                         <div className={styles.div12}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image className={styles.autoHeight} src={icon61}></Image>
+                                    <Image className={styles.autoHeight} src={icon61} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -957,7 +957,7 @@ export function Flux() {
                         <div className={styles.div1}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon62}></Image>
+                                    <Image src={icon62} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -968,7 +968,7 @@ export function Flux() {
                         <div className={styles.div2}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon63}></Image>
+                                    <Image src={icon63} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -979,7 +979,7 @@ export function Flux() {
                         <div className={styles.div3}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon64}></Image>
+                                    <Image src={icon64} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -990,7 +990,7 @@ export function Flux() {
                         <div className={styles.div4}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon65}></Image>
+                                    <Image src={icon65} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1001,7 +1001,7 @@ export function Flux() {
                         <div className={styles.div5}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon66}></Image>
+                                    <Image src={icon66} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1012,7 +1012,7 @@ export function Flux() {
                         <div className={styles.div6}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image className={styles.autoHeight} src={icon67}></Image>
+                                    <Image className={styles.autoHeight} src={icon67} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1023,7 +1023,7 @@ export function Flux() {
                         <div className={styles.div7}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon68}></Image>
+                                    <Image src={icon68} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1034,7 +1034,7 @@ export function Flux() {
                         <div className={styles.div8}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon69}></Image>
+                                    <Image src={icon69} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1045,7 +1045,7 @@ export function Flux() {
                         <div className={styles.div9}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon70}></Image>
+                                    <Image src={icon70} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1056,7 +1056,7 @@ export function Flux() {
                         <div className={styles.div10}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon71}></Image>
+                                    <Image src={icon71} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1067,7 +1067,7 @@ export function Flux() {
                         <div className={styles.div11}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon72}></Image>
+                                    <Image src={icon72} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1078,7 +1078,7 @@ export function Flux() {
                         <div className={styles.div12}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon73}></Image>
+                                    <Image src={icon73} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1091,7 +1091,7 @@ export function Flux() {
                         <div className={styles.div1}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon74}></Image>
+                                    <Image src={icon74} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1102,7 +1102,7 @@ export function Flux() {
                         <div className={styles.div2}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon75}></Image>
+                                    <Image src={icon75} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1113,7 +1113,7 @@ export function Flux() {
                         <div className={styles.div3}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon76}></Image>
+                                    <Image src={icon76} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1124,7 +1124,7 @@ export function Flux() {
                         <div className={styles.div4}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon77}></Image>
+                                    <Image src={icon77} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1135,7 +1135,7 @@ export function Flux() {
                         <div className={styles.div5}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon78}></Image>
+                                    <Image src={icon78} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1146,7 +1146,7 @@ export function Flux() {
                         <div className={styles.div6}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon79}></Image>
+                                    <Image src={icon79} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1157,7 +1157,7 @@ export function Flux() {
                         <div className={styles.div7}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image src={icon80}></Image>
+                                    <Image src={icon80} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1168,7 +1168,7 @@ export function Flux() {
                         <div className={styles.div8}> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image className={styles.autoHeight} src={icon81}></Image>
+                                    <Image className={styles.autoHeight} src={icon81} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
@@ -1208,7 +1208,7 @@ export function Flux() {
                         <div className={styles.div1}> 
                             <div className={styles.walletCard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon19}></Image>
+                                    <Image src={icon19} alt=""></Image>
                                 </div>
                                 <div className={styles.walletText}>
                                     Coinmetro
@@ -1219,7 +1219,7 @@ export function Flux() {
                         <div className={styles.div2}> 
                         <div className={styles.walletCard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon19}></Image>
+                                    <Image src={icon19} alt=""></Image>
                                 </div>
                                 <div className={styles.walletText}>
                                     Coinmetro
@@ -1230,7 +1230,7 @@ export function Flux() {
                         <div className={styles.div3}> 
                         <div className={styles.walletCard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon19}></Image>
+                                    <Image src={icon19} alt=""></Image>
                                 </div>
                                 <div className={styles.walletText}>
                                     Coinmetro
@@ -1241,7 +1241,7 @@ export function Flux() {
                         <div className={styles.div4}> 
                             <div className={styles.walletCard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon19}></Image>
+                                    <Image src={icon19} alt=""></Image>
                                 </div>
                                 <div className={styles.walletText}>
                                     Coinmetro
@@ -1252,7 +1252,7 @@ export function Flux() {
                         <div className={styles.div5}> 
                             <div className={styles.walletCard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon19}></Image>
+                                    <Image src={icon19} alt=""></Image>
                                 </div>
                                 <div className={styles.walletText}>
                                     Coinmetro
@@ -1263,7 +1263,7 @@ export function Flux() {
                         <div className={styles.div6}> 
                         <div className={styles.walletCard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon19}></Image>
+                                    <Image src={icon19} alt=""></Image>
                                 </div>
                                 <div className={styles.walletText}>
                                     Coinmetro
@@ -1274,7 +1274,7 @@ export function Flux() {
                         <div className={styles.div7}> 
                             <div className={styles.walletCard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon19}></Image>
+                                    <Image src={icon19} alt=""></Image>
                                 </div>
                                 <div className={styles.walletText}>
                                     Coinmetro
@@ -1285,7 +1285,7 @@ export function Flux() {
                         <div className={styles.div8}> 
                             <div className={styles.walletCard}>
                                 <div className={styles.circle}>
-                                    <Image src={icon19}></Image>
+                                    <Image src={icon19} alt=""></Image>
                                 </div>
                                 <div className={styles.walletText}>
                                     Coinmetro
