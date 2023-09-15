@@ -18,7 +18,7 @@ import card03 from "../../public/images/fluxcarbon-images/card2-03.png"
 export function FluxCarbonPage(){
     return(
         <React.Fragment>
-            <section className={styles.section1}>
+            <section className={styles.section1} id="home">
                 <div className="container">
                    <div className="row">
                         <div className="col-12">
@@ -40,7 +40,7 @@ export function FluxCarbonPage(){
                    </div>
                 </div>
             </section>
-            <section className={styles.section2}>
+            <section className={styles.section2} id="about">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -57,7 +57,7 @@ export function FluxCarbonPage(){
                         <div className="col-lg-6 col-md-12">
                             <h3>Road to <span>Net Carbon Zero</span></h3><br/>
                             <p>The Flux ethos also extends to responsibly utilizing energy. It does so through active development and innovation.</p><br/>
-                            <a className={styles.nav3LinkBtn} href="#"> Read more</a>
+                            <a target="_blank" rel="noreferrer" className={styles.nav3LinkBtn} href="https://fluxofficial.medium.com/building-a-sustainable-blockchain-proof-of-useful-work-academic-on-flux-fd78ce3f20c8"> Read more</a>
                         </div>
                     </div>
                     <div className="row" style={{marginBottom: "100px"}}>
@@ -131,7 +131,7 @@ export function FluxCarbonPage(){
                                 <div className={styles.cardContent}>
                                 <h5>PoUW: A Game Changer for Proof of Work and Blockchain</h5>
                                 <p>Proof of Work is a mechanism that allows decentralized networks to achieve consensus by solving a cryptographic puzzle. Its reliance on computational strength has also stood the test of time, making it a reliable system that confers robust security and resilience against attacks.</p>
-                                <a href="#">/ read more</a>    
+                                <a target="_blank" rel="noreferrer" href="https://fluxofficial.medium.com/pouw-a-game-changer-for-proof-of-work-and-blockchain-56f402dca66f">/ read more</a>    
                                 </div>
                               
                             </div>
@@ -144,12 +144,12 @@ export function FluxCarbonPage(){
                                 <div className={styles.cardContent}>
                                 <h5>Flux Signs The Supporter Letter to Crypto Climate Accord.</h5>
                                 <p>Flux is pioneering ‘Proof of Useful Work,’ new sustainable technology for Proof of Work blockchains. Flux is always looking for like-minded partners that share the Flux ethos and the passion for innovation. Flux is signing the support letter to Crypto Climate Accord to forge new partnerships in the quest for environmentally sustainable blockchains.</p>
-                                <a href="#">/ read more</a>        
+                                <a target="_blank" rel="noreferrer" href="https://fluxofficial.medium.com/flux-signs-the-supporter-letter-to-crypto-climate-accord-61c87ad445e2">/ read more</a>        
                                  </div>
                               
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-5" id="contact">
                             <div className={styles.card2}>
                                 <a href="#" className={styles.img2Container}>
                                     <Image alt="img" src={card01}/>
@@ -157,7 +157,7 @@ export function FluxCarbonPage(){
                                 <div className={styles.cardContent}>
                                 <h5>Flux and a Sustainable Future in Blockchain and Cloud Computing.</h5>
                                 <p>All blockchain has a shared responsibility of building environmentally sustainable technology. Flux is actively developing sustainable solutions for proof of work and cloud computing. Flux believes that blockchain is not the cause of environmental problems but that it instead can provide solutions that will ultimately create more energy-efficient solutions than legacy technology can.</p>
-                                <a href="#">/ read more</a>       
+                                <a target="_blank" rel="noreferrer" href="https://fluxofficial.medium.com/flux-and-a-sustainable-future-in-blockchain-and-cloud-computing-9669b124a49d">/ read more</a>       
                                 </div>
                               
                             </div>

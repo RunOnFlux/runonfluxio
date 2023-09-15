@@ -46,21 +46,20 @@ export function NavBar1(){
            <Navbar className={styles.navBar1} expand="lg"  collapseOnSelect variant="dark" fixed="top">    
              <Container>
                 <Navbar.Brand>
-                    <Link href={'/'} className={styles.link4}><Image alt="logo" src={Logo}  style={{width: "auto", height: "35px"}}/></Link>
+                    <Link href={'#home'} className={styles.link4}><Image alt="logo" src={Logo}  style={{width: "auto", height: "35px"}}/></Link>
                     </Navbar.Brand>
                   
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto">
                     <Navbar.Brand>
-                      <Link href={'/home'} className={styles.nav2Link}>Home</Link>
+                      <Link href={'/'} className={styles.nav2Link}>Home</Link>
                     </Navbar.Brand>
                     <Navbar.Brand>
-                      <Link href={'/about'}  className={styles.nav2Link}>About</Link>
+                      <Link href={'#about'}  className={styles.nav2Link}>About</Link>
                     </Navbar.Brand> 
                     <Navbar.Brand>
-                      <Link href={'/contact'}  className={styles.nav2Link}>Contact</Link>
+                      <Link href={'#contact'}  className={styles.nav2Link}>Contact</Link>
                     </Navbar.Brand>       
                 </Nav>
                 <Nav className="mr-auto">
@@ -80,7 +79,7 @@ export function NavBar1(){
              <div className="navbar2">
            <Navbar className={styles.navBar1} expand="lg"  collapseOnSelect variant="dark" fixed="top">    
                 <Navbar.Brand>
-                    <Link href={'/'} className={styles.link4}><Image alt="logo" src={Logo}  style={{width: "auto", height: "35px"}}/></Link>
+                    <Link href={'#home'} className={styles.link4}><Image alt="logo" src={Logo}  style={{width: "auto", height: "35px"}}/></Link>
                     </Navbar.Brand>
                     <Nav className="mx-auto d-block d-lg-none">
                     <Navbar.Brand>
@@ -93,13 +92,13 @@ export function NavBar1(){
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto">
                     <Navbar.Brand>
-                      <Link href={'/home'} className={styles.nav2Link}>Home</Link>
+                      <Link href={'/'} className={styles.nav2Link}>Home</Link>
                     </Navbar.Brand>
                     <Navbar.Brand>
-                      <Link href={'/about'}  className={styles.nav2Link}>About</Link>
+                      <Link href={'#about'}  className={styles.nav2Link}>About</Link>
                     </Navbar.Brand> 
                     <Navbar.Brand>
-                      <Link href={'/contact'}  className={styles.nav2Link}>Contact</Link>
+                      <Link href={'#contact'}  className={styles.nav2Link}>Contact</Link>
                     </Navbar.Brand>       
                 </Nav>
                 <Nav className="mr-auto d-none d-lg-block">

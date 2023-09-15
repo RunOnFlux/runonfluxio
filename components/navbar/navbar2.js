@@ -46,7 +46,7 @@ export function NavBar2(){
            <Navbar className={styles.navBar2} expand="lg"  collapseOnSelect variant="dark" fixed="top">    
              <Container>
                 <Navbar.Brand>
-                    <Link href={'/'} className={styles.link4}><Image alt="logo" src={Logo}  style={{width: "auto", height: "35px"}}/></Link>
+                    <Link href={'#home'} className={styles.link4}><Image alt="logo" src={Logo}  style={{width: "auto", height: "35px"}}/></Link>
                     </Navbar.Brand>
                   
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -54,18 +54,18 @@ export function NavBar2(){
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto">
                     <Navbar.Brand>
-                      <Link href={'/home'} className={styles.nav3Link}>Home</Link>
+                      <Link href={'/'} className={styles.nav3Link}>Home</Link>
                     </Navbar.Brand>
                     <Navbar.Brand>
-                      <Link href={'/about'}  className={styles.nav3Link}>About</Link>
+                      <Link href={'#about'}  className={styles.nav3Link}>About</Link>
                     </Navbar.Brand> 
                     <Navbar.Brand>
-                      <Link href={'/contact'}  className={styles.nav3Link}>Contact</Link>
+                      <Link href={'#contact'}  className={styles.nav3Link}>Contact</Link>
                     </Navbar.Brand>       
                 </Nav>
                 <Nav className="mr-auto">
                     <Navbar.Brand>
-                      <Link href={'/apply'} className={styles.nav3LinkBtn}>JOIN US</Link>
+                      <Link href={'/apply2'} className={styles.nav3LinkBtn}>JOIN US</Link>
                     </Navbar.Brand>
                         
                 </Nav>
@@ -80,11 +80,11 @@ export function NavBar2(){
              <div className="navbar2">
            <Navbar className={styles.navBar2} expand="lg"  collapseOnSelect variant="dark" fixed="top">    
                 <Navbar.Brand>
-                    <Link href={'/'} className={styles.link4}><Image alt="logo" src={Logo}  style={{width: "auto", height: "35px"}}/></Link>
+                    <Link href={'#home'} className={styles.link4}><Image alt="logo" src={Logo}  style={{width: "auto", height: "35px"}}/></Link>
                     </Navbar.Brand>
                     <Nav className="mx-auto d-block d-lg-none">
                     <Navbar.Brand>
-                      <Link href={'/apply'} className={styles.nav3LinkBtn}>JOIN US</Link>
+                      <Link href={'/apply2'} className={styles.nav3LinkBtn}>JOIN US</Link>
                     </Navbar.Brand>
                         
                 </Nav>
@@ -93,18 +93,18 @@ export function NavBar2(){
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto">
                     <Navbar.Brand>
-                      <Link href={'/home'} className={styles.nav3Link}>Home</Link>
+                      <Link href={'#home'} className={styles.nav3Link}>Home</Link>
                     </Navbar.Brand>
                     <Navbar.Brand>
-                      <Link href={'/about'}  className={styles.nav3Link}>About</Link>
+                      <Link href={'#about'}  className={styles.nav3Link}>About</Link>
                     </Navbar.Brand> 
                     <Navbar.Brand>
-                      <Link href={'/contact'}  className={styles.nav3Link}>Contact</Link>
+                      <Link href={'#contact'}  className={styles.nav3Link}>Contact</Link>
                     </Navbar.Brand>       
                 </Nav>
                 <Nav className="mr-auto d-none d-lg-block">
                     <Navbar.Brand>
-                      <Link href={'/apply'} className={styles.nav3LinkBtn}>JOIN US</Link>
+                      <Link href={'/apply2'} className={styles.nav3LinkBtn}>JOIN US</Link>
                     </Navbar.Brand>
                         
                 </Nav>

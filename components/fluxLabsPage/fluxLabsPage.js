@@ -47,7 +47,7 @@ import greenStars from "../../public/images/greenyellow-stars.svg"
 export function FluxLabsPage(){
     return(
         <React.Fragment>
-            <section className={styles.section1}>
+            <section className={styles.section1} id="home">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -57,7 +57,7 @@ export function FluxLabsPage(){
                     </div>
                 </div>
             </section>
-            <section className={styles.section2}>
+            <section className={styles.section2} id="about">
                 <div className="container">
                     <div className="row mb-5">
                        <div className="col-12">
@@ -113,127 +113,128 @@ export function FluxLabsPage(){
                     <div className="row">
                         <div className={`${styles.logos} row`}>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo1}/>
+                               <a rel="noreferrer" href="https://paradigmwhitepaper.app.runonflux.io/" target="_blank">  <Image alt="logo" src={logo1}/></a>
+                            
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo2}/>
+                               <a rel="noreferrer" href="https://havenprotocol.org/" target="_blank">  <Image alt="logo" src={logo2}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo3}/>
+                               <a rel="noreferrer" href="https://kaddex.com/" target="_blank">  <Image alt="logo" src={logo3}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo4}/>
+                               <a rel="noreferrer" href="https://docushield.app.runonflux.io/" target="_blank">  <Image alt="logo" src={logo4}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo5}/>
+                               <a rel="noreferrer" href="https://ido.timpi.io/" target="_blank">  <Image alt="logo" src={logo5}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo6}/>
+                               <a rel="noreferrer" href="https://www.kdlaunch.com/#/" target="_blank">  <Image alt="logo" src={logo6}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo7}/>
+                               <a rel="noreferrer" href="https://babena.art/" target="_blank">  <Image alt="logo" src={logo7}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo8}/>
+                               <a rel="noreferrer" href="https://themok.io/" target="_blank">  <Image alt="logo" src={logo8}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo9}/>
+                               <a rel="noreferrer" href="https://chaincade.com/" target="_blank">  <Image alt="logo" src={logo9}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo10}/>
+                               <a rel="noreferrer" href="https://horde.games/" target="_blank">  <Image alt="logo" src={logo10}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo11}/>
+                               <a rel="noreferrer" href="https://coinrequest.io/" target="_blank">  <Image alt="logo" src={logo11}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo12}/>
+                               <a rel="noreferrer" href="https://twitter.com/madmafianft" target="_blank">  <Image alt="logo" src={logo12}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo13}/>
+                               <a rel="noreferrer" href="https://fioprotocol.io/" target="_blank">  <Image alt="logo" src={logo13}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo14}/>
+                               <a rel="noreferrer" href="https://hostnodes.online/" target="_blank">  <Image alt="logo" src={logo14}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo15}/>
+                               <a rel="noreferrer" href="https://www.fluxnodehosting.com/" target="_blank">  <Image alt="logo" src={logo15}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo16}/>
+                               <a rel="noreferrer" href="https://goldietechnodes.com/" target="_blank">  <Image alt="logo" src={logo16}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo17}/>
+                               <a rel="noreferrer" href="https://www.hotcafe.io/" target="_blank">  <Image alt="logo" src={logo17}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo18}/>
+                               <a rel="noreferrer" href="https://kadefi.money/" target="_blank">  <Image alt="logo" src={logo18}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo19}/>
+                               <a rel="noreferrer" href="https://www.arkade.fun/" target="_blank">  <Image alt="logo" src={logo19}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo20}/>
+                               <a rel="noreferrer" href="https://linktr.ee/ragnarfinance" target="_blank">  <Image alt="logo" src={logo20}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo21}/>
+                               <a rel="noreferrer" href="https://kadcarsnft.app.runonflux.io/" target="_blank">  <Image alt="logo" src={logo21}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo22}/>
+                               <a rel="noreferrer" href="https://kadenaweeb.io/" target="_blank">  <Image alt="logo" src={logo22}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo23}/>
+                               <a rel="noreferrer" href="https://www.neoxa.net/" target="_blank">  <Image alt="logo" src={logo23}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo24}/>
+                               <a rel="noreferrer" href="https://fluxofficial.medium.com/fluxlabs-partners-with-the-university-blockchain-alliance-67e69f17c098" target="_blank">  <Image alt="logo" src={logo24}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo25}/>
+                               <a rel="noreferrer" href="https://thecoinlogic.com/" target="_blank">  <Image alt="logo" src={logo25}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo26}/>
+                               <a rel="noreferrer" href="https://cotx-store.com/collections/cotx-fluxnode" target="_blank">  <Image alt="logo" src={logo26}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo27}/>
+                               <a rel="noreferrer" href="https://company.mycointainer.com/flux-ecosystem/" target="_blank">  <Image alt="logo" src={logo27}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo28}/>
+                               <a rel="noreferrer" href="https://hopstair.com/" target="_blank">  <Image alt="logo" src={logo28}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo29}/>
+                               <a rel="noreferrer" href="https://www.mewccrypto.com/" target="_blank">  <Image alt="logo" src={logo29}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo30}/>
+                               <a rel="noreferrer" href="https://medium.com/@alephium/alephium-continues-its-engagement-for-decentralization-and-partners-with-the-cloud-based-f9c5baebe5b2" target="_blank">  <Image alt="logo" src={logo30}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo31}/>
+                               <a rel="noreferrer" href="https://dashboard.fluxrun.dev/" target="_blank">  <Image alt="logo" src={logo31}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo32}/>
+                               <a rel="noreferrer" href="https://bmoblockchain.us/" target="_blank">  <Image alt="logo" src={logo32}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo33}/>
+                               <a rel="noreferrer" href="https://techfleet.org/" target="_blank">  <Image alt="logo" src={logo33}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo34}/>
+                               <a rel="noreferrer" href="https://kadenasecretgarden.com/" target="_blank">  <Image alt="logo" src={logo34}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo35}/>
+                               <a rel="noreferrer" href="https://www.astrid.network/" target="_blank">  <Image alt="logo" src={logo35}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo36}/>
+                               <a rel="noreferrer" href="https://dao.swarms.finance/intro" target="_blank">  <Image alt="logo" src={logo36}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo37}/>
+                               <a rel="noreferrer" href="https://radiantblockchain.org/" target="_blank">  <Image alt="logo" src={logo37}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo38}/>
+                               <a rel="noreferrer" href="https://ledgermail.io/" target="_blank">  <Image alt="logo" src={logo38}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo39}/>
+                               <a rel="noreferrer" href="https://juseyminers.com/" target="_blank">  <Image alt="logo" src={logo39}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo40}/>
+                               <a rel="noreferrer" href="https://vetmeblock.com/" target="_blank">  <Image alt="logo" src={logo40}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                                <Image alt="logo" src={logo41}/>
+                               <a rel="noreferrer" href="https://crypto-elites.club/" target="_blank">  <Image alt="logo" src={logo41}/></a>
                             </div>
                            
                         </div>
@@ -241,7 +242,7 @@ export function FluxLabsPage(){
                 </div>
             </section>
 
-            <section className={styles.section5}>
+            <section className={styles.section5} id="contact">
                 <div className="container">
                     <div className="row mb-5">
                         <h6>WHAT INNOVATORS THINK</h6>
@@ -271,7 +272,7 @@ export function FluxLabsPage(){
                         <h5>BECOME A FLUXIAN</h5>
                         <h3>Apply for <span>FluxLabs</span></h3>
                         <p>Email us at <a href="#">labs@runonflux.io</a> for more information.</p>
-                        <a className={styles.btn} href="#">APPLY NOW</a>
+                        <a className={styles.btn} href={'/apply'}>APPLY NOW</a>
                     </div>
                 </div>
             </section>

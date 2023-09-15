@@ -81,12 +81,12 @@ export function Footer(){
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
                         <h5>COMMUNITY</h5>
                         <ul>
-                            <li><a href="https://www.runonflux.io/blog.html">Blog</a></li>
+                            <li><a href={'/blog'}>Blog</a></li>
                             <li><a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer">Github</a></li>
                             <li><a href="https://github.com/RunOnFlux/press" target="_blank" rel="noreferrer">Brand Assets</a></li>
-                            <li><a href="https://www.runonflux.io/careers.html">Careers</a></li>
-                            <li><a href="https://www.runonflux.io/bug-bounty-program.html">Bug bounty</a></li>
-                            <li><a href="https://www.runonflux.io/donate.html">Donate</a></li>
+                            <li><a href={'/careers'}>Careers</a></li>
+                            <li><a href={'/bugBountyProgram'}>Bug bounty</a></li>
+                            <li><a href={'/donate'}>Donate</a></li>
                         </ul>
                     </div>
                 </div>
@@ -96,13 +96,13 @@ export function Footer(){
                         All rights reserved.</h3>
                     </div>
                     <div className="col-lg-2 col-md-4 col-4">
-                        <h3><a href="https://www.runonflux.io/term-conditions.html" target="_blank" rel="noreferrer">Terms and Conditions</a></h3>
+                        <h3><a href={'/termsandconditions'}  rel="noreferrer">Terms and Conditions</a></h3>
                     </div>
                     <div className="col-lg-2 col-md-4 col-4">
-                        <h3><a href="https://www.runonflux.io/privacy-policy.html" target="_blank" rel="noreferrer">Privacy Policy</a></h3>
+                        <h3><a href={'/privacyPolicy'} rel="noreferrer">Privacy Policy</a></h3>
                     </div>
                     <div className="col-lg-2 col-md-4 col-4">
-                        <h3><a href="https://www.runonflux.io/bug-bounty-program.html" target="_blank" rel="noreferrer">Bug Bounty Program</a></h3>
+                        <h3><a href="https://www.runonflux.io/bug-bounty-program.html"rel="noreferrer">Bug Bounty Program</a></h3>
                     </div>
                 </div>
             </div>
