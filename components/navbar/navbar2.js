@@ -14,28 +14,28 @@ import Rabbit from "../../public/images/rabbit.png"
 
 export function NavBar2(){
 
-    const [show, setShow] = useState(false);
-    const showDropdown = (e)=>{
-        setShow(!show);
-    }
-    const hideDropdown = e => {
-        setShow(false);
-    }
+    // const [show, setShow] = useState(false);
+    // const showDropdown = (e)=>{
+    //     setShow(!show);
+    // }
+    // const hideDropdown = e => {
+    //     setShow(false);
+    // }
 
-    const [navBar, setNavBar] = useState(false);
+    // const [navBar, setNavBar] = useState(false);
 
   
-    useEffect(() => {
-      const changeBackground = () =>{
-        if(window.scrollY >= 50){
-         setNavBar(true);
-        } else{
-         setNavBar(false);
-        }
-     };
+    // useEffect(() => {
+    //   const changeBackground = () =>{
+    //     if(window.scrollY >= 50){
+    //      setNavBar(true);
+    //     } else{
+    //      setNavBar(false);
+    //     }
+    //  };
  
-     window.addEventListener('scroll', changeBackground);
-    });
+    //  window.addEventListener('scroll', changeBackground);
+    // });
   
   
 
