@@ -822,7 +822,7 @@ export function NavBar(){
                                 <div className={styles.topNavLink}> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki</a></div>
                                 <div className={styles.topNavLink}> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">Flux Store </a></div>
                                 <div className={styles.topNavLink}> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></div>
-                                <div className={styles.topNavLink}> <a href="https://support.runonflux.io/">Support</a></div>
+                                <div className={styles.topNavLink}> <a href="https://support.runonflux.io/" target="_blank" >Support</a></div>
                                 <div className={styles.topNavLink}> <a href="mailto:info@runonflux.io?subject=Contact%20Flux!">Contact</a></div>
 
                                 <div className={styles.mobileTopNav}>
