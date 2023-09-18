@@ -10,7 +10,7 @@
     padding: 20px 20px;
     border-radius: 20px;
 }
-p.intro{
+.card p.intro{
     margin-bottom: 13px !important;
 }
 a.readMoreLink h4{
@@ -36,7 +36,7 @@ a.readMoreLink{
     padding: 10px 5px;
     margin-bottom: 0px !important;
 }
-.nameSection h5{
+.card .nameSection h5.name{
     float: left ;
     text-align: left;
     margin-left: 0px;
@@ -52,7 +52,7 @@ a.readMoreLink{
     text-align: right;
     margin-right: auto;
 }
-.card h4{
+.card h4.title{
     margin: 0em auto 0em 0px;
     font-family: Montserrat, sans-serif;
     color: #313457;
@@ -76,7 +76,7 @@ a.readMoreLink{
 }
 
 @media (max-width: 991.98px) {
-    .card h4{
+    .card h4.title{
         margin: 0.2em auto 0em 0px;
         font-family: Montserrat, sans-serif;
         color: #313457;
@@ -102,7 +102,7 @@ a.readMoreLink{
     }
 }
 @media (max-width: 767.98px) {
-    .card h4{
+    .card h4.title{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
         color: #313457;

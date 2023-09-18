@@ -18,13 +18,13 @@ const linkName=readMore?'Read Less << ':'Read More >> '
             <div className={styles.cardImg}> <Image alt="image" src={props.src} layout="responsive"/></div>
            
             <div className={styles.nameSection}>
-                <h5>{props.name}</h5>
+                <h5 className={styles.name}>{props.name}</h5>
                 <div className={styles.icons}>
                 <a href={props.twitterLink}><Image alt="logo" src={twitter} className={styles.icon}/></a>
                 <a href={props.linkedInLink}><Image alt="logo" src={linkedin} className={styles.icon}/></a>
                 </div>
             </div>
-            <h4>{props.title}</h4>
+            <h4 className={styles.title}>{props.title}</h4>
             <p className={styles.intro}>{props.intro}</p>
             {readMore && extraContent}
             <a className={styles.readMoreLink} onClick={()=>{setReadMore(!readMore)}}><h4>{linkName}</h4></a>

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { NavBar } from '../components/navbar/navbar.js'
-import { TermsAndConditionsPage } from '../components/termsandconditionsPage/terms&conditions.js'
+import { TermsAndConditionsPage } from '../components/termsandconditionsPage/termsandconditions.js'
 export default function TermsAndConditions() {
   return (
     <div>

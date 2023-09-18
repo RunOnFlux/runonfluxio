@@ -7,11 +7,11 @@ export function TeamPage(){
     const obj = undefined;
     return(
         <React.Fragment>
-            <section className={styles.team}>
+            <section className={styles.teamFlux}>
                 <div className="container">
                     <div className="row">
                         {/* <h6>MEET</h6> */}
-                        <h4>The <span className={"blue"}>Flux</span> Decentralized Team</h4>
+                        <h3>The <span className={"blue"}>Flux</span> Decentralized Team</h3>
                         <h5>Meet the community members building out the Flux vision of a decentralized world. The team is a decentralized organizational structure or volunteers and leaders that distributes responsibility for daily management task among several departments and individuals. All team members are committed to a decentralized world, and work hard to ensure Flux remains the open source leader in decentralized compute.</h5>
                     </div>
                     <div className="row">
