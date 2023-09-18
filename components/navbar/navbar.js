@@ -736,7 +736,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="57">
-                        <Link href={'/bugBounty'}  className={styles.link} >
+                        <Link href={'/bugBountyProgram'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Bug bounty
                         <br/>
