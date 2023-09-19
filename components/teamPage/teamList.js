@@ -111,7 +111,7 @@ const teamAsset = [
         thumbnail: nolan,
         twitterLink: '',
         linkedInLink: '',
-        title: 'Product Director',
+        title: 'Product Director and Community Member',
         intro: 'Nolan has 15 years working in the automotive, insurance, and IT field to work with innovative projects.',
         description: ' As someone who has worked as an operations analyst they focus on building strong teams, pushing forward lean projects, and working towards continuous process improvement. As an entrepreneur within the crypto community they look forward to helping push Flux to the next level.'
     },
@@ -120,7 +120,7 @@ const teamAsset = [
         thumbnail: luckas,
         twitterLink: '',
         linkedInLink: '',
-        title: 'Buisiness Dev & Exchange Manager',
+        title: 'Buisiness Dev, Exchange Manager and Community Member',
         intro: 'Lukas, a Web3 and blockchain enthusiast since 2018, holds a Bachelors degree in economic science from the University of Basel, Switzerland. ',
         description: 'Leading strategic partnerships, business opportunities, and client relationships, he leverages his deep understanding of blockchain technologies and anticipates emerging trends. Lukas is a passionate advocate of Web3 and blockchain technology, having entered the industry in 2018. He pursued his studies in economic science at the University of Basel, Switzerland, where he obtained his Bachelors degree. Lukas leads a pivotal position in driving the development of strategic partnerships, recognizing emerging business prospects, and nurturing client relationships. With a profound comprehension of diverse blockchain technologies, he demonstrates a keen ability to identify and anticipate emerging trends.'
     },
@@ -291,7 +291,7 @@ const teamAsset = [
         thumbnail: joel,
         twitterLink: 'https://mobile.twitter.com/JoelShorun',
         linkedInLink: 'https://www.linkedin.com/in/joelshorun',
-        title: 'Content writer',
+        title: 'Content writer and Community Member',
         intro: 'Joel helps Web3 companies create content that positions them as a leading authority in the digital space.',
         description: ' Before he joined Flux, Joel worked in other fields, including Healthcare, Digital marketing, and E-commerce.'
     },
@@ -354,7 +354,7 @@ const teamAsset = [
         thumbnail: farid,
         twitterLink: 'https://twitter.com/rainlow9',
         linkedInLink: '',
-        title: 'Marketing Director',
+        title: 'Marketing Director and Community Member',
         intro: 'Farid is a web3 and blockchain enthusiast from the United Kingdom with a degree in international relations and politics from the University of Leicester.',
         description: 'He is deeply passionate about the ethos of decentralisation and the potential it holds for shaping the future of our society. Farid has experience working within marketing and social media in the web3 space, and is dedicated to spreading awareness and understanding of these technologies.'
     },
@@ -363,7 +363,7 @@ const teamAsset = [
         thumbnail: richard,
         twitterLink: '',
         linkedInLink: '',
-        title: 'FluxLabs Manager',
+        title: 'FluxLabs Manager and Community Member',
         intro: 'With 20+ years in business intelligence, Richard has masterfully combined technology, data analytics, and marketing to foster impactful change. ',
         description: 'Recognized for pioneering BI integrations and innovative data strategies, hes been honored with awards like the Bolt Award. Beyond his technical prowess, Richards expertise spans marketing analytics and a passion for Data Sciences and Web 3. He remains a staunch advocate for mentorship, highlighting his comprehensive approach to the field.'
     },
@@ -372,7 +372,7 @@ const teamAsset = [
         thumbnail: carolien,
         twitterLink: '',
         linkedInLink: '',
-        title: 'Executive Assistant to Daniel Keller',
+        title: 'Executive Assistant to Daniel Keller and Community Member',
         intro: 'Carolien is a versatile professional with a wealth of experience.',
         description: 'She excelled as an admin for one of the larger local hospitals in Flanders, Belgium, and later thrived as an office administrator at a prominent PR company in Belgium. Afterward, she embraced her most rewarding role as a dedicated stay-at-home mom of four. Currently, Carolien leverages her organizational skills and attention to detail as Daniels executive assistant, while also lending her expertise to event planning and coordination. Her journey reflects adaptability and a strong work ethic in various capacities.'
     },
@@ -381,7 +381,7 @@ const teamAsset = [
         thumbnail: scott,
         twitterLink: '',
         linkedInLink: '',
-        title: 'Business Developer',
+        title: 'Business Developer and Community Member',
         intro: 'Scott has more than 25 years of extensive experience in logistics, event production, IT and management.',
         description: 'Being an enthusiastic early adopter of technology, it came as no surprise when he stumbled upon Bitcoin in 2012, and since then, he has fully embraced its potential. Scotts profound understanding of the cryptocurrency space, coupled with his unwavering dedication, will keep pushing Flux forward.'
     },
@@ -390,7 +390,7 @@ const teamAsset = [
         thumbnail: tom,
         twitterLink: '',
         linkedInLink: '',
-        title: 'Business Developer',
+        title: 'Business Developer and Community Member',
         intro: 'Thomas is a lifelong learner who started experimenting with computers and technology when he was young.',
         description: 'It is his mission to expand the real-world use cases of Flux.'
     },
@@ -399,7 +399,7 @@ const teamAsset = [
         thumbnail: ronni,
         twitterLink: '',
         linkedInLink: '',
-        title: 'Content Writer',
+        title: 'Content Writer and Community Member',
         intro: 'Ronni is a firm believer in the potential of Web3 and is enthustiastic about tech.',
         description: 'Hes an experienced professional primarily working with project and portfolio best practices and governance in large organizations. He also a veteran and retired military officer. On the Flux team he channels his passion for the project into written content for the community as well as news outlets.'
     },
@@ -408,7 +408,7 @@ const teamAsset = [
         thumbnail: john,
         twitterLink: '',
         linkedInLink: '',
-        title: 'Dev',
+        title: 'Developer and Comunity Member',
         intro: 'John has accumulated over 15 years of experience in embedded firmware and full stack development.',
         description: 'His expertise includes application development for the automotive aftermarket industry, embedded C systems in the RF Broadcast sector, and full stack development using JavaScript, NodeJS, and React. His passion for staying at the forefront of technological advancements has driven John to become involved with the Flux project and Web3 technologies.'
     },
