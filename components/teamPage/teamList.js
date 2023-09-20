@@ -6,7 +6,6 @@ import jeremy from "../../public/images/team/jeremy.png";
 import nolan from "../../public/images/team/nolan.png";
 import valter from "../../public/images/team/Valter.jpg";
 import betty from "../../public/images/team/betty.png";
-import malik from "../../public/images/team/ali.png";
 import calin from "../../public/images/team/Calin.png";
 import dimitris from "../../public/images/team/dimitris.png";
 import sulmone from "../../public/images/team/tim.png";
@@ -141,15 +140,6 @@ const teamAsset = [
         title: 'Full Stack Developer and Community Member',
         intro: 'Simon has been programming for 86.67% of his life, mostly in telecoms and mobile apps.',
         description: ' After a brief flirtation Simon joined the Flux team full time in 2021, and in his spare time he enjoys tinkering with Arduino projects and making pizza.'
-    },
-    {
-        name: 'Ali Malik',
-        thumbnail: malik,
-        twitterLink: 'https://twitter.com/Ali_Malik_80',
-        linkedInLink: 'https://www.linkedin.com/in/muhammad-malik-9791624b/',
-        title: 'Business Development and Community Member',
-        intro: 'With 15+ Years in telecom industry experience. Ali Malik joins Flux as a business development, Marketing & PR.',
-        description: ' Here at flux, responsible for market research and planning. Identify new opportunities and working with leadership team for identifying market strategies. Screen potential business opportunities that would bring revenue & exposure to the project. Managing proposal response process, decision making strategies, content creation and inputs from various sources.'
     },
     {
         name: 'Călin Timaru',
