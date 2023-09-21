@@ -634,7 +634,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="45">
-                        <Link href={'/carbonNeutrality'}  className={styles.link} >
+                        <Link href={'/fluxCarbon'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Carbon Neutrality <br/>
                         <div className={styles.sublink}>Flux emphasis a Sustainable Future <br/>in Blockchain &amp; Cloud Computing.</div>
