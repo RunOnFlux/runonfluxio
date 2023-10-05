@@ -136,19 +136,6 @@ export function HomePage(){
             <section className={styles.section1}>
                 <div className="container">
                     <div className="row">
-                    <div>
-                        <Modal show={show} onHide={handleClose} centered size="lg">
-                            <Modal.Header closeButton>
-                            </Modal.Header>
-                            <Modal.Body>
-                                <div className={styles.modal}>
-                                    <a href="https://cypherpunk2023.com/" target="_blank" rel="noreferrer">
-                                <Image alt="cypherpunk" src={cypherpunkImg} /></a>
-                                </div>
-                               
-                            </Modal.Body>
-                        </Modal>
-                    </div>
                         <div className={`${styles.header} col-lg-6`}>
                             <div>
                             <h1>Build on <br/><span>Web 3.0 </span>Today</h1><br/>
