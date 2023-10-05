@@ -21,7 +21,7 @@ export function RoadMapPage(){
                             <ul>
                             <li>
                                 <div className={styles.content}>
-                                <h3>Cypherpunk, </h3>
+                                <h3>Cypherpunk Europe</h3>
                                     <p>-Cypherpunk Europe</p>
                                 </div>
                                 <div className={styles.time}>
