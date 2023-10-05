@@ -57,7 +57,8 @@ export function RoadMapPage(){
                             </li> 
                             <li>
                                 <div className={styles.content}>
-                                <h3>Marketplace V2, Carbon</h3>
+                                <h3>FluxDrive, Marketplace V2</h3>
+                                    <p>-FluxDrive Pro</p>
                                     <p>-Flux Referral Program</p>
                                     <p>-Flux Carbon Footprint</p>
                                     <p>-Flux Marketplace V2</p>
