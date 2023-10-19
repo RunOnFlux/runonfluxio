@@ -108,6 +108,12 @@ async redirects() {
       permanent: false,
       basePath: false
     },
+    {
+      source: '/fractusnode',
+      destination: 'https://fluxofficial.medium.com/earn-more-with-fractus-cumulus-store-more-flux-earned-cbeac46bc9e7',
+      permanent: false,
+      basePath: false
+    },
     // {
     //   source: '/miner',
     //   destination: 'https://www.runonflux.io/mining.html',
