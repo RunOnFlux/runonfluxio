@@ -41,7 +41,7 @@ import dollar from "../../public/images/greenIcons/dollar$.svg"
 import axios from 'axios';
 import { Slider4 } from "../Slider/slider4";
 import Modal from 'react-bootstrap/Modal';
-import cypherpunkImg from "../../public/images/cyperpunk.jpeg"
+import fluxbitcoinpaImg from "../../public/images/fluxbitcoinpa.png"
 
 
 export function HomePage(){
@@ -136,6 +136,19 @@ export function HomePage(){
             <section className={styles.section1}>
                 <div className="container">
                     <div className="row">
+                    <div>
+                        <Modal show={show} onHide={handleClose} centered size="lg">
+                            <Modal.Header closeButton>
+                            </Modal.Header>
+                            <Modal.Body>
+                                <div className={styles.modal}>
+                                    <a href="https://fluxofficial.medium.com/flux-launches-10th-parallel-asset-flux-bitcoin-is-here-381cc3037edd" target="_blank" rel="noreferrer">
+                                <Image alt="fluxbitcoinpa" src={fluxbitcoinpaImg} /></a>
+                                </div>
+
+                            </Modal.Body>
+                        </Modal>
+                    </div>
                         <div className={`${styles.header} col-lg-6`}>
                             <div>
                             <h1>Build on <br/><span>Web 3.0 </span>Today</h1><br/>
