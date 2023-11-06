@@ -101,7 +101,7 @@ export function Social() {
                         <div className={styles.card}>
                             <Image className={styles.cardImg} alt={"img"} src={telegramImg}></Image>
                             <br></br>
-                            <a href="https://t.me/fluxprotocol" className={styles.btn}>Telegram</a>
+                            <a href="https://t.me/runonflux" className={styles.btn}>Telegram</a>
                         </div>
                     </div>
                     <div className={styles.div6}> 
