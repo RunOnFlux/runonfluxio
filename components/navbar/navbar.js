@@ -300,6 +300,16 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
+                        <Link href={'/guides'} eventKey={18} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                        Guides / Help
+                        <br/>
+                        <div className={styles.sublink}>Become an expert with our easy to follow guides.</div>
+                        </div>
+                        </Link>
+                       
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
                         <Link href={'/fractusnode'} eventKey={1818} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Fractus
@@ -689,6 +699,16 @@ export function NavBar(){
                         Node
                         <br/>
                         <div className={styles.sublink}>Become a FluxNode operator with our <br/> easy to follow guides.</div>
+                        </div>
+                        </Link>
+                       
+                    </NavDropdown.Item>
+                    <NavDropdown.Item eventKey="5151">
+                        <Link href={'/guides'}  className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
+                        Guides / Help
+                        <br/>
+                        <div className={styles.sublink}>Become an expert with our easy to follow guides.</div>
                         </div>
                         </Link>
                        

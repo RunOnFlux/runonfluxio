@@ -132,6 +132,12 @@ async redirects() {
       permanent: false,
       basePath: false
     },
+    {
+      source: '/guides',
+      destination: 'https://help.runonflux.io/',
+      permanent: false,
+      basePath: false
+    },
    
     {
       source: '/github',
