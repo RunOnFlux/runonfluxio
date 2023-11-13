@@ -527,7 +527,7 @@ export function HomePage(){
                         <p>Flux is actively developing sustainable solutions for proof of work and cloud computing. Flux believes that blockchains are not the sole cause of environmental problems but that it instead can provide solutions that will ultimately create more energy-efficient solutions than legacy technology can.</p> 
                     </div>
                     <div className="row mb-5">
-                        <a href="https://runonflux.io/zero-carbon.html" target="_blank" rel="noreferrer" className={styles.btn3} style={{margin: "auto"}}> Discover More</a>
+                        <a href="/fluxCarbon" target="_blank" rel="noreferrer" className={styles.btn3} style={{margin: "auto"}}> Discover More</a>
                         </div>
 
                         <div className="row">
