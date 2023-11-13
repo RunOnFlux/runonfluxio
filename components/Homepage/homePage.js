@@ -411,7 +411,7 @@ export function HomePage(){
             <section className={styles.section7}>
                 <div className="container">
                     <div className="row text-center mx-auto">
-                    <h2 className="mb-3">Learn How <span>Flux Cloud</span> Works</h2>
+                    <h2 className="mb-3">Learn How <span>Web3 Cloud</span> Works</h2>
                     <a href="https://youtu.be/cqZkNO7KM00" className={styles.btn2} target="_blank" rel="noreferrer" style={{margin: "auto"}}>View Video</a>
                     </div> 
                 </div>
