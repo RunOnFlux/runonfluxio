@@ -127,7 +127,7 @@ const teamAsset = [
         thumbnail: luckas,
         twitterLink: '',
         linkedInLink: '',
-        title: 'Buisiness Dev, Exchange Manager and Community Member',
+        title: 'Business Dev, Exchange Manager and Community Member',
         intro: 'Lukas, a Web3 and blockchain enthusiast since 2018, holds a Bachelors degree in economic science from the University of Basel, Switzerland. ',
         description: 'Leading strategic partnerships, business opportunities, and client relationships, he leverages his deep understanding of blockchain technologies and anticipates emerging trends. Lukas is a passionate advocate of Web3 and blockchain technology, having entered the industry in 2018. He pursued his studies in economic science at the University of Basel, Switzerland, where he obtained his Bachelors degree. Lukas leads a pivotal position in driving the development of strategic partnerships, recognizing emerging business prospects, and nurturing client relationships. With a profound comprehension of diverse blockchain technologies, he demonstrates a keen ability to identify and anticipate emerging trends.'
     },
