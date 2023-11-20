@@ -141,6 +141,15 @@ const teamAsset = [
         description: ' After a brief flirtation Simon joined the Flux team full time in 2021, and in his spare time he enjoys tinkering with Arduino projects and making pizza.'
     },
     {
+        name: 'Darren Williams',
+        thumbnail: williams,
+        twitterLink: '',
+        linkedInLink: 'http://daz.co.uk/',
+        title: 'Growth Expert, Webineer and Community Member',
+        intro: 'Darren has built and sold five successful companies over the last 20 years, collectively employing over 100 individuals and generating revenue in excess of $10 million dollars over his professional career.',
+        description: '  In addition he has won 16 awards, including the British Chamber of Commerce National Award for Innovation through Technology awarded by Dell. Darren is currently working on IPFS for Flux, along with Fiat subscription services to to help grow Flux to a Billion Dollar Web3 company.'
+    },
+    {
         name: 'Călin Timaru',
         thumbnail: calin,
         twitterLink: '',
@@ -229,15 +238,6 @@ const teamAsset = [
         title: 'Developer and Community Member',
         intro: 'Tom started in digital communications in 1975 as a Ham Radio (W2VY) operator using Morse Code was very involved in message relay.',
         description: 'After graduating High School he started at Newark College of Engineering in Computer Science. Within a year was working on a NFS funded project researching "Human Communications via Computer" where they developed the Electronic Information Exchange System (EIES) lead by Dr Murray Turoff and Dr Starr Roxanne Hiltz, authors of "The Network Nation". They envisioned and implemented every communications tool we use today in one form for another. After starting pre-Internet 45 years ago, it is very exciting to be involved with Flux which is the clear leader in Web 3.0 and beyond.  As a part time Flux Developer my notable contributions include the idea to use uPnP for Home Nodes and support for the Flux Daemon (C Language, I am a dinosaur)'
-    },
-    {
-        name: 'Darren Williams',
-        thumbnail: williams,
-        twitterLink: '',
-        linkedInLink: 'http://daz.co.uk/',
-        title: 'Growth Expert, Webineer and Community Member',
-        intro: 'Darren has built and sold five successful companies over the last 20 years, collectively employing over 100 individuals and generating revenue in excess of $10 million dollars over his professional career.',
-        description: '  In addition he has won 16 awards, including the British Chamber of Commerce National Award for Innovation through Technology awarded by Dell. Darren is currently working on IPFS for Flux, along with Fiat subscription services to to help grow Flux to a Billion Dollar Web3 company.'
     },
     {
         name: 'Emmanuel Steve',
