@@ -145,7 +145,7 @@ const teamAsset = [
         thumbnail: williams,
         twitterLink: '',
         linkedInLink: 'http://daz.co.uk/',
-        title: 'Growth Expert, Webineer and Community Member',
+        title: 'Chief AI Officer',
         intro: 'Darren has built and sold five successful companies over the last 20 years, collectively employing over 100 individuals and generating revenue in excess of $10 million dollars over his professional career.',
         description: '  In addition he has won 16 awards, including the British Chamber of Commerce National Award for Innovation through Technology awarded by Dell. Darren is currently working on IPFS for Flux, along with Fiat subscription services to to help grow Flux to a Billion Dollar Web3 company.'
     },
