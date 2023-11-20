@@ -114,6 +114,15 @@ const teamAsset = [
         description: 'He is currently conducting research at his university on the application of blockchain technologies to real-world use cases, involving students in the process and working on expanding the collaboration to other partner universities. His analytical thinking, creativity, and drive make him the ideal candidate to lead the development and architecture design of the PoUW.'
     },
     {
+        name: 'Darren Williams',
+        thumbnail: williams,
+        twitterLink: '',
+        linkedInLink: 'http://daz.co.uk/',
+        title: 'Chief AI Officer',
+        intro: 'Darren has built and sold five successful companies over the last 20 years, collectively employing over 100 individuals and generating revenue in excess of $10 million dollars over his professional career.',
+        description: '  In addition he has won 16 awards, including the British Chamber of Commerce National Award for Innovation through Technology awarded by Dell. Darren is currently working on IPFS for Flux, along with Fiat subscription services to to help grow Flux to a Billion Dollar Web3 company.'
+    },
+    {
         name: 'Nolan Porter',
         thumbnail: nolan,
         twitterLink: '',
@@ -139,15 +148,6 @@ const teamAsset = [
         title: 'Full Stack Developer and Community Member',
         intro: 'Simon has been programming for 86.67% of his life, mostly in telecoms and mobile apps.',
         description: ' After a brief flirtation Simon joined the Flux team full time in 2021, and in his spare time he enjoys tinkering with Arduino projects and making pizza.'
-    },
-    {
-        name: 'Darren Williams',
-        thumbnail: williams,
-        twitterLink: '',
-        linkedInLink: 'http://daz.co.uk/',
-        title: 'Chief AI Officer',
-        intro: 'Darren has built and sold five successful companies over the last 20 years, collectively employing over 100 individuals and generating revenue in excess of $10 million dollars over his professional career.',
-        description: '  In addition he has won 16 awards, including the British Chamber of Commerce National Award for Innovation through Technology awarded by Dell. Darren is currently working on IPFS for Flux, along with Fiat subscription services to to help grow Flux to a Billion Dollar Web3 company.'
     },
     {
         name: 'Călin Timaru',
