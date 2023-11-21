@@ -149,7 +149,7 @@ export function Node() {
                 <h5 className={styles.SubText}>Support the Flux Cloud by running FluxNodes - by and for the people. The Flux Cloud is powered by thousands of FluxNodes connected from all around the globe, and the community is the backbone. By contributing their computational resources, individuals are incentivized accordingly.</h5>
 
                 <div className={styles.buttons}>
-                    <a href="https://cloud.runonflux.io/" id={styles.headerBut1}>Deploy Node</a>
+                    <a href="/node" id={styles.headerBut1}>Deploy Node</a>
                     <a href="https://home.runonflux.io/dashboard/economics" id={styles.headerBut2}>Economics</a>
                 </div>
 
@@ -198,7 +198,7 @@ export function Node() {
                     </div>
                     <Image alt={"img"} src={Line} />
                     <div style={{ marginLeft: "4.85%" }} className={dDivClasses}>
-                        <div className={styles.Reqs}><span className={styles.darker}>Hardware Requirements</span><br /> 2 Cores <br /> 4 Threads <br /> 8 GB RAM<br /> <span className={styles.bluetext}>∞+</span> GB SSD/NVME <br /> 180 MB/s DWS <br /> 240 EPS Min. Requirements <br /> 25 Mb down/up speed<br /><span className={styles.darker}>VPS and ARM64 compatible</span></div>
+                        <div className={styles.Reqs}><span className={styles.darker}>Hardware Requirements</span><br /> 2 Cores <br /> 4 Threads <br /> 8 GB RAM<br /> <span className={styles.bluetext}>9250</span> GB HDD <br /> <span className={styles.bluetext}>80</span> MB/s DWS <br /> 240 EPS Min. Requirements <br /> <span className={styles.bluetext}>100</span> Mb down/up speed<br /><span className={styles.darker}>VPS and ARM64 compatible</span></div>
 
                         <div className={styles.Node}><span className={styles.lightbluetext}>Cumulus Fractus</span><br />ADD-ON</div>
 
