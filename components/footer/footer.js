@@ -72,7 +72,7 @@ export function Footer(){
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
                         <h5>DEVELOPERS</h5>
                         <ul>
-                            <li><a href="https://medium.com/zelinsights/zelnode-setup-the-easy-peasy-lemon-squeezy-way-fd89706ea03c" target="_blank" rel="noreferrer"> Fluxnode Startup Guide</a></li>
+                            <li><Link href="/node" target="_blank" rel="noreferrer"> Fluxnode Startup Guide</Link></li>
                             <li><Link href="/guides"> Guides / Helpdesk</Link></li>
                             <li><Link href="/mining"> Mining</Link></li>
                             <li><Link href="/flux#exchanges"> Buy Flux</Link></li>
