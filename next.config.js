@@ -27,7 +27,7 @@ async redirects() {
    
     // {
     //   source: '/fluxNodes',
-    //   destination: 'https://www.runonflux.io/flux-nodes.html',
+    //   destination: 'https://fluxnode.app.runonflux.io/#/home',
     //   permanent: false,
     //   basePath: false
     // },
