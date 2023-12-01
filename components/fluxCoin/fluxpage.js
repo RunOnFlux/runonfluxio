@@ -246,7 +246,7 @@ export function Flux() {
                          to the largest share of the initial 50% distribution reserved for FluxNode.</div>
                         <br></br>
                         <a href="https://pouwlitepaper.app.runonflux.io/" className={styles.btn}>FluxPoUW</a>
-                        <a href="https://www.runonflux.io/flux-nodes.html" className={styles.btn}>FluxNode</a>
+                        <a href="https://fluxnode.app.runonflux.io/#/home" className={styles.btn}>FluxNode</a>
                     </div>
                     <div className={styles.headerright}>
                         <Image className={styles.assetImg} src={circleGraph} alt="Flux-Circle-Graph"></Image>
