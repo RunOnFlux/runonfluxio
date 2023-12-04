@@ -73,7 +73,7 @@ const teamAsset = [
         thumbnail: betty,
         twitterLink: 'https://twitter.com/BettyK0',
         linkedInLink: 'https://www.linkedin.com/in/alzbeta-kolibacova-73b1a215a/',
-        title: 'CMO and Comunity Member',
+        title: 'CMO and Community Member',
         intro: 'Betty is an engineer passionate about blockchain projects and startups that solve a real world problem. ',
         description: 'She’s experienced in digital marketing and PR, building successful engagement marketing, social media strategy and brand awareness. Flexibility, adaptability and organizational skills allow her to lead effectively our decentralized marketing team.'
     },
@@ -118,7 +118,7 @@ const teamAsset = [
         thumbnail: williams,
         twitterLink: '',
         linkedInLink: 'http://daz.co.uk/',
-        title: 'Chief AI Officer',
+        title: 'Chief AI Officer and Community Member',
         intro: 'Darren has built and sold five successful companies over the last 20 years, collectively employing over 100 individuals and generating revenue in excess of $10 million dollars over his professional career.',
         description: '  In addition he has won 16 awards, including the British Chamber of Commerce National Award for Innovation through Technology awarded by Dell. Darren is currently working on IPFS for Flux, along with Fiat subscription services to to help grow Flux to a Billion Dollar Web3 company.'
     },
@@ -397,7 +397,7 @@ const teamAsset = [
         thumbnail: john,
         twitterLink: '',
         linkedInLink: '',
-        title: 'Developer and Comunity Member',
+        title: 'Developer and Community Member',
         intro: 'John has accumulated over 15 years of experience in embedded firmware and full stack development.',
         description: 'His expertise includes application development for the automotive aftermarket industry, embedded C systems in the RF Broadcast sector, and full stack development using JavaScript, NodeJS, and React. His passion for staying at the forefront of technological advancements has driven John to become involved with the Flux project and Web3 technologies.'
     },
