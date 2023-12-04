@@ -5,6 +5,7 @@ import styles from "./index.module.css"
 import Head from "next/head";
 import dynamic from 'next/dynamic';
 import Image from "next/image";
+import Link from "next/link";
 import Modal from 'react-bootstrap/Modal';
 import fluxCircle from "../../public/images/flux/Flux-Circle-Thing.svg"
 import icon1 from "../../public/images/flux/Volume.svg"
@@ -246,7 +247,7 @@ export function Flux() {
                          to the largest share of the initial 50% distribution reserved for FluxNode.</div>
                         <br></br>
                         <a href="https://pouwlitepaper.app.runonflux.io/" className={styles.btn}>FluxPoUW</a>
-                        <a href="https://www.runonflux.io/flux-nodes.html" className={styles.btn}>FluxNode</a>
+                        <Link className={styles.btn} href="/nodes">FluxNode</Link>
                     </div>
                     <div className={styles.headerright}>
                         <Image className={styles.assetImg} src={circleGraph} alt="Flux-Circle-Graph"></Image>
