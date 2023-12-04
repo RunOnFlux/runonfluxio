@@ -6,13 +6,6 @@ import twitter from "../../public/images/twitter-log.svg"
 import linkedin from "../../public/images/iconmonstr-linkedin-3-2.svg"
 import { useState } from "react";
 export function TeamCard(props){
-    const [readMore,setReadMore]=useState(false);
-    const extraContent=<div>
-      <p>
-      {props.description}
-      </p>
-  </div>
-const linkName=readMore?'Read Less << ':'Read More >> '
     return(
         <div className={styles.card}>
             <div className={styles.cardImg}> <Image alt="image" src={props.src} layout="responsive"/></div>
@@ -26,9 +19,7 @@ const linkName=readMore?'Read Less << ':'Read More >> '
             </div>
             <h4 className={styles.title}>{props.title}</h4>
             <p className={styles.intro}>{props.intro}</p>
-            {readMore && extraContent}
-            <a className={styles.readMoreLink} onClick={()=>{setReadMore(!readMore)}}><h4>{linkName}</h4></a>
-               
+            <p className={styles.intro}>{props.description}</p>
         </div>
         
     )

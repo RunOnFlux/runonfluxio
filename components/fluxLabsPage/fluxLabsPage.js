@@ -43,6 +43,7 @@ import logo38 from "../../public/images/fluxlabs-logos/logo38.svg"
 import logo39 from "../../public/images/fluxlabs-logos/logo39.png"
 import logo40 from "../../public/images/fluxlabs-logos/logo40.svg"
 import logo41 from "../../public/images/fluxlabs-logos/logo41.svg"
+import logo42 from "../../public/images/fluxlabs-logos/logo42.png"
 import greenStars from "../../public/images/greenyellow-stars.svg"
 export function FluxLabsPage(){
     return(
@@ -235,6 +236,9 @@ export function FluxLabsPage(){
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://crypto-elites.club/" target="_blank">  <Image alt="logo" src={logo41}/></a>
+                            </div>
+                            <div className="col-lg-3 col-md-4 col-sm-4 col-6">
+                               <a rel="noreferrer" href="https://blocx.tech/" target="_blank">  <Image alt="logo" src={logo42}/></a>
                             </div>
                            
                         </div>
