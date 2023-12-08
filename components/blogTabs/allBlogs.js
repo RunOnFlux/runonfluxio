@@ -29,7 +29,7 @@ import { useEffect, useState} from "react";
     return(
         <React.Fragment>
             <div className="row">               
-                {blog.map((data) => (
+                {blog?.map((data) => (
                     <div className="col-lg-4 col-md-6 col-sm-6 mb-5"  key={data.title}> 
                     <BlogCard img={ data.thumbnail} date={data.pubDate.slice(0, 10)} description={data.title} content={data.description.split("</p>")[3].replace("<strong>","").replace("</strong>","").replace("<figure>", "").replace("</figure>", "").replace("<p>", "").replace("</p>", "").replace("<h3>","").replace("</h3>","")} link={data.link} />
                     </div>
