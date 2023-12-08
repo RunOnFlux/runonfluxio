@@ -8,9 +8,14 @@ import { useEffect, useState} from "react";
     const [blog, setBlog] = useState([]);
 
     const fetchData = async () => {
-        const response = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@fluxofficial")
-        const data = await response.json()
-        setBlog(data.items)    
+        try {
+            const response = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@fluxofficial")
+            const data = await response.json()
+            setBlog(data?.items ?? []) 
+        } catch (error) {
+            setBlog([]);
+            console.log(`error retrieving Medium data`)
+        }
       }
   
       useEffect(() => {
