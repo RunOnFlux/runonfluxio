@@ -98,7 +98,7 @@ async redirects() {
     // },
     {
       source: '/app',
-      destination: 'https://jetpack2.app.runonflux.io/hello.html',
+      destination: 'https://cloud.runonflux.io/hello.html',
       permanent: false,
       basePath: false
     },
