@@ -47,6 +47,7 @@ export function Footer(){
                     <div className="col-lg-2 col-md-3 col-6 mb-5" >
                         <h5>ECOSYSTEM</h5>
                         <ul>
+                            <li><a href="/fluxCore">FluxCore</a></li>
                             <li><a href="/fluxCloud">Flux Cloud</a></li>
                             <li><Link href="/fluxDapps">DApps</Link></li>
                             <li><Link href="/nodes">FluxNodes</Link></li>

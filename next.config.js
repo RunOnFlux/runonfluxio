@@ -24,6 +24,12 @@ async redirects() {
       permanent: false,
       basePath: false
     },
+    {
+      source: '/fluxCore',
+      destination: 'https://leaderboard.fluxcore.ai',
+      permanent: false,
+      basePath: false
+    },
    
     // {
     //   source: '/fluxNodes',
