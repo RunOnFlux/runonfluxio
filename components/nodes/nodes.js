@@ -352,35 +352,35 @@ export function Node() {
                         <br />
                     </div>
                     <div className={styles.guidesContain}>
-                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/RT1uaSrurv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/RT1uaSrurv4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         <div className={guideClasses}>
                             <p>Flux LightNode Wallet</p>
                         </div>
                         <br />
                     </div>
                     <div className={styles.guidesContain}>
-                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/-lJJyuliR38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/-lJJyuliR38" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         <div className={guideClasses}>
                             <p>FluxNode Setup for Raspberry Pi4B</p>
                         </div>
                         <br />
                     </div>
                     <div className={styles.guidesContain}>
-                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/FITPHv52Fyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/FITPHv52Fyo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         <div className={guideClasses}>
                             <p>Self-Hosted Flux Node Setup Guide</p>
                         </div>
                         <br />
                     </div>
                     <div className={styles.guidesContain}>
-                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/n2CMwfahUBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/n2CMwfahUBI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         <div className={guideClasses}>
                             <p>Raspberry Pi FluxNode Setup Guide</p>
                         </div>
                         <br />
                     </div>
                     <div className={styles.guidesContain}>
-                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/akfV5WhmE-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/akfV5WhmE-g" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         <div className={guideClasses}>
                             <p>Cumulus Mini-PC and other alternatives</p>
                         </div>
