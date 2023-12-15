@@ -302,7 +302,7 @@ export function MiningPage(){
                     <div className="row mt-5">
                      <div className="col-12">
                      <div className={styles.videoEmbed}>
-                        <iframe height="500" width="100%" src="https://www.youtube.com/embed/fulcZGdGs64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe height="500" width="100%" src="https://www.youtube.com/embed/fulcZGdGs64" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                      </div>
                     </div>

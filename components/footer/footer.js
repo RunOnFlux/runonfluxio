@@ -26,62 +26,62 @@ export function Footer(){
                             <a href={'/'}><Image src={logo} alt="logo"/></a>
                             <h6>Flux is a decentralized Web3 cloud infrastructure comprised of user-operated, scalable and globally distributed computational nodes.</h6>
                             <div className={styles.icons}>
-                            <a href="https://twitter.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="icon" src={image1}/></a>
-                            <a href="https://discord.gg/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image2}/></a>
-                            <a href="https://www.facebook.com/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image3}/></a>
-                            <a href="https://bitcointalk.org/index.php?topic=2853688.0" target="_blank" rel="noreferrer"><Image alt="icon" src={image4}/></a>
-                            <a href="https://t.me/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image5}/></a>
-                            <a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="icon" src={image6}/></a>
-                            <a href="https://www.youtube.com/channel/UCphbdfb1MXYgUPsdhQPcnGw" target="_blank" rel="noreferrer"><Image alt="icon" src={image7}/></a>
-                            <a href="https://www.reddit.com/r/Flux_Official" target="_blank" rel="noreferrer"><Image alt="icon" src={image8}/></a>
-                            <a href="https://fluxofficial.medium.com/" target="_blank" rel="noreferrer"><Image alt="icon" src={image9}/></a>
-                            <a href="https://www.linkedin.com/company/flux-official/mycompany/" target="_blank" rel="noreferrer"><Image alt="icon" src={image10}/></a>
-                            <a href="https://www.twitch.tv/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image11}/></a>
-                            <a href="https://www.instagram.com/runonflux_official/" target="_blank" rel="noreferrer"><Image alt="icon" src={image12}/></a>
-                            <a href="https://www.tiktok.com/@flux_runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image13}/></a>
+                                <Link href="/twitter" target="_blank" rel="noreferrer"><Image alt="icon" src={image1}/></Link>
+                                <Link href="/discord" target="_blank" rel="noreferrer"><Image alt="icon" src={image2}/></Link>
+                                <Link href="/facebook" target="_blank" rel="noreferrer"><Image alt="icon" src={image3}/></Link>
+                                <Link href="/bitcoinTalk" target="_blank" rel="noreferrer"><Image alt="icon" src={image4}/></Link>
+                                <Link href="/telegram" target="_blank" rel="noreferrer"><Image alt="icon" src={image5}/></Link>
+                                <Link href="/github" target="_blank" rel="noreferrer"><Image alt="icon" src={image6}/></Link>
+                                <Link href="/youtube" target="_blank" rel="noreferrer"><Image alt="icon" src={image7}/></Link>
+                                <Link href="/reddit" target="_blank" rel="noreferrer"><Image alt="icon" src={image8}/></Link>
+                                <Link href="/medium" target="_blank" rel="noreferrer"><Image alt="icon" src={image9}/></Link>
+                                <Link href="/linkedIn" target="_blank" rel="noreferrer"><Image alt="icon" src={image10}/></Link>
+                                <Link href="/twitch" target="_blank" rel="noreferrer"><Image alt="icon" src={image11}/></Link>
+                                <Link href="instagram" target="_blank" rel="noreferrer"><Image alt="icon" src={image12}/></Link>
+                                <Link href="tiktok" target="_blank" rel="noreferrer"><Image alt="icon" src={image13}/></Link>
                             </div>
-                            <a href="mailto:info@runonflux.io?subject=Contact%20Flux!" className={styles.btn}>Contact us!</a><br/>
-                            <a href="https://support.runonflux.io/" className={styles.btn}>Support Center</a>
+                            <Link href="/contact" className={styles.btn}>Contact us!</Link><br/>
+                            <Link href="/support" target="_blank" rel="noreferrer" className={styles.btn}>Support Center</Link>
                         </div>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6 mb-5" >
                         <h5>ECOSYSTEM</h5>
                         <ul>
-                            <li><a href="/fluxCore">FluxCore</a></li>
-                            <li><a href="/fluxCloud">Flux Cloud</a></li>
+                            <li><Link href="/fluxCore">FluxCore</Link></li>
+                            <li><Link href="/fluxCloud" target="_blank" rel="noreferrer">Flux Cloud</Link></li>
                             <li><Link href="/fluxDapps">DApps</Link></li>
                             <li><Link href="/nodes">FluxNodes</Link></li>
                             <li><Link href="/flux">Flux</Link></li>
-                            <li><a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></li>
-                            <li><a href="/dashboard">Dashboard</a></li>
+                            <li><Link href="/zelcore" target="_blank" rel="noreferrer">Zelcore</Link></li>
+                            <li><Link href="/dashboard" target="_blank" rel="noreferrer">Dashboard</Link></li>
                             <li><Link href="/XDAO">XDAO</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
                         <h5>DISCOVER</h5>
                         <ul>
-                            <li><a href="/fluxLabs" target="_blank" rel="noreferrer"> FluxLabs</a></li>
-                            <li><a href="/fluxCarbon" target="_blank" rel="noreferrer"> Carbon Neutrality</a></li>
-                            <li><a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></li>
+                            <li><Link href="/fluxLabs"> FluxLabs</Link></li>
+                            <li><Link href="/fluxCarbon"> Carbon Neutrality</Link></li>
+                            <li><Link href="/whitepaper" target="_blank" rel="noreferrer">Whitepaper</Link></li>
                             <li><Link href="/roadmap"> Roadmap</Link></li>
                             <li><Link href="/team"> Team</Link></li>
-                            <li><a href="/documentation" target="_blank" rel="noreferrer"> Documentation</a></li>
+                            <li><Link href="/documentation" target="_blank" rel="noreferrer"> Documentation</Link></li>
                             <li><Link href="/partners"> Partners</Link></li>
-                            <li><a href="https://explorer.runonflux.io/" target="_blank" rel="noreferrer"> Block Explorer</a></li>
+                            <li><Link href="/blockExplorer" target="_blank" rel="noreferrer"> Block Explorer</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
                         <h5>DEVELOPERS</h5>
                         <ul>
-                        <li><a href="https://jetpack2.app.runonflux.io/hello.html" target="_blank" rel="noreferrer">App</a></li>
+                            <li><Link href="/app" target="_blank" rel="noreferrer">App</Link></li>
                             <li><Link href="/node" target="_blank" rel="noreferrer"> Fluxnode Startup Guide</Link></li>
-                            <li><Link href="/guides"> Guides / Helpdesk</Link></li>
-                            <li><a href="https://fluxofficial.medium.com/earn-more-with-fractus-cumulus-store-more-flux-earned-cbeac46bc9e7" target="_blank" rel="noreferrer">Fractus</a></li>
+                            <li><Link href="/guides" target="_blank" rel="noreferrer"> Guides / Helpdesk</Link></li>
+                            <li><Link href="/fractusnode" target="_blank" rel="noreferrer">Fractus</Link></li>
                             <li><Link href="/mining"> Miner</Link></li>
                             <li><Link href="/flux#exchanges"> Buy Flux</Link></li>
-                            <li><a href="https://gotflux.store/" target="_blank" rel="noreferrer">Flux Store</a></li>
-                            <li><a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer">Github</a></li>
-                            <li><a href="https://github.com/RunOnFlux/press" target="_blank" rel="noreferrer">Press Kit</a></li>
+                            <li><Link href="/fluxStore" target="_blank" rel="noreferrer">Flux Store</Link></li>
+                            <li><Link href="/github" target="_blank" rel="noreferrer">Github</Link></li>
+                            <li><Link href="/pressKit" target="_blank" rel="noreferrer">Press Kit</Link></li>
                             <li><Link href="/bugBountyProgram">Bug bounty</Link></li>
                         </ul>
                     </div>
@@ -91,7 +91,7 @@ export function Footer(){
                             <li><Link href="/blog">Blog</Link></li>
                             <li><Link href="/social">Social</Link></li>
                             <li><Link href="/careers">Careers</Link></li>
-                            <li><a href="https://support.runonflux.io/support/home" target="_blank" rel="noreferrer">Support</a></li>                            
+                            <li><Link href="/support" target="_blank" rel="noreferrer">Support</Link></li>                 
                         </ul>
                     </div>
                 </div>
