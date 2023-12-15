@@ -25,6 +25,12 @@ module.exports = {
         basePath: false
       },
       {
+        source: '/fluxCore',
+        destination: 'https://leaderboard.fluxcore.ai',
+        permanent: false,
+        basePath: false
+      },
+      {
         source: '/zelcore',
         destination: 'https://zelcore.io/',
         permanent: false,

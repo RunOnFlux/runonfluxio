@@ -83,6 +83,14 @@ export function NavBar() {
                   onMouseLeave={hideDropdown}
                 >
                   <div className={styles.dropMenu}>
+                    <NavDropdown.Item>
+                     <Link href={'/fluxCore'} className={styles.link}  eventKey={1} > 
+                        <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                          FluxCore<br/>
+                          <div className={styles.sublink}>FluxCore presents the next generation of mining<br></br> and AI</div>
+                        </div>
+                      </Link> 
+                    </NavDropdown.Item>
                     <NavDropdown.Item href="/fluxCloud" target="_blank" rel="noreferrer" eventKey="1">
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
                         Flux Cloud<br/>
