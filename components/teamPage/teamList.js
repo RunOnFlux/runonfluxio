@@ -47,7 +47,7 @@ const teamAsset = [
         linkedInLink: 'https://www.linkedin.com/in/kellerdaniel/',
         title: 'Co-Founder and Community Member',
         intro: 'Daniel has over 25+ years of IT experience in technology, healthcare and nonprofit works.',
-        description: 'An entrepreneur, investor, and disruptive technology advocate, Daniels ethos resonates with many on the Flux Team , Daniel is focusing on projects that are uplifting to humanity.'
+        description: 'An entrepreneur, investor, and disruptive technology advocate, Daniels ethos resonates with many on the Flux Team, Daniel is focusing on projects that are uplifting to humanity.'
     },
     {
         name: 'Tadeáš Kmenta',
@@ -55,8 +55,8 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/TJ_Trunk',
         linkedInLink: 'https://www.linkedin.com/in/tadeas-kmenta-636b9516a/',
         title: 'Co-Founder and Community Member',
-        intro: 'Tadeas has over 10 years of experience developing decentralised blockchain technologies. As a strong privacy advocate, blockchains and web3 is where the future of freedom lies.',
-        description: ' Tadeas physics background helps further shaping ideas to be applicable throughout many industries.'
+        intro: 'Tadeas has over 10 years of experience developing decentralized blockchain technologies. As a strong privacy advocate, he believes blockchain and web3 is where the future of freedom lies.',
+        description: ' Tadeas physics background helps further shape ideas to be applicable throughout many industries.'
     },
 
     {
@@ -74,8 +74,8 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/BettyK0',
         linkedInLink: 'https://www.linkedin.com/in/alzbeta-kolibacova-73b1a215a/',
         title: 'CMO and Community Member',
-        intro: 'Betty is an engineer passionate about blockchain projects and startups that solve a real world problem. ',
-        description: 'She’s experienced in digital marketing and PR, building successful engagement marketing, social media strategy and brand awareness. Flexibility, adaptability and organizational skills allow her to lead effectively our decentralized marketing team.'
+        intro: 'Betty is an engineer passionate about blockchain projects and startups that solve a real world problems. ',
+        description: 'She’s experienced in digital marketing and PR, building successful engagement marketing, social media strategy and brand awareness. Flexibility, adaptability and organizational skills allow her to effectively lead our decentralized marketing team.'
     },
     {
         name: 'Davy Wittock',
@@ -92,8 +92,8 @@ const teamAsset = [
         twitterLink: '',
         linkedInLink: '',
         title: 'CTO and Community Member',
-        intro: 'Jeremy is a Utah based software entrepreneur with 10+ years of expereince in software design, architecture, and team management.',
-        description: 'He has worked with multiple blockchain companies and cryptocurrencies building layer 1 and layer 2 solutions for on chain assets, deterministic masternodes, algorithmic mining, and more. He holds a bachelors of Computer Science from the University of Utah and is currently helping pave the way for Web3 technologies.'
+        intro: 'Jeremy is a Utah based software entrepreneur with 10+ years of experience in software design, architecture, and team management.',
+        description: 'He has worked with multiple blockchain companies and cryptocurrencies building layer 1 and layer 2 solutions for on chain assets, deterministic masternodes, algorithmic mining, and more. He holds a Bachelors of Computer Science from the University of Utah and is currently helping pave the way for Web3 technologies.'
     },
     {
         name: 'Valter Silva',
@@ -111,7 +111,7 @@ const teamAsset = [
         linkedInLink: 'https://www.linkedin.com/in/alex-perritaz/',
         title: 'Chief PoUW Architect and Community Member',
         intro: 'Alex joined the Business Development team with a special focus on PoUW. ',
-        description: 'He is currently conducting research at his university on the application of blockchain technologies to real-world use cases, involving students in the process and working on expanding the collaboration to other partner universities. His analytical thinking, creativity, and drive make him the ideal candidate to lead the development and architecture design of the PoUW.'
+        description: 'He is currently conducting research at his university on the application of blockchain technologies to real-world use cases, involving students in the process and working on expanding the collaboration to other partner universities. His analytical thinking, creativity, and drive make him the ideal candidate to lead the development and architecture design of PoUW.'
     },
     {
         name: 'Darren Williams',
@@ -119,8 +119,8 @@ const teamAsset = [
         twitterLink: '',
         linkedInLink: 'http://daz.co.uk/',
         title: 'Chief AI Officer and Community Member',
-        intro: 'Darren has built and sold five successful companies over the last 20 years, collectively employing over 100 individuals and generating revenue in excess of $10 million dollars over his professional career.',
-        description: '  In addition he has won 16 awards, including the British Chamber of Commerce National Award for Innovation through Technology awarded by Dell. Darren is currently working on IPFS for Flux, along with Fiat subscription services to to help grow Flux to a Billion Dollar Web3 company.'
+        intro: 'Darren has built and sold five successful companies over the last 20 years, Collectively employing over 100 individuals and generating revenue in excess of $10 million dollars over his professional career.',
+        description: '  In addition he has won 16 awards, including the "British Chamber of Commerce National Award for Innovation through Technology", awarded by Dell. Darren is currently working on IPFS for Flux, along with Fiat subscription services to help grow Flux to a Billion Dollar Web3 company.'
     },
     {
         name: 'Nolan Porter',
@@ -128,8 +128,8 @@ const teamAsset = [
         twitterLink: '',
         linkedInLink: '',
         title: 'Product Director and Community Member',
-        intro: 'Nolan has 15 years working in the automotive, insurance, and IT field to work with innovative projects.',
-        description: ' As someone who has worked as an operations analyst they focus on building strong teams, pushing forward lean projects, and working towards continuous process improvement. As an entrepreneur within the crypto community they look forward to helping push Flux to the next level.'
+        intro: 'Nolan has 15 years of experience working in the automotive, insurance, and IT field, contributing with innovative projects.',
+        description: ' As someone who has worked as an operations analyst he focuses on building strong teams, pushing forward lean projects, and working towards continuous process improvement. As an entrepreneur within the crypto community, he looks forward to helping push Flux to the next level.'
     },
     {
         name: 'Lukas Mattecka',
@@ -138,7 +138,7 @@ const teamAsset = [
         linkedInLink: '',
         title: 'Business Dev, Exchange Manager and Community Member',
         intro: 'Lukas, a Web3 and blockchain enthusiast since 2018, holds a Bachelors degree in economic science from the University of Basel, Switzerland. ',
-        description: 'Leading strategic partnerships, business opportunities, and client relationships, he leverages his deep understanding of blockchain technologies and anticipates emerging trends. Lukas is a passionate advocate of Web3 and blockchain technology, having entered the industry in 2018. He pursued his studies in economic science at the University of Basel, Switzerland, where he obtained his Bachelors degree. Lukas leads a pivotal position in driving the development of strategic partnerships, recognizing emerging business prospects, and nurturing client relationships. With a profound comprehension of diverse blockchain technologies, he demonstrates a keen ability to identify and anticipate emerging trends.'
+        description: 'Leading strategic partnerships, business opportunities, and client relationships, he leverages his deep understanding of blockchain technologies and anticipates emerging trends. Lukas is a passionate advocate of Web3 and blockchain technology. Lukas leads a pivotal position in driving the development of strategic partnerships, recognizing emerging business prospects, and nurturing client relationships.'
     },
     {
         name: 'Simon Jewell',
@@ -146,8 +146,8 @@ const teamAsset = [
         twitterLink: '',
         linkedInLink: 'https://www.linkedin.com/in/simonjewell/',
         title: 'Full Stack Developer and Community Member',
-        intro: 'Simon has been programming for 86.67% of his life, mostly in telecoms and mobile apps.',
-        description: ' After a brief flirtation Simon joined the Flux team full time in 2021, and in his spare time he enjoys tinkering with Arduino projects and making pizza.'
+        intro: 'Simon has been programming for 86.67% of his life, mostly in telecom and mobile apps.',
+        description: ' After a brief flirtation, Simon joined the Flux team full time in 2021, and in his spare time he enjoys tinkering with Arduino projects and making pizza.'
     },
     {
         name: 'Călin Timaru',
@@ -156,7 +156,7 @@ const teamAsset = [
         linkedInLink: 'https://www.linkedin.com/in/timaru-calin-365332160/',
         title: 'UX/UI, Graphic Designer and Community Member',
         intro: 'Calin is a Romanian web designer with experience in web design, graphic design, UX / UI design, branding and web development. ',
-        description: ' He worked as a freelancer on several projects in order to build their identity and help target their audience. Very passionate about technology and the empowerment of ordinary people, he believes that Web3 can build the new user experience of the internet.'
+        description: ' He worked as a freelancer on several projects in order to build their identity and help target their audience. He is passionate about technology and the empowerment of ordinary people, and believes that Web3 can build the new user experience of the internet.'
     },
     {
         name: 'Dimitris Kats',
@@ -164,8 +164,8 @@ const teamAsset = [
         twitterLink: '',
         linkedInLink: 'https://www.linkedin.com/in/dimitris-kats-935026164/',
         title: 'Video Content Developer and Community Member',
-        intro: 'Dim has worked with multiple projects in the past, is self-taught with over 7+ years of experience on 2D. ',
-        description: 'Looking for ways to make Metaverse along with 3D more interactive. 3D will be the future of everything and better get on the train now.'
+        intro: 'Dim has worked with multiple projects in the past, is self-taught with over 7+ years of experience in 2D. ',
+        description: 'He is always looking for ways to make Metaverse along with 3D more interactive. He believes 3D will be the future of everything, and we better get on the train now.'
     },
     {
         name: 'Tim Sulmone',
@@ -173,8 +173,8 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/little_stache',
         linkedInLink: 'https://www.linkedin.com/in/tsulmone/',
         title: 'Developer, Media Contributor and Community Member',
-        intro: 'Tim is one of the Business Developers and Docker Developers of the Flux project. ',
-        description: 'With over a decade of experience in the cryptocurrency space, and prior international supply chain management, he leverages his past experiences to help grow the project. Tim has also been active in the gaming sector, by building servers and growing communities. He has been seen participating in game development competitions such as js13k and Gamedev.js Jam.'
+        intro: 'Tim is one of the Business and Docker Developers of the Flux project. ',
+        description: 'With over a decade of experience in the cryptocurrency space, and prior international supply chain management, he leverages his past experiences to help grow the project. Tim has also been active in the gaming sector, by building servers and growing communities. He has participated in game development competitions such as js13k and Gamedev.js Jam.'
     },
     {
         name: 'Kamil Piekarski',
@@ -182,8 +182,8 @@ const teamAsset = [
         twitterLink: '',
         linkedInLink: '',
         title: 'Developer, Infra Team and Community Member',
-        intro: 'A passionate programmer, self-taught and hobbyist programmer who has been interested in computers and the creation of applications and scripts from an early age.',
-        description: ' He creates, among others in Node.js, Bash, C ++, C #. He has been actively involved in the IT industry for 15 years. In the world of cryptocurrencies, he started operating in 2017 as an investor and miner. In his free time he dives and travels.'
+        intro: 'Kamil is a passionate, self-taught and hobbyist programmer who has been interested in computers and the creation of applications and scripts from an early age.',
+        description: ' He creates, among others in Node.js, Bash, C ++, and C #. He has been actively involved in the IT industry for 15 years. In the world of cryptocurrencies, he started in 2017 as an investor and miner. In his free time he dives and travels.'
     },
     {
         name: 'Vasilis Magkoutis',
@@ -210,7 +210,7 @@ const teamAsset = [
         linkedInLink: 'https://www.linkedin.com/in/johnhanlonsoftware/',
         title: 'Full Stack Developer and Community Member',
         intro: 'John is a Full Stack Software Developer and has been working with Flux since the start of 2022.  ',
-        description: 'He has created dockerized web applications and enjoys working with JavaScript and Ruby, as well as exploring blockchain based technologies. John holds a Higher Diploma in Software Development from National College of Ireland. Before starting his career in Software Development, John spent almost a decade in the commercial real estate industry.'
+        description: 'He has created dockerized web applications and enjoys working with JavaScript and Ruby, as well as exploring blockchain based technologies. John holds a Higher Diploma in Software Development from the National College of Ireland. Before starting his career in Software Development, John spent almost a decade in the commercial real estate industry.'
     },
     {
         name: 'Ryan Deimling',
@@ -218,7 +218,7 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/Ryan_Is_Link',
         linkedInLink: 'https://www.linkedin.com/in/ryan-deimling-107b2850/',
         title: 'Infrastructure, Wiki Developer and Community Member',
-        intro: 'Ryan has over 10+ years of IT experience with server infrastructure both in a healthcare settings as well in a  datacenter for a major hosting provider. ',
+        intro: 'Ryan has over 10+ years of IT experience with server infrastructure both in healthcare settings, as well as in datacenter for a major hosting provider. ',
         description: 'Having spent much of the 10+ years doing disaster recovery drills and documentation, Ryans focus is infrastructure optimization and maintenance as well as content creation for the Flux teams Wiki.'
     },
     {
@@ -227,8 +227,8 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/LizaFlux',
         linkedInLink: '',
         title: 'Community, Media and Community Member',
-        intro: 'Lisa, I am 19 years old, I live in a picturesque place near Elbrus, in the south of Russia. ',
-        description: 'I am getting a law degree in civil law. I lead an active lifestyle, fond of photography and mountain hiking, love animals. I can ride a motorcycle and a horse, I am a good shot with a gun.My first acquaintance with the crypto was in 2017, but I became actively interested in 2021. After I met the Flux project, I fell in love with it. I began to actively study blockchain, mining, cryptocurrencies and specifically the Flux technology. I also became interested in marketing, graphic and motion design. I am constantly improving my skills and acquiring new ones.'
+        intro: 'Lisa comes to us from a picturesque place near Elbrus, in the south of Russia. ',
+        description: 'She is getting a law degree in civil law. She leads an active lifestyle, is fond of photography, mountain hiking, and loves animals. She can ride a motorcycle and a horse, and is a good shot with a gun. Her first acquaintance with crypto was in 2017, but became actively interested in 2021. When she found the Flux project, she fell in love with it. Liza began to actively study blockchain, mining, cryptocurrencies and specifically the Flux technology. She also became interested in marketing, graphic and motion design. She is constantly improving her skills and acquiring new ones.'
     },
     {
         name: 'Tom Moulton',
@@ -236,8 +236,8 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/w2vy',
         linkedInLink: '',
         title: 'Developer and Community Member',
-        intro: 'Tom started in digital communications in 1975 as a Ham Radio (W2VY) operator using Morse Code was very involved in message relay.',
-        description: 'After graduating High School he started at Newark College of Engineering in Computer Science. Within a year was working on a NFS funded project researching "Human Communications via Computer" where they developed the Electronic Information Exchange System (EIES) lead by Dr Murray Turoff and Dr Starr Roxanne Hiltz, authors of "The Network Nation". They envisioned and implemented every communications tool we use today in one form for another. After starting pre-Internet 45 years ago, it is very exciting to be involved with Flux which is the clear leader in Web 3.0 and beyond.  As a part time Flux Developer my notable contributions include the idea to use uPnP for Home Nodes and support for the Flux Daemon (C Language, I am a dinosaur)'
+        intro: 'Tom started in digital communications in 1975 as a Ham Radio (W2VY) operator using Morse Code and was very involved in message relay.',
+        description: 'After graduating High School, he started at Newark College of Engineering in Computer Science. Within a year, he was working on a NFS funded project researching "Human Communications via Computer", where they developed the "Electronic Information Exchange System (EIES)", lead by Dr Murray Turoff and Dr Starr Roxanne Hiltz, authors of "The Network Nation". They envisioned and implemented every communications tool we use today in one form or another. After starting pre-Internet 45 years ago, he is very excited to be involved with Flux, which is the clear leader in Web 3.0 and beyond.  As a part time Flux Developer, his notable contributions include the idea to use uPnP for Home Nodes and support for the Flux Daemon ( in C Language, he considers himself a tech dinosaur)'
     },
     {
         name: 'Emmanuel Steve',
@@ -245,7 +245,7 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/talk2coded',
         linkedInLink: 'http://linkedin.com/in/emmanuel-steve-98aa76179',
         title: 'Developer and Community Member',
-        intro: 'Emmanuel Steve is an educated Software developer with over 6 years of professional experience in software development, front-end development.',
+        intro: 'Emmanuel Steve is an educated Software developer with over 6 years of professional experience in software development front-end development.',
         description: ' He has a demonstrated history of delivering large, complex projects. Emmanuel is focused on building community centric projects In the blockchain space.'
     },
     {
@@ -254,7 +254,7 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/marciopinho20',
         linkedInLink: 'https://www.linkedin.com/in/marciopinho20/',
         title: 'Graphic Designer and Community Member',
-        intro: 'After a professional retraining, Marcio is a young graduate. From Porto to Paris, he develops his skills through his motivation and his experiences. ',
+        intro: 'After professional retraining, Marcio is a young graduate. From Porto to Paris, he develops his skills through his motivation and experiences. ',
         description: 'His creativity helps him to compose well-balanced designs for the Flux team. Driven by innovation, he loves to be an actor in the changes of the world of tomorrow.'
     },
     {
@@ -272,8 +272,8 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/crypto_wrench',
         linkedInLink: 'https://www.linkedin.com/in/justin-o-donnell-827380ba/',
         title: 'Flux Labs Developer, Pool Op and Community Member',
-        intro: 'Marine Veteran, Worked on Helicopters and then after getting out moved to working on gas turbines at a power plant.',
-        description: ' Starting working in crypto space in 2017 auditing project qt and Java wrapper wallets. Started operating mining pools in 2018.Currently full time pool op and works in charity. Will soon be starting my own non profit "Fluffy Legion"'
+        intro: 'Justin is a Marine Veteran, He worked on helicopters and then after getting out of the marines, moved to working on gas turbines at a power plant.',
+        description: 'He starting working in the crypto space in 2017 auditing project qt and Java wrapper wallets. He started operating mining pools in 2018. Currently he is a full time pool operator and works in charity. He will soon be starting a non-profit called "Fluffy Legion"'
     },
     {
         name: 'Joel Shorun',
@@ -289,18 +289,18 @@ const teamAsset = [
         thumbnail: coombes,
         twitterLink: '',
         linkedInLink: '',
-        title: 'APAC Business Development Manager and Community Member',
-        intro: 'By trade I am a qualified Paramedic from Sydney, Australia but after discovering crypto in 2019 I have been delving further into the web3 space ever since. ',
-        description: 'After coming across the FLUX project I have wanted to be involved in the project and help grow the awareness by way of moderating the social media discourse, to being part of the support desk team and now assuming BDM responsibilities.'
+        title: 'Community Member',
+        intro: '',
+        description: ''
     },
     {
         name: 'Matthew DeGarmo',
         thumbnail: degarmo,
         twitterLink: '',
         linkedInLink: '',
-        title: 'Infrastructure & Security Engineer, Developer and Community Member',
-        intro: 'Matthew has over 10+ years experience in the tech arena. Having gone from IT Support, to DevOps Architect, to Full Stack. ',
-        description: 'Matthew has over 10+ years experience in the tech arena. Having gone from IT Support, to DevOps Architect, to Full Stack Engineer, he demonstrates his passion to be a daily learner. He specializes in all things automation, with interests in Cyber Security, having several industry leading certifications like CISSP. In his spare time, he streams tech on Twitch, hoping to help teach and inspire others.'
+        title: 'Freelancer and Community Member',
+        intro: 'Matthew has over 10+ years experience in the tech arena. Having gone from IT Support, to DevOps Architect, to Full Stack Engineer. ',
+        description: 'He demonstrates his passion to be a daily learner. He specializes in all things automation, with interests in Cyber Security, having several industry leading certifications like CISSP. In his spare time, he streams tech on Twitch, hoping to help teach and inspire others.'
     },
     {
         name: 'Afonso Urbano',
@@ -354,7 +354,7 @@ const teamAsset = [
         linkedInLink: '',
         title: 'FluxLabs Manager and Community Member',
         intro: 'With 20+ years in business intelligence, Richard has masterfully combined technology, data analytics, and marketing to foster impactful change. ',
-        description: 'Recognized for pioneering BI integrations and innovative data strategies, hes been honored with awards like the Bolt Award. Beyond his technical prowess, Richards expertise spans marketing analytics and a passion for Data Sciences and Web 3. He remains a staunch advocate for mentorship, highlighting his comprehensive approach to the field.'
+        description: 'Recognized for pioneering BI integrations and innovative data strategies, hes been honored with awards like the "Bolt Award". Beyond his technical prowess, Richards expertise spans marketing analytics, a passion for Data Sciences and Web 3. He remains a staunch advocate for mentorship, highlighting his comprehensive approach to the field.'
     },
     {
         name: 'Carolien Rodrigo',
@@ -389,8 +389,8 @@ const teamAsset = [
         twitterLink: '',
         linkedInLink: '',
         title: 'Content Writer and Community Member',
-        intro: 'Ronni is a firm believer in the potential of Web3 and is enthustiastic about tech.',
-        description: 'Hes an experienced professional primarily working with project and portfolio best practices and governance in large organizations. He also a veteran and retired military officer. On the Flux team he channels his passion for the project into written content for the community as well as news outlets.'
+        intro: 'Ronni is a firm believer in the potential of Web3 and is enthusiastic about tech.',
+        description: 'Hes an experienced professional primarily working with project and portfolio best practices and governance in large organizations. He is also a veteran and retired military officer. On the Flux team he channels his passion for the project into written content for the community, as well as news outlets.'
     },
     {
         name: 'John Kerr',
