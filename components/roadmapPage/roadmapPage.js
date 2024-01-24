@@ -41,11 +41,10 @@ export function RoadMapPage(){
                             </li> 
                             <li>
                                 <div className={styles.content}>
-                                <h3>Multisig Fluxnodes, Wordpress</h3>
-                                    <p>-XDAO 2.0</p>
-                                    <p>-Cirrus Node Testnet</p>
-                                    <p>-PoUW Release Beta</p>
-                                    <p>-Project Enigma Phase 2</p>
+                                <h3>Multisig Fluxnodes, SSP Wallet</h3>
+                                    <p>SSP Wallet Release</p>
+                                    <p>FluxCore Beta</p>
+                                    <p>FluxEdge Alpha</p>
                                     <p>-Wordpress V1 Release</p>
                                     <p>-Primetime Phase 2</p>
                                     <p>-Project Juggernaut</p>
@@ -57,7 +56,8 @@ export function RoadMapPage(){
                             </li> 
                             <li>
                                 <div className={styles.content}>
-                                <h3>FluxDrive, Marketplace V2</h3>
+                                <h3>FluxCore, Marketplace V2</h3>
+                                    <p>FluxCore Alpha</p>
                                     <p>-FluxDrive Pro</p>
                                     <p>-Flux Referral Program</p>
                                     <p>-Flux Carbon Footprint</p>
