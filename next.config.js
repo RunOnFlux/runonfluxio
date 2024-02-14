@@ -25,6 +25,18 @@ async redirects() {
       basePath: false
     },
     {
+      source: '/privacy-policy.html',
+      destination: '/privacyPolicy',
+      permanent: true,
+      basePath: false
+    },
+    {
+      source: '/term-conditions.html',
+      destination: '/termsandconditions',
+      permanent: true,
+      basePath: false
+    },
+    {
       source: '/fluxCore',
       destination: 'https://leaderboard.fluxcore.ai',
       permanent: false,
