@@ -59,6 +59,7 @@ export function NavBar(){
                                 <li> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki<Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">FluxStore <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore <Image alt="img" src={target}/></a></li>
+                                <li> <a href="https://sspwallet.io/" target="_blank" rel="noreferrer">SSP Wallet <Image alt="img" src={target}/></a></li>
                                 <li className={styles.navLogo}> <a href="https://twitter.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={twitter} /></a></li>
                                 <li className={styles.navLogo}> <a href="https://discord.gg/runonflux" target="_blank" rel="noreferrer"><Image alt="logo" src={discord}/></a></li>
                                 <li className={styles.navLogo}> <a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="logo" src={github}/></a></li>
@@ -163,6 +164,16 @@ export function NavBar(){
                      <div className={styles.sublink}>A multi-asset, multi-platform wallet with a  long list <br/> of market leading features.</div>
                       </div>
                     
+                      </Link> 
+                    </NavDropdown.Item>
+
+                    <NavDropdown.Item >
+                      <Link href={'/ssp'} className={styles.link} eventKey="60"> 
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                          SSP Wallet
+                          <br/>
+                          <div className={styles.sublink}>A multi-signature wallet built for security and simplicity.</div>
+                        </div>               
                       </Link> 
                     </NavDropdown.Item>
 
@@ -570,6 +581,16 @@ export function NavBar(){
                      <div className={styles.sublink}>A multi-asset, multi-platform wallet with a <br/> long list of market leading features.</div>
                       </div>
                     
+                      </Link> 
+                    </NavDropdown.Item>
+
+                    <NavDropdown.Item eventKey="61">
+                      <Link href={'/ssp'} className={styles.link} > 
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                          SSP Wallet
+                          <br/>
+                          <div className={styles.sublink}>A multi-signature wallet built for security and simplicity.</div>
+                        </div>                    
                       </Link> 
                     </NavDropdown.Item>
 
