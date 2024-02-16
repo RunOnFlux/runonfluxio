@@ -63,6 +63,12 @@ async redirects() {
       basePath: false
     },
     {
+      source: '/ssp',
+      destination: 'https://sspwallet.io/',
+      permanent: false,
+      basePath: false
+    },
+    {
       source: '/dashboard',
       destination: 'https://home.runonflux.io/dashboard/overview',
       permanent: false,

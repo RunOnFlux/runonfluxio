@@ -53,6 +53,7 @@ export function Footer(){
                             <li><Link href="/nodes">FluxNodes</Link></li>
                             <li><Link href="/flux">Flux</Link></li>
                             <li><a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></li>
+                            <li><a href="https://sspwallet.io/" target="_blank" rel="noreferrer">SSP Wallet</a></li>
                             <li><a href="/dashboard">Dashboard</a></li>
                             <li><Link href="/XDAO">XDAO</Link></li>
                         </ul>
