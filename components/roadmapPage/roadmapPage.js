@@ -7,9 +7,7 @@ import styles from "./index.module.css"
 export function RoadMapPage(){
  
     return(
-        <React.Fragment>
-
-            
+        <>
             <section className={styles.section1}>
                 <div className="container">
                     <div className="row">
@@ -299,11 +297,6 @@ export function RoadMapPage(){
                             <div style={{clear: "both"}}></div>
                             </ul>
                             </div>
-                      {/* <div className={styles.timeline}>
-                            <ul>
-                            </ul>
-                          
-                        </div> */}
                     </div>
                     <div className="row mt-5 pb-5 text-center" >
                         <div className={styles.footerSection} style={{marginBottom: "100px"}}>
@@ -315,6 +308,6 @@ export function RoadMapPage(){
                     </div>
                 </div>
             </section>
-        </React.Fragment>
+        </>
     )
 }
