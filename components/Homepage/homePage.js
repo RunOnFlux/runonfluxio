@@ -38,10 +38,10 @@ import POUW from "../../public/images/greenIcons/pouw.svg"
 import cloud from "../../public/images/greenIcons/cloud.svg"
 import climate from "../../public/images/greenIcons/climate.svg"
 import dollar from "../../public/images/greenIcons/dollar$.svg"
+import fluxcoreimg from "../../public/images/fluxcorealpha.png"
 import axios from 'axios';
 import { Slider4 } from "../Slider/slider4";
 import Modal from 'react-bootstrap/Modal';
-import cypherpunkImg from "../../public/images/cyperpunk.jpeg"
 
 
 export function HomePage(){
@@ -142,10 +142,10 @@ export function HomePage(){
                             </Modal.Header>
                             <Modal.Body>
                                 <div className={styles.modal}>
-                                    <a href="https://cypherpunk2023.com/" target="_blank" rel="noreferrer">
-                                <Image alt="cypherpunk" src={cypherpunkImg} /></a>
+                                    <a href="https://leaderboard.fluxcore.ai/" target="_blank" rel="noreferrer">
+                                <Image alt="fluxcoreimg" src={fluxcoreimg} /></a>
                                 </div>
-                               
+
                             </Modal.Body>
                         </Modal>
                     </div>
@@ -424,7 +424,7 @@ export function HomePage(){
             <section className={styles.section7}>
                 <div className="container">
                     <div className="row text-center mx-auto">
-                    <h2 className="mb-3">Learn How <span>Flux Cloud</span> Works</h2>
+                    <h2 className="mb-3">Learn How <span>Web3 Cloud</span> Works</h2>
                     <a href="https://youtu.be/cqZkNO7KM00" className={styles.btn2} target="_blank" rel="noreferrer" style={{margin: "auto"}}>View Video</a>
                     </div> 
                 </div>
@@ -540,7 +540,7 @@ export function HomePage(){
                         <p>Flux is actively developing sustainable solutions for proof of work and cloud computing. Flux believes that blockchains are not the sole cause of environmental problems but that it instead can provide solutions that will ultimately create more energy-efficient solutions than legacy technology can.</p> 
                     </div>
                     <div className="row mb-5">
-                        <a href="https://runonflux.io/zero-carbon.html" target="_blank" rel="noreferrer" className={styles.btn3} style={{margin: "auto"}}> Discover More</a>
+                        <a href="/fluxCarbon" target="_blank" rel="noreferrer" className={styles.btn3} style={{margin: "auto"}}> Discover More</a>
                         </div>
 
                         <div className="row">

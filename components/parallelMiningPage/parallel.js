@@ -2,21 +2,20 @@ import React from "react"
 import styles from "./index.module.css"
 import Image from "next/image"
 import kdaImg from "../../public/images/parallel/kda-logo2x.png"
-import kdaBadge from "../../public/images/parallel/flux-kda2x-badge.png"
 import ethImg  from "../../public/images/parallel/eth-logo2x.png"
-import ethBadge from "../../public/images/parallel/flux-eth2x-badge.png"
 import bnbImg  from "../../public/images/parallel/bnb-logo2x.png"
-import bnbBadge from "../../public/images/parallel/flux-bnb2x-badge.png"
 import solImg  from "../../public/images/parallel/sol-logo2x.png"
-import solBadge from "../../public/images/parallel/flux-sol2x_1-badge.png"
 import trxImg  from "../../public/images/parallel/tron-p-500.png"
-import trxBadge from "../../public/images/parallel/flux-tron2x-badge.png"
 import avaImg  from "../../public/images/parallel/terra-avalanche-flux-parallel-logo.png"
-import avaBadge from "../../public/images/parallel/flux-tron2x-badge.png"
 import ergImg  from "../../public/images/parallel/ergo-logo.png"
-import ergBadge from "../../public/images/parallel/erg-badge.png"
+import algoImg from "../../public/images/parallel/algo-logo2x.png"
+import polyImg from "../../public/images/parallel/poly-logo2x.png"
+import baseImg from "../../public/images/parallel/base-logo2x.png"
+import btcImg from "../../public/images/parallel/btc-logo2x.png"
+import completedBadge from "../../public/images/parallel/completed-badge.png"
 import uniswap from "../../public/images/parallel/uniswap-p-500.png"
 import pancakeswap from "../../public/images/parallel/pancakeswap-p-500.png"
+
 export function ParallelMiningPage(){
     return(
         <React.Fragment>
@@ -26,7 +25,7 @@ export function ParallelMiningPage(){
                     <div className={styles.header}>
                         <h1>We use <span className={styles.span1}>multiple blockchains </span><br/> So you can focus <span className={styles.span2}>on building</span></h1>
                         <p>Flux provides access to multiple blockchains through parallel assets. Flux is creating ten parallel Flux assets on ten other blockchains that will be interchangeable with the main Flux chain. This provides Flux holders with easy access to all major DeFi platforms.</p>
-                        <p>To date, seven parallel assets (KDA, ETH, BSC, SOL, TRX, AVAX and ERG) have already been created and distributed to Flux holders with three others that will be announced and distributed as in the following snapshot event.</p>
+                        <p>To date, ten parallel assets (KDA, ETH, BSC, SOL, TRX, AVAX, ERG, ALGO, MATIC, BASE) have already been created and distributed to Flux holders with the last being BTC which will be distributed once integration has been completed.</p>
                         </div>
                     </div>
                     <div className="row mb-4">
@@ -36,15 +35,15 @@ export function ParallelMiningPage(){
                         </div>
                      </div>
                      <div className="row">
-                        <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
+                     <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                             <div className={styles.card1}>
                                 <div className={styles.img1}>
-                                <Image src={kdaImg} alt="img1" width={'0'} height={'0'}/>
+                                <Image src={btcImg} alt="img1" width={'0'} height={'0'}/>
                                 </div>
-                                <p>KADENA</p>
-                                <h3 style={{color: '#f855ba'}}>FLUX-KDA</h3>
+                                <p>Bitcoin</p>
+                                <h3 style={{color: '#FF9900'}}>FLUX-BTC</h3>
                                 <div className={styles.img2}>
-                                <Image src={kdaBadge} alt="img1" width={'0'} height={'0'}/>
+                                {/* <Image src={completedBadge} alt="img1" width={'0'} height={'0'}/> */}
                                 </div>
                             </div>
                         </div>
@@ -56,7 +55,19 @@ export function ParallelMiningPage(){
                                 <p>ETHEREUM</p>
                                 <h3 style={{color: '#c1c1c1'}}>FLUX-ETH</h3>
                                 <div className={styles.img2}>
-                                <Image src={ethBadge} alt="img1" width={'0'} height={'0'}/>
+                                <Image src={completedBadge} alt="img1" width={'0'} height={'0'}/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
+                            <div className={styles.card1}>
+                                <div className={styles.img1}>
+                                <Image src={baseImg} alt="img1" width={'0'} height={'0'}/>
+                                </div>
+                                <p>Coinbase</p>
+                                <h3 style={{color: '#000'}}>FLUX-BASE</h3>
+                                <div className={styles.img2}>
+                                <Image src={completedBadge} alt="img1" width={'0'} height={'0'}/>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +79,19 @@ export function ParallelMiningPage(){
                                 <p>BINANCE</p>
                                 <h3 style={{color: '#fbcd17'}}>FLUX-BSC</h3>
                                 <div className={styles.img2}>
-                                <Image src={bnbBadge} alt="img1" width={'0'} height={'0'}/>
+                                <Image src={completedBadge} alt="img1" width={'0'} height={'0'}/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
+                            <div className={styles.card1}>
+                                <div className={styles.img1}>
+                                <Image src={kdaImg} alt="img1" width={'0'} height={'0'}/>
+                                </div>
+                                <p>KADENA</p>
+                                <h3 style={{color: '#f855ba'}}>FLUX-KDA</h3>
+                                <div className={styles.img2}>
+                                <Image src={completedBadge} alt="img1" width={'0'} height={'0'}/>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +103,7 @@ export function ParallelMiningPage(){
                                 <p>SOLANA</p>
                                 <h3 style={{color: '#19d19f'}}>FLUX-SOL</h3>
                                 <div className={styles.img2}>
-                                <Image src={solBadge} alt="img1" width={'0'} height={'0'}/>
+                                <Image src={completedBadge} alt="img1" width={'0'} height={'0'}/>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +115,7 @@ export function ParallelMiningPage(){
                                 <p>TRON</p>
                                 <h3 style={{color: '#ff060a'}}>FLUX-TRX</h3>
                                 <div className={styles.img2}>
-                                <Image src={trxBadge} alt="img1" width={'0'} height={'0'}/>
+                                <Image src={completedBadge} alt="img1" width={'0'} height={'0'}/>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +127,7 @@ export function ParallelMiningPage(){
                                 <p>AVALANCHE</p>
                                 <h3 style={{color: '#e84142'}}>FLUX-AVA</h3>
                                 <div className={styles.img2}>
-                                <Image src={avaBadge} alt="img1" width={'0'} height={'0'}/>
+                                <Image src={completedBadge} alt="img1" width={'0'} height={'0'}/>
                                 </div>
                             </div>
                         </div>
@@ -116,21 +139,32 @@ export function ParallelMiningPage(){
                                 <p>ERGO</p>
                                 <h3 style={{color: '#000'}}>FLUX-ERG</h3>
                                 <div className={styles.img2}>
-                                <Image src={ergBadge} alt="img1" width={'0'} height={'0'}/>
+                                <Image src={completedBadge} alt="img1" width={'0'} height={'0'}/>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
-                            <div className={styles.card1} style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
-                            <h3 style={{color: '#c1c1c1'}}>+3 to come</h3>
-                                {/* <div className={styles.img1}>
-                                <Image src={kdaImg} alt="img1" width={'0'} height={'0'}/>
+                            <div className={styles.card1}>
+                                <div className={styles.img1}>
+                                <Image src={polyImg} alt="img1" width={'0'} height={'0'}/>
                                 </div>
-                                <p>KADENA</p>
-                                <h3>FLUX-KDA</h3>
+                                <p>POLYGON</p>
+                                <h3 style={{color: '#8247e5'}}>FLUX-MATIC</h3>
                                 <div className={styles.img2}>
-                                <Image src={kdaBadge} alt="img1" width={'0'} height={'0'}/>
-                                </div> */}
+                                <Image src={completedBadge} alt="img1" width={'0'} height={'0'}/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
+                            <div className={styles.card1}>
+                                <div className={styles.img1}>
+                                <Image src={algoImg} alt="img1" width={'0'} height={'0'}/>
+                                </div>
+                                <p>ALGORAND</p>
+                                <h3 style={{color: '#000'}}>FLUX-ALGO</h3>
+                                <div className={styles.img2}>
+                                <Image src={completedBadge} alt="img1" width={'0'} height={'0'}/>
+                                </div>
                             </div>
                         </div>
                     </div>

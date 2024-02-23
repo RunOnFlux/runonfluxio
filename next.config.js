@@ -24,6 +24,24 @@ async redirects() {
       permanent: false,
       basePath: false
     },
+    {
+      source: '/privacy-policy.html',
+      destination: '/privacyPolicy',
+      permanent: true,
+      basePath: false
+    },
+    {
+      source: '/term-conditions.html',
+      destination: '/termsandconditions',
+      permanent: true,
+      basePath: false
+    },
+    {
+      source: '/fluxCore',
+      destination: 'https://leaderboard.fluxcore.ai',
+      permanent: false,
+      basePath: false
+    },
    
     // {
     //   source: '/fluxNodes',
@@ -41,6 +59,12 @@ async redirects() {
     {
       source: '/zelcore',
       destination: 'https://zelcore.io/',
+      permanent: false,
+      basePath: false
+    },
+    {
+      source: '/ssp',
+      destination: 'https://sspwallet.io/',
       permanent: false,
       basePath: false
     },
@@ -108,6 +132,12 @@ async redirects() {
       permanent: false,
       basePath: false
     },
+    {
+      source: '/fractusnode',
+      destination: 'https://fluxofficial.medium.com/earn-more-with-fractus-cumulus-store-more-flux-earned-cbeac46bc9e7',
+      permanent: false,
+      basePath: false
+    },
     // {
     //   source: '/miner',
     //   destination: 'https://www.runonflux.io/mining.html',
@@ -123,6 +153,12 @@ async redirects() {
     {
       source: '/fluxStore',
       destination: 'https://gotflux.store/',
+      permanent: false,
+      basePath: false
+    },
+    {
+      source: '/guides',
+      destination: 'https://help.runonflux.io/',
       permanent: false,
       basePath: false
     },

@@ -19,12 +19,49 @@ export function RoadMapPage(){
                             <ul>
                             <li>
                                 <div className={styles.content}>
-                                <h3>University, Snapshot, Hacathon 2</h3>
-                                    <p>-Flux University</p>
-                                    <p>-Flux Snapshot</p>
-                                    <p>-Flux Hackathon 2</p>
-                                    <p>-Cirrus Node Testnet</p>
-                                    <p>-Project Enigma</p>
+                                <h3>Cypherpunk Europe</h3>
+                                    <p>-Cypherpunk Europe</p>
+                                </div>
+                                <div className={styles.time}>
+                                <h4>Q3 2024</h4>
+                                </div>
+                            </li> 
+                            <li>
+                                <div className={styles.content}>
+                                <h3>PoUW, Titan 2.0</h3>
+                                    <p>-PoUW Release</p>
+                                    <p>-Operation Lockbox</p>
+                                    <p>-Titan 2.0</p>
+                                </div>
+                                <div className={styles.time}>
+                                <h4>Q2 2024</h4>
+                                </div>
+                            </li> 
+                            <li>
+                                <div className={styles.content}>
+                                <h3>Multisig Fluxnodes, SSP Wallet</h3>
+                                    <p>SSP Wallet Release</p>
+                                    <p>FluxCore Beta</p>
+                                    <p>FluxEdge Alpha</p>
+                                    <p>-Wordpress V1 Release</p>
+                                    <p>-Primetime Phase 2</p>
+                                    <p>-Project Juggernaut</p>
+                                    <p>-Multisig Fluxnodes</p>
+                                </div>
+                                <div className={styles.time}>
+                                <h4>Q1 2024</h4>
+                                </div>
+                            </li> 
+                            <li>
+                                <div className={styles.content}>
+                                <h3>FluxCore, Marketplace V2</h3>
+                                    <p>FluxCore Alpha</p>
+                                    <p>-FluxDrive Pro</p>
+                                    <p>-Flux Referral Program</p>
+                                    <p>-Flux Carbon Footprint</p>
+                                    <p>-Flux Marketplace V2</p>
+                                    <p>-Parallel Asset Snapshot</p>
+                                    <p>-Project Java</p>
                                 </div>
                                 <div className={styles.time}>
                                 <h4>Q4 2023</h4>
@@ -32,7 +69,10 @@ export function RoadMapPage(){
                             </li> 
                             <li>
                                 <div className={styles.content}>
-                                <h3>Marketplace, Private Docker, PoUW</h3>
+                                <h3>Cypherpunk, Private Docker, PoUW</h3>
+                                    <p>-Cypherpunk 2023</p>
+                                    <p>-Power DNS</p>
+                                    <p>-Project Enigma</p>
                                     <p>-Private Docker</p>
                                     <p>-Flux Marketplace Expansion</p>
                                     <p>-Flux Domain Manager Upgrades</p>
@@ -45,9 +85,8 @@ export function RoadMapPage(){
                             </li> 
                             <li>
                                 <div className={styles.content}>
-                                <h3>Hackathon, Cypherpunk, Carbon</h3>
+                                <h3>Hackathon, Carbon</h3>
                                     <p>-Flux Hackathon</p>
-                                    <p>-The First Flux Conference - Cypherpunk 2023</p>
                                     <p>-Flux - PA9 Distribution</p>
                                     <p>-Decentralized Database</p>
                                     <p>-Flux Carbon Footprint</p>

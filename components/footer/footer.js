@@ -47,11 +47,13 @@ export function Footer(){
                     <div className="col-lg-2 col-md-3 col-6 mb-5" >
                         <h5>ECOSYSTEM</h5>
                         <ul>
+                            <li><a href="/fluxCore">FluxCore</a></li>
                             <li><a href="/fluxCloud">Flux Cloud</a></li>
                             <li><Link href="/fluxDapps">DApps</Link></li>
                             <li><Link href="/nodes">FluxNodes</Link></li>
                             <li><Link href="/flux">Flux</Link></li>
                             <li><a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></li>
+                            <li><a href="https://sspwallet.io/" target="_blank" rel="noreferrer">SSP Wallet</a></li>
                             <li><a href="/dashboard">Dashboard</a></li>
                             <li><Link href="/XDAO">XDAO</Link></li>
                         </ul>
@@ -72,19 +74,25 @@ export function Footer(){
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
                         <h5>DEVELOPERS</h5>
                         <ul>
-                            <li><a href="https://medium.com/zelinsights/zelnode-setup-the-easy-peasy-lemon-squeezy-way-fd89706ea03c" target="_blank" rel="noreferrer"> Fluxnode Startup Guide</a></li>
-                            <li><Link href="/mining"> Mining</Link></li>
+                        <li><a href="https://jetpack2.app.runonflux.io/hello.html" target="_blank" rel="noreferrer">App</a></li>
+                            <li><Link href="/node" target="_blank" rel="noreferrer"> Fluxnode Startup Guide</Link></li>
+                            <li><Link href="/guides"> Guides / Helpdesk</Link></li>
+                            <li><a href="https://fluxofficial.medium.com/earn-more-with-fractus-cumulus-store-more-flux-earned-cbeac46bc9e7" target="_blank" rel="noreferrer">Fractus</a></li>
+                            <li><Link href="/mining"> Miner</Link></li>
                             <li><Link href="/flux#exchanges"> Buy Flux</Link></li>
+                            <li><a href="https://gotflux.store/" target="_blank" rel="noreferrer">Flux Store</a></li>
+                            <li><a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer">Github</a></li>
+                            <li><a href="https://github.com/RunOnFlux/press" target="_blank" rel="noreferrer">Press Kit</a></li>
+                            <li><Link href="/bugBountyProgram">Bug bounty</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6 mb-5">
                         <h5>COMMUNITY</h5>
                         <ul>
                             <li><Link href="/blog">Blog</Link></li>
-                            <li><a href="https://github.com/RunOnFlux" target="_blank" rel="noreferrer">Github</a></li>
-                            <li><a href="https://github.com/RunOnFlux/press" target="_blank" rel="noreferrer">Brand Assets</a></li>
+                            <li><Link href="/social">Social</Link></li>
                             <li><Link href="/careers">Careers</Link></li>
-                            <li><Link href="/bugBountyProgram">Bug bounty</Link></li>
+                            <li><a href="https://support.runonflux.io/support/home" target="_blank" rel="noreferrer">Support</a></li>                            
                         </ul>
                     </div>
                 </div>
