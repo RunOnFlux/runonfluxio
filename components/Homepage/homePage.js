@@ -38,7 +38,7 @@ import POUW from "../../public/images/greenIcons/pouw.svg"
 import cloud from "../../public/images/greenIcons/cloud.svg"
 import climate from "../../public/images/greenIcons/climate.svg"
 import dollar from "../../public/images/greenIcons/dollar$.svg"
-import fluxwpimg from "../../public/images/flux-wp-popup.jpg"
+import fluxwpimg from "../../public/images/flux-wp-popup.png"
 import axios from 'axios';
 import { Slider4 } from "../Slider/slider4";
 import Modal from 'react-bootstrap/Modal';
