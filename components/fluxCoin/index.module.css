@@ -225,16 +225,15 @@ margin-bottom: 20px;
 }
 
 .subTitle{
-  /* padding-left: 40px; */
-  margin: 0.1em auto 0em 0px;
+  padding: 0.5% 0;
+  /* margin: 0.1em auto 0em 0px; */
   font-family: Montserrat, sans-serif;
   color: #313457;
-  font-size: 2.2em;
+  font-size: 1.5em;
   line-height: 1.1em;
   text-align: left;
   font-weight: bold;
   float: left;
-
 }
 .subTitle2{
   text-align: right;
@@ -707,7 +706,7 @@ p.pop{
 .subTitle2{
   text-align: right;
   /* margin: 0.1em auto 0em 0px; */
-  margin-top: -45px;
+  /* margin-top: -45px; */
   font-size: 1em;
   line-height: 1.4em;
   font-weight: bold;
@@ -874,6 +873,12 @@ p.pop{
   font-weight: 400;
   text-align: center;
 }
+.extext{
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 20px;
+  
+}
 
 
 }
@@ -894,6 +899,16 @@ p.pop{
     font-size: 0.9em;
     line-height: 1.6;
     /* margin-bottom: 50px !important; */
+}
+.section2 p{
+  font-size: 0.9em;
+  line-height: 1.6;
+  /* margin-bottom: 50px !important; */
+}
+.section4 p{
+  font-size: 0.9em;
+  line-height: 1.6;
+  /* margin-bottom: 50px !important; */
 }
 .headerImg{
   margin-top: 30px;
@@ -1025,12 +1040,13 @@ p.pop{
 .subTitle2{
   text-align: right;
   /* margin: 0.1em auto 0em 0px; */
-  margin-top: -25px;
-  font-size: 0.7em;
+  /* margin-top: -25px; */
+  font-size: 0.5em;
   line-height: 1.4em;
   font-weight: bold;
   color: rgba(48, 59, 82, 1);
   float: right;
+
 }
 
 .tokenomics{
@@ -1039,7 +1055,7 @@ p.pop{
 }
 
 .paddingRight{
-  padding-right: 20px;
+  padding-right: 5px;
 }
 
 .tokenHead{

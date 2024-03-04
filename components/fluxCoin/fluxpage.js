@@ -263,7 +263,7 @@ export function Flux() {
                          
                          
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 mt-5">
                             <div className={styles.img2}>
                             <Image className={styles.assetImg} src={circleGraph} alt="Flux-Circle-Graph"/>
                             </div>
@@ -277,10 +277,14 @@ export function Flux() {
                     <div className="row">
                         <div className="col-12">
                         <div className={styles.tokenomics}>
-                        <div className={styles.tokenHead}>
-                        <div className={styles.subTitle}><span className={styles.blue}>Flux</span> Tokenomics</div>
-                        <div className={styles.subTitle2}><span className={styles.paddingRight}>Max Supply</span> 
-                        <span className={styles.blue}>440,000,000 FLUX</span></div>
+                        <div className="row">
+                            <div className="col-5">
+                            <div className={styles.subTitle}><span className={styles.blue}>Flux</span> Tokenomics</div>
+                            </div>
+                            <div className="col-7">
+                            <div className={styles.subTitle2}><span className={styles.paddingRight}>Max Supply</span> 
+                             <span className={styles.blue}>440,000,000 FLUX</span></div>
+                            </div>
                         <hr></hr>
                     </div>
                     
