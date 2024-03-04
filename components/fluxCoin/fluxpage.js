@@ -183,24 +183,30 @@ export function Flux() {
     }
 
     return (
-        <main className={styles.main}>
-            <div className={styles.header}>
-                <div className={styles.spacer}>
-                    <div className={styles.headerleft}>
-                        <div className={styles.titleText}>A world <br></br> powered by <span className={styles.blue}>Flux</span></div>
-                        <div className={styles.subText}>Flux cryptocurrency powers the ecosystem and is used to purchase resources, collateralize
+        <main>
+            <section className={styles.section1}>
+                <div className="container">
+                    <div className="row">
+                    <div className="col-lg-7 col-md-6">
+                        <h1>A world <br></br> powered by <span>Flux</span></h1>
+                        <p>Flux cryptocurrency powers the ecosystem and is used to purchase resources, collateralize
                             nodes, and fuel transactions on FluxOS. It rewards both miners for validating transactions and FluxNode
-                            operators for providing computational resources</div>
+                            operators for providing computational resources</p>
                         <br></br>
-                        <a href="https://whitepaper.app.runonflux.io/" className={styles.btnBlue}>Whitepaper</a>
-                        <a href="https://docs.runonflux.io/" className={styles.btn}>Docs</a>
+                        <div className={styles.buttons}>
+                        <a href="https://whitepaper.app.runonflux.io/" className={styles.btn2}>Whitepaper</a>
+                        <a href="https://docs.runonflux.io/" className={styles.btn1}>Docs</a>
+                        </div>
+                        </div>
+                        <div className="col-lg-5 col-md-6">
+                            <div className={styles.headerImg}>
+                            <Image  src={fluxCircle} alt="Flux-Circle-Thing"/>
+                            </div>  
+                        </div>
                     </div>
-                    <div className={styles.headerright}>
-                        <Image className={styles.headerImg} src={fluxCircle} alt="Flux-Circle-Thing"></Image>
-                    </div>
-                </div>
-
-                <div className={styles.headerInfo}>
+                    <div className="row mt-5">
+                    <div className="col-12">
+                    <div className={styles.headerInfo}>
                     <div className={styles.infoCard}>
                         <div className={styles.iconCircle}>
                             <Image src={icon1} alt=""></Image>
@@ -231,42 +237,62 @@ export function Flux() {
                             <div className={styles.blueLine}></div>
                         </div>
                     </div>
-
                 </div>
-
-            </div>
-
-            <div className={styles.asset}>
-                <div className={styles.spacer}>
-                    <div className={styles.headerleft}>
-                        <div className={styles.titleText2}>The <span className={styles.blue}>Flux</span> Asset</div>
-                        <div className={styles.subText}>The total block reward on the Flux 
-                        blockchain is divided equally between POW miners and FluxNode operators 
-                        for every block. In addition, there is a hierarchy among the different
-                         FluxNode tiers, with the most computationally heavy FluxNode entitled 
-                         to the largest share of the initial 50% distribution reserved for FluxNode.</div>
-                        <br></br>
-                        <a href="https://pouwlitepaper.app.runonflux.io/" className={styles.btn}>FluxPoUW</a>
-                        <Link className={styles.btn} href="/nodes">FluxNode</Link>
-                    </div>
-                    <div className={styles.headerright}>
-                        <Image className={styles.assetImg} src={circleGraph} alt="Flux-Circle-Graph"></Image>
+                </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className={styles.tokenomics}>
-                <div className={styles.tokenHead}>
-                    <div className={styles.subTitle}><span className={styles.blue}>Flux</span> Tokenomics</div>
-                    <div className={styles.subTitle2}><span className={styles.paddingRight}>Max Supply</span> 
-                    <span className={styles.blue}>440,000,000 FLUX</span></div>
-                    <hr></hr>
+            <section className={styles.section2}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className={styles.assetTexts}>
+                                <div>
+                            <h3>The <span>Flux</span> Asset</h3>
+                            <p>The total block reward on the Flux 
+                            blockchain is divided equally between POW miners and FluxNode operators 
+                            for every block. In addition, there is a hierarchy among the different
+                            FluxNode tiers, with the most computationally heavy FluxNode entitled 
+                            to the largest share of the initial 50% distribution reserved for FluxNode.</p>
+                            <div className={styles.buttons}>
+                            <a href="https://pouwlitepaper.app.runonflux.io/" className={styles.btn1}>FluxPoUW</a>
+                            <Link className={styles.btn1} href="/nodes">FluxNode</Link>
+                            </div>
+                            </div></div>
+                         
+                         
+                        </div>
+                        <div className="col-lg-6">
+                            <div className={styles.img2}>
+                            <Image className={styles.assetImg} src={circleGraph} alt="Flux-Circle-Graph"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
+
+            <section className={styles.section3}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                        <div className={styles.tokenomics}>
+                        <div className={styles.tokenHead}>
+                        <div className={styles.subTitle}><span className={styles.blue}>Flux</span> Tokenomics</div>
+                        <div className={styles.subTitle2}><span className={styles.paddingRight}>Max Supply</span> 
+                        <span className={styles.blue}>440,000,000 FLUX</span></div>
+                        <hr></hr>
+                    </div>
+                    
                 <div className={styles.progressBar}>
-                    <div className={styles.left}>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-5">
+                        <div className={styles.left}>
                         <div className={styles.barTitle}>Circulating Supply</div>
                     </div>
-                    <div className={styles.right}>
+                        </div>
+                        <div className="col-lg-8 col-md-7">
+                        <div className={styles.right}>
                         <div id="amount" className={styles.blue}>440,000,000 FLUX</div>
                         <div id="percent" className={styles.centerBlue}>73%</div>
 
@@ -274,143 +300,143 @@ export function Flux() {
                             <div className={styles.myBar} id="myBar"></div>
                         </div>
                     </div>
+                        </div>
+                    </div> 
                     <hr></hr>
                 </div>
+
                 <div className={styles.progressBar2}>
-                    <div className={styles.left}>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-5">
+                        <div className={styles.left}>
                         <div className={styles.barTitle}>Locked Supply <span className={styles.hidden}>_||||</span></div>
                     </div>
-                    <div className={styles.right}>
-                        <div id="amount2" className={styles.blue}>123,430,000 FLUX</div>
-                        <div id="percent2" className={styles.centerBlue}>42%</div>
-
+                        </div>
+                        <div className="col-lg-8 col-md-7">
+                        <div className={styles.right}>
+                        
+                            <div id="amount2" className={styles.blue}>123,430,000 FLUX</div>
+                            <div id="percent2" className={styles.centerBlue}>42%</div>
+                         
                         <div className={styles.myProgress} id="myProgress2">
                             <div className={styles.myBar2} id="myBar2"></div>
+                        </div>
+                    </div>
                         </div>
                     </div>
                     <hr className={styles.hidden}></hr>
                 </div>
             </div>
+                        </div>
+                    </div>
+                    <div className="row" style={{marginTop: "50px"}}>
+                        <div className="col-lg-4 col-md-6">
+                            <div className={styles.statCard}>
+                                <div>
+                                <div className={styles.statImgContainer}>
+                                <Image src={icon4} className={styles.statImg} alt=""></Image>
+                            </div>
+                            <h5 className={styles.smallBlackText}>Hashing Algorithm</h5>
+                            <h6 className={styles.subTitle02}>FLUXPOUW</h6>
+                            <p className={styles.smallBottomText}>Equihash 125_4</p>
+                                </div>
+                            </div>
+                        </div>
 
-            <div className={styles.statCards}>
-                <div className={styles.div1}> 
-                    <div className={styles.statCard}>
-                        <div className={styles.statImgContainer}>
-                            <Image src={icon4} className={styles.statImg} alt=""></Image>
-                        </div>
-                        <div className={styles.smallBlackText}>Hashing Algorithm</div>
-                        <div className={styles.subTitle2}>FLUXPoUW</div>
-                        <div className={styles.smallBottomText}>Equihash 125_4</div>
-                    </div>
-                </div>
-                <div className={styles.div2}> 
-                    <div className={styles.statCard}>
-                        <div className={styles.statImgContainer}>
-                            <Image src={icon5} className={styles.statImg} alt=""></Image>
-                        </div>
-                        <div className={styles.smallBlackText}>Block Reward</div>
-                        <div className={styles.subTitle2}>37.5 FLUX</div>
-                    </div>
-                </div>
-                <div className={styles.div3}> 
-                    <div className={styles.statCard}>
-                        <div className={styles.statImgContainer}>
-                            <Image src={icon6} className={styles.statImg} alt=""></Image>
-                        </div>
-                        <div className={styles.smallBlackText}>Reward Distribution</div>
-                        <div className={styles.subTitle2}>50% POW - 50% NODE</div>
-                    </div>
-                </div>
-                <div className={styles.div4}> 
-                    <div className={styles.statCard}>
-                        <div className={styles.statImgContainer}>
-                            <Image src={icon7} className={styles.statImg} alt=""></Image>
-                        </div>
-                        <div className={styles.smallBlackText}>Block Time</div>
-                        <div className={styles.subTitle2}>2 MINUTES</div>
-                    </div>
-                </div>
-                <div className={styles.div5}> 
-                    <div className={styles.statCard}>
-                        <div className={styles.statImgContainer}>
-                            <Image src={icon8} className={styles.statImg} alt=""></Image>
-                        </div>
-                        <div className={styles.smallBlackText}>Max Supply</div>
-                        <div className={styles.subTitle2}>440,000,000</div>
-                    </div>
-                </div>
-                <div className={styles.div6}> 
-                    <div className={styles.statCard}>
-                        <div className={styles.statImgContainer}>
-                            <Image src={icon9} className={styles.statImg} alt=""></Image>
-                        </div>
-                        <div className={styles.smallBlackText}>Halving</div>
-                        <div className={styles.subTitle2}>2,5 YEARS</div>
-                    </div>
-                </div>
-            </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className={styles.statCard}>
+                                <div>
+                                <div className={styles.statImgContainer}>
+                                <Image src={icon5} className={styles.statImg} alt=""></Image>
+                            </div>
+                            <h5 className={styles.smallBlackText}>Block Reward</h5>
+                            <h6 className={styles.subTitle02}>37.5 FLUX</h6>
+                            </div>
+                                </div>
+                            </div>
 
-            <div className={styles.asset}>
-                <div className={styles.spacer}>
-                    <div className={styles.headerleft}>
-                        <div className={styles.titleText2}><span className={styles.blue}>Flux</span> is a <span className={styles.blue}>Multichain</span> <br></br>Cryptocurrency</div>
-                        <div className={styles.subText}>With Flux's parallel assets, you can leverage the beneficial
+                            <div className="col-lg-4 col-md-6">
+                                    <div className={styles.statCard}>
+                                        <div>
+                                        <div className={styles.statImgContainer}>
+                                    <Image src={icon6} className={styles.statImg} alt=""></Image>
+                                </div>
+                                <h5 className={styles.smallBlackText}>Reward Distribution</h5>
+                                <h6 className={styles.subTitle02}>50% POW - 50% NODE</h6>
+                              </div>
+                                        </div>
+                            </div>
+
+                            <div className="col-lg-4 col-md-6">
+                                    <div className={styles.statCard}>
+                                        <div>
+                                        <div className={styles.statImgContainer}>
+                                    <Image src={icon7} className={styles.statImg} alt=""></Image>
+                                </div>
+                                <h5 className={styles.smallBlackText}>Block Time</h5>
+                                <h6 className={styles.subTitle02}>2 MINUTES</h6>
+                                    </div>
+                                        </div>
+                                    </div>
+
+                        <div className="col-lg-4 col-md-6">
+                            <div className={styles.statCard}>
+                            <div>
+                            <div className={styles.statImgContainer}>
+                                <Image src={icon8} className={styles.statImg} alt=""></Image>
+                            </div>
+                            <h5 className={styles.smallBlackText}>Max Supply</h5>
+                            <h6 className={styles.subTitle02}>440,000,000</h6>
+                            </div>
+                                </div>
+                            </div>
+
+
+                            <div className="col-lg-4 col-md-6">
+                                <div className={styles.statCard}>
+                                    <div>
+                                    <div className={styles.statImgContainer}>
+                                <Image src={icon9} className={styles.statImg} alt=""></Image>
+                                    </div>
+                                    <h5 className={styles.smallBlackText}>Halving</h5>
+                                    <h6 className={styles.subTitle02}>2,5 YEARS</h6>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            
+                    </div>
+                </div>
+            </section>
+
+            <section className={styles.section4} style={{marginTop: "50px", marginBottom: "100px"}}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className={styles.text3}>
+                                <div>
+                                <h3><span>Flux</span> is a <span className={styles.blue}>Multichain</span> <br></br>Cryptocurrency</h3>
+                            <p>With Flux's parallel assets, you can leverage the beneficial
                          features of multiple blockchains, such as accessto various DeFi platforms. Flux's parallel 
-                         assets are interchangeable 1:1 with native Flux through the Fusion app in Zelcore.</div>
-                        <br></br>
-                        <a href="https://www.runonflux.io/parallel.html" className={styles.btn}>Discover assets</a>
+                         assets are interchangeable 1:1 with native Flux through the Fusion app in Zelcore.</p><br/>
+                         <a href="https://www.runonflux.io/parallel.html" className={styles.btn1}>Discover assets</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className={styles.img3}>
+                            <Image className={styles.multiImg} src={mulitRing} alt="Flux-Circle-Graph"/>
+                            </div>
+                        </div>
                     </div>
-                    <div className={styles.headerright}>
-                        <Image className={styles.multiImg} src={mulitRing} alt="Flux-Circle-Graph"></Image>
-                    </div>
+                    <div className="row">
+                        <div className={styles.centerImg}>
+                        <Image src={lineLogos} alt=""/>
+                        </div>
                 </div>
-            </div>
-
-            <div className={styles.tron}>
-                <div className={styles.tronImgCont}>
-                    <div className={styles.linelogoclass}>
-                        <Image src={lineLogos} alt=""></Image>
-                    </div>
-                    {/* <div className={styles.fluxlogo}>
-                        <Image src={icon10} alt=""></Image>
-                    </div> */}
-                    {/* <div className={styles.lineConecter}>
-                        <Image src={lineConecter} alt=""></Image>
-                    </div>
-                    <div className={styles.logoLinks}>
-                        <a className={styles.circles}>
-                            <Image src={icon11} alt=""></Image>
-                        </a>
-                        <a className={styles.circles2}>
-                            <Image src={icon12} alt=""></Image>
-                        </a>
-                        <a className={styles.circles3}>
-                            <Image src={icon13} alt=""></Image>
-                        </a>
-                        <a className={styles.circles4}>
-                            <Image src={icon14} alt=""></Image>
-                        </a>
-                        <a className={styles.circles5}>
-                            <Image src={icon15} alt=""></Image>
-                        </a>
-                        <a className={styles.circles6}>
-                            <Image src={icon16} alt=""></Image>
-                        </a>
-                        <a className={styles.circles7}>
-                            <Image src={icon17} alt=""></Image>
-                        </a>
-                        <a className={styles.circles8}>
-                            <Image src={icon18} alt=""></Image>
-                        </a>
-                    </div> */}
-                </div>
-            </div>
-
-            <div className={styles.eco}>
-                <div className={styles.textCont}> 
-                    <div className={styles.titleText2}>The<span className={styles.blue}> Flux</span> Ecosystem</div>
-                    <div className={styles.subText}>
-                        The Flux Ecosystem is a state-of-the-art blockchain network that 
+                <div className="row" style={{marginTop: "100px"}}>
+                    <h3 className="text-center">The<span> Flux</span> Ecosystem</h3>
+                    <p className={styles.pop}>The Flux Ecosystem is a state-of-the-art blockchain network that 
                         encompasses several integral components, including parallel assets with Layer 1 blockchains like
                         Solana, AVAX, and ALGO.                    
                         <br></br>
@@ -418,262 +444,256 @@ export function Flux() {
                         Additionally, it encompasses projects that are being built in collaboration with FluxLabs, a diverse and 
                         vibrant global community, and its own self-custody wallet, Zelcore, which is renowned for its safety and 
                         decentralization. Other essential elements of the Flux Ecosystem include Flux Cloud, FluxNodes, and various
-                        decentralized applications (dApps) that operate on the Flux network.</div></div>
-               
-                <Image src={ecosystemImg} alt=""></Image>
-            </div>
-
-            <div className={styles.exchanges} id="exchanges">
-            <div className={styles.titleText2}>Exchanges</div>
-                <div className={styles.subText2}>
-                    Flux is a digital asset that is listed on several different exchanges, each of which offers various features 
-                    such as buying and selling.
-
-                    <br></br>
-                    <br></br>
-
-                    <i className={styles.subText3}>It is important to note that none of these exchanges are controlled by Flux, and in case of any issues with
-                    any of these exchanges, you must address them directly with the exchange.</i>
-
-                    <br></br>
-                    <br></br>
-
-                    For more markets see <a href="https://coinmarketcap.com/currencies/zel/m">CoinMarketCap </a>or <a href="https://www.coingecko.com/en/coins/flux-zelcash">CoinGecko.</a>
+                        decentralized applications (dApps) that operate on the Flux network.</p>
+                </div>
+                <div className="row" style={{marginTop: "100px"}}>
+                    <div className={styles.ecoImg}>
+                    <Image src={ecosystemImg} alt=""/>
                     </div>
-                    <br></br>
-                    <br></br>
-                    <br></br>
+                </div>
+                <div className="row" style={{marginTop: "50px"}}>
+                    <h3>Exchanges</h3>
+                    <p className={styles.exchanges1}>  Flux is a digital asset that is listed on several different exchanges, each of which offers various features 
+                    such as buying and selling.</p>
+                    <p className={styles.exchanges1}><i>exchanges are controlled by Flux, and in case of any issues with
+                    any of these exchanges, you must address them directly with the exchange.</i></p>
+                    <p className={styles.exchanges1}> For more markets see <a href="https://coinmarketcap.com/currencies/zel/m">CoinMarketCap </a>or <a href="https://www.coingecko.com/en/coins/flux-zelcash">CoinGecko.</a></p>
+                </div>
+                <hr></hr>
+                </div>
+            </section>
 
-                    <hr></hr>
-                    <div className={styles.Exparent}>
-                        <div className={styles.div1}> 
+            <section className={styles.section5} id="exchanges">
+                <div className="container">
+                    <div className="row">
+                    <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon19} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Coinmetro
-                                <a href="https://go.coinmetro.com/exchange/FLUX/buy" className={styles.btn}>Buy Now</a>
+                                <a href="https://go.coinmetro.com/exchange/FLUX/buy" className={styles.btn10}>Buy Now</a>
 
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div2}> 
+                        <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon20} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     KuCoin
-                                    <a href="https://trade.kucoin.com/FLUX-USDT" className={styles.btn}>Buy Now</a>
+                                    <a href="https://trade.kucoin.com/FLUX-USDT" className={styles.btn10}>Buy Now</a>
                                 
                                 </div>
 
                             </div>
                         </div>
-                        <div className={styles.div3}> 
+                        <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon17} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Binance
-                                    <a href="https://www.binance.com/en/trade/FLUX_USDT?ref=GSWE4RZE" className={styles.btn}>Buy Now</a>
+                                    <a href="https://www.binance.com/en/trade/FLUX_USDT?ref=GSWE4RZE" className={styles.btn10}>Buy Now</a>
 
                                 </div>
                             </div>                       
                         </div>
-                        <div className={styles.div4}> 
+                        <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image className={styles.autoHeight} src={icon21} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Onus
-                                    <a href="https://goonus.io/en/markets/FLUX/" className={styles.btn}>Buy Now</a>
+                                    <a href="https://goonus.io/en/markets/FLUX/" className={styles.btn10}>Buy Now</a>
 
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div5}> 
+                        <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon22} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     STEX
-                                    <a href="https://app.stex.com/en/trading/pair/BTC/FLUX/1D" className={styles.btn}>Buy Now</a>
+                                    <a href="https://app.stex.com/en/trading/pair/BTC/FLUX/1D" className={styles.btn10}>Buy Now</a>
 
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div6}> 
+                        <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon23} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Gate.io
-                                    <a href="https://www.gate.io/trade/FLUX_USDT" className={styles.btn}>Buy Now</a>
+                                    <a href="https://www.gate.io/trade/FLUX_USDT" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div7}> 
+                        <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon24} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     CoinEx
-                                    <a href="https://www.coinex.com/exchange/flux-usdt" className={styles.btn}>Buy Now</a>
+                                    <a href="https://www.coinex.com/exchange/flux-usdt" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div8}> 
+                        <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image className={styles.autoHeight} src={icon82} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     TRADEOGRE
-                                    <a href="https://tradeogre.com/exchange/BTC-FLUX" className={styles.btn}>Buy Now</a>
+                                    <a href="https://tradeogre.com/exchange/BTC-FLUX" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div9}> 
+                        <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon25} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     PancakeSwap
-                                    <a href="https://pancakeswap.finance/info/pool/0xa19d4ff09b6e0defd6032859ae13c4ca53c341dd" className={styles.btn}>Buy Now</a>
+                                    <a href="https://pancakeswap.finance/info/pool/0xa19d4ff09b6e0defd6032859ae13c4ca53c341dd" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div10}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image className={styles.autoHeight} src={icon26} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     UNISWAP
-                                    <a href="https://info.uniswap.org/#/pools/0x5d1461990f636d35030cb603559d6a9d4487f9ca" className={styles.btn}>Buy Now</a>
+                                    <a href="https://info.uniswap.org/#/pools/0x5d1461990f636d35030cb603559d6a9d4487f9ca" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div11}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon27} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     HotBit
-                                    <a href="https://www.hotbit.io/exchange?symbol=FLUX_USDT" className={styles.btn}>Buy Now</a>
+                                    <a href="https://www.hotbit.io/exchange?symbol=FLUX_USDT" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div12}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon28} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Tokok
-                                    <a href="https://www.tokok.com/market?symbol=ZEL_BTC" className={styles.btn}>Buy Now</a>
+                                    <a href="https://www.tokok.com/market?symbol=ZEL_BTC" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div></div>
-                        </div>
-                        <div className={styles.Exparent}>
-                        <div className={styles.div1}> 
+                       
+                      
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon29} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     SafeTrade
-                                    <a href="https://safe.trade/trading/fluxbtc" className={styles.btn}>Buy Now</a>
+                                    <a href="https://safe.trade/trading/fluxbtc" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div2}> 
+                        <div className="col-lg-4 col-md-6" > 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image className={styles.autoHeight} src={icon30} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Citex
-                                    <a href="https://trade.citex.co.kr/trade/FLUX_BTC" className={styles.btn}>Buy Now</a>
+                                    <a href="https://trade.citex.co.kr/trade/FLUX_BTC" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div3}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon31} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     BitForex
-                                    <a href="https://www.bitforex.com/en/spot/flux_usdt" className={styles.btn}>Buy Now</a>
+                                    <a href="https://www.bitforex.com/en/spot/flux_usdt" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div4}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon32} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Bittrex
-                                    <a href="https://bittrex.com/Market/Index?MarketName=USDT-FLUX" className={styles.btn}>Buy Now</a>
+                                    <a href="https://bittrex.com/Market/Index?MarketName=USDT-FLUX" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div5}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image className={styles.autoHeight} src={icon33} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Bitrue
-                                    <a href="https://www.bitrue.com/trade/flux_usdt" className={styles.btn}>Buy Now</a>
+                                    <a href="https://www.bitrue.com/trade/flux_usdt" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div6}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image className={styles.autoHeight} src={icon34} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Bitkan
-                                    <a href="https://bitkan.pro/trade/FLUX_USDT" className={styles.btn}>Buy Now</a>
+                                    <a href="https://bitkan.pro/trade/FLUX_USDT" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div7}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon35} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     ZT Global
-                                    <a href="https://www.ztbzh.net/exchange?coin=FLUX_USDT" className={styles.btn}>Buy Now</a>
+                                    <a href="https://www.ztbzh.net/exchange?coin=FLUX_USDT" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div8}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon36} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Mandala
-                                    <a href="https://trade.mandala.exchange/en/trade/basic/FLUX_BTC" className={styles.btn}>Buy Now</a>
+                                    <a href="https://trade.mandala.exchange/en/trade/basic/FLUX_BTC" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div9}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon37} alt=""></Image>
@@ -681,10 +701,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://coindcx.com/trade/FLUXUSDT" className={styles.btn}>Buy Now</a>
+                                <a href="https://coindcx.com/trade/FLUXUSDT" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div10}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon38} alt=""></Image>
@@ -692,10 +712,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.pionex.com/en-US/trade/FLUX_USDT/pionex.v2" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.pionex.com/en-US/trade/FLUX_USDT/pionex.v2" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div11}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon39} alt=""></Image>
@@ -703,34 +723,34 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://stealthex.io/?from=flux&to=usdttrc20" className={styles.btn}>Buy Now</a>
+                                <a href="https://stealthex.io/?from=flux&to=usdttrc20" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div12}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image className={styles.autoHeight} src={icon40} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Attlas
-                                    <a href="https://attlas.io/en/spot/FLUX_VNDC" className={styles.btn}>Buy Now</a>
+                                    <a href="https://attlas.io/en/spot/FLUX_VNDC" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        </div>
-                        <div className={styles.Exparent}>
-                        <div className={styles.div1}> 
+                      
+                      
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon41} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Sevenb
-                                    <a href="https://sevenb.io/" className={styles.btn}>Buy Now</a>
+                                    <a href="https://sevenb.io/" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div2}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon42} alt=""></Image>
@@ -738,10 +758,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.tokocrypto.com/trade/FLUX_BTC" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.tokocrypto.com/trade/FLUX_BTC" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div3}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon43} alt=""></Image>
@@ -749,146 +769,146 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://simpleswap.io/coins/flux" className={styles.btn}>Buy Now</a>
+                                <a href="https://simpleswap.io/coins/flux" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div4}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon44} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     ExchangeAssets
-                                    <a className={styles.btn}>Buy Now</a>
+                                    <a className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div5}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon45} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Hitbtc
-                                    <a href="https://hitbtc.com/flux-to-usdt" className={styles.btn}>Buy Now</a>
+                                    <a href="https://hitbtc.com/flux-to-usdt" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div6}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image className={styles.autoHeight} src={icon46} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     LBank
-                                    <a href="https://www.lbank.info/exchange/flux/usdt" className={styles.btn}>Buy Now</a>
+                                    <a href="https://www.lbank.info/exchange/flux/usdt" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div7}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image className={styles.autoHeight} src={icon47} alt=""></Image>
+                                    <Image src={icon47} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.allchainbridge.com/#/" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.allchainbridge.com/#/" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div8}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon48} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     SerumDex
-                                    <a href="https://portal.projectserum.com/#tabSection" className={styles.btn}>Buy Now</a>
+                                    <a href="https://portal.projectserum.com/#tabSection" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div9}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image className={styles.autoHeight} src={icon49} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     BKEX
-                                    <a href="https://www.bkex.com/trade/FLUX_USDT" className={styles.btn}>Buy Now</a>
+                                    <a href="https://www.bkex.com/trade/FLUX_USDT" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                
 
                     <br></br>
 
-                    <div className={styles.Exparent}>
-                        <div className={styles.div1}> 
+                  
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon50} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Bolsadx
-                                    <a href="https://exchange.bolsadx.lat/en/trade/FLUX_USDT" className={styles.btn}>Buy Now</a>
+                                    <a href="https://exchange.bolsadx.lat/en/trade/FLUX_USDT" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div2}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image className={styles.autoHeight} src={icon51} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Coinone
-                                    <a href="https://coinone.co.kr/exchange/trade/flux/krw" className={styles.btn}>Buy Now</a>
+                                    <a href="https://coinone.co.kr/exchange/trade/flux/krw" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div3}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon52} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     InstaSwap
-                                    <a href="https://instaswap.io/" className={styles.btn}>Buy Now</a>
+                                    <a href="https://instaswap.io/" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>                       
                         </div>
-                        <div className={styles.div4}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image className={styles.autoHeight} src={icon53} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Changelly
-                                    <a href="https://changelly.com/buy-crypto" className={styles.btn}>Buy Now</a>
+                                    <a href="https://changelly.com/buy-crypto" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div5}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image className={styles.vert} src={icon54} alt=""></Image>
+                                    <Image src={icon54} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://swapspace.co/?to=flux&amount=0.1" className={styles.btn}>Buy Now</a>
+                                <a href="https://swapspace.co/?to=flux&amount=0.1" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div6}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon55} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                 </div>
-                                <a href="https://www.bitpanda.com/en/prices/flux-flux#" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.bitpanda.com/en/prices/flux-flux#" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div7}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon56} alt=""></Image>
@@ -896,10 +916,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://atomicdex.io/" className={styles.btn}>Buy Now</a>
+                                <a href="https://atomicdex.io/" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div8}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon57} alt=""></Image>
@@ -907,21 +927,21 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.digifinex.com/en-ww/trade/USDT/FLUX" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.digifinex.com/en-ww/trade/USDT/FLUX" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div9}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon58} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     Binance.us
-                                    <a href="https://www.binance.us/en/trade/pro/FLUX_USDT" className={styles.btn}>Buy Now</a>
+                                    <a href="https://www.binance.us/en/trade/pro/FLUX_USDT" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.div10}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon59} alt=""></Image>
@@ -929,10 +949,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://swyftx.com/" className={styles.btn}>Buy Now</a>
+                                <a href="https://swyftx.com/" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div11}> 
+                        <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon60} alt=""></Image>
@@ -940,22 +960,22 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://wazirx.com/exchange/FLUX-USDT" className={styles.btn}>Buy Now</a>
+                                <a href="https://wazirx.com/exchange/FLUX-USDT" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div12}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image className={styles.autoHeight} src={icon61} alt=""></Image>
+                                    <Image  src={icon61} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.aex.com/page/new_trade.html#/?symbol=flux_usdt" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.aex.com/page/new_trade.html#/?symbol=flux_usdt" className={styles.btn10}>Buy Now</a>
                             </div></div>
-                            </div>
-                            <div className={styles.Exparent}>
-                        <div className={styles.div1}> 
+                          
+                         
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon62} alt=""></Image>
@@ -963,10 +983,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.bitget.com/en/spot/FLUXUSDT_SPBL" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.bitget.com/en/spot/FLUXUSDT_SPBL" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div2}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon63} alt=""></Image>
@@ -974,10 +994,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://crypto.com/exchange/trade/spot/FLUX_USDT" className={styles.btn}>Buy Now</a>
+                                <a href="https://crypto.com/exchange/trade/spot/FLUX_USDT" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div3}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon64} alt=""></Image>
@@ -985,10 +1005,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://latoken.com/exchange/FLUX_USDT?utm_source=new_listing&utm_medium=new_listing&utm_campaign=FLUX_listing&shortlink=bgib6m4b&c=FLUX_listing&pid=new_listing&deep_link_value=latokenapp://trade/FLUX/USDT" className={styles.btn}>Buy Now</a>
+                                <a href="https://latoken.com/exchange/FLUX_USDT?utm_source=new_listing&utm_medium=new_listing&utm_campaign=FLUX_listing&shortlink=bgib6m4b&c=FLUX_listing&pid=new_listing&deep_link_value=latokenapp://trade/FLUX/USDT" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div4}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon65} alt=""></Image>
@@ -996,10 +1016,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://sunflowercorp.com/futures/flux-to-usdt" className={styles.btn}>Buy Now</a>
+                                <a href="https://sunflowercorp.com/futures/flux-to-usdt" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div5}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon66} alt=""></Image>
@@ -1007,21 +1027,21 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.xt.com/trade/flux_usdt" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.xt.com/trade/flux_usdt" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div6}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image className={styles.autoHeight} src={icon67} alt=""></Image>
+                                    <Image  src={icon67} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://swap.kaddex.com/?token0=FLUX&token1=KDA" className={styles.btn}>Buy Now</a>
+                                <a href="https://swap.kaddex.com/?token0=FLUX&token1=KDA" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div7}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon68} alt=""></Image>
@@ -1029,10 +1049,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.billance.com/spot/exchange/FLUX_USDT" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.billance.com/spot/exchange/FLUX_USDT" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div8}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon69} alt=""></Image>
@@ -1040,10 +1060,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://biconomy.com/exchange?coin=FLUX_USDT" className={styles.btn}>Buy Now</a>
+                                <a href="https://biconomy.com/exchange?coin=FLUX_USDT" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div9}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon70} alt=""></Image>
@@ -1051,10 +1071,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.cointiger.com/en-us/#/trade_center?coin=flux_usdt" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.cointiger.com/en-us/#/trade_center?coin=flux_usdt" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div10}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon71} alt=""></Image>
@@ -1062,10 +1082,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.bityard.com/en-US/trade/spot/FLUXUSDT" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.bityard.com/en-US/trade/spot/FLUXUSDT" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div11}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon72} alt=""></Image>
@@ -1073,10 +1093,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://swap.menu/" className={styles.btn}>Buy Now</a>
+                                <a href="https://swap.menu/" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div12}> 
+                        <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon73} alt=""></Image>
@@ -1084,12 +1104,12 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://swapzone.io/" className={styles.btn}>Buy Now</a>
+                                <a href="https://swapzone.io/" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        </div>
-                        <div className={styles.Exparent}>
-                        <div className={styles.div1}> 
+                     
+                       
+                        <div className="col-lg-4 col-md-6"  > 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon74} alt=""></Image>
@@ -1097,10 +1117,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.coinmark.vip/" className={styles.btn}>Buy Now</a>
+                                <a href="https://www.coinmark.vip/" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div2}> 
+                        <div className="col-lg-4 col-md-6"  > 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon75} alt=""></Image>
@@ -1108,10 +1128,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://spectrum.fi/dex" className={styles.btn}>Buy Now</a>
+                                <a href="https://spectrum.fi/dex" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div3}> 
+                        <div className="col-lg-4 col-md-6"  > 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon76} alt=""></Image>
@@ -1119,10 +1139,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://phemex.com/spot/trade/FLUXUSDT" className={styles.btn}>Buy Now</a>
+                                <a href="https://phemex.com/spot/trade/FLUXUSDT" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div4}> 
+                        <div className="col-lg-4 col-md-6"  > 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon77} alt=""></Image>
@@ -1130,10 +1150,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://indodax.com/market/FLUXIDR" className={styles.btn}>Buy Now</a>
+                                <a href="https://indodax.com/market/FLUXIDR" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div5}> 
+                        <div className="col-lg-4 col-md-6"  > 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon78} alt=""></Image>
@@ -1141,10 +1161,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://wirexapp.com/" className={styles.btn}>Buy Now</a>
+                                <a href="https://wirexapp.com/" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div6}> 
+                        <div className="col-lg-4 col-md-6"  > 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon79} alt=""></Image>
@@ -1152,10 +1172,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://digitalexchange.id/basic-trading/FLUXIDR" className={styles.btn}>Buy Now</a>
+                                <a href="https://digitalexchange.id/basic-trading/FLUXIDR" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div7}> 
+                        <div className="col-lg-4 col-md-6"  > 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
                                     <Image src={icon80} alt=""></Image>
@@ -1163,139 +1183,40 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://invest.matrixport.com/" className={styles.btn}>Buy Now</a>
+                                <a href="https://invest.matrixport.com/" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className={styles.div8}> 
+                        <div className="col-lg-4 col-md-6"  > 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
-                                    <Image className={styles.autoHeight} src={icon81} alt=""></Image>
+                                    <Image  src={icon81} alt=""></Image>
                                 </div>
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://changenow.io/?from=fluxmainnet&to=btc" className={styles.btn}>Buy Now</a>
+                                <a href="https://changenow.io/?from=fluxmainnet&to=btc" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
 
-                {/* <div className={styles.exchanges}>
-                    <div className={styles.titleText2}>Wallets</div>
-                    <div className={styles.subText2}>
-                        Flux is a digital asset that is listed on several different wallets, each of which offers various features 
-                        such as trading and staking.
+           
 
-                        <br></br>
-                        <br></br>
+        
 
-                        <i className={styles.subText3}>It is important to note that none of these exchanges are controlled by Flux, and in case of any issues with
-                        any of these exchanges, you must address them directly with the exchange.</i>
+        
 
-                        <br></br>
-                        <br></br>
+         
+           
 
-                        For more markets see <a href="https://coinmarketcap.com/currencies/zel/m">CoinMarketCap </a>or <a href="https://www.coingecko.com/en/coins/flux-zelcash">CoinGecko.</a>
-                    </div>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <a className={styles.btn3}>Mainnet</a>
-                    <a className={styles.btn3}>BSC</a>
-                    <a className={styles.btn3}>ETH</a>
-                    <a className={styles.btn3}>DeFi</a>
-                    <hr></hr>
-                    <div className={styles.walletGrid}>
-                        <div className={styles.div1}> 
-                            <div className={styles.walletCard}>
-                                <div className={styles.circle}>
-                                    <Image src={icon19} alt=""></Image>
-                                </div>
-                                <div className={styles.walletText}>
-                                    Coinmetro
-                                </div>
-                                <a className={styles.btn}>Download</a>
-                            </div>
-                        </div>
-                        <div className={styles.div2}> 
-                        <div className={styles.walletCard}>
-                                <div className={styles.circle}>
-                                    <Image src={icon19} alt=""></Image>
-                                </div>
-                                <div className={styles.walletText}>
-                                    Coinmetro
-                                </div>
-                                <a className={styles.btn}>Download</a>
-                            </div>
-                        </div>
-                        <div className={styles.div3}> 
-                        <div className={styles.walletCard}>
-                                <div className={styles.circle}>
-                                    <Image src={icon19} alt=""></Image>
-                                </div>
-                                <div className={styles.walletText}>
-                                    Coinmetro
-                                </div>
-                                <a className={styles.btn}>Download</a>
-                            </div>
-                        </div>
-                        <div className={styles.div4}> 
-                            <div className={styles.walletCard}>
-                                <div className={styles.circle}>
-                                    <Image src={icon19} alt=""></Image>
-                                </div>
-                                <div className={styles.walletText}>
-                                    Coinmetro
-                                </div>
-                                <a className={styles.btn}>Download</a>
-                            </div>
-                        </div>
-                        <div className={styles.div5}> 
-                            <div className={styles.walletCard}>
-                                <div className={styles.circle}>
-                                    <Image src={icon19} alt=""></Image>
-                                </div>
-                                <div className={styles.walletText}>
-                                    Coinmetro
-                                </div>
-                                <a className={styles.btn}>Download</a>
-                            </div>
-                        </div>
-                        <div className={styles.div6}> 
-                        <div className={styles.walletCard}>
-                                <div className={styles.circle}>
-                                    <Image src={icon19} alt=""></Image>
-                                </div>
-                                <div className={styles.walletText}>
-                                    Coinmetro
-                                </div>
-                                <a className={styles.btn}>Download</a>
-                            </div>
-                        </div>
-                        <div className={styles.div7}> 
-                            <div className={styles.walletCard}>
-                                <div className={styles.circle}>
-                                    <Image src={icon19} alt=""></Image>
-                                </div>
-                                <div className={styles.walletText}>
-                                    Coinmetro
-                                </div>
-                                <a className={styles.btn}>Download</a>
-                            </div>
-                        </div>
-                        <div className={styles.div8}> 
-                            <div className={styles.walletCard}>
-                                <div className={styles.circle}>
-                                    <Image src={icon19} alt=""></Image>
-                                </div>
-                                <div className={styles.walletText}>
-                                    Coinmetro
-                                </div>
-                                <a className={styles.btn}>Download</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
+
+    
+
+           
+
+
+               
         </main>
     );
 }
