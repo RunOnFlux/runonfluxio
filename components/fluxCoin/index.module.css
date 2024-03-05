@@ -469,7 +469,7 @@ p.pop{
   height: 130px;
   width: 100%;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
   /* display: inline-block; */
   
 }
@@ -497,7 +497,7 @@ p.pop{
 
 .extext{
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 20px;
 
 
@@ -967,7 +967,7 @@ p.pop{
   margin-bottom: 10px;
 }
 .Exchangecard{
-  margin: auto;
+  margin: 20px auto;
 }
 
  }
@@ -1179,7 +1179,7 @@ p.pop{
 }
 .extext{
   font-weight: bold;
-  font-size: 0.7em;
+  font-size: 0.8em;
   margin-top: 25px;
   
 }
@@ -1187,9 +1187,6 @@ p.pop{
 .rect{
   margin-top: 18px;
 }
-
-
-
 }
 
 
