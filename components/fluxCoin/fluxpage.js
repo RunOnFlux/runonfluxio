@@ -290,12 +290,12 @@ export function Flux() {
                     
                 <div className={styles.progressBar}>
                     <div className="row">
-                        <div className="col-lg-4 col-md-5">
+                        <div className="col-lg-4 col-md-5 col-6">
                         <div className={styles.left}>
                         <div className={styles.barTitle}>Circulating Supply</div>
                     </div>
                         </div>
-                        <div className="col-lg-8 col-md-7">
+                        <div className="col-lg-8 col-md-7 col-6">
                         <div className={styles.right}>
                         <div id="amount" className={styles.blue}>440,000,000 FLUX</div>
                         <div id="percent" className={styles.centerBlue}>73%</div>
@@ -311,12 +311,12 @@ export function Flux() {
 
                 <div className={styles.progressBar2}>
                     <div className="row">
-                        <div className="col-lg-4 col-md-5">
+                        <div className="col-lg-4 col-md-5 col-6">
                         <div className={styles.left}>
                         <div className={styles.barTitle}>Locked Supply <span className={styles.hidden}>_||||</span></div>
                     </div>
                         </div>
-                        <div className="col-lg-8 col-md-7">
+                        <div className="col-lg-8 col-md-7 col-6">
                         <div className={styles.right}>
                         
                             <div id="amount2" className={styles.blue}>123,430,000 FLUX</div>
@@ -486,9 +486,10 @@ export function Flux() {
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon20} alt=""></Image>
+                                  
                                 </div>
                                 <div className={styles.extext}>
-                                    KuCoin
+                                KuCoin
                                     <a href="https://trade.kucoin.com/FLUX-USDT" className={styles.btn10}>Buy Now</a>
                                 
                                 </div>
