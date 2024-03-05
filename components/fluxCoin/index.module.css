@@ -109,6 +109,17 @@ margin-bottom: 20px;
   width: 100%;
   height: auto;
   text-align: center;
+  animation: pulse-animation 2s infinite;
+  border-radius: 100%;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(43, 97, 209, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(43, 97, 209, 0.1);
+  }
 }
 
 .headerImg{
@@ -444,6 +455,7 @@ p.pop{
   width: 90%;
   height: auto;
   margin: auto;
+  
 }
 
 .ecoImg {
