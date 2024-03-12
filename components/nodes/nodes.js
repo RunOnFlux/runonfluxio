@@ -166,18 +166,14 @@ export function Node() {
                         </div>
                         <h6 className={styles.smallDesc}>Decentralized infrastructure nodes live.</h6>
                         <div className="col-md-6">
-                            
                             </div>
                     </div>
-                </div>
-              
-
-                
+                </div> 
             </section>
 
-            <section className={partnerClasses}>
-                <p className={textPartnerClasses}>offical  infrastructure partners</p>
 
+            <section className={partnerClasses}>
+                <h5 className={textPartnerClasses}>offical  infrastructure partners</h5>
                 <div>
                     <Slider1 />
                 </div>

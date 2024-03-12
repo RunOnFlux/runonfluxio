@@ -51,9 +51,6 @@ export function HomePage(){
     const [totalRAM, setTotalRAM] = useState('loading...');
     const [totalSSD, setTotalSSD] = useState('loading...');
 
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
    
     useEffect(() => {
         const fetchData = async () => {
@@ -116,17 +113,25 @@ export function HomePage(){
         
             }
           };
-          fetchData();
-
-          setTimeout(()=>{
-            setShow(true)
-          }, 2000)
-         
-         
+          fetchData();     
     },[])
 
     
+    const [showModal, setShowModal] = useState(false);
 
+    useEffect(() => {
+      // Check if the modal has been shown before
+      const hasModalBeenShown = sessionStorage.getItem('hasModalBeenShown');
+  
+      if (!hasModalBeenShown) {
+        setShowModal(true);
+        // Set a flag in sessionStorage indicating that the modal has been shown
+        sessionStorage.setItem('hasModalBeenShown', 'true');
+      }
+    }, []);
+  
+    const handleClose = () => setShowModal(false);
+  
   
 
     // const ReactPlayer = dynamic(() => import('react-player/lazy'), { ssr: false });
@@ -137,7 +142,7 @@ export function HomePage(){
                 <div className="container">
                     <div className="row">
                     <div>
-                        <Modal show={show} onHide={handleClose} centered size="lg">
+                        <Modal show={showModal} onHide={handleClose} centered size="lg">
                             <Modal.Header closeButton>
                             </Modal.Header>
                             <Modal.Body>
