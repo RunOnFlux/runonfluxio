@@ -4,35 +4,11 @@ import styles from "./index.module.css"
 import Head from "next/head";
 import dynamic from 'next/dynamic';
 import Image from "next/image";
-import map from "../../public/images/map.svg"
-import globeImg from "../../public/images/globe-alt.svg"
-import arrowUp from "../../public/images/gree-yello-up.svg"
-import ProgressBar from 'react-bootstrap/ProgressBar';
-import nodes from "../../public/images/nodes.svg"
-import ram from "../../public/images/ram.svg"
-import cores from "../../public/images/cores.svg"
-import ssd from "../../public/images/ssd.svg"
-import web1 from "../../public/images/web1.svg"
-import web2 from "../../public/images/pencil.svg"
-import web3 from "../../public/images/key.svg"
-import web1Icons from "../../public/images/Web 1.0 icons.svg"
-import web2Icons from "../../public/images/Web 2.0 icons.svg"
-import web3Icons from "../../public/images/Web 3.0 icons.svg"
-import redundancy from "../../public/images/redundancy.svg"
-import security from "../../public/images/security.svg"
-import interoperability from "../../public/images/interoperability.svg"
-import decentralization from "../../public/images/decentralization.svg"
+
 import wallet from "../../public/images/images/wallet.svg"
-import lumen from "../../public/images/images/lumenicon.svg"
 import { Slider1 } from "../Slider/slider1";
-import { CostCalculatorCard } from "../costCalculatorCard/costCalculatorCard";
-import { Slider2 } from "../Slider/slider2";
-import wordpressIcon from "../../public/images/wordpress.svg";
-import fluxdriveIcon from "../../public/images/fluxdrive.svg";
-import ovh from "../../public/images/images/ovhicon.svg";
-import { Slider3 } from "../Slider/slider3";
+
 import circleGraph from "../../public/images/images/circleGraph.svg"
-import lineGraph from "../../public/images/images/lineGraph.svg"
 import Line from "../../public/images/images/Line.svg"
 import seedIcon from "../../public/images/images/seedicon.svg"
 import CAP from "../../public/images/images/CAPM4.svg"
@@ -40,9 +16,8 @@ import COT from "../../public/images/images/cotx-cumulus.jpg"
 import BMO from "../../public/images/BMO.jpeg"
 import cotx from "../../public/images/images/cotxicon.svg";
 import bmo from '../../public/images/images/bmoicon.svg';
-import { Slider4 } from "../Slider/slider4";
-import Modal from 'react-bootstrap/Modal';
-import NCard from "../../public/images/images/nvidiacard.svg"
+import progressbar from "../../public/images/images/node progressbar.svg"
+
 import classNames from "classnames";
 var partnerClasses = classNames(
     styles.partners,
@@ -172,96 +147,261 @@ export function Node() {
             </section>
 
 
-            <section className={partnerClasses}>
-                <h5 className={textPartnerClasses}>offical  infrastructure partners</h5>
-                <div>
-                    <Slider1 />
+            <section className={styles.section2}>
+                <div className="container-fluid">
+                    <div className="row">
+                    <h6>offical  infrastructure partners</h6>
+                    <div>
+                        <Slider1 />
+                    </div>
+                    </div>
                 </div>
-
             </section>
-            <section className={styles.infographs}>
-                <h1 className={styles.TitleText}>Incentivized <span className={styles.bluetext}>Infrastructure</span></h1>
-                <h5 className={styles.SubText}>The total block reward on the Flux blockchain is divided equally between POW miners and FluxNode operators for every block. In addition, there is a hierarchy among the different FluxNode tiers, with the most computationally heavy FluxNode entitled to the largest share of the initial 50% distribution reserved for FluxNode.</h5>
 
-                <div className={styles.buttons}>
-                    <a href="https://home.runonflux.io/dashboard/map" id={styles.headerBut2}>Dashboard</a>
+            <section className={styles.section3}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
+                        <h3>Incentivized<br/><span>Infrastructure</span></h3>
+                        <p className="mb-4">The total block reward on the Flux blockchain is divided equally between POW miners and FluxNode operators for every block. In addition, there is a hierarchy among the different FluxNode tiers, with the most computationally heavy FluxNode entitled to the largest share of the initial 50% distribution reserved for FluxNode.</p>
+                            <a href="https://home.runonflux.io/dashboard/map" className={styles.btn1}>Dashboard</a>
+                        </div>
+                        <div className="col-md-6 text-center">
+                        <Image alt={"img"} src={circleGraph} />
+                            </div>
+                    </div>
+                    <div className="row mt-4">
+                        <Image alt="progress-bar" src={progressbar}/>
+                    </div>
+                  
                 </div>
-                <br />
-                <Image alt={"img"} className={styles.circleGraph} src={circleGraph} />
-                {/* <Image alt={"img"} className={styles.lineGraph} src={lineGraph} /> */}
             </section>
-            <section className={styles.infohierarchy}>
-                <h1 className={styles.TitleText}><span className={styles.bluetext}>FluxNode</span><br /> Hiearchy</h1>
-                <h5 className={styles.SubText}>To ensure the Flux Cloud network functions optimally, multiple tiers of FluxNodes are available for deployment, each with specific collateral and hardware requirements. <br /><br /> Interested parties are encouraged to review the economic models associated with each tier through the dashboard to make informed decisions. The dashboard provides a comprehensive overview of the technical and financial parameters of each FluxNode tier, enabling informed selection.</h5>
 
-                <div className={styles.buttons}>
-                    <a href="https://home.runonflux.io/dashboard/economics" id={styles.headerBut2}>Economics</a>
-                </div>
-
-                <div className={styles.divContainer}>
-                    <div className={dDivClasses}>
-                        <div className={styles.Reqs}><span className={styles.darker}>Hardware Requirements</span><br /> 2 Cores <br /> 4 Threads <br /> 8 GB RAM<br /> 220 GB SSD/NVME <br /> 180 MB/s DWS <br /> 240 EPS Min. Requirements <br /> 25 Mb down/up speed<br /><span className={styles.darker}>VPS and ARM64 compatible</span></div>
-
-                        <div className={styles.Node}><span className={styles.lightbluetext}>Cumulus Node</span><br />1000 FLUX</div>
-
-                        <div className={styles.Reward}><span className={styles.bluetext}>Deterministic Block Reward</span><span className={percentClasses}>7.5%</span></div>
-                    </div>
-                    <Image alt={"img"} src={Line} />
-                    <div style={{ marginLeft: "4.85%" }} className={dDivClasses}>
-                        <div className={styles.Reqs}><span className={styles.darker}>Hardware Requirements</span><br /> 2 Cores <br /> 4 Threads <br /> 8 GB RAM<br /> <span className={styles.bluetext}>9250</span> GB HDD <br /> <span className={styles.bluetext}>80</span> MB/s DWS <br /> 240 EPS Min. Requirements <br /> <span className={styles.bluetext}>100</span> Mb down/up speed<br /><span className={styles.darker}>VPS and ARM64 compatible</span></div>
-
-                        <div className={styles.Node}><span className={styles.lightbluetext}>Cumulus Fractus</span><br />ADD-ON</div>
-
-                        <div className={styles.Reward}><span className={styles.bluetext}>Extra reward for storage</span><span className={percentClasses}>15%</span></div>
+            <section className={styles.section4}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-7 col-md-12">
+                        <h3><span>FluxNode</span> Hiearchy</h3>
+                         <p className="mb-4">To ensure the Flux Cloud network functions optimally, multiple tiers of FluxNodes are available for deployment, each with specific collateral and hardware requirements. <br /><br /> Interested parties are encouraged to review the economic models associated with each tier through the dashboard to make informed decisions. The dashboard provides a comprehensive overview of the technical and financial parameters of each FluxNode tier, enabling informed selection.</p>
+                         <a className={styles.btn1} href="https://home.runonflux.io/dashboard/economics">Economics</a>
+                        </div>
+                        <div className="col-lg-5 col-md-12"></div>
                     </div>
                 </div>
+            </section>
 
-                <div className={styles.divContainer}>
-                    <div className={dDivClasses}>
-                        <div className={styles.Reqs}><span className={styles.darker}>Hardware Requirements</span><br /> 4 Cores <br /> 8 Threads <br /> 32 GB RAM<br /> 440 GB SSD/NVME <br /> 180 MB/s DWS <br /> 640 EPS Min. Requirements <br /> 50 Mb down/up speed<br /><span className={styles.darker}>VPS and ARM64 compatible</span></div>
+            <section className={styles.section5}>
+                <div className="container">
+                    <div className="row">
+                    <div className="col-md-6 mb-5">
+                        <div className={styles.nodeCard}>
+                            <div className="row">
+                                <div className="col">
+                                    <div style={{height: "100%", display: "flex", alignItems: "center"}}>
+                                        <div>
+                                        <div className={styles.cardHead}>
+                                        <h4>Cumulus Node</h4>
+                                        <h5>1000 Flux</h5>
+                                        </div>
+                                        <div className={styles.cardRewards}>
+                                            <span>Deterministic Block rewards <span style={{color:"#2d8eff", float: "right", marginTop: "4px"}}>7.5%</span></span>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                        <div className={styles.Node}><span className={styles.lightbluetext}>Nimbus Node</span><br />12,500 FLUX</div>
+                                <div className="col">
+                                <div className={styles.cardReq}>
+                                    <h5>Hardware Requirements</h5>
+                                    <h6>2 Cores</h6>
+                                    <h6>4 Threads</h6>
+                                    <h6>8 GB RAM</h6>
+                                    <h6>220 GB/SSD/NVME</h6>
+                                    <h6>180 Mb/s DWS</h6>
+                                    <h6>240 EPS Min. Requirements</h6>
+                                    <h6>25 Mb down/up speed</h6>
+                                    <h5>VPS and ARM64 compatible</h5>
+                                    </div>
+                                </div>
+                            </div>  
+                         </div>
+                        </div>
 
-                        <div className={styles.Reward}><span className={styles.bluetext}>Deterministic Block Reward</span><span className={percentClasses}>12.5%</span></div>
-                    </div>
-                    <Image alt={"img"} src={Line} />
-                    <div style={{ marginLeft: "4.85%" }} className={dDivClasses}>
-                        <div className={styles.Placeholder}>
-                            Nimbus Fractus <br /> TBA
+                        <div className="col-md-6 mb-5">
+                        <div className={styles.nodeCard}>
+                            <div className="row">
+                                <div className="col">
+                                    <div style={{height: "100%", display: "flex", alignItems: "center"}}>
+                                        <div>
+                                        <div className={styles.cardHead}>
+                                        <h4>Cumulus Fractus</h4>
+                                        <h5>ADD-ON</h5>
+                                        </div>
+                                        <div className={styles.cardRewards}>
+                                            <span>Extra reward for storage <span style={{color:"#2d8eff", float: "right", marginTop: "4px"}}>15%</span></span>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col">
+                                <div className={styles.cardReq}>
+                                    <h5>Hardware Requirements</h5>
+                                    <h6>2 Cores</h6>
+                                    <h6>4 Threads</h6>
+                                    <h6>8 GB RAM</h6>
+                                    <h6>∞ + GB/SSD/NVME</h6>
+                                    <h6>180 Mb/s DWS</h6>
+                                    <h6>240 EPS Min. Requirements</h6>
+                                    <h6>25 Mb down/up speed</h6>
+                                    <h5>VPS and ARM64 compatible</h5>
+                                    </div>
+                                </div>
+                            </div>  
+                         </div>
                         </div>
                     </div>
-                </div>
 
-                <div className={styles.divContainer}>
-                    <div className={dDivClasses}>
-                        <div className={styles.Reqs}><span className={styles.darker}>Hardware Requirements</span><br /> 8 Cores <br /> 16 Threads <br /> 64 GB RAM<br /> 880 GB SSD/NVME <br /> 400 MB/s DWS <br /> 1520 EPS Min. Requirements <br /> 100 Mb down/up speed<br /><span className={styles.darker}>VPS compatible</span></div>
+                    <div className="row">
+                    <div className="col-md-6 mb-5">
+                        <div className={styles.nodeCard}>
+                            <div className="row">
+                                <div className="col">
+                                    <div style={{height: "100%", display: "flex", alignItems: "center"}}>
+                                        <div>
+                                        <div className={styles.cardHead}>
+                                        <h4>Nimbus Node</h4>
+                                        <h5>1000 Flux</h5>
+                                        </div>
+                                        <div className={styles.cardRewards}>
+                                            <span>Deterministic Block rewards <span style={{color:"#2d8eff", float: "right", marginTop: "4px"}}>7.5%</span></span>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                        <div className={styles.Node}><span className={styles.lightbluetext}>Stratus Node</span><br />40,000 FLUX</div>
+                                <div className="col">
+                                <div className={styles.cardReq}>
+                                    <h5>Hardware Requirements</h5>
+                                    <h6>2 Cores</h6>
+                                    <h6>4 Threads</h6>
+                                    <h6>8 GB RAM</h6>
+                                    <h6>220 GB/SSD/NVME</h6>
+                                    <h6>180 Mb/s DWS</h6>
+                                    <h6>240 EPS Min. Requirements</h6>
+                                    <h6>25 Mb down/up speed</h6>
+                                    <h5>VPS and ARM64 compatible</h5>
+                                    </div>
+                                </div>
+                            </div>  
+                         </div>
+                        </div>
 
-                        <div className={styles.Reward}><span className={styles.bluetext}>Deterministic Block Reward</span><span className={percentClasses}>30%</span></div>
-                    </div>
-                    <Image alt={"img"} src={Line} />
-                    <div style={{ marginLeft: "4.85%" }} className={dDivClasses}>
-                        <div className={styles.Placeholder}>
-                            Stratus Fractus <br /> TBA
+                        <div className="col-md-6 mb-5">
+                        <div className={styles.nodeCard2}>
+                            <div className={styles.centerCard}>
+                              <h6>Nimbus Fractus <br/>TBA</h6>
+                            </div>  
+                         </div>
                         </div>
                     </div>
+
+                    <div className="row">
+                    <div className="col-md-6 mb-5">
+                        <div className={styles.nodeCard}>
+                            <div className="row">
+                                <div className="col">
+                                    <div style={{height: "100%", display: "flex", alignItems: "center"}}>
+                                        <div>
+                                        <div className={styles.cardHead}>
+                                        <h4>Stratus Node</h4>
+                                        <h5>1000 Flux</h5>
+                                        </div>
+                                        <div className={styles.cardRewards}>
+                                            <span>Deterministic Block rewards <span style={{color:"#2d8eff", float: "right", marginTop: "4px"}}>7.5%</span></span>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col">
+                                <div className={styles.cardReq}>
+                                    <h5>Hardware Requirements</h5>
+                                    <h6>2 Cores</h6>
+                                    <h6>4 Threads</h6>
+                                    <h6>8 GB RAM</h6>
+                                    <h6>220 GB/SSD/NVME</h6>
+                                    <h6>180 Mb/s DWS</h6>
+                                    <h6>240 EPS Min. Requirements</h6>
+                                    <h6>25 Mb down/up speed</h6>
+                                    <h5>VPS and ARM64 compatible</h5>
+                                    </div>
+                                </div>
+                            </div>  
+                         </div>
+                        </div>
+
+                        <div className="col-md-6 mb-5">
+                        <div className={styles.nodeCard2}>
+                            <div className={styles.centerCard}>
+                              <h6>Stratus Fractus <br/>TBA</h6>
+                            </div>  
+                         </div>
+                        </div>
+                    </div> 
                 </div>
-                <div className={dDivClasses2} style={{ marginTop: "5%" }}>
-                    {/* <div className={styles.Reqs}><span className={styles.darker}>Hardware Requirements</span><br /> 2 Cores <br /> 4 Threads <br /> 8 GB RAM<br /> 220 GB SSD/NVME <br /> 180 MB/s DWS <br /> 240 EPS Min. Requirements <br /> 25 Mb down/up speed<br /><span className={styles.darker}>VPS and ARM64 compatible</span></div> */}
-
-                    <br />
-                    <div className={styles.Node}><span className={styles.lightbluetext}>Titan Sharing</span><br />From 50 Flux</div>
-
-                    <div style={{ marginLeft: "13%" }} className={styles.btnTrans}>Titan Sharing</div>
-
-                    <br />
-                </div>
-                <h1 className={styles.TitleText} style={{ paddingTop: "0%" }}><span className={styles.bluetext}>Titan</span> Nodes</h1>
-                <h5 className={subTxtClasses}>The minimum collateral requirement for the base FluxNode tier may not be feasible for all participants. In such scenarios therefore, alternative support mechanisms such as the Titan modulus have been developed to provide viable options for network participation.</h5>
-                <br />
-                <h5 className={subTxtClasses2}>The Titan nodes will enable users to pool their resources to run enterprise-level hardware, thereby exposing them to a new customer set.</h5>
             </section>
+
+            <section className={styles.section6}>
+                <div className="container">
+                    <div className="row">
+                    <div className="col-md-6">
+                        <h3>Staking <span>Nodes</span></h3>
+                        <p>The minimum collateral requirement for the base FluxNode tier may not be feasible for all participants. In such scenarios therefore, alternative support mechanisms such as the Titan modulus have been developed to provide viable options for network participation.</p>
+                        <p>The Titan nodes will enable users to pool their resources to run enterprise-level hardware, thereby exposing them to a new customer set.
+                        </p>
+                    </div>
+                    <div className="col-md-6">
+                    <div className={styles.nodeCard}>
+                            <div className="row">
+                                <div className="col">
+                                    <div style={{height: "100%", display: "flex", alignItems: "center"}}>
+                                        <div>
+                                        <div className={styles.cardHead}>
+                                        <h4>Stratus Node</h4>
+                                        <h5>1000 Flux</h5>
+                                        </div>
+                                        <div className={styles.cardRewards2}>
+                                           <a href="#" className={styles.btn1}>Titan Staking</a>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col">
+                                <div className={styles.cardReq}>
+                                    <h5>Hardware Requirements</h5>
+                                    <h6>2 Cores</h6>
+                                    <h6>4 Threads</h6>
+                                    <h6>8 GB RAM</h6>
+                                    <h6>220 GB/SSD/NVME</h6>
+                                    <h6>180 Mb/s DWS</h6>
+                                    <h6>240 EPS Min. Requirements</h6>
+                                    <h6>25 Mb down/up speed</h6>
+                                    <h5>VPS and ARM64 compatible</h5>
+                                    </div>
+                                </div>
+                            </div>  
+                         </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+          
+
+
+           
 
             <section className={styles.hardware}>
                 <div className={styles.parent}>

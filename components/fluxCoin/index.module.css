@@ -105,6 +105,7 @@ margin-bottom: 20px;
   }
 }
 
+
 .headerImg img{
   width: 100%;
   height: auto;
@@ -942,11 +943,7 @@ p.pop{
     line-height: 1.6;
     /* margin-bottom: 50px !important; */
 }
-.section2 p{
-  font-size: 0.9em;
-  line-height: 1.6;
-  /* margin-bottom: 50px !important; */
-}
+
 .section4 p{
   font-size: 0.9em;
   line-height: 1.6;
@@ -954,6 +951,11 @@ p.pop{
 }
 .headerImg{
   margin-top: 30px;
+}
+.section2 p{
+  font-size: 0.9em;
+  line-height: 1.6;
+  /* margin-bottom: 50px !important; */
 }
 .section2 h3{
   margin: 0.1em auto 0em 0px;

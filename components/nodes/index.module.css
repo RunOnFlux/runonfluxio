@@ -155,6 +155,217 @@
     margin: auto;
     
   }
+
+  .section2 h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.9938px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2B61D1;
+    margin-top: 100px;
+  }
+  .section2{
+    margin-bottom: 100px;
+  }
+  
+
+  .section3 h3{
+    margin: 0.1em auto 0em 0px;
+    font-family: Montserrat, sans-serif;
+    color: #313457;
+    font-size: 2.7em;
+    line-height: 1.1em;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section3 h3 span{
+    color: #2B61D1;
+  }
+  
+  
+  .section3 p{
+    margin-top: 0em;
+    /* margin-bottom: 60px !important; */
+    padding-top: 0em;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(49, 52, 87, 0.8);
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+    
+  }
+
+  .section3 img{
+    width: 100%;
+    height: auto;
+  }
+  .section3{
+    margin-bottom: 100px;
+  }
+
+  .section4 h3{
+    margin: 0.1em auto 0em 0px;
+    font-family: Montserrat, sans-serif;
+    color: #313457;
+    font-size: 2.7em;
+    line-height: 1.1em;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section4 h3 span{
+    color: #2B61D1;
+  }
+  
+  
+  .section4 p{
+    margin-top: 0em;
+    /* margin-bottom: 60px !important; */
+    padding-top: 0em;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(49, 52, 87, 0.8);
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+    
+  }
+
+  .section4{
+    margin-bottom: 100px;
+  
+  }
+
+  .nodeCard{
+    width:100%;
+    background-color:white;
+    box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
+    border-radius:20px;
+    padding: 20px;
+    height: 100%;
+  
+  }
+  .cardReq{
+    border-left: 1px solid hsla(213, 19%, 66%, 0.41);
+    padding-left: 15px;
+   
+  }
+  .cardReq h5{
+    font-size: 13px;
+    color: #98A7B9;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .cardReq h6{
+    font-size: 13px;
+    color: #98A7B9;
+    font-weight: 300;
+  }
+  .cardHead{
+    box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
+    width: 100%;
+    border-radius:15px;
+    display:inline-block;
+    padding: 30px 20px;
+   
+  }
+  .cardHead h4{
+    font-size: 19px;
+    font-weight: bold;
+    color: #2D8EFF;
+  }
+  .cardHead h5{
+    font-size: 17px;
+    font-weight: bold;
+    color: #303B52;
+  }
+  .cardRewards{
+    box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
+    width: 100%;
+    border-radius:15px;
+    display:inline-block;
+    margin-top: 20px;
+    padding: 10px 10px;
+  }
+  .cardRewards span{
+    font-size: 12px;
+    font-weight: bold;
+    color: #2B61D1;
+  }
+  .nodeCard2{
+    width:100%;
+    background-color:white;
+    box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
+    border-radius:20px;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .centerCard{
+    text-align: center;
+    background-color:white;
+    box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
+    border-radius:20px;
+    padding: 20px;
+  }
+  .centerCard h6{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #98A7B9;
+  }
+
+  .section5{
+    margin-bottom: 100px;
+  }
+  
+  .section6 h3{
+    margin: 0.1em auto 0em 0px;
+    font-family: Montserrat, sans-serif;
+    color: #313457;
+    font-size: 2.7em;
+    line-height: 1.1em;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section6 h3 span{
+    color: #2B61D1;
+  }
+  
+  
+  .section6 p{
+    margin-top: 0em;
+    /* margin-bottom: 60px !important; */
+    padding-top: 0em;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(49, 52, 87, 0.8);
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+    
+  }
+  .cardRewards2{
+   
+    width: fit-content;
+    border-radius:15px;
+    display:inline-block;
+    margin-top: 30px;
+   
+  }
  
 
  
@@ -210,6 +421,12 @@
 
 @media all and (min-width: 992px){
   .section1 p{
+    width: 80%;
+  }
+  .section3 p{
+    width: 80%;
+  }
+  .section6 p{
     width: 80%;
   }
 }
@@ -275,6 +492,133 @@ float: right;
   padding-left: 20px;
   margin-bottom: 0%;
   color: #999CB1;
+  }
+  .section2{
+    margin-bottom: 70px;
+  }
+  .section2 h6{
+    margin-top: 70px;
+  }
+
+  .section3 h3{
+    margin: 0.1em auto 0em 0px;
+    font-family: Montserrat, sans-serif;
+    color: #313457;
+    font-size: 2em;
+    line-height: 1.1em;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .section4 h3{
+    margin: 0.1em auto 0em 0px;
+    font-family: Montserrat, sans-serif;
+    color: #313457;
+    font-size: 2em;
+    line-height: 1.1em;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+
+  .nodeCard{
+    width:100%;
+    background-color:white;
+    box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
+    border-radius:20px;
+    padding: 20px;
+    height: 100%;
+  
+  }
+  .cardReq{
+    border-left: 1px solid hsla(213, 19%, 66%, 0.41);
+    padding-left: 10px;
+   
+  }
+  .cardReq h5{
+    font-size: 12px;
+    color: #98A7B9;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .cardReq h6{
+    font-size: 12px;
+    color: #98A7B9;
+    font-weight: 300;
+  }
+  .cardHead{
+    box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
+    width: 100%;
+    border-radius:15px;
+    display:inline-block;
+    padding: 20px 15px;
+   
+  }
+  .cardHead h4{
+    font-size: 17px;
+    font-weight: bold;
+    color: #2D8EFF;
+  }
+  .cardHead h5{
+    font-size: 15px;
+    font-weight: bold;
+    color: #303B52;
+  }
+  .cardRewards{
+    box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
+    width: 100%;
+    border-radius:15px;
+    display:inline-block;
+    margin-top: 20px;
+    padding: 10px 10px;
+  }
+  .cardRewards span{
+    font-size: 11px;
+
+    font-weight: bold;
+    color: #2B61D1;
+  }
+  .nodeCard2{
+    width:100%;
+    background-color:white;
+    box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
+    border-radius:20px;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .centerCard{
+    text-align: center;
+    background-color:white;
+    box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
+    border-radius:20px;
+    padding: 20px;
+  }
+  .centerCard h6{
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #98A7B9;
+  }
+
+  .section6 h3{
+    margin: 0.1em auto 0em 0px;
+    font-family: Montserrat, sans-serif;
+    color: #313457;
+    font-size: 2em;
+    line-height: 1.1em;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .section5{
+    margin-bottom: 50px;
   }
 
 }
@@ -357,6 +701,63 @@ float: right;
     background-color:rgb(43,97,209);
     animation: pulse-animation 2s infinite;
     }
+
+    .section3 p{
+      font-size: 0.9em;
+      line-height: 1.6;
+      /* margin-bottom: 50px !important; */
+    }
+    .section3 h3{
+      margin: 0.1em auto 0em 0px;
+      font-family: Montserrat, sans-serif;
+      color: #313457;
+      font-size: 1.5em;
+      line-height: 1.2em;
+      text-align: left;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .section2{
+      margin-bottom: 50px;
+    }
+    .section2 h6{
+      margin-top: 50px;
+    }
+    .section4 p{
+      font-size: 0.9em;
+      line-height: 1.6;
+      /* margin-bottom: 50px !important; */
+    }
+    .section4 h3{
+      margin: 0.1em auto 0em 0px;
+      font-family: Montserrat, sans-serif;
+      color: #313457;
+      font-size: 1.5em;
+      line-height: 1.2em;
+      text-align: left;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+   
+    .nodeCard2{
+      height: 300px;
+
+    }
+    .section6 p{
+      font-size: 0.9em;
+      line-height: 1.6;
+      /* margin-bottom: 50px !important; */
+    }
+    .section6 h3{
+      margin: 0.1em auto 0em 0px;
+      font-family: Montserrat, sans-serif;
+      color: #313457;
+      font-size: 1.5em;
+      line-height: 1.2em;
+      text-align: left;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
 }
 
 
@@ -433,6 +834,15 @@ float: right;
     border-radius: 100% ;
     background-color:rgb(43,97,209);
     animation: pulse-animation 2s infinite;
+    }
+
+    .nodeCard{
+      height: 100%
+
+    }
+    .nodeCard2{
+      height: 300px;
+
     }
   
 
@@ -1090,18 +1500,7 @@ padding-bottom:2%;
   z-index:2;
 }
 
-.Node{
-  padding-left:5%;
-  line-height:180%;
-  box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
-  width:40%;
-  height:40%;
-  margin-left:10%;
-  margin-top:8%;
-  border-radius:1.5vw;
-  font-size:115.25%;
-  display:inline-block;
-}
+
 
 
 
