@@ -144,21 +144,35 @@ export function Node() {
 
     return (
         <main className={styles.main}>
-            <section className={styles.headerimg}>
-                <h1 className={styles.TitleText}><span className={styles.bluetext}>FluxNode</span> <br />Infrastructure</h1>
-                <h5 className={styles.SubText}>Support the Flux Cloud by running FluxNodes - by and for the people. The Flux Cloud is powered by thousands of FluxNodes connected from all around the globe, and the community is the backbone. By contributing their computational resources, individuals are incentivized accordingly.</h5>
+            <section className={styles.section1}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
+                        <h1><span>FluxNode</span> <br />Infrastructure</h1>
+                        <p>Support the Flux Cloud by running FluxNodes - by and for the people. The Flux Cloud is powered by thousands of FluxNodes connected from all around the globe, and the community is the backbone. By contributing their computational resources, individuals are incentivized accordingly.</p>
 
-                <div className={styles.buttons}>
-                    <a href="/node" id={styles.headerBut1}>Deploy Node</a>
-                    <a href="https://home.runonflux.io/dashboard/economics" id={styles.headerBut2}>Economics</a>
-                </div>
+                        <div className="mt-4">
+                            <a className={styles.btn2} href="/node">Deploy Node</a>
+                            <a className={styles.btn1} href="https://home.runonflux.io/dashboard/economics">Economics</a>
+                        </div>
 
-                <div className={styles.nodes}>
-                    <div><h3>Nodes</h3>
-                        <h1 className={styles.blueDot}></h1>
-                        <h2 id="danodes">...</h2></div>
-                    <p className={styles.smallDesc}>Decentralized infrastructure nodes live.</p>
+                        <div className={styles.nodes}>
+                         <div className={styles.nodesContainer}>
+                            <h3>Nodes</h3>
+                            <div className={styles.dotanimation}><h1 className={styles.blueDot}></h1></div>
+                            <h2 id="danodes">...</h2>
+                            </div>
+                        </div>
+                        </div>
+                        <h6 className={styles.smallDesc}>Decentralized infrastructure nodes live.</h6>
+                        <div className="col-md-6">
+                            
+                            </div>
+                    </div>
                 </div>
+              
+
+                
             </section>
 
             <section className={partnerClasses}>

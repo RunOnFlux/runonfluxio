@@ -89,6 +89,10 @@ a {
  color: var(--text-white) !important;
 }
 
+.navNav2 .nav-link{
+  color: #303b52 !important;
+}
+
 .dropdown-menu{
   background: rgba(17,24,39,.85)!important;
   backdrop-filter: blur(12px) !important;
@@ -213,9 +217,25 @@ padding-right: 10px !important;
   background: rgba(17,24,39,.85)!important;
 }
 
+.navNav2{
+  /* background-color: transparent !important; */
+  background: transparent!important;
+}
+
 
 .navNav.active{
   background: rgba(17,24,39,.85)!important;
+  transition: background-color 300ms linear !important;
+  position: fixed !important;
+   height: 138px;
+    /* position: fixed; */
+    width: 100%;
+    backdrop-filter: blur(12px) !important;
+    z-index: 999;
+    top: 0;
+}
+.navNav2.active{
+  background: transparent !important;
   transition: background-color 300ms linear !important;
   position: fixed !important;
    height: 138px;

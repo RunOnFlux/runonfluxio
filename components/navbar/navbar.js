@@ -52,8 +52,8 @@ export function NavBar(){
             <div className={styles.topNav}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3"></div>
-                        <div className="col-md-9">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-11">
                             <ul>
                                 <li> <a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki<Image alt="img" src={target}/></a></li>

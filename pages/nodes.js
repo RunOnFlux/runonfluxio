@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
 import { Node } from '../components/nodes/nodes.js'
-import { NavBar } from '../components/navbar/navbar.js'
+import { NavBar3 } from '../components/navbar/navbar3.js'
 export default function Team() {
   return (
     <div>
@@ -21,7 +21,7 @@ export default function Team() {
             gtag('config', 'G-KTKEYE3YMN');
             `}
         </Script>
-      <NavBar/>
+      <NavBar3/>
      <Node/>
     </div>
   )

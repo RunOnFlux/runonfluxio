@@ -278,7 +278,7 @@ export function Flux() {
                         <div className={styles.tokenomics}>
                         <div className="row">
                             <div className="col-5">
-                            <div className={styles.subTitle}><span className={styles.blue}>Flux</span> Tokenomics</div>
+                            <div className={styles.subTitle}><span>Flux</span> Tokenomics</div>
                             </div>
                             <div className="col-7">
                             <div className={styles.subTitle2}><span className={styles.paddingRight}>Max Supply</span> 
