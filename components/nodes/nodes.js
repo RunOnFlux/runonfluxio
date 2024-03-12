@@ -368,8 +368,8 @@ export function Node() {
                                     <div style={{height: "100%", display: "flex", alignItems: "center"}}>
                                         <div>
                                         <div className={styles.cardHead}>
-                                        <h4>Stratus Node</h4>
-                                        <h5>1000 Flux</h5>
+                                        <h4>titan Staking</h4>
+                                        <h5>From 50 Flux</h5>
                                         </div>
                                         <div className={styles.cardRewards2}>
                                            <a href="#" className={styles.btn1}>Titan Staking</a>
