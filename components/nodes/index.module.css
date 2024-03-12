@@ -359,13 +359,13 @@
     
   }
   .cardRewards2{
-   
-    width: fit-content;
+   width: 100%;
     border-radius:15px;
-    display:inline-block;
     margin-top: 30px;
    
   }
+ 
+
  
 
  
@@ -843,6 +843,12 @@ float: right;
     .nodeCard2{
       height: 300px;
 
+    }
+
+    .cardRewards2 .btn1{
+      width: 100px !important;
+      padding: 13px 10px;
+      font-size: 12px;
     }
   
 
