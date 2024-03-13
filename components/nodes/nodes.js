@@ -1,15 +1,14 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import styles from "./index.module.css"
-import Head from "next/head";
-import dynamic from 'next/dynamic';
+
 import Image from "next/image";
 
 import wallet from "../../public/images/images/wallet.svg"
 import { Slider1 } from "../Slider/slider1";
 
 import circleGraph from "../../public/images/images/circleGraph.svg"
-import Line from "../../public/images/images/Line.svg"
+
 import seedIcon from "../../public/images/images/seedicon.svg"
 import CAP from "../../public/images/images/CAPM4.svg"
 import COT from "../../public/images/images/cotx-cumulus.jpg"
@@ -18,7 +17,7 @@ import cotx from "../../public/images/images/cotxicon.svg";
 import bmo from '../../public/images/images/bmoicon.svg';
 import progressbar from "../../public/images/images/node progressbar.svg"
 
-import classNames from "classnames";
+
 
 
 export function Node() {
@@ -141,7 +140,7 @@ export function Node() {
                                     <h6>220 GB/SSD/NVME</h6>
                                     <h6>180 Mb/s DWS</h6>
                                     <h6>240 EPS Min. Requirements</h6>
-                                    <h6>25 Mb down/up speed</h6>
+                                    <h6>25 Mb Bandwidth</h6>
                                     <h5>VPS and ARM64 compatible</h5>
                                     </div>
                                 </div>
@@ -193,10 +192,10 @@ export function Node() {
                                         <div>
                                         <div className={styles.cardHead}>
                                         <h4>Nimbus Node</h4>
-                                        <h5>1000 Flux</h5>
+                                        <h5>12,500 Flux</h5>
                                         </div>
                                         <div className={styles.cardRewards}>
-                                            <span>Deterministic Block rewards <span style={{color:"#2d8eff", float: "right", marginTop: "4px"}}>7.5%</span></span>
+                                            <span>Deterministic Block rewards <span style={{color:"#2d8eff", float: "right", marginTop: "4px"}}>12.5%</span></span>
                                         </div>
                                         </div>
                                     </div>
@@ -205,13 +204,13 @@ export function Node() {
                                 <div className="col">
                                 <div className={styles.cardReq}>
                                     <h5>Hardware Requirements</h5>
-                                    <h6>2 Cores</h6>
-                                    <h6>4 Threads</h6>
-                                    <h6>8 GB RAM</h6>
-                                    <h6>220 GB/SSD/NVME</h6>
+                                    <h6>4 Cores</h6>
+                                    <h6>8 Threads</h6>
+                                    <h6>32 GB RAM</h6>
+                                    <h6>440 GB/SSD/NVME</h6>
                                     <h6>180 Mb/s DWS</h6>
-                                    <h6>240 EPS Min. Requirements</h6>
-                                    <h6>25 Mb down/up speed</h6>
+                                    <h6>640 EPS Min. Requirements</h6>
+                                    <h6>50 Mb Bandwidth</h6>
                                     <h5>VPS and ARM64 compatible</h5>
                                     </div>
                                 </div>
@@ -237,10 +236,10 @@ export function Node() {
                                         <div>
                                         <div className={styles.cardHead}>
                                         <h4>Stratus Node</h4>
-                                        <h5>1000 Flux</h5>
+                                        <h5>40,000 Flux</h5>
                                         </div>
                                         <div className={styles.cardRewards}>
-                                            <span>Deterministic Block rewards <span style={{color:"#2d8eff", float: "right", marginTop: "4px"}}>7.5%</span></span>
+                                            <span>Deterministic Block rewards <span style={{color:"#2d8eff", float: "right", marginTop: "4px"}}>30%</span></span>
                                         </div>
                                         </div>
                                     </div>
@@ -249,13 +248,13 @@ export function Node() {
                                 <div className="col">
                                 <div className={styles.cardReq}>
                                     <h5>Hardware Requirements</h5>
-                                    <h6>2 Cores</h6>
-                                    <h6>4 Threads</h6>
-                                    <h6>8 GB RAM</h6>
-                                    <h6>220 GB/SSD/NVME</h6>
-                                    <h6>180 Mb/s DWS</h6>
-                                    <h6>240 EPS Min. Requirements</h6>
-                                    <h6>25 Mb down/up speed</h6>
+                                    <h6>8 Cores</h6>
+                                    <h6>16 Threads</h6>
+                                    <h6>64 GB RAM</h6>
+                                    <h6>880 GB/SSD/NVME</h6>
+                                    <h6>400 Mb/s DWS</h6>
+                                    <h6>1520 EPS Min. Requirements</h6>
+                                    <h6>100 Mb Bandwidth</h6>
                                     <h5>VPS and ARM64 compatible</h5>
                                     </div>
                                 </div>
