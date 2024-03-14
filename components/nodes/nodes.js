@@ -171,10 +171,10 @@ export function Node() {
                                     <h6>2 Cores</h6>
                                     <h6>4 Threads</h6>
                                     <h6>8 GB RAM</h6>
-                                    <h6>∞ + GB/SSD/NVME</h6>
-                                    <h6>180 Mb/s DWS</h6>
+                                    <h6>9250 GB HDD</h6>
+                                    <h6>80 Mb/s DWS</h6>
                                     <h6>240 EPS Min. Requirements</h6>
-                                    <h6>25 Mb down/up speed</h6>
+                                    <h6>100 Mb down/up speed</h6>
                                     <h5>VPS and ARM64 compatible</h5>
                                     </div>
                                 </div>
