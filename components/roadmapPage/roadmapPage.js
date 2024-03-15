@@ -43,7 +43,7 @@ export function RoadMapPage(){
                                     <p>SSP Wallet Release</p>
                                     <p>FluxCore Beta</p>
                                     <p>FluxEdge Alpha</p>
-                                    <p>-Wordpress V1 Release</p>
+                                    <p>-WordPress V1 Release</p>
                                     <p>-Primetime Phase 2</p>
                                     <p>-Project Juggernaut</p>
                                     <p>-Multisig Fluxnodes</p>
@@ -102,7 +102,7 @@ export function RoadMapPage(){
                                 <h3>Wordpress, Storage, and Jetpack 3.0</h3>
                                     <p>-Fractus Cumulus Storage Nodes Rewards</p>
                                     <p>-Flux Cloud 3.2 (Jetpack 3.0)</p>
-                                    <p>-Decentralized Wordpress for the Public</p>
+                                    <p>-Decentralized WordPress for the Public</p>
                                     <p>-FluxOS Mobile App v0.1.2</p>
                                     <p>-Flux - PA8 Distribution</p>
                                     <p>-Fiat Payment For Flux Cloud Services</p>
