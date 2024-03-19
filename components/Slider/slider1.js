@@ -16,7 +16,7 @@ import partner6 from "../../public/images/partners/partner6.svg"
 import partner7 from "../../public/images/partners/partner7.svg"
 import partner8 from "../../public/images/partners/partner8.svg"
 import partner9 from "../../public/images/partners/partner9.svg"
-import partner10 from "../../public/images/partners/partner10.svg"
+// import partner10 from "../../public/images/partners/partner10.svg"
 import partner11 from "../../public/images/partners/partner11.svg"
 import partner12 from "../../public/images/partners/partner12.svg"
 import partner13 from "../../public/images/partners/partner13.svg"
@@ -130,11 +130,11 @@ export function Slider1(){
                     <Image src={partner9} alt="Image 1"/>
                     </div>
                 </SplideSlide>
-                <SplideSlide className={styles.splider}>
+                {/* <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={partner10} alt="Image 1"/>
                     </div>
-                </SplideSlide>
+                </SplideSlide> */}
                 <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={partner11} alt="Image 1"/>

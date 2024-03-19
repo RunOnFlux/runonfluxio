@@ -156,7 +156,7 @@ export function HomePage(){
                     </div>
                         <div className={`${styles.header} col-lg-6`}>
                             <div>
-                            <h1>Build on <br/><span>Web 3.0 </span>Today</h1><br/>
+                            <h1>Build on <br/><span>Web 3.0 </span>Today.</h1><br/>
                             <h6>The Flux Cloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance</h6>
                             <div className={styles.buttons}>
                             <a href="https://cloud.runonflux.io/" className={styles.btn2}>Deploy Now</a>
@@ -341,7 +341,7 @@ export function HomePage(){
                                     <Image alt="logo" src={redundancy}/>
                                 </div>
                                 <h5>Redundancy</h5>
-                                <h6>Redundant applications and automatic failover by outages</h6>
+                                <h6>Redundant applications and automatic failover during outages</h6>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4 mt-3">
@@ -415,7 +415,7 @@ export function HomePage(){
                 <div className="container">
                     <div className="row text-center mb-4">
                         <h2>A Global <span>Cloud</span> Network</h2>
-                        <p className="mb-4">Flux Cloud is connected worldwide, across all continents. Its strongest Availability Zones are the whole EU zone and United States, South Asia and Australia are also witnessing an increase of Server deployments. Flux Cloud is the most decentralized and fastest growing network in the world. </p>
+                        <p className="mb-4">Flux Cloud is connected worldwide, across all continents. Its strongest Availability Zones are the EU and United States. South Asia and Australia are also witnessing an increase of server deployments. Flux Cloud is the most decentralized and fastest growing network in the world. </p>
                     </div>
                     <div className="row">
                     <a href="https://home.runonflux.io/dashboard/map" rel="noreferrer" target="_blank" className={styles.btn2} style={{margin: "auto", marginBottom: "20px"}}>View Dashboard</a>
@@ -448,7 +448,7 @@ export function HomePage(){
                 <div className="container">
                 <div className="row text-center mb-4">
                         <h2><span>Flux Cloud</span> Products</h2>
-                        <p className="mb-3">Whether you are looking for simple compute power, databases, content delivery, or other functionalities, the Flux Cloud has you covered! It is the service to keep your infrastructure decentralized, flexibly, scalable and censorship resistant.</p>
+                        <p className="mb-3">Whether you are looking for simple compute power, databases, content delivery, or other functionalities, the Flux Cloud has you covered! It will keep your infrastructure decentralized, flexibly, scalable and censorship resistant.</p>
                         
                     </div>
                     {/* <div className="row mb-5">
@@ -460,8 +460,8 @@ export function HomePage(){
                                 <div className={styles.icon}>
                                     <Image alt="logo" src={wordpressIcon}/>
                                 </div>
-                                <h5>Run Wordpress</h5>
-                                <h6>Run your Website using Wordpress in a decentralized, and redundant manner.</h6>
+                                <h5>Run WordPress</h5>
+                                <h6>Run your Website using WordPress in a decentralized, and redundant manner.</h6>
                                 <a href="https://wordpress.runonflux.io" target="_blank" rel="noreferrer">Visit Now</a>
                             </div>
                         </div>
@@ -560,7 +560,7 @@ export function HomePage(){
                             <div className={styles.card3}>
                                     <div className={styles.icon}><Image alt="logo" src={POUW}/></div>
                                     <h5>Proof-of-Useful-Work Consensus</h5>
-                                    <h6>The PoUW consensus is the solution to the criticism of the Proof of Work consensus due to its high energy consumption</h6>
+                                    <h6>The PoUW consensus is the solution to the criticism of the Proof of Work consensus due to its high energy consumption.</h6>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6 mb-4">

@@ -191,7 +191,7 @@ export function Flux() {
                         <h1>A world <br></br> powered by <span>Flux</span></h1>
                         <p>Flux cryptocurrency powers the ecosystem and is used to purchase resources, collateralize
                             nodes, and fuel transactions on FluxOS. It rewards both miners for validating transactions and FluxNode
-                            operators for providing computational resources</p>
+                            operators for providing computational resources.</p>
                         <div className={styles.buttons}>
                         <a href="https://whitepaper.app.runonflux.io/" className={styles.btn2}>Whitepaper</a>
                         <a href="https://docs.runonflux.io/" className={styles.btn1}>Docs</a>
@@ -420,7 +420,7 @@ export function Flux() {
                                 <div>
                                 <h3><span>Flux</span> is a <span className={styles.blue}>Multichain</span> <br></br>Cryptocurrency</h3>
                             <p className="mb-4">With Flux's parallel assets, you can leverage the beneficial
-                         features of multiple blockchains, such as accessto various DeFi platforms. Flux's parallel 
+                         features of multiple blockchains, such as access to various DeFi platforms. Flux's parallel 
                          assets are interchangeable 1:1 with native Flux through the Fusion app in Zelcore.</p>
                          <a href="https://www.runonflux.io/parallel.html" className={styles.btn1}>Discover assets</a>
                                 </div>
@@ -458,7 +458,7 @@ export function Flux() {
                     <h3>Exchanges</h3>
                     <p className={styles.exchanges1}>  Flux is a digital asset that is listed on several different exchanges, each of which offers various features 
                     such as buying and selling.</p>
-                    <p className={styles.exchanges1}><i>exchanges are controlled by Flux, and in case of any issues with
+                    <p className={styles.exchanges1}><i>exchanges are not controlled by Flux, and in case of any issues with
                     any of these exchanges, you must address them directly with the exchange.</i></p>
                     <p className={styles.exchanges1}> For more markets see <a href="https://coinmarketcap.com/currencies/zel/m">CoinMarketCap </a>or <a href="https://www.coingecko.com/en/coins/flux-zelcash">CoinGecko.</a></p>
                 </div>

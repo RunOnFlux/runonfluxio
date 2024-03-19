@@ -102,7 +102,7 @@ export function Node() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7 col-md-12">
-                        <h3><span>FluxNode</span> Hiearchy</h3>
+                        <h3><span>FluxNode</span> Hierarchy</h3>
                          <p className="mb-4">To ensure the Flux Cloud network functions optimally, multiple tiers of FluxNodes are available for deployment, each with specific collateral and hardware requirements. <br /><br /> Interested parties are encouraged to review the economic models associated with each tier through the dashboard to make informed decisions. The dashboard provides a comprehensive overview of the technical and financial parameters of each FluxNode tier, enabling informed selection.</p>
                          <a className={styles.btn1} href="https://home.runonflux.io/dashboard/economics">Economics</a>
                         </div>
@@ -277,9 +277,9 @@ export function Node() {
                 <div className="container">
                     <div className="row" style={{marginBottom: "100px"}}>
                     <div className="col-md-6">
-                        <h3>Staking <span>Nodes</span></h3>
-                        <p>The minimum collateral requirement for the base FluxNode tier may not be feasible for all participants. In such scenarios therefore, alternative support mechanisms such as the Titan modulus have been developed to provide viable options for network participation.</p>
-                        <p>The Titan nodes will enable users to pool their resources to run enterprise-level hardware, thereby exposing them to a new customer set.
+                        <h3>Titan <span>Nodes</span></h3>
+                        <p>The minimum collateral requirement for the base FluxNode tier may not be feasible for all participants. In such scenarios, alternative support mechanisms such as the Titan modulus have been developed to provide viable options for network participation.</p>
+                        <p>The Titan nodes will enable users to pool their resources to run enterprise-level hardware, and in doing so, exposing them to a new customer set.
                         </p>
                     </div>
                     <div className="col-md-6">
@@ -358,12 +358,12 @@ export function Node() {
                         <div className="col-lg-5 col-md-5">
                         <div className={styles.scroll}>
                         <div className={styles.hardwareCard}>
-                            <div className={styles.cardHeader}>
+                            {/* <div className={styles.cardHeader}>
                             <h6>SenceCAP M4</h6>
                         <a className={styles.btn1} href="https://www.seeedstudio.com/SenseCAP-M4-p-5556.html">Buy Now</a>
-                            </div>
+                            </div> */}
                         <p>
-                            SenseCAP M4 Square is a play and play Cumulus FluxNode, which provides
+                            SenseCAP M4 Square is a plug and play Cumulus FluxNode, which provides
                             an easy and friendly install process via the SenseCAP Hotspot Mobile
                             App. Further projects will be supported soon, which will allow you to
                             support multiple projects via one device!{" "}
@@ -372,10 +372,10 @@ export function Node() {
                     </div>
                     <br></br>
                     <div className={styles.hardwareCard}>
-                            <div className={styles.cardHeader}>
+                            {/* <div className={styles.cardHeader}>
                             <h6>Cotx</h6>
                         <a className={styles.btn1} href="https://cotx-store.com/collections/cotx-fluxnode/products/cotx-fluxnode-cumulus">Buy Now</a>
-                            </div>
+                            </div> */}
                         <p>
                         COTX IOT Cloud service and FluxOS software, presenting this brand new FluxNode.
                             High performance and small power consumption COTX - FluxNode brings you excellent
@@ -385,10 +385,10 @@ export function Node() {
                     </div>
                     <br></br>
                     <div className={styles.hardwareCard}>
-                            <div className={styles.cardHeader}>
+                            {/* <div className={styles.cardHeader}>
                             <h6>BMO</h6>
                         <a className={styles.btn1} href="https://bmoblockchain.us/shop/">Buy Now</a>
-                            </div>
+                            </div> */}
                         <p>
                         BMO Advanced Managed Services (BAMS) is a one stop solution. With expertise in design, implementation, optimization, troubleshooting and the documentation of various projects around blockchain ecosystem.{" "}
                         </p>
@@ -398,7 +398,7 @@ export function Node() {
                         </div>
                     </div>
                     <div className="row mb-5">
-                        <h3 className="text-center">Guides to set up<br/><span>Your Own FluxNode</span></h3>
+                        <h3 className="text-center">Guides To Set Up<br/><span>Your Own FluxNode</span></h3>
                         <p className="text-center" style={{margin: "auto"}}> Efforts have been made to simplify the installation process through
                     user-friendly guides. However, before proceeding, it is crucial to ensure
                     that the minimum required Flux collateral and hardware specifications are
