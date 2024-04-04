@@ -44,6 +44,11 @@ import logo39 from "../../public/images/fluxlabs-logos/logo39.png"
 import logo40 from "../../public/images/fluxlabs-logos/logo40.svg"
 import logo41 from "../../public/images/fluxlabs-logos/logo41.svg"
 import logo42 from "../../public/images/fluxlabs-logos/logo42.png"
+import logo43 from "../../public/images/fluxlabs-logos/hostmynode_logo.svg"
+import logo44 from "../../public/images/fluxlabs-logos/neurai_logo.svg"
+import logo45 from "../../public/images/fluxlabs-logos/hypercent_logo.svg"
+import logo46 from "../../public/images/fluxlabs-logos/quai_logo.svg"
+import logo47 from "../../public/images/fluxlabs-logos/lilAI_logo.svg"
 import greenStars from "../../public/images/greenyellow-stars.svg"
 export function FluxLabsPage(){
     return(
@@ -121,7 +126,7 @@ export function FluxLabsPage(){
                                <a rel="noreferrer" href="https://havenprotocol.org/" target="_blank">  <Image alt="logo" src={logo2}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                               <a rel="noreferrer" href="https://kaddex.com/" target="_blank">  <Image alt="logo" src={logo3}/></a>
+                               <a rel="noreferrer" href="https://kaddex.com/" target="_blank">  <Image alt="logo" src={logo3} style={{height:"80px", marginTop: "-20px"}}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://docushield.app.runonflux.io/" target="_blank">  <Image alt="logo" src={logo4}/></a>
@@ -239,6 +244,21 @@ export function FluxLabsPage(){
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://blocx.tech/" target="_blank">  <Image alt="logo" src={logo42}/></a>
+                            </div>
+                            <div className="col-lg-3 col-md-4 col-sm-4 col-6">
+                               <a rel="noreferrer" href="https://hostmynode.net/" target="_blank">  <Image alt="logo" src={logo43}/></a>
+                            </div>
+                            <div className="col-lg-3 col-md-4 col-sm-4 col-6">
+                               <a rel="noreferrer" href="https://neurai.org/" target="_blank">  <Image alt="logo" src={logo44}/></a>
+                            </div>
+                            <div className="col-lg-3 col-md-4 col-sm-4 col-6">
+                               <a rel="noreferrer" href="https:/nft.hypercent.io" target="_blank">  <Image alt="logo" src={logo45}/></a>
+                            </div>
+                            <div className="col-lg-3 col-md-4 col-sm-4 col-6">
+                               <a rel="noreferrer" href="https://qu.ai" target="_blank">  <Image alt="logo" src={logo46}/></a>
+                            </div>
+                            <div className="col-lg-3 col-md-4 col-sm-4 col-6">
+                               <a rel="noreferrer" href="https://lilai.co" target="_blank">  <Image alt="logo" src={logo47}/></a>
                             </div>
                            
                         </div>
