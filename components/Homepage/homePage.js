@@ -179,7 +179,7 @@ export function HomePage(){
                                 <div className={styles.cardHeader}>
                                     <span><Image alt="img" src={globeImg}/></span>
                                     <div>
-                                        <h6>Countries Locations</h6>
+                                        <h6>Countries</h6>
                                         <div className={styles.headerTitle}><h4>78</h4> <div><h6><Image alt="img" src={arrowUp}/>2.92% </h6> in the last month</div> </div>
                                     </div>
                                 </div>
