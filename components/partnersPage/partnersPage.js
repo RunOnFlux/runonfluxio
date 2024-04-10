@@ -24,6 +24,10 @@ import partner19 from "../../public/images/partners/partner19.svg"
 import partner20 from "../../public/images/partners/partner20.svg"
 import partner21 from "../../public/images/partners/partner21.svg"
 import partner22 from "../../public/images/partners/partner22.svg"
+import partner24 from "../../public/images/partners/partner24.svg"
+import partner25 from "../../public/images/partners/partner25.svg"
+import partner26 from "../../public/images/partners/partner26.svg"
+import partner27 from "../../public/images/partners/partner27.svg"
 import kucoin from "../../public/images/partners/kucoin-partners.png"
 import gemini from "../../public/images/partners/Gemini.png"
 import paxos from "../../public/images/partners/Paxos.png"
@@ -218,7 +222,7 @@ export function PartnersPage(){
                                     <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner2} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
-                                            <h1>Coinmetro</h1>
+                                            <h1>CoinMetro</h1>
                                             <h2><b>Exchange and Staking Platform</b></h2>
                                             <h3>Exclusive partnership with CoinMetro. Flux & Zelcore together to develop new technologies around “ease-of-use” for fiat onramps, centralized exchange development, decentralized exchange models, and more!</h3>
                                         </div>
@@ -253,7 +257,7 @@ export function PartnersPage(){
                                     <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner7} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
-                                            <h1>Getblock</h1>
+                                            <h1>GetBlock</h1>
                                             <h2><b>GetBlock provides ‘backup solution’ for Flux</b></h2>
                                             <h3>GetBlock enters long-term partnership with Flux (FLUX) blockchain. Flux, a cryptocurrency ecosystem for retail and corporate solutions, has chosen GetBlock as its backup node provider.</h3>
                                         </div>
@@ -305,7 +309,7 @@ export function PartnersPage(){
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>js13kGames</h1>
-                                            <h3><b>Js13kGames</b> is a JavaScript coding competition for <b> HTML5 Game Developers</b> The fun part of the compo is the file size limit set to <b>13 kilobytes.</b> The competition will start at <b>13:00 CEST, 13th August</b> and end at <b>13:00 CEST, 13th September 2021 </b></h3>
+                                            <h3><b>Js13kGames</b> is a JavaScript coding competition for <b> HTML5 Game Developers</b> The fun part of the competition is the file size limit set to <b>13 kilobytes.</b> The competition will start at <b>13:00 CEST, 13th August</b> and end at <b>13:00 CEST, 13th September 2021 </b></h3>
                                                                                     </div>
                                     </div>
                                 </div>
@@ -323,6 +327,98 @@ export function PartnersPage(){
                                             <h1>CoinRequest</h1>
                                             <h2><b>Crypto Payments Settlement Service</b></h2>
                                             <h3>Request and pay in crypto using ZelCore. Request payment in any supported crypto and send to payer via Telegram, Whatsapp, and more.</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div className="row">
+                        <div className="col mb-5">
+                            <div className={styles.card}>
+                                <div className="row">
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner24} alt="partners"/></div>
+                                    <div className="col-lg-6">
+                                        <div>
+                                            <h1>Timpi</h1>
+                                           
+                                            <h3>Timpi is a technology pioneer set to disrupt the status quo through Decentralization, Web3 and AI. Their mission is to democratize the world’s information ensuring a fair and open digital future for all.
+                                                At the core of Timpi is our pioneering, proprietary web-scale index. The world’s first wholly independent and decentralized Index, joining the ranks of only five other Web Indexes : Google, Bing, Yandex, Baidu, and Brave.
+
+                                                Coupling our expansive Web-scale Index with leading-edge AI technology, we’re engineering a suite of services that hold user privacy and data dignity paramount.
+                                                </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div className="row">
+                        <div className="col mb-5">
+                            <div className={styles.card}>
+                                <div className="row">
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner25} alt="partners"/></div>
+                                    <div className="col-lg-6">
+                                        <div>
+                                            <h1>Scalia</h1>
+                                           
+                                            <h3>Scalia Infrastructure is a pioneering platform that aggregates and scales Decentralized Physical Infrastructure Network (DePIN) resources. Their platform aims to democratize access to decentralized infrastructure resources, enabling individuals, enterprises, and organizations to leverage decentralized technologies with ease.</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div className="row">
+                        <div className="col mb-5">
+                            <div className={styles.card}>
+                                <div className="row">
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner26} alt="partners"/></div>
+                                    <div className="col-lg-6">
+                                        <div>
+                                            <h1>Contabo</h1>
+                                           
+                                            <h3>Contabo is a Germany-based web hosting provider that has been in operation since 2003. They offer a wide range of hosting solutions, including shared hosting, VPS hosting, and dedicated servers.
+
+                                            Deploy virtual private servers within minutes using the Contabo API or CLI, providing quick access to resources whenever needed. Create high-speed virtual private networks, featuring unlimited and unmetered internal traffic for enhanced security and performance.
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div className="row">
+                        <div className="col mb-5">
+                            <div className={styles.card}>
+                                <div className="row">
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner27} alt="partners"/></div>
+                                    <div className="col-lg-6">
+                                        <div>
+                                            <h1>3DNS</h1>
+                                           
+                                            <h3>3DNS is the first onchain domain registrar that's compatible in both web2 and web3. This means that you can do things like set email and website records on your domain, as well as send and receive crypto from your domain.
+
+                                            3DNS supports the most popular domain TLD's, including .com, .xyz, .co, .io, .box and more.
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div className="row">
+                        <div className="col mb-5">
+                            <div className={styles.card}>
+                                <div className="row">
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner27} alt="partners"/></div>
+                                    <div className="col-lg-6">
+                                        <div>
+                                            <h1>Kiterocket Marketing Agency</h1>
+                                            <h2><b>KITEROCKET DELIVERS PR-FORWARD COMMUNICATION SERVICES DRIVEN BY CONNECTED CATEGORY EXPERTS.</b></h2>
+                                            <h3>Their clients are visionary companies solving complex technology, sustainability and humanitarian challenges. We tell their stories across PR and marketing platforms to open doors, increase brand awareness, drive adoption, and achieve the exceptional.</h3>
                                         </div>
                                     </div>
                                 </div>

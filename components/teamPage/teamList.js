@@ -18,7 +18,7 @@ import deimling from "../../public/images/team/deimling.png";
 import liza from "../../public/images/team/liza.png";
 import moulton from "../../public/images/team/moulton.png";
 import williams from "../../public/images/team/williams.png";
-import steve from "../../public/images/team/steve.png";
+import steve from "../../public/images/team/steve.jpg";
 import marcio from "../../public/images/team/marcio.png";
 import weinberg from "../../public/images/team/weinberg.png";
 import justin from "../../public/images/team/justin.png";
@@ -47,7 +47,7 @@ const teamAsset = [
         linkedInLink: 'https://www.linkedin.com/in/kellerdaniel/',
         title: 'Co-Founder and Community Member',
         intro: 'Daniel has over 25+ years of IT experience in technology, healthcare and nonprofit works.',
-        description: 'An entrepreneur, investor, and disruptive technology advocate, Daniels ethos resonates with many on the Flux Team, Daniel is focusing on projects that are uplifting to humanity.'
+        description:"An entrepreneur, investor, and disruptive technology advocate, Daniel's ethos resonates with many on the Flux Team. Daniel is focusing on projects that are uplifting to humanity."
     },
     {
         name: 'Tadeáš Kmenta',
@@ -55,8 +55,8 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/TJ_Trunk',
         linkedInLink: 'https://www.linkedin.com/in/tadeas-kmenta-636b9516a/',
         title: 'Co-Founder and Community Member',
-        intro: 'Tadeas has over 10 years of experience developing decentralized blockchain technologies. As a strong privacy advocate, he believes blockchain and web3 is where the future of freedom lies.',
-        description: ' Tadeas physics background helps further shape ideas to be applicable throughout many industries.'
+        intro: 'Tadeas has over 10 years of experience developing decentralized blockchain technologies. As a strong privacy advocate, he believes blockchain and Web3 is where the future of freedom lies.',
+        description: "Tadeas' physics background helps further shape ideas to be applicable throughout many industries."
     },
 
     {
@@ -65,8 +65,8 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/ZelCoreCOO',
         linkedInLink: 'https://www.linkedin.com/in/parkerhoneyman/',
         title: 'Co-Founder and Community Member',
-        intro: 'Parker is a Pacific Northwest native and lives in Oregon after spending 5 years working in the Bay Area for medical device start-ups.',
-        description: 'He brings technical know-how and proven development processes to the blockchain space as a co-founder of Flux and the Zelcore Platform. Parker is certain that Web 3 is the future of the internet, and it needs the decentralized services of Flux and Zelcore.'
+        intro: 'Parker is a Pacific Northwest native and lives in Oregon, after spending 5 years working in the Bay Area for medical device start-ups.',
+        description: 'He brings technical know-how and proven development processes to the blockchain space as a co-founder of Flux and the Zelcore Platform. Parker is certain that Web3 is the future of the internet, and it needs the decentralized services of Flux and Zelcore.'
     },
     {
         name: 'Alžběta Kolibačová',
@@ -74,7 +74,7 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/BettyK0',
         linkedInLink: 'https://www.linkedin.com/in/alzbeta-kolibacova-73b1a215a/',
         title: 'CMO and Community Member',
-        intro: 'Betty is an engineer passionate about blockchain projects and startups that solve a real world problems. ',
+        intro: 'Betty is an engineer passionate about blockchain projects and startups that solve real world problems. ',
         description: 'She’s experienced in digital marketing and PR, building successful engagement marketing, social media strategy and brand awareness. Flexibility, adaptability and organizational skills allow her to effectively lead our decentralized marketing team.'
     },
     {
@@ -84,7 +84,7 @@ const teamAsset = [
         linkedInLink: 'https://www.linkedin.com/in/davywittock/',
         title: 'CBO and Community Member',
         intro: 'Davy leads the Business Development team and specializes in Customer Relationship Management.',
-        description: 'He is an experienced system performance analyst with a background in Healthcare IT management, architecture, and enterprise solutions. He led technical projects in a variety of industries and locations around the world.Davy defines himself in all of his endeavors by providing quality service and results, making him a valuable member of the team and an essential part to the project.'
+        description: 'He is an experienced system performance analyst with a background in Healthcare IT management, architecture, and enterprise solutions. He led technical projects in a variety of industries and locations around the world. Davy defines himself in all of his endeavors by providing quality service and results, making him a valuable member of the team and an essential part to the project.'
     },
     {
         name: 'Jeremy Anderson',
@@ -119,7 +119,7 @@ const teamAsset = [
         twitterLink: '',
         linkedInLink: 'http://daz.co.uk/',
         title: 'Chief AI Officer and Community Member',
-        intro: 'Darren has built and sold five successful companies over the last 20 years, Collectively employing over 100 individuals and generating revenue in excess of $10 million dollars over his professional career.',
+        intro: 'Darren has built and sold five successful companies over the last 20 years, collectively employing over 100 individuals and generating revenue in excess of $10 million dollars over his professional career.',
         description: '  In addition he has won 16 awards, including the "British Chamber of Commerce National Award for Innovation through Technology", awarded by Dell. Darren is currently working on IPFS for Flux, along with Fiat subscription services to help grow Flux to a Billion Dollar Web3 company.'
     },
     {
@@ -129,7 +129,7 @@ const teamAsset = [
         linkedInLink: '',
         title: 'Product Director and Community Member',
         intro: 'Nolan has 15 years of experience working in the automotive, insurance, and IT field, contributing with innovative projects.',
-        description: ' As someone who has worked as an operations analyst he focuses on building strong teams, pushing forward lean projects, and working towards continuous process improvement. As an entrepreneur within the crypto community, he looks forward to helping push Flux to the next level.'
+        description: ' As someone who has worked as an operations analyst, he focuses on building strong teams, pushing forward lean projects, and working towards continuous process improvement. As an entrepreneur within the crypto community, he looks forward to helping push Flux to the next level.'
     },
     {
         name: 'Lukas Mattecka',
@@ -182,7 +182,7 @@ const teamAsset = [
         twitterLink: '',
         linkedInLink: '',
         title: 'Developer, Infra Team and Community Member',
-        intro: 'Kamil is a passionate, self-taught and hobbyist programmer who has been interested in computers and the creation of applications and scripts from an early age.',
+        intro: 'Kamil is a passionate, self-taught and hobbyist programmer who has been interested in computers, the creation of applications, and scripts from an early age.',
         description: ' He creates, among others in Node.js, Bash, C ++, and C #. He has been actively involved in the IT industry for 15 years. In the world of cryptocurrencies, he started in 2017 as an investor and miner. In his free time he dives and travels.'
     },
     {
@@ -218,8 +218,8 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/Ryan_Is_Link',
         linkedInLink: 'https://www.linkedin.com/in/ryan-deimling-107b2850/',
         title: 'Infrastructure, Wiki Developer and Community Member',
-        intro: 'Ryan has over 10+ years of IT experience with server infrastructure both in healthcare settings, as well as in datacenter for a major hosting provider. ',
-        description: 'Having spent much of the 10+ years doing disaster recovery drills and documentation, Ryans focus is infrastructure optimization and maintenance as well as content creation for the Flux teams Wiki.'
+        intro: 'Ryan has over 10+ years of IT experience with server infrastructure, both in healthcare settings, as well as in datacenter, for a major hosting provider. ',
+        description: "Having spent much of the 10+ years doing disaster recovery drills and documentation, Ryan's focus is infrastructure optimization and maintenance, as well as content creation for the Flux team's Wiki."
     },
     {
         name: 'Liza Troshina',
@@ -245,8 +245,8 @@ const teamAsset = [
         twitterLink: 'https://twitter.com/talk2coded',
         linkedInLink: 'http://linkedin.com/in/emmanuel-steve-98aa76179',
         title: 'Developer and Community Member',
-        intro: 'Emmanuel Steve is an educated Software developer with over 6 years of professional experience in software development front-end development.',
-        description: ' He has a demonstrated history of delivering large, complex projects. Emmanuel is focused on building community centric projects In the blockchain space.'
+        intro: 'Emmanuel Steve is an educated Software Developer with over 6 years of professional experience in front-end software development.',
+        description: ' He has a demonstrated history of delivering large, complex projects. Emmanuel is focused on building community centric projects in the blockchain space.'
     },
     {
         name: 'Márcio Pinho',
@@ -257,15 +257,7 @@ const teamAsset = [
         intro: 'After professional retraining, Marcio is a young graduate. From Porto to Paris, he develops his skills through his motivation and experiences. ',
         description: 'His creativity helps him to compose well-balanced designs for the Flux team. Driven by innovation, he loves to be an actor in the changes of the world of tomorrow.'
     },
-    {
-        name: 'Noah Weinberg',
-        thumbnail: weinberg,
-        twitterLink: 'https://twitter.com/TrainFrey',
-        linkedInLink: 'https://www.linkedin.com/in/noah-weinberg-66160270/',
-        title: 'Infrastructure, Security Engineer and Community Member',
-        intro: 'Noah possesses 10+ years of expertise as an infrastructure engineer working with enterprise-grade IT systems.',
-        description: ' Based in Wisconsin, he has extensive experience securing high-capacity financial systems, critical infrastructure, and environments under federal regulatory scrutiny. Noah is motivated and excited to see what advancements the future holds for Flux’s Web3 suite.'
-    },
+    
     {
         name: 'Justin O\'Donnell',
         thumbnail: justin,
@@ -284,15 +276,15 @@ const teamAsset = [
         intro: 'Joel helps Web3 companies create content that positions them as a leading authority in the digital space.',
         description: ' Before he joined Flux, Joel worked in other fields, including Healthcare, Digital marketing, and E-commerce.'
     },
-    {
-        name: 'Adam Coombes',
-        thumbnail: coombes,
-        twitterLink: '',
-        linkedInLink: '',
-        title: 'Community Member',
-        intro: '',
-        description: ''
-    },
+    // {
+    //     name: 'Adam Coombes',
+    //     thumbnail: coombes,
+    //     twitterLink: '',
+    //     linkedInLink: '',
+    //     title: 'Community Member',
+    //     intro: '',
+    //     description: ''
+    // },
     {
         name: 'Matthew DeGarmo',
         thumbnail: degarmo,
@@ -301,24 +293,6 @@ const teamAsset = [
         title: 'Freelancer and Community Member',
         intro: 'Matthew has over 10+ years experience in the tech arena. Having gone from IT Support, to DevOps Architect, to Full Stack Engineer. ',
         description: 'He demonstrates his passion to be a daily learner. He specializes in all things automation, with interests in Cyber Security, having several industry leading certifications like CISSP. In his spare time, he streams tech on Twitch, hoping to help teach and inspire others.'
-    },
-    {
-        name: 'Afonso Urbano',
-        thumbnail: urbano,
-        twitterLink: '',
-        linkedInLink: '',
-        title: 'Support and Community Member',
-        intro: '',
-        description: ''
-    },
-    {
-        name: 'António Pedro Romão',
-        thumbnail: pedro,
-        twitterLink: '',
-        linkedInLink: '',
-        title: 'Support and Community Member',
-        intro: '',
-        description: ''
     },
     {
         name: 'Marko Oette',
@@ -339,22 +313,13 @@ const teamAsset = [
         description: ''
     },
     {
-        name: 'Farid Akintola',
-        thumbnail: farid,
-        twitterLink: 'https://twitter.com/rainlow9',
-        linkedInLink: '',
-        title: 'Marketing Director and Community Member',
-        intro: 'Farid is a web3 and blockchain enthusiast from the United Kingdom with a degree in international relations and politics from the University of Leicester.',
-        description: 'He is deeply passionate about the ethos of decentralisation and the potential it holds for shaping the future of our society. Farid has experience working within marketing and social media in the web3 space, and is dedicated to spreading awareness and understanding of these technologies.'
-    },
-    {
         name: 'Richard Lofthouse',
         thumbnail: richard,
         twitterLink: '',
         linkedInLink: '',
         title: 'FluxLabs Manager and Community Member',
         intro: 'With 20+ years in business intelligence, Richard has masterfully combined technology, data analytics, and marketing to foster impactful change. ',
-        description: 'Recognized for pioneering BI integrations and innovative data strategies, hes been honored with awards like the "Bolt Award". Beyond his technical prowess, Richards expertise spans marketing analytics, a passion for Data Sciences and Web 3. He remains a staunch advocate for mentorship, highlighting his comprehensive approach to the field.'
+        description: "Recognized for pioneering BI integrations and innovative data strategies, he's been honored with awards such as the 'Bolt Award'. Beyond his technical prowess, Richard's expertise spans marketing analytics, a passion for Data Sciences and Web3. He remains a staunch advocate for mentorship, highlighting his comprehensive approach to the field."
     },
     {
         name: 'Carolien Rodrigo',
@@ -363,7 +328,7 @@ const teamAsset = [
         linkedInLink: '',
         title: 'Executive Assistant to Daniel Keller and Community Member',
         intro: 'Carolien is a versatile professional with a wealth of experience.',
-        description: 'She excelled as an admin for one of the larger local hospitals in Flanders, Belgium, and later thrived as an office administrator at a prominent PR company in Belgium. Afterward, she embraced her most rewarding role as a dedicated stay-at-home mom of four. Currently, Carolien leverages her organizational skills and attention to detail as Daniels executive assistant, while also lending her expertise to event planning and coordination. Her journey reflects adaptability and a strong work ethic in various capacities.'
+        description: "She excelled as an admin for one of the larger local hospitals in Flanders, Belgium, and later thrived as an office administrator at a prominent PR company in Belgium. Afterward, she embraced her most rewarding role as a dedicated stay-at-home mom of four. Currently, Carolien leverages her organizational skills and attention to detail as Daniel's executive assistant, while also lending her expertise to event planning and coordination. Her journey reflects adaptability and a strong work ethic in various capacities."
     },
     {
         name: 'Scott Arnebold',
@@ -372,17 +337,9 @@ const teamAsset = [
         linkedInLink: '',
         title: 'Business Developer and Community Member',
         intro: 'Scott has more than 25 years of extensive experience in logistics, event production, IT and management.',
-        description: 'Being an enthusiastic early adopter of technology, it came as no surprise when he stumbled upon Bitcoin in 2012, and since then, he has fully embraced its potential. Scotts profound understanding of the cryptocurrency space, coupled with his unwavering dedication, will keep pushing Flux forward.'
+        description: "Being an enthusiastic early adopter of technology, it came as no surprise when he stumbled upon Bitcoin in 2012, and since then, has fully embraced its potential. Scott's profound understanding of the cryptocurrency space, coupled with his unwavering dedication, will keep pushing Flux forward."
     },
-    {
-        name: 'Tom Winegard',
-        thumbnail: tom,
-        twitterLink: '',
-        linkedInLink: '',
-        title: 'Business Developer and Community Member',
-        intro: 'Thomas is a lifelong learner who started experimenting with computers and technology when he was young.',
-        description: 'It is his mission to expand the real-world use cases of Flux.'
-    },
+   
     {
         name: 'Ronni Widell',
         thumbnail: ronni,
@@ -390,7 +347,7 @@ const teamAsset = [
         linkedInLink: '',
         title: 'Content Writer and Community Member',
         intro: 'Ronni is a firm believer in the potential of Web3 and is enthusiastic about tech.',
-        description: 'Hes an experienced professional primarily working with project and portfolio best practices and governance in large organizations. He is also a veteran and retired military officer. On the Flux team he channels his passion for the project into written content for the community, as well as news outlets.'
+        description: "He's an experienced professional, primarily working with project and portfolio best practices, and governance in large organizations. He is also a veteran and retired military officer. On the Flux team he channels his passion for the project into written content for the community, as well as news outlets."
     },
     {
         name: 'John Kerr',

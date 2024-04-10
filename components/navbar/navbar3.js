@@ -116,7 +116,7 @@ export function NavBar3(){
                     <NavDropdown.Item >
                       <Link href={'/fluxDapps'} className={styles.link} eventKey="2"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        DApps
+                        dApps
                       <br/>
                     <div className={styles.sublink}>Explore some of the applications running on Flux.</div>
                       </div>
@@ -533,7 +533,7 @@ export function NavBar3(){
                     <NavDropdown.Item eventKey="32">
                       <Link href={'/fluxDapps'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        DApps
+                        dApps
                       <br/>
                     <div className={styles.sublink}>Explore some of the applications running on<br/> Flux.</div>
                       </div>

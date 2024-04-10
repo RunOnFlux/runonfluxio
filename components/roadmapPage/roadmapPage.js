@@ -11,7 +11,7 @@ export function RoadMapPage(){
             <section className={styles.section1}>
                 <div className="container">
                     <div className="row">
-                        <h1>The story of our<br/> Roadmap timeline</h1>
+                        <h1>The story of our<br/> Roadmap Timeline</h1>
                         <h6>Flux Network has been under continuous development over the last three years. The Flux team is committed to build regardless of market conditions. Here at Flux, we all have a common goal. Building the Next Generation of Decentralized Computing Power. Created by the people for the people.</h6>
                     </div>
                     <div className="row">
@@ -39,14 +39,14 @@ export function RoadMapPage(){
                             </li> 
                             <li>
                                 <div className={styles.content}>
-                                <h3>Multisig Fluxnodes, SSP Wallet</h3>
+                                <h3>Multisig FluxNodes, SSP Wallet</h3>
                                     <p>SSP Wallet Release</p>
                                     <p>FluxCore Beta</p>
                                     <p>FluxEdge Alpha</p>
-                                    <p>-Wordpress V1 Release</p>
+                                    <p>-WordPress V1 Release</p>
                                     <p>-Primetime Phase 2</p>
                                     <p>-Project Juggernaut</p>
-                                    <p>-Multisig Fluxnodes</p>
+                                    <p>-Multisig FluxNodes</p>
                                 </div>
                                 <div className={styles.time}>
                                 <h4>Q1 2024</h4>
@@ -99,10 +99,10 @@ export function RoadMapPage(){
                             </li>
                             <li>
                                 <div className={styles.content}>
-                                <h3>Wordpress, Storage, and Jetpack 3.0</h3>
+                                <h3>WordPress, Storage, and Jetpack 3.0</h3>
                                     <p>-Fractus Cumulus Storage Nodes Rewards</p>
                                     <p>-Flux Cloud 3.2 (Jetpack 3.0)</p>
-                                    <p>-Decentralized Wordpress for the Public</p>
+                                    <p>-Decentralized WordPress for the Public</p>
                                     <p>-FluxOS Mobile App v0.1.2</p>
                                     <p>-Flux - PA8 Distribution</p>
                                     <p>-Fiat Payment For Flux Cloud Services</p>
@@ -167,15 +167,15 @@ export function RoadMapPage(){
                                 <div className={styles.content}>
                                 <h3>Network Growth & Jetpack</h3>
                                     <p>-Enterprise Website Test Structure</p>
-                                    <p>-New Fluxnode Structure (Cumulus 1k FLUX, Nimbus 12,5k FLUX, Stratus 40k FLUX)</p>
+                                    <p>-New FluxNode Structure (Cumulus 1k FLUX, Nimbus 12,5k FLUX, Stratus 40k FLUX)</p>
                                     <p>-Parallel asset under review - AVAX, MATIC, ATOM, ERGO, BCH & ADA</p>
                                     <p>-FluxOS UI - v3.0</p>
                                     <p>-Flux OS fork phase 2 - Compose</p>
                                     <p>-dApp Launch Guide - “Jetpack”</p>
-                                    <p>-New Benchmark for New Fluxnodes</p>
+                                    <p>-New Benchmark for New FluxNodes</p>
                                     <p>-Launch on Binance US (over 60+ exchanges)</p>
                                     <p>-Flux Domain Manager - FDM</p>
-                                    <p>-Seeed Partnership for Fluxnode Hardware</p>
+                                    <p>-Seeed Partnership for FluxNode Hardware</p>
                                 </div>
                                 <div className={styles.time}>
                                 <h4>Q1 2022</h4>
@@ -196,7 +196,7 @@ export function RoadMapPage(){
                                     <p>-Launch Flux Enterprise Service Desk</p>
                                     <p>-Release of Solana and Tron parallel assets</p>
                                     <p>-Kadena V.2 development</p>
-                                    <p>-Fluxnode transition to light wallet</p>
+                                    <p>-FluxNode transition to light wallet</p>
                                 </div>
                                 <div className={styles.time}>
                                 <h4>Q4 2021</h4>
@@ -261,7 +261,7 @@ export function RoadMapPage(){
                                 <div className={styles.content}>
                                 <h3>Parallel Assets & Governance</h3>
                                     <p>-Over 1100+ FluxNodes live</p>
-                                    <p>-ew Flux Whitepaper</p>
+                                    <p>-New Flux Whitepaper</p>
                                     <p>-Target Web3 ecosystem to launch further FluxApps in a decentralized manner</p>
                                     <p>-Target DeFi and interoperability with the launch of 10 new parallel assets over the next 12 months</p>
                                     <p>-Additional tokenomics added - Launch FLUX-KDA trading when Kadena DEX goes live</p>
