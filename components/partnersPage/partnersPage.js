@@ -28,6 +28,7 @@ import partner24 from "../../public/images/partners/partner24.svg"
 import partner25 from "../../public/images/partners/partner25.svg"
 import partner26 from "../../public/images/partners/partner26.svg"
 import partner27 from "../../public/images/partners/partner27.svg"
+import partner28 from "../../public/images/partners/kiterocket.jpg"
 import kucoin from "../../public/images/partners/kucoin-partners.png"
 import gemini from "../../public/images/partners/Gemini.png"
 import paxos from "../../public/images/partners/Paxos.png"
@@ -413,7 +414,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner27} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner28} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Kiterocket Marketing Agency</h1>
