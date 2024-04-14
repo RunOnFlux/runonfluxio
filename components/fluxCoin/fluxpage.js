@@ -90,6 +90,12 @@ import icon79 from "../../public/images/flux/DEX_LOGO_BLUE-1.svg"
 import icon80 from "../../public/images/flux/logo5.0a10841.png"
 import icon81 from "../../public/images/flux/logo-desktop-p-500.png"
 import icon82 from "../../public/images/flux/download.png"
+import icon83 from "../../public/images/flux/bingx.svg"
+import icon84 from "../../public/images/flux/MEXC.svg"
+import icon85 from "../../public/images/flux/Bitvavo (1).svg"
+import icon86 from "../../public/images/flux/giottus.svg"
+import icon87 from "../../public/images/flux/changehero.svg"
+
 
 
 import lineLogos from "../../public/images/flux/logoline.svg"
@@ -1199,6 +1205,61 @@ export function Flux() {
                                     
                                 </div>
                                 <a href="https://changenow.io/?from=fluxmainnet&to=btc" className={styles.btn10}>Buy Now</a>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6"  > 
+                        <div className={styles.Exchangecard}>
+                                <div className={styles.rect}>
+                                    <Image  src={icon83} alt=""></Image>
+                                </div>
+                                <div className={styles.extext}>
+                                    
+                                </div>
+                                <a href="https://bingx.com/en-us/spot/FLUXUSDT/" className={styles.btn10}>Buy Now</a>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6"  > 
+                        <div className={styles.Exchangecard}>
+                                <div className={styles.rect}>
+                                    <Image  src={icon84} alt=""></Image>
+                                </div>
+                                <div className={styles.extext}>
+                                    
+                                </div>
+                                <a href="https://www.mexc.com/ru-RU/exchange/FLUX1_USDT" className={styles.btn10}>Buy Now</a>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6"  > 
+                        <div className={styles.Exchangecard}>
+                                <div className={styles.rect}>
+                                    <Image  src={icon85} alt=""></Image>
+                                </div>
+                                <div className={styles.extext}>
+                                    
+                                </div>
+                                <a href="https://bitvavo.com/en/flux/price" className={styles.btn10}>Buy Now</a>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6"  > 
+                        <div className={styles.Exchangecard}>
+                                <div className={styles.rect}>
+                                    <Image  src={icon86} alt=""></Image>
+                                </div>
+                                <div className={styles.extext}>
+                                    
+                                </div>
+                                <a href="https://www.giottus.com/" className={styles.btn10}>Buy Now</a>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6"  > 
+                        <div className={styles.Exchangecard}>
+                                <div className={styles.rect}>
+                                    <Image  src={icon87} alt=""></Image>
+                                </div>
+                                <div className={styles.extext}>
+                                    
+                                </div>
+                                <a href="https://changehero.io/coins/flux?utm_source=twitter&utm_medium=blogpost&utm_campaign=smm" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                     </div>
