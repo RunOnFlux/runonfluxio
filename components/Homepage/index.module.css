@@ -929,6 +929,10 @@ color: #7EC897;
 
 
 @media all and (min-width: 992px){
+
+    .section1 h6{
+        width: 80% !important;
+    }
     .main{
         margin-top: 50px;
     }
@@ -1723,7 +1727,7 @@ color: #7EC897;
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
     .section1 h1{
         font-size: 48px;
         line-height: 58px;

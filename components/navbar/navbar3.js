@@ -9,7 +9,7 @@ import { useState, useEffect } from "react";
 import styles from "./index.module.css";
 import arrowDown from "../../public/images/dropdown-icon.png"
 import Image from 'next/image'
-import Logo from "../../public/images/images/logo.svg"
+import Logo from "../../public/images/images/Flux_white_logo.svg"
 import Logo2 from "../../public/images/images/Flux_white_logo.svg"
 import Rabbit from "../../public/images/rabbit.png"
 import target from "../../public/images/target.svg"
@@ -72,7 +72,7 @@ export function NavBar3(){
                 </div>
             </div>
          
-           <Navbar className={navBar ? 'navNav2 active' : 'navNav2'} expand="lg"  collapseOnSelect  >    
+           <Navbar className={navBar ? 'navNav active' : 'navNav'} expand="lg"  collapseOnSelect  >    
              <Container>
                 <Navbar.Brand>
                     <Link href={'/'} className={styles.link4}><Image alt="logo" src={Logo}  height="40px" width="170px"/></Link>
@@ -141,6 +141,15 @@ export function NavBar3(){
                         Flux
                      <br/>
                     <div className={styles.sublink}>Our Proof-of-Work cryptocurrency that powers the <br/>Flux ecosystem.</div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                     <Link href={'/fluxOS'} className={styles.link}  eventKey={7} > 
+                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                    FluxOS<br/>
+                    <div className={styles.sublink}>FluxOS powers Flux Cloud, providing seamless integration.</div>
                       </div>
                     
                       </Link> 
@@ -558,6 +567,16 @@ export function NavBar3(){
                         Flux
                      <br/>
                     <div className={styles.sublink}>Our Proof-of-Work cryptocurrency that<br/> powers the Flux ecosystem.</div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
+
+                    <NavDropdown.Item>
+                     <Link href={'/fluxOS'} className={styles.link} > 
+                      <div style={{textDecoration: "none", color: "inherit"}} >
+                    FluxOS<br/>
+                    <div className={styles.sublink}>FluxOS powers Flux Cloud, providing seamless integration.</div>
                       </div>
                     
                       </Link> 

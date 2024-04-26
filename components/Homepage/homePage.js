@@ -154,7 +154,7 @@ export function HomePage(){
                             </Modal.Body>
                         </Modal>
                     </div>
-                        <div className={`${styles.header} col-lg-6`}>
+                        <div className={`${styles.header} col-lg-8`}>
                             <div>
                             <h1>Build on <br/><span>Web 3.0 </span>Today.</h1><br/>
                             <h6>The Flux Cloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance</h6>
@@ -165,7 +165,7 @@ export function HomePage(){
                             <p>$ Calculate the cost for your solution.   <a href="https://cloud.runonflux.io/"  rel="noreferrer" target="_blank">View Cost</a></p>
                             </div>
                         </div>
-                        <div className="col-lg-6"></div>
+                        <div className="col-lg-4"></div>
                     </div>
                 </div>
             </section>

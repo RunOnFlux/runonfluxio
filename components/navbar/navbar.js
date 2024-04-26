@@ -144,6 +144,15 @@ export function NavBar(){
                     
                       </Link> 
                     </NavDropdown.Item>
+                    <NavDropdown.Item>
+                     <Link href={'/fluxOS'} className={styles.link}  eventKey={7} > 
+                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                    FluxOS<br/>
+                    <div className={styles.sublink}>FluxOS powers Flux Cloud, providing seamless integration.</div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
 
                     <NavDropdown.Item >
                       <Link href={'/parallelMining'} className={styles.link} eventKey="5"> 
@@ -557,6 +566,15 @@ export function NavBar(){
                         Flux
                      <br/>
                     <div className={styles.sublink}>Our Proof-of-Work cryptocurrency that<br/> powers the Flux ecosystem.</div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                     <Link href={'/fluxOS'} className={styles.link}  eventKey={62} > 
+                      <div style={{textDecoration: "none", color: "inherit"}} >
+                    FluxOS<br/>
+                    <div className={styles.sublink}>FluxOS powers Flux Cloud, providing seamless integration.</div>
                       </div>
                     
                       </Link> 
