@@ -72,7 +72,7 @@ export function NavBar3(){
                 </div>
             </div>
          
-           <Navbar className={navBar ? 'navNav active' : 'navNav'} expand="lg"  collapseOnSelect  >    
+           <Navbar className={navBar ? 'navNav4 active' : 'navNav4'} expand="lg"  collapseOnSelect  >    
              <Container>
                 <Navbar.Brand>
                     <Link href={'/'} className={styles.link4}><Image alt="logo" src={Logo}  height="40px" width="170px"/></Link>

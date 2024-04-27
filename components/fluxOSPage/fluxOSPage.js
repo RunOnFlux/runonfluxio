@@ -75,7 +75,7 @@ export function FluxOSPage(){
                 <div className="container">
                     <div className="row mb-4">
                         <h3>The Magic Behind <br/> The <span>Flux Cloud</span></h3>
-                        <p>With Flux's parallel assets, you can leverage the beneficial features of multiple blockchains, such as access to various DeFi platforms. Flux's parallel assets are interchangeable 1:1 with native Flux through the Fusion app in Zelcore.</p>
+                        <p>Flux Cloud - the first and largest Web3 cloud platform- is revolutionizing the cloud space, offering a decentralized alternative to traditional giants like AWS, Google Cloud, or Microsoft Azure. Powered by individuals/ FluxNode operators worldwide, Flux Cloud is committed to serving the people without storing personal data, eliminating points of failure, and ensuring blazing-fast, secure performance - all at more affordable prices than any other cloud provider.</p>
                     </div>
                     <div className="row d-none d-xl-block d-lg-block ">
                         <div className={styles.fluxcloud}>
@@ -156,7 +156,7 @@ export function FluxOSPage(){
                     <div className="row" style={{marginBottom: "100px"}}>
                         <div className="col-md-6 mb-4">
                             <h3>Flexible Payment Options</h3>
-                            <p>With Flux's parallel assets, you can leverage the beneficial features of multiple blockchains, such as access to various DeFi platforms. Flux's parallel assets are interchangeable 1:1 with native Flux through the Fusion app in Zelcore.</p>
+                            <p>Empowering developers, FluxOS offers flexible payment options. Whether in Flux or fiat currencies, Stripe and PayPal make transactions seamless. With the new fiat payment on-ramp, users can deploy apps on FluxOS using traditional currencies like USD or EUR. This eliminates the hassle of managing cryptocurrency wallets and exchanges, streamlining the process of launching applications in a web3 environment.</p>
                         </div>
                         <div className="col-md-6">
                             <div className={styles.paymentOptions}>
@@ -181,7 +181,7 @@ export function FluxOSPage(){
                         <div className="col-md-6 mb-4" style={{display: "inline-flex", alignItems: "center"}}>
                             <div>
                             <h3>Multiple Sing-In Solutions</h3>
-                            <p>With Flux's parallel assets, you can leverage the beneficial features of multiple blockchains, such as access to various DeFi platforms. Flux's parallel assets are interchangeable 1:1 with native Flux through the Fusion app in Zelcore.</p>
+                            <p>Unlock the full potential of FluxOS with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to www.home.runonflux.io using your Gmail, Apple ID, or Email, and experience unparalleled convenience in spawning and managing your apps. </p>
                             </div>
                         </div>
                         <div className="col-md-6">
