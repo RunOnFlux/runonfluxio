@@ -21,8 +21,8 @@ export function FluxOSPage(){
                                 <h1>The Brain of<br/> the Flux Cloud</h1>
                                 <p>FluxOS powers Flux Cloud, providing seamless integration and optimal functionality. It is built on the MEVN stack (Mongo, Express, Vue, Node) with advanced dockerization.</p>
                                 <div className="mt-4">
-                            <a className={styles.btn2} href="">FluxOS</a>
-                            <a className={styles.btn1} href="">Github</a>
+                            <a className={styles.btn2} href="https://home.runonflux.io/" rel="noreferrer" target="_blank">FluxOS</a>
+                            <a className={styles.btn1} href="https://github.com/RunOnFlux/flux" rel="noreferrer" target="_blank">Github</a>
                         </div>
                             </div>
                         </div>
