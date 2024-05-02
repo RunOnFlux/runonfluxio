@@ -160,20 +160,20 @@ export function FluxOSPage(){
                         </div>
                         <div className="col-md-6">
                             <div className={styles.paymentOptions}>
-                                <a href="#" className={styles.paymentOptionContainer}>
+                                <span href="" className={styles.paymentOptionContainer}>
                                     <Image alt="logo" src={payment1}/>
-                                </a>
-                                <a href="#" className={styles.paymentOptionContainer}>
+                                </span>
+                                <span href="" className={styles.paymentOptionContainer}>
                                     <Image alt="logo" src={payment2}/>
-                                </a>
+                                </span>
                             </div>
                             <div className={styles.paymentOptions}>
-                                <a href="#" className={styles.paymentOptionContainer}>
+                                <span href="" className={styles.paymentOptionContainer}>
                                     <Image alt="logo" src={payment3}/>
-                                </a>
-                                <a href="#" className={styles.paymentOptionContainer}>
+                                </span>
+                                <span href="#" className={styles.paymentOptionContainer}>
                                    <h6>More TBA...</h6>
-                                </a>
+                                </span>
                             </div>
                             </div>
                     </div>
