@@ -96,7 +96,7 @@ export function FluxLabsPage(){
                         <ul>
                             <li><span>Platform access to Windows, Apple, Linux, iOS and Android via ZelCore</span></li>
                             <li><span>Accelerate legal, security, business and operational advice and mentoring</span></li>
-                            <li><span>Focus on the development of the chosen platforms and provide guidance through the iterative build process including integration into ZelCore</span></li>
+                            <li><span>Focus on the development of the chosen platforms and provide guidance through the iterative build process.</span></li>
                             <li><span>Guidance to other partners in the space to grow their project and build logical partnerships</span></li>
                           </ul>
                     </div>
@@ -128,9 +128,7 @@ export function FluxLabsPage(){
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://kaddex.com/" target="_blank">  <Image alt="logo" src={logo3} style={{height:"80px", marginTop: "-20px"}}/></a>
                             </div>
-                            <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                               <a rel="noreferrer" href="https://docushield.app.runonflux.io/" target="_blank">  <Image alt="logo" src={logo4}/></a>
-                            </div>
+                           
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://ido.timpi.io/" target="_blank">  <Image alt="logo" src={logo5}/></a>
                             </div>
@@ -176,9 +174,7 @@ export function FluxLabsPage(){
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://www.arkade.fun/" target="_blank">  <Image alt="logo" src={logo19}/></a>
                             </div>
-                            <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                               <a rel="noreferrer" href="https://linktr.ee/ragnarfinance" target="_blank">  <Image alt="logo" src={logo20}/></a>
-                            </div>
+                          
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://kadcarsnft.app.runonflux.io/" target="_blank">  <Image alt="logo" src={logo21}/></a>
                             </div>
@@ -194,9 +190,7 @@ export function FluxLabsPage(){
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://thecoinlogic.com/" target="_blank">  <Image alt="logo" src={logo25}/></a>
                             </div>
-                            <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                               <a rel="noreferrer" href="https://cotx-store.com/collections/cotx-fluxnode" target="_blank">  <Image alt="logo" src={logo26}/></a>
-                            </div>
+                          
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://company.mycointainer.com/flux-ecosystem/" target="_blank">  <Image alt="logo" src={logo27}/></a>
                             </div>
