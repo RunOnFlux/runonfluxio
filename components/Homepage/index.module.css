@@ -575,9 +575,7 @@ color: #7EC897;
     height:auto !important;
 }
 
-.map img:hover{
-    /* transform: scale(1.2) !important; */
-}
+
 
 .section7 h2{
     font-family: 'Montserrat';
@@ -947,9 +945,6 @@ color: #7EC897;
         margin: auto;
     }
 
-    .section2{
-        /* margin-top: -400px; */
-    }
     .headerCard{
         width: 90%;
     }
