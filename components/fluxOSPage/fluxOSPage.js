@@ -18,7 +18,7 @@ export function FluxOSPage(){
                         <div className="col-md-8">
                             <div className={styles.logo1}>
                                 <Image alt="logo" src={logo1}/>
-                                <h1>The Brain of<br/> Flux Cloud</h1>
+                                <h1>The Brain of Flux Cloud</h1>
                                 <p>FluxOS powers Flux Cloud, providing seamless integration and optimal functionality. It is built on the MEVN stack (Mongo, Express, Vue, Node) with advanced dockerization.</p>
                                 <div className="mt-4">
                             <a className={styles.btn2} href="https://home.runonflux.io/" rel="noreferrer" target="_blank">FluxOS</a>
