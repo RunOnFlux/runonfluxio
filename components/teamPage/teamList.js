@@ -1,4 +1,4 @@
-import parker from "../../public/images/Parker.jpg"
+import parker from "../../public/images/team/Parker.jpg"
 import trunk from "../../public/images/team/trunk.jpg";
 import dan from "../../public/images/team/dan.jpg";
 import davy from "../../public/images/team/davy.png";
@@ -52,7 +52,7 @@ const teamAsset = [
     {
         name: 'Tadeáš Kmenta',
         thumbnail: trunk,
-        twitterLink: 'https://twitter.com/TJ_Trunk',
+        twitterLink: 'https://twitter.com/TadeasKmenta',
         linkedInLink: 'https://www.linkedin.com/in/tadeas-kmenta-636b9516a/',
         title: 'Co-Founder and Community Member',
         intro: 'Tadeas has over 10 years of experience developing decentralized blockchain technologies. As a strong privacy advocate, he believes blockchain and Web3 is where the future of freedom lies.',
