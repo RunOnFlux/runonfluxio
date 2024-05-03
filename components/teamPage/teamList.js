@@ -1,4 +1,4 @@
-import parker from "../../public/images/Parker.jpg"
+import parker from "../../public/images/team/Parker.jpg"
 import trunk from "../../public/images/team/trunk.jpg";
 import dan from "../../public/images/team/dan.jpg";
 import davy from "../../public/images/team/davy.png";
