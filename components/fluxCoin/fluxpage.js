@@ -95,7 +95,7 @@ import icon84 from "../../public/images/flux/MEXC.svg"
 import icon85 from "../../public/images/flux/Bitvavo (1).svg"
 import icon86 from "../../public/images/flux/giottus.svg"
 import icon87 from "../../public/images/flux/changehero.svg"
-
+import icon88 from "../../public/images/htx logo.png"
 
 
 import lineLogos from "../../public/images/flux/logoline.svg"
@@ -482,7 +482,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Coinmetro
-                                <a href="https://go.coinmetro.com/exchange/FLUX/buy" className={styles.btn10}>Buy Now</a>
+                                <a href="https://go.coinmetro.com/exchange/FLUX/buy" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
 
                                 </div>
                             </div>
@@ -495,7 +495,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                 KuCoin
-                                    <a href="https://trade.kucoin.com/FLUX-USDT" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://trade.kucoin.com/FLUX-USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 
                                 </div>
 
@@ -508,10 +508,46 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Binance
-                                    <a href="https://www.binance.com/en/trade/FLUX_USDT?ref=GSWE4RZE" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://www.binance.com/en/trade/FLUX_USDT?ref=GSWE4RZE" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
 
                                 </div>
                             </div>                       
+                        </div>
+                        <div className="col-lg-4 col-md-6"> 
+                            <div className={styles.Exchangecard}>
+                                <div className={styles.circle}>
+                                    <Image src={icon58} alt=""></Image>
+                                </div>
+                                <div className={styles.extext}>
+                                    Binance.US
+                                    <a href="https://www.binance.us/en/trade/pro/FLUX_USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6"> 
+                        <div className={styles.Exchangecard}>
+                                <div className={styles.rect}>
+                                    <Image src={icon63} alt=""></Image>
+                                </div>
+                                <div className={styles.extext}>
+                                    
+                                </div>
+                                <a href="https://crypto.com/exchange/trade/spot/FLUX_USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6"  > 
+                            <div className={styles.Exchangecard}>
+                                <div className={styles.circle}>
+                                    <Image src={icon88} alt=""></Image>
+                                  
+                                </div>
+                                <div className={styles.extext}>
+                                HTX
+                                    <a href="https://www.htx.com/trade/flux_usdt?type=spot" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
+                                
+                                </div>
+
+                            </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
@@ -520,11 +556,12 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Onus
-                                    <a href="https://goonus.io/en/markets/FLUX/" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://goonus.io/en/markets/FLUX/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
 
                                 </div>
                             </div>
                         </div>
+                       
                         <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
@@ -532,7 +569,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     STEX
-                                    <a href="https://app.stex.com/en/trading/pair/BTC/FLUX/1D" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://app.stex.com/en/trading/pair/BTC/FLUX/1D" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
 
                                 </div>
                             </div>
@@ -544,7 +581,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Gate.io
-                                    <a href="https://www.gate.io/trade/FLUX_USDT" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://www.gate.io/trade/FLUX_USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -555,7 +592,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     CoinEx
-                                    <a href="https://www.coinex.com/exchange/flux-usdt" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://www.coinex.com/exchange/flux-usdt" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -566,7 +603,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     TRADEOGRE
-                                    <a href="https://tradeogre.com/exchange/BTC-FLUX" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://tradeogre.com/exchange/BTC-FLUX" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -577,7 +614,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     PancakeSwap
-                                    <a href="https://pancakeswap.finance/info/pool/0xa19d4ff09b6e0defd6032859ae13c4ca53c341dd" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://pancakeswap.finance/info/pool/0xa19d4ff09b6e0defd6032859ae13c4ca53c341dd" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -588,7 +625,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     UNISWAP
-                                    <a href="https://info.uniswap.org/#/pools/0x5d1461990f636d35030cb603559d6a9d4487f9ca" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://info.uniswap.org/#/pools/0x5d1461990f636d35030cb603559d6a9d4487f9ca" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -599,7 +636,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     HotBit
-                                    <a href="https://www.hotbit.io/exchange?symbol=FLUX_USDT" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://www.hotbit.io/exchange?symbol=FLUX_USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -610,7 +647,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Tokok
-                                    <a href="https://www.tokok.com/market?symbol=ZEL_BTC" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://www.tokok.com/market?symbol=ZEL_BTC" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div></div>
                        
@@ -622,7 +659,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     SafeTrade
-                                    <a href="https://safe.trade/trading/fluxbtc" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://safe.trade/trading/fluxbtc" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -633,7 +670,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Citex
-                                    <a href="https://trade.citex.co.kr/trade/FLUX_BTC" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://trade.citex.co.kr/trade/FLUX_BTC" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -644,7 +681,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     BitForex
-                                    <a href="https://www.bitforex.com/en/spot/flux_usdt" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://www.bitforex.com/en/spot/flux_usdt" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -655,7 +692,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Bittrex
-                                    <a href="https://bittrex.com/Market/Index?MarketName=USDT-FLUX" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://bittrex.com/Market/Index?MarketName=USDT-FLUX" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -666,7 +703,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Bitrue
-                                    <a href="https://www.bitrue.com/trade/flux_usdt" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://www.bitrue.com/trade/flux_usdt" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -677,7 +714,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Bitkan
-                                    <a href="https://bitkan.pro/trade/FLUX_USDT" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://bitkan.pro/trade/FLUX_USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -688,7 +725,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     ZT Global
-                                    <a href="https://www.ztbzh.net/exchange?coin=FLUX_USDT" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://www.ztbzh.net/exchange?coin=FLUX_USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -699,7 +736,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Mandala
-                                    <a href="https://trade.mandala.exchange/en/trade/basic/FLUX_BTC" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://trade.mandala.exchange/en/trade/basic/FLUX_BTC" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -711,7 +748,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://coindcx.com/trade/FLUXUSDT" className={styles.btn10}>Buy Now</a>
+                                <a href="https://coindcx.com/trade/FLUXUSDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -722,7 +759,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.pionex.com/en-US/trade/FLUX_USDT/pionex.v2" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.pionex.com/en-US/trade/FLUX_USDT/pionex.v2" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -733,7 +770,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://stealthex.io/?from=flux&to=usdttrc20" className={styles.btn10}>Buy Now</a>
+                                <a href="https://stealthex.io/?from=flux&to=usdttrc20" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -743,7 +780,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Attlas
-                                    <a href="https://attlas.io/en/spot/FLUX_VNDC" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://attlas.io/en/spot/FLUX_VNDC" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -756,7 +793,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Sevenb
-                                    <a href="https://sevenb.io/" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://sevenb.io/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -768,7 +805,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.tokocrypto.com/trade/FLUX_BTC" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.tokocrypto.com/trade/FLUX_BTC" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -779,7 +816,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://simpleswap.io/coins/flux" className={styles.btn10}>Buy Now</a>
+                                <a href="https://simpleswap.io/coins/flux" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -800,7 +837,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Hitbtc
-                                    <a href="https://hitbtc.com/flux-to-usdt" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://hitbtc.com/flux-to-usdt" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -811,7 +848,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     LBank
-                                    <a href="https://www.lbank.info/exchange/flux/usdt" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://www.lbank.info/exchange/flux/usdt" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -823,7 +860,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.allchainbridge.com/#/" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.allchainbridge.com/#/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -833,7 +870,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     SerumDex
-                                    <a href="https://portal.projectserum.com/#tabSection" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://portal.projectserum.com/#tabSection" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -844,7 +881,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     BKEX
-                                    <a href="https://www.bkex.com/trade/FLUX_USDT" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://www.bkex.com/trade/FLUX_USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -860,7 +897,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Bolsadx
-                                    <a href="https://exchange.bolsadx.lat/en/trade/FLUX_USDT" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://exchange.bolsadx.lat/en/trade/FLUX_USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -871,7 +908,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Coinone
-                                    <a href="https://coinone.co.kr/exchange/trade/flux/krw" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://coinone.co.kr/exchange/trade/flux/krw" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -882,7 +919,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     InstaSwap
-                                    <a href="https://instaswap.io/" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://instaswap.io/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>                       
                         </div>
@@ -893,7 +930,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                     Changelly
-                                    <a href="https://changelly.com/buy-crypto" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://changelly.com/buy-crypto" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
@@ -905,7 +942,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://swapspace.co/?to=flux&amount=0.1" className={styles.btn10}>Buy Now</a>
+                                <a href="https://swapspace.co/?to=flux&amount=0.1" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -915,7 +952,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                 </div>
-                                <a href="https://www.bitpanda.com/en/prices/flux-flux#" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.bitpanda.com/en/prices/flux-flux#" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -926,7 +963,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://atomicdex.io/" className={styles.btn10}>Buy Now</a>
+                                <a href="https://atomicdex.io/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -937,20 +974,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.digifinex.com/en-ww/trade/USDT/FLUX" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.digifinex.com/en-ww/trade/USDT/FLUX" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6"> 
-                            <div className={styles.Exchangecard}>
-                                <div className={styles.circle}>
-                                    <Image src={icon58} alt=""></Image>
-                                </div>
-                                <div className={styles.extext}>
-                                    Binance.us
-                                    <a href="https://www.binance.us/en/trade/pro/FLUX_USDT" className={styles.btn10}>Buy Now</a>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div className="col-lg-4 col-md-6"> 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
@@ -959,7 +986,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://swyftx.com/" className={styles.btn10}>Buy Now</a>
+                                <a href="https://swyftx.com/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -970,7 +997,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://wazirx.com/exchange/FLUX-USDT" className={styles.btn10}>Buy Now</a>
+                                <a href="https://wazirx.com/exchange/FLUX-USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -981,7 +1008,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.aex.com/page/new_trade.html#/?symbol=flux_usdt" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.aex.com/page/new_trade.html#/?symbol=flux_usdt" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div></div>
                           
                          
@@ -993,20 +1020,10 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.bitget.com/en/spot/FLUXUSDT_SPBL" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.bitget.com/en/spot/FLUXUSDT_SPBL" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6"> 
-                        <div className={styles.Exchangecard}>
-                                <div className={styles.rect}>
-                                    <Image src={icon63} alt=""></Image>
-                                </div>
-                                <div className={styles.extext}>
-                                    
-                                </div>
-                                <a href="https://crypto.com/exchange/trade/spot/FLUX_USDT" className={styles.btn10}>Buy Now</a>
-                            </div>
-                        </div>
+                       
                         <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.rect}>
@@ -1015,7 +1032,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://latoken.com/exchange/FLUX_USDT?utm_source=new_listing&utm_medium=new_listing&utm_campaign=FLUX_listing&shortlink=bgib6m4b&c=FLUX_listing&pid=new_listing&deep_link_value=latokenapp://trade/FLUX/USDT" className={styles.btn10}>Buy Now</a>
+                                <a href="https://latoken.com/exchange/FLUX_USDT?utm_source=new_listing&utm_medium=new_listing&utm_campaign=FLUX_listing&shortlink=bgib6m4b&c=FLUX_listing&pid=new_listing&deep_link_value=latokenapp://trade/FLUX/USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -1026,7 +1043,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://sunflowercorp.com/futures/flux-to-usdt" className={styles.btn10}>Buy Now</a>
+                                <a href="https://sunflowercorp.com/futures/flux-to-usdt" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -1037,7 +1054,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.xt.com/trade/flux_usdt" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.xt.com/trade/flux_usdt" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -1048,7 +1065,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://swap.kaddex.com/?token0=FLUX&token1=KDA" className={styles.btn10}>Buy Now</a>
+                                <a href="https://swap.kaddex.com/?token0=FLUX&token1=KDA" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -1059,7 +1076,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.billance.com/spot/exchange/FLUX_USDT" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.billance.com/spot/exchange/FLUX_USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -1070,7 +1087,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://biconomy.com/exchange?coin=FLUX_USDT" className={styles.btn10}>Buy Now</a>
+                                <a href="https://biconomy.com/exchange?coin=FLUX_USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -1081,7 +1098,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.cointiger.com/en-us/#/trade_center?coin=flux_usdt" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.cointiger.com/en-us/#/trade_center?coin=flux_usdt" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -1092,7 +1109,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.bityard.com/en-US/trade/spot/FLUXUSDT" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.bityard.com/en-US/trade/spot/FLUXUSDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -1103,7 +1120,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://swap.menu/" className={styles.btn10}>Buy Now</a>
+                                <a href="https://swap.menu/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"> 
@@ -1114,7 +1131,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://swapzone.io/" className={styles.btn10}>Buy Now</a>
+                                <a href="https://swapzone.io/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                      
@@ -1127,7 +1144,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.coinmark.vip/" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.coinmark.vip/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1138,7 +1155,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://spectrum.fi/dex" className={styles.btn10}>Buy Now</a>
+                                <a href="https://spectrum.fi/dex" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1149,7 +1166,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://phemex.com/spot/trade/FLUXUSDT" className={styles.btn10}>Buy Now</a>
+                                <a href="https://phemex.com/spot/trade/FLUXUSDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1160,7 +1177,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://indodax.com/market/FLUXIDR" className={styles.btn10}>Buy Now</a>
+                                <a href="https://indodax.com/market/FLUXIDR" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1171,7 +1188,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://wirexapp.com/" className={styles.btn10}>Buy Now</a>
+                                <a href="https://wirexapp.com/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1182,7 +1199,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://digitalexchange.id/basic-trading/FLUXIDR" className={styles.btn10}>Buy Now</a>
+                                <a href="https://digitalexchange.id/basic-trading/FLUXIDR" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1193,7 +1210,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://invest.matrixport.com/" className={styles.btn10}>Buy Now</a>
+                                <a href="https://invest.matrixport.com/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1204,7 +1221,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://changenow.io/?from=fluxmainnet&to=btc" className={styles.btn10}>Buy Now</a>
+                                <a href="https://changenow.io/?from=fluxmainnet&to=btc" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1215,7 +1232,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://bingx.com/en-us/spot/FLUXUSDT/" className={styles.btn10}>Buy Now</a>
+                                <a href="https://bingx.com/en-us/spot/FLUXUSDT/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1226,7 +1243,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.mexc.com/ru-RU/exchange/FLUX1_USDT" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.mexc.com/ru-RU/exchange/FLUX1_USDT" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1237,7 +1254,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://bitvavo.com/en/flux/price" className={styles.btn10}>Buy Now</a>
+                                <a href="https://bitvavo.com/en/flux/price" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1248,7 +1265,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://www.giottus.com/" className={styles.btn10}>Buy Now</a>
+                                <a href="https://www.giottus.com/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6"  > 
@@ -1259,7 +1276,7 @@ export function Flux() {
                                 <div className={styles.extext}>
                                     
                                 </div>
-                                <a href="https://changehero.io/coins/flux?utm_source=twitter&utm_medium=blogpost&utm_campaign=smm" className={styles.btn10}>Buy Now</a>
+                                <a href="https://changehero.io/coins/flux?utm_source=twitter&utm_medium=blogpost&utm_campaign=smm" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                             </div>
                         </div>
                     </div>
