@@ -44,7 +44,7 @@ body {
 
 }
 
-[data-theme='dark'] {
+/* [data-theme='dark'] {
   --background: #141529;
   --text-primary: #fff;
   --text-grey: #5D6774;
@@ -65,7 +65,7 @@ body {
    --Card3B: #141529;
    --Card4: linear-gradient(90deg, #000000, 20%, #141529, #0A0B1E 100%);
    --CardBg: linear-gradient(90deg, #000000, 20%, #141529, #0A0B1E 100%);
-}
+} */
 
 
 

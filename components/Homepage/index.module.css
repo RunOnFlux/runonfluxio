@@ -1101,7 +1101,7 @@ color: #7EC897;
         font-weight: 600;
         font-size: 15.9907px;
         line-height: 140%;    
-        color: #303B52;
+        color: var(--CardText);
     }
     .card1 h6{
        
@@ -1175,7 +1175,7 @@ color: #7EC897;
         font-weight: 600;
         font-size: 15.9907px;
         line-height: 140%;    
-        color: #303B52;
+        color: var(--CardText);
     }
     .card2 h6{
        
@@ -1219,7 +1219,7 @@ color: #7EC897;
         font-weight: 600;
         font-size: 15.9907px;
         line-height: 140%;    
-        color: #303B52;
+        color: var(--CardText);
     }
     .card3 h6{
        
@@ -1288,6 +1288,8 @@ color: #7EC897;
     .section1{
         height: 150vh;
         background: url('../../public/images/mobile-header.svg');
+        background-color: var(--headerBackground); 
+        background-blend-mode: overlay; 
         background-position: center;
         background-size: cover;
     }
@@ -1376,7 +1378,7 @@ color: #7EC897;
         font-weight: 600;
         font-size: 14.9907px;
         line-height: 130%;    
-        color: #303B52;
+        color: var(--CardText);
     }
     .card1 h6{
        
@@ -1392,7 +1394,7 @@ color: #7EC897;
     }
 
     .linearBg{
-        background: url('../../public/images/Background\ Cost\ Calculator.svg');
+        background: var(--linearBg);
         background-size: cover;
         background-position: left;
         height: 150px;
@@ -1466,7 +1468,7 @@ color: #7EC897;
         font-weight: 600;
         font-size: 14.9907px;
         line-height: 130%;    
-        color: #303B52;
+        color: var(--CardText);
     }
     .card2 h6{
        
@@ -1517,7 +1519,7 @@ color: #7EC897;
         font-weight: 600;
         font-size: 14.9907px;
         line-height: 130%;    
-        color: #303B52;
+        color: var(--CardText);
     }
     .card3 h6{
        
@@ -1695,7 +1697,7 @@ color: #7EC897;
         font-weight: 600;
         font-size: 15.9907px;
         line-height: 140%;    
-        color: #303B52;
+        color: var(--CardText);
     }
     .card3 h6{
        

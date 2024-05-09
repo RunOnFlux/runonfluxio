@@ -154,7 +154,7 @@ color: #98A7B9;
     
         letter-spacing: -0.011em;
     
-        color: #FFFFFF;
+        /* color: #FFFFFF; */
     
     }
     .header p{
@@ -167,7 +167,7 @@ color: #98A7B9;
     
         letter-spacing: -0.011em;
        margin-bottom: 0px;
-        color: #FFFFFF;
+        /* color: #FFFFFF; */
     
     }
 
@@ -199,7 +199,7 @@ color: #98A7B9;
         font-size: 12.9907px;
         /* line-height:250%; */
         letter-spacing: -0.011em;
-        color: #303B52;
+        /* color: #303B52; */
     }
     .priceList .logo div{
         margin-right: 14px;
@@ -217,7 +217,7 @@ color: #98A7B9;
     
         letter-spacing: -0.011em;
     
-        color: #FFFFFF;
+        /* color: #FFFFFF; */
     
     }
     .header p{
@@ -230,7 +230,7 @@ color: #98A7B9;
     
         letter-spacing: -0.011em;
        margin-bottom: 0px;
-        color: #FFFFFF;
+        /* color: #FFFFFF; */
     
     }
 
@@ -263,7 +263,7 @@ color: #98A7B9;
         font-size: 11.9907px;
         /* line-height:400%; */
         letter-spacing: -0.011em;
-        color: #303B52;
+        /* color: #303B52; */
     }
     .priceList .price{
         float: right;
