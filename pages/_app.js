@@ -35,6 +35,7 @@ const [showChild, setShowChild] = useState(false)
        <SSRProvider>
       <Layout>
       <BreakpointProvider>
+      
         <Component {...pageProps} />
         </BreakpointProvider>
       </Layout>  

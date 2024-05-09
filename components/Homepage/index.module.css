@@ -5,7 +5,11 @@
 }
 .section1{
     height: 100vh;
-    background: url('../../public/images/header.svg');
+    background-image: url('../../public/images/header.svg');
+    background-color: var(--headerBackground); 
+   background-blend-mode: overlay; 
+   background-size: cover; /* Cover the entire container with the background image */
+    background-position: center;
     background-position: center;
     background-size: cover;
     margin-bottom: 50px;
@@ -27,7 +31,7 @@
     /* or 133% */
     /* Main white */
     /* color: var(--text-primary); */
-    color: #fff;
+    color: var(--text-primary);
 }
 
 .section1 h6{
@@ -40,7 +44,7 @@
     
     
     /* Text color */
-    color: #fff;
+    color: var(--text-primary);
     /* color: var(--text-grey); */
     margin-bottom: 25px;
 }
@@ -73,7 +77,7 @@
     /* background: var(--text-blue); */
     padding: 15px 30px;
     /* border-radius: 10px; */
-    color: var(--text-white) !important;
+    color: white !important;
     text-decoration: none;
     margin-right: 15px;
     margin-left: 0px;
@@ -113,8 +117,8 @@
 }
 
 .headerCard{
-    background: #FFFFFF;
-    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    background: var(--background);
+    box-shadow: var(--boxShadow);
     /* box-shadow: 10.74807px 10.74807px 10.7404px 10.87404px rgba(43, 97, 209, 0.1); */
     border-radius: 18.7404px;
     padding: 15px 30px;
@@ -122,8 +126,8 @@
 }
 
 .cardTotal{
-    background: #FFFFFF;
-    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    background: var(--background);
+    box-shadow: var(--boxShadow);
     /* box-shadow: 10.74807px 10.74807px 10.7404px 10.87404px rgba(43, 97, 209, 0.1); */
     border-radius: 18.7404px;
     padding: 20px 10px;
@@ -150,7 +154,7 @@
     /* identical to box height, or 27px */
 
 
-    color: #303B52;
+    color: var(--CardText);
 }
 
 .cardTotal .cardHeader h6{
@@ -162,7 +166,7 @@
     /* identical to box height, or 27px */
     margin-bottom: 0px;
 
-    color: #303B52;
+    color: var(--CardText3);
 }
 
 .headerCard .cardHeader span{
@@ -208,7 +212,7 @@
     line-height: 150%;
     /* or 54px */
 
-    color: #98A7B9;
+    color: var(--CardText2);
 
 }
 .cardTotal .cardHeader .headerTitle h4{
@@ -227,7 +231,7 @@ line-height: 150%;
 display: flex;
 align-items: center;
 
-color: #98A7B9;
+color: var(--CardText2);
 margin-top: -7px;
 }
 .cardHeader .headerTitle div h6{
@@ -249,7 +253,7 @@ color: #7EC897;
     display: flex;
     align-items: center;
 
-    color: #303B52;
+    color: var(--CardText);
 }
 
 /* .section3{
@@ -281,7 +285,7 @@ color: #7EC897;
     /* or 67px */
     text-align: center;
 
-    color: #303B52;
+    color: var(--CardText);
     margin-bottom: 50px ;
 }
 
@@ -290,8 +294,8 @@ color: #7EC897;
 }
 
 .webCard{
-    background: #FFFFFF;
-    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    background: var(--background);
+    box-shadow: var(--boxShadow);
     border-radius: 18.7404px;
     padding: 30px 20px;
     height: 100%;
@@ -318,7 +322,7 @@ color: #7EC897;
 
     text-align: center;
     margin-bottom: 0px ;
-    color: #303B52;
+    color: var(--CardText);
 
 }
 
@@ -369,7 +373,7 @@ color: #7EC897;
 .section4{
     /* padding-top: 25px; */
     /* padding-bottom: 50px; */
-    background: #FCFDFF;
+    background: var(--background);
     margin-bottom: 100px;
 } 
 
@@ -385,7 +389,7 @@ color: #7EC897;
     /* identical to box height, or 81px */
     text-align: center;
 
-    color: #303B52;
+    color: var(--CardText);
 }
 .section4 p{
     font-family: 'Montserrat';
@@ -404,7 +408,7 @@ color: #7EC897;
     font-weight: 600;
     font-size: 17.9907px;
     line-height: 150%;    
-    color: #303B52;
+    color: var(--CardText);
 }
 .card1 h6{
     font-family: 'Montserrat';
@@ -418,17 +422,13 @@ color: #7EC897;
 }
 
 .card1{
-    background: #FFFFFF;
-    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    background: var(--background);
+    box-shadow: var(--boxShadow);
     border-radius: 18.7404px;
     padding: 30px 20px;
     height: 100%;
 }
-.card1:hover{
-    /* transition: all 0.2s ease-out; */
-    top: -4px;
-    background-color: white;
-}
+
 .card2:hover{
     transition: all 0.2s ease-out;
     /* box-shadow: 0px 4px 8px rgba(14, 13, 111, 0.394); */
@@ -451,7 +451,7 @@ color: #7EC897;
 }
 
 .linearBg{
-    background: url('../../public/images/Background\ Cost\ Calculator.svg');
+    background: var(--linearBg);
     background-size: cover;
     background-position: center center;
     height: 350px;
@@ -471,7 +471,7 @@ color: #7EC897;
     margin-top: 20px;
     text-align: left;
 
-    color: #fff;
+    color: var(--CardText4);
 
 
 }
@@ -497,7 +497,7 @@ color: #7EC897;
     font-size: 53.9722px;
     line-height: 125%;
 
-    color: #303B52;
+    color: var(--CardText);
 
 }
 
@@ -549,7 +549,7 @@ color: #7EC897;
  
     text-align: center;
 
-    color: #303B52;
+    color: var(--CardText);
 }
 .section6 h2 span{
     color: #2B61D1;
@@ -586,7 +586,7 @@ color: #7EC897;
  
     text-align: center;
 
-    color: #303B52;
+    color:  var(--CardText);
 }
 .section7 h2 span{
     color: #2B61D1;
@@ -597,7 +597,7 @@ color: #7EC897;
 }
 
 .section8{
-    background: #2B61D1;
+    background: #2b61d1;
     margin-bottom: 100px;
     padding: 50px 0px;
 }
@@ -621,7 +621,7 @@ color: #7EC897;
  
     text-align: center;
 
-    color: #303B52;
+    color: var(--CardText);
 }
 .section9 h2 span{
     color: #2B61D1;
@@ -646,7 +646,7 @@ color: #7EC897;
     font-weight: 600;
     font-size: 17.9907px;
     line-height: 150%;    
-    color: #303B52;
+    color: var(--CardText);
 }
 .card2 h6{
     font-family: 'Montserrat';
@@ -660,8 +660,8 @@ color: #7EC897;
 }
 
 .card2{
-    background: #FFFFFF;
-    box-shadow: 7.74807px 7.74807px 18.7404px 7.87404px rgba(43, 97, 209, 0.05);
+    background: var(--background);
+    box-shadow: var(--boxShadow);
     border-radius: 18.7404px;
     padding: 30px 20px;
     height: 100%;
@@ -700,6 +700,9 @@ color: #7EC897;
     transform: scale(1.1); 
    
   }
+  .card2:hover{
+    background: var(--background);
+  }
 
 .section9{
     margin-bottom: 100px;
@@ -711,10 +714,8 @@ color: #7EC897;
     font-weight: 700;
     font-size: 53.9722px;
     line-height: 150%;
- 
     text-align: center;
-
-    color: #303B52;
+    color: var(--CardText);
 }
 .section10 h2 span{
     color: #2B61D1;
@@ -771,7 +772,7 @@ color: #7EC897;
     /* background: var(--text-blue); */
     padding: 15px 30px;
     /* border-radius: 10px; */
-    color: var(--text-white) !important;
+    color: white !important;
     text-decoration: none;
     margin-right: 10px;
     margin-left: 10px;

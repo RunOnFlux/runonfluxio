@@ -5,7 +5,8 @@ import styles from "./index.module.css"
 import Head from "next/head";
 import dynamic from 'next/dynamic';
 import Image from "next/image";
-import map from "../../public/images/map.svg"
+import map1 from "../../public/images/map.svg"
+import map2 from "../../public/images/map2.svg"
 import globeImg from "../../public/images/globe-alt.svg"
 import arrowUp from "../../public/images/gree-yello-up.svg"
 import ProgressBar from 'react-bootstrap/ProgressBar';
@@ -132,6 +133,15 @@ export function HomePage(){
   
     const handleClose = () => setShowModal(false);
   
+    const [theme, setTheme] = useState('light'); // Assume light mode by default
+
+  useEffect(() => {
+    // Retrieve theme mode from local storage or state management system
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      setTheme(savedTheme);
+    }
+  }, []);
   
 
     // const ReactPlayer = dynamic(() => import('react-player/lazy'), { ssr: false });
@@ -420,7 +430,11 @@ export function HomePage(){
                     <div className="row">
                     <a href="https://home.runonflux.io/dashboard/map" rel="noreferrer" target="_blank" className={styles.btn2} style={{margin: "auto", marginBottom: "20px"}}>View Dashboard</a>
                     <div className={styles.map}>
-                        <Image alt="map" src={map}  />
+                    {theme === 'light' ? (
+                    <Image alt="Light Mode Image" src={map1}/>
+                ) : (
+                    <Image src={map2} alt="Dark Mode Image" />
+                )}
                     </div>
                     </div>
                 </div>

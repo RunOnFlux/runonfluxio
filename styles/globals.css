@@ -13,26 +13,47 @@ body {
     background-position: center;
     background-attachment: fixed;
     /* box-shadow: 0px 0px 10px 0px rgb(7 12 31 / 20%); */
-    background-color: #fff !important;
+    background-color: var(--background) !important;
 }
+
+
 
 :root {
   --background: rgba(255, 255, 255, 0.865);
-  --text-primary: #000;
+  --text-primary: #fff;
   --text-grey: #5D6774;
   --text-blue: #324ab2;
+  --text-black : #000;
   --text-white : #fff;
   --border: rgba(0, 0, 0, 0.421);
-
+  --CardText: #303B52;
+  --boxShadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43,97,209,.05);
+  --CardText2: #98A7B9;
+  --CardText3: #303B52;
+  --headerBackground: none;
+  --CardText4: #fff;
+  --linearBg:  url('/images/Background\ Cost\ Calculator.svg');
+  --sliderBg : #2b61d1;
 }
-[data-theme='dark'] {
-  --background: #00ff4c;
+
+/* [data-theme='dark'] {
+  --background: #141529;
   --text-primary: #fff;
   --text-grey: #5D6774;
   --text-blue: #4169e1;
   --text-white : #fff;
-  --border: #5D6774;
-}
+  --border: rgba(0, 0, 0, 0.421);
+  --CardText: #fff;
+  --boxShadow: 7.74807px 7.74807px 28.7404px 4.87404px hsl(237, 50%, 20%);
+  --CardText2: #ECECEC;
+  --CardText3: #C0C0C0;
+  --headerBackground: rgb(10, 11, 26, 0.5);
+  --CardText4: #98A7B9;
+  --linearBg:  url('/images/Background\ Cost\ Calculator2.svg');
+   --sliderBg : #0A0B1A;
+} */
+
+
 
 
 
@@ -72,7 +93,7 @@ a {
   /* background:  transparent !important; */
   border-bottom: 1px solid var(--border) !important;
   height: 85px !important;
-  color: var(--text-white) !important;
+  color: white !important;
   /* backdrop-filter: blur(12px) !important; */
 }
 
@@ -86,7 +107,7 @@ a {
   padding-right: 20px !important;
   /* identical to box height, or 171% */
   /* Main white */
- color: var(--text-white) !important;
+ color: white !important;
 }
 
 .navNav2 .nav-link{

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Script from 'next/script'
 import { HomePage } from '../components/Homepage/homePage.js'
 import { NavBar } from '../components/navbar/navbar.js'
+import ThemeToggle from '../components/themeToggle/ThemeToggle';
 export default function Home() {
   return (
     <div>
@@ -23,6 +24,7 @@ export default function Home() {
             gtag('config', 'G-KTKEYE3YMN');
             `}
         </Script>
+        <ThemeToggle />
       <NavBar/>
       <HomePage/> 
     </div>

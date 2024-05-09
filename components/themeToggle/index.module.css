@@ -1,0 +1,26 @@
+.themeToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0070f3; /* Light mode button color */
+    color: #fff; /* Light mode button text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 999;
+  }
+  
+  .themeToggle:hover {
+    background-color: #0056b3; /* Light mode button color on hover */
+  }
+  
+  [data-theme='dark'] .themeToggle {
+    background-color: #61dafb; /* Dark mode button color */
+  }
+  
+  [data-theme='dark'] .themeToggle:hover {
+    background-color: #4ba9e9; /* Dark mode button color on hover */
+  }
