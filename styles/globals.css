@@ -34,9 +34,17 @@ body {
   --CardText4: #fff;
   --linearBg:  url('/images/Background\ Cost\ Calculator.svg');
   --sliderBg : #2b61d1;
+  --sliderBg2 : #fff;
+  --CardText5 :#2b61d1;
+  --Card3: rgba(255, 255, 255, 0.5);
+  --Card3B: #52D46F;
+  --Card4: linear-gradient(90deg, #111827 33.25%, #303B52 100%);
+ --CardBg: #fff;
+
+
 }
 
-/* [data-theme='dark'] {
+[data-theme='dark'] {
   --background: #141529;
   --text-primary: #fff;
   --text-grey: #5D6774;
@@ -51,7 +59,13 @@ body {
   --CardText4: #98A7B9;
   --linearBg:  url('/images/Background\ Cost\ Calculator2.svg');
    --sliderBg : #0A0B1A;
-} */
+   --sliderBg2 : #0A0B1A;
+   --CardText5 :#fff;
+   --Card3: #141529;
+   --Card3B: #141529;
+   --Card4: linear-gradient(90deg, #000000, 20%, #141529, #0A0B1E 100%);
+   --CardBg: linear-gradient(90deg, #000000, 20%, #141529, #0A0B1E 100%);
+}
 
 
 

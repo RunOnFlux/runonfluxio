@@ -117,7 +117,7 @@
 }
 
 .headerCard{
-    background: var(--background);
+    background: var(--CardBg);
     box-shadow: var(--boxShadow);
     /* box-shadow: 10.74807px 10.74807px 10.7404px 10.87404px rgba(43, 97, 209, 0.1); */
     border-radius: 18.7404px;
@@ -126,7 +126,7 @@
 }
 
 .cardTotal{
-    background: var(--background);
+    background: var(--CardBg);
     box-shadow: var(--boxShadow);
     /* box-shadow: 10.74807px 10.74807px 10.7404px 10.87404px rgba(43, 97, 209, 0.1); */
     border-radius: 18.7404px;
@@ -294,7 +294,7 @@ color: #7EC897;
 }
 
 .webCard{
-    background: var(--background);
+    background: var(--CardBg);
     box-shadow: var(--boxShadow);
     border-radius: 18.7404px;
     padding: 30px 20px;
@@ -422,7 +422,7 @@ color: #7EC897;
 }
 
 .card1{
-    background: var(--background);
+    background: var(--CardBg);
     box-shadow: var(--boxShadow);
     border-radius: 18.7404px;
     padding: 30px 20px;
@@ -597,7 +597,7 @@ color: #7EC897;
 }
 
 .section8{
-    background: #2b61d1;
+    background: var(--sliderBg);
     margin-bottom: 100px;
     padding: 50px 0px;
 }
@@ -660,7 +660,7 @@ color: #7EC897;
 }
 
 .card2{
-    background: var(--background);
+    background: var(--CardBg);
     box-shadow: var(--boxShadow);
     border-radius: 18.7404px;
     padding: 30px 20px;
@@ -747,13 +747,13 @@ color: #7EC897;
  
     text-align: center;
 
-    color: #303B52;
+    color: var(--CardText);
 }
 .section11 h2 span{
     color: #52D46F;
 }
 .section11 h2 span.cloudText1{
-    color: #2B61D1;
+    color: var(--CardText5)
 }
 .section11 p{
     font-family: 'Montserrat';
@@ -796,7 +796,7 @@ color: #7EC897;
     font-weight: 600;
     font-size: 17.9907px;
     line-height: 150%;    
-    color: #303B52;
+    color: var(--CardText);
 }
 .card3 h6{
     font-family: 'Montserrat';
@@ -810,9 +810,9 @@ color: #7EC897;
 }
 
 .card3{
-    background: rgba(255, 255, 255, 0.5);
-    border: 1.49923px solid #52D46F;
-    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    background: var(--CardBg);
+    border: 1.49923px solid var(--Card3B);
+    box-shadow: var(--boxShadow);
     border-radius: 18.7404px;    
     padding: 30px 20px;
     height: 100%;
@@ -839,8 +839,8 @@ color: #7EC897;
 }
 
 .card4{
-    background: linear-gradient(90deg, #111827 33.25%, #303B52 100%);
-    box-shadow: 3.74807px 3.74807px 18.7404px 1.87404px rgba(0, 0, 0, 0.1);
+    background: var(--Card4);
+    box-shadow: var(--boxShadow);
     border-radius: 37.4807px;
     padding: 50px 40px;
 }

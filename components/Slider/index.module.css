@@ -36,10 +36,10 @@
 
 
 .appCard{
-    background: #FFFFFF;
-    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    background: var(--CardBg);
+    box-shadow: var(--boxShadow);
     border-radius: 9.37018px;
-    height: 200px;
+    height: 220px;
     width: 200px;
     padding: 20px 20px;
     padding-top: 35px;
@@ -87,10 +87,10 @@
   }
 .appCard div{
     border-radius: 100px;
-    background: #FFFFFF;
+    background: var(--sliderBg2);
     box-shadow: 11.2442px 11.2442px 18.7404px 1.49923px rgba(43, 97, 209, 0.1);
     width: fit-content;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     text-align: center;
 }
