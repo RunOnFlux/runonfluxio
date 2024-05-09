@@ -433,7 +433,7 @@ export function HomePage(){
                     {theme === 'light' ? (
                     <Image alt="Light Mode Image" src={map1}/>
                 ) : (
-                    <Image src={map2} alt="Dark Mode Image" />
+                    <Image src={map1} alt="Dark Mode Image" />
                 )}
                     </div>
                     </div>
