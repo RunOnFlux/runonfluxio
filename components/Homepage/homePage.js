@@ -43,7 +43,7 @@ import fluxwpimg from "../../public/images/flux-wp-popup.png"
 import axios from 'axios';
 import { Slider4 } from "../Slider/slider4";
 import Modal from 'react-bootstrap/Modal';
-
+import { useRouter } from 'next/router'; // Import the useRouter hook
 
 export function HomePage(){
 
@@ -133,15 +133,7 @@ export function HomePage(){
   
     const handleClose = () => setShowModal(false);
   
-    const [theme, setTheme] = useState('light'); // Assume light mode by default
-
-  useEffect(() => {
-    // Retrieve theme mode from local storage or state management system
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      setTheme(savedTheme);
-    }
-  }, []);
+  
   
 
     // const ReactPlayer = dynamic(() => import('react-player/lazy'), { ssr: false });
@@ -430,11 +422,11 @@ export function HomePage(){
                     <div className="row">
                     <a href="https://home.runonflux.io/dashboard/map" rel="noreferrer" target="_blank" className={styles.btn2} style={{margin: "auto", marginBottom: "20px"}}>View Dashboard</a>
                     <div className={styles.map}>
-                    {theme === 'light' ? (
-                    <Image alt="Light Mode Image" src={map1}/>
-                ) : (
-                    <Image src={map1} alt="Dark Mode Image" />
-                )}
+        
+                <Image alt="Light Mode Image" src={map1}/>
+       
+                {/* <Image src={map2} alt="Dark Mode Image" /> */}
+        
                     </div>
                     </div>
                 </div>

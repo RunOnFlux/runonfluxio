@@ -36,7 +36,7 @@
 
 
 .appCard{
-    background: var(--CardBg);
+    background: var(--background);
     box-shadow: var(--boxShadow);
     border-radius: 9.37018px;
     height: 220px;
@@ -65,7 +65,7 @@
     width: 100%;
     color: #98A7B9;
     padding: 14px 0px;
-    margin-top: 30px;
+    margin-top: 20px;
     transition: all .2s ease-in-out;
 }
 .appCard a:hover{
@@ -90,7 +90,7 @@
     background: var(--sliderBg2);
     box-shadow: 11.2442px 11.2442px 18.7404px 1.49923px rgba(43, 97, 209, 0.1);
     width: fit-content;
-    padding: 20px;
+    padding: 17px;
     margin: auto;
     text-align: center;
 }
@@ -133,6 +133,16 @@
         height: 40px !important;
         object-fit: contain !important;
     }
+    .appCard div{
+        border-radius: 100px;
+        background: var(--sliderBg2);
+        box-shadow: 11.2442px 11.2442px 18.7404px 1.49923px rgba(43, 97, 209, 0.1);
+        width: fit-content;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+    }
+  
   
    
 }
