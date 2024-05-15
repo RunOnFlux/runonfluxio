@@ -40,7 +40,7 @@
     /* margin-bottom: 60px !important; */
     padding-top: 0em;
     font-family: 'Open Sans', sans-serif;
-    color: #98A7B9;
+    color: var(--darkText4);
     font-size: 1em;
     line-height: 1.5;
     font-weight: 400;
@@ -52,15 +52,14 @@
 }
 
 .btns a{
-    background-color: white !important;
+    background-color: var(--btnBg) !important;
     margin: 10px;
     align-items: center;
     border-radius: 0.4em;
-    background-color: #fff;
     background-image: none;
     box-shadow: 6px 6px 14px 1px rgba(37, 44, 97, 0.14);
     font-family: Montserrat, sans-serif;
-    color: #4c80ee !important;
+    color: var(--btnColor)!important;
     font-size: 0.8em;
     line-height: 1px;
     font-weight: 600;
@@ -95,7 +94,7 @@
 .card1 p{
     margin: 1em auto;
     font-family: 'Open Sans', sans-serif;
-    color: #98A7B9;
+    color: var(--darkText4);
     font-size: 1em;
     line-height: 0.5;
     text-align: center;
@@ -159,7 +158,7 @@
     /* margin-bottom: 60px !important; */
     padding-top: 0em;
     font-family: 'Open Sans', sans-serif;
-    color: #98A7B9;
+    color: var(--darkText4);
     font-size: 0.9em;
     line-height: 1.5;
     font-weight: 400;
@@ -204,7 +203,7 @@
 
 .card2 p{
     font-family: 'Open Sans', sans-serif;
-    color: #98A7B9;
+    color: var(--darkText4);
     font-size: 1em;
     line-height: 1em;
     font-weight: 600;
@@ -213,7 +212,7 @@
 
 .card2 a{
     font-family: 'Open Sans', sans-serif;
-    color: #98A7B9 !important;
+    color: var(--darkText4) !important;
     font-size: 0.9em;
     line-height: 1.5em;
     overflow: auto ;

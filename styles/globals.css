@@ -46,6 +46,8 @@ body {
  --CardBg: #fff;
  --darkText3: #fff;
  --darkText4: rgba(49, 52, 87, 0.8);
+ --btnBg: #fff;
+ --btnColor: #4c80ee;
 
 
 }
@@ -76,6 +78,8 @@ body {
    --Card4: linear-gradient(90deg, #000000, 20%, #141529, #0A0B1E 100%);
    --CardBg: linear-gradient(90deg, #000000, 20%, #141529, #0A0B1E 100%);
    --darkText4: #98a7b9;
+   --btnBg: #4c80ee;
+   --btnColor: #fff;
 }
 
 

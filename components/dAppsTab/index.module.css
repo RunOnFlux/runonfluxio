@@ -41,7 +41,7 @@
    margin-bottom: 50px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    color: #98A7B9 ;
+    color: var(--darkText4) ;
     font-size: 0.9em;
 }
 .card p span{
@@ -112,7 +112,7 @@ and (max-width: 1200px)
   .logo h3{
       align-self: center;
       font-family: Montserrat, sans-serif;
-      color: rgba(49, 52, 87, 0.8);
+      /* color: rgba(49, 52, 87, 0.8); */
       font-size: 1.3em;
       font-weight: 600;
   }
@@ -121,7 +121,7 @@ and (max-width: 1200px)
      margin-bottom: 50px;
       padding-top: 0.5em;
       padding-bottom: 0.5em;
-      color: rgba(49, 52, 87, 0.62);
+      /* color: rgba(49, 52, 87, 0.62); */
       font-size: 0.8em;
   }
 }
@@ -136,7 +136,7 @@ and (max-width: 1200px)
   .logo h3{
       align-self: center;
       font-family: Montserrat, sans-serif;
-      color: rgba(49, 52, 87, 0.8);
+      /* color: rgba(49, 52, 87, 0.8); */
       font-size: 1.2em;
       font-weight: 600;
   }
@@ -145,7 +145,7 @@ and (max-width: 1200px)
      margin-bottom: 50px;
       padding-top: 0.5em;
       padding-bottom: 0.5em;
-      color: rgba(49, 52, 87, 0.62);
+      /* color: rgba(49, 52, 87, 0.62); */
       font-size: 0.75em;
   }
 }

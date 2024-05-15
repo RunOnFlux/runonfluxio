@@ -8,7 +8,7 @@ export function Careers(){
         <section className={styles.section1}>
             <div className='container'>
                 <div className='row'>
-                    <h6>WORK WITH FLUX FOUNDATION</h6>
+                    {/* <h6>WORK WITH FLUX FOUNDATION</h6> */}
                     <h1>Help Us Shape Decentralization</h1>
                     <p>Flux's goal is to build the next generation of decentralized computing power. In other words, the Web 3.0, in order to give everyone equal access to a cloud platform that is as applicable to individuals as it is to enterprises.</p>
                     <p className='mt-1'><i>If your vision matches ours, we invite you to join the Flux team.</i></p>

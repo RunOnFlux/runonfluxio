@@ -19,7 +19,7 @@
     margin-bottom: 60px !important;
     padding-top: 0em;
     font-family: Montserrat, sans-serif;
-    color: #98A7B9;
+    color: var(--darkText4);
     font-size: 1.1em;
     line-height: 1.5;
     font-weight: 400;
@@ -115,14 +115,14 @@
 }
 .card h2{
     font-family: Montserrat, sans-serif;
-    color: #98A7B9;
+    color: var(--darkText4);
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 10px;
 }
 .card h3{
     font-family: Montserrat, sans-serif;
-    color: #98A7B9;
+    color: var(--darkText4);
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 10px;
@@ -163,14 +163,14 @@
 }
 .card2 h2{
     font-family: Montserrat, sans-serif;
-    color: #98A7B9;
+    color: var(--darkText4);
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 10px;
 }
 .card2 h3{
     font-family: Montserrat, sans-serif;
-    color: #98A7B9;
+    color: var(--darkText4);
     font-size: 15px;
     line-height: 1.5;
     padding-bottom: 50px;
@@ -191,7 +191,7 @@
 
 .link a{
     font-family: Montserrat, sans-serif;
-    color: #98A7B9;
+    color: var(--darkText4);
     font-size: 15px;
     line-height: 1.5;
     font-weight: 700;
