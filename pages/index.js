@@ -26,8 +26,8 @@ export default function Home() {
             gtag('config', 'G-KTKEYE3YMN');
             `}
         </Script>
+      
         <ThemeToggle />
-
         <NavBar/>
       <HomePage/> 
 

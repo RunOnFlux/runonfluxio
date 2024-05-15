@@ -1,8 +1,8 @@
 .card{
   height: 100%;
   padding: 20px;
-  background: white;
-  box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+  background: var(--CardBg);
+  box-shadow: var(--boxShadow);
   border-radius: 16px;
   width: 100%;
   position: relative !important;
@@ -32,7 +32,7 @@
 .logo h3{
     align-self: center;
     font-family: Montserrat, sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: var(--CardText);
     font-size: 1.2em;
     font-weight: 600;
 }
@@ -41,7 +41,7 @@
    margin-bottom: 50px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    color: rgba(49, 52, 87, 0.62);
+    color: #98A7B9 ;
     font-size: 0.9em;
 }
 .card p span{

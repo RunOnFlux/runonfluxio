@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Script from 'next/script'
 import { PartnersPage } from '../components/partnersPage/partnersPage'
 import { NavBar } from '../components/navbar/navbar'
+import ThemeToggle from '../components/themeToggle/ThemeToggle';
 export default function Partners() {
   return (
     <div>
@@ -21,6 +22,7 @@ export default function Partners() {
             gtag('config', 'G-KTKEYE3YMN');
             `}
         </Script>
+        <ThemeToggle />
       <NavBar/>
      <PartnersPage/>
     </div>

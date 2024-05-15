@@ -6,7 +6,7 @@
 .teamFlux h3{
     margin: 0.2em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 2.7em;
     line-height: 1.1em;
     text-align: center;
@@ -18,7 +18,7 @@
     margin-bottom: 100px !important;
     padding-top: 0em;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(4, 4, 11, 0.6);
+    color: #98A7B9;
     font-size: 1.1em;
     line-height: 1.5;
     font-weight: 400;

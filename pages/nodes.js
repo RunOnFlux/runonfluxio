@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Script from 'next/script'
 import { Node } from '../components/nodes/nodes.js'
 import { NavBar3 } from '../components/navbar/navbar3.js'
+import ThemeToggle from '../components/themeToggle/ThemeToggle';
 export default function Team() {
   return (
     <div>
@@ -21,6 +22,7 @@ export default function Team() {
             gtag('config', 'G-KTKEYE3YMN');
             `}
         </Script>
+        <ThemeToggle />
       <NavBar3/>
      <Node/>
     </div>

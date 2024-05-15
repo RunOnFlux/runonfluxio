@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Script from 'next/script'
 import { Flux } from '../components/fluxCoin/fluxpage.js'
 import { NavBar } from '../components/navbar/navbar.js'
-
+import ThemeToggle from '../components/themeToggle/ThemeToggle';
 export default function Home() {
   return (
     <div>
@@ -21,6 +21,7 @@ export default function Home() {
             gtag('config', 'G-KTKEYE3YMN');
             `}
         </Script>
+        <ThemeToggle />
       <NavBar/>
       <Flux/> 
     </div>

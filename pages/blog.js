@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Script from 'next/script'
 import { BlogPage } from '../components/blogPage/blogPage'
 import { NavBar } from '../components/navbar/navbar'
+import ThemeToggle from '../components/themeToggle/ThemeToggle';
 export default function Blog() {
   return (
     <div>
@@ -21,6 +22,7 @@ export default function Blog() {
             gtag('config', 'G-KTKEYE3YMN');
             `}
         </Script>
+        <ThemeToggle />
       <NavBar/>
      <BlogPage/>
     </div>

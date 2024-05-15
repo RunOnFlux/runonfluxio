@@ -16,7 +16,7 @@
 .section1 h1{
 margin: 0.2em auto 0em 0px;
 font-family: Montserrat, sans-serif;
-color: #313457;
+color: var(--CardText);
 font-size: 3.7em;
 line-height: 1.1em;
 text-align: left;
@@ -30,7 +30,7 @@ margin-bottom: 20px;
   /* margin-bottom: 60px !important; */
   padding-top: 0em;
   font-family: 'Open Sans', sans-serif;
-  color: rgba(49, 52, 87, 0.8);
+  color: #98A7B9 ;
   font-size: 1em;
   line-height: 1.5;
   font-weight: 400;
@@ -59,10 +59,10 @@ margin-bottom: 20px;
   margin-right: 15px;
   margin-left: 0px;
   text-align: center;
-  background: #FFFFFF;
-  border:rgba(152, 167, 185, 0.4) 2px solid;
+  background: transparent;
+  border:#98A7B9  2px solid;
   border-radius: 100px;
-  color: rgba(152, 167, 185);
+  color: #98A7B9 ;
   font-size: 14px;
   transition: all .2s ease-in-out;
 }
@@ -138,6 +138,9 @@ margin-bottom: 20px;
   width: 30%;
   float: left;
   height: 100px;
+ background: var(--CardBg);
+ box-shadow: var(--boxShadow);
+ border-radius: 10px;
 }
 
 .infoCardMiddle{
@@ -146,6 +149,9 @@ margin-bottom: 20px;
   float: left;
   margin-left: 5%;
   margin-right: 5%;
+  border-radius: 10px;
+  background: var(--CardBg);
+  box-shadow: var(--boxShadow);
 }
 
 .iconCircle{
@@ -180,7 +186,7 @@ margin-bottom: 20px;
 
 .infoCardText .subText{
   margin-top: 3px;
-  color: rgba(48, 59, 82, 1);
+  color: #98A7B9;
   font-size: 10px;
   font-weight: 500;
   padding: 0%;
@@ -200,7 +206,7 @@ margin-bottom: 20px;
 .section2 h3{
   margin: 0.1em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  color: var(--CardText);
   font-size: 2.7em;
   line-height: 1.1em;
   text-align: left;
@@ -218,7 +224,7 @@ margin-bottom: 20px;
   /* margin-bottom: 60px !important; */
   padding-top: 0em;
   font-family: 'Open Sans', sans-serif;
-  color: rgba(49, 52, 87, 0.8);
+  color: #98A7B9;
   font-size: 1em;
   line-height: 1.5;
   font-weight: 400;
@@ -241,7 +247,7 @@ margin-bottom: 20px;
   padding: 0.5% 0;
   /* margin: 0.1em auto 0em 0px; */
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  color: var(--CardText);
   font-size: 1.5em;
   line-height: 1.1em;
   text-align: left;
@@ -257,7 +263,7 @@ margin-bottom: 20px;
   font-size: 1.5em;
   line-height: 1.1em;
   font-weight: bold;
-  color: rgba(48, 59, 82, 1);
+  color: var(--CardText);
 }
 
 .tokenomics{
@@ -304,6 +310,9 @@ margin-bottom: 20px;
   /* min-height: 100px; */
   
 }
+.barTitle{
+  color: #98A7B9;
+}
 
 .progressBar .right .blue{
   font-size: 15px;
@@ -334,7 +343,7 @@ margin-bottom: 20px;
 }
 
 .hidden{
-  color: white;
+  color: #98A7B9;
 }
 
 .myProgress {
@@ -358,7 +367,7 @@ margin-bottom: 20px;
 }
 
 .statCard{
-  box-shadow: 3.988372564315796px 3.988372564315796px 19.941864013671875px 1.994186282157898px rgba(43, 97, 209, 0.05);
+  box-shadow: var(--boxShadow);
   border-radius: 15px;
   width: 100%;
   height: 250px;
@@ -368,6 +377,7 @@ margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: var(--CardBg);
 }
 
 .statImg{
@@ -380,7 +390,7 @@ margin-bottom: 20px;
   width: 50px;
   height: 50px;
   text-align: center;
-  box-shadow: 11.965118408203125px 11.965118408203125px 19.941864013671875px 1.5953490734100342px rgba(43, 97, 209, 0.1);
+  box-shadow: var(--boxShadow);
   margin: 0 auto;
   border-radius: 100%;
 }
@@ -391,6 +401,7 @@ margin-bottom: 20px;
   font-weight: 500;
   font-size: 18px;
   width: 100%;
+  color: var(--CardText);
 }
 
 .statCard .subTitle02{
@@ -409,7 +420,7 @@ margin-bottom: 20px;
 .section4 h3{
   margin: 0.1em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  color: var(--CardText);
   font-size: 2.7em;
   line-height: 1.1em;
   text-align: left;
@@ -427,7 +438,7 @@ margin-bottom: 20px;
   /* margin-bottom: 60px !important; */
   padding-top: 0em;
   font-family: 'Open Sans', sans-serif;
-  color: rgba(49, 52, 87, 0.8);
+  color: #98A7B9;
   font-size: 1em;
   line-height: 1.5;
   font-weight: 400;
@@ -455,7 +466,7 @@ p.pop{
   /* margin-bottom: 60px !important; */
   padding-top: 0em;
   font-family: 'Open Sans', sans-serif;
-  color: rgba(49, 52, 87, 0.8);
+  color: #98A7B9;
   font-size: 1.2em;
   line-height: 1.5;
   font-weight: 400;
@@ -474,13 +485,14 @@ p.pop{
 }
 
 .Exchangecard{
-  box-shadow: 3.7480709552764893px 3.7480709552764893px 18.7403564453125px 1.8740354776382446px rgba(43, 97, 209, 0.05);
+  box-shadow: var(--boxShadow);
   border-radius: 15px;
   height: 130px;
   width: 100%;
   padding: 20px;
   margin: 20px auto;
   /* display: inline-block; */
+  background: var(--CardBg);
   
 }
 
@@ -491,7 +503,7 @@ p.pop{
  border-radius: 100%;
  padding: 10px;
   border-radius: 50%;
-  box-shadow: 12.765512466430664px 12.765512466430664px 21.275854110717773px 1.7020683288574219px rgba(43, 97, 209, 0.1);
+  box-shadow: var(--boxShadow);
   text-align: center;
   margin-right: 5px;
 
@@ -509,10 +521,7 @@ p.pop{
   font-weight: bold;
   font-size: 15px;
   margin-top: 20px;
-
-
- 
-  
+  color: #98A7B9;  
 }
 
 .extext a{
@@ -550,6 +559,7 @@ p.pop{
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .rect img{
@@ -571,7 +581,7 @@ p.pop{
   /* margin-right: 15px; */
   margin-left: 0px;
   text-align: center;
-  background: #FFFFFF;
+  background: transparent;
   border:rgba(152, 167, 185, 0.4) 2px solid;
   border-radius: 100px;
   color: rgba(152, 167, 185);
@@ -711,7 +721,7 @@ float: right;
 
 .infoCardText .subText{
   margin-top: 3px;
-  color: rgba(48, 59, 82, 1);
+  /* color: rgba(48, 59, 82, 1); */
   font-size: 10px;
   font-weight: 500;
   padding: 0%;
@@ -726,7 +736,7 @@ float: right;
 .section2 h3{
   margin: 0.1em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  /* color: #313457; */
   font-size: 2em;
   line-height: 1.1em;
   text-align: left;
@@ -738,7 +748,7 @@ float: right;
   /* padding-left: 40px; */
   margin: 0.1em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  /* color: #313457; */
   font-size: 1.2em;
   line-height: 1.7em;
   text-align: left;
@@ -753,7 +763,7 @@ float: right;
   font-size: 1em;
   line-height: 1.4em;
   font-weight: bold;
-  color: rgba(48, 59, 82, 1);
+  /* color: rgba(48, 59, 82, 1); */
   float: right;
 }
 
@@ -897,7 +907,7 @@ float: right;
 .section4 h3{
   margin: 0.1em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  /* color: #313457; */
   font-size: 2em;
   line-height: 1.1em;
   text-align: left;
@@ -910,7 +920,7 @@ p.pop{
   /* margin-bottom: 60px !important; */
   padding-top: 0em;
   font-family: 'Open Sans', sans-serif;
-  color: rgba(49, 52, 87, 0.8);
+  /* color: rgba(49, 52, 87, 0.8); */
   font-size: 1em;
   line-height: 1.5;
   font-weight: 400;
@@ -960,7 +970,7 @@ p.pop{
 .section2 h3{
   margin: 0.1em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  /* color: #313457; */
   font-size: 1.5em;
   line-height: 1.2em;
   text-align: left;
@@ -970,7 +980,7 @@ p.pop{
 .section4 h3{
   margin: 0.1em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  /* color: #313457; */
   font-size: 1.5em;
   line-height: 1.2em;
   text-align: left;
@@ -1061,7 +1071,7 @@ p.pop{
 
 .infoCardText .subText{
   margin-top: 3px;
-  color: rgba(48, 59, 82, 1);
+  /* color: rgba(48, 59, 82, 1); */
   font-size: 10px;
   font-weight: 400;
   padding: 0%;
@@ -1077,7 +1087,7 @@ p.pop{
   /* padding-left: 40px; */
   margin: 0.1em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  /* color: #313457; */
   font-size: 0.6em;
   line-height: 1.7em;
   text-align: left;
@@ -1093,7 +1103,7 @@ p.pop{
   font-size: 0.6em;
   line-height: 1.4em;
   font-weight: bold;
-  color: rgba(48, 59, 82, 1);
+  /* color: rgba(48, 59, 82, 1); */
   float: right;
 
 }

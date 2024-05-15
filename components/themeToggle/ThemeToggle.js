@@ -62,7 +62,7 @@ const ThemeToggle = () => {
 
   useEffect(() => {
     const handleRouteChange = () => {
-      // Reset theme to light mode when navigating to another page
+      
       setTheme('light');
       localStorage.setItem('theme', 'light');
       document.documentElement.setAttribute('data-theme', 'light');

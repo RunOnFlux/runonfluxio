@@ -1,5 +1,5 @@
 .costCard{
-    background-color: #2B61D1 ;
+    background: #2B61D1 ;
     box-shadow: var(--boxShadow); 
     border-radius: 18.7404px ;
     width: fit-content !important;
@@ -41,7 +41,7 @@
 }
 
 .content{
-    background: var(--background);
+    background: var(--CardBg);
     padding: 30px 30px;
     border-radius: 0px 0px 18.7404px 18.7404px;
    

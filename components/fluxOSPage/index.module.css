@@ -2,6 +2,8 @@
     margin-top: -90px;
     padding-top: 200px;
     background-image:url("../../public/images/fluxosHeader\ Background.svg");
+    background-color: var(--headerBackground); 
+  background-blend-mode: overlay; 
     height:100vh;
     width:100%;
     background-size:cover;
@@ -92,7 +94,7 @@
     .section2 h3{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        color: var(--CardText);
         font-size: 2.7em;
         line-height: 1.1em;
         text-align: center;
@@ -121,6 +123,7 @@
         counter-increment: list-counter; 
         margin-bottom: 10px; 
         font-size: 15px;
+        color: var(--CardText);
       }
       .section2 ol li span{
         font-size: 18px;
@@ -131,6 +134,7 @@
         margin-left: 35px;
         font-size: 15px;
         font-family: 'Montserrat';
+        color: var(--CardText);
       }
       .section2 ol li::before{
         content: counter(list-counter); 

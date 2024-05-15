@@ -36,7 +36,7 @@
 
 
 .appCard{
-    background: var(--background);
+    background: var(--CardBg);
     box-shadow: var(--boxShadow);
     border-radius: 9.37018px;
     height: 220px;

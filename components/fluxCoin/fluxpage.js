@@ -318,7 +318,7 @@ export function Flux() {
                     <div className="row">
                         <div className="col-lg-4 col-md-5 col-6">
                         <div className={styles.left}>
-                        <div className={styles.barTitle}>Locked Supply <span className={styles.hidden}>_||||</span></div>
+                        <div className={styles.barTitle}>Locked Supply <span className={styles.hidden}></span></div>
                     </div>
                         </div>
                         <div className="col-lg-8 col-md-7 col-6">
@@ -339,7 +339,7 @@ export function Flux() {
                         </div>
                     </div>
                     <div className="row" style={{marginTop: "50px"}}>
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 mb-4">
                             <div className={styles.statCard}>
                                 <div>
                                 <div className={styles.statImgContainer}>
@@ -352,7 +352,7 @@ export function Flux() {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 mb-4">
                             <div className={styles.statCard}>
                                 <div>
                                 <div className={styles.statImgContainer}>
@@ -364,7 +364,7 @@ export function Flux() {
                                 </div>
                             </div>
 
-                            <div className="col-lg-4 col-md-6">
+                            <div className="col-lg-4 col-md-6 mb-4">
                                     <div className={styles.statCard}>
                                         <div>
                                         <div className={styles.statImgContainer}>
@@ -376,7 +376,7 @@ export function Flux() {
                                         </div>
                             </div>
 
-                            <div className="col-lg-4 col-md-6">
+                            <div className="col-lg-4 col-md-6 mb-4">
                                     <div className={styles.statCard}>
                                         <div>
                                         <div className={styles.statImgContainer}>
@@ -388,7 +388,7 @@ export function Flux() {
                                         </div>
                                     </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 mb-4">
                             <div className={styles.statCard}>
                             <div>
                             <div className={styles.statImgContainer}>
@@ -401,7 +401,7 @@ export function Flux() {
                             </div>
 
 
-                            <div className="col-lg-4 col-md-6">
+                            <div className="col-lg-4 col-md-6 mb-4">
                                 <div className={styles.statCard}>
                                     <div>
                                     <div className={styles.statImgContainer}>

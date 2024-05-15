@@ -257,7 +257,7 @@ color: #7EC897;
 }
 
 /* .section3{
-    background-color: var(--text-blue) ;
+    background: var(--text-blue) ;
     height: auto;
     padding: 20px 0px;
     display: flex;
@@ -434,7 +434,7 @@ color: #7EC897;
     /* box-shadow: 0px 4px 8px rgba(14, 13, 111, 0.394); */
     top: -4px;
    
-    background-color: white;
+    background: white;
 }
 
 .card1 .icon{

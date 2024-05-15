@@ -1,7 +1,7 @@
 .section1 h1{
     margin: 0.2em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 3.7em;
     line-height: 1.1em;
     text-align: left;
@@ -40,7 +40,7 @@
     /* margin-bottom: 60px !important; */
     padding-top: 0em;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: #98A7B9;
     font-size: 1em;
     line-height: 1.5;
     font-weight: 400;
@@ -75,7 +75,7 @@
     margin: 1em 0.5em 1em 1em;
     padding-top: 0.99em;
     padding-bottom: 0.99em;
-    background-color: #fff;
+    background: var(--CardBg);
     box-shadow: 0 3px 20px 3px rgba(37, 44, 97, 0.09);
     border-radius: 9px;
     height: 100%;
@@ -95,7 +95,7 @@
 .card1 p{
     margin: 1em auto;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(49, 52, 87, 0.6);
+    color: #98A7B9;
     font-size: 1em;
     line-height: 0.5;
     text-align: center;
@@ -109,7 +109,6 @@
     line-height: 1.2em;
     text-align: center;
     font-weight: 700;
-  
 }
 
 .img2{
@@ -139,7 +138,7 @@
 .section2 h3{
     margin: 0.1em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 2.7em;
     line-height: 1.1em;
     text-align: left;
@@ -160,7 +159,7 @@
     /* margin-bottom: 60px !important; */
     padding-top: 0em;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: #98A7B9;
     font-size: 0.9em;
     line-height: 1.5;
     font-weight: 400;
@@ -196,8 +195,8 @@
     border-width: 1px 1px 1px 0.5em;
     /* border-color: #3862d4; */
     border-radius: 0.5em;
-    background-color: hsla(0, 0%, 100%, 0.6);
-    box-shadow: 4px 4px 20px 0 rgba(37, 44, 97, 0.09);
+    background: var(--CardBg);
+    box-shadow: var(--boxShadow);
     margin-left: 20px;
     padding-left: 40px;
    
@@ -205,7 +204,7 @@
 
 .card2 p{
     font-family: 'Open Sans', sans-serif;
-    color: #313457;
+    color: #98A7B9;
     font-size: 1em;
     line-height: 1em;
     font-weight: 600;
@@ -214,7 +213,7 @@
 
 .card2 a{
     font-family: 'Open Sans', sans-serif;
-    color: #313457 !important;
+    color: #98A7B9 !important;
     font-size: 0.9em;
     line-height: 1.5em;
     overflow: auto ;
@@ -283,7 +282,7 @@
     .section2 h3{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 2em;
         line-height: 1.1em;
         text-align: left;
@@ -331,7 +330,7 @@
 .section2 h3{
     margin: 0.1em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    /* color: #313457; */
     font-size: 1.5em;
     line-height: 1.2em;
     text-align: left;

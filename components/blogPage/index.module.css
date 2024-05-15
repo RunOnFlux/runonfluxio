@@ -2,7 +2,7 @@
 .section1 h4{
     margin: 0.2em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 2.7em;
     line-height: 1.1em;
     text-align: left;
@@ -14,7 +14,7 @@
     margin-bottom: 20px !important;
     padding-top: 0em;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(4, 4, 11, 0.6);
+    color: var(--darkText4);
     font-size: 1.1em;
     line-height: 1.5;
     font-weight: 400;
@@ -44,10 +44,10 @@
 
 .link1{
     background: white;
-    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    box-shadow: var(--boxShadow);
     font-size: 12px;
     text-decoration: none;
-    color: rgba(4, 4, 11, 0.6);
+    color: var(--darkText4);
     padding: 10px 30px;
     margin: 20px;
     font-family: Montserrat, sans-serif;
@@ -56,7 +56,7 @@
 .section1 h3{
     margin: 0.2em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 1.3em;
     line-height: 1.1em;
     text-align: left;
@@ -69,7 +69,7 @@
 .section1 p{
     margin: 0.2em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 1em;
     line-height: 1.1em;
     text-align: left;
