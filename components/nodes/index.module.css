@@ -286,7 +286,7 @@
   .cardHead h5{
     font-size: 17px;
     font-weight: bold;
-    color: var(--darkText2);
+    color: var(--darkText4);
   }
   .cardRewards{
     box-shadow: var(--boxShadow);
@@ -324,7 +324,7 @@
     font-size: 20px;
     line-height: 30px;
     font-weight: bold;
-    color: var(--darkText2);
+    color: var(--darkText4);
   }
 
   .section5{
@@ -435,19 +435,24 @@
     width: 80px;
     height: 80px;
     float:left ;
+   
   }
   .puchaseOption h6{
     color: var(--darkText4);
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    float: left;
+    margin-left: -15px;
+  
   }
  
   .puchaseOption .btn1{
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
   .puchaseOption .button{
     float: right;
+    margin-right: -10px;
   }
 
 
@@ -480,6 +485,9 @@
     text-align:center;
     padding: 20px;
   }
+
+
+
   
  
 
@@ -738,12 +746,29 @@ float: right;
     height: 60px;
     float:left ;
   }
+
   .puchaseOption h6{
-    /* color: #303B52; */
+    color: var(--darkText4);
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    float: left;
+    margin-left: 0px;
+  
+  }
+ 
+ 
+  .puchaseOption .button{
+    float: right;
+    margin-right: 0px;
+  }
+
+  /* .puchaseOption h6{
+   
     font-weight: bold;
     margin-bottom: 20px;
-    font-size: 14px;
-  }
+    font-size: 12px;
+  } */
  
   .puchaseOption .btn1{
     padding: 10px 10px;
@@ -776,6 +801,7 @@ float: right;
   margin-top: -90px;
   padding-top: 200px;
   background-image:url("../../public/images/images/header-bg-fluxnodes.svg");
+ 
   height:120vh;
   width:100%;
   background-size:cover;
@@ -927,10 +953,13 @@ float: right;
     float:left ;
   }
   .puchaseOption h6{
-    /* color: #303B52; */
+    color: var(--darkText4);
+    font-size: 14px;
     font-weight: bold;
-    margin-bottom: 20px;
-    font-size: 15px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 0px;
+  
   }
  
   .puchaseOption .btn1{

@@ -82,7 +82,7 @@ export function Node() {
             <section className={styles.section3}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 mb-5">
                         <h3>Incentivized<br/><span>Infrastructure</span></h3>
                         <p className="mb-4">The total block reward on the Flux blockchain is divided equally between POW miners and FluxNode operators for every block. In addition, there is a hierarchy among the different FluxNode tiers, with the most computationally heavy FluxNode entitled to the largest share of the initial 50% distribution reserved for FluxNode.</p>
                             <a href="https://home.runonflux.io/dashboard/map" className={styles.btn1}>Dashboard</a>
@@ -91,7 +91,7 @@ export function Node() {
                         <Image alt={"img"} src={circleGraph} />
                             </div>
                     </div>
-                    <div className="row mt-4">
+                    <div className="row" style={{marginTop: "-20px"}}>
                         <Image alt="progress-bar" src={progressbar}/>
                     </div>
                   
@@ -317,7 +317,7 @@ export function Node() {
                     </div>
                     </div>
                     <div className="row mt-5" style={{marginBottom: '50px'}}>
-                        <div className="col-lg-7 col-md-7">
+                        <div className="col-lg-8 col-md-12">
                             <h3><span>Infrastructure</span> Hardware</h3>
                             <p style={{width: "100%"}}>The operation of a FluxNode is a process that is subject to individual discretion and influenced by various economic factors, such as pricing and electricity costs. To deploy a FluxNode, you have several options available, including the use of rented virtual private servers (VPS) or dedicated hardware deployment.</p>
                             <p style={{width: "100%"}}>Regarding hardware requirements, we recommend consulting one of our official partners for information on hardware compatibility and potential server options. These partnerships guarantee access to reliable and compatible hardware solutions for FluxNode deployment.</p>
@@ -325,9 +325,13 @@ export function Node() {
                             <div className="col-md-6 col-12 mb-4">
                          
                                 <div className={styles.puchaseOption}>
+                                    <div>
                                     <Image alt={"img"} src={seedIcon} />
-                                    <div className={styles.button}>
                                     <h6>Seeed Studio</h6>
+                                    </div>
+                                   
+                                    <div className={styles.button}>
+                                  
                                     <a className={styles.btn1} href="https://www.seeedstudio.com/flux">Buy Now</a>
                                     </div>
                                 </div>
@@ -335,19 +339,27 @@ export function Node() {
 
                             <div className="col-md-6 col-12 mb-4">
                             <div className={styles.puchaseOption}>
-                            <Image alt={"img"} src={cotx} />
+                                <div>
+                                <Image alt={"img"} src={cotx} />
+                                <h6>Cotx</h6>
+                                </div>
+                           
                                     <div className={styles.button}>
-                                    <h6>Cotx</h6>
+                                  
                                     <a className={styles.btn1} href="https://cotx-store.com/collections/cotx-fluxnode/products/cotx-fluxnode-cumulus">Buy Now</a>
                                     </div>
                                 </div>
                                 </div>
                                 
                                 <div className="col-md-6 col-12 mb-4">
-                            <div className={styles.puchaseOption}>
-                            <Image alt={"img"} src={bmo} />
-                                    <div className={styles.button}>
+                                <div className={styles.puchaseOption}>
+                                    <div>
+                                    <Image alt={"img"} src={bmo} />
                                     <h6>BMO</h6>
+                                    </div>
+                                
+                                    <div className={styles.button}>
+                                  
                                     <a className={styles.btn1} href="https://bmoblockchain.us/shop/">Buy Now</a>
                                     </div>
                                 </div>
@@ -355,7 +367,7 @@ export function Node() {
                             </div>
                            
                         </div>
-                        <div className="col-lg-5 col-md-5">
+                        <div className="col-lg-4 col-md-12">
                         <div className={styles.scroll}>
                         <div className={styles.hardwareCard}>
                             {/* <div className={styles.cardHeader}>
