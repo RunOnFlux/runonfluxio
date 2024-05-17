@@ -107,7 +107,7 @@ const teamAsset = [
     {
         name: 'Alex Perritaz',
         thumbnail: perritaz,
-        twitterLink: 'https://twitter.com/Jiiminy',
+        twitterLink: 'https://twitter.com/is_alex_ok',
         linkedInLink: 'https://www.linkedin.com/in/alex-perritaz/',
         title: 'Chief PoUW Architect and Community Member',
         intro: 'Alex joined the Business Development team with a special focus on PoUW. ',
