@@ -1,15 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import styles from "./index.module.css"
 import Image from "next/image";
 import logo1 from "../../public/images/fluxOS-logo1.svg"
-import techStack from "../../public/images/images/tech-stack.svg"
+
 import fluxcloud from "../../public/images/fluxcloud.svg"
 import payment1 from "../../public/images/images/payment1.svg"
 import payment2 from "../../public/images/images/payment2.svg"
 import payment3 from "../../public/images/images/payment3.svg"
 import solutions from "../../public/images/images/solutions.svg"
 export function FluxOSPage(){
+    
+
     return(
         <React.Fragment>
             <section className={styles.section1}>
@@ -38,7 +40,7 @@ export function FluxOSPage(){
                     <div className="row">
                         <div className="col-md-6">
                             <div className={styles.techStack}>
-                            <Image alt="logo" src={techStack}/>
+                            {/* <Image alt="logo" src={''} /> */}
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -161,15 +163,15 @@ export function FluxOSPage(){
                         <div className="col-md-6">
                             <div className={styles.paymentOptions}>
                                 <span href="" className={styles.paymentOptionContainer}>
-                                    <Image alt="logo" src={payment1}/>
+                                    <Image alt="logo" src={payment1}/>PayPal
                                 </span>
                                 <span href="" className={styles.paymentOptionContainer}>
-                                    <Image alt="logo" src={payment2}/>
+                                    <Image alt="logo" src={payment2}/>Stripe
                                 </span>
                             </div>
                             <div className={styles.paymentOptions}>
                                 <span href="" className={styles.paymentOptionContainer}>
-                                    <Image alt="logo" src={payment3}/>
+                                    <Image alt="logo" src={payment3}/>Flux
                                 </span>
                                 <span href="#" className={styles.paymentOptionContainer}>
                                    <h6>More TBA...</h6>
@@ -186,7 +188,7 @@ export function FluxOSPage(){
                         </div>
                         <div className="col-md-6">
                                 <div className={styles.solutions}>
-                                    <Image alt="logo" src={solutions}/>
+                                    {/* <Image alt="logo" src={solutions}/> */}
                                 </div>
                             </div>
                     </div>

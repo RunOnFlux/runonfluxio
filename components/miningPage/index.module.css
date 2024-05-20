@@ -13,7 +13,7 @@
 .section1 h1{
     margin: 0.8em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 2.5em;
     line-height: 1.1em;
     text-align: left;
@@ -27,7 +27,7 @@
       /* margin-bottom: 60px !important; */
       padding-top: 0em;
       font-family: 'Open Sans', sans-serif;
-      color: rgba(49, 52, 87, 0.8);
+      color: var(--darkText4);
       font-size: 1em;
       line-height: 1.5;
       font-weight: 400;
@@ -39,8 +39,8 @@
 }
 
 .btns a{
-    background-color: white !important;
-    color: #4c80ee !important;
+    background: var(--btnBg)!important;
+    color: var(--btnColor) !important;
     margin: 10px;
     align-items: center;
     border-radius: 0.4em;
@@ -60,7 +60,7 @@
 .section2 h2{
     margin: 0.8em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 3.2em;
     line-height: 1.1em;
     text-align: left;
@@ -74,7 +74,7 @@
       /* margin-bottom: 60px !important; */
       padding-top: 0em;
       font-family: 'Open Sans', sans-serif;
-      color: rgba(49, 52, 87, 0.8);
+      color: var(--darkText4);
       font-size: 1em;
       line-height: 1.5;
       font-weight: 400;
@@ -84,7 +84,7 @@
   .section2 h3{
     margin: 0.8em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 1.9em;
     line-height: 1.1em;
     text-align: left;
@@ -101,8 +101,8 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     background-color: #fff;
-     box-shadow: 0 3px 20px 3px rgba(37, 44, 97, 0.09);
+     background: var(--CardBg);
+     box-shadow: var(--boxShadow);
      border-radius: 9px;
      height: 100%;
  }
@@ -121,7 +121,7 @@
  .card1 p{
      margin: 1em auto;
      font-family: 'Open Sans', sans-serif;
-     color: rgba(49, 52, 87, 0.6);
+     color: var(--darkText4);
      font-size: 1em;
      line-height: 0.5;
      text-align: center;
@@ -142,7 +142,7 @@
     /* margin-bottom: 60px !important; */
     padding-top: 0em;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: var(--darkText4);
     font-size: 1em;
     line-height: 1.5;
     font-weight: 400;
@@ -152,7 +152,7 @@
 .section3 h3{
   margin: 0.8em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  color: var(--CardText);
   font-size: 1.9em;
   line-height: 1.1em;
   text-align: left;
@@ -177,8 +177,8 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     background-color: #fff;
-     box-shadow: 0 3px 20px 3px rgba(37, 44, 97, 0.09);
+     background: var(--CardBg);
+     box-shadow: var(--boxShadow);
      border-radius: 9px;
      height: 100%;
  }
@@ -186,7 +186,7 @@
  .card2 p{
     margin: 1em auto;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(49, 52, 87, 0.6);
+    color: var(--darkText4);
     font-size: 0.9em;
     font-weight: bold;
     letter-spacing: normal;
@@ -244,7 +244,7 @@
 .section4 h3{
     margin: 0.8em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 1.9em;
     line-height: 1.1em;
     text-align: left;
@@ -255,7 +255,7 @@
   .section4 h6{
     margin: 0.8em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: var(--darkText4);
     font-size: 1.2em;
     line-height: 1.1em;
     text-align: left;
@@ -267,7 +267,7 @@
   .section4 ul li{
     margin: 1.3em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: var(--darkText4);
     font-size: 1.2em;
     line-height: 1.1em;
     text-align: left;
@@ -280,7 +280,7 @@
     /* margin-bottom: 60px !important; */
     padding-top: 0em;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: var(--darkText4);
     font-size: 1em;
     line-height: 1.5;
     font-weight: 400;
@@ -364,7 +364,7 @@
     .section2 h3{
         margin: 0.8em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 1.7em;
     }
     .section3 p{
@@ -375,20 +375,20 @@
     .section3 h3{
         margin: 0.8em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 1.7em;
     }
 
     .section4 h3{
         margin: 0.8em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 1.7em;
     }
     .card2 p{
         margin: 1em auto;
         font-family: 'Open Sans', sans-serif;
-        color: rgba(49, 52, 87, 0.6);
+        /* color: rgba(49, 52, 87, 0.6); */
         font-size: 0.8em;
         font-weight: bold;
         letter-spacing: normal;
@@ -416,7 +416,7 @@
     .section4 h6{
         margin: 0.8em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        /* color: rgba(49, 52, 87, 0.8); */
         font-size: 1.1em;
         line-height: 1.1em;
         text-align: left;
@@ -427,7 +427,7 @@
       .section4 ul li{
         margin: 1.3em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        /* color: rgba(49, 52, 87, 0.8); */
         font-size: 1.1em;
         line-height: 1.1em;
         text-align: left;
@@ -476,20 +476,20 @@
     .section2 h3{
         margin: 0.8em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 1.5em;
     }
    
     .section4 h3{
         margin: 0.8em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 1.5em;
     }
     .section3 h3{
         margin: 0.8em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 1.5em;
     }
     .section3 p{
@@ -504,7 +504,7 @@
     .section4 h6{
         margin: 0.8em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        /* color: rgba(49, 52, 87, 0.8); */
         font-size: 1em;
         line-height: 1.3em;
         text-align: left;
@@ -515,7 +515,7 @@
       .section4 ul li{
         margin: 1.3em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        /* color: rgba(49, 52, 87, 0.8); */
         font-size: 1em;
         line-height: 1.1em;
         text-align: left;
@@ -548,7 +548,7 @@
     .card2 p{
         margin: 1em auto;
         font-family: 'Open Sans', sans-serif;
-        color: rgba(49, 52, 87, 0.6);
+        /* color: rgba(49, 52, 87, 0.6); */
         font-size: 0.75em;
         font-weight: bold;
         letter-spacing: normal;
@@ -576,13 +576,13 @@
     .section3 h3{
         margin: 0.8em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 1.3em;
     }
     .section4 h3{
         margin: 0.8em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 1.3em;
     }
     .section3 p{

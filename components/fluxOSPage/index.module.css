@@ -110,10 +110,14 @@
       .techStack{
         text-align: center;
         width: 100%;
-        height: 100%;
+        height: 450px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
+        background: var(--techStack);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
       }
       .section2 ol{
         list-style-type: none; 
@@ -156,7 +160,7 @@
       .section3 h3{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        color: var(--CardText);
         font-size: 2.7em;
         line-height: 1.1em;
         text-align: center;
@@ -174,7 +178,7 @@
         /* margin-bottom: 60px !important; */
         padding-top: 0em;
         font-family: 'Montserrat', sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        color: var(--darkText4);
         font-size: 1em;
         line-height: 1.5;
         font-weight: 400;
@@ -184,6 +188,7 @@
       .fluxcloud img{
         width: 100%;
         height: auto;
+       
       }
 
       .section4{
@@ -193,7 +198,7 @@
       .section4 h3{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        color: var(--CardText);
         font-size: 2.7em;
         line-height: 1.1em;
         text-align: left;
@@ -208,7 +213,7 @@
         /* margin-bottom: 60px !important; */
         padding-top: 0em;
         font-family: 'Montserrat', sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        color: var(--darkText4);
         font-size: 1em;
         line-height: 1.5;
         font-weight: 400;
@@ -227,7 +232,7 @@
         margin-top: 5px;
       }
       .paymentOptionContainer {
-        border: 0.5px solid rgba(128, 128, 128, 0.261);
+        border: 0.5px solid var(--darkText4);
         display: inline-block;
         margin: 10px;
         width: 100%;
@@ -237,13 +242,16 @@
        align-items: center;
        justify-content: center;
        text-decoration: none;
+       color: var(--CardText);
+       font-weight: bold;
+       font-size: 1.15em;
 
       }
 
       .paymentOptionContainer h6{
         font-size: 17px;
         font-family: 'Montserrat';
-        color: rgba(128, 128, 128, 0.451);
+        color: var(--darkText4);
         font-weight: 100;
       }
     
@@ -251,9 +259,13 @@
         text-align: center;
       }
 
-      .solutions img{
+      .solutions {
         width: 100%;
-        height: auto;
+        height: 500px;
+        background: var(--solutions);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
       }
 
       .section4{
@@ -262,7 +274,7 @@
 
       .card{
         padding: 25px;
-        border: 0.5px solid rgba(128, 128, 128, 0.261);
+        border: 0.5px solid var(--darkText4);
         border-radius: 15px;
         margin: 20px;
         height: 100%;
@@ -274,7 +286,7 @@
         font-weight: bold;
         font-size: 18px;
         color: #2b61d1;
-        border: 0.5px solid rgba(128, 128, 128, 0.261);
+        border: 0.5px solid var(--darkText4);
         text-align: center;
         padding: 20px;
         border-radius: 10px;
@@ -287,7 +299,7 @@
         font-family: 'montserrat';
         font-weight: medium;
         font-size: 14px;
-        color: #6e6d6d;
+        color: var(--darkText4);
       }
 
 
@@ -347,7 +359,7 @@
     .section2 h3{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 2em;
         line-height: 1.1em;
         text-align: center;
@@ -376,7 +388,7 @@
       .section3 h3{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 2em;
         line-height: 1.1em;
         text-align: center;
@@ -389,7 +401,7 @@
         /* margin-bottom: 60px !important; */
         padding-top: 0em;
         font-family: 'Montserrat', sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        /* color: rgba(49, 52, 87, 0.8); */
         font-size: 0.9em;
         line-height: 1.5;
         font-weight: 400;
@@ -403,7 +415,7 @@
       .section4 h3{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 2em;
         line-height: 1.1em;
         text-align: left;
@@ -416,7 +428,7 @@
         /* margin-bottom: 60px !important; */
         padding-top: 0em;
         font-family: 'Montserrat', sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        /* color: rgba(49, 52, 87, 0.8); */
         font-size: 0.9em;
         line-height: 1.5;
         font-weight: 400;
@@ -432,7 +444,7 @@
       .paymentOptionContainer h6{
         font-size: 15px;
         font-family: 'Montserrat';
-        color: rgba(128, 128, 128, 0.451);
+        /* color: rgba(128, 128, 128, 0.451); */
         font-weight: 100;
       }
       .section1{
@@ -443,6 +455,12 @@
         width:100%;
         background-size:cover;
         background-position:center;
+      }
+      .techStack{
+        height: 400px;
+      }
+      .solutions{
+        height: 400px;
       }
     }
 
@@ -464,7 +482,7 @@
     .section2 h3{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 1.5em;
         line-height: 1.2em;
         text-align: center;
@@ -493,7 +511,7 @@
       .section3 h3{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 1.5em;
         line-height: 1.2em;
         text-align: center;
@@ -505,7 +523,7 @@
         /* margin-bottom: 60px !important; */
         padding-top: 0em;
         font-family: 'Montserrat', sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        /* color: rgba(49, 52, 87, 0.8); */
         font-size: 0.8em;
         line-height: 1.5;
         font-weight: 400;
@@ -518,7 +536,7 @@
       .section4 h3{
         margin: 0.1em auto 0em 0px;
         font-family: Montserrat, sans-serif;
-        color: #313457;
+        /* color: #313457; */
         font-size: 1.5em;
         line-height: 1.2em;
         text-align: left;
@@ -530,7 +548,7 @@
         /* margin-bottom: 60px !important; */
         padding-top: 0em;
         font-family: 'Montserrat', sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        /* color: rgba(49, 52, 87, 0.8); */
         font-size: 0.8em;
         line-height: 1.5;
         font-weight: 400;
@@ -546,7 +564,7 @@
       .paymentOptionContainer h6{
         font-size: 15px;
         font-family: 'Montserrat';
-        color: rgba(128, 128, 128, 0.451);
+        /* color: rgba(128, 128, 128, 0.451); */
         font-weight: 100;
       }
 
@@ -596,7 +614,7 @@
         /* margin-bottom: 60px !important; */
         padding-top: 0em;
         font-family: 'Montserrat', sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        /* color: rgba(49, 52, 87, 0.8); */
         font-size: 0.8em;
         line-height: 1.5;
         font-weight: 400;
@@ -615,7 +633,7 @@
         /* margin-bottom: 60px !important; */
         padding-top: 0em;
         font-family: 'Montserrat', sans-serif;
-        color: rgba(49, 52, 87, 0.8);
+        /* color: rgba(49, 52, 87, 0.8); */
         font-size: 0.8em;
         line-height: 1.5;
         font-weight: 400;
@@ -631,12 +649,12 @@
       .paymentOptionContainer h6{
         font-size: 13px;
         font-family: 'Montserrat';
-        color: rgba(128, 128, 128, 0.451);
+        /* color: rgba(128, 128, 128, 0.451); */
         font-weight: 100;
       }
       .card{
         padding: 15px;
-        border: 0.5px solid rgba(128, 128, 128, 0.261);
+        /* border: 0.5px solid rgba(128, 128, 128, 0.261); */
         border-radius: 15px;
         margin: 20px;
         height: 100%;
@@ -648,7 +666,7 @@
         font-weight: bold;
         font-size: 15px;
         color: #2b61d1;
-        border: 0.5px solid rgba(128, 128, 128, 0.261);
+        /* border: 0.5px solid rgba(128, 128, 128, 0.261); */
         text-align: center;
         padding: 15px;
         border-radius: 10px;
@@ -661,7 +679,7 @@
         font-family: 'montserrat';
         font-weight: medium;
         font-size: 13px;
-        color: #6e6d6d;
+        /* color: #6e6d6d; */
       }
     }
 

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Script from 'next/script'
 import { XDAOPage } from '../components/xdaoPage/xdaoPage'
 import { NavBar } from '../components/navbar/navbar'
-import ThemeToggle from '../components/themeToggle/ThemeToggle';
+
 export default function XDAO() {
   return (
     <div>
@@ -22,7 +22,7 @@ export default function XDAO() {
             gtag('config', 'G-KTKEYE3YMN');
             `}
         </Script>
-        <ThemeToggle />
+    
       <NavBar/>
      <XDAOPage/>
     </div>

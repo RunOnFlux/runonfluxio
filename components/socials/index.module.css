@@ -16,7 +16,7 @@
   .section1 h1{
   margin: 0.2em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  color: var(--CardText);
   font-size: 3.7em;
   line-height: 1.1em;
   text-align: center;
@@ -30,7 +30,7 @@
     /* margin-bottom: 60px !important; */
     padding-top: 0em;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: var(--darkText4);
     font-size: 1.3em;
     line-height: 1.5;
     font-weight: 500;
@@ -40,7 +40,7 @@
   .section2 h3{
     margin: 0.1em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 2.7em;
     line-height: 1.1em;
     text-align: left;
@@ -52,10 +52,11 @@
     width: 100%;
     height: 200px;
     border-radius: 11px;
-    box-shadow: 10px 10px 50px 5px #2B61D11A;
+    box-shadow: var(--boxShadow);
     text-align: center;
     margin: 15px auto;
     transition: all .2s ease-in-out;
+    background: var(--CardBg)
 }
 .card:hover{
     transform: scale(1.1); 
@@ -63,7 +64,7 @@
 
 .cardImg{
     margin-top: 40px;
-    box-shadow: 8px 8px 10px 4px #2B61D11A;
+    box-shadow: var(--boxShadow);
     padding: 10px;
     width: 50px;
     height: 50px;
@@ -100,18 +101,19 @@
     width: 100%;
     height: 150px;
     border-radius: 13px;
-    box-shadow: 10px 10px 50px 5px #2B61D11A;
+    box-shadow: var(--boxShadow);
     text-align: left;
     padding: 20px; 
     transition: all .2s ease-in-out; 
     margin: 20px auto;
     display: flex;
     align-items: center;
+    background: var(--CardBg);
 }
 
 .ambCardImg{
     float: left;
-    box-shadow: 8px 8px 10px 4px #2B61D11A;
+    box-shadow: var(--boxShadow);
     padding: 10px;
     width: 50px;
     height: 50px;
@@ -194,7 +196,7 @@
   .section2 h3{
     margin: 0.1em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    /* color: #313457; */
     font-size: 2em;
     line-height: 1.1em;
     text-align: left;
@@ -218,7 +220,7 @@
   .section2 h3{
     margin: 0.1em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    /* color: #313457; */
     font-size: 1.5em;
     line-height: 1.2em;
     text-align: left;
@@ -229,14 +231,14 @@
     width: 100%;
     height: 150px;
     border-radius: 11px;
-    box-shadow: 10px 10px 50px 5px #2B61D11A;
+    /* box-shadow: 10px 10px 50px 5px #2B61D11A; */
     text-align: center;
     margin: 15px auto;
     transition: all .2s ease-in-out;
   }
   .cardImg{
     margin-top: 20px;
-    box-shadow: 8px 8px 10px 4px #2B61D11A;
+    /* box-shadow: 8px 8px 10px 4px #2B61D11A; */
     padding: 7px;
     width: 35px;
     height: 35px;
@@ -264,14 +266,14 @@
     width: 100%;
     height: 150px;
     border-radius: 11px;
-    box-shadow: 10px 10px 50px 5px #2B61D11A;
+    /* box-shadow: 10px 10px 50px 5px #2B61D11A; */
     text-align: center;
     margin: 15px auto;
     transition: all .2s ease-in-out;
   }
   .cardImg{
     margin-top: 20px;
-    box-shadow: 8px 8px 10px 4px #2B61D11A;
+    /* box-shadow: 8px 8px 10px 4px #2B61D11A; */
     padding: 7px;
     width: 35px;
     height: 35px;

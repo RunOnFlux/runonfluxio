@@ -43,15 +43,19 @@
 }
 
 .link1{
-    background: white;
+    background: var(--btnBg);
     box-shadow: var(--boxShadow);
     font-size: 12px;
     text-decoration: none;
-    color: var(--darkText4);
+    color: var(--btnColor);
     padding: 10px 30px;
     margin: 20px;
     font-family: Montserrat, sans-serif;
     font-weight: 500;
+    border-radius: 5px;
+}
+.link1:hover{
+    color: var(--btnColor);
 }
 .section1 h3{
     margin: 0.2em auto 0em 0px;

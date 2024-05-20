@@ -205,7 +205,7 @@ export function Flux() {
                         </div>
                         <div className="col-lg-5 col-md-6">
                             <div className={styles.headerImg}>
-                            <Image  src={fluxCircle} alt="Flux-Circle-Thing"/>
+                            {/* <Image  src={fluxCircle} alt="Flux-Circle-Thing"/> */}
                             </div>  
                         </div>
                     </div>
@@ -434,7 +434,7 @@ export function Flux() {
                         </div>
                         <div className="col-md-6">
                             <div className={styles.img3}>
-                            <Image className={styles.multiImg} src={mulitRing} alt="Flux-Circle-Graph"/>
+                            {/* <Image className={styles.multiImg} src={mulitRing} alt="Flux-Circle-Graph"/> */}
                             </div>
                         </div>
                     </div>
@@ -457,7 +457,7 @@ export function Flux() {
                 </div>
                 <div className="row" style={{marginTop: "100px"}}>
                     <div className={styles.ecoImg}>
-                    <Image src={ecosystemImg} alt=""/>
+                    {/* <Image src={ecosystemImg} alt=""/> */}
                     </div>
                 </div>
                 <div className="row" style={{marginTop: "50px"}}>

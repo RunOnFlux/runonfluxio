@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Script from 'next/script'
 import { FluxDappsPage } from '../components/fluxDapps/fluxDappsPage'
 import { NavBar } from '../components/navbar/navbar'
-import ThemeToggle from '../components/themeToggle/ThemeToggle';
+
 export default function Dapps() {
   return (
     <div>
@@ -22,7 +22,6 @@ export default function Dapps() {
             gtag('config', 'G-KTKEYE3YMN');
             `}
         </Script>
-        <ThemeToggle />
       <NavBar/>
      <FluxDappsPage/>
     </div>

@@ -1,7 +1,7 @@
 .section1 h2{
     margin: 0.8em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 3.2em;
     line-height: 1.1em;
     text-align: left;
@@ -14,7 +14,7 @@
       /* margin-bottom: 60px !important; */
       padding-top: 0em;
       font-family: 'Open Sans', sans-serif;
-      color: rgba(49, 52, 87, 0.8);
+      color: var(--darkText4);
       font-size: 1em;
       line-height: 1.5;
       font-weight: 400;
@@ -34,7 +34,7 @@
     /* margin-bottom: 60px !important; */
     padding-top: 0em;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: var(--darkText4);
     font-size: 1em;
     line-height: 1.5;
     font-weight: 400;
@@ -44,7 +44,7 @@
 .section2 h3{
   margin: 0.8em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  color: var(--CardText);
   font-size: 1.5em;
   line-height: 1.7em;
   text-align: left;
@@ -53,7 +53,7 @@
 
 .table td{
     font-family: 'Open Sans', sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: var(--darkText4);
     font-size: 1em;
     line-height: 1.5;
     font-weight: 400;
@@ -63,7 +63,7 @@
 .table th{
     margin: 0.8em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 1em;
     line-height: 1.5em;
     text-align: left;
@@ -75,7 +75,7 @@
 .section3 h3{
   margin: 0.8em auto 0em 0px;
   font-family: Montserrat, sans-serif;
-  color: #313457;
+  color: var(--CardText);
   font-size: 1.5em;
   line-height: 1.7em;
   text-align: left;
@@ -86,7 +86,7 @@
 .section3 h4{
     margin: 0.8em auto 0em 0px;
     font-family: Montserrat, sans-serif;
-    color: #313457;
+    color: var(--CardText);
     font-size: 1.2em;
     line-height: 1.7em;
     text-align: left;
@@ -99,7 +99,7 @@
     /* margin-bottom: 60px !important; */
     padding-top: 0em;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: var(--darkText4);
     font-size: 1em;
     line-height: 1.5;
     font-weight: 400;
@@ -110,7 +110,7 @@
 }
 .section3 ul li{
     font-family: 'Open Sans', sans-serif;
-    color: rgba(49, 52, 87, 0.8);
+    color: var(--darkText4);
     font-size: 1em;
     line-height: 1.5;
     font-weight: 400;
@@ -125,7 +125,7 @@
 }
 
 .fingerPrint{
-    border: 1px solid rgba(49, 52, 87, 0.11);
+    border: 1px solid var(--darkText4);
     padding: 30px;
 }
 

@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Script from 'next/script'
 import { HomePage } from '../components/Homepage/homePage.js'
 import { NavBar } from '../components/navbar/navbar.js'
-import ThemeToggle from '../components/themeToggle/ThemeToggle';
+
 
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
             `}
         </Script>
       
-        <ThemeToggle />
+       
         <NavBar/>
       <HomePage/> 
 

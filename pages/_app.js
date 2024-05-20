@@ -7,7 +7,7 @@ import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.css';
 import { SSRProvider } from 'react-bootstrap';
 import { BreakpointProvider } from 'react-socks';
-
+import ThemeToggle from '../components/themeToggle/ThemeToggle';
 
 function MyApp({ Component, pageProps }) {
   
@@ -35,7 +35,7 @@ const [showChild, setShowChild] = useState(false)
        <SSRProvider>
       <Layout>
       <BreakpointProvider>
- 
+      <ThemeToggle />
       <Component {...pageProps} />
     
       
