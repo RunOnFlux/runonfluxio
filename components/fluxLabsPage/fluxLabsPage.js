@@ -156,9 +156,9 @@ export function FluxLabsPage(){
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://fioprotocol.io/" target="_blank">  <Image alt="logo" src={logo13}/></a>
                             </div>
-                            <div className="col-lg-3 col-md-4 col-sm-4 col-6">
+                            {/* <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://hostnodes.online/" target="_blank">  <Image alt="logo" src={logo14}/></a>
-                            </div>
+                            </div> */}
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://www.fluxnodehosting.com/" target="_blank">  <Image alt="logo" src={logo15}/></a>
                             </div>

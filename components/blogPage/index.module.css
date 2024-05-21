@@ -176,11 +176,11 @@
         
     } */
     .link1{
-        background: white;
-        box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+        /* background: white; */
+        /* box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05); */
         font-size: 12px;
         text-decoration: none;
-        color: #313457;
+        /* color: #313457; */
         padding: 10px 20px;
         margin: 5px;
     }
