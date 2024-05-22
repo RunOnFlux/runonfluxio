@@ -29,6 +29,16 @@ const [showChild, setShowChild] = useState(false)
     <>
     <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Flux Web3 Cloud" />
+        <meta property="og:description" content="The Flux Ecosystem is a suite of decentralized computing services and blockchain-as-a-service solutions." />
+        <meta property="og:image" content="https://www.runonflux.io/_next/static/media/Flux_white_logo.0150b7f6.svg" />
+        <meta property="og:url" content="https://runonflux.io" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="https://www.runonflux.io/_next/static/media/Flux_white_logo.0150b7f6.svg" />
+        <meta name="twitter:title" content="Flux Web3 Cloud" />
+        <meta name="twitter:description" content="The Flux Ecosystem is a suite of decentralized computing services and blockchain-as-a-service solutions." />
+        <meta name="twitter:image" content="https://www.runonflux.io/_next/static/media/Flux_white_logo.0150b7f6.svg" />
+        <meta name="twitter:url" content="https://twitter.com/runonflux?s=21&t=Apmhzi-5t3IhlOFLmqTrPw" />
       </Head>
 
     <React.Fragment>
