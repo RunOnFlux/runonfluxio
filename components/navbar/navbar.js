@@ -137,7 +137,7 @@ export function NavBar(){
                     <NavDropdown.Item >
                       <Link href={'/flux'} className={styles.link} eventKey="4"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        Flux
+                        Flux Asset
                      <br/>
                     <div className={styles.sublink}>Our Proof-of-Work cryptocurrency that powers the <br/>Flux ecosystem.</div>
                       </div>
@@ -157,12 +157,23 @@ export function NavBar(){
                     <NavDropdown.Item >
                       <Link href={'/parallelMining'} className={styles.link} eventKey="5"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        Parallel Mining
+                        Parallel Assets
                      <br/>
                     <div className={styles.sublink}>Flux assets can be mined on other blockchains <br/> that are interchangeable with the main chain.</div>
                       </div>
                     
                       </Link> 
+                    </NavDropdown.Item>
+
+                    <NavDropdown.Item>
+                        <Link href={'/mining'} eventKey={19} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                      Flux Mining
+                        <br/>
+                        <div className={styles.sublink}>Learn how to mine Flux with your GPU and what pools <br/> to join.</div>
+                        </div>
+                        </Link>
+                       
                     </NavDropdown.Item>
 
                     <NavDropdown.Item >
@@ -300,7 +311,7 @@ export function NavBar(){
                  </NavDropdown> 
 
                  <NavDropdown title={
-                      <span>Developers<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Users<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
                   }
                     id="basic-nav-dropdown1" 
                     show={show}
@@ -309,16 +320,16 @@ export function NavBar(){
                   >
                     <div className={styles.dropMenu}>
                     <NavDropdown.Item>
-                        <Link href={'/app'} eventKey={17} className={styles.link} >
+                        <Link href={'https://cloud.runonflux.io/'} eventKey={17} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
-                        App
+                        FluxCloud Products
                         <br/>
                         <div className={styles.sublink}>Discover how to launch an app on the Flux network.</div>
                         </div>
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item>
+                    {/* <NavDropdown.Item>
                         <Link href={'/node'} eventKey={18} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Node
@@ -327,7 +338,7 @@ export function NavBar(){
                         </div>
                         </Link>
                        
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
                     <NavDropdown.Item>
                         <Link href={'/guides'} eventKey={18} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
@@ -338,7 +349,7 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item>
+                    {/* <NavDropdown.Item>
                         <Link href={'/fractusnode'} eventKey={1818} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Fractus
@@ -347,17 +358,8 @@ export function NavBar(){
                         </div>
                         </Link>
                        
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        <Link href={'/mining'} eventKey={19} className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Miner
-                        <br/>
-                        <div className={styles.sublink}>Learn how to mine Flux with your GPU and what pools <br/> to join.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
+                   
                    
                     <NavDropdown.Item>
                         <Link href={'/flux#exchanges'} eventKey={20} className={styles.link} >
@@ -372,7 +374,7 @@ export function NavBar(){
                     <NavDropdown.Item>
                         <Link href={'/fluxStore'} eventKey={21} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
-                        Flux store
+                        GotFlux store
                         <br/>
                         <div className={styles.sublink}>Buy Flux gear designed just for you.</div>
                         </div>
@@ -392,7 +394,7 @@ export function NavBar(){
                     <NavDropdown.Item>
                         <Link href={'/pressKit'} eventKey={24} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
-                       Press kit
+                       Press Kit
                         <br/>
                         <div className={styles.sublink}>Our press kit and other related resources.</div>
                         </div>
@@ -402,7 +404,7 @@ export function NavBar(){
                     <NavDropdown.Item>
                         <Link href={'/bugBountyProgram'} eventKey={27} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
-                       Bug bounty
+                       Bug Bounty
                         <br/>
                         <div className={styles.sublink}>Get rewarded for finding bugs and exploits.</div>
                         </div>
@@ -563,7 +565,7 @@ export function NavBar(){
                     <NavDropdown.Item eventKey="34">
                       <Link href={'/flux'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        Flux
+                        Flux Asset
                      <br/>
                     <div className={styles.sublink}>Our Proof-of-Work cryptocurrency that<br/> powers the Flux ecosystem.</div>
                       </div>
@@ -583,12 +585,23 @@ export function NavBar(){
                     <NavDropdown.Item eventKey="35">
                       <Link href={'/parallelMining'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        Parallel Mining
+                        Parallel Assets
                      <br/>
                     <div className={styles.sublink}>Flux assets can be mined on other <br/>blockchains that are interchangeable with <br/>the main chain.</div>
                       </div>
                     
                       </Link> 
+                    </NavDropdown.Item>
+
+                    <NavDropdown.Item>
+                        <Link href={'/mining'} eventKey={19} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                      Flux Mining
+                        <br/>
+                        <div className={styles.sublink}>Learn how to mine Flux with your GPU and what pools <br/> to join.</div>
+                        </div>
+                        </Link>
+                       
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="36">
@@ -725,23 +738,23 @@ export function NavBar(){
                  </NavDropdown>  
 
                  <NavDropdown title={
-                      <span>Developers<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Users<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
                   }
                     id="basic-nav-dropdown" 
                    
                   >
 
                       <NavDropdown.Item eventKey="47">
-                        <Link href={'/app'}  className={styles.link} >
+                        <Link href={'https://cloud.runonflux.io/'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
-                        App
+                         FluxCloud Products
                         <br/>
                         <div className={styles.sublink}>Discover how to launch an app on the <br/>Flux network.</div>
                         </div>
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="48">
+                    {/* <NavDropdown.Item eventKey="48">
                         <Link href={'/node'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Node
@@ -750,7 +763,7 @@ export function NavBar(){
                         </div>
                         </Link>
                        
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
                     <NavDropdown.Item eventKey="5151">
                         <Link href={'/guides'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
@@ -761,7 +774,7 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="4848">
+                    {/* <NavDropdown.Item eventKey="4848">
                         <Link href={'/fractusnode'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Fractus
@@ -770,17 +783,8 @@ export function NavBar(){
                         </div>
                         </Link>
                        
-                    </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="49">
-                        <Link href={'/mining'}  className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Miner
-                        <br/>
-                        <div className={styles.sublink}>Learn how to mine Flux with your GPU <br/>and what pools to join.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
+                   
                    
                     <NavDropdown.Item eventKey="50" >
                         <Link href={'/flux#exchanges'} className={styles.link} >
@@ -795,7 +799,7 @@ export function NavBar(){
                     <NavDropdown.Item eventKey="51">
                         <Link href={'/fluxStore'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
-                        Flux store
+                        GotFlux store
                         <br/>
                         <div className={styles.sublink}>Buy Flux gear designed just for you.</div>
                         </div>
@@ -815,7 +819,7 @@ export function NavBar(){
                     <NavDropdown.Item eventKey="54">
                         <Link href={'pressKit'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
-                       Press kit
+                       Press Kit
                         <br/>
                         <div className={styles.sublink}>Our press kit and other related resources.</div>
                         </div>
@@ -826,7 +830,7 @@ export function NavBar(){
                     <NavDropdown.Item eventKey="57">
                         <Link href={'/bugBountyProgram'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
-                       Bug bounty
+                       Bug Bounty
                         <br/>
                         <div className={styles.sublink}>Get rewarded for finding bugs and exploits.</div>
                         </div>
