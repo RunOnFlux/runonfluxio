@@ -81,7 +81,7 @@ export function FluxOSPage(){
                     </div>
                     <div className="row d-none d-xl-block d-lg-block ">
                         <div className={styles.fluxcloud}>
-                            <Image alt="img" src={fluxcloud}/>
+                            {/* <Image alt="img" src={fluxcloud}/> */}
                         </div>
                     </div>
                     <div className="row d-xl-none d-lg-none ">

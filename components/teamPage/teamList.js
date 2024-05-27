@@ -80,7 +80,7 @@ const teamAsset = [
     {
         name: 'Davy Wittock',
         thumbnail: davy,
-        twitterLink: '',
+        twitterLink: 'https://twitter.com/Jefke_ST',
         linkedInLink: 'https://www.linkedin.com/in/davywittock/',
         title: 'CBO and Community Member',
         intro: 'Davy leads the Business Development team and specializes in Customer Relationship Management.',
