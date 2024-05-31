@@ -162,7 +162,7 @@ export function HomePage(){
                             <h6>The Flux Cloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance</h6>
                             <div className={styles.buttons}>
                             <a href="https://cloud.runonflux.io/" className={styles.btn2}>Deploy Now</a>
-                            <a href="https://home.runonflux.io/apps/marketplace" rel="noreferrer" target="_blank" className={styles.btn1}>Marketplace</a>
+                            <a href="https://cloud.runonflux.io/marketplace" rel="noreferrer" target="_blank" className={styles.btn1}>Marketplace</a>
                             </div>
                             <p>$ Calculate the cost for your solution.   <a href="https://cloud.runonflux.io/"  rel="noreferrer" target="_blank">View Cost</a></p>
                             </div>
@@ -478,7 +478,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Flux Drive</h5>
                                 <h6>Not your Drive, Not your File! Flux Drive stores your data in a decentralized manner using the Flux Cloud.</h6>
-                                <a href="https://cloud.runonflux.io/#/plans" target="_blank" rel="noreferrer">Store Now</a>
+                                <a href="https://cloud.runonflux.io/fluxdrive" target="_blank" rel="noreferrer">Store Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5">
@@ -488,7 +488,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Flux Marketplace</h5>
                                 <h6>Interact and transact on a permission-less, and self-executing Marketplace powered by the Flux Cloud.</h6>
-                                <a href="https://home.runonflux.io/apps/marketplace" target="_blank" rel="noreferrer">Visit Now</a>
+                                <a href="https://cloud.runonflux.io/marketplace" target="_blank" rel="noreferrer">Visit Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5 d-block d-lg-none">
