@@ -164,7 +164,7 @@ export function HomePage(){
                             <a href="https://cloud.runonflux.io/" className={styles.btn2}>Deploy Now</a>
                             <a href="https://cloud.runonflux.io/marketplace" rel="noreferrer" target="_blank" className={styles.btn1}>Marketplace</a>
                             </div>
-                            <p>$ Calculate the cost for your solution.   <a href="https://cloud.runonflux.io/"  rel="noreferrer" target="_blank">View Cost</a></p>
+                            <p>$ Calculate the cost for your solution.   <a href="https://cloud.runonflux.io/cost_calculator"  rel="noreferrer" target="_blank">View Cost</a></p>
                             </div>
                         </div>
                         <div className="col-lg-4"></div>
@@ -526,11 +526,11 @@ export function HomePage(){
                 <div className="container">
                 <div className="row text-center mb-4">
                         <h2>Launch Your <span>App</span> Now</h2>
-                        <p className="mb-3">Any hardened dockerized application can run on Flux’s fully decentralized computational network. The Flux service offers a fully decentralized alternative to other service providers, while maintaining competitive pricing.</p>
+                        <p className="mb-3">Any hardened dockerized application can run on Flux's fully decentralized computational network. The Flux service offers a fully decentralized alternative to other service providers, while maintaining competitive pricing.</p>
                         
                     </div>
                     <div className="row">
-                    <a href="https://cloud.runonflux.io/#/launch" target="_blank" rel="noreferrer" className={styles.btn2} style={{margin: "auto"}}>Launch App</a>
+                    <a href="https://cloud.runonflux.io/launch" target="_blank" rel="noreferrer" className={styles.btn2} style={{margin: "auto"}}>Launch App</a>
                     </div>
                    
                 </div>
