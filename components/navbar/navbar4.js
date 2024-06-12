@@ -320,7 +320,7 @@ export function NavBar4(){
                   >
                     <div className={styles.dropMenu}>
                     <NavDropdown.Item>
-                        <Link href={'https://cloud.runonflux.io/'} eventKey={17} className={styles.link} >
+                        <Link href={'/fluxCloud'} eventKey={17} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                         FluxCloud Products
                         <br/>
@@ -745,7 +745,7 @@ export function NavBar4(){
                   >
 
                       <NavDropdown.Item eventKey="47">
-                        <Link href={'https://cloud.runonflux.io/'}  className={styles.link} >
+                        <Link href={'/fluxCloud'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
                          FluxCloud Products
                         <br/>

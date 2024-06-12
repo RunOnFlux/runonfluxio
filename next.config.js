@@ -20,7 +20,7 @@ async redirects() {
   return [
     {
       source: '/fluxCloud',
-      destination: 'https://cloud.runonflux.io/hello.html',
+      destination: 'https://cloud.runonflux.io',
       permanent: false,
       basePath: false
     },

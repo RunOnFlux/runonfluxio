@@ -110,7 +110,7 @@ export function HomePage(){
               setTotalNodes(nodes.length.toLocaleString());
               setTotalCores(vcores.toLocaleString());
               setTotalRAM((ram/1000).toFixed(2) + " " + "TB");
-              setTotalSSD((ssd/1000000).toFixed(3) + " " + "PT");
+              setTotalSSD((ssd/1000000).toFixed(3) + " " + "PB");
         
             }
           };
@@ -162,9 +162,9 @@ export function HomePage(){
                             <h6>The Flux Cloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance</h6>
                             <div className={styles.buttons}>
                             <a href="https://cloud.runonflux.io/" className={styles.btn2}>Deploy Now</a>
-                            <a href="https://home.runonflux.io/apps/marketplace" rel="noreferrer" target="_blank" className={styles.btn1}>Marketplace</a>
+                            <a href="https://cloud.runonflux.io/marketplace" rel="noreferrer" target="_blank" className={styles.btn1}>Marketplace</a>
                             </div>
-                            <p>$ Calculate the cost for your solution.   <a href="https://cloud.runonflux.io/"  rel="noreferrer" target="_blank">View Cost</a></p>
+                            <p>$ Calculate the cost for your solution.   <a href="https://cloud.runonflux.io/cost_calculator"  rel="noreferrer" target="_blank">View Cost</a></p>
                             </div>
                         </div>
                         <div className="col-lg-4"></div>
@@ -478,7 +478,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Flux Drive</h5>
                                 <h6>Not your Drive, Not your File! Flux Drive stores your data in a decentralized manner using the Flux Cloud.</h6>
-                                <a href="https://cloud.runonflux.io/#/plans" target="_blank" rel="noreferrer">Store Now</a>
+                                <a href="https://cloud.runonflux.io/fluxdrive" target="_blank" rel="noreferrer">Store Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5">
@@ -488,7 +488,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Flux Marketplace</h5>
                                 <h6>Interact and transact on a permission-less, and self-executing Marketplace powered by the Flux Cloud.</h6>
-                                <a href="https://home.runonflux.io/apps/marketplace" target="_blank" rel="noreferrer">Visit Now</a>
+                                <a href="https://cloud.runonflux.io/marketplace" target="_blank" rel="noreferrer">Visit Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5 d-block d-lg-none">
@@ -526,11 +526,11 @@ export function HomePage(){
                 <div className="container">
                 <div className="row text-center mb-4">
                         <h2>Launch Your <span>App</span> Now</h2>
-                        <p className="mb-3">Any hardened dockerized application can run on Flux’s fully decentralized computational network. The Flux service offers a fully decentralized alternative to other service providers, while maintaining competitive pricing.</p>
+                        <p className="mb-3">Any hardened dockerized application can run on Flux's fully decentralized computational network. The Flux service offers a fully decentralized alternative to other service providers, while maintaining competitive pricing.</p>
                         
                     </div>
                     <div className="row">
-                    <a href="https://cloud.runonflux.io/#/launch" target="_blank" rel="noreferrer" className={styles.btn2} style={{margin: "auto"}}>Launch App</a>
+                    <a href="https://cloud.runonflux.io/launch" target="_blank" rel="noreferrer" className={styles.btn2} style={{margin: "auto"}}>Launch App</a>
                     </div>
                    
                 </div>
