@@ -12,7 +12,7 @@ export function BlogPage(){
                         <div className="row">
                         <h4>Blog</h4>
                         <h5>Flux provides the critical, high-availability infrastructure for the New Web 3 Internet.</h5>  
-                        <span><a className={styles.link1} href="" target="_blank">Flux Docs Portal</a> <a href="" target="_blank" className={styles.link1}>Wiki Runonflux</a></span>
+                        {/* <span><a className={styles.link1} href="" target="_blank">Flux Docs Portal</a> <a href="" target="_blank" className={styles.link1}>Wiki Runonflux</a></span> */}
                         
                         </div>
 

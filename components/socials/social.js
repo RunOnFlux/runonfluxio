@@ -144,7 +144,7 @@ export function Social() {
                         <div className={styles.card}>
                             <Image className={styles.cardImg} alt={"img"} src={linkedinImg}></Image>
                             <br></br>
-                            <a href="https://fr.linkedin.com/company/flux" className={styles.btn}>LinkedIn</a>
+                            <a href="https://www.linkedin.com/company/influxtechnology/mycompany/" className={styles.btn}>LinkedIn</a>
                         </div>
                         </div>
                         <div className="col-lg-2 col-md-3 col-6">
@@ -158,7 +158,7 @@ export function Social() {
                         <div className={styles.card}>
                             <Image className={styles.cardImg} alt={"img"} src={instagramImg}></Image>
                             <br></br>
-                            <a href="" className={styles.btn}>Instagram</a>
+                            <a href="https://www.instagram.com/runonflux_official/" className={styles.btn}>Instagram</a>
                         </div>
                         </div>
                 </div>
@@ -226,7 +226,7 @@ export function Social() {
                         <div className={styles.ambCard}>
                             <div><Image src={nederland} className={styles.ambCardImg} alt=""></Image></div>
                             <div className={styles.links}>
-                            <p className={styles.ambText}>Flux Official <br></br> Nederland Ambassador</p>
+                            <p className={styles.ambText}>Flux Official <br></br> Netherlands Ambassador</p>
                                 <a href="https://twitter.com/FluxNederland"><Image  className={styles.noBord} src={icon_twitter} alt=""></Image></a>
                             </div>
                         </div>

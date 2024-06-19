@@ -36,6 +36,10 @@ import maker from "../../public/images/partners/MakerDAO.png"
 import monero from "../../public/images/partners/mymonero-p-500.png"
 import binance from "../../public/images/partners/Binance.png"
 import linkIcon from "../../public/images/partners/icons8-external-link.svg"
+import suse from "../../public/images/partners/suse.svg"
+import timpi from "../../public/images/partners/timpi.svg"
+import scalia from "../../public/images/partners/scalia.svg"
+import dns from "../../public/images/partners/3dns.svg"
 export function PartnersPage(){
     return(
         <React.Fragment>
@@ -56,6 +60,24 @@ export function PartnersPage(){
                                             <h1>NVIDIA</h1>
                                             <h2><b>Nvidia Inception program</b></h2>
                                             <h3>Flux has been accepted into the Nvidia Inception program. As a premier partner, Flux will be able to evolve faster through access to NVIDIA’s cutting-edge technology and experts, networking events, and co-marketing support.</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div className="row">
+                        <div className="col mb-5">
+                            <div className={styles.card}>
+                                <div className="row">
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={suse} alt="partners"/></div>
+                                    <div className="col-lg-6">
+                                        <div>
+                                            <h1>SUSE</h1>
+                                           
+                                            <h3>SUSE, a global leader in enterprise-grade open-source solutions, trusted by over 60% of the Fortune 500, powers mission-critical workloads with Rancher, NeuVector, and SUSE Linux Enterprise, collaborating with partners and communities to enable innovation from the data center to the cloud and beyond, employing over 2,400 people globally and listed on the Frankfurt Stock Exchange.
+                                            </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -251,7 +273,7 @@ export function PartnersPage(){
                         </div> 
                     </div>
 
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
@@ -266,7 +288,7 @@ export function PartnersPage(){
                                 </div>
                             </div>
                         </div> 
-                    </div>
+                    </div> */}
 
                     <div className="row">
                         <div className="col mb-5">
@@ -310,7 +332,7 @@ export function PartnersPage(){
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>js13kGames</h1>
-                                            <h3><b>Js13kGames</b> is a JavaScript coding competition for <b> HTML5 Game Developers</b> The fun part of the competition is the file size limit set to <b>13 kilobytes.</b> The competition will start at <b>13:00 CEST, 13th August</b> and end at <b>13:00 CEST, 13th September 2021 </b></h3>
+                                            <h3><b>Js13kGames</b> is a JavaScript coding competition for <b> HTML5 Game Developers</b> The fun part of the competition is the file size limit set to <b>13 kilobytes.</b> The competition will start at <b>13:00 CEST, 13th August</b> and end at <b>13:00 CEST, 13th September 2021. </b></h3>
                                                                                     </div>
                                     </div>
                                 </div>
@@ -339,7 +361,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner24} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={timpi} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Timpi</h1>
@@ -359,7 +381,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner25} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={scalia} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>Scalia</h1>
@@ -394,7 +416,7 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner27} alt="partners"/></div>
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={dns} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>3DNS</h1>

@@ -124,7 +124,7 @@ export function Slider4(){
                 <SplideSlide>
                 <div className={styles.appCard}>
                     <div><Image src={libreddit} alt="Image 1"/></div>
-                    <a className={styles.btn} href="https://libreddit.app.runonflux.io/" target="_blank" rel="noreferrer">Libreddit</a>
+                    <a className={styles.btn} href="" target="_blank" rel="noreferrer">Libreddit</a>
                     </div>
                 </SplideSlide>
                 <SplideSlide>
@@ -161,7 +161,7 @@ export function Slider4(){
                 <SplideSlide>
                 <div className={styles.appCard}>
                     <div><Image src={docushield} alt="Image 1"/></div>
-                    <a className={styles.btn} href="https://docushield.app/" target="_blank" rel="noreferrer">Docushield</a>
+                    <a className={styles.btn} href="https://www.docushield.live/" target="_blank" rel="noreferrer">Docushield</a>
                     </div>
                 </SplideSlide>
                 <SplideSlide>

@@ -9,7 +9,7 @@ import { useEffect, useState} from "react";
 
     const fetchData = async () => {
         try {
-            const response = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@fluxofficial");
+            const response = await fetch("/api/getBlog");
             const data = await response.json();
             const blogData = data?.items ?? [];
             

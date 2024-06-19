@@ -117,7 +117,7 @@ export function FluxCarbonPage(){
 
                     <div className="row mb-5">
                         <h3 className="text-center">Building <span>The Future</span> Together</h3><br/>
-                        <p className="text-center">Flux actively seeks ways to build a more sustainable and environmentally friendly blockchain. We’d love to join forces with others in this endeavor, as it should be a shared mission for all blockchains to protect the environment. If you have good ideas for making blockchain more sustainable, please seek and share them with us to develop a better future together.</p>
+                        <p className="text-center">Flux actively seeks ways to build a more sustainable and environmental friendly blockchain. We’d love to join forces with others in this endeavor, as it should be a shared mission for all blockchains to protect the environment. If you have good ideas for making blockchain more sustainable, please seek and share them with us to develop a better future together.</p>
                     </div>
 
                     <div className="row">

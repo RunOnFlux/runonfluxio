@@ -20,16 +20,16 @@ export function MiningPage(){
                         <div className="col-xl-6">
                             <Image alt="logo" src={fluxLogo}/>
                             <h1>Flux Mining Ecosystem</h1>
-                            <p>Flux is mined using the ZelHash algorithm. ZelHash is a GPU minable implementation of Equihash 125,4, harnessing ASIC/FPGA resistance, developed by Wilke Trei of lolMiner.</p>
+                            <p>Flux is mined using the  ZelHash algorithm. ZelHash is a GPU minable implementation of Equihash 125,4, harnessing ASIC/FPGA resistance, developed by Wilke Trei of lolMiner.</p>
                         </div>
                         <div className="col-xl-6"></div>
                     </div>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className={styles.btns}>
                             <a>ZelHash Whitepaper</a>
                             <a>Flux Pool</a>
                         </div>
-                     </div>
+                     </div> */}
                 </div>
             </section>
 
@@ -166,7 +166,7 @@ export function MiningPage(){
                                 </div>    
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
+                        {/* <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                             <div className={styles.card2}>
                                 <div>
                                     <h5>EnigmaPool</h5>
@@ -174,7 +174,7 @@ export function MiningPage(){
                                     <p>Stratums: EU, US, Asia</p>
                                 </div>    
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                             <div className={styles.card2}>
                                 <div>
@@ -294,7 +294,7 @@ export function MiningPage(){
                         <div className="col-12">
                         <h3 className="mb-4">Third Party Mining Tutorials</h3>
                         <div className={styles.btns}>
-                            <a>Flux Pool</a>
+                            {/* <a>Flux Pool</a> */}
                         </div><br/>
                         <p>Note that we are not associated with any of these video tutorials or any placement of product contained within. These videos are provided as examples only.</p>
                         </div>

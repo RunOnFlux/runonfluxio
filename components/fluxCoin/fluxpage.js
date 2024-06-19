@@ -408,7 +408,7 @@ export function Flux() {
                                 <Image src={icon9} className={styles.statImg} alt=""></Image>
                                     </div>
                                     <h5 className={styles.smallBlackText}>Halving</h5>
-                                    <h6 className={styles.subTitle02}>2,5 YEARS</h6>
+                                    <h6 className={styles.subTitle02}>2.5 YEARS</h6>
                                     </div>
                                 
                                 </div>
@@ -428,7 +428,7 @@ export function Flux() {
                             <p className="mb-4">With Flux's parallel assets, you can leverage the beneficial
                          features of multiple blockchains, such as access to various DeFi platforms. Flux's parallel 
                          assets are interchangeable 1:1 with native Flux through the Fusion app in Zelcore.</p>
-                         <a href="https://www.runonflux.io/parallel.html" className={styles.btn1}>Discover assets</a>
+                         <a href="/parallelMining" className={styles.btn1}>Discover assets</a>
                                 </div>
                             </div>
                         </div>
@@ -464,9 +464,9 @@ export function Flux() {
                     <h3>Exchanges</h3>
                     <p className={styles.exchanges1}>  Flux is a digital asset that is listed on several different exchanges, each of which offers various features 
                     such as buying and selling.</p>
-                    <p className={styles.exchanges1}><i>exchanges are not controlled by Flux, and in case of any issues with
+                    <p className={styles.exchanges1}><i>Exchanges are not controlled by Flux, and in case of any issues with
                     any of these exchanges, you must address them directly with the exchange.</i></p>
-                    <p className={styles.exchanges1}> For more markets see <a href="https://coinmarketcap.com/currencies/zel/m">CoinMarketCap </a>or <a href="https://www.coingecko.com/en/coins/flux-zelcash">CoinGecko.</a></p>
+                    <p className={styles.exchanges1}> For more markets see <a target="_blank" href="https://coinmarketcap.com/currencies/zel/">CoinMarketCap </a>or <a href="https://www.coingecko.com/en/coins/flux-zelcash">CoinGecko.</a></p>
                 </div>
                 <hr></hr>
                 </div>
@@ -562,7 +562,7 @@ export function Flux() {
                             </div>
                         </div>
                        
-                        <div className="col-lg-4 col-md-6"  > 
+                        {/* <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon22} alt=""></Image>
@@ -573,7 +573,7 @@ export function Flux() {
 
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-4 col-md-6"  > 
                             <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
@@ -685,7 +685,7 @@ export function Flux() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6"> 
+                        {/* <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>
                                     <Image src={icon32} alt=""></Image>
@@ -695,7 +695,7 @@ export function Flux() {
                                     <a href="https://bittrex.com/Market/Index?MarketName=USDT-FLUX" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-4 col-md-6"> 
                         <div className={styles.Exchangecard}>
                                 <div className={styles.circle}>

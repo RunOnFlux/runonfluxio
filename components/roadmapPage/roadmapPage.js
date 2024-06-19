@@ -127,7 +127,7 @@ export function RoadMapPage(){
                                     <p>-dApp Resource Monitoring</p>
                                     <p>-Jetpack 2 Tools and metrics</p>
                                     <p>-Flux Drive</p>
-                                    <p>XDAO 2.0</p>
+                                    <p>-XDAO 2.0</p>
                                 </div>
                                 <div className={styles.time}>
                                 <h4>Q4 2022</h4>

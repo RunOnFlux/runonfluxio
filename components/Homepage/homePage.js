@@ -400,7 +400,7 @@ export function HomePage(){
                         <div className="col-lg-6 col-md-6 mb-5">
                             <h3><span>Flux Cloud </span><br/>
                                 Estimated Cost</h3>
-                                <p>The Flux Cloud assures next generation pricing, Today! The Customer only pays for selected computer specifications in regards to their personal demand.</p>
+                                <p>The Flux Cloud assures next generation pricing, today! The Customer only pays for selected computer specifications in regards to their personal demand.</p>
                                 <a href="https://jetpack2.app.runonflux.io/hello.html#cost-calculator" rel="noreferrer" target="_blank">Cost Calculator</a>
                         </div>
                         <div className="col-lg-6 col-md-6">
@@ -454,7 +454,7 @@ export function HomePage(){
                 <div className="container">
                 <div className="row text-center mb-4">
                         <h2><span>Flux Cloud</span> Products</h2>
-                        <p className="mb-3">Whether you are looking for simple compute power, databases, content delivery, or other functionalities, the Flux Cloud has you covered! It will keep your infrastructure decentralized, flexibly, scalable and censorship resistant.</p>
+                        <p className="mb-3">Whether you are looking for simple compute power, databases, content delivery, or other functionalities, the Flux Cloud has you covered! It will keep your infrastructure decentralized, flexible, scalable and censorship resistant.</p>
                         
                     </div>
                     {/* <div className="row mb-5">
@@ -467,7 +467,7 @@ export function HomePage(){
                                     <Image alt="logo" src={wordpressIcon}/>
                                 </div>
                                 <h5>Run WordPress</h5>
-                                <h6>Run your Website using WordPress in a decentralized, and redundant manner.</h6>
+                                <h6>Run your Website using WordPress in a decentralized and redundant manner.</h6>
                                 <a href="https://wordpress.runonflux.io" target="_blank" rel="noreferrer">Visit Now</a>
                             </div>
                         </div>
@@ -559,7 +559,7 @@ export function HomePage(){
                                 <div className={styles.card3}>
                                     <div className={styles.icon}><Image alt="logo" src={ASIC}/></div>
                                     <h5>ASIC-Resistant Mining Algorithm</h5>
-                                    <h6>Flux Utilizes an ASIC-resistant mining algorithm to keep the energy levels spent in check.</h6>
+                                    <h6>Flux utilizes an ASIC-resistant mining algorithm to keep the energy levels spent in check.</h6>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6 mb-4">

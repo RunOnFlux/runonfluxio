@@ -37,7 +37,7 @@ export function PrivacyPage(){
                          <div className="col-12">
                              <h3 className="mb-5">Types of Data Collected</h3>
                              <h4 className="mt-3 mb-2">Personal Data</h4>
-                             <p className="mb-2">While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (“Personal Data”). Personally identifiable information may include, but is not limited to: Cookies and Usage Data</p>
+                             <p className="mb-2">While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (“Personal Data”). Personally identifiable information may include, but is not limited to: Cookies and Usage Data.</p>
                            
                          </div>
                      </div>
@@ -62,14 +62,14 @@ export function PrivacyPage(){
                      <div className="row mb-4">
                          <div className="col-12">
                          <h4 className="mt-3 mb-2">Use of Data</h4>
-                             <p>Flux uses the collected data for various purposes: To provide and maintain the Service</p>
+                             <p>Flux uses the collected data for various purposes: To provide and maintain the Service.</p>
                              <ul>
-                                <li>To notify you about changes to our Service</li>
-                                <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
-                                <li>To provide customer care and support</li>
-                                <li>To provide analysis or valuable information so that we can improve the Service</li>
-                                <li>To monitor the usage of the Service</li>
-                                <li>To detect, prevent and address technical issues</li>
+                                <li>To notify you about changes to our Service.</li>
+                                <li>To allow you to participate in interactive features of our Service when you choose to do so.</li>
+                                <li>To provide customer care and support.</li>
+                                <li>To provide analysis or valuable information so that we can improve the Service.</li>
+                                <li>To monitor the usage of the Service.</li>
+                                <li>To detect, prevent and address technical issues.</li>
                              </ul>
                          </div>
                      </div>
@@ -84,7 +84,7 @@ export function PrivacyPage(){
                      <div className="row mb-4">
                          <div className="col-12">
                          <h4 className="mt-3 mb-2">Contact Us</h4>
-                             <p>If you have any questions about these Privacy Policy, please <a style={{textDecoration: "none"}} href="mailto:info@runonflux.io">contact us</a>.</p>
+                             <p>If you have any questions about this privacy policy, please <a style={{textDecoration: "none"}} href="mailto:info@runonflux.io">contact us</a>.</p>
                          </div>
                      </div>
  

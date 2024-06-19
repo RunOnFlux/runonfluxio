@@ -117,7 +117,7 @@ export function BugBountyProgramPage(){
                                 <li>Directory TRAVERSAL.</li>
                                 <li>Open REDIRECTS.</li>
                                 <li>Spoofing enablement.</li>
-                                <li>Spoofing enablement.</li>
+                               
                             </ul>
                         </div>
                     </div>

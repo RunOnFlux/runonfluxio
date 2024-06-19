@@ -39,7 +39,7 @@ export function Footer(){
                             <a href="https://www.youtube.com/channel/UCphbdfb1MXYgUPsdhQPcnGw" target="_blank" rel="noreferrer"><Image alt="icon" src={image7}/></a>
                             <a href="https://www.reddit.com/r/Flux_Official" target="_blank" rel="noreferrer"><Image alt="icon" src={image8}/></a>
                             <a href="https://fluxofficial.medium.com/" target="_blank" rel="noreferrer"><Image alt="icon" src={image9}/></a>
-                            <a href="https://www.linkedin.com/company/flux-official/mycompany/" target="_blank" rel="noreferrer"><Image alt="icon" src={image10}/></a>
+                            <a href="https://www.linkedin.com/company/influxtechnology/mycompany/" target="_blank" rel="noreferrer"><Image alt="icon" src={image10}/></a>
                             <a href="https://www.twitch.tv/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image11}/></a>
                             <a href="https://www.instagram.com/runonflux_official/" target="_blank" rel="noreferrer"><Image alt="icon" src={image12}/></a>
                             <a href="https://www.tiktok.com/@flux_runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image13}/></a>

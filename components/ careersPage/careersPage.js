@@ -13,7 +13,7 @@ export function Careers(){
                     <p>Flux's goal is to build the next generation of decentralized computing power. In other words, the Web 3.0, in order to give everyone equal access to a cloud platform that is as applicable to individuals as it is to enterprises.</p>
                     <p className='mt-1'><i>If your vision matches ours, we invite you to join the Flux team.</i></p>
 
-                    <div className={styles.link}><a href='#'>Open Positions</a></div>
+                    {/* <div className={styles.link}><a href='#'>Open Positions</a></div> */}
                 </div>
             </div>
         </section>

@@ -1,8 +1,10 @@
 .section1{
-    height: 80vh;
+    height: auto;
     display: inline-flex;
     align-items: center;
     width: 100%;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .section1 img{

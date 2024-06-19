@@ -72,7 +72,7 @@ const teamAsset = [
         name: 'Alžběta Kolibačová',
         thumbnail: betty,
         twitterLink: 'https://twitter.com/BettyK0',
-        linkedInLink: 'https://www.linkedin.com/in/alzbeta-kolibacova-73b1a215a/',
+        linkedInLink: 'https://www.linkedin.com/in/betty-kolibacova/',
         title: 'CMO and Community Member',
         intro: 'Betty is an engineer passionate about blockchain projects and startups that solve real world problems. ',
         description: 'She’s experienced in digital marketing and PR, building successful engagement marketing, social media strategy and brand awareness. Flexibility, adaptability and organizational skills allow her to effectively lead our decentralized marketing team.'
