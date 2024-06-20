@@ -442,6 +442,7 @@ padding-right: 10px !important;
 
     .dropdown-menu{
       background-color: rgba(17,24,39,.85) !important;
+      width: 100% !important;
       
     }
     .dropdown-item{
