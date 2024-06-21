@@ -40,6 +40,7 @@ import suse from "../../public/images/partners/suse.svg"
 import timpi from "../../public/images/partners/timpi.svg"
 import scalia from "../../public/images/partners/scalia.svg"
 import dns from "../../public/images/partners/3dns.svg"
+import nicehash from "../../public/images/partners/nicehash.svg"
 export function PartnersPage(){
     return(
         <React.Fragment>
@@ -89,12 +90,45 @@ export function PartnersPage(){
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner19} alt="partners"/></div>
+                                    <div className="col-lg-6">
+                                        <div>
+                                            <h1>Seeed Studio</h1>
+                                            <h2><b>AIoT Hardware Service Platform</b></h2>
+                                            <h3>In 2008, Seeed was founded with the vision of "Making Technology Accessible for All". Seeed provides global developers with open-source hardware modules and IoT devices in the fields of sensor monitoring, edge computing, and IoT hardware services including R&D, manufacturing, and distribution.</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div className="row">
+                        <div className="col mb-5">
+                            <div className={styles.card}>
+                                <div className="row">
                                     <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner16} alt="partners"/></div>
                                     <div className="col-lg-6">
                                         <div>
                                             <h1>OVHcloud</h1>
                                             <h2><b>Flux expands its reach into Europe with the continent's cloud leader</b></h2>
                                             <h3>Through this new partnership, Flux is continuing to bridge the gap between Web2.0 and Web3.0 infrastructure so they can iterate tech together and build a better future for all. Working with OVHcloud and their robust presence worldwide, Flux can get more nodes on the network and increase computational capacity.</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div className="row">
+                        <div className="col mb-5">
+                            <div className={styles.card}>
+                                <div className="row">
+                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={nicehash} alt="partners"/></div>
+                                    <div className="col-lg-6">
+                                        <div>
+                                            <h1>NiceHash</h1>
+                                            <h2><b>Leading platform for mining</b></h2>
+                                            <h3>NiceHash is the world’s leading hashpower marketplace and one of the most recognized names in the blockchain industry. Most will know it as one of the simplest ways to get into blockchain mining.</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -153,22 +187,7 @@ export function PartnersPage(){
                         </div> 
                     </div>
 
-                    <div className="row">
-                        <div className="col mb-5">
-                            <div className={styles.card}>
-                                <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image className={styles.partnerLogo} src={partner19} alt="partners"/></div>
-                                    <div className="col-lg-6">
-                                        <div>
-                                            <h1>Seeed Studio</h1>
-                                            <h2><b>AIoT Hardware Service Platform</b></h2>
-                                            <h3>In 2008, Seeed was founded with the vision of "Making Technology Accessible for All". Seeed provides global developers with open-source hardware modules and IoT devices in the fields of sensor monitoring, edge computing, and IoT hardware services including R&D, manufacturing, and distribution.</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
+                  
 
                     <div className="row">
                         <div className="col mb-5">
