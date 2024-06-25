@@ -200,7 +200,7 @@ export function HomePage(){
                             </div>
                         </div>
                         
-                        <div className="col-lg-3 col-md-5">
+                        <div className={`${styles.minorCards} col-lg-3 col-md-5`} >
                             <div className={styles.cardTotal}>
                             <div className={styles.cardHeader}>
                                     <span><Image alt="img" src={nodes}/></span>
