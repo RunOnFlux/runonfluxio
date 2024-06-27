@@ -92,7 +92,7 @@ export function Node() {
                             </div>
                     </div>
                     <div className="row" style={{marginTop: "-20px"}}>
-                        <Image alt="progress-bar" src={progressbar}/>
+                        <Image alt="progress-bar" src={progressbar} className={styles.progressBarImg}/>
                     </div>
                   
                 </div>
@@ -410,7 +410,7 @@ export function Node() {
                         </div>
                     </div>
 
-                <div className="d-lg-none d-block">
+                <div className="d-lg-none d-block" style={{marginBottom: "100px"}}>
                     <div className="row">
                         <div className="col-md-6 col-sm-6 mb-4">
                         <div className={styles.hardwareCard}>
