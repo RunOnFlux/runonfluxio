@@ -48,7 +48,7 @@ export function Footer(){
                             <a href="https://support.runonflux.io/" className={styles.btn}>Support Center</a>
                         </div>
                     </div>
-                    <div className="col-lg-2 col-md-3 col-6 mb-5" >
+                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 mb-5" >
                         <h5>ECOSYSTEM</h5>
                         <ul>
                             <li><a href="/fluxCore">FluxCore</a></li>
@@ -62,7 +62,7 @@ export function Footer(){
                             <li><Link href="/XDAO">XDAO</Link></li>
                         </ul>
                     </div>
-                    <div className="col-lg-2 col-md-3 col-6 mb-5">
+                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 mb-5">
                         <h5>DISCOVER</h5>
                         <ul>
                             <li><a href="/fluxLabs" target="_blank" rel="noreferrer"> FluxLabs</a></li>
@@ -75,7 +75,7 @@ export function Footer(){
                             <li><a href="https://explorer.runonflux.io/" target="_blank" rel="noreferrer"> Block Explorer</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-2 col-md-3 col-6 mb-5">
+                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 mb-5">
                         <h5>DEVELOPERS</h5>
                         <ul>
                         <li><a href="https://jetpack2.app.runonflux.io/hello.html" target="_blank" rel="noreferrer">App</a></li>
@@ -90,7 +90,7 @@ export function Footer(){
                             <li><Link href="/bugBountyProgram">Bug bounty</Link></li>
                         </ul>
                     </div>
-                    <div className="col-lg-2 col-md-3 col-6 mb-5">
+                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 mb-5">
                         <h5>COMMUNITY</h5>
                         <ul>
                             <li><Link href="/blog">Blog</Link></li>

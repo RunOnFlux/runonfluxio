@@ -60,7 +60,7 @@ margin-bottom: 20px;
   margin-left: 0px;
   text-align: center;
   background: transparent;
-  border:var(--darkText4)  2px solid;
+  border:var(--darkText4)  1px solid;
   border-radius: 100px;
   color: var(--darkText4) ;
   font-size: 14px;
@@ -143,8 +143,8 @@ margin-bottom: 20px;
   width: 30%;
   float: left;
   height: 100px;
- background: var(--CardBg);
- box-shadow: var(--boxShadow);
+ /* background: var(--CardBg);
+ box-shadow: var(--boxShadow); */
  border-radius: 10px;
  padding: 10px 20px;
 }
@@ -156,8 +156,8 @@ margin-bottom: 20px;
   margin-left: 5%;
   margin-right: 5%;
   border-radius: 10px;
-  background: var(--CardBg);
-  box-shadow: var(--boxShadow);
+  /* background: var(--CardBg);
+  box-shadow: var(--boxShadow); */
   padding: 10px 20px;
 }
 
@@ -251,7 +251,7 @@ margin-bottom: 20px;
 }
 
 .subTitle{
-  padding: 0.5% 0;
+  padding: 15px 0;
   /* margin: 0.1em auto 0em 0px; */
   font-family: Montserrat, sans-serif;
   color: var(--CardText);
@@ -266,11 +266,15 @@ margin-bottom: 20px;
 }
 .subTitle2{
   text-align: right;
-  padding: 0.5% 0;
+  padding: 15px 0;
   font-size: 1.5em;
   line-height: 1.1em;
   font-weight: bold;
   color: var(--CardText);
+}
+
+.border1{
+  border-color:  var(--darkText4)
 }
 
 .tokenomics{
@@ -596,11 +600,12 @@ p.pop{
   margin-left: 0px;
   text-align: center;
   background: transparent;
-  border:var(--darkText4) 2px solid;
+  border:var(--darkText4) 1px solid;
   border-radius: 100px;
   color: var(--darkText4);
   font-size: 14px;
   transition: all .2s ease-in-out;
+  font-weight: 300;
 float: right;
 
 }
@@ -762,11 +767,11 @@ float: right;
 
 .subTitle{
   /* padding-left: 40px; */
-  margin: 0.1em auto 0em 0px;
+  /* margin: 0.1em auto 0em 0px; */
   font-family: Montserrat, sans-serif;
   /* color: #313457; */
-  font-size: 1.2em;
-  line-height: 1.7em;
+  font-size: 1em;
+  line-height: 1.4em;
   text-align: left;
   font-weight: bold;
   float: left;
@@ -1018,6 +1023,8 @@ p.pop{
   margin: 20px auto;
 }
 
+
+
  }
 
 
@@ -1113,11 +1120,10 @@ p.pop{
 
 .subTitle{
   /* padding-left: 40px; */
-  margin: 0.1em auto 0em 0px;
   font-family: Montserrat, sans-serif;
   /* color: #313457; */
-  font-size: 0.6em;
-  line-height: 1.7em;
+  font-size: 0.8em;
+  line-height: 1.2em;
   text-align: left;
   font-weight: bold;
   float: left;
@@ -1128,16 +1134,17 @@ p.pop{
   /* margin: 0.1em auto 0em 0px; */
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 0.6em;
-  line-height: 1.4em;
+  font-size: 0.8em;
+  line-height: 1.2em;
   font-weight: bold;
   /* color: rgba(48, 59, 82, 1); */
   float: right;
+  text-align: right;
 
 }
 
 .tokenomics{
-  padding: 20px;
+  padding: 0px;
    width: 100%;
 }
 
@@ -1153,7 +1160,7 @@ p.pop{
 .progressBar .left{
   
   /* padding: 20px; */
-  font-size: 0.7em;
+  font-size: 0.8em;
   font-weight: 400;
   width: auto;
   float: left;
@@ -1163,7 +1170,7 @@ p.pop{
 .progressBar2 .left{
  
   /* padding: 20px; */
-  font-size: 0.7em;
+  font-size: 0.8em;
   font-weight: 400;
   /* padding-bottom: 35px; */
   width: auto;
@@ -1180,25 +1187,27 @@ p.pop{
 }
 
 .progressBar .right .blue{
-  font-size: 11px;
+  font-size: 0.7em;
   font-weight: 500;
   padding: 0px;
   display: inline-block;
+  margin-top: 20px;
 }
 
 .progressBar2 .right .blue{
-  font-size: 11px;
+  font-size: 0.7em;
   font-weight: 500;
   padding: 0px;
   display: inline-block;
+  margin-top: 20px;
 }
 
 
 .centerBlue{
   display: inline-block;
   color: rgba(43, 97, 209, 1);
-  padding-left: 20%;
-  font-size: 11px;
+  padding-left: 10%;
+  font-size: 0.7em;
   font-weight:bold;
   padding-bottom: 5px;
 }

@@ -290,7 +290,7 @@ export function Flux() {
                             <div className={styles.subTitle2}><span className={styles.paddingRight}>Max Supply</span> 
                              <span className={styles.blue}>440,000,000 FLUX</span></div>
                             </div>
-                        <hr></hr>
+                        <hr className={styles.border1}></hr>
                     </div>
                     
                 <div className={styles.progressBar}>
@@ -311,7 +311,7 @@ export function Flux() {
                     </div>
                         </div>
                     </div> 
-                    <hr></hr>
+                    <hr className={styles.border1}></hr>
                 </div>
 
                 <div className={styles.progressBar2}>

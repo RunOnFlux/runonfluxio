@@ -322,7 +322,7 @@ export function Node() {
                             <p style={{width: "100%"}}>The operation of a FluxNode is a process that is subject to individual discretion and influenced by various economic factors, such as pricing and electricity costs. To deploy a FluxNode, you have several options available, including the use of rented virtual private servers (VPS) or dedicated hardware deployment.</p>
                             <p style={{width: "100%"}}>Regarding hardware requirements, we recommend consulting one of our official partners for information on hardware compatibility and potential server options. These partnerships guarantee access to reliable and compatible hardware solutions for FluxNode deployment.</p>
                             <div className="row mt-5">
-                            <div className="col-md-6 col-12 mb-4">
+                            <div className="col-md-6 col-sm-6 col-12 mb-4">
                          
                                 <div className={styles.puchaseOption}>
                                     <div>
@@ -337,7 +337,7 @@ export function Node() {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 col-12 mb-4">
+                            <div className="col-md-6 col-sm-6 col-12 mb-4">
                             <div className={styles.puchaseOption}>
                                 <div>
                                 <Image alt={"img"} src={cotx} />
@@ -351,7 +351,7 @@ export function Node() {
                                 </div>
                                 </div>
                                 
-                                <div className="col-md-6 col-12 mb-4">
+                                <div className="col-md-6 col-sm-6 col-12 mb-4">
                                 <div className={styles.puchaseOption}>
                                     <div>
                                     <Image alt={"img"} src={bmo} />
@@ -367,7 +367,7 @@ export function Node() {
                             </div>
                            
                         </div>
-                        <div className="col-lg-4 col-md-12">
+                        <div className="col-lg-4 col-md-12 d-none d-lg-block">
                         <div className={styles.scroll}>
                         <div className={styles.hardwareCard}>
                             {/* <div className={styles.cardHeader}>
@@ -409,6 +409,54 @@ export function Node() {
                 </div>
                         </div>
                     </div>
+
+                <div className="d-lg-none d-block">
+                    <div className="row">
+                        <div className="col-md-6 col-sm-6 mb-4">
+                        <div className={styles.hardwareCard}>
+                            {/* <div className={styles.cardHeader}>
+                            <h6>SenceCAP M4</h6>
+                        <a className={styles.btn1} href="https://www.seeedstudio.com/SenseCAP-M4-p-5556.html">Buy Now</a>
+                            </div> */}
+                        <p>
+                            SenseCAP M4 Square is a plug and play Cumulus FluxNode, which provides
+                            an easy and friendly install process via the SenseCAP Hotspot Mobile
+                            App. Further projects will be supported soon, which will allow you to
+                            support multiple projects via one device!{" "}
+                        </p>
+                        <Image alt={"img"} src={CAP} />
+                    </div>
+                    </div>
+                    <br></br>
+                    <div className=" col-md-6 col-sm-6 mb-4">
+                    <div className={styles.hardwareCard}>
+                            {/* <div className={styles.cardHeader}>
+                            <h6>Cotx</h6>
+                        <a className={styles.btn1} href="https://cotx-store.com/collections/cotx-fluxnode/products/cotx-fluxnode-cumulus">Buy Now</a>
+                            </div> */}
+                        <p>
+                        COTX IOT Cloud service and FluxOS software, presenting this brand new FluxNode.
+                            High performance and small power consumption COTX - FluxNode brings you excellent
+                            expandability and serviceability.
+                        </p>
+                        <Image alt={"img"} src={COT} />
+                    </div>
+                    </div>
+                    <br></br>
+                    <div className=" col-md-6 col-sm-6 mb-4">
+                    <div className={styles.hardwareCard}>
+                            {/* <div className={styles.cardHeader}>
+                            <h6>BMO</h6>
+                        <a className={styles.btn1} href="https://bmoblockchain.us/shop/">Buy Now</a>
+                            </div> */}
+                        <p>
+                        BMO Advanced Managed Services (BAMS) is a one stop solution. With expertise in design, implementation, optimization, troubleshooting and the documentation of various projects around blockchain ecosystem.{" "}
+                        </p>
+                        <Image alt={"img"} src={BMO} />
+                    </div>
+                    </div>
+                    </div>
+                    </div>
                     <div className="row mb-5">
                         <h3 className="text-center">Guides To Set Up<br/><span>Your Own FluxNode</span></h3>
                         <p className="text-center" style={{margin: "auto"}}> Efforts have been made to simplify the installation process through
@@ -419,7 +467,7 @@ export function Node() {
                     available to provide step-by-step assistance with the setup process.</p>
                     </div>
                     <div className="row">
-                        <div className="col-lg-4 col-md-6 mb-4">
+                        <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className={styles.guidesContain}>
                             <Image alt={"img"} src={wallet} />
                             <div>
@@ -428,7 +476,7 @@ export function Node() {
                             <br />
                         </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 mb-4">
+                        <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className={styles.guidesContain}>
                             <iframe width="100%" height="auto" src="https://www.youtube.com/embed/RT1uaSrurv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <div>
@@ -437,7 +485,7 @@ export function Node() {
                             <br />
                         </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 mb-4">
+                            <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className={styles.guidesContain}>
                                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/-lJJyuliR38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 <div >
@@ -446,7 +494,7 @@ export function Node() {
                                 <br />
                             </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 mb-4">
+                            <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className={styles.guidesContain}>
                                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/FITPHv52Fyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 <div>
@@ -455,7 +503,7 @@ export function Node() {
                                 <br />
                             </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 mb-4">
+                            <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className={styles.guidesContain}>
                                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/n2CMwfahUBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 <div >
@@ -464,7 +512,7 @@ export function Node() {
                                 <br />
                             </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 mb-4">
+                            <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className={styles.guidesContain}>
                             <iframe width="100%" height="auto" src="https://www.youtube.com/embed/akfV5WhmE-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <div>

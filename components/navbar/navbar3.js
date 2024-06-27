@@ -49,7 +49,7 @@ export function NavBar3(){
         <React.Fragment>
              <div className="d-none d-lg-block">
            
-            <div className={styles.topNav}>
+            <div className={styles.topNav} style={{height:"60px"}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-1"></div>
