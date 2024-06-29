@@ -890,14 +890,14 @@ float: right;
 }
 
 .statImg{
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   padding-top: 10px;
 }
 
 .statImgContainer{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   box-shadow: 11.965118408203125px 11.965118408203125px 19.941864013671875px 1.5953490734100342px rgba(43, 97, 209, 0.1);
   margin: 0 auto;

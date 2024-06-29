@@ -727,7 +727,7 @@ float: right;
   
   }
   .hardwareCard{
-    padding: 40px 15px;
+    padding: 40px 20px;
   }
   .puchaseOption{
     width:100%;
@@ -958,7 +958,7 @@ float: right;
     font-weight: bold;
     margin-top: 15px;
     float: left;
-    margin-left: -5px;
+    margin-left: -10px;
   
   }
  
