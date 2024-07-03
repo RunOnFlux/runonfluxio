@@ -9,8 +9,10 @@ import { useState, useEffect } from "react";
 import styles from "./index.module.css";
 import arrowDown from "../../public/images/dropdown-icon.png"
 import Image from 'next/image'
-import Logo from "../../public/images/Flux_white_logo.svg"
+import Logo from "../../public/images/Flux_white-blue.svg"
+import Logo2 from "../../public/images/Flux_white_logo.svg"
 import Rabbit from "../../public/images/rabbit.png"
+import Rabbit2 from "../../public/images/rabbit.svg"
 import target from "../../public/images/target.svg"
 import twitter from "../../public/images/twitter.svg"
 import discord from "../../public/images/discord.svg"
@@ -18,6 +20,7 @@ import github from "../../public/images/github.svg"
 import twitter01 from "../../public/images/twitter01.svg"
 import discord01 from "../../public/images/discord01.svg"
 import github01 from "../../public/images/github01.svg"
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 export function NavBar3(){
 
     const [show, setShow] = useState(false);
@@ -71,10 +74,10 @@ export function NavBar3(){
                 </div>
             </div>
          
-           <Navbar className={navBar ? 'navNav4 active' : 'navNav4'} expand="lg"  collapseOnSelect  >    
+           <Navbar className={navBar ? 'navNav3 active' : 'navNav3'} expand="lg"  collapseOnSelect  >    
              <Container>
                 <Navbar.Brand>
-                    <Link href={'/'} className={styles.link4}><Image alt="logo" src={Logo}  height="40px" width="170px"/></Link>
+                <Link href={'/'} className={styles.link4}>{window.scrollY >= 50 ? <Image alt="logo" src={Logo2}  height="40px" width="170px"/> : <Image alt="logo" src={Logo}  height="40px" width="170px"/>   }</Link>
                     </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -84,7 +87,8 @@ export function NavBar3(){
                 <Nav className="mx-auto">
                    
                   <NavDropdown title={
-                      <span>Ecosystem <span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Ecosystem <span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><MdOutlineKeyboardArrowDown />
+</span></span>
                   }
                     id="basic-nav-dropdown0" 
                     show={show}
@@ -224,7 +228,8 @@ export function NavBar3(){
                 
 
                   <NavDropdown title={
-                      <span>Discover<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Discover<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><MdOutlineKeyboardArrowDown />
+</span></span>
                   }
                     id="basic-nav-dropdown1" 
                     show={show}
@@ -311,7 +316,8 @@ export function NavBar3(){
                  </NavDropdown> 
 
                  <NavDropdown title={
-                      <span>Users<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Users<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><MdOutlineKeyboardArrowDown />
+</span></span>
                   }
                     id="basic-nav-dropdown1" 
                     show={show}
@@ -415,7 +421,8 @@ export function NavBar3(){
                     </NavDropdown>
 
                     <NavDropdown title={
-                      <span>Community<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Community<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><MdOutlineKeyboardArrowDown />
+</span></span>
                   }
                     id="basic-nav-dropdown1" 
                     show={show}
@@ -479,7 +486,7 @@ export function NavBar3(){
                       </div>
                     </NavDropdown>
                     <Navbar.Brand>
-                      <Link href={'https://www.youtube.com/watch?v=GJVk_LfASxk'}><Image alt="logo" src={Rabbit} style={{ width: "18.5px", height: "28.5px", marginTop: "20px" }}/></Link>
+                    <Link href={'https://www.youtube.com/watch?v=GJVk_LfASxk'} className={styles.link4}>{window.scrollY >= 50 ? <Image alt="logo" src={Rabbit} style={{ width: "18.5px", height: "28.5px", marginTop: "20px" }}/> : <Image alt="logo" src={Rabbit2} style={{ width: "18.5px", height: "28.5px", marginTop: "20px" }}/>   }</Link>
                     </Navbar.Brand>
 
                  {/* <Nav.Link href={'#'} eventKey={3}>Explore</Nav.Link> */}
@@ -512,7 +519,7 @@ export function NavBar3(){
             <Navbar  expand="lg" fixed="top"  collapseOnSelect variant="dark">
             <Container>
                 <Navbar.Brand>
-                    <Link href={'/'} className={styles.link4}><Image alt="logo" src={Logo}  height="40px" width="170px"/></Link>
+                    <Link href={'/'} className={styles.link4}><Image alt="logo" src={Logo2}  height="40px" width="170px"/></Link>
                     </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" >
@@ -525,7 +532,8 @@ export function NavBar3(){
                 <Nav className="mx-auto">
                     
                   <NavDropdown title={
-                      <span>Ecosystem<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Ecosystem<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><MdOutlineKeyboardArrowDown />
+</span></span>
                   }
                     id="basic-nav-dropdown" 
                    
@@ -652,7 +660,8 @@ export function NavBar3(){
                  </NavDropdown>  
 
                  <NavDropdown title={
-                      <span>Discover<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Discover<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><MdOutlineKeyboardArrowDown />
+</span></span>
                   }
                     id="basic-nav-dropdown" 
                    
@@ -738,7 +747,8 @@ export function NavBar3(){
                  </NavDropdown>  
 
                  <NavDropdown title={
-                      <span>Users<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Users<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><MdOutlineKeyboardArrowDown />
+</span></span>
                   }
                     id="basic-nav-dropdown" 
                    
@@ -841,7 +851,8 @@ export function NavBar3(){
                     
                     </NavDropdown>
                     <NavDropdown title={
-                      <span>Community<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Community<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><MdOutlineKeyboardArrowDown />
+</span></span>
                   }
                     id="basic-nav-dropdown" 
                    

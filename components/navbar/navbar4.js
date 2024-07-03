@@ -18,6 +18,7 @@ import github from "../../public/images/github.svg"
 import twitter01 from "../../public/images/twitter01.svg"
 import discord01 from "../../public/images/discord01.svg"
 import github01 from "../../public/images/github01.svg"
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 export function NavBar4(){
 
     const [show, setShow] = useState(false);
@@ -84,7 +85,7 @@ export function NavBar4(){
                 <Nav className="mx-auto">
                    
                   <NavDropdown title={
-                      <span>Ecosystem <span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Ecosystem <span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><MdOutlineKeyboardArrowDown /></span></span>
                   }
                     id="basic-nav-dropdown0" 
                     show={show}
@@ -224,7 +225,7 @@ export function NavBar4(){
                 
 
                   <NavDropdown title={
-                      <span>Discover<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Discover<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><MdOutlineKeyboardArrowDown /></span></span>
                   }
                     id="basic-nav-dropdown1" 
                     show={show}
@@ -311,7 +312,7 @@ export function NavBar4(){
                  </NavDropdown> 
 
                  <NavDropdown title={
-                      <span>Users<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Users<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><MdOutlineKeyboardArrowDown /></span></span>
                   }
                     id="basic-nav-dropdown1" 
                     show={show}
@@ -415,7 +416,7 @@ export function NavBar4(){
                     </NavDropdown>
 
                     <NavDropdown title={
-                      <span>Community<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Community<span className={`${styles.arrowBtn} `} style={{marginLeft: "7px"}}><MdOutlineKeyboardArrowDown /></span></span>
                   }
                     id="basic-nav-dropdown1" 
                     show={show}
@@ -525,7 +526,7 @@ export function NavBar4(){
                 <Nav className="mx-auto">
                     
                   <NavDropdown title={
-                      <span>Ecosystem<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Ecosystem<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><MdOutlineKeyboardArrowDown /></span></span>
                   }
                     id="basic-nav-dropdown" 
                    
@@ -652,7 +653,7 @@ export function NavBar4(){
                  </NavDropdown>  
 
                  <NavDropdown title={
-                      <span>Discover<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Discover<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><MdOutlineKeyboardArrowDown /></span></span>
                   }
                     id="basic-nav-dropdown" 
                    
@@ -738,7 +739,7 @@ export function NavBar4(){
                  </NavDropdown>  
 
                  <NavDropdown title={
-                      <span>Users<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Users<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><MdOutlineKeyboardArrowDown /></span></span>
                   }
                     id="basic-nav-dropdown" 
                    
@@ -841,7 +842,7 @@ export function NavBar4(){
                     
                     </NavDropdown>
                     <NavDropdown title={
-                      <span>Community<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><Image src={arrowDown} alt="arrow-down"/></span></span>
+                      <span>Community<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><MdOutlineKeyboardArrowDown /></span></span>
                   }
                     id="basic-nav-dropdown" 
                    

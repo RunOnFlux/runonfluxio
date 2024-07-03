@@ -69,6 +69,7 @@
     border: 1.27066px solid #FFFFFF;
     border-radius: 100px;
     color: #1354FC;
+    font-family: 'Montserrat';
     font-size: 14px;
     transition: all .2s ease-in-out;
 }
@@ -76,6 +77,7 @@
 .btn2{
     /* background: var(--text-blue); */
     padding: 15px 30px;
+    font-family: 'Montserrat';
     /* border-radius: 10px; */
     color: white !important;
     text-decoration: none;

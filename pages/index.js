@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
 import { HomePage } from '../components/Homepage/homePage.js'
-import { NavBar } from '../components/navbar/navbar.js'
+import { NavBar0 } from '../components/navbar/mainNav.js'
 
 
 
@@ -28,7 +28,7 @@ export default function Home() {
         </Script>
       
        
-        <NavBar/>
+        <NavBar0/>
       <HomePage/> 
 
      

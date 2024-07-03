@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/images/Flux_white_logo.svg"
-import image1 from "../../public/images/twitter_flux_grey2x.png"
+import image1 from "../../public/images/x_light.svg"
 import image2 from "../../public/images/discord_fux_grey2x.png"
 import image3 from "../../public/images/facebook_flux_grey2x.png"
 import image4 from "../../public/images/bitcointalk_flux_grey2x.png"
@@ -30,7 +30,7 @@ export function Footer(){
                             <a href={'/'}><Image src={logo} alt="logo"/></a>
                             <h6>Flux is a decentralized Web3 cloud infrastructure comprised of user-operated, scalable and globally distributed computational nodes.</h6>
                             <div className={styles.icons}>
-                            <a href="https://twitter.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="icon" src={image1}/></a>
+                            <a href="https://x.com/RunOnFlux" target="_blank" rel="noreferrer"><Image alt="icon" src={image1}/></a>
                             <a href="https://discord.gg/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image2}/></a>
                             <a href="https://www.facebook.com/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image3}/></a>
                             <a href="https://bitcointalk.org/index.php?topic=2853688.0" target="_blank" rel="noreferrer"><Image alt="icon" src={image4}/></a>

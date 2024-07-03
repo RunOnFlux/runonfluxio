@@ -1,0 +1,740 @@
+.section1{
+    margin-top: -90px;
+    padding-top: 250px;
+    background-image:url("../../public/images/marketplace/pero-kalimero-9BJRGlqoIUk-unsplash\ 1.svg");
+    /* background-color: var(--headerBackground);  */
+    /* background-blend-mode: overlay;  */
+    text-align: center;
+    height:120vh;
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    margin-bottom: 100px;
+  }
+
+  .section1 h3{
+    color: rgba(48, 59, 82, 1);
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Montserrat';
+    display: inline-flex;
+
+  }
+  .section1 h3 img{
+    width: 100%;
+    height: 50px;
+  }
+
+  .section1 h1{
+    color: rgba(48, 59, 82, 1);
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    font-family: 'Montserrat';
+  }
+  .section1 p{
+    color: rgba(48, 59, 82, 1);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .landingPageImage img{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+  .btn1{
+    /* border: 2px solid var(--text-blue); */
+    padding: 13.85px 30px;
+    width: 180px;
+    font-size: 14px;
+    /* border-radius: 10px; */
+    /* color: var(--text-blue) !important; */
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 0px;
+    text-align: center;
+    background: transparent;
+    border: 1.5px solid #5F6578;
+    border-radius: 100px;
+    color: #5F6578;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    transition: all .2s ease-in-out;
+  }
+  
+  .btn2{
+    /* background: var(--text-blue); */
+    padding: 15px 30px;
+    /* border-radius: 10px; */
+    color: var(--text-white) !important;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 0px;
+    width: 180px;
+    text-align: center;
+    background: #2B61D1;
+    font-family: 'Montserrat';
+    box-shadow: 0px 3.17664px 15.8832px 1.58832px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    font-size: 14px;
+    transition: all .2s ease-in-out;
+  }
+
+  .btn2:hover{
+    transform: scale(1.1); 
+  }
+
+  .btn1:hover{
+    transform: scale(1.1); 
+    color: #5F6578;
+  }
+
+  .section2{
+    margin-bottom: 100px;
+  }
+
+  .section2 h3{
+    margin: 0.1em auto 0em 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--CardText);
+    font-size: 2.7em;
+    line-height: 1.1em;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section2 h3 span{
+    color: #2B61D1;
+  }
+  
+  
+  .section2 p{
+    margin-top: 0em;
+    /* margin-bottom: 60px !important; */
+    padding-top: 0em;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--darkText4);
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+    
+  }
+  .gameCard{
+    background: url(../../public/images/marketplace/enshrouded.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding-top: 180px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+  }
+  .gameCard2{
+    background: url(../../public/images/marketplace/palworld.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding-top: 180px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    transition: all .2s ease-in-out;
+  }
+  .gameCard:hover{
+    transform: scale(1.1); 
+  }
+
+  .gameCard img{
+    width: 100%;
+    height: auto;
+  }
+  .bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    left: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+  }
+  .bottom p{
+    text-align: center !important;
+    color: rgba(48, 59, 82, 1);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 10px;
+    /* margin-left: -12px; */
+  }
+  .gameCard .btn3{
+    padding: 15px 30px;
+    /* border-radius: 10px; */
+    color: var(--text-white) !important;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    background: #2B61D1;
+    font-family: 'Montserrat';
+    box-shadow: 0px 3.17664px 15.8832px 1.58832px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    font-size: 14px;
+
+  }
+  .section3{
+    margin-bottom: 100px;
+  }
+  .section3 h3{
+    margin: 0.1em auto 0em 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--CardText);
+    font-size: 2.7em;
+    line-height: 1.1em;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section3 h3 span{
+    color: #2B61D1;
+  }
+  
+  
+  .section3 p{
+    margin-top: 0em;
+    /* margin-bottom: 60px !important; */
+    padding-top: 0em;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--darkText4);
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+    
+  }
+  .coronaCard{
+    background: var(--CardBg);
+    box-shadow: var(--boxShadow);
+    height: auto;
+    border-radius: 24px;
+    padding: 0px;
+  }
+.coronaCard .cardImg{
+  background: url(../../public/images/marketplace/virus.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  transition: all .2s ease-in-out;
+}
+.coronaCard .cardImg:hover{
+  /* transform: scale(1.1); 
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px; */
+}
+.card1{
+  padding: 20px;
+  padding-left: 10px;
+  background: var(--CardBg) !important;
+  box-shadow: var(--boxShadow);
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+.logoContainer{
+  background: var(--CardBg);
+  box-shadow: var(--boxShadow2);
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  border-radius: 100% !important;
+  margin-right: 20px;
+}
+.logoContainer img{
+  height: 40px;
+  width: 40px ;
+}
+.cardHead{
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+.cardHead h6{
+  font-family: 'Montserrat';
+  color: var(--CardText);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+.cardHead a.btn4{
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  font-size: 11.5px;
+  line-height: 17px;
+  color: rgba(152, 167, 185, 1);
+
+  border: 1.5px solid rgba(152, 167, 185, 0.25);
+  padding: 9px 14px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.cardHead2{
+  width: 100%;
+}
+
+.card1 p{
+  font-family: 'Montserrat';
+  font-size: 15px;
+  line-height: 22.5px;
+  font-weight: 500;
+  text-align: left;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media all and (min-width: 992px){
+    .section1 p{
+        width: 80%;
+        margin: auto;
+    }
+    .section3 h3{
+      width: 70%;
+      margin: auto;
+    }
+    .section3 p{
+      width: 70%;
+      margin: auto;
+    }
+    .cardText1{
+      margin-left: -40px;
+    }
+    .logoContainer{
+      margin-left: 10px;
+    }
+  
+
+  }
+
+  @media (max-width: 991.98px) {
+    .section1{
+        height: 100vh;
+        padding-top: 200px;
+    }
+    .section1 h3{
+        font-size: 40px;
+        line-height: 40px;
+      }
+      .section1 h3 img{
+        width: 100%;
+        height: 40px;
+      }
+      .section1 h1{
+        font-size: 36px;
+        line-height: 50px;
+      }
+      /* .section1 p{
+        width: 80%;
+        margin: auto;
+    } */
+    .section1 p{
+        font-size: 18px;
+        line-height: 27px;
+      }
+      .btn1{
+        padding: 12.85px 30px;
+       }
+       .section2 h3{
+        margin: 0.1em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        /* color: #313457; */
+        font-size: 2em;
+        line-height: 1.1em;
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .section3 h3{
+        margin: 0.1em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        /* color: #313457; */
+        font-size: 2em;
+        line-height: 1.1em;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .logoContainer img{
+        height: 30px;
+        width: 30px;
+      }
+      .logoContainer{
+        background: var(--CardBg);
+        box-shadow: var(--boxShadow2);
+        width: fit-content;
+        padding: 10px;
+        border-radius: 100%;
+      }
+      .card1{
+        padding: 20px;
+        padding-left: 0px;
+      }
+      .logoContainer{
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        margin-right: 10px;
+      }
+      .logoContainer img{
+        height: 30px;
+        width: 30px ;
+      }
+      .cardHead h6{
+        font-family: 'Montserrat';
+        color: var(--CardText);
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+      }
+      .cardHead a.btn4{
+        text-decoration: none;
+        font-weight: 500;
+        font-family: 'Montserrat';
+        font-size: 9.5px;
+        line-height: 17px;
+        color: rgba(152, 167, 185, 1);
+      
+        border: 1.5px solid rgba(152, 167, 185, 0.25);
+        padding: 7px 11px;
+        border-radius: 20px;
+        margin-right: 10px;
+      }
+      .card1 p{
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 22.5px;
+        font-weight: 500;
+        letter-spacing: -3%;
+        text-align: left;
+      }
+      .card1{
+        margin-left: 0px;
+        padding-left: 20px;
+      }
+     
+      
+  }
+
+  @media (max-width: 767.98px) {
+    .section2{
+      margin-bottom: 100px;
+    }
+    .section1{
+        height: 100vh !important;
+    }
+    .section3{
+      margin-bottom: 100px;
+    }
+    .section1{
+        margin-top: -90px;
+        padding-top: 200px;
+        height:100vh;
+        width:100%;
+        background-size:cover;
+        background-position:center;
+        margin-bottom: 100px;
+      }
+      .section1 h3{
+        font-size: 30px;
+        line-height: 30px;
+      }
+    
+      .section1 h3 img{
+        width: 100%;
+        height: 30px;
+      }
+      .section1 h1{
+        font-size: 27px;
+        line-height: 33px;
+      }
+      .section1 p{
+        font-size: 16px;
+        line-height: 23px;
+      }
+      .section2 h3{
+        margin: 0.1em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        /* color: #313457; */
+        font-size: 1.5em;
+        line-height: 1.2em;
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .section2 p{
+        font-size: 0.9em;
+        line-height: 1.6;
+        /* margin-bottom: 50px !important; */
+      }
+
+      .section3 h3{
+        margin: 0.1em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        /* color: #313457; */
+        font-size: 1.5em;
+        line-height: 1.2em;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .section3 p{
+        font-size: 0.9em;
+        line-height: 1.6;
+        /* margin-bottom: 50px !important; */
+      }
+      .gameCard{
+        padding-top: 130px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: auto;
+      }
+      .bottom{
+        margin-bottom: 50px;
+        left: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+       
+      }
+    
+      .gameCard .btn3{
+        width: 70% ;
+        padding: 13px 10px ;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      .bottom p{
+        font-size: 11px;
+        line-height: 15px;
+        margin-top: 5px;
+      }
+
+      .coronaCard .cardImg{
+        height: 500px;
+        width: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0px;
+      }
+      .card1{
+        padding: 20px 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+      .logoContainer{
+        height: 60px;
+        width: 60px;
+        padding: 10px;
+        margin-right: 20px;
+      }
+      .logoContainer img{
+        height: 40px;
+        width: 40px ;
+      }
+      .cardHead h6{
+        font-family: 'Montserrat';
+        color: var(--CardText);
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 27px;
+      }
+      .cardHead a.btn4{
+        text-decoration: none;
+        font-weight: 500;
+        font-family: 'Montserrat';
+        font-size: 11.5px;
+        line-height: 17px;
+        color: rgba(152, 167, 185, 1);
+      
+        border: 1.5px solid rgba(152, 167, 185, 0.25);
+        padding: 9px 14px;
+        border-radius: 20px;
+        margin-right: 10px;
+      }
+
+      .card1 p{
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 22.5px;
+        font-weight: 500;
+        letter-spacing: -3%;
+        text-align: left;
+      }
+      .card1{
+        margin-left: 0px;
+      }
+     
+
+
+  }
+
+  @media (max-width: 575.98px){
+    .section1 p{
+        font-size: 15px;
+        line-height: 21px;
+       
+      }
+      .btn1, .btn2{
+        width: 140px !important;
+        padding: 13px 10px !important;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 500;
+       }
+       .btn1{
+        padding: 10.85px 30px !important;
+       }
+       .gameCard{
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: auto;
+        height: 500px;
+      }
+      .gameCard .btn3{
+        width: 80% ;
+        padding: 13px 10px ;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      .bottom p{
+        font-size: 11px;
+        line-height: 15px;
+        margin-top: 5px;
+      }
+      .bottom{
+        margin-bottom: 50px;
+        left: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+       
+      }
+      .cardHead h6{
+        font-family: 'Montserrat';
+        color: var(--CardText);
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 27px;
+      }
+      .logoContainer{
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        margin-right: 20px;
+      }
+      .logoContainer img{
+        height: 30px;
+        width: 30px ;
+      }
+      .card1 p{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        line-height: 22.5px;
+        font-weight: 500;
+        letter-spacing: -3%;
+        text-align: left;
+      }
+      
+  }
+
+  @media (max-width: 375px) {
+    .section1 h1{
+        font-size: 28px;
+        line-height: 35px;
+        letter-spacing: 0.5px;
+      }
+      .section1 h3{
+        font-size: 23px;
+      }
+      .section1 h3 img{
+        height: 24px;
+      }
+    .btn1,.btn2{
+        width: 100px;
+        height: 40px;
+        padding: 10px 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 10px;
+        margin-bottom: 10px;
+        /* display: inline; */
+    }
+
+    .section1{
+        height: 150vh !important;
+    }
+
+    .header{
+        height: 150vh;
+    }
+  
+}
