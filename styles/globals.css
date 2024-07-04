@@ -118,7 +118,7 @@ a {
   border-bottom: 0px !important;
   padding: 7px !important;
   /* background-color: #13002d !important; */
-  background-color: rgb(14, 14, 135) !important;
+  background-color: rgba(10, 26, 58, 0.889) !important;
 }
 .modal-body{
   padding: 0px !important;
