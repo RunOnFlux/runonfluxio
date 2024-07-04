@@ -1,4 +1,22 @@
 <svg width="510" height="501" viewBox="0 0 510 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .pulsing-circle {
+      animation: pulse 1s infinite;
+      transform-origin: center;
+    }
+  </style>
 <circle cx="249.129" cy="250.056" r="249.129" fill="#141529"/>
 <circle cx="249.129" cy="250.056" r="156.828" fill="#F8F9FB"/>
 <g filter="url(#filter0_d_71_6354)">
@@ -10,7 +28,7 @@
 <path d="M287.518 244.511V268.846L266.461 280.991H266.434L245.4 268.846V244.511L266.461 232.348L287.518 244.511Z" fill="#141529"/>
 <path d="M235.929 254.797V268.78L223.815 275.778L211.705 268.784V254.802L223.819 247.808L235.929 254.797Z" fill="#141529"/>
 <circle cx="249.943" cy="251.8" r="249.129" fill="#141529"/>
-<circle cx="249.943" cy="251.801" r="156.828" fill="#191A2F"/>
+<circle cx="249.943" cy="251.801" r="156.828" fill="#191A2F" class="pulsing-circle"/>
 <g filter="url(#filter1_d_71_6354)">
 <circle cx="249.944" cy="248.533" r="111.087" fill="#141529"/>
 </g>

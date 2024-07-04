@@ -95,10 +95,10 @@ export function NavBar4(){
                   >
                      <div className={styles.dropMenu}>
                     <NavDropdown.Item>
-                     <Link href={'/fluxCore'} className={styles.link}  eventKey={1} > 
+                     <Link href={'/fluxEdge'} className={styles.link}  eventKey={1} > 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
-                    FluxCore<br/>
-                    <div className={styles.sublink}>FluxCore presents the next generation of mining<br></br> and AI</div>
+                    FluxEdge<br/>
+                    <div className={styles.sublink}>FluxEdge presents the next generation of mining<br></br> and AI</div>
                       </div>
                     
                       </Link> 
@@ -330,6 +330,15 @@ export function NavBar4(){
                         </Link>
                        
                     </NavDropdown.Item>
+                    <NavDropdown.Item>
+                     <Link href={'/fluxEdge'} className={styles.link}  eventKey={1} > 
+                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                    FluxEdge<br/>
+                    <div className={styles.sublink}>FluxEdge presents the next generation of mining<br></br> and AI</div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
                     {/* <NavDropdown.Item>
                         <Link href={'/node'} eventKey={18} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
@@ -457,16 +466,16 @@ export function NavBar4(){
                        
                     </NavDropdown.Item>
                    
-                    {/* <NavDropdown.Item>
-                        <Link href={'/donate'} eventKey={28} className={styles.link} >
+                    <NavDropdown.Item>
+                        <Link href={'/cypherPunk2024'} eventKey={28} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
-                       Donate
+                      Cypherpunk 2024
                         <br/>
-                        <div className={styles.sublink}>Help us grow the Flux project and contribute <br/>to the foundation funds.</div>
+                        {/* <div className={styles.sublink}>Help us grow the Flux project and contribute <br/>to the foundation funds.</div> */}
                         </div>
                         </Link>
                        
-                    </NavDropdown.Item> */}
+                    </NavDropdown.Item>
                     <NavDropdown.Item>
                         <Link href={'/support'} eventKey={29} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
@@ -531,6 +540,15 @@ export function NavBar4(){
                     id="basic-nav-dropdown" 
                    
                   >
+                     <NavDropdown.Item eventKey="30" >
+                      <Link href={'/fluxEdge'} className={styles.link} > 
+                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                    FluxEdge<br/>
+                    <div className={styles.sublink}>FluxEdge presents the next generation of mining<br></br> and AI</div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
                     <NavDropdown.Item eventKey="31" >
                       <Link href={'/fluxCloud'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
@@ -755,6 +773,15 @@ export function NavBar4(){
                         </Link>
                        
                     </NavDropdown.Item>
+                    <NavDropdown.Item eventKey="30" >
+                      <Link href={'/fluxEdge'} className={styles.link} > 
+                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                    FluxEdge<br/>
+                    <div className={styles.sublink}>FluxEdge presents the next generation of mining<br></br> and AI</div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
                     {/* <NavDropdown.Item eventKey="48">
                         <Link href={'/node'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
@@ -880,16 +907,16 @@ export function NavBar4(){
                        
                     </NavDropdown.Item>
                    
-                    {/* <NavDropdown.Item eventKey="58">
-                        <Link href={'/donate'}  className={styles.link} >
+                    <NavDropdown.Item eventKey="58">
+                        <Link href={'/cypherPunk2024'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
-                       Donate
+                      Cypherpunk 2024
                         <br/>
-                        <div className={styles.sublink}>Help us grow the Flux project and contribute <br/>to the foundation funds.</div>
+                        {/* <div className={styles.sublink}>Help us grow the Flux project and contribute <br/>to the foundation funds.</div> */}
                         </div>
                         </Link>
                        
-                    </NavDropdown.Item> */}
+                    </NavDropdown.Item>
                     <NavDropdown.Item eventKey="59">
                         <Link href={'/support'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>

@@ -12,6 +12,12 @@ import logo4 from "../../public/images/marketplace/logo4.svg"
 import logo5 from "../../public/images/marketplace/logo5.svg"
 import logo6 from "../../public/images/marketplace/logo6.svg"
 import link1 from "../../public/images/marketplace/link.svg"
+import stripe from "../../public/images/marketplace/Stripe.svg"
+import paypal from "../../public/images/marketplace/Paypal.svg"
+import visa from "../../public/images/marketplace/Visa&mastercard.svg"
+import apple from "../../public/images/marketplace/ApplePay.svg"
+import flux from "../../public/images/Flux_white-blue.svg"
+import { MarketplaceTabs } from "../marketplaceTabs/tabs";
 export function MarketplacePage(){
     return(
         <React.Fragment>
@@ -74,8 +80,8 @@ export function MarketplacePage(){
             <section className={styles.section3}>
                 <div className="container">
                     <div className="row mb-5">
-                        <h3>Discover DApps In<span> The Flux WEb3 Marketplace</span></h3>
-                        <p>Flux Marketplace offers a diverse range of services to meet your needs, from front-ends and backends to game servers and blockchain nodes. Our platform empowers you to effortlessly deploy and manage these services with ease. Explore the most popular dApps below.</p>
+                        <h3 style={{marginBottom: "10px"}} className={styles.header}>Discover DApps In<span> The Flux WEb3 Marketplace</span></h3>
+                        <p className={styles.header}>Flux Marketplace offers a diverse range of services to meet your needs, from front-ends and backends to game servers and blockchain nodes. Our platform empowers you to effortlessly deploy and manage these services with ease. Explore the most popular dApps below.</p>
                     </div>
                     <div className="row mb-5">
                        <div className="col-12">
@@ -105,7 +111,7 @@ export function MarketplacePage(){
                         </div>
                        </div>
                     </div>
-                    <div className="row">
+                    <div className="row ">
                         <div className="col-lg-4 col-md-6 mb-4">
                         <div className={styles.card1} style={{borderTopLeftRadius: "24px", borderBottomLeftRadius: "24px"}}>
                                     <div className={styles.cardHead}>
@@ -192,8 +198,92 @@ export function MarketplacePage(){
                                   
                                 </div>
                             </div>
+                            <div className="col-lg-4 col-md-6 mb-4">
+                                <div className={styles.card2}>
+                                    <h4>Launch your project</h4>
+                                    <p>Anything can run on the Flux Web3 Cloud. If you can dockerize it, Flux can run it!</p>
+                                    <p>Using Docker Hub for deployment, all applications are redundant, running on 3 to 100 balanced instances with automatic failover, ensuring 99.99% uptime.</p>
+                                    <a href="#">Deploy Now</a>
+                                </div>
+                            </div>
                     </div>
+
+                    <div className="row" style={{marginTop: "100px"}}>
+                        <div className="col-md-6 mb-4">
+                            <div className="row">
+                                <div className="col-6 mb-4">
+                                    <div className={styles.btnCard}>
+                                        <Image alt="logo" src={stripe}/>
+                                    </div>
+                                </div>
+                                <div className="col-6 mb-4">
+                                <div className={styles.btnCard}>
+                                        <Image alt="logo" src={paypal}/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-6 mb-4">
+                                <div className={styles.btnCard}>
+                                        <Image alt="logo" src={visa}/>
+                                    </div>
+                                </div>
+                                <div className="col-6 mb-4">
+                                <div className={styles.btnCard}>
+                                        <Image alt="logo" src={apple}/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-12 mb-4">
+                                <div className={`${styles.btnCard} ${styles.btnCard2}`}>
+                                        <Image alt="logo" src={flux}/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 mb-4">
+                            <div className={styles.paymentOptions} >
+                            <div>
+                                <h3 className="mb-4" style={{textAlign: "left"}}>Flexible Payment<br/> Options</h3>
+                                <p style={{textAlign: "left"}}>Choose from secure payment options including Stripe, PayPal, and cryptocurrency for a hassle-free checkout experience on our website. Your satisfaction and security are our priorities.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row" style={{ marginTop: "100px" }}>
+                        <div className="col-md-6 mb-4 order-1 order-md-0">
+                            <div className={styles.paymentOptions}>
+                                <div>
+                                    <h3 className="mb-4" style={{ textAlign: "left" }}>Multiple <span>Sign-In Login</span></h3>
+                                    <p style={{ textAlign: "left" }}>Unlock the full potential of Flux Cloud with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to <a target="_blank" href="https://cloud.runonflux.io">www.cloud.runonflux.io</a> using your Gmail, Apple ID, or Email, and experience unparalleled convenience in running your apps, deploying a WordPress site or saving files on the Flux blockchain via FluxDrive.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 order-0 order-md-1 mb-5">
+                            <div className={styles.solutions}>
+                                {/* <Image alt="logo" src={solutions}/> */}
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+            </section>
+            <section className={styles.section4}>
+                <div className="container">
+                   <div className="row">
+                      <div className=" col-lg-6 col-md-8">
+                        <h3>Explore More</h3>
+                        <p>The Flux Marketplace is your one-stop shop for running a wide range of applications effortlessly. Explore and deploy various applications with just a few clicks, all without writing a single line of code.</p>
+                        <p><i>Discover the ease and convenience of using Flux for all your computing needs.</i></p>
+                      </div>
+                      <div className="col-md-6"></div>
+                   </div>
+                </div>
+                <div className="container">
+                        <MarketplaceTabs/>
+                   </div>
             </section>
         </React.Fragment>
     )

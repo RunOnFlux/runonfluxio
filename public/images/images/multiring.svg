@@ -1,6 +1,24 @@
 <svg width="620" height="619" viewBox="0 0 620 619" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .circle-pulsating{
+      animation: pulse 1.5s infinite;
+      transform-origin: center; 
+    }
+  </style>
 <circle cx="305" cy="305.867" r="305" fill="#141529"/>
-<circle cx="305" cy="305.867" r="192" fill="#191A2F"/>
+<circle cx="305" cy="305.867" r="192" fill="#191A2F" class="circle-pulsating"/>
 <g filter="url(#filter0_d_71_7998)">
 <circle cx="305" cy="301.867" r="136" fill="#141529"/>
 </g>

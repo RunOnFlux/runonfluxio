@@ -31,7 +31,7 @@ body {
   --darkText2: #000;
   --border: rgba(0, 0, 0, 0.421);
   --CardText: #303B52;
-  --boxShadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43,97,209,.05);
+  --boxShadow: 4px 4px 24px 0px #2B61D121, 0px 0px 3px 0px #2B61D114;
   --boxShadow2: 7.74807px 7.74807px 18.7404px 4.87404px rgba(0, 0, 0, 0.25);
   --CardText2: #98A7B9;
   --CardText3: #303B52;
@@ -70,8 +70,9 @@ body {
   --darkText3: #98A7B9;
   --border: rgba(0, 0, 0, 0.421);
   --CardText: #fff;
+  --boxShadow: 4px 4px 24px 0px #191c4d, 0px 0px 3px 0px #191c4d;
   --boxShadow2: 7.74807px 7.74807px 7.7404px 4.87404px rgba(0, 0, 0, 0.25);
-  --boxShadow: 7.74807px 7.74807px 28.7404px 4.87404px rgb(25, 28, 77);
+  /* --boxShadow: 7.74807px 7.74807px 28.7404px 4.87404px #191c4d; */
   --CardText2: #ECECEC;
   --CardText3: #C0C0C0;
   --headerBackground: rgb(10, 11, 26, 0.5);
@@ -275,6 +276,33 @@ padding-right: 10px !important;
   border: 0px !important;
 }
 
+
+
+
+.newTab1 .nav-tabs .nav-link{
+  text-align: center !important;
+  border-radius: 10px !important;
+  margin: 5px !important;
+  background: none !important;
+  background-color: var(--CardBg);
+  box-shadow: var(--boxShadow);
+  padding: 10px 40px !important;
+  font-weight: 600 !important;
+ font-size: 13px !important;
+ color: var(--CardText)  !important;
+ border: none !important;
+}
+.newTab1 .nav-tabs .nav-link.active{
+  color: #fff !important;
+  background-color: #4c80ee !important;
+  border: 0px !important;
+}
+.newTab1 .nav-tabs .nav-link:hover{
+  background-color: #4c80ee !important;
+  color: #fff !important;
+  border: 0px !important;
+}
+
 .navNav{
   /* background-color: transparent !important; */
   background: rgba(17,24,39,.85)!important;
@@ -397,6 +425,11 @@ padding-right: 10px !important;
 }
 .dropdown-menu{
   /* width: 100%; */
+}
+.newTab1 .nav-tabs {
+
+  justify-content: left !important;
+
 }
 
 }

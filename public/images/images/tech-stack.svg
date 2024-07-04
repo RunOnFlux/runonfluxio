@@ -1,4 +1,22 @@
 <svg width="503" height="533" viewBox="0 0 503 533" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .circle-pulsating{
+      animation: pulse 1.5s infinite;
+      transform-origin: center; 
+    }
+  </style>
 <g filter="url(#filter0_d_1393_1445)">
 <rect x="421.395" y="69.8555" width="402.081" height="402.081" rx="201.04" transform="rotate(90 421.395 69.8555)" fill="#F8F9FB"/>
 </g>

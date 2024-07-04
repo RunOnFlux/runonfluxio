@@ -37,8 +37,8 @@ async redirects() {
       basePath: false
     },
     {
-      source: '/fluxCore',
-      destination: 'https://leaderboard.fluxcore.ai',
+      source: '/fluxEdge',
+      destination: 'https://fluxedge.ai/',
       permanent: false,
       basePath: false
     },
@@ -138,12 +138,12 @@ async redirects() {
       permanent: false,
       basePath: false
     },
-    // {
-    //   source: '/miner',
-    //   destination: 'https://www.runonflux.io/mining.html',
-    //   permanent: false,
-    //   basePath: false
-    // },
+    {
+      source: '/cypherPunk2024',
+      destination: ' https://cypherpunk2024.com/',
+      permanent: false,
+      basePath: false
+    },
     // {
     //   source: '/buyFlux',
     //   destination: 'https://runonflux.io/flux.html#exchanges',

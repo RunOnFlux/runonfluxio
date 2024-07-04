@@ -65,7 +65,7 @@ export function HomePage(){
               let ssd = 0;
               let hdd = 0;
               let ram = 0;
-              nodes.forEach((node) => {
+              nodes?.forEach((node) => {
                 if (node.tier === "CUMULUS" && node.benchmark && node.benchmark.bench) {
                   let bm = node.benchmark.bench;
                   vcores += bm.cores === 0 ? 2 : bm.cores;

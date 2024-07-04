@@ -1,10 +1,28 @@
 <svg width="651" height="651" viewBox="0 0 651 651" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <style>
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .circle-pulsating{
+      animation: pulse 1.5s infinite;
+      transform-origin: center; 
+    }
+  </style>
 <g filter="url(#filter0_d_71_7105)">
 <circle cx="314.163" cy="314.162" r="305" fill="#141529"/>
 </g>
 <circle cx="314.163" cy="314.162" r="192" fill="#191A2F"/>
 <g filter="url(#filter1_d_71_7105)">
-<circle cx="314.164" cy="314.162" r="228" fill="#191A2F"/>
+<circle cx="314.164" cy="314.162" r="228" fill="#191A2F" class="circle-pulsating"/>
 </g>
 <g filter="url(#filter2_d_71_7105)">
 <circle cx="314.164" cy="310.162" r="165" fill="#141529"/>
