@@ -39,7 +39,7 @@ import POUW from "../../public/images/greenIcons/pouw.svg"
 import cloud from "../../public/images/greenIcons/cloud.svg"
 import climate from "../../public/images/greenIcons/climate.svg"
 import dollar from "../../public/images/greenIcons/dollar$.svg"
-import fluxwpimg from "../../public/images/flux-wp-popup.png"
+import fluxwpimg from "../../public/images/FLUXEdge Alpha Pop-Up V2.png"
 import axios from 'axios';
 import { Slider4 } from "../Slider/slider4";
 import Modal from 'react-bootstrap/Modal';
@@ -149,7 +149,7 @@ export function HomePage(){
                             </Modal.Header>
                             <Modal.Body>
                                 <div className={styles.modal}>
-                                    <a href="https://wordpress.runonflux.io/" target="_blank" rel="noreferrer">
+                                    <a href="https://fluxedge.ai/" target="_blank" rel="noreferrer">
                                         <Image alt="fluxwpimage" src={fluxwpimg} />
                                     </a>
                                 </div>
