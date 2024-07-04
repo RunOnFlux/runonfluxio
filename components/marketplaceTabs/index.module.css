@@ -87,20 +87,36 @@
 
 @media (max-width: 575.98px){
     .content h6{
-        font-size: 14px;
+        font-size: 13px;
         color: var(--CardText);
     }
     .content a{ 
         padding: 5px;
         margin-top: 10px;   
         font-size: 10px;
-        width: 80%;
+        width: 90%;
         margin: auto;
+        
     }
     .card{
-        height: 100px;
+        height:100px;
     
+    }
+    .logoContainer{
+        padding: 5px;
+    }
+    .logoContainer img{
+        height: 22px;
+        width: 22px;
+    }
+    .content{
+        /* margin-left: -10px; */
     }
 }
 
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+    .card{
+        /* height: 80px; */
+    
+    }
+}
