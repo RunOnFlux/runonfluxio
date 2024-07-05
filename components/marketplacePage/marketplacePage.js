@@ -214,7 +214,15 @@ export function MarketplacePage(){
                     </div>
 
                     <div className="row" style={{marginTop: "100px"}}>
-                        <div className="col-md-6 mb-4">
+                    <div className="col-md-6 mb-4 order-0 order-md-1">
+                            <div className={styles.paymentOptions} >
+                            <div>
+                                <h3 className="mb-4" style={{textAlign: "left"}}>Flexible Payment<br/> Options</h3>
+                                <p style={{textAlign: "left"}}>Choose from secure payment options including Stripe, PayPal, and cryptocurrency for a hassle-free checkout experience on our website. Your satisfaction and security are our priorities.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 mb-4 order-1 order-md-0">
                             <div className="row">
                                 <div className="col-6 mb-4">
                                     <div className={styles.btnCard}>
@@ -247,18 +255,11 @@ export function MarketplacePage(){
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 mb-4">
-                            <div className={styles.paymentOptions} >
-                            <div>
-                                <h3 className="mb-4" style={{textAlign: "left"}}>Flexible Payment<br/> Options</h3>
-                                <p style={{textAlign: "left"}}>Choose from secure payment options including Stripe, PayPal, and cryptocurrency for a hassle-free checkout experience on our website. Your satisfaction and security are our priorities.</p>
-                            </div>
-                            </div>
-                        </div>
+                      
                     </div>
 
                     <div className="row" style={{ marginTop: "50px" }}>
-                        <div className="col-md-6 mb-4 order-1 order-md-0">
+                        <div className="col-md-6 mb-0">
                             <div className={styles.paymentOptions}>
                                 <div>
                                     <h3 className="mb-4" style={{ textAlign: "left" }}>Multiple <span>Sign-In Login</span></h3>
@@ -266,7 +267,7 @@ export function MarketplacePage(){
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 order-0 order-md-1 mb-0">
+                        <div className="col-md-6  mb-0">
                             <div className={styles.solutions}>
                                 {/* <Image alt="logo" src={solutions}/> */}
                             </div>
@@ -276,7 +277,7 @@ export function MarketplacePage(){
                 </div>
             </section>
 
-            
+
             <section className={styles.section4}>
                 <div className="container">
                    <div className="row">
