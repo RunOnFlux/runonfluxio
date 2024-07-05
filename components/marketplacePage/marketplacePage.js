@@ -18,6 +18,11 @@ import visa from "../../public/images/marketplace/Visa&mastercard.svg"
 import apple from "../../public/images/marketplace/ApplePay.svg"
 import flux from "../../public/images/Flux_white-blue.svg"
 import { MarketplaceTabs } from "../marketplaceTabs/tabs";
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+import kadena from "../../public/images/marketplace/Kadena.svg"
+import eckodao from "../../public/images/marketplace/eckoDAO.svg"
+import mok from "../../public/images/marketplace/MOK.svg"
 export function MarketplacePage(){
     return(
         <React.Fragment>
@@ -283,6 +288,34 @@ export function MarketplacePage(){
                 </div>
                 <div className="container">
                         <MarketplaceTabs/>
+                   </div>
+            </section>
+
+            <section className={styles.section5}>
+                   <div className="container">
+                    <div className="row mb-3">
+                    <h3>Success Stories With <span>Our Partners</span></h3>
+                    </div>
+                    <div className="row">
+                        <div className="tabCard">
+                        <Tabs
+                            defaultActiveKey="kadena"
+                            id="uncontrolled-tab-example"
+                            className="mb-3"
+                            >
+                            <Tab eventKey="kadena" title={<Image alt="logo" src={kadena} className={styles.tabLogo}/>}>
+                               <p className={styles.tabText}>“We’ve taken our partnership with Flux to the next phase as Flux 
+                               fine-tunes requirements for running nodes and statistics for node operators. This will allow for a more robust and scalable infrastructure for Kadena’s network!Here’s to a successful partnership!”</p>
+                            </Tab>
+                            <Tab eventKey="eckodao" title={<Image alt="logo" src={eckodao} className={styles.tabLogo2}/>}>
+                              
+                            </Tab>
+                            <Tab eventKey="mok" title={<Image alt="logo" src={mok} className={styles.tabLogo}/>}>
+                               
+                            </Tab>
+                            </Tabs>
+                        </div>
+                    </div>
                    </div>
             </section>
         </React.Fragment>

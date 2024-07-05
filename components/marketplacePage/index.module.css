@@ -157,9 +157,7 @@
     position: relative;
     transition: all .2s ease-in-out;
   }
-  .gameCard:hover{
-    transform: scale(1.1); 
-  }
+ 
 
   .gameCard img{
     width: 100%;
@@ -423,7 +421,46 @@
   text-align: left;
   
 }
+
+.section5{
+  margin-bottom: 100px;
+}
   
+
+.section5 h3{
+  margin: 0.1em auto 0em 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--CardText);
+  font-size: 2.7em;
+  line-height: 1.1em;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section5 h3 span{
+  color: #2B61D1;
+}
+.tabLogo{
+  width: 100%;
+  height: 35px;
+}
+
+.tabLogo2{
+  width: 100%;
+  height: 20px;
+}
+
+.tabText{
+  color: var(--CardText);
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  padding-bottom: 50px;
+
+}
 
 
 
@@ -479,7 +516,15 @@
     .paymentOptions{
       margin-left: 40px;
     }
+
+    .gameCard:hover{
+      transform: scale(1.1); 
+    }
   
+    .tabText{
+      width: 90%;
+      margin: auto;
+    }
 
   }
 
@@ -546,6 +591,15 @@
   
     font-size: 2.3em;
     line-height: 1.1em;
+  }
+  .section5 h3{
+  
+    font-size: 2.3em;
+    line-height: 1.1em;
+  }
+  .tabText{
+    font-size: 25px;
+    line-height: 35px;
   }
   }
 
@@ -704,6 +758,19 @@
     }
     .section3 p.header{
       text-align: center;
+    }
+
+    .section5 h3{
+      margin-bottom: 10px;
+      font-size: 2em;
+      line-height: 1.1em;
+
+    }
+    .tabText{
+      font-size: 22px;
+      line-height: 32px;
+      width: 90%;
+      margin: auto;
     }
       
   }
@@ -894,7 +961,29 @@
       line-height: 1.6;
       /* margin-bottom: 50px !important; */
     }
+
+    .section5 h3{
+   
+      font-size: 1.5em;
+      line-height: 1.2em;
+    }
      
+    .tabLogo{
+      width: 100%;
+      height: 20px;
+    }
+    
+    .tabLogo2{
+      width: 100%;
+      height: 20px;
+    }
+
+    .tabText{
+      font-size: 22px;
+      line-height: 32px;
+      width: 90%;
+      margin: auto;
+    }
 
 
   }
@@ -994,6 +1083,22 @@
     }
     .btnCard{
       height: 60px;
+    }
+
+    .tabLogo{
+      width: 100%;
+      height: 25px;
+    }
+    
+    .tabLogo2{
+      width: 100%;
+      height: 15px;
+    }
+    .tabText{
+      font-size: 18px;
+      line-height: 26px;
+      width: 90%;
+      margin: auto;
     }
   }
 
