@@ -789,7 +789,7 @@
     .section1{
         margin-top: -90px;
         padding-top: 200px;
-        /* height:100vh; */
+        height:100vh;
         width:100%;
         background-size:cover;
         background-position:center;
@@ -991,7 +991,7 @@
 
   @media (max-width: 575.98px){
     .section1{
-      padding-bottom: 100px;
+      /* padding-bottom: 100px; */
     }
     .section1 p{
         font-size: 15px;
@@ -1131,13 +1131,14 @@
         /* display: inline; */
     }
 
-    /* .section1{
-        height: 150vh !important;
-    } */
-
-    .header{
-        height: 150vh;
+    .section1{
+        height: auto !important;
+        padding-bottom: 100px !important;
     }
+
+    /* .header{
+        height: 150vh;
+    } */
     .card1{
       padding: 20px 20px;
     }
