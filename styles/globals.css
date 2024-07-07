@@ -579,7 +579,7 @@ width: 100% !important;
       padding-left: 45px !important;
     }
 
-    .newTab .nav-tabs .nav-link{
+    .newTab1 .nav-tabs .nav-link{
  
       padding: 10px 20px !important;
   
@@ -610,9 +610,21 @@ width: 100% !important;
   .nav-tabs{
     justify-content: center !important;
     }
+    .newTab1 .nav-tabs .nav-link{
+ 
+      padding: 10px 10px !important;
+  
+    }
+
     .newTab .nav-tabs .nav-link{
  
-      padding: 10px 20px !important;
+      padding: 10px 10px !important;
+  
+    }
+
+    .tabCard .nav-tabs .nav-link{
+ 
+      padding: 10px 10px !important;
   
     }
 }
@@ -646,6 +658,10 @@ width: 100% !important;
 
   .tabCard .nav-tabs .nav-link{
     padding: 10px 5px !important;
+  }
+
+  .newTab .nav-tabs .nav-link{
+    padding: 10px 15px !important;
   }
 
   .tabCard{

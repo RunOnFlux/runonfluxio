@@ -1,11 +1,12 @@
 .section1{
     margin-top: -90px;
     padding-top: 250px;
+    padding-bottom: 50px;
     background-image:url("../../public/images/marketplace/pero-kalimero-9BJRGlqoIUk-unsplash\ 1.svg");
     /* background-color: var(--headerBackground);  */
     /* background-blend-mode: overlay;  */
     text-align: center;
-    height:120vh;
+    height:auto;
     width:100%;
     background-size:cover;
     background-position:center;
@@ -605,7 +606,7 @@
 
   @media (max-width: 991.98px) {
     .section1{
-        height: 100vh;
+        /* height: 100vh; */
         padding-top: 200px;
     }
     .section1 h3{
@@ -780,7 +781,7 @@
       margin-bottom: 100px;
     }
     .section1{
-        height: 100vh !important;
+        /* height: 100vh !important; */
     }
     .section3{
       margin-bottom: 50px;
@@ -788,7 +789,7 @@
     .section1{
         margin-top: -90px;
         padding-top: 200px;
-        height:100vh;
+        /* height:100vh; */
         width:100%;
         background-size:cover;
         background-position:center;
@@ -989,6 +990,9 @@
   }
 
   @media (max-width: 575.98px){
+    .section1{
+      padding-bottom: 100px;
+    }
     .section1 p{
         font-size: 15px;
         line-height: 21px;
@@ -1127,9 +1131,9 @@
         /* display: inline; */
     }
 
-    .section1{
+    /* .section1{
         height: 150vh !important;
-    }
+    } */
 
     .header{
         height: 150vh;
@@ -1137,6 +1141,8 @@
     .card1{
       padding: 20px 20px;
     }
+
+   
   
 }
 
