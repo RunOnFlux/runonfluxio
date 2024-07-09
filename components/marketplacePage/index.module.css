@@ -870,19 +870,30 @@
         line-height: 15px;
         margin-top: 5px;
       }
+      .coronaCard{
+  
+        border-radius: 20px;
+
+      }
 
       .coronaCard .cardImg{
         height: 500px;
         width: 100%;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
         border-bottom-left-radius: 0px;
       }
       .card1{
         padding: 30px 30px;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+   
+    
       }
+      .coronaCard .card1{
+        border-top-right-radius: 0px;
+      }
+      
       .logoContainer{
         height: 60px;
         width: 60px;
@@ -1014,6 +1025,7 @@
         padding-right: 50px;
         margin: auto;
         height: 500px;
+        border-radius: 20px;
       }
       .gameCard .btn3{
         width: 80% ;
