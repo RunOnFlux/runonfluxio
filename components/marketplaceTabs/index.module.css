@@ -10,6 +10,7 @@
     display: inline-flex;
     align-items: center;
     justify-content:space-evenly;
+    
 
 }
 
@@ -49,7 +50,16 @@
 }
 
 
-@media all and (min-width: 992px){}
+@media all and (min-width: 992px){
+    .card{
+        padding: 15px;
+
+    }
+
+    .logoContainer{
+        margin-right: 10px;
+    }
+}
 
 @media (max-width: 1200px){
 
@@ -80,6 +90,13 @@
         font-size: 14px;
         color: var(--CardText);
     }
+    .logoContainer{
+        margin-right: 10px;
+    }
+    .card{
+        padding: 15px;
+
+    }
 }
 
 @media (max-width: 767.98px) {}
@@ -89,6 +106,11 @@
     .content h6{
         font-size: 13px;
         color: var(--CardText);
+        /* margin-left: 5px; */
+    }
+    .logoContainer{
+        /* margin-left: 5px; */
+        margin-right: 10px;
     }
     .content a{ 
         padding: 7px;
@@ -100,6 +122,8 @@
     }
     .card{
         height:100px;
+        width: 100%;
+       padding: 10px;
     
     }
     
