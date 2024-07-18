@@ -35,8 +35,8 @@ export function MarketplacePage(){
                         <h1>The Ultimate Web3 Launchpad</h1>
                         <p>The Flux Marketplace is your ultimate launchpad, akin to the Apple Store, but for decentralized applications. Whether you're looking to deploy dApps, frontends, backends, game servers, or blockchain nodes, the Flux Marketplace makes it incredibly simple.</p>
                         <div className="mt-4">
-                            <a className={styles.btn2} href="">Marketplace</a>
-                            <a className={styles.btn1} href="">Github</a>
+                            <a className={styles.btn2} href="https://cloud.runonflux.io/">Marketplace</a>
+                            <a className={styles.btn1} target="_blank" href="https://github.com/RunOnFlux">Github</a>
                         </div>
                         <div className={styles.landingPageImage}>
                             <Image alt="landing-page" src={landingPage}/>
