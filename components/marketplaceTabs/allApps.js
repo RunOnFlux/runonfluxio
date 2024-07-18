@@ -54,215 +54,215 @@ export function AllApps(){
      
         <div className="row">
              <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 16 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 16 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 4 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 4 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 8 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 8 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={palword} name={'Palworld 16 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={palword} name={'Palworld 16 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={palword} name={'Palworld 32 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={palword} name={'Palworld 32 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={palword} name={'Palworld 8 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={palword} name={'Palworld 8 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={palword} name={'Palworld 4 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={palword} name={'Palworld 4 slots'}  linkName={'View App'}  /></div>
                     </div>
              <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={hello} name={'Hello World'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={hello} name={'Hello World'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={teamspeak} name={'Teamspeak'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={teamspeak} name={'Teamspeak'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={website} name={'Website Screenshot API'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={website} name={'Website Screenshot API'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={ipify} name={'Ipify'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={ipify} name={'Ipify'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={nostr} name={'Nostr'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={nostr} name={'Nostr'}  linkName={'View App'}  /></div>
                     </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={firo} name={'Firo Masternode'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={firo} name={'Firo Masternode'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={pivx} name={'PIVX Masternode'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={pivx} name={'PIVX Masternode'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={dash} name={'Dash Masternode'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={dash} name={'Dash Masternode'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={blocx} name={'BLOCX Masternode'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={blocx} name={'BLOCX Masternode'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={neoxa} name={'Neoxa Masternode'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={neoxa} name={'Neoxa Masternode'}  linkName={'View App'}  /></div>
                     </div>
                  <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={wanchain} name={'Wanchain RPC'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={wanchain} name={'Wanchain RPC'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={bitgert} name={'Bitgert RPC'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={bitgert} name={'Bitgert RPC'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={celo} name={'Celo RPC'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={celo} name={'Celo RPC'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={fuse} name={'Fuse RPC'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={fuse} name={'Fuse RPC'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={astar} name={'Astar RPC'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={astar} name={'Astar RPC'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={compiler} name={'Compiler'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={compiler} name={'Compiler'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={folding} name={'Folding@home'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={folding} name={'Folding@home'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={grocy} name={'Grocy'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={grocy} name={'Grocy'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={owncast} name={'Owncast'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={owncast} name={'Owncast'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={rustpad} name={'Rustpad'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={rustpad} name={'Rustpad'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={whoogle} name={'Whoogle'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={whoogle} name={'Whoogle'}  linkName={'View App'}  /></div>
                     </div>
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={presearch} name={'Presearch-Node'} url={''} linkName={'View App'}  /></div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={streamr} name={'Streamr'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={presearch} name={'Presearch-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={ironFish} name={'IronFish-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={streamr} name={'Streamr'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={ravecoin} name={'Ravecoin-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={ironFish} name={'IronFish-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={kadena} name={' Kadena-Chainweb'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={ravecoin} name={'Ravecoin-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={neoxa} name={'Neoxa-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={kadena} name={' Kadena-Chainweb'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={kusama} name={'Kusama-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={neoxa} name={'Neoxa-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={deso} name={'Deso-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={kusama} name={'Kusama-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={dogecoin} name={'Dogecoin-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={deso} name={'Deso-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={alephium} name={'Alephium-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={dogecoin} name={'Dogecoin-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={meowcoin} name={'Meowcoin'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={alephium} name={'Alephium-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={nexanode} name={'Nexa-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={meowcoin} name={'Meowcoin'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={radiant} name={'Radiant-ElectrumX'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={nexanode} name={'Nexa-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={neurai} name={'Neurai-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={radiant} name={'Radiant-ElectrumX'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={neurai} name={'Neurai-ElectrumX'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={neurai} name={'Neurai-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={celestia} name={'Celestia-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={neurai} name={'Neurai-ElectrumX'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={bittensor} name={'Bittensor-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={celestia} name={'Celestia-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={cyberfly} name={'Cyberfly-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={bittensor} name={'Bittensor-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={yacy} name={'YaCy'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={cyberfly} name={'Cyberfly-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={dopex} name={'Dopex'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={yacy} name={'YaCy'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={gmx} name={'GMX'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={dopex} name={'Dopex'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={liquidity} name={'Liquidity'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={gmx} name={'GMX'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={osmosis} name={'Osmosis'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={liquidity} name={'Liquidity'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={pangolin} name={'Pangolin'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={osmosis} name={'Osmosis'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={sushiswap} name={'Sushiswap'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={pangolin} name={'Pangolin'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={yearn} name={'Yearn Finance'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={sushiswap} name={'Sushiswap'}  linkName={'View App'}  /></div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div className={styles.main}> <Card logo={yearn} name={'Yearn Finance'}  linkName={'View App'}  /></div>
                     </div>
 
 

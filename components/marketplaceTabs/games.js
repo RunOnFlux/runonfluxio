@@ -7,31 +7,31 @@ export function Games(){
     return (
         <div className="row">
              <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 16 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 16 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 4 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 4 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 8 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={enshrouded} name={'Enshrouded 8 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={palword} name={'Palworld 16 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={palword} name={'Palworld 16 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={palword} name={'Palworld 32 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={palword} name={'Palworld 32 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={palword} name={'Palworld 8 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={palword} name={'Palworld 8 slots'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={palword} name={'Palworld 4 slots'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={palword} name={'Palworld 4 slots'}  linkName={'View App'}  /></div>
                     </div>
         </div>
     )

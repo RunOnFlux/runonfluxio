@@ -893,7 +893,7 @@
       .coronaCard .card1{
         border-top-right-radius: 0px;
       }
-      
+
       .logoContainer{
         height: 60px;
         width: 60px;
@@ -1065,8 +1065,8 @@
       }
       .card1 p{
         font-family: 'Montserrat';
-        font-size: 13px;
-        line-height: 22.5px;
+        font-size: 14px;
+        line-height: 24.5px;
         font-weight: 500;
         letter-spacing: -3%;
         text-align: left;
@@ -1080,8 +1080,8 @@
        line-height: 44px;
      }
      .card2 p{
-       font-size: 13px;
-       line-height: 22px;
+       font-size: 14px;
+       line-height: 24px;
      }
      
      .card2 a{

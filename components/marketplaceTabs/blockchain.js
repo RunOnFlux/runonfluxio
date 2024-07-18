@@ -23,75 +23,75 @@ export function Blockchain(){
     return (
        <div className="row">
               <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={presearch} name={'Presearch-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={presearch} name={'Presearch-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={streamr} name={'Streamr'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={streamr} name={'Streamr'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={ironFish} name={'IronFish-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={ironFish} name={'IronFish-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={ravecoin} name={'Ravecoin-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={ravecoin} name={'Ravecoin-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={kadena} name={' Kadena-Chainweb'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={kadena} name={' Kadena-Chainweb'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={neoxa} name={'Neoxa-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={neoxa} name={'Neoxa-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={kusama} name={'Kusama-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={kusama} name={'Kusama-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={deso} name={'Deso-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={deso} name={'Deso-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={dogecoin} name={'Dogecoin-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={dogecoin} name={'Dogecoin-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={alephium} name={'Alephium-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={alephium} name={'Alephium-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={meowcoin} name={'Meowcoin'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={meowcoin} name={'Meowcoin'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={nexanode} name={'Nexa-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={nexanode} name={'Nexa-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={radiant} name={'Radiant-ElectrumX'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={radiant} name={'Radiant-ElectrumX'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={neurai} name={'Neurai-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={neurai} name={'Neurai-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={neurai} name={'Neurai-ElectrumX'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={neurai} name={'Neurai-ElectrumX'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={celestia} name={'Celestia-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={celestia} name={'Celestia-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={bittensor} name={'Bittensor-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={bittensor} name={'Bittensor-Node'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={cyberfly} name={'Cyberfly-Node'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={cyberfly} name={'Cyberfly-Node'}  linkName={'View App'}  /></div>
                     </div>
 
        </div>

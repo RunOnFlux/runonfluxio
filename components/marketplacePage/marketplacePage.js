@@ -21,8 +21,9 @@ import { MarketplaceTabs } from "../marketplaceTabs/tabs";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import kadena from "../../public/images/marketplace/Kadena.svg"
-import eckodao from "../../public/images/marketplace/eckoDAO.svg"
+import eckodao from "../../public/images/images/eckodao_logo_black.svg"
 import mok from "../../public/images/marketplace/MOK.svg"
+import streamr from "../../public/images/images/Horizontal colour lockup.svg"
 export function MarketplacePage(){
     return(
         <React.Fragment>
@@ -62,7 +63,7 @@ export function MarketplacePage(){
                             <div className={styles.gameCard}>
                                 <Image alt="logo" src={Enshrouded}/>
                                 <div className={styles.bottom}>
-                                    <a href="#" className={styles.btn3}>Install Now</a>
+                                    <a target="_blank" href="https://cloud.runonflux.io/marketplace" className={styles.btn3}>Install Now</a>
                                     <p>Starting at $9.99 / month</p>
                                 </div>
                             </div>
@@ -71,7 +72,7 @@ export function MarketplacePage(){
                             <div className={`${styles.gameCard} ${styles.gameCard2}`}>
                                 <Image alt="logo" src={palword}/>
                                 <div className={styles.bottom}>
-                                    <a href="#" className={styles.btn3}>Install Now</a>
+                                    <a target="_blank" href="https://cloud.runonflux.io/marketplace" className={styles.btn3}>Install Now</a>
                                     <p>Starting at $7.99 / month</p>
                                 </div>
                             </div>
@@ -102,12 +103,12 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Folding@Home</h6>
-                                            <a className={styles.btn4} href="#">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
                                     <div className={styles.cardText1}>
-                                    <p>Developed by the Pande laboratory in 2001, <a href="#">Folding@home</a> is a distributed computing project focused on protein folding. Led by Vijay Pande, an adjunct professor of Bioengineering, Folding@home aims to revolutionize disease research by providing atomically-detailed protein folding simulations. By launching a Folding@FluxCloud app from the Flux Marketplace, you can actively help gain crucial insights into diseases like Alzheimer’s and Cancer.</p>
+                                    <p>Developed by the Pande laboratory in 2001, Folding@home is a distributed computing project focused on protein folding. Led by Vijay Pande, an adjunct professor of Bioengineering, Folding@home aims to revolutionize disease research by providing atomically-detailed protein folding simulations. By launching a Folding@FluxCloud app from the Flux Marketplace, you can actively help gain crucial insights into diseases like Alzheimer’s and Cancer.</p>
                                     </div>
                                   
                                 </div>
@@ -124,12 +125,12 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Presearch Node</h6>
-                                            <a className={styles.btn4} href="#">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
                                     <div className={styles.cardText1}>
-                                    <p><a href="#">Presearch,</a> is a community-powered, decentralized search engine that provides better results while protecting your privacy and rewarding you when you search. Presearch Node software runs on Flux to help power the new Presearch decentralized search engine. By running node software, Flux helps crawl the web for the information needed to answer user search queries.</p>
+                                    <p>Presearch, is a community-powered, decentralized search engine that provides better results while protecting your privacy and rewarding you when you search. Presearch Node software runs on Flux to help power the new Presearch decentralized search engine. By running node software, Flux helps crawl the web for the information needed to answer user search queries.</p>
                                     </div>
                                   
                                 </div>
@@ -141,12 +142,12 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Streamer Node</h6>
-                                            <a className={styles.btn4} href="#">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
                                     <div className={styles.cardText1}>
-                                    <p><a href="#">Streamr,</a> (DATA) is an open source project and decentralized platform that relies on cryptography instead of trust. It is a P2P, real-time data infrastructure that houses a platform and tools for a new data economy. The technology stack includes a scalable real-time messaging network (pub/sub) hosted on computers worldwide, a marketplace for trading/selling data and a set of tools for working with real-time data.
+                                    <p>Streamr, (DATA) is an open source project and decentralized platform that relies on cryptography instead of trust. It is a P2P, real-time data infrastructure that houses a platform and tools for a new data economy. The technology stack includes a scalable real-time messaging network (pub/sub) hosted on computers worldwide, a marketplace for trading/selling data and a set of tools for working with real-time data.
                                     </p>
                                     </div>
                                   
@@ -159,12 +160,12 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Bittensor Nodee</h6>
-                                            <a className={styles.btn4} href="#">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="-blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
                                     <div className={styles.cardText1}>
-                                    <p><a href="#">Bittensor</a> is an open-source protocol that powers a decentralized, blockchain-based machine learning network. Machine learning models train collaboratively and are rewarded in TAO according to the informational value they offer the collective. TAO also grants external access, allowing users to extract information from the network while tuning its activities to their needs.</p>
+                                    <p>Bittensor is an open-source protocol that powers a decentralized, blockchain-based machine learning network. Machine learning models train collaboratively and are rewarded in TAO according to the informational value they offer the collective. TAO also grants external access, allowing users to extract information from the network while tuning its activities to their needs.</p>
                                     </div>
                                   
                                 </div>
@@ -176,12 +177,12 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>TeamSpeak</h6>
-                                            <a className={styles.btn4} href="#">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
                                     <div className={styles.cardText1}>
-                                    <p>Take complete control of your communication with <a href="#">TeamSpeak,</a> offering military-grade security, ultra low latency VoIP, and 3D surround sound as default. With TeamSpeak there are no centralized servers and no harvesting of personal data. Your chat, your data, your choice. With TeamSpeak, your team rules!</p>
+                                    <p>Take complete control of your communication with TeamSpeak, offering military-grade security, ultra low latency VoIP, and 3D surround sound as default. With TeamSpeak there are no centralized servers and no harvesting of personal data. Your chat, your data, your choice. With TeamSpeak, your team rules!</p>
                                     </div>
                                   
                                 </div>
@@ -193,12 +194,12 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Owncast</h6>
-                                            <a className={styles.btn4} href="#">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
                                     <div className={styles.cardText1}>
-                                    <p><a href="#">Owncast,</a> is an open source, self-hosted, decentralized, single user live video streaming and chat server for running your own live streams similar in style to the large mainstream options. It offers complete ownership over your content, interface, moderation and audience.</p>
+                                    <p>Owncast, is an open source, self-hosted, decentralized, single user live video streaming and chat server for running your own live streams similar in style to the large mainstream options. It offers complete ownership over your content, interface, moderation and audience.</p>
                                     </div>
                                   
                                 </div>
@@ -208,7 +209,7 @@ export function MarketplacePage(){
                                     <h4>Launch your project</h4>
                                     <p>Anything can run on the Flux Web3 Cloud. If you can dockerize it, Flux can run it!</p>
                                     <p>Using Docker Hub for deployment, all applications are redundant, running on 3 to 100 balanced instances with automatic failover, ensuring 99.99% uptime.</p>
-                                    <a href="#">Deploy Now</a>
+                                    <a href="https://cloud.runonflux.io/marketplace" target="_blank">Deploy Now</a>
                                 </div>
                             </div>
                     </div>
@@ -310,11 +311,16 @@ export function MarketplacePage(){
                                <p className={styles.tabText}>“We’ve taken our partnership with Flux to the next phase as Flux 
                                fine-tunes requirements for running nodes and statistics for node operators. This will allow for a more robust and scalable infrastructure for Kadena’s network!Here’s to a successful partnership!”</p>
                             </Tab>
-                            <Tab eventKey="eckodao" title={<Image alt="logo" src={eckodao} className={styles.tabLogo2}/>}>
+                            {/* <Tab eventKey="eckodao" title={<Image alt="logo" src={eckodao} className={styles.tabLogo2}/>}>
                               
-                            </Tab>
-                            <Tab eventKey="mok" title={<Image alt="logo" src={mok} className={styles.tabLogo}/>}>
-                               
+                            </Tab> */}
+                            <Tab eventKey="mok" title={<Image alt="logo" src={streamr} className={styles.tabLogo}/>}>
+                               <p className={styles.tabText}>
+                                "Flux is a pivotal and reliable hosting provider for us. Working together has allowed us to integrate our technologies, enhancing the functionality and efficiency of our real-time data pipelines. This collaboration strengthens the P2P mesh network of data pipelines and boosts our end user's capabilities in handling real time, high data payload use cases such as video streaming."
+                                    <br/>
+                                    Mark Little
+                                    CCO, Streamr Network
+                               </p>
                             </Tab>
                             </Tabs>
                         </div>

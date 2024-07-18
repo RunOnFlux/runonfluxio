@@ -12,31 +12,31 @@ export function Frontend(){
     return (
       <div className="row">
           <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={dopex} name={'Dopex'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={dopex} name={'Dopex'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={gmx} name={'GMX'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={gmx} name={'GMX'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={liquidity} name={'Liquidity'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={liquidity} name={'Liquidity'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={osmosis} name={'Osmosis'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={osmosis} name={'Osmosis'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={pangolin} name={'Pangolin'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={pangolin} name={'Pangolin'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={sushiswap} name={'Sushiswap'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={sushiswap} name={'Sushiswap'}  linkName={'View App'}  /></div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div className={styles.main}> <Card logo={yearn} name={'Yearn Finance'} url={''} linkName={'View App'}  /></div>
+                    <div className={styles.main}> <Card logo={yearn} name={'Yearn Finance'}  linkName={'View App'}  /></div>
                     </div>
       </div>
     )
