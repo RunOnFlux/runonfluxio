@@ -86,7 +86,7 @@ export function MarketplacePage(){
             <section className={styles.section3}>
                 <div className="container">
                     <div className="row mb-5">
-                        <h3 style={{marginBottom: "10px"}} className={styles.header}>Discover DApps In<span> The Flux WEb3 Marketplace</span></h3>
+                        <h3 style={{marginBottom: "10px"}} className={styles.header}>Discover DApps In<span> The Flux Web3 Marketplace</span></h3>
                         <p className={styles.header}>Flux Marketplace offers a diverse range of services to meet your needs, from front-ends and backends to game servers and blockchain nodes. Our platform empowers you to effortlessly deploy and manage these services with ease. Explore the most popular dApps below.</p>
                     </div>
                     <div className="row mb-5">
