@@ -45,7 +45,7 @@ export function Node() {
                     <div className="row">
                         <div className="col-md-6">
                         <h1><span>FluxNode</span> <br />Infrastructure</h1>
-                        <p>Support the Flux Cloud by running FluxNodes - by and for the people. The Flux Cloud is powered by thousands of FluxNodes connected from all around the globe, and the community is the backbone. By contributing their computational resources, individuals are incentivized accordingly.</p>
+                        <p>Support the FluxCloud by running FluxNodes - by and for the people. The FluxCloud is powered by thousands of FluxNodes connected from all around the globe, and the community is the backbone. By contributing their computational resources, individuals are incentivized accordingly.</p>
 
                         <div className="mt-4">
                             <a className={styles.btn2} href="/node">Deploy Node</a>
@@ -103,7 +103,7 @@ export function Node() {
                     <div className="row">
                         <div className="col-lg-7 col-md-12">
                         <h3><span>FluxNode</span> Hierarchy</h3>
-                         <p className="mb-4">To ensure the Flux Cloud network functions optimally, multiple tiers of FluxNodes are available for deployment, each with specific collateral and hardware requirements. <br /><br /> Interested parties are encouraged to review the economic models associated with each tier through the dashboard to make informed decisions. The dashboard provides a comprehensive overview of the technical and financial parameters of each FluxNode tier, enabling informed selection.</p>
+                         <p className="mb-4">To ensure the FluxCloud network functions optimally, multiple tiers of FluxNodes are available for deployment, each with specific collateral and hardware requirements. <br /><br /> Interested parties are encouraged to review the economic models associated with each tier through the dashboard to make informed decisions. The dashboard provides a comprehensive overview of the technical and financial parameters of each FluxNode tier, enabling informed selection.</p>
                          <a className={styles.btn1} href="https://home.runonflux.io/dashboard/economics">Economics</a>
                         </div>
                         <div className="col-lg-5 col-md-12"></div>

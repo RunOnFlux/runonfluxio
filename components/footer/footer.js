@@ -52,7 +52,7 @@ export function Footer(){
                         <h5>ECOSYSTEM</h5>
                         <ul>
                             <li><a href="/fluxCore">FluxCore</a></li>
-                            <li><a href="/fluxCloud">Flux Cloud</a></li>
+                            <li><a href="/fluxCloud">FluxCloud</a></li>
                             <li><Link href="/fluxDapps">DApps</Link></li>
                             <li><Link href="/nodes">FluxNodes</Link></li>
                             <li><Link href="/flux">Flux</Link></li>

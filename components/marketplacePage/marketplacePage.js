@@ -264,7 +264,7 @@ export function MarketplacePage(){
                             <div className={styles.paymentOptions}>
                                 <div>
                                     <h3 className="mb-4" style={{ textAlign: "left" }}>Multiple <span>Sign-In Login</span></h3>
-                                    <p style={{ textAlign: "left" }}>Unlock the full potential of Flux Cloud with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to <a target="_blank" href="https://cloud.runonflux.io">www.cloud.runonflux.io</a> using your Gmail, Apple ID, or Email, and experience unparalleled convenience in running your apps, deploying a WordPress site or saving files on the Flux blockchain via FluxDrive.</p>
+                                    <p style={{ textAlign: "left" }}>Unlock the full potential of FluxCloud with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to <a target="_blank" href="https://cloud.runonflux.io">www.cloud.runonflux.io</a> using your Gmail, Apple ID, or Email, and experience unparalleled convenience in running your apps, deploying a WordPress site or saving files on the Flux blockchain via FluxDrive.</p>
                                 </div>
                             </div>
                         </div>

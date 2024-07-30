@@ -20,8 +20,8 @@ export function FluxOSPage(){
                         <div className="col-md-8">
                             <div className={styles.logo1}>
                                 <Image alt="logo" src={logo1}/>
-                                <h1>The Brain of <br/>Flux Cloud</h1>
-                                <p>FluxOS powers Flux Cloud, providing seamless integration and optimal functionality. It is built on the MEVN stack (Mongo, Express, Vue, Node) with advanced dockerization.</p>
+                                <h1>The Brain of <br/>FluxCloud</h1>
+                                <p>FluxOS powers FluxCloud, providing seamless integration and optimal functionality. It is built on the MEVN stack (Mongo, Express, Vue, Node) with advanced dockerization.</p>
                                 <div className="mt-4">
                             <a className={styles.btn2} href="https://home.runonflux.io/" rel="noreferrer" target="_blank">FluxOS</a>
                             <a className={styles.btn1} href="https://github.com/RunOnFlux/flux" rel="noreferrer" target="_blank">Github</a>
@@ -76,8 +76,8 @@ export function FluxOSPage(){
             <section className={styles.section3}>
                 <div className="container">
                     <div className="row mb-4">
-                        <h3>The Magic Behind <br/> <span>Flux Cloud</span></h3>
-                        <p>Flux Cloud - the first and largest Web3 cloud platform- is revolutionizing the cloud space, offering a decentralized alternative to traditional giants like AWS, Google Cloud, or Microsoft Azure. Powered by individuals/ FluxNode operators worldwide, Flux Cloud is committed to serving the people without storing personal data, eliminating points of failure, and ensuring blazing-fast, secure performance - all at more affordable prices than any other cloud provider.</p>
+                        <h3>The Magic Behind <br/> <span>FluxCloud</span></h3>
+                        <p>FluxCloud - the first and largest Web3 cloud platform- is revolutionizing the cloud space, offering a decentralized alternative to traditional giants like AWS, Google Cloud, or Microsoft Azure. Powered by individuals/ FluxNode operators worldwide, Flux Cloud is committed to serving the people without storing personal data, eliminating points of failure, and ensuring blazing-fast, secure performance - all at more affordable prices than any other cloud provider.</p>
                     </div>
                     <div className="row d-none d-xl-block d-lg-block ">
                         <div className={styles.fluxcloud}>

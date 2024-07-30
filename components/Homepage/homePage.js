@@ -159,7 +159,7 @@ export function HomePage(){
                         <div className={`${styles.header} col-lg-8`}>
                             <div>
                             <h1>Build on <br/><span>Web 3.0 </span>Today.</h1><br/>
-                            <h6>The Flux Cloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance.</h6>
+                            <h6>The FluxCloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance.</h6>
                             <div className={styles.buttons}>
                             <a href="https://cloud.runonflux.io/" className={styles.btn2}>Deploy Now</a>
                             <a href="https://cloud.runonflux.io/marketplace" rel="noreferrer" target="_blank" className={styles.btn1}>Marketplace</a>
@@ -334,8 +334,8 @@ export function HomePage(){
                 <div className="container">
                     <div className="row">
                         <div className="text-center mb-5">
-                            <h1>The <span>Flux Cloud</span> Advantages</h1>
-                            <p>The Flux Cloud evokes the power of corporations and restores it to the common people. It helps you build decentralized applications with increased flexibility, scalability, and censorship resistance.</p>
+                            <h1>The <span>FluxCloud</span> Advantages</h1>
+                            <p>The FluxCloud evokes the power of corporations and restores it to the common people. It helps you build decentralized applications with increased flexibility, scalability, and censorship resistance.</p>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4 mt-3">
                             <div className={styles.card1}>
@@ -398,9 +398,9 @@ export function HomePage(){
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-6 mb-5">
-                            <h3><span>Flux Cloud </span><br/>
+                            <h3><span>FluxCloud </span><br/>
                                 Estimated Cost</h3>
-                                <p>The Flux Cloud assures next generation pricing, today! The Customer only pays for selected computer specifications in regards to their personal demand.</p>
+                                <p>The FluxCloud assures next generation pricing, today! The Customer only pays for selected computer specifications in regards to their personal demand.</p>
                                 <a href="https://jetpack2.app.runonflux.io/hello.html#cost-calculator" rel="noreferrer" target="_blank">Cost Calculator</a>
                         </div>
                         <div className="col-lg-6 col-md-6">
@@ -417,7 +417,9 @@ export function HomePage(){
                 <div className="container">
                     <div className="row text-center mb-4">
                         <h2>A Global <span>Cloud</span> Network</h2>
-                        <p className="mb-4">Flux Cloud is connected worldwide, across all continents. Its strongest Availability Zones are the EU and United States. South Asia and Australia are also witnessing an increase of server deployments. Flux Cloud is the most decentralized and fastest growing network in the world. </p>
+                        <p className="mb-4">FluxCloud is connected worldwide, across all continents. Its strongest Availability Zones are the EU and United States. South Asia and Australia are also witnessing an increase of server deployments. Flux
+                            
+                            Cloud is the most decentralized and fastest growing network in the world. </p>
                     </div>
                     <div className="row">
                     <a href="https://home.runonflux.io/dashboard/map" rel="noreferrer" target="_blank" className={styles.btn2} style={{margin: "auto", marginBottom: "20px"}}>View Dashboard</a>
@@ -453,8 +455,8 @@ export function HomePage(){
             <section className={styles.section9}>
                 <div className="container">
                 <div className="row text-center mb-4">
-                        <h2><span>Flux Cloud</span> Products</h2>
-                        <p className="mb-3">Whether you are looking for simple compute power, databases, content delivery, or other functionalities, the Flux Cloud has you covered! It will keep your infrastructure decentralized, flexible, scalable and censorship resistant.</p>
+                        <h2><span>FluxCloud</span> Products</h2>
+                        <p className="mb-3">Whether you are looking for simple compute power, databases, content delivery, or other functionalities, the FluxCloud has you covered! It will keep your infrastructure decentralized, flexible, scalable and censorship resistant.</p>
                         
                     </div>
                     {/* <div className="row mb-5">
@@ -477,7 +479,7 @@ export function HomePage(){
                                     <Image alt="logo" src={fluxdriveIcon}/>
                                 </div>
                                 <h5>Flux Drive</h5>
-                                <h6>Not your Drive, Not your File! Flux Drive stores your data in a decentralized manner using the Flux Cloud.</h6>
+                                <h6>Not your Drive, Not your File! Flux Drive stores your data in a decentralized manner using the FluxCloud.</h6>
                                 <a href="https://cloud.runonflux.io/fluxdrive" target="_blank" rel="noreferrer">Store Now</a>
                             </div>
                         </div>
@@ -487,7 +489,7 @@ export function HomePage(){
                                     <Image alt="logo" src={marketplaceIcon}/>
                                 </div>
                                 <h5>Flux Marketplace</h5>
-                                <h6>Interact and transact on a permission-less, and self-executing Marketplace powered by the Flux Cloud.</h6>
+                                <h6>Interact and transact on a permission-less, and self-executing Marketplace powered by the FluxCloud.</h6>
                                 <a href="https://cloud.runonflux.io/marketplace" target="_blank" rel="noreferrer">Visit Now</a>
                             </div>
                         </div>

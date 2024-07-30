@@ -452,7 +452,7 @@ export function Flux() {
                         <br></br>
                         Additionally, it encompasses projects that are being built in collaboration with FluxLabs, a diverse and 
                         vibrant global community, and its own self-custody wallet, Zelcore, which is renowned for its safety and 
-                        decentralization. Other essential elements of the Flux Ecosystem include Flux Cloud, FluxNodes, and various
+                        decentralization. Other essential elements of the Flux Ecosystem include FluxCloud, FluxNodes, and various
                         decentralized applications (dApps) that operate on the Flux network.</p>
                 </div>
                 <div className="row" style={{marginTop: "100px"}}>

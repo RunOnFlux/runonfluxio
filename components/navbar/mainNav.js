@@ -107,8 +107,8 @@ export function NavBar0(){
                     <NavDropdown.Item>
                      <Link href={'/fluxCloud'} className={styles.link}  eventKey={1} > 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
-                    Flux Cloud<br/>
-                    <div className={styles.sublink}>Flux Cloud presents the next generation of cloud <br/>infrastructure.</div>
+                    FluxCloud<br/>
+                    <div className={styles.sublink}>FluxCloud presents the next generation of cloud <br/>infrastructure.</div>
                       </div>
                     
                       </Link> 
@@ -150,7 +150,7 @@ export function NavBar0(){
                      <Link href={'/fluxOS'} className={styles.link}  eventKey={7} > 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
                     FluxOS<br/>
-                    <div className={styles.sublink}>FluxOS powers Flux Cloud, providing seamless integration.</div>
+                    <div className={styles.sublink}>FluxOS powers FluxCloud, providing seamless integration.</div>
                       </div>
                     
                       </Link> 
@@ -552,8 +552,8 @@ export function NavBar0(){
                     <NavDropdown.Item eventKey="31" >
                       <Link href={'/fluxCloud'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
-                    Flux Cloud<br/>
-                    <div className={styles.sublink}>Flux Cloud presents the next generation of <br/>cloud infrastructure.</div>
+                    FluxCloud<br/>
+                    <div className={styles.sublink}>FluxCloud presents the next generation of <br/>cloud infrastructure.</div>
                       </div>
                     
                       </Link> 
@@ -595,7 +595,7 @@ export function NavBar0(){
                      <Link href={'/fluxOS'} className={styles.link}  eventKey={62} > 
                       <div style={{textDecoration: "none", color: "inherit"}} >
                     FluxOS<br/>
-                    <div className={styles.sublink}>FluxOS powers Flux Cloud, providing seamless integration.</div>
+                    <div className={styles.sublink}>FluxOS powers FluxCloud, providing seamless integration.</div>
                       </div>
                     
                       </Link> 
