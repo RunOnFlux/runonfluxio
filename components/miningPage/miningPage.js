@@ -20,13 +20,13 @@ export function MiningPage(){
                         <div className="col-xl-6">
                             <Image alt="logo" src={fluxLogo}/>
                             <h1>Flux Mining Ecosystem</h1>
-                            <p>Flux is mined using the  ZelHash algorithm. ZelHash is a GPU minable implementation of Equihash 125,4, harnessing ASIC/FPGA resistance, developed by Wilke Trei of lolMiner.</p>
+                            <p>Flux is mined using the  PoUW algorithm. PoUW is a GPU minable implementation of Equihash 125,4, harnessing ASIC/FPGA resistance, developed by Wilke Trei of lolMiner.</p>
                         </div>
                         <div className="col-xl-6"></div>
                     </div>
                     {/* <div className="row">
                         <div className={styles.btns}>
-                            <a>ZelHash Whitepaper</a>
+                            <a>PoUW Whitepaper</a>
                             <a>Flux Pool</a>
                         </div>
                      </div> */}
@@ -53,7 +53,7 @@ export function MiningPage(){
                                 <Image src={fluxHashIcon} alt="img1" width={'0'} height={'0'}/>
                                 </div>
                                 <p>HASHING ALGORITHM</p>
-                                <h3 style={{color: '#4c80ee'}}>ZELHASH</h3>
+                                <h3 style={{color: '#4c80ee'}}>PoUW</h3>
                                 <p style={{fontSize: "0.8em"}}>Equihash 125_4</p>
                                 </div>
                             </div>

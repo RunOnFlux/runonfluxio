@@ -109,7 +109,7 @@ const teamAsset = [
         thumbnail: perritaz,
         twitterLink: 'https://twitter.com/is_alex_ok',
         linkedInLink: 'https://www.linkedin.com/in/alex-perritaz/',
-        title: 'Chief PoUW Architect and Community Member',
+        title: 'Chief Compute Architect',
         intro: 'Alex joined the Business Development team with a special focus on PoUW. ',
         description: 'He is currently conducting research at his university on the application of blockchain technologies to real-world use cases, involving students in the process and working on expanding the collaboration to other partner universities. His analytical thinking, creativity, and drive make him the ideal candidate to lead the development and architecture design of PoUW.'
     },
@@ -136,7 +136,7 @@ const teamAsset = [
         thumbnail: luckas,
         twitterLink: '',
         linkedInLink: '',
-        title: 'Business Dev, Exchange Manager and Community Member',
+        title: 'FluxEdge Project Manager, Exchanges Manager',
         intro: 'Lukas, a Web3 and blockchain enthusiast since 2018, holds a Bachelors degree in economic science from the University of Basel, Switzerland. ',
         description: 'Leading strategic partnerships, business opportunities, and client relationships, he leverages his deep understanding of blockchain technologies and anticipates emerging trends. Lukas is a passionate advocate of Web3 and blockchain technology. Lukas leads a pivotal position in driving the development of strategic partnerships, recognizing emerging business prospects, and nurturing client relationships.'
     },
@@ -272,7 +272,7 @@ const teamAsset = [
         thumbnail: joel,
         twitterLink: 'https://mobile.twitter.com/JoelShorun',
         linkedInLink: 'https://www.linkedin.com/in/joelshorun',
-        title: 'Content writer and Community Member',
+        title: 'Content Manager and Community Member',
         intro: 'Joel helps Web3 companies create content that positions them as a leading authority in the digital space.',
         description: ' Before he joined Flux, Joel worked in other fields, including Healthcare, Digital marketing, and E-commerce.'
     },
@@ -317,7 +317,7 @@ const teamAsset = [
         thumbnail: richard,
         twitterLink: '',
         linkedInLink: '',
-        title: 'FluxLabs Manager and Community Member',
+        title: 'Head of Risk & Data Science',
         intro: 'With 20+ years in business intelligence, Richard has masterfully combined technology, data analytics, and marketing to foster impactful change. ',
         description: "Recognized for pioneering BI integrations and innovative data strategies, he's been honored with awards such as the 'Bolt Award'. Beyond his technical prowess, Richard's expertise spans marketing analytics, a passion for Data Sciences and Web3. He remains a staunch advocate for mentorship, highlighting his comprehensive approach to the field."
     },
@@ -367,6 +367,87 @@ const teamAsset = [
     //     intro: '',
     //     description: ''
     // },
+
+    //  {
+    //     name: 'Jesus Lara',
+    //     thumbnail: '',
+    //     twitterLink: '',
+    //     linkedInLink: '',
+    //     title: 'Designer',
+    //     intro: '',
+    //     description: 'UI/UX Developer & Designer: Jesus has devoted his career to technology, driven by ambition and a passion for learning. He holds a Bachelors degree in Graphic Design from the University of Robert Morris and has honed his skills as a self-taught web developer. He eventually joined the Flux team determined to propel Web3 and decentralized products into the spotlight, offering a blend of creative and logical thinking.'
+    // },
+
+    // {
+    //     name: 'Max Dehlin',
+    //     thumbnail: '',
+    //     twitterLink: '',
+    //     linkedInLink: '',
+    //     title: 'Junior Dev',
+    //     intro: '',
+    //     description: 'Max is pursuing a degree in Computer Science at the University of Minnesota. He has worked with the Flux team since 2023 and enjoys it immensely. He is passionate about artificial intelligence and has a keen interest in exploring blockchain technologies. Max enjoys ultimate frisbee, reading, and gaming.'
+    // },
+
+    // {
+    //     name: 'Daniel Nogueira',
+    //     thumbnail: '',
+    //     twitterLink: '',
+    //     linkedInLink: '',
+    //     title: 'Developer',
+    //     intro: '',
+    //     description: 'A passionate and experienced software developer with a robust background in various programming languages and technologies. Over the course of a decade, I have honed my skills in Java, .NET, PHP, JavaScript, TypeScript, VueJS, and other languages and frameworks, demonstrating a deep commitment to delivering high-quality software solutions. Two and a half years ago, I transitioned into the rapidly evolving crypto and blockchain space, joining the Zelcore/Flux team. Here, I have been able to combine my technical expertise with my passion for innovation, contributing to projects.'
+    // },
+
+    // {
+    //     name: 'Alex Hackett',
+    //     thumbnail: '',
+    //     twitterLink: '',
+    //     linkedInLink: '',
+    //     title: 'Business Developer',
+    //     intro: '',
+    //     description: "I'm an MBA qualified procurement and commercial transformation consultant, working on business development activities primarily in the UK Public Sector. Also offering the Flux family a non-technical perspective, lay man's observations and constructive challenge as necessary or when invited."
+    // },
+
+    // {
+    //     name: 'David White',
+    //     thumbnail: '',
+    //     twitterLink: '',
+    //     linkedInLink: '',
+    //     title: 'Developer',
+    //     intro: '',
+    //     description: 'David is a UK based solution architect and software developer. He brings a wealth of Telco Industry and DevOps knowledge, with 15 years experience. He has a broad range of skills, including frontline customer service, infrastructure automation, and fault diagnosis under pressure. With a focus on writing clean, maintainable, testable code, David has a passion for delivering functional software, and is excited to be working on the next generation of distributed systems made possible by Flux.'
+    // },
+
+    // {
+    //     name: 'Kelly Sun',
+    //     thumbnail: '',
+    //     twitterLink: '',
+    //     linkedInLink: '',
+    //     title: 'Accounting',
+    //     intro: '',
+    //     description: 'An MBA graduate from Brock University and with a bachelors degree in finance and economics, Kelly is a proficient Finance Business Partner with a track record of turning vast pools of data into tangible, actionable insights. Kelly’s strong communication , analytical skills and knowledge of blockchain technology help her keep track of financial performance and build smart goals aligned with long term company goals.'
+    // },
+
+    // {
+    //     name: 'Dave Berney',
+    //     thumbnail: '',
+    //     twitterLink: '',
+    //     linkedInLink: '',
+    //     title: 'CFO',
+    //     intro: '',
+    //     description: 'Based out of Toronto, Dave holds the role of CFO and responsible for oversight of our finance function. He is a CPA and holds a masters in accounting and degree in commerce from University College Dublin. He is an accomplished finance leader with 15+ years of experience ranging from the startup phase all the way to global, multinational market leaders. His areas of expertise including compliance, cashflow planning, internal controls, management reporting, KPI tracking and business transformation.'
+    // },
+
+    // {
+    //     name: 'Darren Rieck',
+    //     thumbnail: '',
+    //     twitterLink: '',
+    //     linkedInLink: '',
+    //     title: 'Community Manager',
+    //     intro: '',
+    //     description: "My name is Darren Rieck (AKA: CryptoGhostie), and I have been in the crypto space since 2018. I started mining on the Pickaxe pool and was pointed to ZEL, now FLUX, and haven't looked back. I really enjoy helping our Flux discord community members solve their issues, being here to point them in the right direction or just a sounding board. I have been a Midwest Carmen building train cars, Certified pipe and pressure vessel welder, QA/QC, and my favorite---> Oil Field truck driver. My passions are fishing off the boat with my sons, woodworking, building PCs and mining rigs."
+    // },
+
     {
         name: 'Dibi',
         thumbnail: dibi,
