@@ -2,6 +2,10 @@
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     border-radius: 10px;
+    height: 350px !important;
+    width: 100% !important;
+    object-fit: cover;
+
 }
 .card{
     box-shadow: var(--boxShadow);
@@ -131,5 +135,17 @@ a.readMoreLink{
     }
     p.intro{
         margin-bottom: 20px !important;
+    }
+    .cardImg img{
+       
+        height: 250px !important;
+        width: 100% !important;
+     
+    
+    }
+    .card{
+     
+        padding: 15px 15px;
+        border-radius: 10px;
     }
  }
