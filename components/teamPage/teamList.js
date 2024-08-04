@@ -382,7 +382,7 @@ const teamAsset = [
         name: 'Jesus Lara',
         thumbnail: lara,
         twitterLink: '',
-        linkedInLink: '',
+        linkedInLink: 'https://www.linkedin.com/in/jesus-11?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         title: 'Designer',
         intro: '',
         description: 'UI/UX Developer & Designer: Jesus has devoted his career to technology, driven by ambition and a passion for learning. He holds a Bachelors degree in Graphic Design from the University of Robert Morris and has honed his skills as a self-taught web developer. He eventually joined the Flux team determined to propel Web3 and decentralized products into the spotlight, offering a blend of creative and logical thinking.'

@@ -1,6 +1,6 @@
 
 .teamFlux{
-    margin-top: 150px;
+    margin-top: 80px;
     padding: 0px 20px;
 }
 .teamFlux h3{
@@ -11,7 +11,7 @@
     line-height: 1.1em;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .teamFlux h5{
     margin-top: 0em;
@@ -70,8 +70,11 @@
         margin-bottom: 50px;
     }
     .teamFlux{
-        margin-top: 150px;
+        margin-top: 50px;
         padding: 0px 0px;
+    }.teamFlux h3{
+      
+        margin-bottom: 10px;
     }
 }
 
