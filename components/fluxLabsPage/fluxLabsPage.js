@@ -125,9 +125,9 @@ export function FluxLabsPage(){
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://havenprotocol.org/" target="_blank">  <Image alt="logo" src={logo2}/></a>
                             </div>
-                            <div className="col-lg-3 col-md-4 col-sm-4 col-6">
+                            {/* <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://kaddex.com/" target="_blank">  <Image alt="logo" src={logo3} style={{height:"80px", marginTop: "-20px"}}/></a>
-                            </div>
+                            </div> */}
                            
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://ido.timpi.io/" target="_blank">  <Image alt="logo" src={logo5}/></a>

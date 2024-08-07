@@ -550,7 +550,7 @@ export function HomePage(){
                         <h2><span className={styles.cloudText1}>Cloud Computing</span> that is<br/> 
                                 <span>Climate Friendly</span></h2>
                                
-                        <p>Flux is actively developing sustainable solutions for proof of work and cloud computing. Flux believes that blockchains are not the sole cause of environmental problems but that it instead can provide solutions that will ultimately create more energy-efficient solutions than legacy technology can.</p> 
+                        <p>Flux is actively developing sustainable solutions for proof of work and cloud computing. The company believes that blockchains are not the sole cause of environmental problems; instead, they can provide solutions that will ultimately create more energy-efficient systems than legacy technology.</p> 
                     </div>
                     <div className="row mb-5">
                         <a href="/fluxCarbon" target="_blank" rel="noreferrer" className={styles.btn3} style={{margin: "auto"}}> Discover More</a>

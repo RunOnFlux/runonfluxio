@@ -170,22 +170,7 @@ export function PartnersPage(){
                         </div> 
                     </div>
 
-                    <div className="row">
-                        <div className="col mb-5">
-                            <div className={styles.card}>
-                                <div className="row">
-                                    <div className={`${styles.partnerContainer} col-lg-6`}><Image  src={partner12} alt="partners" /></div>
-                                    <div className="col-lg-6">
-                                        <div>
-                                            <h1>eckoDAO</h1>
-                                            <h2><b>The evolution of DeFi on eckoDAO</b></h2>
-                                            <h3>eckoDAO becomes the only truly decentralized Defi platform and a frontrunner in Web 3.0. The Flux infrastructure is decentralized, scalable, and resilient, thus providing eckoDAO with all the benefits of being Web 3.0 ready.</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
+                   
 
                   
 

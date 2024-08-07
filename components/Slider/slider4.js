@@ -121,12 +121,12 @@ export function Slider4(){
                     <a className={styles.btn} href="https://bibliogram.app.runonflux.io/" target="_blank" rel="noreferrer">Bibliogram</a>
                     </div>
                 </SplideSlide>
-                <SplideSlide>
+                {/* <SplideSlide>
                 <div className={styles.appCard}>
                     <div><Image src={libreddit} alt="Image 1"/></div>
                     <a className={styles.btn} href="" target="_blank" rel="noreferrer">Libreddit</a>
                     </div>
-                </SplideSlide>
+                </SplideSlide> */}
                 <SplideSlide>
                 <div className={styles.appCard}>
                     <div><Image src={syncpaint} alt="Image 1"/></div>
@@ -188,12 +188,12 @@ export function Slider4(){
                     <a className={styles.btn} href="https://bibliogram.app.runonflux.io/" target="_blank" rel="noreferrer">Bibliogram</a>
                     </div>
                 </SplideSlide>
-                <SplideSlide>
+                {/* <SplideSlide>
                 <div className={styles.appCard}>
                     <div><Image src={libreddit} alt="Image 1"/></div>
                     <a className={styles.btn} href="https://libreddit.app.runonflux.io/" target="_blank" rel="noreferrer">Libreddit</a>
                     </div>
-                </SplideSlide>
+                </SplideSlide> */}
                 <SplideSlide>
                 <div className={styles.appCard}>
                     <div><Image src={syncpaint} alt="Image 1"/></div>

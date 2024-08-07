@@ -140,11 +140,11 @@ export function Slider1(){
                     <Image src={partner11} alt="Image 1"/>
                     </div>
                 </SplideSlide>
-                <SplideSlide className={styles.splider}>
+                {/* <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={partner12} alt="Image 1"/>
                     </div>
-                </SplideSlide>
+                </SplideSlide> */}
                 <SplideSlide className={styles.splider}>
                 <div className={styles.partnerImg}>
                     <Image src={partner13} alt="Image 1"/>
