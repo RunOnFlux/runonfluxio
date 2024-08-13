@@ -39,6 +39,7 @@ const [showChild, setShowChild] = useState(false)
         <meta name="twitter:description" content="The Flux Ecosystem is a suite of decentralized computing services and blockchain-as-a-service solutions." />
         <meta name="twitter:image" content="https://www.runonflux.io/_next/static/media/Flux_white_logo.0150b7f6.svg" />
         <meta name="twitter:url" content="https://twitter.com/runonflux?s=21&t=Apmhzi-5t3IhlOFLmqTrPw" />
+        <meta name="google-site-verification" content="1Rvzs9I7j6QqrWM5HTgAokIW_MXzqtvdCkGE1fn30yw" />
       </Head>
 
     <React.Fragment>
