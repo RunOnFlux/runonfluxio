@@ -595,7 +595,7 @@ export function Flux() {
                                 </div>
                                 <div className={styles.extext}>
                                    PancakeSwap
-                                    <a href="https://pancakeswap.finance/" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
+                                    <a href="https://pancakeswap.finance/swap?outputCurrency=0xaFF9084f2374585879e8B434C399E29E80ccE635" rel="noreferrer" target="_blank" className={styles.btn10}>Buy Now</a>
                                 </div>
                             </div>
                         </div>
