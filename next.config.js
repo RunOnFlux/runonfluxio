@@ -49,12 +49,13 @@ async redirects() {
     //   permanent: false,
     //   basePath: false
     // },
-    // {
-    //   source: '/flux',
-    //   destination: 'https://www.runonflux.io/flux.html',
-    //   permanent: false,
-    //   basePath: false
-    // },
+
+    {
+      source: '/fluxAI',
+      destination: 'https://fluxedge.ai/',
+      permanent: false,
+      basePath: false
+    },
   
     {
       source: '/zelcore',

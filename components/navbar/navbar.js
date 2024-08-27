@@ -104,6 +104,16 @@ export function NavBar(){
                       </Link> 
                     </NavDropdown.Item>
                     <NavDropdown.Item>
+                     <Link href={'/fluxAI'} className={styles.link}  eventKey={1} > 
+                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                    FluxAI<br/>
+                    <div className={styles.sublink}>Next Generation Decentralized AI, Powered by FluxEdge
+                    </div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
                      <Link href={'/fluxCloud'} className={styles.link}  eventKey={1} > 
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
                     FluxCloud<br/>
@@ -547,6 +557,15 @@ export function NavBar(){
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
                     FluxEdge<br/>
                     <div className={styles.sublink}>FluxEdge presents the next generation of mining<br></br> and AI</div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
+                    <NavDropdown.Item eventKey="31" >
+                      <Link href={'/fluxAI'} className={styles.link} > 
+                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                    FluxAI<br/>
+                    <div className={styles.sublink}>Next Generation Decentralized AI, Powered by FluxEdge</div>
                       </div>
                     
                       </Link> 

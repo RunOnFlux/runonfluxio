@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 html,
 body {
   padding: 0;
@@ -33,6 +33,7 @@ body {
   --CardText: #303B52;
   --boxShadow: 4px 4px 24px 0px #2B61D121, 0px 0px 3px 0px #2B61D114;
   --boxShadow2: 7.74807px 7.74807px 18.7404px 4.87404px rgba(0, 0, 0, 0.25);
+  --box-shadow3: 10px 15px 20px 0px #000000BF;
   --CardText2: #98A7B9;
   --CardText3: #303B52;
   --headerBackground: none;
@@ -73,6 +74,8 @@ body {
   --boxShadow: 4px 4px 24px 0px #191c4d, 0px 0px 3px 0px #191c4d;
   --boxShadow2: 7.74807px 7.74807px 7.7404px 4.87404px rgba(0, 0, 0, 0.25);
   /* --boxShadow: 7.74807px 7.74807px 28.7404px 4.87404px #191c4d; */
+  --box-shadow3: -10px 15px 20px 0px #1B63EF80;
+
   --CardText2: #ECECEC;
   --CardText3: #C0C0C0;
   --headerBackground: rgb(10, 11, 26, 0.5);

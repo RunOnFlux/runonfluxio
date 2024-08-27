@@ -28,6 +28,7 @@
     "react-player": "^2.11.0",
     "react-socks": "^2.2.0",
     "sharp": "^0.32.6",
+    "swiper": "^11.1.10",
     "use-local-storage": "^2.3.6"
   },
   "devDependencies": {
