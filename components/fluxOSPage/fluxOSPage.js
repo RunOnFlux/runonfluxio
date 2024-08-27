@@ -182,8 +182,8 @@ export function FluxOSPage(){
                     <div className="row">
                         <div className="col-md-6 mb-4" style={{display: "inline-flex", alignItems: "center"}}>
                             <div>
-                            <h3>Multiple Sing-In Solutions</h3>
-                            <p>Unlock the full potential of FluxOS with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to www.home.runonflux.io using your Gmail, Apple ID, or Email, and experience unparalleled convenience in spawning and managing your apps. </p>
+                            <h3>Multiple Sign-In Solutions</h3>
+                            <p>Unlock the full potential of FluxOS with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to home.runonflux.io using your Gmail, Apple ID, or Email, and experience unparalleled convenience in spawning and managing your apps. </p>
                             </div>
                         </div>
                         <div className="col-md-6">
