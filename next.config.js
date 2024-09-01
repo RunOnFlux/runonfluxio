@@ -25,6 +25,12 @@ async redirects() {
       basePath: false
     },
     {
+      source: '/cloud',
+      destination: 'https://cloud.runonflux.io',
+      permanent: false,
+      basePath: false
+    },
+    {
       source: '/privacy-policy.html',
       destination: '/privacyPolicy',
       permanent: true,
