@@ -33,7 +33,7 @@ body {
   --CardText: #303B52;
   --boxShadow: 4px 4px 24px 0px #2B61D121, 0px 0px 3px 0px #2B61D114;
   --boxShadow2: 7.74807px 7.74807px 18.7404px 4.87404px rgba(0, 0, 0, 0.25);
-  --box-shadow3: 10px 15px 20px 0px #000000BF;
+  --box-shadow3: 10px 15px 10px 0px #000000BF;
   --CardText2: #98A7B9;
   --CardText3: #303B52;
   --headerBackground: none;
@@ -56,7 +56,7 @@ body {
 --multiRing: url('/images/flux/multichainRing.svg');
 --ecoImg: url('/images/flux/ecosystem.svg');
 --fluxcloud: url('/images/fluxcloud.svg')
-
+--newsLetter: #0B0D12;
 }
 
 [data-theme='dark'] {
@@ -74,7 +74,7 @@ body {
   --boxShadow: 4px 4px 24px 0px #191c4d, 0px 0px 3px 0px #191c4d;
   --boxShadow2: 7.74807px 7.74807px 7.7404px 4.87404px rgba(0, 0, 0, 0.25);
   /* --boxShadow: 7.74807px 7.74807px 28.7404px 4.87404px #191c4d; */
-  --box-shadow3: -10px 15px 20px 0px #1B63EF80;
+  --box-shadow3: -10px 15px 10px 0px #1B63EF80;
 
   --CardText2: #ECECEC;
   --CardText3: #C0C0C0;
@@ -96,10 +96,19 @@ body {
    --fluxCircle: url('/images/images/Flux-Circle-Thing-dark.svg');
    --multiRing: url('/images/images/multiring.svg');
    --ecoImg: url('/images/flux/ecosystem-dark.svg');
-   --fluxcloud: url('/images/fluxcloud-dark.svg')
+   --fluxcloud: url('/images/fluxcloud-dark.svg');
+   --newsLetter:#fff;
 }
 
 
+.swiper-pagination-bullet {
+  background-color: #444444 !important; 
+  opacity: 1; 
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4c80ee !important ; 
+}
 
 
 

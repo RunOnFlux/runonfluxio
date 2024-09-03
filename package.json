@@ -10,9 +10,7 @@
     "strip-comments": "strip-comments 'src/**/*.js' --output 'dist/'"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.0",
-    "@fortawesome/free-solid-svg-icons": "^6.2.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@splidejs/react-splide": "^0.7.12",
     "axios": "^1.7.2",
     "bootstrap": "^5.2.3",

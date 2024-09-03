@@ -9,6 +9,8 @@ import card4Logo from "../../public/images/article/card4Logo.svg"
 import card5Logo from "../../public/images/article/card5Logo.svg"
 import card6Logo from "../../public/images/article/card6Logo.svg"
 import { Carousel } from "./carousel";
+import newsLetter from "../../public/images/article/newsletter.svg"
+import { FaEnvelopeOpenText } from "react-icons/fa";
 export function FluxArticlePage(){
     return(
         <React.Fragment>
@@ -190,7 +192,27 @@ export function FluxArticlePage(){
                     </div>
                 </div>
             </section>
-            <section className={styles.section7}></section>
+            <section className={styles.section7}>
+                <div className="container">
+                    <div className="row">
+                       <div className="col-md-12">
+                       <div className={styles.form}>
+                          <FaEnvelopeOpenText className={styles.envelope} />
+                            <h5>Subscribe to our newsletter</h5>
+                            <div className={styles.newsletterContainer}>
+                            <form className={styles.newsletterForm} action="#" method="post">
+                              <div className={styles.inputWrapper}>
+                                <input type="email" className={styles.newsletterInput} placeholder="Enter your email" required />
+                                <button type="submit" className={styles.subscribeButton}>Subscribe</button>
+                                </div>
+                            </form>
+                            </div>
+
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </section>
         </React.Fragment>
     )
 }
