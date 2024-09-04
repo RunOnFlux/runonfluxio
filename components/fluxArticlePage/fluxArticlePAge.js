@@ -108,8 +108,8 @@ export function FluxArticlePage(){
                             <div className={styles.banner1}>
                                <div className={styles.text1}>
                                 <div>
-                                <p>“Lorem ipsum dolor sit amet consectetur adipiscing elit parturient, iaculis eget mollis montes auctor primis curabitur vulputate, nunc ligula convallis libero felis dictum.”</p>
-                                <h6>- Writer Name here</h6>
+                                <p>“FluxEdge addresses infrastructure challenges by optimizing computing resources to meet dynamic client needs, particularly in the AI sector. It leads the way toward a decentralized, efficient, and sustainable cloud future for everyone's benefit.”</p>
+                                <h6>- Daniel Keller</h6>
                                 </div>
                                </div>
                             </div>
@@ -117,7 +117,7 @@ export function FluxArticlePage(){
                         <div className="col-lg-8 col-md-7">
                             <div className={styles.banner2}>
                                 <div className={styles.text2}>
-                                    <h5>“Insert Quote Here”</h5>
+                                    {/* <h5>“Insert Quote Here”</h5> */}
                                 </div>
                             </div>
                         </div>
@@ -140,9 +140,9 @@ export function FluxArticlePage(){
                         </div>
                         <div className="col-md-6">
                             <div className={styles.text6}>
-                                <h6>Header here</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit parturient, iaculis eget mollis montes auctor primis curabitur vulputate, nunc ligula convallis libero felis dictum tincidunt. primis curabitur vulputate, nunc ligula convallis libero felis dictum tincidunt. </p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit parturient, iaculis eget mollis montes auctor primis curabitur vulputate, nunc ligula convallis. primis curabitur vulputate, nunc ligula convallis libero felis dictum tincidunt. </p>
+                                <h6>AI is set to be the most important technology by 2025.</h6>
+                                <p>Considering the rapid growth the sector has experienced over the past few years, this is not in the least surprising. The applications of AI have continued to grow across various fields, from smart chatbots that can generate professional resumes based on user prompts to machine learning models capable of running predictive analyses to solve business problems.</p>
+                                <p>Now, when the unique advantages of AI technology are integrated into cloud computing, AI cloud is born. Researchers estimate a global cloud AI market size of $397.81 billion by 2030, citing the growing adoption of generative AI and machine learning models among many industries.</p>
                                 <a>Read More</a>
                             </div>
                         </div>
