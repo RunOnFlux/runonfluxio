@@ -71,7 +71,6 @@
     width: 100%;
     height: 329px;
     border-radius: 25px 3px 25px 3px;
-    opacity: 0px;
     padding: 40px 20px;
     background: url('../../public/images/article/card1Bg.svg');
     background-size: cover;
@@ -103,7 +102,6 @@
     width: 100%;
     height: 329px;
     border-radius: 25px 3px 25px 3px;
-    opacity: 0px;
     padding: 40px 20px;
     background: url('../../public/images/article/card2Bg.svg');
     background-size: cover;
@@ -135,7 +133,6 @@
     width: 100%;
     height: 329px;
     border-radius: 25px 3px 25px 3px;
-    opacity: 0px;
     padding: 40px 20px;
     background: url('../../public/images/article/card3Bg.svg');
     background-size: cover;
@@ -167,7 +164,6 @@
     width: 100%;
     height: 329px;
     border-radius: 25px 3px 25px 3px;
-    opacity: 0px;
     padding: 40px 20px;
     background: url('../../public/images/article/card2Bg.svg');
     background-size: cover;
@@ -199,7 +195,6 @@
     width: 100%;
     height: 329px;
     border-radius: 25px 3px 25px 3px;
-    opacity: 0px;
     padding: 40px 20px;
     background: url('../../public/images/article/card4Bg.svg');
     background-size: cover;
@@ -231,7 +226,6 @@
     width: 100%;
     height: 329px;
     border-radius: 25px 3px 25px 3px;
-    opacity: 0px;
     padding: 40px 20px;
     background: url('../../public/images/article/card2Bg.svg');
     background-size: cover;
@@ -349,7 +343,6 @@
     box-shadow: var(--box-shadow3);
     height: 374px;
     border-radius: 30px 3px 30px 3px;
-    opacity: 0px;
     /* padding: 30px; */
     position: relative;
 }
@@ -389,7 +382,6 @@
 
 .text6 a{
     border-radius: 20px 3px 20px 3px;
-    opacity: 0px;
     background: #1B63EF;
     color: #fff !important;
     display: block;
@@ -418,9 +410,6 @@
 
 .section4 h4 span{
     color: #1B63EF;
-}
-.swipers .card1{
-    /* box-shadow: none !important; */
 }
 
 .section6{
@@ -467,7 +456,6 @@
   
   height: 100%;
   border-radius: 25px 3px 25px 3px;
-  opacity: 0px;
   background: linear-gradient(90deg, #0E121D 0%, #252D41 100%);
   padding: 40px;
 }
@@ -629,7 +617,6 @@ text-align: center;
   margin-bottom: 50px;
   width: 327px;
   border-radius: 25px 3px 25px 3px;
-  opacity: 0px;
   box-shadow: var(--box-shadow3);
 }
 
@@ -735,8 +722,6 @@ text-align: center;
     
     .text6 a{
         border-radius: 20px 3px 20px 3px;
-        opacity: 0px;
-       
         display: block;
         width: 80%;
         height: 35px;
@@ -951,8 +936,6 @@ text-align: center;
     
     .text6 a{
         border-radius: 20px 3px 20px 3px;
-        opacity: 0px;
-      
         display: block;
         width: 80%;
         height: 35px;
@@ -1203,8 +1186,6 @@ text-align: center;
     
     .text6 a{
         border-radius: 20px 3px 20px 3px;
-        opacity: 0px;
-       
         display: block;
         width: 80%;
         height: 35px;
@@ -1395,8 +1376,6 @@ text-align: center;
     
     .text6 a{
         border-radius: 20px 3px 20px 3px;
-        opacity: 0px;
-       
         display: block;
         width: 80%;
         height: 35px;

@@ -5,7 +5,6 @@ import '../styles/globals.css'
 import React, { useEffect, useState } from 'react';
 import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.css';
-import { SSRProvider } from 'react-bootstrap';
 import { BreakpointProvider } from 'react-socks';
 import ThemeToggle from '../components/themeToggle/ThemeToggle';
 
@@ -13,9 +12,9 @@ function MyApp({ Component, pageProps }) {
   
   useEffect(() => {
     import ('bootstrap/dist/js/bootstrap.js')
-}, []);
+  }, []);
 
-const [showChild, setShowChild] = useState(false)
+  const [showChild, setShowChild] = useState(false)
 
   useEffect(() => {
     setShowChild(true)
@@ -27,7 +26,7 @@ const [showChild, setShowChild] = useState(false)
    
   return (
     <>
-    <Head>
+      <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Flux Web3 Cloud" />
         <meta property="og:description" content="The Flux Ecosystem is a suite of decentralized computing services and blockchain-as-a-service solutions." />
@@ -42,18 +41,14 @@ const [showChild, setShowChild] = useState(false)
         <meta name="google-site-verification" content="1Rvzs9I7j6QqrWM5HTgAokIW_MXzqtvdCkGE1fn30yw" />
       </Head>
 
-    <React.Fragment>
-       <SSRProvider>
-      <Layout>
-      <BreakpointProvider>
-      <ThemeToggle />
-      <Component {...pageProps} />
-    
-      
-        </BreakpointProvider>
-      </Layout>  
-      </SSRProvider>
-    </React.Fragment>
+      <React.Fragment>
+        <Layout>
+          <BreakpointProvider>
+            <ThemeToggle />
+            <Component {...pageProps} />
+          </BreakpointProvider>
+        </Layout>
+      </React.Fragment>
     </>
   );
 }
