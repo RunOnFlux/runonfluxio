@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import styles from "./index.module.css";
 import { BlogCard } from "./blogCard";
 import DOMPurify from 'dompurify';
 

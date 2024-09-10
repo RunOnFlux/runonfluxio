@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './index.module.css'; // Import module styles
 
 const ThemeToggle = () => {

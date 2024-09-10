@@ -1,5 +1,5 @@
+import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 import Script from 'next/script'
 import { FluxCarbonPage } from '../components/fluxCarbonPage/fluxCarbonPage'
 import { NavBar2 } from '../components/navbar/navbar2'

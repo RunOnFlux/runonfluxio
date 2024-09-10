@@ -1,16 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+import React, { useState }  from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Link from "next/link";
-import { useState, useEffect } from "react";
 import styles from "./index.module.css";
-import arrowDown from "../../public/images/dropdown-icon.png"
 import Image from 'next/image'
 import Logo from "../../public/images/fluxlabs-logo.png"
-import Rabbit from "../../public/images/rabbit.png"
 
 export function NavBar1(){
 

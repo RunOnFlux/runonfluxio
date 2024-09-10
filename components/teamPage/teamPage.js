@@ -2,9 +2,7 @@ import React from "react";
 import styles from "./index.module.css";
 import { TeamCard } from "../teamCard/teamCard";
 import { teamAsset } from "./teamList";
-import { useState } from "react";
-export function TeamPage(){
-    const obj = undefined;
+export function TeamPage() {
     return(
         <React.Fragment>
             <section className={styles.teamFlux}>

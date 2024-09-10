@@ -1,5 +1,5 @@
+import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 import Script from 'next/script'
 import { PartnersPage } from '../components/partnersPage/partnersPage'
 import { NavBar } from '../components/navbar/navbar'

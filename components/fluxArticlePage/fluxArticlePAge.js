@@ -9,7 +9,6 @@ import card4Logo from "../../public/images/article/card4Logo.svg"
 import card5Logo from "../../public/images/article/card5Logo.svg"
 import card6Logo from "../../public/images/article/card6Logo.svg"
 import { Carousel } from "./carousel";
-import newsLetter from "../../public/images/article/newsletter.svg"
 import { FaEnvelopeOpenText } from "react-icons/fa";
 export function FluxArticlePage(){
     return(
@@ -108,7 +107,7 @@ export function FluxArticlePage(){
                             <div className={styles.banner1}>
                                <div className={styles.text1}>
                                 <div>
-                                <p>“FluxEdge addresses infrastructure challenges by optimizing computing resources to meet dynamic client needs, particularly in the AI sector. It leads the way toward a decentralized, efficient, and sustainable cloud future for everyone's benefit.”</p>
+                                <p>“FluxEdge addresses infrastructure challenges by optimizing computing resources to meet dynamic client needs, particularly in the AI sector. It leads the way toward a decentralized, efficient, and sustainable cloud future for everyone&apos;s benefit.”</p>
                                 <h6>- Daniel Keller</h6>
                                 </div>
                                </div>

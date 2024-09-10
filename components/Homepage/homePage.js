@@ -2,11 +2,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import styles from "./index.module.css"
-import Head from "next/head";
-import dynamic from 'next/dynamic';
 import Image from "next/image";
 import map1 from "../../public/images/map.svg"
-import map2 from "../../public/images/map2.svg"
 import globeImg from "../../public/images/globe-alt.svg"
 import arrowUp from "../../public/images/gree-yello-up.svg"
 import ProgressBar from 'react-bootstrap/ProgressBar';
@@ -43,7 +40,6 @@ import fluxwpimg from "../../public/images/FLUXAI Public Released Pop-up.png"
 import axios from 'axios';
 import { Slider4 } from "../Slider/slider4";
 import Modal from 'react-bootstrap/Modal';
-import { useRouter } from 'next/router'; // Import the useRouter hook
 
 export function HomePage(){
 
@@ -63,7 +59,6 @@ export function HomePage(){
               const nodes = request.data.data;
               let vcores = 0;
               let ssd = 0;
-              let hdd = 0;
               let ram = 0;
               nodes?.forEach((node) => {
                 if (node.tier === "CUMULUS" && node.benchmark && node.benchmark.bench) {
@@ -71,11 +66,9 @@ export function HomePage(){
                   vcores += bm.cores === 0 ? 2 : bm.cores;
                   ram += bm.ram < 4 ? 4 : Math.round(bm.ram);
                   ssd += bm.ssd;
-                  hdd += bm.hdd;
                 } else if (node.tier === "CUMULUS") {
                   vcores += 2;
                   ram += 4;
-                  hdd += 50;
                 } else if (
                   node.tier === "NIMBUS" &&
                   node.benchmark &&
@@ -85,7 +78,6 @@ export function HomePage(){
                   vcores += bm.cores === 0 ? 4 : bm.cores;
                   ram += bm.ram < 8 ? 8 : Math.round(bm.ram);
                   ssd += bm.ssd;
-                  hdd += bm.hdd;
                 } else if (node.tier === "NIMBUS") {
                   vcores += 4;
                   ram += 8;
@@ -99,7 +91,6 @@ export function HomePage(){
                   vcores += bm.cores === 0 ? 8 : bm.cores;
                   ram += bm.ram < 32 ? 32 : Math.round(bm.ram);
                   ssd += bm.ssd;
-                  hdd += bm.hdd;
                 } else if (node.tier === "STRATUS") {
                   vcores += 8;
                   ram += 32;

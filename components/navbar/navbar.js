@@ -1,13 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Link from "next/link";
-import { useState, useEffect } from "react";
 import styles from "./index.module.css";
-import arrowDown from "../../public/images/dropdown-icon.png"
 import Image from 'next/image'
 import Logo from "../../public/images/Flux_white_logo.svg"
 import Rabbit from "../../public/images/rabbit.png"
@@ -22,15 +20,9 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 export function NavBar(){
 
     const [show, setShow] = useState(false);
-    const showDropdown = (e)=>{
-        setShow(!show);
-    }
-    const hideDropdown = e => {
-        setShow(false);
-    }
-
+    const showDropdown = () => setShow(!show);
+    const hideDropdown = () => setShow(false);
     const [navBar, setNavBar] = useState(false);
-
   
     useEffect(() => {
       const changeBackground = () =>{
@@ -387,7 +379,7 @@ export function NavBar(){
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Buy Flux
                         <br/>
-                        <div className={styles.sublink}>Learn how to trade, buy, swap or stake Flux.</div>
+                        <div className={styles.sublink}>Learn how to trade, buy, swap or stake Flux.</div>
                         </div>
                         </Link>
                        
@@ -842,7 +834,7 @@ export function NavBar(){
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Buy Flux
                         <br/>
-                        <div className={styles.sublink}>Learn how to trade, buy, swap or <br/>stake Flux.</div>
+                        <div className={styles.sublink}>Learn how to trade, buy, swap or <br/>stake Flux.</div>
                         </div>
                         </Link>
                        

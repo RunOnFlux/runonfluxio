@@ -1,4 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
+import React from "react";
+import styles from "./index.module.css"
+import Image from "next/image";
+import Link from "next/link";
 
 import icon1 from "../../public/images/flux/icon1.svg"
 import icon2 from "../../public/images/flux/icon2.svg"
@@ -69,18 +73,7 @@ import icon65 from "../../public/images/flux/icon65.svg"
 import icon66 from "../../public/images/flux/icon66.png"
 import icon67 from "../../public/images/flux/icon67.webp"
 import icon68 from "../../public/images/flux/icon68.svg"
-// import icon69 from "../../public/images/flux/icon69.svg"
 
-
-import React from "react";
-import { useState, useEffect } from "react";
-import styles from "./index.module.css"
-import Head from "next/head";
-import dynamic from 'next/dynamic';
-import Image from "next/image";
-import Link from "next/link";
-import Modal from 'react-bootstrap/Modal';
-import fluxCircle from "../../public/images/flux/Flux-Circle-Thing.svg"
 import image1 from "../../public/images/flux/Volume.svg"
 import image2 from "../../public/images/flux/Union.svg"
 import image3 from "../../public/images/flux/Arrows.svg"
@@ -90,14 +83,8 @@ import image6 from "../../public/images/flux/shield.svg"
 import image7 from "../../public/images/flux/blocktime.svg"
 import image8 from "../../public/images/flux/max supply.svg"
 import image9 from "../../public/images/flux/halving.svg"
-
-
-
 import lineLogos from "../../public/images/flux/logoline.svg"
-
 import circleGraph from "../../public/images/flux/circleGraph.svg"
-
-
 
 export function Flux() {
     let circsup = 0;
@@ -123,7 +110,6 @@ export function Flux() {
         })
         .then((data) =>{
             let thedata = data;
-            let whatweneed = "cumulus-enabled";
             let cumulus = thedata.data["cumulus-enabled"];
             let stratus = thedata.data["stratus-enabled"];
             let nimbus = thedata.data["nimbus-enabled"];
@@ -415,11 +401,11 @@ export function Flux() {
                         <div className="col-md-6">
                             <div className={styles.text3}>
                                 <div>
-                                <h3><span>Flux</span> is a <span className={styles.blue}>Multichain</span> <br></br>Cryptocurrency</h3>
-                            <p className="mb-4">With Flux's parallel assets, you can leverage the beneficial
-                         features of multiple blockchains, such as access to various DeFi platforms. Flux's parallel 
-                         assets are interchangeable 1:1 with native Flux through the Fusion app in Zelcore.</p>
-                         <a href="/parallelMining" className={styles.btn1}>Discover assets</a>
+                                    <h3><span>Flux</span> is a <span className={styles.blue}>Multichain</span> <br></br>Cryptocurrency</h3>
+                                    <p className="mb-4">With Flux's parallel assets, you can leverage the beneficial
+                                    features of multiple blockchains, such as access to various DeFi platforms. Flux's parallel 
+                                    assets are interchangeable 1:1 with native Flux through the Fusion app in Zelcore.</p>
+                                    <Link href="/parallelMining" className={styles.btn1}>Discover assets</Link>
                                 </div>
                             </div>
                         </div>
@@ -457,7 +443,7 @@ export function Flux() {
                     such as buying and selling.</p>
                     <p className={styles.exchanges1}><i>Exchanges are not controlled by Flux, and in case of any issues with
                     any of these exchanges, you must address them directly with the exchange.</i></p>
-                    <p className={styles.exchanges1}> For more markets see <a target="_blank" href="https://coinmarketcap.com/currencies/zel/">CoinMarketCap </a>or <a href="https://www.coingecko.com/en/coins/flux-zelcash">CoinGecko.</a></p>
+                    <p className={styles.exchanges1}> For more markets see <a target="_blank" href="https://coinmarketcap.com/currencies/zel/" rel="noreferrer">CoinMarketCap </a>or <a href="https://www.coingecko.com/en/coins/flux-zelcash">CoinGecko.</a></p>
                 </div>
                 <hr></hr>
                 </div>

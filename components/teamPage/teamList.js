@@ -20,32 +20,24 @@ import moulton from "../../public/images/team/moulton.png";
 import williams from "../../public/images/team/williams.png";
 import steve from "../../public/images/team/steve.jpg";
 import marcio from "../../public/images/team/marcio.png";
-import weinberg from "../../public/images/team/weinberg.png";
 import justin from "../../public/images/team/justin.png";
 import perritaz from "../../public/images/team/perritaz.png";
-import coombes from "../../public/images/team/coombes.png";
 import degarmo from "../../public/images/team/degarmo.png";
-import urbano from "../../public/images/team/urbano.png";
-import pedro from "../../public/images/team/pedro.png";
 import oette from "../../public/images/team/oette.png";
 import droid from "../../public/images/team/droid.png";
 import dibi from "../../public/images/team/Dibi.jpg";
 import joel from "../../public/images/team/joel-p-800.jpeg"
-import farid from "../../public/images/team/farid.png"
 import luckas from "../../public/images/team/lukas.png"
 import richard from "../../public/images/team/richard.png"
 import carolien from "../../public/images/team/carolien.png"
 import scott from "../../public/images/team/scott.png"
-import tom from "../../public/images/team/tom.png"
 import ronni from "../../public/images/team/ronni.png"
 import john from "../../public/images/team/john.png"
 import hackett from "../../public/images/team/Alex Hackett.jpg"
-import bill from "../../public/images/team/Bill.jpg"
 import nogueira from "../../public/images/team/Daniel Nogueira.jpg"
 import rieck from "../../public/images/team/Darren Rieck.PNG"
 import berney from "../../public/images/team/Dave Berney - HAB Strategy.jpg"
 import white from "../../public/images/team/David White.png"
-import machaya from "../../public/images/team/Emmanuel Machaya.jpg"
 import lara from "../../public/images/team/Jesus Lara.jpg"
 import kelly from "../../public/images/team/Kelly Photo.jpg"
 import dehlin from "../../public/images/team/Max Dehlin.jpg"

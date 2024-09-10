@@ -1,5 +1,4 @@
 import React from "react";
-import { DappCard1 } from "./dappCard";
 import { DappCard2 } from "./dappCard";
 import { DappCard3 } from "./dappCard";
 import infrastructure1 from "../../public/images/dapps/infrastructure-1.jpeg"

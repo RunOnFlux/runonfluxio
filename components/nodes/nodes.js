@@ -1,5 +1,4 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import styles from "./index.module.css"
 
 import Image from "next/image";
@@ -478,7 +477,7 @@ export function Node() {
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className={styles.guidesContain}>
-                            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/RT1uaSrurv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe style="border: 0;" width="100%" height="auto" src="https://www.youtube.com/embed/RT1uaSrurv4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <div>
                                 <a href="https://www.youtube.com/embed/RT1uaSrurv4">Flux LightNode Wallet</a>
                             </div>
@@ -487,7 +486,7 @@ export function Node() {
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className={styles.guidesContain}>
-                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/-lJJyuliR38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe style="border: 0;" width="100%" height="auto" src="https://www.youtube.com/embed/-lJJyuliR38" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 <div >
                                     <a href="https://www.youtube.com/embed/-lJJyuliR38">FluxNode Setup for Raspberry Pi4B</a>
                                 </div>
@@ -496,7 +495,7 @@ export function Node() {
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className={styles.guidesContain}>
-                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/FITPHv52Fyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe style="border: 0;" width="100%" height="auto" src="https://www.youtube.com/embed/FITPHv52Fyo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 <div>
                                     <a href="https://www.youtube.com/embed/FITPHv52Fyo">Self-Hosted Flux Node Setup Guide</a>
                                 </div>
@@ -505,7 +504,7 @@ export function Node() {
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className={styles.guidesContain}>
-                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/n2CMwfahUBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe style="border: 0;" width="100%" height="auto" src="https://www.youtube.com/embed/n2CMwfahUBI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 <div >
                                     <a href="https://www.youtube.com/embed/n2CMwfahUBI">Raspberry Pi FluxNode Setup Guide</a>
                                 </div>
@@ -514,7 +513,7 @@ export function Node() {
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className={styles.guidesContain}>
-                            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/akfV5WhmE-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe style="border: 0;" width="100%" height="auto" src="https://www.youtube.com/embed/akfV5WhmE-g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <div>
                                 <a href="https://www.youtube.com/embed/akfV5WhmE-g">Cumulus Mini-PC and other alternatives</a>
                             </div>

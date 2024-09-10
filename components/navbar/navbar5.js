@@ -7,7 +7,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import styles from "./index.module.css";
-import arrowDown from "../../public/images/dropdown-icon.png"
 import Image from 'next/image'
 import Logo from "../../public/images/Flux_white-blue.svg"
 import Logo2 from "../../public/images/Flux_white_logo.svg"
@@ -22,17 +21,10 @@ import discord01 from "../../public/images/discord01.svg"
 import github01 from "../../public/images/github01.svg"
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 export function NavBar5(){
-
     const [show, setShow] = useState(false);
-    const showDropdown = (e)=>{
-        setShow(!show);
-    }
-    const hideDropdown = e => {
-        setShow(false);
-    }
-
+    const showDropdown = () => setShow(!show);
+    const hideDropdown = () => setShow(false);
     const [navBar, setNavBar] = useState(false);
-
   
     useEffect(() => {
       const changeBackground = () =>{
@@ -392,7 +384,7 @@ export function NavBar5(){
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Buy Flux
                         <br/>
-                        <div className={styles.sublink}>Learn how to trade, buy, swap or stake Flux.</div>
+                        <div className={styles.sublink}>Learn how to trade, buy, swap or stake Flux.</div>
                         </div>
                         </Link>
                        
@@ -400,9 +392,9 @@ export function NavBar5(){
                     <NavDropdown.Item>
                         <Link href={'/fluxStore'} eventKey={21} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
-                        GotFlux store
-                        <br/>
-                        <div className={styles.sublink}>Buy Flux gear designed just for you.</div>
+                          GotFlux store
+                          <br/>
+                          <div className={styles.sublink}>Buy Flux gear designed just for you.</div>
                         </div>
                         </Link>
                        
@@ -850,7 +842,7 @@ export function NavBar5(){
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Buy Flux
                         <br/>
-                        <div className={styles.sublink}>Learn how to trade, buy, swap or <br/>stake Flux.</div>
+                        <div className={styles.sublink}>Learn how to trade, buy, swap or <br/>stake Flux.</div>
                         </div>
                         </Link>
                        

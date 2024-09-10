@@ -1,32 +1,24 @@
 import React from "react";
 import styles from "./index.module.css"
+import Image from "next/image";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import '@splidejs/react-splide/css/skyblue';
 import '@splidejs/react-splide/css/sea-green';
 import '@splidejs/react-splide/css/core';
-import Image from "next/image";
 
 import keep from  "../../public/images/launchApp/keep.svg";
 import yearn from "../../public/images/launchApp/yearn.svg";
 import osmosis from "../../public/images/launchApp/osmosis.svg";
 import aave from "../../public/images/launchApp/aave-aave-logo.svg";
-import sifichain from "../../public/images/launchApp/sifichain.svg";
-import docushield from "../../public/images/launchApp/docushield.png";
 import ergo from "../../public/images/launchApp/ergoauctions.png";
 import haven from "../../public/images/launchApp/haven-protocol-xhv-logo.svg";
 import kdSwap from "../../public/images/launchApp/kds-logo.svg";
-import libreddit from "../../public/images/launchApp/libreddit.png";
-import liquidity from "../../public/images/launchApp/liquity-developer-ui.svg";
 import gmx from "../../public/images/launchApp/logo_GMX_small.f593fa5c.svg";
-import bibliogram from "../../public/images/launchApp/logo-bibliogram.png";
 import keep3r from "../../public/images/launchApp/Path-11846.png";
 import timpi from "../../public/images/launchApp/Profile-Pic@1x.png";
 import sushiSwap from "../../public/images/launchApp/sushiswap-sushi-logo.svg";
-import syncpaint from "../../public/images/launchApp/syncpaint.png";
-import yacy from "../../public/images/launchApp/YaCyLogo2011.svg";
 import kdLaunch from "../../public/images/launchApp/kds-logo.svg";
-
 
 export function Slider3(){
     return(

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import styles from "./index.module.css"
 import { AllApps } from './allApps';
 import { Blockchain } from './blockchain';
 import { Frontend } from './frontend';

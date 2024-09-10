@@ -1,5 +1,5 @@
+import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 import Script from 'next/script'
 import { TeamPage } from '../components/teamPage/teamPage'
 import { NavBar } from '../components/navbar/navbar'
@@ -13,18 +13,17 @@ export default function Team() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-KTKEYE3YMN" />
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            
-            gtag('config', 'G-KTKEYE3YMN');
-            `}
-        </Script>
-    
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          
+          gtag('config', 'G-KTKEYE3YMN');
+          `}
+      </Script>
       <NavBar/>
-     <TeamPage/>
+      <TeamPage/>
     </div>
   )
 }

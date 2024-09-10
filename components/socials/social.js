@@ -1,9 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import { useState, useEffect } from "react";
 import styles from "./index.module.css"
-import Head from "next/head";
-import dynamic from 'next/dynamic';
 import Image from "next/image";
 
 // Social Media Logos
@@ -46,15 +43,8 @@ import venezuela from "../../public/images/socials/venezuela.svg"
 import vietnam from "../../public/images/socials/vietnam.svg"
 import arabic from "../../public/images/socials/arabic.svg"
 
-
-
-
 // Icons
 import icon_twitter from "../../public/images/socials/icon/vecter5.svg"
-
-
-import Modal from 'react-bootstrap/Modal';
-import classNames from "classnames";
 
 export function Social() {
 

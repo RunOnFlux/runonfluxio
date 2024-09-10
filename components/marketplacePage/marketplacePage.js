@@ -21,8 +21,6 @@ import { MarketplaceTabs } from "../marketplaceTabs/tabs";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import kadena from "../../public/images/marketplace/Kadena.svg"
-import eckodao from "../../public/images/images/eckodao_logo_black.svg"
-import mok from "../../public/images/marketplace/MOK.svg"
 import streamr from "../../public/images/images/Horizontal colour lockup.svg"
 export function MarketplacePage(){
     return(
@@ -33,10 +31,10 @@ export function MarketplacePage(){
                     <div className="col">
                     <h3><Image alt="logo" src={fluxLogo}/>Marketplace</h3>
                         <h1>The Ultimate Web3 Launchpad</h1>
-                        <p>The Flux Marketplace is your ultimate launchpad, akin to the Apple Store, but for decentralized applications. Whether you're looking to deploy dApps, frontends, backends, game servers, or blockchain nodes, the Flux Marketplace makes it incredibly simple.</p>
+                        <p>The Flux Marketplace is your ultimate launchpad, akin to the Apple Store, but for decentralized applications. Whether you&apos;re looking to deploy dApps, frontends, backends, game servers, or blockchain nodes, the Flux Marketplace makes it incredibly simple.</p>
                         <div className="mt-4">
                             <a className={styles.btn2} href="https://cloud.runonflux.io/">Marketplace</a>
-                            <a className={styles.btn1} target="_blank" href="https://github.com/RunOnFlux">Github</a>
+                            <a className={styles.btn1} target="_blank" rel="noreferrer" href="https://github.com/RunOnFlux">Github</a>
                         </div>
                         <div className={styles.landingPageImage}>
                             <Image alt="landing-page" src={landingPage}/>
@@ -63,7 +61,7 @@ export function MarketplacePage(){
                             <div className={styles.gameCard}>
                                 <Image alt="logo" src={Enshrouded}/>
                                 <div className={styles.bottom}>
-                                    <a target="_blank" href="https://cloud.runonflux.io/marketplace" className={styles.btn3}>Install Now</a>
+                                    <a target="_blank" rel="noreferrer" href="https://cloud.runonflux.io/marketplace" className={styles.btn3}>Install Now</a>
                                     <p>Starting at $9.99 / month</p>
                                 </div>
                             </div>
@@ -72,7 +70,7 @@ export function MarketplacePage(){
                             <div className={`${styles.gameCard} ${styles.gameCard2}`}>
                                 <Image alt="logo" src={palword}/>
                                 <div className={styles.bottom}>
-                                    <a target="_blank" href="https://cloud.runonflux.io/marketplace" className={styles.btn3}>Install Now</a>
+                                    <a target="_blank" rel="noreferrer" href="https://cloud.runonflux.io/marketplace" className={styles.btn3}>Install Now</a>
                                     <p>Starting at $7.99 / month</p>
                                 </div>
                             </div>
@@ -103,7 +101,7 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Folding@Home</h6>
-                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank" rel="noreferrer">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
@@ -125,7 +123,7 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Presearch Node</h6>
-                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank" rel="noreferrer">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
@@ -142,12 +140,12 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Streamer Node</h6>
-                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank" rel="noreferrer">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
                                     <div className={styles.cardText1}>
-                                    <p>Streamr, (DATA) is an open source project and decentralized platform that relies on cryptography instead of trust. It is a P2P, real-time data infrastructure that houses a platform and tools for a new data economy. The technology stack includes a scalable real-time messaging network (pub/sub) hosted on computers worldwide, a marketplace for trading/selling data and a set of tools for working with real-time data.
+                                    <p>Streamr, (DATA) is an open source project and decentralized platform that relies on cryptography instead of trust. It is a P2P, real-time data infrastructure that houses a platform and tools for a new data economy. The technology stack includes a scalable real-time messaging network (pub/sub) hosted on computers worldwide, a marketplace for trading/selling data and a set of tools for working with real-time data.
                                     </p>
                                     </div>
                                   
@@ -177,7 +175,7 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>TeamSpeak</h6>
-                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank" rel="noreferrer">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
@@ -194,7 +192,7 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Owncast</h6>
-                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank" rel="noreferrer">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
@@ -209,7 +207,7 @@ export function MarketplacePage(){
                                     <h4>Launch your project</h4>
                                     <p>Anything can run on the Flux Web3 Cloud. If you can dockerize it, Flux can run it!</p>
                                     <p>Using Docker Hub for deployment, all applications are redundant, running on 3 to 100 balanced instances with automatic failover, ensuring 99.99% uptime.</p>
-                                    <a href="https://cloud.runonflux.io/marketplace" target="_blank">Deploy Now</a>
+                                    <a href="https://cloud.runonflux.io/marketplace" target="_blank" rel="noreferrer">Deploy Now</a>
                                 </div>
                             </div>
                     </div>
@@ -264,7 +262,7 @@ export function MarketplacePage(){
                             <div className={styles.paymentOptions}>
                                 <div>
                                     <h3 className="mb-4" style={{ textAlign: "left" }}>Multiple <span>Sign-In Login</span></h3>
-                                    <p style={{ textAlign: "left" }}>Unlock the full potential of FluxCloud with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to <a target="_blank" href="https://cloud.runonflux.io">www.cloud.runonflux.io</a> using your Gmail, Apple ID, or Email, and experience unparalleled convenience in running your apps, deploying a WordPress site or saving files on the Flux blockchain via FluxDrive.</p>
+                                    <p style={{ textAlign: "left" }}>Unlock the full potential of FluxCloud with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to <a target="_blank" rel="noreferrer" href="https://cloud.runonflux.io">www.cloud.runonflux.io</a> using your Gmail, Apple ID, or Email, and experience unparalleled convenience in running your apps, deploying a WordPress site or saving files on the Flux blockchain via FluxDrive.</p>
                                 </div>
                             </div>
                         </div>
@@ -315,8 +313,8 @@ export function MarketplacePage(){
                               
                             </Tab> */}
                             <Tab eventKey="mok" title={<Image alt="logo" src={streamr} className={styles.tabLogo}/>}>
-                               <p className={styles.tabText}>
-                                "Flux is a pivotal and reliable hosting provider for us. Working together has allowed us to integrate our technologies, enhancing the functionality and efficiency of our real-time data pipelines. This collaboration strengthens the P2P mesh network of data pipelines and boosts our end user's capabilities in handling real time, high data payload use cases such as video streaming."
+                                <p className={styles.tabText}>
+                                    &quot;Flux is a pivotal and reliable hosting provider for us. Working together has allowed us to integrate our technologies, enhancing the functionality and efficiency of our real-time data pipelines. This collaboration strengthens the P2P mesh network of data pipelines and boosts our end user&apos;s capabilities in handling real time, high data payload use cases such as video streaming.&quot;
                                     <br/>
                                     Mark Little
                                     CCO, Streamr Network

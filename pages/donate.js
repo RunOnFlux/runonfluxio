@@ -1,5 +1,5 @@
+import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 import Script from 'next/script'
 import { DonatePage } from '../components/donatePage/donatePage'
 import { NavBar } from '../components/navbar/navbar'

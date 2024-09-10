@@ -1,5 +1,5 @@
+import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 import Script from 'next/script'
 import { MarketplacePage } from '../components/marketplacePage/marketplacePage.js'
 import { NavBar5 } from '../components/navbar/navbar5.js'

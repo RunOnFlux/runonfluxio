@@ -4,9 +4,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import { FirstCPU } from "./firstCPU";
 import { SecondCPU } from "./secondCPU";
-import { ThirdCPU } from "./thirdCPU";
-import { FourthCPU } from "./fourthCPU";
-// import Sonnet from '../../components/Sonnet';
+import { ThirdCPU } from "./thirdCPU";;
 
 export function CostCalculatorCard(){
     return(

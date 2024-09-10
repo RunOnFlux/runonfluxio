@@ -1,8 +1,7 @@
-// context/ThemeContext.js
 import React, { createContext, useContext, useState } from 'react';
 
 const ThemeContext = createContext();
-
+// eslint-ignore react/prop-types
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState('light');
 

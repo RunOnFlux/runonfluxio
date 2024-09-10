@@ -1,11 +1,11 @@
 import React from "react";
+import Image from "next/image";
 import styles from "./index.module.css"
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import '@splidejs/react-splide/css/skyblue';
 import '@splidejs/react-splide/css/sea-green';
 import '@splidejs/react-splide/css/core';
-import Image from "next/image";
 
 import partner1 from "../../public/images/partners/partner1.svg"
 import partner2 from "../../public/images/partners/partner2.svg"
@@ -16,9 +16,7 @@ import partner6 from "../../public/images/partners/partner6.svg"
 import partner7 from "../../public/images/partners/partner7.svg"
 import partner8 from "../../public/images/partners/partner8.svg"
 import partner9 from "../../public/images/partners/partner9.svg"
-// import partner10 from "../../public/images/partners/partner10.svg"
 import partner11 from "../../public/images/partners/partner11.svg"
-import partner12 from "../../public/images/partners/partner12.svg"
 import partner13 from "../../public/images/partners/partner13.svg"
 import partner14 from "../../public/images/partners/partner14.svg"
 import partner15 from "../../public/images/partners/partner15.svg"
@@ -28,7 +26,6 @@ import partner18 from "../../public/images/partners/partner18.svg"
 import partner19 from "../../public/images/partners/partner19.svg"
 import partner20 from "../../public/images/partners/partner20.svg"
 import partner21 from "../../public/images/partners/partner21.svg"
-import partner22 from "../../public/images/partners/partner22.svg"
 import partner23 from "../../public/images/partners/partner23.svg"
 
 export function Slider1(){

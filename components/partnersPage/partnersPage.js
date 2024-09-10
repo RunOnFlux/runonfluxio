@@ -2,18 +2,11 @@
 import React from "react";
 import styles from "./index.module.css";
 import Image from "next/image";
-import partner1 from "../../public/images/partners/partner15.svg"
 import partner2 from "../../public/images/partners/partner2.svg";
 import partner3 from "../../public/images/partners/partner3.svg";
-// import partner4 from "../../public/images/partners/partner4.png";
 import partner5 from "../../public/images/partners/partner5.svg";
-// import partner6 from "../../public/images/partners/partner6.png";
-import partner7 from "../../public/images/partners/partner7.svg";
-import partner8 from "../../public/images/partners/partner8.svg"
 import partner9 from "../../public/images/partners/partner9.svg"
-// import partner10 from "../../public/images/partners/partner10.png"
 import partner11 from "../../public/images/partners/partner11.svg"
-import partner12 from "../../public/images/partners/partner12.svg"
 import partner13 from "../../public/images/partners/partner13.svg"
 import partner14 from "../../public/images/partners/partner14.svg"
 import partner15 from "../../public/images/partners/partner15.svg"
@@ -23,11 +16,7 @@ import partner18 from "../../public/images/partners/partner18.svg"
 import partner19 from "../../public/images/partners/partner19.svg"
 import partner20 from "../../public/images/partners/partner20.svg"
 import partner21 from "../../public/images/partners/partner21.svg"
-import partner22 from "../../public/images/partners/partner22.svg"
-import partner24 from "../../public/images/partners/partner24.svg"
-import partner25 from "../../public/images/partners/partner25.svg"
 import partner26 from "../../public/images/partners/partner26.svg"
-import partner27 from "../../public/images/partners/partner27.svg"
 import partner28 from "../../public/images/partners/kiterocket.jpg"
 import kucoin from "../../public/images/partners/kucoin-partners.png"
 import gemini from "../../public/images/partners/Gemini.png"
