@@ -55,7 +55,7 @@ module.exports = {
 
       {
         source: '/fluxAI',
-        destination: 'https://fluxedge.ai/',
+        destination: 'https://fluxai.app/',
         permanent: false,
         basePath: false
       },
