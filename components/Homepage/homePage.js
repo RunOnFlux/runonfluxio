@@ -2,8 +2,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import styles from "./index.module.css"
-import Head from "next/head";
-import dynamic from 'next/dynamic';
 import Image from "next/image";
 import map1 from "../../public/images/map.svg"
 import map2 from "../../public/images/map2.svg"
@@ -39,11 +37,10 @@ import POUW from "../../public/images/greenIcons/pouw.svg"
 import cloud from "../../public/images/greenIcons/cloud.svg"
 import climate from "../../public/images/greenIcons/climate.svg"
 import dollar from "../../public/images/greenIcons/dollar$.svg"
-import fluxwpimg from "../../public/images/FLUXAI Public Released Pop-up.png"
+import modalImage from "../../public/images/FLUXAI Public Released Pop-up.png"
 import axios from 'axios';
 import { Slider4 } from "../Slider/slider4";
 import Modal from 'react-bootstrap/Modal';
-import { useRouter } from 'next/router'; // Import the useRouter hook
 
 export function HomePage(){
 
@@ -149,8 +146,8 @@ export function HomePage(){
                             </Modal.Header>
                             <Modal.Body>
                                 <div className={styles.modal}>
-                                    <a href="https://fluxedge.ai/" target="_blank" rel="noreferrer">
-                                        <Image alt="fluxwpimage" src={fluxwpimg} />
+                                    <a href="/fluxAI" target="_blank" rel="noreferrer">
+                                        <Image alt="Flux AI" src={modalImage} />
                                     </a>
                                 </div>
                             </Modal.Body>
