@@ -41,25 +41,22 @@ module.exports = {
       },
       {
         source: '/fluxEdge',
-        destination: 'https://fluxedge.ai/',
+        destination: 'https://fluxedge.ai',
         permanent: false,
         basePath: false
       },
-    
-      // {
-      //   source: '/fluxNodes',
-      //   destination: 'https://www.runonflux.io/flux-nodes.html',
-      //   permanent: false,
-      //   basePath: false
-      // },
-
+      {
+        source: '/fluxCore',
+        destination: 'https://leaderboard.fluxcore.ai',
+        permanent: false,
+        basePath: false
+      },    
       {
         source: '/fluxAI',
         destination: 'https://fluxai.app/',
         permanent: false,
         basePath: false
-      },
-    
+      },    
       {
         source: '/zelcore',
         destination: 'https://zelcore.io/',
@@ -78,28 +75,12 @@ module.exports = {
         permanent: false,
         basePath: false
       },
-      // {
-      //   source: '/XDAO',
-      //   destination: 'https://www.runonflux.io/xdao.html',
-      //   permanent: false,
-      //   basePath: false
-      // },
       {
         source: '/whitepaper',
         destination: 'https://whitepaper.app.runonflux.io/',
         permanent: false,
         basePath: false
-      },
-      // {
-      //   source: '/roadmaps',
-      //   destination: 'https://www.runonflux.io/roadmap.html',
-      //   permanent: false,
-      //   basePath: false
-      // },
-      // {
-    
-      // {
-  
+      },  
       {
         source: '/documentation',
         destination: 'https://wiki.runonflux.io/',
@@ -112,18 +93,6 @@ module.exports = {
         permanent: false,
         basePath: false
       },
-      // {
-      //   source: '/carbonNeutrality',
-      //   destination: 'https://www.runonflux.io/zero-carbon.html',
-      //   permanent: false,
-      //   basePath: false
-      // },
-      // {
-      //   source: '/fluxLabs',
-      //   destination: 'https://www.runonflux.io/fluxlabs.html',
-      //   permanent: false,
-      //   basePath: false
-      // },
       {
         source: '/app',
         destination: 'https://jetpack2.app.runonflux.io/hello.html',
@@ -148,12 +117,6 @@ module.exports = {
         permanent: false,
         basePath: false
       },
-      // {
-      //   source: '/buyFlux',
-      //   destination: 'https://runonflux.io/flux.html#exchanges',
-      //   permanent: false,
-      //   basePath: false
-      // },
       {
         source: '/fluxStore',
         destination: 'https://gotflux.store/',
@@ -178,21 +141,7 @@ module.exports = {
         destination: 'https://github.com/RunOnFlux/press',
         permanent: false,
         basePath: false
-      },
-      // {
-      //   source: '/social',
-      //   destination: 'https://www.runonflux.io/flux-social.html',
-      //   permanent: false,
-      //   basePath: false
-      // },
-    
-      // {
-      //   source: '/bugBounty',
-      //   destination: 'https://www.runonflux.io/bug-bounty-program.html',
-      //   permanent: false,
-      //   basePath: false
-      // },
-  
+      },  
       {
         source: '/support',
         destination: 'https://support.runonflux.io/',
