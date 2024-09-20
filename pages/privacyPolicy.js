@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar/>
-    <PrivacyPage/>
+      <PrivacyPage/>
     </div>
   )
 }

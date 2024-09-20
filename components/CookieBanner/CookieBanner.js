@@ -1,16 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Script from 'next/script';
 import CookieConsent, { getCookieConsentValue, resetCookieConsentValue } from "react-cookie-consent";
 
 const CookieBanner = () => {
+  const router = useRouter();
   const [userConsent, setUserConsent] = useState(false);
 
   const handleAcceptCookies = () => setUserConsent(true);
 
   const handleDecline = () => {
-    resetCookieConsentValue("runonflux-consent");
     setUserConsent(false);
+    router.push("/privacyPolicy");
   };
 
   useEffect(() => {
