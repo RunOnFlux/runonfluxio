@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./index.module.css"
 import Image from "next/image";
 import newsLogo from "../../public/images/article/news.svg"
@@ -8,120 +8,92 @@ import card3Logo from "../../public/images/article/card3Logo.svg"
 import card4Logo from "../../public/images/article/card4Logo.svg"
 import card5Logo from "../../public/images/article/card5Logo.svg"
 import card6Logo from "../../public/images/article/card6Logo.svg"
+
 import { Carousel } from "./carousel";
-import newsLetter from "../../public/images/article/newsletter.svg"
 import { FaEnvelopeOpenText } from "react-icons/fa";
+import { IoChevronBackCircleOutline , IoChevronForwardCircleOutline } from 'react-icons/io5'
+import Link from "next/link";
+
+const cardDetails = [
+    { 
+        logo: card1Logo, 
+        text: "Forbes Three Reasons Why Your Business Should Switch To Web3",
+        link: "https://www.forbes.com/councils/forbestechcouncil/2024/07/08/three-reasons-why-your-business-should-switch-to-web3"
+    },
+    { 
+        logo: card2Logo,
+        text: "CYBER MEDIA CREATIONS Flux and Nvidia: Bringing Web3 to the Next Level",
+        link: "https://cybermediacreations.com/flux-and-nvidia-bringing-web3-to-the-next-level"
+    },
+    { 
+        logo: card3Logo, 
+        text: "Decentralized Flux Cloud Launches New Product to Tackle AI Compute Challenges",
+        link: "https://apnews.com/press-release/accesswire/decentralized-flux-cloud-launches-new-product-to-tackle-ai-compute-challenges-f1169c7a43e21ee2e9914a2d6547efd3"
+    },
+    { 
+        logo: card4Logo,
+        text: "Empowering Web Builders: Flux Launches Full Release of WordPress on Decentralized Platform",
+        link: "https://finance.yahoo.com/news/empowering-builders-flux-launches-full-130400966.html"
+    },
+    { 
+        logo: card5Logo,
+        text: "Flux Launches FluxCore Beta To Enhance Compute-Efficiency and Boost AI Technology",
+        link: "https://zycrypto.com/flux-launches-fluxcore-beta-to-enhance-compute-efficiency-and-boost-ai-technology"
+    },
+    { 
+        logo: card6Logo,
+        text: "FluxOS Breaks Barriers, Introduces Fiat Payments OnRamp Solution with PayPal",
+        link: "https://markets.businessinsider.com/news/stocks/fluxos-breaks-barriers-introduces-fiat-payments-onramp-solution-with-paypal-1033415645"
+    },
+];
+
 export function FluxArticlePage(){
+    const [sliderIndex, setSliderIndex] = useState(0);
+
+    const sliderChange = (offset) => {
+        if (sliderIndex + offset > cardDetails.length -1 || sliderIndex + offset < 0) return;
+        setSliderIndex((prev) => prev + offset);
+    };
+
+    const sliderImages = [0, 1, 2, 3, 4, 5];
+
+    const ArticleCard = () => {
+        return (
+            <div className={`${styles.articleCard} ${styles[`bg-${sliderIndex}`]}`}>
+                <div className={styles.logo} >                
+                    <Image alt="logo" src={cardDetails[sliderIndex].logo}/>
+                 </div>
+                <div className={styles.cardText}>
+                    <Link href={cardDetails[sliderIndex].link}>
+                        <p>{cardDetails[sliderIndex].text}</p>
+                    </Link>
+                </div>
+            </div>
+        )
+    };
+
     return(
         <React.Fragment>
-            <section className={styles.section1}>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6 col-md-4"></div>
-                        <div className="col-lg-6 col-md-8">
-                            <div className={styles.header}>
-                               <h3> Stay on the<br/> Decentralized Train</h3>
-                               <p>Catch up with exciting happenings in Flux and the decentralized world.  Read all about the latest topics, news, updates, partnerships and products on our blog.</p>
-                            </div>
-                        </div>
+            <section className={styles.section1}>            
+                <div className={styles.header} >
+                    <div style={{ display: "flex", justifyContent: "flex-start", marginBottom: "20px", gap: "15px" }}>
+                        <Image style={{ alignSelf: "center"}} alt="logo" src={newsLogo}/>
+                        <h3 style={{ alignSelf: "center"}}>Flux In the News</h3>
                     </div>
-                </div>
-            </section>
-
-            <section className={styles.section2}>
-                <div className="container">
-                    <div className="row mb-5">
-                        <h3>Featured Articles:</h3>
-                        <h5><Image alt="logo" src={newsLogo}/> In the News</h5>
+                    <p>Stay up to date with all things Flux. Read all about our latest products, updates, and partnerships. Sign up for our newsletter below to be the first to know.</p>
+                </div>     
+                <div className={styles.articles} >
+                    <h3 style={{ textAlign: "center", marginBottom: "20px" }}>Featured Articles</h3>
+                    <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-evenly", gap: "35px" }}>
+                        <IoChevronBackCircleOutline className={styles.sliderArrow}  size={60} onClick={() => sliderChange(-1)} />
+                        <ArticleCard />
+                        <IoChevronForwardCircleOutline className={styles.sliderArrow}  size={60} onClick={() => sliderChange(1)} />
                     </div>
-                    <div className="row">
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className={styles.card1}>
-                                <div className={styles.logo}>
-                                    <Image alt="logo" src={card1Logo}/>
-                                </div>
-                               <div className={styles.cardText}>
-                               <p>Forbes Three Reasons Why Your Business Should Switch To Web3</p>
-                               </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className={styles.card2}>
-                                <div className={styles.logo}>
-                                    <Image alt="logo" src={card2Logo}/>
-                                </div>
-                               <div className={styles.cardText}>
-                               <p>CYBER MEDIA CREATIONS
-                               Flux and Nvidia: Bringing Web3 to the Next Level</p>
-                               </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className={styles.card3}>
-                                <div className={styles.logo}>
-                                    <Image alt="logo" src={card3Logo}/>
-                                </div>
-                               <div className={styles.cardText}>
-                               <p>Decentralized Flux Cloud Launches New Product to Tackle AI Compute Challenges</p>
-                               </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className={styles.card4}>
-                                <div className={styles.logo}>
-                                    <Image alt="logo" src={card4Logo}/>
-                                </div>
-                               <div className={styles.cardText}>
-                               <p>Empowering Web Builders: Flux Launches Full Release of WordPress on Decentralized Platform
-                              </p>
-                               </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className={styles.card5}>
-                                <div className={styles.logo}>
-                                    <Image alt="logo" src={card5Logo}/>
-                                </div>
-                               <div className={styles.cardText}>
-                               <p>Flux Launches FluxCore Beta To Enhance Compute-Efficiency and Boost AI Technology</p>
-                               </div>
-                            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className={styles.card6}>
-                                <div className={styles.logo}>
-                                    <Image alt="logo" src={card6Logo}/>
-                                </div>
-                               <div className={styles.cardText}>
-                               <p>FluxOS Breaks Barriers, Introduces Fiat Payments OnRamp Solution with PayPal</p>
-                               </div>
-                            </div>
-                            </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className={styles.section3}>
-                <div className="container-fluid" style={{paddingLeft: "0", paddingRight: "0"}}>
-                    <div className="row g-0">
-                        <div className="col-lg-4 col-md-5">
-                            <div className={styles.banner1}>
-                               <div className={styles.text1}>
-                                <div>
-                                <p>“FluxEdge addresses infrastructure challenges by optimizing computing resources to meet dynamic client needs, particularly in the AI sector. It leads the way toward a decentralized, efficient, and sustainable cloud future for everyone's benefit.”</p>
-                                <h6>- Daniel Keller</h6>
-                                </div>
-                               </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-8 col-md-7">
-                            <div className={styles.banner2}>
-                                <div className={styles.text2}>
-                                    {/* <h5>“Insert Quote Here”</h5> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "20px", paddingTop: "50px" }} >
+                        {sliderImages.map(index => (
+                        <div key={`slider-${index}`} className={`${index === sliderIndex ? `${styles.sliderItem} ${styles.sliderItemOn}` : `${styles.sliderItem} ${styles.sliderItemOff}`}`} />
+                        ))}
+                    </div> 
                 </div>
             </section>
 
@@ -151,7 +123,7 @@ export function FluxArticlePage(){
                         <Carousel/>
                     </div>
                 </div>
-            </section>
+            </section>            
 
             <section className={styles.section5}>
                 <div className="container">
@@ -178,9 +150,9 @@ export function FluxArticlePage(){
                             <div className="col-lg-7 col-md-6">
                                <div className={styles.banner5Text}>
                                 <div>
-                                <h5>Press Release</h5>
+                                <h5>Media And Press Inquiry</h5>
                                 <p>For all press and media inquiries, please email our team via email. We are committed to providing further details or assist with any questions you may have. Your interest is important to us, and we look forward to assisting you.</p>
-                                <h6>For press opportunities please reach out to:</h6>
+                                <h6>For opportunities please reach out to:</h6>
                                 <a>shannon@runonflux.io</a>
                                 </div>
                                </div>
@@ -192,6 +164,7 @@ export function FluxArticlePage(){
                     </div>
                 </div>
             </section>
+
             <section className={styles.section7}>
                 <div className="container">
                     <div className="row">
