@@ -62,7 +62,7 @@ export function FluxArticlePage(){
             <div className={`${styles.articleCard} ${styles[`bg-${sliderIndex}`]}`}>
                 <div className={styles.logo} >                
                     <Image alt="logo" src={cardDetails[sliderIndex].logo}/>
-                 </div>
+                </div>
                 <div className={styles.cardText}>
                     <Link href={cardDetails[sliderIndex].link}>
                         <p>{cardDetails[sliderIndex].text}</p>
@@ -153,7 +153,7 @@ export function FluxArticlePage(){
                                 <h5>Media And Press Inquiry</h5>
                                 <p>For all press and media inquiries, please email our team via email. We are committed to providing further details or assist with any questions you may have. Your interest is important to us, and we look forward to assisting you.</p>
                                 <h6>For opportunities please reach out to:</h6>
-                                <a>shannon@runonflux.io</a>
+                                <a>shannon@runonflux.com</a>
                                 </div>
                                </div>
                             </div>

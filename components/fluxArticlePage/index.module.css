@@ -5,7 +5,7 @@
   justify-items: center;
   align-items: center;
   flex-wrap: wrap;
-  background-image: url('../../public/images/article/article-header.svg');
+  background-image: url('../../public/images/article/article-header.png');
   background-color: var(--headerBackground);
   background-blend-mode: overlay;
   min-height: clamp(1080px, 1080px, 1200px);
@@ -106,6 +106,30 @@
   border-radius: 25px 3px 25px 3px;
   padding: 40px 20px;
   position: relative;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.articleCard.active {
+  animation: fadeOut 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .bg-0 {
@@ -524,156 +548,404 @@
   }
 }
 
-@media (max-width: 992px) {
-  .section1 .header {
-    margin-top: 90px;
-  }
-}
-
 @media (max-width: 1200px) {
   .section1 .articles h3 {
     font-size: 30px;
   }
 
   .section1 .header h3 {
-    font-family: Montserrat;
     font-size: 30px;
-    font-weight: 600;
     line-height: 40.02px;
-    text-align: right;
   }
 
   .section1 .header p {
-    font-family: Montserrat;
     font-size: 18px;
-    font-weight: 500;
     line-height: 24.57px;
-    text-align: right;
   }
 
   .text1 p {
-    font-family: Montserrat;
     font-size: 17px;
-    font-weight: 400;
     line-height: 24.82px;
-    text-align: left;
   }
 
   .text1 h6 {
-    font-family: Montserrat;
     font-size: 22px;
-    font-weight: 500;
     line-height: 32.13px;
-    text-align: left;
   }
-  .text2 h5 {
-    font-family: Montserrat;
-    font-size: 35px;
-    font-weight: 600;
-    line-height: 53.14px;
-    text-align: right;
-  }
-  .section4 .text5 h5 {
-    font-family: Montserrat;
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 35.98px;
-    text-align: left;
 
-    padding: 30px;
+  .text2 h5 {
+    font-size: 35px;
   }
+
+  .section4 .text5 h5 {
+    font-size: 27px;
+    line-height: 35.98px;
+  }
+
   .text6 h6 {
-    font-family: Montserrat;
     font-size: 15px;
-    font-weight: 600;
-    line-height: 21.94px;
-    text-align: left;
   }
 
   .text6 p {
-    font-family: Montserrat;
     font-size: 18px;
-    font-weight: 500;
-    line-height: 26.82px;
-    text-align: left;
   }
 
   .text6 a {
-    border-radius: 20px 3px 20px 3px;
-    display: block;
-    width: 80%;
-    height: 35px;
-    text-align: center;
-    margin: auto;
-    font-family: Inter;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 29.05px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
   }
+
   .section4 h4 {
-    font-family: Montserrat;
     font-size: 40px;
-    font-weight: 600;
-    line-height: 75.58px;
-    text-align: center;
   }
 
   .section5 p {
-    font-family: Montserrat;
     font-size: 23px;
-    font-weight: 400;
-    line-height: 36.57px;
-    text-align: left;
-    color: #ffffff;
   }
+
   .section5 h6 {
-    font-family: Montserrat;
     font-size: 33px;
-    font-weight: 600;
-    line-height: 54.86px;
-    text-align: left;
-    color: #fff;
   }
+
   .banner5 h5 {
-    font-family: Montserrat;
     font-size: 22px;
-    font-weight: 500;
-    line-height: 36.57px;
-    text-align: left;
-    color: #fff;
   }
 
   .banner5 p {
-    font-family: Montserrat;
     font-size: 15px;
-    font-weight: 500;
-    line-height: 20.16px;
-    text-align: left;
-    color: #919baf;
   }
 
   .banner5 h6 {
-    font-family: Montserrat;
     font-size: 17px;
-    font-weight: 500;
-    line-height: 25.26px;
-    text-align: left;
-    color: #fff;
   }
 
   .banner5 a {
-    font-family: Montserrat;
     font-size: 17px;
-    font-weight: 500;
-    line-height: 25.26px;
-    text-align: left;
-    color: #1b63ef !important;
   }
+
   .banner7 img {
     width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section1 .header h3 {
+    font-size: 34px;
+    line-height: 44.02px;
+  }
+
+  .section1 .header p {
+    font-size: 20px;
+    line-height: 28.57px;
+  }
+
+  .articleCard .logo img {
+    height: 25px;
+  }
+
+  .cardText p {
+    font-size: 14px;
+  }
+
+  .section2 h3 {
+    font-size: 26px;
+  }
+
+  .section2 h5 {
+    font-size: 24px;
+  }
+
+  .section2 h5 img {
+    height: 30px;
+  }
+
+  .text1 p {
+    font-size: 16px;
+  }
+
+  .text1 h6 {
+    font-size: 21px;
+  }
+
+  .text2 h5 {
+    font-size: 30px;
+    padding-right: 30px;
+  }
+
+  .section4 .text5 h5 {
+    font-size: 24px;
+    line-height: 33.98px;
+    padding: 20px;
+  }
+
+  .text6 h6 {
+    font-size: 15px;
+  }
+
+  .text6 p {
+    font-size: 15px;
+  }
+
+  .text6 a {
+    font-size: 14px;
+  }
+
+  .section4 h4 {
+    font-size: 35px;
+  }
+
+  .section5 p {
+    font-size: 20px;
+  }
+
+  .section5 h6 {
+    font-size: 30px;
+  }
+
+  .banner5 h5 {
+    font-size: 22px;
+  }
+
+  .banner5 p {
+    font-size: 15px;
+  }
+
+  .banner5 h6 {
+    font-size: 17px;
+  }
+
+  .banner5 a {
+    font-size: 17px;
+  }
+
+  .form img {
+    height: 60px;
+  }
+
+  .form h5 {
+    font-size: 25px;
+  }
+
+  .newsletterInput {
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .subscribeButton {
+    font-size: 14px;
+  }
+
+  .banner7 img {
+    width: 220px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section1 .header h3 {
+    font-size: 29px;
+    line-height: 39.02px;
+  }
+
+  .section1 .header p {
+    font-size: 17px;
+    line-height: 25.57px;
+  }
+
+  .articleCard .logo img {
+    height: 20px;
+  }
+
+  .cardText p {
+    font-size: 14px;
+  }
+
+  .articleCard {
+    height: 250px;
+  }
+
+  .section2 h3 {
+    font-size: 24px;
+  }
+
+  .section2 h5 {
+    font-size: 22px;
+  }
+
+  .section2 h5 img {
+    height: 25px;
+  }
+
+  .text1 p {
+    font-size: 16px;
+  }
+
+  .text1 h6 {
+    font-size: 21px;
+  }
+
+  .text2 h5 {
+    font-size: 28px;
+    padding-right: 30px;
+  }
+
+  .section4 .text5 h5 {
+    font-size: 24px;
+    line-height: 33.98px;
+    padding: 20px;
+  }
+
+  .text6 h6 {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+
+  .text6 p {
+    font-size: 15px;
+  }
+
+  .text6 a {
+    font-size: 14px;
+  }
+
+  .section4 h4 {
+    font-size: 30px;
+  }
+
+  .section5 p {
+    font-size: 20px;
+  }
+
+  .section5 h6 {
+    font-size: 30px;
+  }
+
+  .banner5 h5 {
+    font-size: 20px;
+  }
+
+  .banner5 p {
+    font-size: 14px;
+  }
+
+  .banner5 h6 {
+    font-size: 16px;
+  }
+
+  .banner5 a {
+    font-size: 16px;
+  }
+
+  .banner5Bg {
+    height: 250px;
+    margin-top: 20px;
+  }
+
+  .form img {
+    height: 60px;
+  }
+
+  .form h5 {
+    font-size: 25px;
+  }
+
+  .newsletterInput {
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .subscribeButton {
+    font-size: 14px;
+  }
+
+  .banner7 img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section1 .header {
+    padding: 30px;
+  }
+
+  .section1 .header h3 {
+    font-size: 29px;
+    line-height: 39.02px;
+  }
+
+  .section1 .header p {
+    font-size: 16px;
+    line-height: 25.57px;
+  }
+
+  .text1 p {
+    font-size: 15px;
+  }
+
+  .text1 h6 {
+    font-size: 20px;
+  }
+
+  .banner3 {
+    height: 250px;
+  }
+
+  .text6 h6 {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+
+  .text6 p {
+    font-size: 14px;
+  }
+
+  .text6 a {
+    font-size: 13px;
+  }
+
+  .section5 p {
+    font-size: 18px;
+  }
+
+  .section5 h6 {
+    font-size: 28px;
+  }
+
+  .form img {
+    height: 50px;
+  }
+
+  .form h5 {
+    font-size: 20px;
+  }
+
+  .newsletterInput {
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .subscribeButton {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 360px) {
+  .section1 .header {
+    padding: 20px;
+  }
+
+  .section1 .header h3 {
+    font-size: 25px;
+    line-height: 35.02px;
+  }
+
+  .section1 .header p {
+    font-size: 15px;
+    line-height: 25.57px;
+  }
+
+  .text2 h5 {
+    font-size: 21px;
+    line-height: 27.14px;
+    padding-right: 20px;
   }
 }
 
