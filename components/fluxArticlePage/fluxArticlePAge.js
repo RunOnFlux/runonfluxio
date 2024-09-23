@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./index.module.css"
 import Image from "next/image";
+import Link from "next/link";
 import newsLogo from "../../public/images/article/news.svg"
 import card1Logo from "../../public/images/article/card1Logo.svg"
 import card2Logo from "../../public/images/article/card2Logo.svg"
@@ -12,7 +13,6 @@ import card6Logo from "../../public/images/article/card6Logo.svg"
 import { Carousel } from "./carousel";
 import { FaEnvelopeOpenText } from "react-icons/fa";
 import { IoChevronBackCircleOutline , IoChevronForwardCircleOutline } from 'react-icons/io5'
-import Link from "next/link";
 
 const cardDetails = [
     { 
