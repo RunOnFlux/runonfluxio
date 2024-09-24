@@ -319,7 +319,7 @@
   background: #1b63ef;
   color: #fff !important;
   display: block;
-  width: 80%;
+  width: 50%;
   height: 40px;
   text-align: center;
   margin: auto;
@@ -330,6 +330,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  box-shadow: var(--boxShadow3);
 }
 
 .section4 h4 {

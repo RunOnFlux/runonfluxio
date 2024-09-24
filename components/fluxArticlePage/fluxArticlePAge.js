@@ -114,7 +114,7 @@ export function FluxArticlePage(){
                                 <h6>AI is set to be the most important technology by 2025.</h6>
                                 <p>Considering the rapid growth the sector has experienced over the past few years, this is not in the least surprising. The applications of AI have continued to grow across various fields, from smart chatbots that can generate professional resumes based on user prompts to machine learning models capable of running predictive analyses to solve business problems.</p>
                                 <p>Now, when the unique advantages of AI technology are integrated into cloud computing, AI cloud is born. Researchers estimate a global cloud AI market size of $397.81 billion by 2030, citing the growing adoption of generative AI and machine learning models among many industries.</p>
-                                <a>Read More</a>
+                                <a href="https://www.forbes.com/councils/forbestechcouncil/2024/08/19/future-proofing-ai-and-the-decentralized-cloud">Read More</a>
                             </div>
                         </div>
                     </div>
