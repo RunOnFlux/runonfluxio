@@ -12,7 +12,8 @@ import card6Logo from "../../public/images/article/card6Logo.svg"
 
 import { Carousel } from "./carousel";
 import { FaEnvelopeOpenText } from "react-icons/fa";
-import { IoChevronBackCircleOutline , IoChevronForwardCircleOutline } from 'react-icons/io5'
+import { IoChevronBackCircleOutline, IoChevronForwardCircleOutline } from 'react-icons/io5'
+import { IoIosMail } from "react-icons/io";
 
 const cardDetails = [
     { 
@@ -47,29 +48,27 @@ const cardDetails = [
     },
 ];
 
+const sliderImages = [0, 1, 2, 3, 4, 5];
+
+const ArticleCard = ({ cardDetails, index }) => (
+    <div className={`${styles.articleCard} ${styles[`bg-${index}`]}`}>
+        <div className={styles.logo}>                
+            <Image alt="logo" src={cardDetails.logo}/>
+        </div>
+        <div className={styles.cardText}>
+            <Link href={cardDetails.link}>
+                <p>{cardDetails.text}</p>
+            </Link>
+        </div>
+    </div>
+);
+
 export function FluxArticlePage(){
     const [sliderIndex, setSliderIndex] = useState(0);
 
     const sliderChange = (offset) => {
         if (sliderIndex + offset > cardDetails.length -1 || sliderIndex + offset < 0) return;
         setSliderIndex((prev) => prev + offset);
-    };
-
-    const sliderImages = [0, 1, 2, 3, 4, 5];
-
-    const ArticleCard = () => {
-        return (
-            <div className={`${styles.articleCard} ${styles[`bg-${sliderIndex}`]}`}>
-                <div className={styles.logo} >                
-                    <Image alt="logo" src={cardDetails[sliderIndex].logo}/>
-                </div>
-                <div className={styles.cardText}>
-                    <Link href={cardDetails[sliderIndex].link}>
-                        <p>{cardDetails[sliderIndex].text}</p>
-                    </Link>
-                </div>
-            </div>
-        )
     };
 
     return(
@@ -86,7 +85,7 @@ export function FluxArticlePage(){
                     <h3 style={{ textAlign: "center", marginBottom: "20px" }}>Featured Articles</h3>
                     <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-evenly", gap: "35px" }}>
                         <IoChevronBackCircleOutline className={styles.sliderArrow}  size={60} onClick={() => sliderChange(-1)} />
-                        <ArticleCard />
+                        <ArticleCard cardDetails={cardDetails[sliderIndex]} index={sliderIndex} />
                         <IoChevronForwardCircleOutline className={styles.sliderArrow}  size={60} onClick={() => sliderChange(1)} />
                     </div>
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "20px", paddingTop: "50px" }} >
@@ -131,14 +130,11 @@ export function FluxArticlePage(){
                         <div className="col-md-6">
                             <div className={styles.banner4}>
                                 <div>
-                                <p>“One of the recent exciting highlights of the Tech industry is the increasing acceleration and adoption of artificial intelligence. Al is here to stay, and so is Flux.”</p>
-                                <h6>- Daniel Keller</h6>
+                                    <p>“One of the recent exciting highlights of the Tech industry is the increasing acceleration and adoption of artificial intelligence. AI is here to stay, and so is Flux.”</p>
+                                    <h6>- Daniel Keller</h6>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            
-                            </div>
                     </div>
                 </div>
             </section>
@@ -149,12 +145,12 @@ export function FluxArticlePage(){
                         <div className="row">
                             <div className="col-lg-7 col-md-6">
                                <div className={styles.banner5Text}>
-                                <div>
-                                <h5>Media And Press Inquiry</h5>
-                                <p>For all press and media inquiries, please email our team via email. We are committed to providing further details or assist with any questions you may have. Your interest is important to us, and we look forward to assisting you.</p>
-                                <h6>For opportunities please reach out to:</h6>
-                                <a>shannon@runonflux.com</a>
-                                </div>
+                                    <div>
+                                        <h5>Media And Press Inquiry</h5>
+                                        <p>For press and media inquiries, please contact our team via email. We're here to provide information and answer any questions you may have. We look forward to assisting you.</p>
+                                        <h6>For opportunities please reach out to:</h6>
+                                        <a href="mailto:shannon@runonflux.com" style={{ textDecoration: "none" }}><IoIosMail style={{ marginRight: "8px" }}/>shannon@runonflux.com</a>
+                                    </div>
                                </div>
                             </div>
                             <div className="col-lg-5 col-md-6">
@@ -169,19 +165,18 @@ export function FluxArticlePage(){
                 <div className="container">
                     <div className="row">
                        <div className="col-md-12">
-                       <div className={styles.form}>
-                          <FaEnvelopeOpenText className={styles.envelope} />
-                            <h5>Subscribe to our newsletter</h5>
-                            <div className={styles.newsletterContainer}>
-                            <form className={styles.newsletterForm} action="#" method="post">
-                              <div className={styles.inputWrapper}>
-                                <input type="email" className={styles.newsletterInput} placeholder="Enter your email" required />
-                                <button type="submit" className={styles.subscribeButton}>Subscribe</button>
+                            <div className={styles.form}>
+                                <FaEnvelopeOpenText className={styles.envelope} />
+                                <h5>Subscribe to our newsletter</h5>
+                                <div className={styles.newsletterContainer}>
+                                    <form className={styles.newsletterForm} action="#" method="post">
+                                        <div className={styles.inputWrapper}>
+                                            <input type="email" className={styles.newsletterInput} placeholder="Enter your email" required />
+                                            <button type="submit" className={styles.subscribeButton}>Subscribe</button>
+                                        </div>
+                                    </form>
                                 </div>
-                            </form>
                             </div>
-
-                        </div>
                        </div>
                     </div>
                 </div>
