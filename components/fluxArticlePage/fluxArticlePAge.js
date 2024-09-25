@@ -9,6 +9,8 @@ import card3Logo from "../../public/images/article/card3Logo.svg"
 import card4Logo from "../../public/images/article/card4Logo.svg"
 import card5Logo from "../../public/images/article/card5Logo.svg"
 import card6Logo from "../../public/images/article/card6Logo.svg"
+import top100 from "../../public/images/article/top100.png"
+import stratusAward from "../../public/images/article/stratusAward.png"
 
 import { Carousel } from "./carousel";
 import { FaEnvelopeOpenText } from "react-icons/fa";
@@ -18,12 +20,12 @@ import { IoIosMail } from "react-icons/io";
 const cardDetails = [
     { 
         logo: card1Logo, 
-        text: "Forbes Three Reasons Why Your Business Should Switch To Web3",
+        text: "Three Reasons Why Your Business Should Switch To Web3",
         link: "https://www.forbes.com/councils/forbestechcouncil/2024/07/08/three-reasons-why-your-business-should-switch-to-web3"
     },
     { 
         logo: card2Logo,
-        text: "CYBER MEDIA CREATIONS Flux and Nvidia: Bringing Web3 to the Next Level",
+        text: "Flux and Nvidia: Bringing Web3 to the Next Level",
         link: "https://cybermediacreations.com/flux-and-nvidia-bringing-web3-to-the-next-level"
     },
     { 
@@ -51,16 +53,14 @@ const cardDetails = [
 const sliderImages = [0, 1, 2, 3, 4, 5];
 
 const ArticleCard = ({ cardDetails, index }) => (
-    <div className={`${styles.articleCard} ${styles[`bg-${index}`]}`}>
+    <Link className={`${styles.articleCard} ${styles[`bg-${index}`]}`} href={cardDetails.link} passHref>
         <div className={styles.logo}>                
             <Image alt="logo" src={cardDetails.logo}/>
         </div>
-        <div className={styles.cardText}>
-            <Link href={cardDetails.link}>
-                <p>{cardDetails.text}</p>
-            </Link>
+        <div className={styles.cardText}>            
+            <p>{cardDetails.text}</p>
         </div>
-    </div>
+    </Link>
 );
 
 export function FluxArticlePage(){
@@ -75,7 +75,7 @@ export function FluxArticlePage(){
         <React.Fragment>
             <section className={styles.section1}>            
                 <div className={styles.header} >
-                    <div style={{ display: "flex", justifyContent: "flex-start", marginBottom: "20px", gap: "15px" }}>
+                    <div style={{ display: "flex", marginBottom: "20px", gap: "15px" }}>
                         <Image style={{ alignSelf: "center"}} alt="logo" src={newsLogo}/>
                         <h3 style={{ alignSelf: "center"}}>Flux In the News</h3>
                     </div>
@@ -112,7 +112,7 @@ export function FluxArticlePage(){
                         <div className="col-md-6">
                             <div className={styles.text6}>
                                 <h6>AI is set to be the most important technology by 2025.</h6>
-                                <p>Considering the rapid growth the sector has experienced over the past few years, this is not in the least surprising. The applications of AI have continued to grow across various fields, from smart chatbots that can generate professional resumes based on user prompts to machine learning models capable of running predictive analyses to solve business problems.</p>
+                                <p>Considering the rapid growth the sector has experienced over the past few years, this is not in the least surprising. The applications of AI have continued to grow across various fields, from smart chatbots that can generate professional resumes based on user prompts, to machine learning models capable of running predictive analysis to solve business problems.</p>
                                 <p>Now, when the unique advantages of AI technology are integrated into cloud computing, AI cloud is born. Researchers estimate a global cloud AI market size of $397.81 billion by 2030, citing the growing adoption of generative AI and machine learning models among many industries.</p>
                                 <a href="https://www.forbes.com/councils/forbestechcouncil/2024/08/19/future-proofing-ai-and-the-decentralized-cloud">Read More</a>
                             </div>
@@ -131,13 +131,41 @@ export function FluxArticlePage(){
                             <div className={styles.banner4}>
                                 <div>
                                     <p>“One of the recent exciting highlights of the Tech industry is the increasing acceleration and adoption of artificial intelligence. AI is here to stay, and so is Flux.”</p>
-                                    <h6>- Daniel Keller</h6>
+                                    <h6>- Daniel Keller, CEO Flux</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <section className={styles.section4}>
+                <div className="container">
+                    <div className="row mb-3 mb-4">
+                        <h4>Our <span>Awards</span></h4>
+                    </div>
+                    <div className="row justify-content-center">
+                        <div className="col-4 col-sm-4 col-md-3">
+                            <div className="d-flex justify-content-center align-items-center h-100">
+                                <Image 
+                                    alt="award" 
+                                    src={top100} 
+                                    style={{ maxWidth: "90%", height: "auto" }} 
+                                />
+                            </div>
+                        </div>
+                        <div className="col-3 col-sm-3 col-md-3">
+                            <div className="d-flex justify-content-center align-items-center h-100">
+                                <Image 
+                                    alt="award" 
+                                    src={stratusAward} 
+                                    style={{ maxWidth: "90%", height: "auto" }} 
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
 
             <section className={styles.section6}>
                 <div className="container">
@@ -146,7 +174,7 @@ export function FluxArticlePage(){
                             <div className="col-lg-7 col-md-6">
                                <div className={styles.banner5Text}>
                                     <div>
-                                        <h5>Media And Press Inquiry</h5>
+                                        <h5>Media And Press Inquiries</h5>
                                         <p>For press and media inquiries, please contact our team via email. We're here to provide information and answer any questions you may have. We look forward to assisting you.</p>
                                         <h6>For opportunities please reach out to:</h6>
                                         <a href="mailto:shannon@runonflux.com" style={{ textDecoration: "none" }}><IoIosMail style={{ marginRight: "8px" }}/>shannon@runonflux.com</a>

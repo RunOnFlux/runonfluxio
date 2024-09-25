@@ -8,11 +8,8 @@ import 'swiper/css/pagination';
 import styles from "./index.module.css"
 
 import {Autoplay,  EffectCoverflow, Pagination } from 'swiper/modules';
-import art1 from "../../public/images/article/Flux Articles/art1.svg"
 import art2 from "../../public/images/article/Flux Articles/art2.svg"
-import art3 from "../../public/images/article/Flux Articles/art3.svg"
 import art4 from "../../public/images/article/Flux Articles/art4.svg"
-import art5 from "../../public/images/article/Flux Articles/art5.svg"
 import art6 from "../../public/images/article/Flux Articles/art6.svg"
 import art8 from "../../public/images/article/Flux Articles/art8.svg"
 import art9 from "../../public/images/article/Flux Articles/art9.svg"
@@ -70,11 +67,6 @@ export function Carousel(){
                },
             }}
          >
-            <SwiperSlide  >
-               <a target="_blank" href="https://techbullion.com/decentralized-flux-cloud-launches-new-product-to-tackle-ai-compute-challenges/" className={styles.banner7}>
-                  <Image alt="logo" src={art1}/>
-               </a>
-            </SwiperSlide>
 
             <SwiperSlide >
                <a target="_blank" href="https://cybermediacreations.com/flux-and-nvidia-bringing-web3-to-the-next-level/" className={styles.banner7}>
@@ -83,20 +75,8 @@ export function Carousel(){
             </SwiperSlide>
 
             <SwiperSlide >
-               <a target="_blank" href="https://apnews.com/press-release/accesswire/decentralized-flux-cloud-launches-new-product-to-tackle-ai-compute-challenges-f1169c7a43e21ee2e9914a2d6547efd3" className={styles.banner7}>
-                  <Image alt="logo" src={art3}/>
-               </a>
-            </SwiperSlide>
-
-            <SwiperSlide >
                <a target="_blank" href="https://markets.businessinsider.com/news/stocks/decentralized-flux-cloud-launches-new-product-to-tackle-ai-compute-challenges-1032943953" className={styles.banner7}>
                   <Image alt="logo" src={art4}/>
-               </a>
-            </SwiperSlide>
-
-            <SwiperSlide >
-               <a target="_blank" href="https://www.streetinsider.com/Press+Releases/Decentralized+Flux+Cloud+Launches+New+Product+to+Tackle+AI+Compute+Challenges/22595215.html" className={styles.banner7}>
-                  <Image alt="logo" src={art5}/>
                </a>
             </SwiperSlide>
 

@@ -36,10 +36,10 @@
 
 .section1 .header h3 {
   font-family: Montserrat;
-  font-size: 62px;
-  font-weight: 600;
-  line-height: 50.02px;
+  font-size: 50px;
+  font-weight: bold;
   text-align: center;
+  margin-bottom: 0px;
   color: #1b63ef;
 }
 
@@ -176,10 +176,17 @@
 
 .articleCard .cardText {
   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   bottom: 0;
-  margin-left: -20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10%;
+  margin-top: 5%;
 }
 
 .articleCard .logo img {
@@ -189,7 +196,7 @@
 
 .cardText p {
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 18.29px;
   text-align: center;
@@ -335,9 +342,8 @@
 
 .section4 h4 {
   font-family: Montserrat;
-  font-size: 42px;
-  font-weight: 600;
-  line-height: 75.58px;
+  font-size: 50px;
+  font-weight: bold;
   text-align: center;
   color: var(--CardText);
 }
@@ -546,7 +552,7 @@
   box-shadow: var(--boxShadow3);
 }
 
-@media (max-width: 1480px) {
+@media (max-width: 1446px) {
   .section1 .header {
     margin-top: 90px;
   }
@@ -554,16 +560,16 @@
 
 @media (max-width: 1200px) {
   .section1 .articles h3 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .section1 .header h3 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 40.02px;
   }
 
   .section1 .header p {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 24.57px;
   }
 
@@ -632,6 +638,10 @@
 }
 
 @media (max-width: 991.98px) {
+  .section1 .articles h3 {
+    font-size: 34px;
+  }
+
   .section1 .header h3 {
     font-size: 34px;
     line-height: 44.02px;
@@ -647,7 +657,7 @@
   }
 
   .cardText p {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .section2 h3 {
@@ -750,7 +760,7 @@
   }
 
   .section1 .header p {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 25.57px;
   }
 
@@ -967,7 +977,6 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 28.57px;
-    text-align: right;
   }
 
   .articleCard .logo img {
@@ -1179,7 +1188,6 @@
     font-size: 17px;
     font-weight: 500;
     line-height: 25.57px;
-    text-align: right;
   }
 
   .articleCard .logo img {
@@ -1409,7 +1417,6 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 25.57px;
-    text-align: right;
   }
 
   .text1 p {
@@ -1532,7 +1539,6 @@
     font-size: 15px;
     font-weight: 500;
     line-height: 25.57px;
-    text-align: right;
   }
   .text2 h5 {
     font-family: Montserrat;
