@@ -100,98 +100,58 @@
 }
 
 .articleCard {
-  box-shadow: var(--boxShadow3);
+  position: relative;
   width: 100%;
   height: 329px;
+  overflow: hidden;
   border-radius: 25px 3px 25px 3px;
-  padding: 40px 20px;
+  text-decoration: none;
+  color: white;
+  box-shadow: var(--boxShadow3);
+  transition: opacity 0.75s ease-in-out;
+}
+
+.cardImageContainer {
   position: relative;
-  opacity: 0;
-  animation: fadeIn 1s ease-in-out forwards;
+  width: 100%;
+  height: 100%;
 }
 
-.articleCard.active {
-  animation: fadeOut 1s ease-in-out forwards;
+.cardBackgroundImage {
+  z-index: 1;
+  object-fit: cover;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.bg-0 {
-  background: url('../../public/images/article/card1Bg.svg');
-  background-position: center center;
-  background-size: cover;
-}
-
-.bg-1 {
-  background: url('../../public/images/article/card2Bg.svg');
-  background-position: center center;
-  background-size: cover;
-}
-
-.bg-2 {
-  background: url('../../public/images/article/card3Bg.svg');
-  background-position: center center;
-  background-size: cover;
-}
-
-.bg-3 {
-  background: url('../../public/images/article/card2Bg.svg');
-  background-position: center center;
-  background-size: cover;
-}
-
-.bg-4 {
-  background: url('../../public/images/article/card4Bg.svg');
-  background-position: center center;
-  background-size: cover;
-}
-
-.bg-5 {
-  background: url('../../public/images/article/card2Bg.svg');
-  background-position: center center;
-  background-size: cover;
-}
-
-.articleCard .logo {
-  width: fit-content;
-  float: right;
-  cursor: pointer;
-}
-
-.articleCard .cardText {
+.cardOverlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
-  padding: 10%;
-  margin-top: 5%;
+  padding: 40px 20px;
+}
+
+.articleCard .logo {
+  align-self: flex-end;
 }
 
 .articleCard .logo img {
   width: 100%;
   height: 30px;
+}
+
+.cardText {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
 }
 
 .cardText p {
@@ -202,6 +162,14 @@
   text-align: center;
   color: #fff;
   margin-bottom: 30px;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
+.fadeOut {
+  opacity: 0;
 }
 
 .section3 {
