@@ -29,7 +29,7 @@
   height: auto;
   padding: 40px;
   border-radius: 25px 3px 25px 3px;
-  margin: 5px 20px 30px 20px;
+  margin: 15px 20px 30px 20px;
   min-width: clamp(200px, 695px, 35%);
   max-width: 695px;
 }
@@ -47,7 +47,7 @@
   font-family: Montserrat;
   font-size: 29px;
   font-weight: 500;
-  line-height: 27.57px;
+  line-height: 30px;
   text-align: left;
   color: #fff;
 }
