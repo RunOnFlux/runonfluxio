@@ -1,7 +1,7 @@
 
 import Head from 'next/head'
 import Script from 'next/script'
-import { FluxArticlePage } from '../components/fluxArticlePage/fluxArticlePAge.js'
+import { FluxArticlePage } from '../components/fluxArticlePage/fluxArticlePage.js'
 import { NavBar0 } from '../components/navbar/mainNav.js'
 
 export default function FluxArticle() {
