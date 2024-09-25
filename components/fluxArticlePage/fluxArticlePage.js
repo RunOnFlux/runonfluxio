@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./index.module.css"
 import Image from "next/image";
-import Link from "next/link";
 import newsLogo from "../../public/images/article/news.svg"
 import card1Logo from "../../public/images/article/card1Logo.svg"
 import card2Logo from "../../public/images/article/card2Logo.svg"
@@ -13,6 +12,7 @@ import top100 from "../../public/images/article/top100.png"
 import stratusAward from "../../public/images/article/stratusAward.png"
 
 import { Carousel } from "./carousel";
+import ArticleCard from "./articleCard";
 import { FaEnvelopeOpenText } from "react-icons/fa";
 import { IoChevronBackCircleOutline, IoChevronForwardCircleOutline } from 'react-icons/io5'
 import { IoIosMail } from "react-icons/io";
@@ -22,78 +22,41 @@ const cardDetails = [
         logo: card1Logo, 
         text: "Three Reasons Why Your Business Should Switch To Web3",
         link: "https://www.forbes.com/councils/forbestechcouncil/2024/07/08/three-reasons-why-your-business-should-switch-to-web3",
-        backgroundImage: "/images/article/card1Bg.svg"
+        backgroundImage: "/images/article/card1Bg.png"
     },
     { 
         logo: card2Logo,
         text: "Flux and Nvidia: Bringing Web3 to the Next Level",
         link: "https://cybermediacreations.com/flux-and-nvidia-bringing-web3-to-the-next-level",
-        backgroundImage: "/images/article/card2Bg.svg"
+        backgroundImage: "/images/article/card2Bg.png"
     },
     { 
         logo: card3Logo, 
         text: "Decentralized Flux Cloud Launches New Product to Tackle AI Compute Challenges",
         link: "https://apnews.com/press-release/accesswire/decentralized-flux-cloud-launches-new-product-to-tackle-ai-compute-challenges-f1169c7a43e21ee2e9914a2d6547efd3",
-        backgroundImage: "/images/article/card3Bg.svg"
+        backgroundImage: "/images/article/card3Bg.png"
     },
     { 
         logo: card4Logo,
         text: "Empowering Web Builders: Flux Launches Full Release of WordPress on Decentralized Platform",
         link: "https://finance.yahoo.com/news/empowering-builders-flux-launches-full-130400966.html",
-        backgroundImage: "/images/article/card2Bg.svg"
+        backgroundImage: "/images/article/card2Bg.png"
     },
     { 
         logo: card5Logo,
         text: "Flux Launches FluxCore Beta To Enhance Compute-Efficiency and Boost AI Technology",
         link: "https://zycrypto.com/flux-launches-fluxcore-beta-to-enhance-compute-efficiency-and-boost-ai-technology",
-        backgroundImage: "/images/article/card4Bg.svg"
+        backgroundImage: "/images/article/card4Bg.png"
     },
     { 
         logo: card6Logo,
         text: "FluxOS Breaks Barriers, Introduces Fiat Payments OnRamp Solution with PayPal",
         link: "https://markets.businessinsider.com/news/stocks/fluxos-breaks-barriers-introduces-fiat-payments-onramp-solution-with-paypal-1033415645",
-        backgroundImage: "/images/article/card2Bg.svg"
+        backgroundImage: "/images/article/card2Bg.png"
     },
 ];
 
 const sliderImages = [0, 1, 2, 3, 4, 5];
-
-const ArticleCard = ({ cardDetails }) => {
-    const [isVisible, setIsVisible] = useState(true);
-    const [currentCard, setCurrentCard] = useState(cardDetails);
-
-    useEffect(() => {
-        if (cardDetails !== currentCard) {
-            setIsVisible(false);
-            const timer = setTimeout(() => {
-                setCurrentCard(cardDetails);
-                setIsVisible(true);
-            }, 750);
-            return () => clearTimeout(timer);
-        }
-    }, [cardDetails, currentCard]);
-
-    return (
-        <Link className={`${styles.articleCard} ${isVisible ? styles.fadeIn : styles.fadeOut}`} href={currentCard.link} rel="noopener noreferrer" target="_blank">
-            <div className={styles.cardImageContainer}>
-                <Image
-                    src={currentCard.backgroundImage}
-                    alt="Article background"
-                    className={styles.cardBackgroundImage}
-                    fill
-                />
-                <div className={styles.cardOverlay}>
-                    <div className={styles.logo}>
-                        <Image alt="logo" src={currentCard.logo} width={50} height={50} />
-                    </div>
-                    <div className={styles.cardText}>
-                        <p>{currentCard.text}</p>
-                    </div>
-                </div>
-            </div>
-        </Link>
-    );
-};
 
 export function FluxArticlePage(){
     const [sliderIndex, setSliderIndex] = useState(0);
