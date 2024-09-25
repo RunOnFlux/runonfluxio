@@ -198,7 +198,7 @@
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 600;
-  line-height: 18.29px;
+  line-height: 30px;
   text-align: center;
   color: #fff;
   margin-bottom: 30px;
@@ -769,7 +769,7 @@
   }
 
   .cardText p {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .articleCard {
@@ -986,7 +986,7 @@
 
   .cardText p {
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 18.29px;
     text-align: center;

@@ -53,11 +53,11 @@ const cardDetails = [
 const sliderImages = [0, 1, 2, 3, 4, 5];
 
 const ArticleCard = ({ cardDetails, index }) => (
-    <Link className={`${styles.articleCard} ${styles[`bg-${index}`]}`} href={cardDetails.link} passHref>
-        <div className={styles.logo}>                
+    <Link className={`${styles.articleCard} ${styles[`bg-${index}`]}`} href={cardDetails.link} rel="noopener noreferrer" target="_blank">
+        <div className={styles.logo}>
             <Image alt="logo" src={cardDetails.logo}/>
         </div>
-        <div className={styles.cardText}>            
+        <div className={styles.cardText}>
             <p>{cardDetails.text}</p>
         </div>
     </Link>
