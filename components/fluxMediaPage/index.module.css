@@ -108,7 +108,23 @@
   text-decoration: none;
   color: white;
   box-shadow: var(--boxShadow3);
-  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+  display: none;
+}
+
+.articleCard.active {
+  opacity: 1;
+  display: flex;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .cardImageContainer {

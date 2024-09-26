@@ -1,44 +1,33 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styles from "./index.module.css"
 import Image from "next/image";
 import Link from "next/link";
-
-const ArticleCard = ({ cardDetails }) => {
-    const [isVisible, setIsVisible] = useState(true);
-    const [currentCard, setCurrentCard] = useState(cardDetails);
-
-    useEffect(() => {
-        if (cardDetails !== currentCard) {
-            setIsVisible(false);
-            const timer = setTimeout(() => {
-                setCurrentCard(cardDetails);
-                setIsVisible(true);
-            }, 500);
-            return () => clearTimeout(timer);
-        }
-    }, [cardDetails, currentCard]);
-
+const ArticleCard = ({ cardDetails, activeIndex }) => {
     return (
-        <Link className={`${styles.articleCard} ${isVisible ? styles.fadeIn : styles.fadeOut}`} href={currentCard.link} rel="noopener noreferrer" target="_blank">
-            <div className={styles.cardImageContainer}>
-                <Image
-                    src={currentCard.backgroundImage}
-                    alt="Article background"
-                    className={styles.cardBackgroundImage}
-                    fill
-                    sizes="(max-width: 768px) 50vw, (max-width: 1200px) 60vw, 33vw"
-                />
-                <div className={styles.cardOverlay}>
-                    <div className={styles.logo}>
-                        <Image alt="logo" src={currentCard.logo} width={50} height={50} />
+        <>
+            {cardDetails.map((card, index) => (
+                <Link key={index} className={`${styles.articleCard} ${index === activeIndex ? styles.active : ''}`} href={card.link} rel="noopener noreferrer" target="_blank">
+                    <div className={styles.cardImageContainer}>
+                        <Image
+                            src={card.backgroundImage}
+                            alt="Article background"
+                            className={styles.cardBackgroundImage}
+                            fill
+                            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 60vw, 33vw"
+                        />
+                        <div className={styles.cardOverlay}>
+                            <div className={styles.logo}>
+                                <Image alt="logo" src={card.logo} width={50} height={50} />
+                            </div>
+                            <div className={styles.cardText}>
+                                <p>{card.text}</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className={styles.cardText}>
-                        <p>{currentCard.text}</p>
-                    </div>
-                </div>
-            </div>
-        </Link>
+                </Link>
+            ))}
+        </>
     );
 };
 
-export default ArticleCard;
+export { ArticleCard };
