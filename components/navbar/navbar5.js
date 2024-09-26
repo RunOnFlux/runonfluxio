@@ -315,12 +315,21 @@ export function NavBar5(){
                     </NavDropdown.Item>
                     <NavDropdown.Item>
                         <Link href={'/fluxLabs'} eventKey={16} className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
+                        <div style={{textDecoration: "none", color: "inherit"}}>
                         FluxLabs
                         <div className={styles.sublink}>An incubation and acceleration project for blockchain <br/> and technology-based start-ups.</div>
                         </div>
                         </Link>
                        
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                      <Link href={'/fluxMedia'} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
+                          Media
+                          <br/>
+                          <div className={styles.sublink}>Flux in the news.</div>
+                        </div>
+                      </Link>
                     </NavDropdown.Item>
                  </div>
                  </NavDropdown> 
@@ -777,11 +786,16 @@ export function NavBar5(){
                         <div className={styles.sublink}>An incubation and acceleration project <br/>for blockchain and technology-based <br/> start-ups.</div>
                         </div>
                         </Link>
-                       
                     </NavDropdown.Item>
-
-                  
-                   
+                    <NavDropdown.Item eventKey="new-flux-articles">
+                      <Link href={'/fluxMedia'}  className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                          Flux Media
+                          <br/>
+                          <div className={styles.sublink}>Flux in the news</div>
+                        </div>
+                      </Link>
+                    </NavDropdown.Item>
                  </NavDropdown>  
 
                  <NavDropdown title={
@@ -894,10 +908,8 @@ export function NavBar5(){
                         <div className={styles.sublink}>Get rewarded for finding bugs and exploits.</div>
                         </div>
                         </Link>
-                       
                     </NavDropdown.Item>
-                   
-                    
+     
                     </NavDropdown>
                     <NavDropdown title={
                       <span>Community<span className={`${styles.arrowBtn} d-lg-none d-xl-none`}><MdOutlineKeyboardArrowDown />

@@ -411,10 +411,6 @@
   color: #98A7B9;
 }
 
-/* .newsletterInput:focus {
-  border-color: #0b0d12;
-} */
-
 .subscribeButton {
   position: absolute;
   right: 0;
@@ -724,11 +720,6 @@
     font-size: 25px;
   }
 
-  .newsletterInput {
-    height: 60px;
-    font-size: 18px;
-  }
-
   .subscribeButton {
     font-size: 14px;
   }
@@ -989,7 +980,6 @@
     padding: 10px 120px 10px 20px; /* Extra padding to accommodate the button */
     height: 60px;
     font-size: 18px;
-    font-weight: 400;
     line-height: 23.82px;
   }
 
@@ -1179,14 +1169,6 @@
     margin-top: 20px;
   }
 
-  .newsletterInput {
-    padding: 10px 120px 10px 20px; /* Extra padding to accommodate the button */
-    height: 60px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 23.82px;
-  }
-
   .subscribeButton {
     margin: 7px;
     font-size: 14px;
@@ -1286,13 +1268,8 @@
   }
 
   .newsletterInput {
-    padding: 10px 120px 10px 20px; /* Extra padding to accommodate the button */
-
     height: 50px;
-
     font-size: 15px;
-    font-weight: 400;
-    line-height: 23.82px;
   }
 
   .subscribeButton {

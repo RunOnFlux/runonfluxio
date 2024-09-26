@@ -311,12 +311,20 @@ export function NavBar(){
                     </NavDropdown.Item>
                     <NavDropdown.Item>
                         <Link href={'/fluxLabs'} eventKey={16} className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
+                        <div style={{textDecoration: "none", color: "inherit"}}>
                         FluxLabs
                         <div className={styles.sublink}>An incubation and acceleration project for blockchain <br/> and technology-based start-ups.</div>
                         </div>
                         </Link>
-                       
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                      <Link href={'/fluxMedia'} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
+                          Flux Media
+                          <br/>
+                          <div className={styles.sublink}>Flux in the news.</div>
+                        </div>
+                      </Link>
                     </NavDropdown.Item>
                  </div>
                  </NavDropdown> 
@@ -765,12 +773,20 @@ export function NavBar(){
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="46">
                         <Link href={'/fluxLabs'}  className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
+                        <div style={{textDecoration: "none", color: "inherit"}}>
                         FluxLabs
                         <div className={styles.sublink}>An incubation and acceleration project <br/>for blockchain and technology-based <br/> start-ups.</div>
                         </div>
                         </Link>
-                       
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                      <Link href={'/fluxMedias'} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
+                          Flux Media
+                          <br/>
+                          <div className={styles.sublink}>Flux in the news.</div>
+                        </div>
+                      </Link>
                     </NavDropdown.Item>
 
                   

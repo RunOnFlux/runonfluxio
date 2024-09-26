@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styles from "./index.module.css"
 import Image from "next/image";
 import newsLogo from "../../public/images/article/news.svg"
@@ -58,7 +58,7 @@ const cardDetails = [
 
 const sliderImages = [0, 1, 2, 3, 4, 5];
 
-export function FluxArticlePage(){
+export function FluxMediaPage(){
     const [sliderIndex, setSliderIndex] = useState(0);
 
     const sliderChange = (offset) => {

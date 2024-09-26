@@ -1,10 +1,10 @@
 
 import Head from 'next/head'
 import Script from 'next/script'
-import { FluxArticlePage } from '../components/fluxArticlePage/fluxArticlePage.js'
+import { FluxMediaPage } from '../components/fluxMediaPage/fluxMediaPage.js'
 import { NavBar0 } from '../components/navbar/mainNav.js'
 
-export default function FluxArticle() {
+export default function FluxMedia() {
   return (
     <div>
       <Head>
@@ -23,7 +23,7 @@ export default function FluxArticle() {
           `}
       </Script>
       <NavBar0/>
-      <FluxArticlePage/> 
+      <FluxMediaPage/> 
     </div>
   )
 }
