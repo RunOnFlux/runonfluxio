@@ -1,0 +1,1332 @@
+.section1 {
+  margin-top: -90px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url('../../public/images/article/article-header.png');
+  background-color: var(--headerBackground);
+  background-blend-mode: overlay;
+  min-height: clamp(1080px, 1080px, 1200px);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.section1 .header {
+  background: linear-gradient(
+      270deg,
+      rgba(102, 102, 102, 0.85) 2.79%,
+      rgba(0, 0, 0, 0.85) 74.16%
+    ),
+    linear-gradient(
+      96.17deg,
+      rgba(102, 102, 102, 0) 3.16%,
+      rgba(0, 0, 0, 0.2) 97.25%
+    );
+  box-shadow: var(--boxShadow3);
+  height: auto;
+  padding: 40px;
+  border-radius: 25px 3px 25px 3px;
+  margin: 15px 20px 30px 20px;
+  min-width: clamp(200px, 695px, 35%);
+  max-width: 695px;
+}
+
+.section1 .header h3 {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #1b63ef;
+}
+
+.section1 .header p {
+  font-family: Montserrat;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+}
+
+.section1 .articles {
+  max-height: 500px;
+  background: transparent;
+  padding: 0px;
+  user-select: none;
+  height: auto;
+  border-radius: 5% 0% 5% 0%;
+  min-width: clamp(200px, 695px, 90%);
+  max-width: max(200px, 695px, 90%);
+}
+
+.section1 .articles h3 {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50.02px;
+  text-align: right;
+  color: #fff;
+}
+
+.section2 {
+  margin-top: 100px;
+}
+
+.section2 h3 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42.58px;
+  text-align: center;
+  color: var(--CardText);
+}
+
+.section2 h5 {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38.58px;
+  text-align: center;
+  color: #1b63ef;
+}
+
+.section2 h5 img {
+  height: 40px;
+  width: fit-content;
+}
+
+.articleCard {
+  position: relative;
+  width: 100%;
+  height: 329px;
+  overflow: hidden;
+  border-radius: 25px 3px 25px 3px;
+  text-decoration: none;
+  color: white;
+  box-shadow: var(--boxShadow3);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.cardImageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cardBackgroundImage {
+  z-index: 1;
+  object-fit: cover;
+}
+
+.cardOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.articleCard .logo {
+  align-self: flex-end;
+}
+
+.articleCard .logo img {
+  width: 100%;
+  height: 30px;
+}
+
+.cardText {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.cardText p {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
+.fadeOut {
+  opacity: 0;
+}
+
+.section3 {
+  margin-top: 100px;
+}
+
+.section4 {
+  margin-top: 100px;
+}
+.section5 {
+  margin-top: 100px;
+}
+
+.banner3 {
+  background: url('../../public/images/article/banner3.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: var(--boxShadow3);
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  border-radius: 30px 3px 30px 3px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+.section4 .text5 {
+  position: absolute;
+  bottom: 0;
+}
+
+.section4 .text5 h5 {
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: 600;
+  line-height: 41.98px;
+  text-align: left;
+  color: #fff;
+  padding: 30px;
+}
+.text6 h6 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: left;
+  color: var(--CardText);
+}
+
+.text6 p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26.82px;
+  text-align: left;
+  color: #919baf;
+}
+
+.text6 a {
+  border-radius: 20px 3px 20px 3px;
+  background: #1b63ef;
+  color: #fff !important;
+  display: block;
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  margin: auto;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 29.05px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--boxShadow3);
+}
+
+.section4 h4 {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--CardText);
+}
+
+.section4 h4 span {
+  color: #1b63ef;
+}
+
+.section6 {
+  margin-top: 100px;
+}
+
+.section5 {
+  background: url('../../public/images/article/banner4.png');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+.banner4 {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+.section5 p {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 36.57px;
+  text-align: left;
+  color: #ffffff;
+}
+.section5 h6 {
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 54.86px;
+  text-align: left;
+  color: #fff;
+}
+
+.section7 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.banner5 {
+  box-shadow: var(--boxShadow3);
+  height: 100%;
+  border-radius: 25px 3px 25px 3px;
+  background: linear-gradient(90deg, #0e121d 0%, #252d41 100%);
+  padding: 40px;
+}
+.banner5Text {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.banner5 h5 {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 36.57px;
+  text-align: left;
+  color: #fff;
+}
+
+.banner5 p {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23.16px;
+  text-align: left;
+  color: #919baf;
+}
+
+.banner5 h6 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27.26px;
+  text-align: left;
+  color: #fff;
+}
+
+.banner5 a {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27.26px;
+  text-align: left;
+  color: #1b63ef !important;
+}
+
+.banner5Bg {
+  height: 100%;
+  width: 100%;
+  background: url('../../public/images/article/banner5Bg.svg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px 3px 25px 3px;
+}
+
+.section7 {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+.form img {
+  width: 100%;
+  height: 70px;
+}
+.form h5 {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40.54px;
+  text-align: center;
+  margin-top: 20px;
+  color: var(--newsLetterIcon);
+}
+
+.newsletterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.newsletterForm {
+  width: 100%;
+  max-width: 550px;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.newsletterInput {
+  width: 100%;
+  padding: 10px 120px 10px 20px;
+  font-size: 16px;
+  border-width: 0px;
+  border-radius: 50px;
+  height: 65px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.82px;
+  text-align: left;
+  box-shadow: var(--boxShadowSubscribe);
+  background-color: var(--newsLetter);
+  color: #98A7B9;
+}
+
+.subscribeButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0 20px;
+  background-color: #10111F;
+  color: #98A7B9;
+  border: none;
+  border-radius: 50px 50px 50px 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.94px;
+  text-align: center;
+  box-shadow: var(--boxShadowSubscribe);
+}
+
+.subscribeButton:hover {
+  background-color: #0b0d12;
+}
+
+.subscribeButton:active {
+  background-color: #0b0d12;
+}
+
+.envelope {
+  width: 100%;
+  font-weight: bold;
+  height: 80px;
+  color: var(--newsLetterIcon);
+}
+.banner7 img {
+  height: 100%;
+  /* width: 100%; */
+  margin-bottom: 50px;
+  width: 327px;
+  border-radius: 25px 3px 25px 3px;
+  box-shadow: var(--boxShadow3);
+}
+
+@media (max-width: 1446px) {
+  .section1 .header {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section1 .articles h3 {
+    font-size: 40px;
+  }
+
+  .section1 .header h3 {
+    font-size: 40px;
+    line-height: 40.02px;
+  }
+
+  .section1 .header p {
+    font-size: 22px;
+    line-height: 24.57px;
+  }
+
+  .section4 .text5 h5 {
+    font-size: 27px;
+    line-height: 35.98px;
+  }
+
+  .text6 h6 {
+    font-size: 15px;
+  }
+
+  .text6 p {
+    font-size: 18px;
+  }
+
+  .text6 a {
+    font-size: 14px;
+  }
+
+  .section4 h4 {
+    font-size: 40px;
+  }
+
+  .section5 p {
+    font-size: 23px;
+  }
+
+  .section5 h6 {
+    font-size: 33px;
+  }
+
+  .banner5 h5 {
+    font-size: 22px;
+  }
+
+  .banner5 p {
+    font-size: 15px;
+  }
+
+  .banner5 h6 {
+    font-size: 17px;
+  }
+
+  .banner5 a {
+    font-size: 17px;
+  }
+
+  .banner7 img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section1 .articles h3 {
+    font-size: 34px;
+  }
+
+  .section1 .header h3 {
+    font-size: 34px;
+    line-height: 44.02px;
+  }
+
+  .section1 .header p {
+    font-size: 20px;
+    line-height: 28.57px;
+  }
+
+  .articleCard .logo img {
+    height: 25px;
+  }
+
+  .cardText p {
+    font-size: 20px;
+  }
+
+  .section2 h3 {
+    font-size: 26px;
+  }
+
+  .section2 h5 {
+    font-size: 24px;
+  }
+
+  .section2 h5 img {
+    height: 30px;
+  }
+
+  .section4 .text5 h5 {
+    font-size: 24px;
+    line-height: 33.98px;
+    padding: 20px;
+  }
+
+  .text6 h6 {
+    font-size: 15px;
+  }
+
+  .text6 p {
+    font-size: 15px;
+  }
+
+  .text6 a {
+    font-size: 14px;
+  }
+
+  .section4 h4 {
+    font-size: 35px;
+  }
+
+  .section5 p {
+    font-size: 20px;
+  }
+
+  .section5 h6 {
+    font-size: 30px;
+  }
+
+  .banner5 h5 {
+    font-size: 22px;
+  }
+
+  .banner5 p {
+    font-size: 15px;
+  }
+
+  .banner5 h6 {
+    font-size: 17px;
+  }
+
+  .banner5 a {
+    font-size: 17px;
+  }
+
+  .form img {
+    height: 60px;
+  }
+
+  .form h5 {
+    font-size: 25px;
+  }
+
+  .newsletterInput {
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .subscribeButton {
+    font-size: 14px;
+  }
+
+  .banner7 img {
+    width: 220px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section1 .header h3 {
+    font-size: 29px;
+    line-height: 39.02px;
+  }
+
+  .section1 .header p {
+    font-size: 18px;
+    line-height: 25.57px;
+  }
+
+  .articleCard .logo img {
+    height: 20px;
+  }
+
+  .cardText p {
+    font-size: 18px;
+  }
+
+  .section2 h3 {
+    font-size: 24px;
+  }
+
+  .section2 h5 {
+    font-size: 22px;
+  }
+
+  .section2 h5 img {
+    height: 25px;
+  }
+
+  .section4 .text5 h5 {
+    font-size: 24px;
+    line-height: 33.98px;
+    padding: 20px;
+  }
+
+  .text6 h6 {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+
+  .text6 p {
+    font-size: 15px;
+  }
+
+  .text6 a {
+    font-size: 14px;
+  }
+
+  .section4 h4 {
+    font-size: 30px;
+  }
+
+  .section5 p {
+    font-size: 20px;
+  }
+
+  .section5 h6 {
+    font-size: 30px;
+  }
+
+  .banner5 h5 {
+    font-size: 20px;
+  }
+
+  .banner5 p {
+    font-size: 14px;
+  }
+
+  .banner5 h6 {
+    font-size: 16px;
+  }
+
+  .banner5 a {
+    font-size: 16px;
+  }
+
+  .banner5Bg {
+    height: 250px;
+    margin-top: 20px;
+  }
+
+  .form img {
+    height: 60px;
+  }
+
+  .form h5 {
+    font-size: 25px;
+  }
+
+  .subscribeButton {
+    font-size: 14px;
+  }
+
+  .banner7 img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section1 .header {
+    padding: 30px;
+  }
+
+  .section1 .header h3 {
+    font-size: 29px;
+    line-height: 39.02px;
+  }
+
+  .section1 .header p {
+    font-size: 16px;
+    line-height: 25.57px;
+  }
+
+  .cardOverlay {
+    padding: 10px 10px;
+  }
+
+  .banner3 {
+    height: 250px;
+  }
+
+  .text6 h6 {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+
+  .text6 p {
+    font-size: 14px;
+  }
+
+  .text6 a {
+    font-size: 13px;
+  }
+
+  .section5 p {
+    font-size: 18px;
+  }
+
+  .section5 h6 {
+    font-size: 28px;
+  }
+
+  .form img {
+    height: 50px;
+  }
+
+  .form h5 {
+    font-size: 20px;
+  }
+
+  .newsletterInput {
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .subscribeButton {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 360px) {
+  .section1 .header {
+    padding: 20px;
+  }
+
+  .section1 .header h3 {
+    font-size: 25px;
+    line-height: 35.02px;
+  }
+
+  .section1 .header p {
+    font-size: 15px;
+    line-height: 25.57px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section1 .header h3 {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 44.02px;
+    text-align: right;
+  }
+
+  .section1 .header p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.57px;
+  }
+
+  .articleCard .logo img {
+    width: 100%;
+    height: 25px;
+  }
+
+  .cardText p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .section2 h3 {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 35.58px;
+    text-align: center;
+    color: var(--CardText);
+  }
+
+  .section2 h5 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.58px;
+    text-align: center;
+  }
+
+  .section2 h5 img {
+    height: 30px;
+    width: fit-content;
+  }
+
+  .section4 .text5 h5 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.98px;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .text6 h6 {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+  }
+
+  .text6 p {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23.82px;
+    text-align: left;
+  }
+
+  .text6 a {
+    border-radius: 20px 3px 20px 3px;
+    display: block;
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29.05px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section4 h4 {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 75.58px;
+    text-align: center;
+  }
+
+  .section5 p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.57px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .section5 h6 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 44.86px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .banner5 h5 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36.57px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .banner5 p {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    color: #919baf;
+  }
+
+  .banner5 h6 {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25.26px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .banner5 a {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25.26px;
+    text-align: left;
+    color: #1b63ef !important;
+  }
+
+  .form img {
+    width: 100%;
+    height: 60px;
+  }
+
+  .form h5 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35.54px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .newsletterInput {
+    padding: 10px 120px 10px 20px; /* Extra padding to accommodate the button */
+    height: 60px;
+    font-size: 18px;
+    line-height: 23.82px;
+  }
+
+  .subscribeButton {
+    margin: 7px;
+    font-size: 14px;
+  }
+
+  .banner7 img {
+    width: 220px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section1 .header h3 {
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 39.02px;
+    text-align: right;
+  }
+
+  .section1 .header p {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25.57px;
+  }
+
+  .articleCard .logo img {
+    width: 100%;
+    height: 20px;
+  }
+
+  .cardText p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .section2 h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34.58px;
+    text-align: center;
+    color: var(--CardText);
+  }
+
+  .section2 h5 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25.58px;
+    text-align: center;
+  }
+
+  .section2 h5 img {
+    height: 25px;
+    width: fit-content;
+  }
+
+  .section4 .text5 h5 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.98px;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .text6 h6 {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  .text6 p {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23.82px;
+    text-align: left;
+  }
+
+  .text6 a {
+    border-radius: 20px 3px 20px 3px;
+    display: block;
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29.05px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section4 h4 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 75.58px;
+    text-align: center;
+  }
+
+  .section5 p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.57px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .section5 h6 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 44.86px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .banner5 h5 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36.57px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .banner5 p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    color: #919baf;
+  }
+
+  .banner5 h6 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.26px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .banner5 a {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.26px;
+    text-align: left;
+    color: #1b63ef !important;
+  }
+
+  .banner5Bg {
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .form img {
+    width: 100%;
+    height: 60px;
+  }
+
+  .form h5 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35.54px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .subscribeButton {
+    margin: 7px;
+    font-size: 14px;
+  }
+
+  .banner7 img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section1 .header {
+    height: auto;
+    padding: 30px;
+  }
+
+  .section1 .header h3 {
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 39.02px;
+    text-align: right;
+  }
+
+  .section1 .header p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.57px;
+  }
+
+  .banner3 {
+    height: 250px;
+  }
+
+  .text6 h6 {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+
+    margin-top: 40px;
+  }
+
+  .text6 p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.82px;
+    text-align: left;
+  }
+
+  .text6 a {
+    border-radius: 20px 3px 20px 3px;
+    display: block;
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 29.05px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section5 p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.57px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .section5 h6 {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 44.86px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .form img {
+    width: 100%;
+    height: 50px;
+  }
+  .form h5 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30.54px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .newsletterInput {
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .subscribeButton {
+    margin: 5px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 920px) and (orientation: landscape) {
+}
+
+@media (max-width: 360px) {
+  .section1 .header {
+    height: auto;
+    padding: 20px;
+  }
+  .section1 .header h3 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35.02px;
+    text-align: right;
+  }
+
+  .section1 .header p {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25.57px;
+  }
+
+  .cardText p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.sliderArrow {
+  align-self: center;
+  color: white;
+  cursor: pointer;
+}
+
+.sliderArrow:hover {
+  color: #1b63ef;
+}
+
+.sliderItem {
+  height: 9px;
+  width: 9px;
+  border-radius: 9999px;
+}
+
+.sliderItemOn {
+  background-color: #1b63ef;
+}
+
+.sliderItemOff {
+  background-color: #ffffff;
+}

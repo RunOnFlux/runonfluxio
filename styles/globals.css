@@ -33,7 +33,8 @@ body {
   --CardText: #303B52;
   --boxShadow: 4px 4px 24px 0px #2B61D121, 0px 0px 3px 0px #2B61D114;
   --boxShadow2: 7.74807px 7.74807px 18.7404px 4.87404px rgba(0, 0, 0, 0.25);
-  --box-shadow3: 10px 15px 10px 0px #000000BF;
+  --boxShadow3: 10px 15px 10px 0px #000000BF;
+  --boxShadowSubscribe: 0px 0px 2px 2px #000000BF;
   --CardText2: #98A7B9;
   --CardText3: #303B52;
   --headerBackground: none;
@@ -45,18 +46,19 @@ body {
   --Card3: rgba(255, 255, 255, 0.5);
   --Card3B: #52D46F;
   --Card4: linear-gradient(90deg, #111827 33.25%, #303B52 100%);
- --CardBg: #fff;
- --darkText3: #fff;
- --darkText4: rgba(49, 52, 87, 0.8);
- --btnBg: #fff;
- --btnColor: #4c80ee;
- --techStack:  url('/images/images/tech-stack.svg');
- --solutions: url('/images/images/solutions.svg');
---fluxCircle: url('/images/flux/Flux-Circle-Thing.svg');
---multiRing: url('/images/flux/multichainRing.svg');
---ecoImg: url('/images/flux/ecosystem.svg');
---fluxcloud: url('/images/fluxcloud.svg')
---newsLetter: #0B0D12;
+  --CardBg: #fff;
+  --darkText3: #fff;
+  --darkText4: rgba(49, 52, 87, 0.8);
+  --btnBg: #fff;
+  --btnColor: #4c80ee;
+  --techStack:  url('/images/images/tech-stack.svg');
+  --solutions: url('/images/images/solutions.svg');
+  --fluxCircle: url('/images/flux/Flux-Circle-Thing.svg');
+  --multiRing: url('/images/flux/multichainRing.svg');
+  --ecoImg: url('/images/flux/ecosystem.svg');
+  --fluxcloud: url('/images/fluxcloud.svg')
+  --newsLetter: #FFFFFF;
+  --newsLetterIcon: #0B0D12
 }
 
 [data-theme='dark'] {
@@ -73,31 +75,31 @@ body {
   --CardText: #fff;
   --boxShadow: 4px 4px 24px 0px #191c4d, 0px 0px 3px 0px #191c4d;
   --boxShadow2: 7.74807px 7.74807px 7.7404px 4.87404px rgba(0, 0, 0, 0.25);
-  /* --boxShadow: 7.74807px 7.74807px 28.7404px 4.87404px #191c4d; */
-  --box-shadow3: -10px 15px 10px 0px #1B63EF80;
-
+  --boxShadow3: 8px 10px 10px 0px #1B63EF80;
+  --boxShadowSubscribe: 0px 0px 2px 2px #1B63EF80;
   --CardText2: #ECECEC;
   --CardText3: #C0C0C0;
   --headerBackground: rgb(10, 11, 26, 0.5);
   --CardText4: #98A7B9;
   --linearBg:  url('/images/Background\ Cost\ Calculator2.svg');
-   --sliderBg : #0A0B1A;
-   --sliderBg2 : #0A0B1A;
-   --CardText5 :#fff;
-   --Card3: #141529;
-   --Card3B: #141529;
-   --Card4: linear-gradient(90deg, #000000, 20%, #141529, #0A0B1E 100%);
-   --CardBg: linear-gradient(90deg, #000000, 20%, #141529, #0A0B1E 100%);
-   --darkText4: #98a7b9;
-   --btnBg: #4c80ee;
-   --btnColor: #fff;
-   --techStack:  url('/images/images/tech-stack-dark.svg');
-   --solutions: url('/images/images/solutions-dark.svg');
-   --fluxCircle: url('/images/images/Flux-Circle-Thing-dark.svg');
-   --multiRing: url('/images/images/multiring.svg');
-   --ecoImg: url('/images/flux/ecosystem-dark.svg');
-   --fluxcloud: url('/images/fluxcloud-dark.svg');
-   --newsLetter:#fff;
+  --sliderBg : #0A0B1A;
+  --sliderBg2 : #0A0B1A;
+  --CardText5 :#fff;
+  --Card3: #141529;
+  --Card3B: #141529;
+  --Card4: linear-gradient(90deg, #000000, 20%, #141529, #0A0B1E 100%);
+  --CardBg: linear-gradient(90deg, #000000, 20%, #141529, #0A0B1E 100%);
+  --darkText4: #98a7b9;
+  --btnBg: #4c80ee;
+  --btnColor: #fff;
+  --techStack:  url('/images/images/tech-stack-dark.svg');
+  --solutions: url('/images/images/solutions-dark.svg');
+  --fluxCircle: url('/images/images/Flux-Circle-Thing-dark.svg');
+  --multiRing: url('/images/images/multiring.svg');
+  --ecoImg: url('/images/flux/ecosystem-dark.svg');
+  --fluxcloud: url('/images/fluxcloud-dark.svg');
+  --newsLetter: #0B0D12;
+  --newsLetterIcon: #FFFFFF;
 }
 
 
@@ -471,14 +473,10 @@ width: 100% !important;
     padding-bottom: 30px !important;
   }
 
-  .navbar .nav-item .dropdown-menu{ display: none; width: fit-content !important;}
-.navbar .nav-item:hover .nav-link{   }
+.navbar .nav-item .dropdown-menu{ display: none; width: fit-content !important;}
 .navbar .nav-item:hover .dropdown-menu{ display: block;}
 .navbar .nav-item .dropdown-menu{ margin-top:0; }
 
-.progress{
-  /* width: 500px !important; */
-}
 
 .container, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
   --bs-gutter-x: 1.5rem;
@@ -489,9 +487,7 @@ width: 100% !important;
   margin-right: auto;
   margin-left: auto;
 }
-.dropdown-menu{
-  /* width: 100%; */
-}
+
 .newTab1 .nav-tabs {
 
   justify-content: left !important;

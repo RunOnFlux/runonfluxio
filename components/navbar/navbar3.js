@@ -99,7 +99,7 @@ export function NavBar3(){
                      <div className={styles.dropMenu}>
                     <NavDropdown.Item>
                      <Link href={'/fluxEdge'} className={styles.link}  eventKey={1} > 
-                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                      <div style={{textDecoration: "none", color: "inherit"}} >
                     FluxEdge<br/>
                     <div className={styles.sublink}>FluxEdge presents the next generation of mining<br></br> and AI</div>
                       </div>
@@ -108,7 +108,7 @@ export function NavBar3(){
                     </NavDropdown.Item>
                     <NavDropdown.Item>
                      <Link href={'/fluxAI'} className={styles.link}  eventKey={1} > 
-                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                      <div style={{textDecoration: "none", color: "inherit"}} >
                     FluxAI<br/>
                     <div className={styles.sublink}>Next Generation Decentralized AI, Powered by FluxEdge
                     </div>
@@ -118,12 +118,22 @@ export function NavBar3(){
                     </NavDropdown.Item>
                     <NavDropdown.Item>
                      <Link href={'/fluxCloud'} className={styles.link}  eventKey={1} > 
-                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                      <div style={{textDecoration: "none", color: "inherit"}} >
                     FluxCloud<br/>
                     <div className={styles.sublink}>FluxCloud presents the next generation of cloud <br/>infrastructure.</div>
                       </div>
                     
                       </Link> 
+                    </NavDropdown.Item>
+
+                    <NavDropdown.Item>
+                      <Link href={'/marketplace'} eventKey={18} className={styles.link} >
+                      <div style={{textDecoration: "none", color: "inherit"}}>
+                      Flux Marketplace
+                      <br/>
+                      <div className={styles.sublink}>Flux Marketplace is your ultimate <br/> launchpad for decentralized applications.</div>
+                      </div>
+                      </Link>
                     </NavDropdown.Item>
 
                     <NavDropdown.Item >
@@ -315,12 +325,21 @@ export function NavBar3(){
                     </NavDropdown.Item>
                     <NavDropdown.Item>
                         <Link href={'/fluxLabs'} eventKey={16} className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
+                        <div style={{textDecoration: "none", color: "inherit"}}>
                         FluxLabs
                         <div className={styles.sublink}>An incubation and acceleration project for blockchain <br/> and technology-based start-ups.</div>
                         </div>
                         </Link>
                        
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                      <Link href={'/fluxMedia'} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
+                          Flux Media
+                          <br/>
+                          <div className={styles.sublink}>Flux in the news.</div>
+                        </div>
+                      </Link>
                     </NavDropdown.Item>
                  </div>
                  </NavDropdown> 
@@ -354,17 +373,7 @@ export function NavBar3(){
                         </Link>
                        
                     </NavDropdown.Item>
-                   
-                    <NavDropdown.Item>
-                        <Link href={'/marketplace'} eventKey={18} className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                        Flux Marketplace
-                        <br/>
-                        <div className={styles.sublink}>Flux Marketplace is your ultimate <br/> launchpad for decentralized applications.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
+
                     <NavDropdown.Item>
                         <Link href={'/guides'} eventKey={18} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
@@ -560,7 +569,7 @@ export function NavBar3(){
                   >
                      <NavDropdown.Item eventKey="30" >
                       <Link href={'/fluxEdge'} className={styles.link} > 
-                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                      <div style={{textDecoration: "none", color: "inherit"}} >
                     FluxEdge<br/>
                     <div className={styles.sublink}>FluxEdge presents the next generation of mining<br></br> and AI</div>
                       </div>
@@ -569,7 +578,7 @@ export function NavBar3(){
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="31" >
                       <Link href={'/fluxAI'} className={styles.link} > 
-                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                      <div style={{textDecoration: "none", color: "inherit"}} >
                     FluxAI<br/>
                     <div className={styles.sublink}>Next Generation Decentralized AI, Powered by FluxEdge</div>
                       </div>
@@ -578,12 +587,22 @@ export function NavBar3(){
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="31" >
                       <Link href={'/fluxCloud'} className={styles.link} > 
-                      <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
+                      <div style={{textDecoration: "none", color: "inherit"}} >
                     FluxCloud<br/>
                     <div className={styles.sublink}>FluxCloud presents the next generation of <br/>cloud infrastructure.</div>
                       </div>
                     
                       </Link> 
+                    </NavDropdown.Item>
+
+                    <NavDropdown.Item eventKey="48">
+                      <Link href={'/marketplace'}  className={styles.link} >
+                      <div style={{textDecoration: "none", color: "inherit"}}>
+                      Flux Marketplace
+                      <br/>
+                      <div className={styles.sublink}>Flux Marketplace is your ultimate <br/> launchpad for decentralized applications.</div>
+                      </div>
+                      </Link>
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="32">
@@ -772,12 +791,20 @@ export function NavBar3(){
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="46">
                         <Link href={'/fluxLabs'}  className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
+                        <div style={{textDecoration: "none", color: "inherit"}}>
                         FluxLabs
                         <div className={styles.sublink}>An incubation and acceleration project <br/>for blockchain and technology-based <br/> start-ups.</div>
                         </div>
                         </Link>
-                       
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                      <Link href={'/fluxMedia'} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
+                          Flux Media
+                          <br/>
+                          <div className={styles.sublink}>Flux in the news.</div>
+                        </div>
+                      </Link>
                     </NavDropdown.Item>
 
                   
@@ -810,17 +837,7 @@ export function NavBar3(){
                         </Link>
                        
                     </NavDropdown.Item>
-                   
-                    <NavDropdown.Item eventKey="48">
-                        <Link href={'/marketplace'}  className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                        Flux Marketplace
-                        <br/>
-                        <div className={styles.sublink}>Flux Marketplace is your ultimate <br/> launchpad for decentralized applications.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
+
                     <NavDropdown.Item eventKey="5151">
                         <Link href={'/guides'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
