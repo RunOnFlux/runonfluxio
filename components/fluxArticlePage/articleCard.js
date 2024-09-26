@@ -26,7 +26,7 @@ const ArticleCard = ({ cardDetails }) => {
                     alt="Article background"
                     className={styles.cardBackgroundImage}
                     fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    sizes="(max-width: 768px) 50vw, (max-width: 1200px) 60vw, 33vw"
                 />
                 <div className={styles.cardOverlay}>
                     <div className={styles.logo}>

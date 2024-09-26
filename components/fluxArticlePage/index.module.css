@@ -53,10 +53,10 @@
 }
 
 .section1 .articles {
-  max-height: "500px";
-  background: "transparent";
-  padding: "0px";
-  user-select: "none";
+  max-height: 500px;
+  background: transparent;
+  padding: 0px;
+  user-select: none;
   height: auto;
   border-radius: 5% 0% 5% 0%;
   min-width: clamp(200px, 695px, 90%);
@@ -652,10 +652,6 @@
     font-size: 18px;
   }
 
-  .articleCard {
-    height: 250px;
-  }
-
   .section2 h3 {
     font-size: 24px;
   }
@@ -757,6 +753,10 @@
     line-height: 25.57px;
   }
 
+  .cardOverlay {
+    padding: 10px 10px;
+  }
+
   .banner3 {
     height: 250px;
   }
@@ -841,7 +841,7 @@
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 600;
-    line-height: 18.29px;
+    line-height: 24px;
     text-align: center;
     margin-bottom: 30px;
   }
@@ -1026,16 +1026,11 @@
 
   .cardText p {
     font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18.29px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
     text-align: center;
-
     margin-bottom: 30px;
-  }
-
-  .articleCard {
-    height: 250px;
   }
 
   .section2 h3 {
@@ -1328,9 +1323,11 @@
     font-weight: 500;
     line-height: 25.57px;
   }
-}
 
-@media (max-width: 320px) {
+  .cardText p {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 .sliderArrow {
