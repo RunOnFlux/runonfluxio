@@ -2,10 +2,11 @@ import React from "react";
 import styles from "./index.module.css"
 import Image from "next/image";
 import Link from "next/link";
+
 const ArticleCard = ({ cardDetails, activeIndex }) => {
     return (
         <>
-            {cardDetails.map((card, index) => (
+            {cardDetails?.map((card, index) => (
                 <Link key={index} className={`${styles.articleCard} ${index === activeIndex ? styles.active : ''}`} href={card.link} rel="noopener noreferrer" target="_blank">
                     <div className={styles.cardImageContainer}>
                         <Image

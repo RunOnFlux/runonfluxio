@@ -3,8 +3,9 @@ import Head from 'next/head'
 import Script from 'next/script'
 import { FluxMediaPage } from '../components/fluxMediaPage/fluxMediaPage.js'
 import { NavBar0 } from '../components/navbar/mainNav.js'
+import client from '../utils/getContentfulData.js'
 
-export default function FluxMedia() {
+export default function FluxMedia({contentfulData}) {
   return (
     <div>
       <Head>
@@ -23,7 +24,35 @@ export default function FluxMedia() {
           `}
       </Script>
       <NavBar0/>
-      <FluxMediaPage/> 
+      <FluxMediaPage contentfulData={contentfulData}/> 
     </div>
   )
+}
+
+export async function getStaticProps() {
+  let contentfulData = [];
+
+  const data = await client.getEntries({
+    content_type: 'bannerNewsArticle',
+    limit: 6,
+    order: 'sys.createdAt',
+    select: ['fields.description', 'fields.articleImage', 'fields.articleLogo', 'fields.link']
+  });
+
+  data?.items.forEach(item => {
+    const newsArticles = {
+      text: item.fields.description,
+      backgroundImage: `https:${item.fields.articleImage.fields.file.url}`,
+      logo: `https:${item.fields.articleLogo.fields.file.url}`,
+      link: item.fields.link ?? "#"
+    }
+    contentfulData.push(newsArticles);
+  });
+
+  return {
+    props: {
+      contentfulData
+    },
+    revalidate: 60
+  }
 }

@@ -9,7 +9,7 @@ module.exports = nextConfig
 module.exports = {
   output: 'standalone',
   images: {
-    domains: ['cdn-images-1.medium.com', 'medium.com', 'academy-public.coinmarketcap.com', 'miro.medium.com'],
+    domains: ['cdn-images-1.medium.com', 'medium.com', 'academy-public.coinmarketcap.com', 'miro.medium.com', 'images.ctfassets.net'],
     formats: ['image/webp'],
   },
   async redirects() {

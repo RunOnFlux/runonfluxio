@@ -15,6 +15,7 @@
     "axios": "^1.7.2",
     "bootstrap": "^5.2.3",
     "classnames": "^2.3.2",
+    "contentful": "^11.0.3",
     "dompurify": "^3.1.6",
     "eslint-config-next": "13.0.2",
     "next": "13.5.6",
