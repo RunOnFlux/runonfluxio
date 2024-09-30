@@ -32,22 +32,24 @@ export default function FluxMedia({contentfulData}) {
 export async function getStaticProps() {
   let contentfulData = [];
 
-  const data = await client.getEntries({
-    content_type: 'bannerNewsArticle',
-    limit: 6,
-    order: 'sys.createdAt',
-    select: ['fields.description', 'fields.articleImage', 'fields.articleLogo', 'fields.link']
-  });
+  if (client) {
+    const data = await client.getEntries({
+      content_type: 'bannerNewsArticle',
+      limit: 6,
+      order: 'sys.createdAt',
+      select: ['fields.description', 'fields.articleImage', 'fields.articleLogo', 'fields.link']
+    });
 
-  data?.items.forEach(item => {
-    const newsArticles = {
-      text: item.fields.description,
-      backgroundImage: `https:${item.fields.articleImage.fields.file.url}`,
-      logo: `https:${item.fields.articleLogo.fields.file.url}`,
-      link: item.fields.link ?? "#"
-    }
-    contentfulData.push(newsArticles);
-  });
+    data?.items.forEach(item => {
+      const newsArticles = {
+        text: item.fields.description,
+        backgroundImage: `https:${item.fields.articleImage.fields.file.url}`,
+        logo: `https:${item.fields.articleLogo.fields.file.url}`,
+        link: item.fields.link ?? "#"
+      }
+      contentfulData.push(newsArticles);
+    });
+  }
 
   return {
     props: {
