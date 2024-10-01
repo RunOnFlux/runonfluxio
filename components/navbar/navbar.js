@@ -790,7 +790,7 @@ export function NavBar(){
                         </Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                      <Link href={'/fluxMedias'} className={styles.link} >
+                      <Link href={'/fluxMedia'} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit", marginBottom: "10px"}}>
                           Flux Media
                           <br/>
