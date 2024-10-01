@@ -6,7 +6,7 @@ import top100 from "../../public/images/article/top100.png"
 import stratusAward from "../../public/images/article/stratusAward.png"
 
 import { Carousel } from "./carousel";
-import { ArticleCard } from "./articleCard";
+import { ArticleCards } from "./articleCard";
 import { FaEnvelopeOpenText } from "react-icons/fa";
 import { IoChevronBackCircleOutline, IoChevronForwardCircleOutline } from 'react-icons/io5'
 import { IoIosMail } from "react-icons/io";
@@ -33,12 +33,12 @@ export function FluxMediaPage({ contentfulData }){
                     <h3 style={{ textAlign: "center", marginBottom: "20px" }}>Featured Articles</h3>
                     <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-evenly", gap: "35px" }}>
                         <IoChevronBackCircleOutline className={styles.sliderArrow}  size={60} onClick={() => sliderChange(-1)} />
-                        <ArticleCard cardDetails={contentfulData} activeIndex={sliderIndex} />
+                        <ArticleCards cardDetails={contentfulData} activeIndex={sliderIndex} />
                         <IoChevronForwardCircleOutline className={styles.sliderArrow}  size={60} onClick={() => sliderChange(1)} />
                     </div>
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "20px", paddingTop: "50px" }} >
                         {contentfulData.map((_item, index) => (
-                        <div key={`slider-${index}`} className={`${index === sliderIndex ? `${styles.sliderItem} ${styles.sliderItemOn}` : `${styles.sliderItem} ${styles.sliderItemOff}`}`} />
+                            <div key={`slider-${index}`} className={`${index === sliderIndex ? `${styles.sliderItem} ${styles.sliderItemOn}` : `${styles.sliderItem} ${styles.sliderItemOff}`}`} />
                         ))}
                     </div> 
                 </div>
