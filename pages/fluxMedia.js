@@ -1,6 +1,5 @@
 
 import Head from 'next/head'
-import Script from 'next/script'
 import { FluxMediaPage } from '../components/fluxMediaPage/fluxMediaPage.js'
 import { NavBar0 } from '../components/navbar/mainNav.js'
 
