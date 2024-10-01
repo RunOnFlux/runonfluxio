@@ -56,9 +56,9 @@ body {
   --fluxCircle: url('/images/flux/Flux-Circle-Thing.svg');
   --multiRing: url('/images/flux/multichainRing.svg');
   --ecoImg: url('/images/flux/ecosystem.svg');
-  --fluxcloud: url('/images/fluxcloud.svg')
+  --fluxcloud: url('/images/fluxcloud.svg');
   --newsLetter: #FFFFFF;
-  --newsLetterIcon: #0B0D12
+  --newsLetterIcon: #0B0D12;
 }
 
 [data-theme='dark'] {
@@ -109,7 +109,7 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #4c80ee !important ; 
+  background-color: #4c80ee !important; 
 }
 
 
