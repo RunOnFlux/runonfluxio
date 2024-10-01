@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./index.module.css"
+import CookieToggle from "../CookieToggle/CookieToggle"
 
 export function PrivacyPage(){
     return(
@@ -50,13 +51,14 @@ export function PrivacyPage(){
                      </div>
                      <div className="row mb-4">
                          <div className="col-12">
-                         <h4 className="mt-3 mb-2">Personal Data</h4>
-                             <p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service. Examples of Cookies we use: Session Cookies. We use Session Cookies to operate our Service.</p>
-                             <ul>
+                            <h4 className="mt-3 mb-2">Personal Data</h4>
+                            <p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service. Examples of Cookies we use: Session Cookies. We use Session Cookies to operate our Service.</p>
+                            <ul>
                                 <li>Cookies. We use Preference Cookies to remember your preferences and various settings.</li>
                                 <li>Security Cookies. We use Security Cookies for security purposes.</li>
-                             </ul>
+                            </ul>
                          </div>
+                         <CookieToggle />
                      </div>
 
                      <div className="row mb-4">
