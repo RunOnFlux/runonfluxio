@@ -3,7 +3,7 @@ import styles from "./index.module.css"
 import Image from "next/image";
 import Link from "next/link";
 
-const Article = ({ article }) => {
+const Article = ({ article, filter = false }) => {
     return (
         <div className={styles.cardImageContainer}>
             <Image
@@ -12,6 +12,7 @@ const Article = ({ article }) => {
                 className={styles.cardBackgroundImage}
                 fill
                 sizes="(max-width: 768px) 50vw, (max-width: 1200px) 60vw, 33vw"
+                style={{ filter: filter ? "brightness(0.5)" : "brightness(1)"}}
             />
             <div className={styles.cardOverlay}>
                 <div className={styles.logo}>

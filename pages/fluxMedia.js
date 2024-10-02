@@ -4,7 +4,7 @@ import { FluxMediaPage } from '../components/fluxMediaPage/fluxMediaPage.js'
 import { NavBar0 } from '../components/navbar/mainNav.js'
 import client from '../utils/contentfulClient.js'
 
-export default function FluxMedia({contentfulData}) {
+export default function FluxMedia({contentfulData, lowerArticles}) {
   return (
     <div>
       <Head>
@@ -13,13 +13,14 @@ export default function FluxMedia({contentfulData}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar0/>
-      <FluxMediaPage contentfulData={contentfulData}/> 
+      <FluxMediaPage contentfulData={contentfulData} lowerArticles={lowerArticles}/> 
     </div>
   )
 }
 
 export async function getStaticProps() {
   let contentfulData = [];
+  let lowerArticles = [];
 
   if (client) {
     const data = await client.getEntries({
@@ -38,12 +39,30 @@ export async function getStaticProps() {
       }
       contentfulData.push(newsArticles);
     });
+
+    const lowerData = await client.getEntries({
+      content_type: 'mediaPageArticleLower',
+      limit: 15,
+      order: 'sys.createdAt',
+      select: ['fields.description', 'fields.articleImage', 'fields.articleLogo', 'fields.link']
+    });
+
+    lowerData?.items.forEach(item => {
+      const lowerArticle = {
+        text: item.fields.description,
+        backgroundImage: `https:${item.fields.articleImage.fields.file.url}`,
+        logo: `https:${item.fields.articleLogo.fields.file.url}`,
+        link: item.fields.link ?? "#"
+      }
+      lowerArticles.push(lowerArticle);
+    })
   }
 
   return {
     props: {
-      contentfulData
+      contentfulData,
+      lowerArticles
     },
-    revalidate: 60
+    revalidate: 1800
   }
 }

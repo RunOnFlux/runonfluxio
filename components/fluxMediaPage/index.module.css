@@ -138,6 +138,10 @@
   object-fit: cover;
 }
 
+.cardDarkFilter {
+  filter: brightness(0.5);
+}
+
 .cardOverlay {
   position: absolute;
   top: 0;
@@ -1337,6 +1341,7 @@
   height: 9px;
   width: 9px;
   border-radius: 9999px;
+  cursor: pointer;
 }
 
 .sliderItemOn {

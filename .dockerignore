@@ -5,5 +5,4 @@
 node_modules
 Dockerfile
 .env
-.env.local
 docker-compose.yml

@@ -11,11 +11,12 @@ import { FaEnvelopeOpenText } from "react-icons/fa";
 import { IoChevronBackCircleOutline, IoChevronForwardCircleOutline } from 'react-icons/io5'
 import { IoIosMail } from "react-icons/io";
 
-export function FluxMediaPage({ contentfulData }){
+export function FluxMediaPage({ contentfulData, lowerArticles }){
     const [sliderIndex, setSliderIndex] = useState(0);
 
     const sliderChange = (offset) => {
-        if (sliderIndex + offset > contentfulData.length -1 || sliderIndex + offset < 0) return;
+        if (sliderIndex + offset > contentfulData.length - 1) return setSliderIndex(0);
+        if (sliderIndex + offset < 0) return setSliderIndex(contentfulData.length - 1);
         setSliderIndex((prev) => prev + offset);
     };
 
@@ -38,7 +39,7 @@ export function FluxMediaPage({ contentfulData }){
                     </div>
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "20px", paddingTop: "50px" }} >
                         {contentfulData.map((_item, index) => (
-                            <div key={`slider-${index}`} className={`${index === sliderIndex ? `${styles.sliderItem} ${styles.sliderItemOn}` : `${styles.sliderItem} ${styles.sliderItemOff}`}`} />
+                            <div key={`slider-${index}`} className={`${index === sliderIndex ? `${styles.sliderItem} ${styles.sliderItemOn}` : `${styles.sliderItem} ${styles.sliderItemOff}`}`} onClick={() => setSliderIndex(index)} />
                         ))}
                     </div> 
                 </div>
@@ -66,8 +67,11 @@ export function FluxMediaPage({ contentfulData }){
                             </div>
                         </div>
                     </div>
-                    <div className="row" style={{marginTop:"100px"}}>
-                        <Carousel/>
+                    <div className="row"style={{marginTop:"100px"}}>
+                        <Carousel articles={lowerArticles} reverseDirection={true} />
+                    </div>
+                    <div className="row"style={{marginTop:"50px"}}>
+                        <Carousel articles={lowerArticles} />
                     </div>
                 </div>
             </section>            
