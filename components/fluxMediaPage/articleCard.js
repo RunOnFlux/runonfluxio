@@ -38,4 +38,22 @@ const ArticleCards = ({ cardDetails, activeIndex }) => {
     );
 };
 
-export { Article, ArticleCards };
+const AwardCards = ({ cardDetails, activeIndex }) => {
+    return (
+        <>
+            {cardDetails?.map((card, index) => (
+                <div key={index} className={`${styles.awardCard} ${index === activeIndex ? styles.active : ''}`}>
+                    <Image
+                        src={card.backgroundImage}
+                        alt="Article background"
+                        className={styles.awardBackgroundImage}
+                        fill
+                        sizes="(max-width: 768px) 50vw, (max-width: 1200px) 60vw, 33vw"
+                    />
+                </div>
+            ))}
+        </>
+    );
+};
+
+export { Article, ArticleCards, AwardCards };

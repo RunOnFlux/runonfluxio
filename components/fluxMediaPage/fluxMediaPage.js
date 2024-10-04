@@ -2,22 +2,26 @@ import React, { useState } from "react";
 import styles from "./index.module.css"
 import Image from "next/image";
 import newsLogo from "../../public/images/article/news.svg"
-import top100 from "../../public/images/article/top100.png"
-import stratusAward from "../../public/images/article/stratusAward.png"
-
 import { Carousel } from "./carousel";
-import { ArticleCards } from "./articleCard";
+import { ArticleCards, AwardCards } from "./articleCard";
 import { FaEnvelopeOpenText } from "react-icons/fa";
 import { IoChevronBackCircleOutline, IoChevronForwardCircleOutline } from 'react-icons/io5'
 import { IoIosMail } from "react-icons/io";
 
-export function FluxMediaPage({ contentfulData, lowerArticles }){
+export function FluxMediaPage({ contentfulData, lowerArticles, awardsData }){
     const [sliderIndex, setSliderIndex] = useState(0);
-
+    const [awardsSliderIndex, setAwardsSliderIndex] = useState(0);
+    
     const sliderChange = (offset) => {
         if (sliderIndex + offset > contentfulData.length - 1) return setSliderIndex(0);
         if (sliderIndex + offset < 0) return setSliderIndex(contentfulData.length - 1);
         setSliderIndex((prev) => prev + offset);
+    };
+
+    const awardsSliderChange = (offset) => {
+        if (awardsSliderIndex + offset > awardsData.length - 1) return setAwardsSliderIndex(0);
+        if (awardsSliderIndex + offset < 0) return setAwardsSliderIndex(awardsData.length - 1);
+        setAwardsSliderIndex((prev) => prev + offset);
     };
 
     return(
@@ -51,10 +55,18 @@ export function FluxMediaPage({ contentfulData, lowerArticles }){
                         <h4>Flux <span>In the News</span></h4>
                     </div>
                     <div className="row">
-                        <div className="col-md-6">
-                            <div className={styles.banner3}>
-                                <div className={styles.text5}>
-                                    <h5>Future-Proofing: AI And The Decentralized Cloud</h5>
+                        <div className={`col-md-6 ${styles.awardCardContainer}`} >
+                            <div className={styles.awardCardOverlay}>
+                                <h4 style={{ fontSize: "32px", paddingTop: "30px" }}>Our <span>Awards</span></h4>
+                                <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-evenly", gap: "10px", padding: "5%" }}>
+                                    <IoChevronBackCircleOutline className={styles.sliderArrowAwards} size={60} onClick={() => awardsSliderChange(-1)} />
+                                    <AwardCards cardDetails={awardsData} activeIndex={awardsSliderIndex} />
+                                    <IoChevronForwardCircleOutline className={styles.sliderArrowAwards} size={60} onClick={() => awardsSliderChange(1)} />
+                                </div>
+                                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "20px", padding: "35px 0px" }} >
+                                    {awardsData.map((_item, index) => (
+                                        <div key={`slider-${index}`} className={`${index === awardsSliderIndex ? `${styles.sliderItem} ${styles.sliderItemOn}` : `${styles.sliderItem} ${styles.sliderItemOffAwards}`}`} onClick={() => setAwardsSliderIndex(index)} />
+                                    ))}
                                 </div>
                             </div>
                         </div>
@@ -68,9 +80,11 @@ export function FluxMediaPage({ contentfulData, lowerArticles }){
                         </div>
                     </div>
                     <div className="row"style={{marginTop:"100px"}}>
+                        <h4>Flux <span>Articles</span></h4>
                         <Carousel articles={lowerArticles} reverseDirection={true} />
                     </div>
                     <div className="row"style={{marginTop:"50px"}}>
+                        <h4>Press <span>Releases</span></h4>
                         <Carousel articles={lowerArticles} />
                     </div>
                 </div>
@@ -90,34 +104,6 @@ export function FluxMediaPage({ contentfulData, lowerArticles }){
                     </div>
                 </div>
             </section>
-
-            <section className={styles.section4}>
-                <div className="container">
-                    <div className="row mb-3 mb-4">
-                        <h4>Our <span>Awards</span></h4>
-                    </div>
-                    <div className="row justify-content-center">
-                        <div className="col-4 col-sm-4 col-md-3">
-                            <div className="d-flex justify-content-center align-items-center h-100">
-                                <Image 
-                                    alt="award" 
-                                    src={top100} 
-                                    style={{ maxWidth: "90%", height: "auto" }} 
-                                />
-                            </div>
-                        </div>
-                        <div className="col-3 col-sm-3 col-md-3">
-                            <div className="d-flex justify-content-center align-items-center h-100">
-                                <Image 
-                                    alt="award" 
-                                    src={stratusAward} 
-                                    style={{ maxWidth: "90%", height: "auto" }} 
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> 
 
             <section className={styles.section6}>
                 <div className="container">

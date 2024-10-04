@@ -4,7 +4,7 @@ import { FluxMediaPage } from '../components/fluxMediaPage/fluxMediaPage.js'
 import { NavBar0 } from '../components/navbar/mainNav.js'
 import client from '../utils/contentfulClient.js'
 
-export default function FluxMedia({contentfulData, lowerArticles}) {
+export default function FluxMedia({contentfulData, lowerArticles, awardsData}) {
   return (
     <div>
       <Head>
@@ -13,7 +13,7 @@ export default function FluxMedia({contentfulData, lowerArticles}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar0/>
-      <FluxMediaPage contentfulData={contentfulData} lowerArticles={lowerArticles}/> 
+      <FluxMediaPage contentfulData={contentfulData} lowerArticles={lowerArticles} awardsData={awardsData}/> 
     </div>
   )
 }
@@ -21,6 +21,7 @@ export default function FluxMedia({contentfulData, lowerArticles}) {
 export async function getStaticProps() {
   let contentfulData = [];
   let lowerArticles = [];
+  let awardsData = [];
 
   if (client) {
     const data = await client.getEntries({
@@ -39,6 +40,19 @@ export async function getStaticProps() {
       }
       contentfulData.push(newsArticles);
     });
+
+    const awards = await client.getEntries({
+      content_type: 'medigaPageAwards',
+      limit: 5,
+      order: 'sys.createdAt',
+      select: ['fields.awardImage']
+    });
+    awards?.items.forEach(item => {
+      const awards = {
+        backgroundImage: `https:${item.fields.awardImage.fields.file.url}`,
+      }
+      awardsData.push(awards);
+    })
 
     const lowerData = await client.getEntries({
       content_type: 'mediaPageArticleLower',
@@ -61,7 +75,8 @@ export async function getStaticProps() {
   return {
     props: {
       contentfulData,
-      lowerArticles
+      lowerArticles,
+      awardsData
     },
     revalidate: 1800
   }
