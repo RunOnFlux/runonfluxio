@@ -56,4 +56,24 @@ const AwardCards = ({ cardDetails, activeIndex }) => {
     );
 };
 
-export { Article, ArticleCards, AwardCards };
+const QuoteCard = ({ quote }) => {
+    return (
+        <div className={styles.cardImageContainer}>
+            <Image
+                src={quote.backgroundImage}
+                alt="Article background"
+                className={`${styles.cardBackgroundImage} ${styles.quoteBackgroundImage}`}
+                fill
+                sizes="(max-width: 768px) 50vw, (max-width: 1200px) 60vw, 33vw"
+            />
+            <div className={styles.quoteOverlay}>
+                <div className={styles.quoteText}>
+                    <p>"{quote.text}"</p>
+                    <p className={styles.quoteAuthor}>- {quote.author}</p>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export { Article, ArticleCards, AwardCards, QuoteCard };

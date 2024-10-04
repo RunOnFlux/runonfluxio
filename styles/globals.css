@@ -59,6 +59,7 @@ body {
   --fluxcloud: url('/images/fluxcloud.svg');
   --newsLetter: #FFFFFF;
   --newsLetterIcon: #0B0D12;
+  --awardCardBg: #fff;
 }
 
 [data-theme='dark'] {
@@ -100,6 +101,7 @@ body {
   --fluxcloud: url('/images/fluxcloud-dark.svg');
   --newsLetter: #0B0D12;
   --newsLetterIcon: #FFFFFF;
+  --awardCardBg: #141529;
 }
 
 

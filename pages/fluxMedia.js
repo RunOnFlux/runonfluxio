@@ -4,7 +4,7 @@ import { FluxMediaPage } from '../components/fluxMediaPage/fluxMediaPage.js'
 import { NavBar0 } from '../components/navbar/mainNav.js'
 import client from '../utils/contentfulClient.js'
 
-export default function FluxMedia({contentfulData, lowerArticles, awardsData}) {
+export default function FluxMedia({contentfulData, lowerArticles, awardsData, quotesData}) {
   return (
     <div>
       <Head>
@@ -13,7 +13,7 @@ export default function FluxMedia({contentfulData, lowerArticles, awardsData}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar0/>
-      <FluxMediaPage contentfulData={contentfulData} lowerArticles={lowerArticles} awardsData={awardsData}/> 
+      <FluxMediaPage contentfulData={contentfulData} lowerArticles={lowerArticles} awardsData={awardsData} quotesData={quotesData}/> 
     </div>
   )
 }
@@ -22,6 +22,7 @@ export async function getStaticProps() {
   let contentfulData = [];
   let lowerArticles = [];
   let awardsData = [];
+  let quotesData = [];
 
   if (client) {
     const data = await client.getEntries({
@@ -54,6 +55,22 @@ export async function getStaticProps() {
       awardsData.push(awards);
     })
 
+    const quotes = await client.getEntries({
+      content_type: 'mediaQuotes',
+      limit: 5,
+      order: 'sys.createdAt',
+      select: ['fields.quoteImage', 'fields.quote', 'fields.author']
+    });
+
+    quotes?.items.forEach(item => {
+      const quotes = {
+        backgroundImage: `https:${item.fields.quoteImage.fields.file.url}`,
+        text: item.fields.quote,
+        author: item.fields.author
+      }
+      quotesData.push(quotes);
+    });
+
     const lowerData = await client.getEntries({
       content_type: 'mediaPageArticleLower',
       limit: 15,
@@ -76,7 +93,8 @@ export async function getStaticProps() {
     props: {
       contentfulData,
       lowerArticles,
-      awardsData
+      awardsData,
+      quotesData
     },
     revalidate: 1800
   }

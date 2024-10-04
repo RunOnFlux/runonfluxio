@@ -3,12 +3,12 @@ import styles from "./index.module.css"
 import Image from "next/image";
 import newsLogo from "../../public/images/article/news.svg"
 import { Carousel } from "./carousel";
-import { ArticleCards, AwardCards } from "./articleCard";
+import { ArticleCards, AwardCards, QuoteCard } from "./articleCard";
 import { FaEnvelopeOpenText } from "react-icons/fa";
 import { IoChevronBackCircleOutline, IoChevronForwardCircleOutline } from 'react-icons/io5'
 import { IoIosMail } from "react-icons/io";
 
-export function FluxMediaPage({ contentfulData, lowerArticles, awardsData }){
+export function FluxMediaPage({ contentfulData, lowerArticles, awardsData, quotesData }){
     const [sliderIndex, setSliderIndex] = useState(0);
     const [awardsSliderIndex, setAwardsSliderIndex] = useState(0);
     
@@ -50,40 +50,37 @@ export function FluxMediaPage({ contentfulData, lowerArticles, awardsData }){
             </section>
 
             <section className={styles.section4}>
-                <div className="container">
-                    <div className="row mb-3">
+                <div className="container-sm">
+                    <div className="row">
                         <h4>Flux <span>In the News</span></h4>
                     </div>
-                    <div className="row">
-                        <div className={`col-md-6 ${styles.awardCardContainer}`} >
+                    <div className="row justify-content-evenly">
+                        <div className={`col-md-5 my-4 ${styles.awardCardContainer}`} >
                             <div className={styles.awardCardOverlay}>
                                 <h4 style={{ fontSize: "32px", paddingTop: "30px" }}>Our <span>Awards</span></h4>
-                                <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-evenly", gap: "10px", padding: "5%" }}>
-                                    <IoChevronBackCircleOutline className={styles.sliderArrowAwards} size={60} onClick={() => awardsSliderChange(-1)} />
-                                    <AwardCards cardDetails={awardsData} activeIndex={awardsSliderIndex} />
-                                    <IoChevronForwardCircleOutline className={styles.sliderArrowAwards} size={60} onClick={() => awardsSliderChange(1)} />
+                                <div style={{ display: "flex", flexDirection: "row", padding: "5%"}}>
+                                    <IoChevronBackCircleOutline className={styles.sliderArrowAwards} size={43} onClick={() => awardsSliderChange(-1)} />
+                                    <AwardCards cardDetails={awardsData} activeIndex={awardsSliderIndex} /> 
+                                    <IoChevronForwardCircleOutline className={styles.sliderArrowAwards} size={43} onClick={() => awardsSliderChange(1)} />
                                 </div>
-                                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "20px", padding: "35px 0px" }} >
+                                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "20px", padding: "10px 0px 20px 0px" }} >
                                     {awardsData.map((_item, index) => (
                                         <div key={`slider-${index}`} className={`${index === awardsSliderIndex ? `${styles.sliderItem} ${styles.sliderItemOn}` : `${styles.sliderItem} ${styles.sliderItemOffAwards}`}`} onClick={() => setAwardsSliderIndex(index)} />
                                     ))}
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <div className={styles.text6}>
-                                <h6>AI is set to be the most important technology by 2025.</h6>
-                                <p>Considering the rapid growth the sector has experienced over the past few years, this is not in the least surprising. The applications of AI have continued to grow across various fields, from smart chatbots that can generate professional resumes based on user prompts, to machine learning models capable of running predictive analysis to solve business problems.</p>
-                                <p>Now, when the unique advantages of AI technology are integrated into cloud computing, AI cloud is born. Researchers estimate a global cloud AI market size of $397.81 billion by 2030, citing the growing adoption of generative AI and machine learning models among many industries.</p>
-                                <a href="https://www.forbes.com/councils/forbestechcouncil/2024/08/19/future-proofing-ai-and-the-decentralized-cloud">Read More</a>
+                        <div className="col-md-5 my-4">
+                            <div style={{ position: "relative", width: "100%", height: "100%", minHeight: "250px" }}>
+                                <QuoteCard quote={quotesData[0]} />
                             </div>
                         </div>
                     </div>
-                    <div className="row"style={{marginTop:"100px"}}>
+                    <div className="row my-5">
                         <h4>Flux <span>Articles</span></h4>
                         <Carousel articles={lowerArticles} reverseDirection={true} />
                     </div>
-                    <div className="row"style={{marginTop:"50px"}}>
+                    <div className="row my-5">
                         <h4>Press <span>Releases</span></h4>
                         <Carousel articles={lowerArticles} />
                     </div>
