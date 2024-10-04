@@ -1,29 +1,29 @@
 import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Script from 'next/script';
-import CookieConsent, { getCookieConsentValue, resetCookieConsentValue } from "react-cookie-consent";
+import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
+import CookieToggle from "../CookieToggle/CookieToggle";
 
 const CookieBanner = () => {
-  const router = useRouter();
   const [userConsent, setUserConsent] = useState(false);
-
+  const [manageCookies, setManageCookies] = useState(false);
   const handleAcceptCookies = () => setUserConsent(true);
 
   const handleDecline = () => {
+    setManageCookies(true);
     setUserConsent(false);
-    router.push("/privacyPolicy");
   };
 
   useEffect(() => {
     const readConsent = getCookieConsentValue("runonflux-consent");
     if (readConsent === 'true') setUserConsent(true);
-  }, [])
+  }, [manageCookies])
 
   return (
-    <>
-      <CookieConsent
-        style={{ background: "#2B373B", alignItems: "center", flexDirection: "column" }}
+    <>  
+      {!manageCookies && (
+        <CookieConsent
+          style={{ background: "#2B373B", alignItems: "center", flexDirection: "column" }}
         contentStyle={{ flex: "0 1 auto", justifyContent: "center", margin: "5px" }}
         location="bottom"
         buttonText="Accept All"
@@ -41,8 +41,18 @@ const CookieBanner = () => {
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", maxWidth: "700px" }}>
           <p>We use cookies to enhance your browsing experience, analyze site traffic, and personalize content. By clicking "Accept All" you consent to our use of cookies to track your experience on our site.</p>
           <Link href={"/privacyPolicy"} style={{}}>Privacy Policy</Link>
-        </div>        
-      </CookieConsent>
+          </div>        
+          </CookieConsent>
+      )}
+
+      {manageCookies && (
+        <div style={{ position: "sticky", bottom: "0", left: "0", right: "0", backgroundColor: "white", padding: "10px", borderTop: "1px solid #e0e0e0" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+            <CookieToggle />
+            <button style={{ backgroundColor: "#2B61D1", color: "white", fontSize: "13px", padding: "10px 20px", borderRadius: "5px", marginTop: "10px" }} onClick={() => setManageCookies(false)}>CONFIRM</button>
+          </div>
+        </div>
+      )}
 
       {userConsent && (
         <>
