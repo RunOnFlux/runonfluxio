@@ -26,7 +26,7 @@ const CookieToggle = () => {
   }, [])
 
   return (
-    <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "flex-start", gap: "50px", alignContent: "center" }}>
+    <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "flex-start", gap: "10px 50px", alignContent: "center" }}>
       <Form>
         <Form.Check
           type="switch"

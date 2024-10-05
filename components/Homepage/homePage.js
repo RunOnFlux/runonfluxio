@@ -107,8 +107,7 @@ export function HomePage(){
               setTotalNodes(nodes.length.toLocaleString());
               setTotalCores(vcores.toLocaleString());
               setTotalRAM((ram/1000).toFixed(2) + " " + "TB");
-              setTotalSSD((ssd/1000000).toFixed(3) + " " + "TB");
-        
+              setTotalSSD((ssd/1000000).toFixed(3) + " " + "PB");        
             }
           };
           fetchData();     
