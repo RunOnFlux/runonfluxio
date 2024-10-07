@@ -12,7 +12,7 @@ export default function FluxCarbon() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar2/>
-     <FluxCarbonPage/>
+      <FluxCarbonPage/>
     </div>
   )
 }
