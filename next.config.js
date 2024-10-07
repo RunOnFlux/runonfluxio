@@ -159,6 +159,12 @@ module.exports = {
         permanent: false,
         basePath: false
       },
+      {
+        source: '/fluxone',
+        destination: 'https://fluxai.app/fluxone',
+        permanent: false,
+        basePath: false
+      },
     ]
   },                                                                             
 } 
