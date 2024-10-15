@@ -15,9 +15,11 @@ const Article = ({ article, filter = false }) => {
                 style={{ filter: filter ? "brightness(0.5)" : "brightness(1)"}}
             />
             <div className={styles.cardOverlay}>
-                <div className={styles.logo}>
-                    <Image alt="logo" src={article.logo} width={50} height={50} />
-                </div>
+                {article.logo && (
+                    <div className={styles.logo}>
+                        <Image alt="logo" src={article.logo} width={50} height={50} />
+                    </div>
+                )}
                 <div className={styles.cardText}>
                     <p>{article.text}</p>
                 </div>

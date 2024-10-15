@@ -4,7 +4,7 @@ import { FluxMediaPage } from '../components/fluxMediaPage/fluxMediaPage.js'
 import { NavBar0 } from '../components/navbar/mainNav.js'
 import client from '../utils/contentfulClient.js'
 
-export default function FluxMedia({contentfulData, lowerArticles, awardsData, quotesData}) {
+export default function FluxMedia({contentfulData, lowerArticles, awardsData, quotesData, pressReleases}) {
   return (
     <div>
       <Head>
@@ -13,7 +13,7 @@ export default function FluxMedia({contentfulData, lowerArticles, awardsData, qu
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar0/>
-      <FluxMediaPage contentfulData={contentfulData} lowerArticles={lowerArticles} awardsData={awardsData} quotesData={quotesData}/> 
+      <FluxMediaPage contentfulData={contentfulData} lowerArticles={lowerArticles} awardsData={awardsData} quotesData={quotesData} pressReleases={pressReleases} /> 
     </div>
   )
 }
@@ -21,6 +21,7 @@ export default function FluxMedia({contentfulData, lowerArticles, awardsData, qu
 export async function getStaticProps() {
   let contentfulData = [];
   let lowerArticles = [];
+  let pressReleases = [];
   let awardsData = [];
   let quotesData = [];
 
@@ -82,10 +83,27 @@ export async function getStaticProps() {
       const lowerArticle = {
         text: item.fields.description,
         backgroundImage: `https:${item.fields.articleImage.fields.file.url}`,
-        logo: `https:${item.fields.articleLogo.fields.file.url}`,
+        logo: `https:${item.fields.articleLogo?.fields.file.url}` || '',
         link: item.fields.link ?? "#"
       }
       lowerArticles.push(lowerArticle);
+    })
+
+    const pressReleasesData = await client.getEntries({
+      content_type: 'mediaPagePressRelease',
+      limit: 15,
+      order: 'sys.createdAt',
+      select: ['fields.description', 'fields.articleImage', 'fields.articleLogo', 'fields.link']
+    });
+
+    pressReleasesData?.items.forEach(item => {    
+      const pressRelease = {
+        text: item.fields.description,
+        backgroundImage: `https:${item.fields.articleImage.fields.file.url}`,
+        logo: item.fields.articleLogo ? `https:${item.fields.articleLogo.fields.file.url}` : '',
+        link: item.fields.link ?? "#"
+      }
+      pressReleases.push(pressRelease);
     })
   }
 
@@ -94,7 +112,8 @@ export async function getStaticProps() {
       contentfulData,
       lowerArticles,
       awardsData,
-      quotesData
+      quotesData,
+      pressReleases
     },
     revalidate: 1800
   }

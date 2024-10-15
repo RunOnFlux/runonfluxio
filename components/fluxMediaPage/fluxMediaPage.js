@@ -8,7 +8,7 @@ import { FaEnvelopeOpenText } from "react-icons/fa";
 import { IoChevronBackCircleOutline, IoChevronForwardCircleOutline } from 'react-icons/io5'
 import { IoIosMail } from "react-icons/io";
 
-export function FluxMediaPage({ contentfulData, lowerArticles, awardsData, quotesData }){
+export function FluxMediaPage({ contentfulData, lowerArticles, awardsData, quotesData, pressReleases }){
     const [sliderIndex, setSliderIndex] = useState(0);
     const [awardsSliderIndex, setAwardsSliderIndex] = useState(0);
     
@@ -82,7 +82,7 @@ export function FluxMediaPage({ contentfulData, lowerArticles, awardsData, quote
                     </div>
                     <div className="row my-5">
                         <h4>Press <span>Releases</span></h4>
-                        <Carousel articles={lowerArticles} />
+                        <Carousel articles={pressReleases} />
                     </div>
                 </div>
             </section>            
