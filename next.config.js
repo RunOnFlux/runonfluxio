@@ -16,13 +16,13 @@ module.exports = {
     return [
       {
         source: '/fluxCloud',
-        destination: 'https://cloud.runonflux.io',
+        destination: 'https://cloud.runonflux.com',
         permanent: false,
         basePath: false
       },
       {
         source: '/cloud',
-        destination: 'https://cloud.runonflux.io',
+        destination: 'https://cloud.runonflux.com',
         permanent: false,
         basePath: false
       },
@@ -70,7 +70,7 @@ module.exports = {
       },
       {
         source: '/dashboard',
-        destination: 'https://home.runonflux.io/dashboard/overview',
+        destination: 'https://home.runonflux.com/dashboard/overview',
         permanent: false,
         basePath: false
       },
@@ -82,13 +82,13 @@ module.exports = {
       },  
       {
         source: '/documentation',
-        destination: 'https://wiki.runonflux.io/',
+        destination: 'https://wiki.runonflux.com/',
         permanent: false,
         basePath: false
       },
       {
         source: '/blockExplorer',
-        destination: 'https://explorer.runonflux.io/',
+        destination: 'https://explorer.runonflux.com/',
         permanent: false,
         basePath: false
       },
@@ -149,13 +149,13 @@ module.exports = {
       },
       {
         source: '/apply',
-        destination: 'mailto:labs@runonflux.io',
+        destination: 'mailto:labs@runonflux.com',
         permanent: false,
         basePath: false
       },
       {
         source: '/apply2',
-        destination: 'mailto:labs@runonflux.io?subject=MAKE FLUX GO GREEN',
+        destination: 'mailto:labs@runonflux.com?subject=MAKE FLUX GO GREEN',
         permanent: false,
         basePath: false
       },

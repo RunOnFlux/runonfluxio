@@ -23,7 +23,7 @@ export function FluxOSPage(){
                                 <h1>The Brain of <br/>FluxCloud</h1>
                                 <p>FluxOS powers FluxCloud, providing seamless integration and optimal functionality. It is built on the MEVN stack (Mongo, Express, Vue, Node) with advanced dockerization.</p>
                                 <div className="mt-4">
-                            <a className={styles.btn2} href="https://home.runonflux.io/" rel="noreferrer" target="_blank">FluxOS</a>
+                            <a className={styles.btn2} href="https://home.runonflux.com/" rel="noreferrer" target="_blank">FluxOS</a>
                             <a className={styles.btn1} href="https://github.com/RunOnFlux/flux" rel="noreferrer" target="_blank">Github</a>
                         </div>
                             </div>
@@ -183,7 +183,7 @@ export function FluxOSPage(){
                         <div className="col-md-6 mb-4" style={{display: "inline-flex", alignItems: "center"}}>
                             <div>
                             <h3>Multiple Sign-In Solutions</h3>
-                            <p>Unlock the full potential of FluxOS with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to home.runonflux.io using your Gmail, Apple ID, or Email, and experience unparalleled convenience in spawning and managing your apps. </p>
+                            <p>Unlock the full potential of FluxOS with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to home.runonflux.com using your Gmail, Apple ID, or Email, and experience unparalleled convenience in spawning and managing your apps. </p>
                             </div>
                         </div>
                         <div className="col-md-6">

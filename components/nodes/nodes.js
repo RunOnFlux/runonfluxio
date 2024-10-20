@@ -21,7 +21,7 @@ import progressbar from "../../public/images/images/node progressbar.svg"
 
 
 export function Node() {
-    const url = 'https://api.runonflux.io/daemon/getzelnodecount';
+    const url = 'https://api.runonflux.com/daemon/getzelnodecount';
 
 
 
@@ -49,7 +49,7 @@ export function Node() {
 
                         <div className="mt-4">
                             <a className={styles.btn2} href="/node">Deploy Node</a>
-                            <a className={styles.btn1} href="https://home.runonflux.io/dashboard/economics">Economics</a>
+                            <a className={styles.btn1} href="https://home.runonflux.com/dashboard/economics">Economics</a>
                         </div>
 
                         <div className={styles.nodes}>
@@ -85,7 +85,7 @@ export function Node() {
                         <div className="col-md-6 mb-5">
                         <h3>Incentivized<br/><span>Infrastructure</span></h3>
                         <p className="mb-4">The total block reward on the Flux blockchain is divided equally between POW miners and FluxNode operators for every block. In addition, there is a hierarchy among the different FluxNode tiers, with the most computationally heavy FluxNode entitled to the largest share of the initial 50% distribution reserved for FluxNode.</p>
-                            <a href="https://home.runonflux.io/dashboard/map" className={styles.btn1}>Dashboard</a>
+                            <a href="https://home.runonflux.com/dashboard/map" className={styles.btn1}>Dashboard</a>
                         </div>
                         <div className="col-md-6 text-center">
                         <Image alt={"img"} src={circleGraph} />
@@ -104,7 +104,7 @@ export function Node() {
                         <div className="col-lg-7 col-md-12">
                         <h3><span>FluxNode</span> Hierarchy</h3>
                          <p className="mb-4">To ensure the FluxCloud network functions optimally, multiple tiers of FluxNodes are available for deployment, each with specific collateral and hardware requirements. <br /><br /> Interested parties are encouraged to review the economic models associated with each tier through the dashboard to make informed decisions. The dashboard provides a comprehensive overview of the technical and financial parameters of each FluxNode tier, enabling informed selection.</p>
-                         <a className={styles.btn1} href="https://home.runonflux.io/dashboard/economics">Economics</a>
+                         <a className={styles.btn1} href="https://home.runonflux.com/dashboard/economics">Economics</a>
                         </div>
                         <div className="col-lg-5 col-md-12"></div>
                     </div>

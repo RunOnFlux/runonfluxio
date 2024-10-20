@@ -53,7 +53,7 @@ export function HomePage(){
     useEffect(() => {
         const fetchData = async () => {
             const request = await axios.get(
-              "https://stats.runonflux.io/fluxinfo?projection=tier,benchmark"
+              "https://stats.runonflux.com/fluxinfo?projection=tier,benchmark"
             );
           
             if (request.data) {
@@ -157,10 +157,10 @@ export function HomePage(){
                             <h1>Build on <br/><span>Web 3.0 </span>Today.</h1><br/>
                             <h6>The FluxCloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance.</h6>
                             <div className={styles.buttons}>
-                            <a href="https://cloud.runonflux.io/" className={styles.btn2}>Deploy Now</a>
-                            <a href="https://cloud.runonflux.io/marketplace" rel="noreferrer" target="_blank" className={styles.btn1}>Marketplace</a>
+                            <a href="https://cloud.runonflux.com/" className={styles.btn2}>Deploy Now</a>
+                            <a href="https://cloud.runonflux.com/marketplace" rel="noreferrer" target="_blank" className={styles.btn1}>Marketplace</a>
                             </div>
-                            <p>$ Calculate the cost for your solution.   <a href="https://cloud.runonflux.io/cost_calculator"  rel="noreferrer" target="_blank">View Cost</a></p>
+                            <p>$ Calculate the cost for your solution.   <a href="https://cloud.runonflux.com/cost_calculator"  rel="noreferrer" target="_blank">View Cost</a></p>
                             </div>
                         </div>
                         <div className="col-lg-4"></div>
@@ -418,7 +418,7 @@ export function HomePage(){
                             Cloud is the most decentralized and fastest growing network in the world. </p>
                     </div>
                     <div className="row">
-                    <a href="https://home.runonflux.io/dashboard/map" rel="noreferrer" target="_blank" className={styles.btn2} style={{margin: "auto", marginBottom: "20px"}}>View Dashboard</a>
+                    <a href="https://home.runonflux.com/dashboard/map" rel="noreferrer" target="_blank" className={styles.btn2} style={{margin: "auto", marginBottom: "20px"}}>View Dashboard</a>
                     <div className={styles.map}>
         
                 <Image alt="Light Mode Image" src={map1}/>
@@ -476,7 +476,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Flux Drive</h5>
                                 <h6>Not your Drive, Not your File! Flux Drive stores your data in a decentralized manner using the FluxCloud.</h6>
-                                <a href="https://cloud.runonflux.io/fluxdrive" target="_blank" rel="noreferrer">Store Now</a>
+                                <a href="https://cloud.runonflux.com/fluxdrive" target="_blank" rel="noreferrer">Store Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5">
@@ -486,7 +486,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Flux Marketplace</h5>
                                 <h6>Interact and transact on a permission-less, and self-executing Marketplace powered by the FluxCloud.</h6>
-                                <a href="https://cloud.runonflux.io/marketplace" target="_blank" rel="noreferrer">Visit Now</a>
+                                <a href="https://cloud.runonflux.com/marketplace" target="_blank" rel="noreferrer">Visit Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-5 d-block d-lg-none">
@@ -528,7 +528,7 @@ export function HomePage(){
                         
                     </div>
                     <div className="row">
-                    <a href="https://cloud.runonflux.io/launch" target="_blank" rel="noreferrer" className={styles.btn2} style={{margin: "auto"}}>Launch App</a>
+                    <a href="https://cloud.runonflux.com/launch" target="_blank" rel="noreferrer" className={styles.btn2} style={{margin: "auto"}}>Launch App</a>
                     </div>
                    
                 </div>

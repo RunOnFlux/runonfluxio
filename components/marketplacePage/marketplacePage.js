@@ -35,7 +35,7 @@ export function MarketplacePage(){
                         <h1>The Ultimate Web3 Launchpad</h1>
                         <p>The Flux Marketplace is your ultimate launchpad, akin to the Apple Store, but for decentralized applications. Whether you're looking to deploy dApps, frontends, backends, game servers, or blockchain nodes, the Flux Marketplace makes it incredibly simple.</p>
                         <div className="mt-4">
-                            <a className={styles.btn2} href="https://cloud.runonflux.io/">Marketplace</a>
+                            <a className={styles.btn2} href="https://cloud.runonflux.com/">Marketplace</a>
                             <a className={styles.btn1} target="_blank" href="https://github.com/RunOnFlux">Github</a>
                         </div>
                         <div className={styles.landingPageImage}>
@@ -63,7 +63,7 @@ export function MarketplacePage(){
                             <div className={styles.gameCard}>
                                 <Image alt="logo" src={Enshrouded}/>
                                 <div className={styles.bottom}>
-                                    <a target="_blank" href="https://cloud.runonflux.io/marketplace" className={styles.btn3}>Install Now</a>
+                                    <a target="_blank" href="https://cloud.runonflux.com/marketplace" className={styles.btn3}>Install Now</a>
                                     <p>Starting at $9.99 / month</p>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@ export function MarketplacePage(){
                             <div className={`${styles.gameCard} ${styles.gameCard2}`}>
                                 <Image alt="logo" src={palword}/>
                                 <div className={styles.bottom}>
-                                    <a target="_blank" href="https://cloud.runonflux.io/marketplace" className={styles.btn3}>Install Now</a>
+                                    <a target="_blank" href="https://cloud.runonflux.com/marketplace" className={styles.btn3}>Install Now</a>
                                     <p>Starting at $7.99 / month</p>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Folding@Home</h6>
-                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.com/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
@@ -125,7 +125,7 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Presearch Node</h6>
-                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.com/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
@@ -142,7 +142,7 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Streamer Node</h6>
-                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.com/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
@@ -160,7 +160,7 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Bittensor Nodee</h6>
-                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="-blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.com/marketplace" target="-blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
@@ -177,7 +177,7 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>TeamSpeak</h6>
-                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.com/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
@@ -194,7 +194,7 @@ export function MarketplacePage(){
 
                                         <div className={styles.cardHead2}>
                                             <h6>Owncast</h6>
-                                            <a className={styles.btn4} href="https://cloud.runonflux.io/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
+                                            <a className={styles.btn4} href="https://cloud.runonflux.com/marketplace" target="_blank">View App</a>  <a className={styles.btn5} href="#"><Image alt="logo" src={link1}/></a>
                                         </div>
 
                                     </div>
@@ -209,7 +209,7 @@ export function MarketplacePage(){
                                     <h4>Launch your project</h4>
                                     <p>Anything can run on the Flux Web3 Cloud. If you can dockerize it, Flux can run it!</p>
                                     <p>Using Docker Hub for deployment, all applications are redundant, running on 3 to 100 balanced instances with automatic failover, ensuring 99.99% uptime.</p>
-                                    <a href="https://cloud.runonflux.io/marketplace" target="_blank">Deploy Now</a>
+                                    <a href="https://cloud.runonflux.com/marketplace" target="_blank">Deploy Now</a>
                                 </div>
                             </div>
                     </div>
@@ -264,7 +264,7 @@ export function MarketplacePage(){
                             <div className={styles.paymentOptions}>
                                 <div>
                                     <h3 className="mb-4" style={{ textAlign: "left" }}>Multiple <span>Sign-In Login</span></h3>
-                                    <p style={{ textAlign: "left" }}>Unlock the full potential of FluxCloud with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to <a target="_blank" href="https://cloud.runonflux.io">www.cloud.runonflux.io</a> using your Gmail, Apple ID, or Email, and experience unparalleled convenience in running your apps, deploying a WordPress site or saving files on the Flux blockchain via FluxDrive.</p>
+                                    <p style={{ textAlign: "left" }}>Unlock the full potential of FluxCloud with multiple login options, via crypto wallet or mainstream login solutions through Flux SingleSignOn. Simply log in to <a target="_blank" href="https://cloud.runonflux.com">www.cloud.runonflux.com</a> using your Gmail, Apple ID, or Email, and experience unparalleled convenience in running your apps, deploying a WordPress site or saving files on the Flux blockchain via FluxDrive.</p>
                                 </div>
                             </div>
                         </div>

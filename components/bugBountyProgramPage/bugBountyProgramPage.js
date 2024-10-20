@@ -114,7 +114,7 @@ export function BugBountyProgramPage(){
                                 <li>Any degrading/damaging the reliability or integrity of our services (such as DDoS attacks, man in the middle attacks, spamming, and similar questionable acts).</li>
                                 <li>Any software not directly produced by the Flux team.</li>
                                 <li>Domains hosted by third parties (e.g.: Github, Gitlab, etc).</li>
-                                <li>Subdomains operated by third parties (e.g: info.runonflux.io).</li>
+                                <li>Subdomains operated by third parties (e.g: info.runonflux.com).</li>
                                 <li>Any Flux branded services operated by third parties.</li>
                                 <li>Any applications running on FluxOS *.app.runonflux.io and *.app2.runonflux.io</li>
                             </ul>

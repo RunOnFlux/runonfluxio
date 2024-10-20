@@ -16,9 +16,9 @@ export function FluxDappsPage(){
                      </div>
                      <div className="row">
                         <div className={styles.btns}>
-                            <a href="https://cloud.runonflux.io/globalapps">Discover Global Apps</a>
-                            <a href="https://cloud.runonflux.io/marketplace">Marketplace</a>
-                            <a href="https://cloud.runonflux.io/launch">Deploy dApp</a>
+                            <a href="https://cloud.runonflux.com/globalapps">Discover Global Apps</a>
+                            <a href="https://cloud.runonflux.com/marketplace">Marketplace</a>
+                            <a href="https://cloud.runonflux.com/launch">Deploy dApp</a>
                         </div>
                      </div>
                 </div>

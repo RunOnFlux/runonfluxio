@@ -73,7 +73,7 @@ export function Careers(){
                     </div>
                 </div>
                 <div className='row'>
-                    <p className={styles.lastText}>We are always looking for these positions. If you think you are a good match, please forward your resume and any supporting materials to <a href='mailto:info@runonflux.io'>info@runonflux.io</a></p>
+                    <p className={styles.lastText}>We are always looking for these positions. If you think you are a good match, please forward your resume and any supporting materials to <a href='mailto:info@runonflux.com'>info@runonflux.com</a></p>
                 </div>
             </div>
         </section>

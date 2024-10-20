@@ -289,7 +289,7 @@ export function FluxLabsPage(){
                     <div className="row text-center">
                         <h5>BECOME A FLUXIAN</h5>
                         <h3>Apply for <span>FluxLabs</span></h3>
-                        <p>Email us at <a href="#">labs@runonflux.io</a> for more information.</p>
+                        <p>Email us at <a href="#">labs@runonflux.com</a> for more information.</p>
                         <a className={styles.btn} href={'/apply'}>APPLY NOW</a>
                     </div>
                 </div>

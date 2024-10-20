@@ -101,8 +101,8 @@ import circleGraph from "../../public/images/flux/circleGraph.svg"
 
 export function Flux() {
     let circsup = 0;
-    const url = 'https://explorer.runonflux.io/api/statistics/circulating-supply';
-    const url2 = 'https://api.runonflux.io/daemon/getzelnodecount';
+    const url = 'https://explorer.runonflux.com/api/statistics/circulating-supply';
+    const url2 = 'https://api.runonflux.com/daemon/getzelnodecount';
     fetch(url)
       .then((response) => {
         return response.json();
@@ -191,7 +191,7 @@ export function Flux() {
                             operators for providing computational resources.</p>
                         <div className={styles.buttons}>
                         <a href="https://whitepaper.app.runonflux.io/" className={styles.btn2}>Whitepaper</a>
-                        <a href="https://docs.runonflux.io/" className={styles.btn1}>Docs</a>
+                        <a href="https://docs.runonflux.com/" className={styles.btn1}>Docs</a>
                         </div>
                         </div>
                         <div className="col-lg-5 col-md-6">

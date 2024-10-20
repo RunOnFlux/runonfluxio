@@ -44,7 +44,7 @@ export function Footer(){
                             <a href="https://www.instagram.com/runonflux_official/" target="_blank" rel="noreferrer"><Image alt="icon" src={image12}/></a>
                             <a href="https://www.tiktok.com/@flux_runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image13}/></a>
                             </div>
-                            <a href="mailto:info@runonflux.io?subject=Contact%20Flux!" className={styles.btn}>Contact us!</a><br/>
+                            <a href="mailto:info@runonflux.com?subject=Contact%20Flux!" className={styles.btn}>Contact us!</a><br/>
                             <a href="https://support.runonflux.io/" className={styles.btn}>Support Center</a>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ export function Footer(){
                             <li><Link href="/team"> Team</Link></li>
                             <li><a href="/documentation" target="_blank" rel="noreferrer"> Documentation</a></li>
                             <li><Link href="/partners"> Partners</Link></li>
-                            <li><a href="https://explorer.runonflux.io/" target="_blank" rel="noreferrer"> Block Explorer</a></li>
+                            <li><a href="https://explorer.runonflux.com/" target="_blank" rel="noreferrer"> Block Explorer</a></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 mb-5">

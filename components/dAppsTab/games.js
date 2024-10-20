@@ -33,7 +33,7 @@ export function Games(){
         <React.Fragment>
                <div className="row">
                <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
-               <DappCard1 header={games1} logo={logo1} title={'ARK'} name={''} content={'Ark: Survival Evolved. Grab an IP from the Global Apps list home.runonflux.io and use Port 36479 to start playing!'} btn1={'Games'}  />
+               <DappCard1 header={games1} logo={logo1} title={'ARK'} name={''} content={'Ark: Survival Evolved. Grab an IP from the Global Apps list home.runonflux.com and use Port 36479 to start playing!'} btn1={'Games'}  />
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
                <DappCard1 header={games2} logo={logo2} title={'Devlife'} name={''} content={'Devlife is a fun incremental clicker game simulating the life of a developer'} btn1={'Games'}  />

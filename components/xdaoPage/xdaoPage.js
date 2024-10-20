@@ -12,7 +12,7 @@ export function XDAOPage(){
                     <h3>Decentralized autonomous organization</h3>
                     <p><i>Flux Governance (XDAO) is managed by a decentralized community who submit and vote on proposals for the future of Flux. Flux node operators will be able to vote whether proposals are accepted or rejected. This is a milestone for Flux as community governance is a centerpiece of decentralization.</i></p>
                     <div className={styles.btns}>
-                            <a target="_blank" href=" https://home.runonflux.io/xdao-app">XDAO Details</a>
+                            <a target="_blank" href=" https://home.runonflux.com/xdao-app">XDAO Details</a>
                         </div>
                     </div>
                 </div>

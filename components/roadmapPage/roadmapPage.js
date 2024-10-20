@@ -68,7 +68,7 @@ export function RoadMapPage(){
                                         <p>-SSP Multichain Expansion</p>
                                         <p>-Zelcore Adding More Fiat On-Ramp and Off-Ramp Options</p>
                                         <p>-FluxAI Subscription Methods</p>
-                                        <p>-Runonflux.io Domain Changing to Runonflux.com</p>
+                                        <p>-Runonflux.com Domain Changing to Runonflux.com</p>
                                         <p>-Flux Foundation Launch</p>
                                     </div>
                                     <div className={styles.time}>

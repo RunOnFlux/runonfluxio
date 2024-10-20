@@ -10,7 +10,7 @@ export function Card(props){
             </div>
             <div className={styles.content}>
                 <h6>{props.name}</h6>
-                <a href="https://cloud.runonflux.io/marketplace" target="_blank" className={styles.btn}>{props.linkName}</a>
+                <a href="https://cloud.runonflux.com/marketplace" target="_blank" className={styles.btn}>{props.linkName}</a>
             </div>
         </div>
     )
