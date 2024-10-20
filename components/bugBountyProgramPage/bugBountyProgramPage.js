@@ -9,7 +9,7 @@ export function BugBountyProgramPage(){
             <div className="row">
                     <div className="col-12">
                     <h2 className="mb-4">Flux bug bounty program</h2>
-                    <p>The Flux Community and Foundation are happy to announce the Flux bug bounty program to reward security researchers and developers who invest their time and effort into finding bugs or exploits in Flux.</p>
+                    <p>InFlux Technologies Limited is happy to announce the Flux bug bounty program to reward security researchers and developers who invest their time and effort into finding bugs or exploits in Flux products.</p>
                     </div>
                     </div>
             </div>
@@ -20,7 +20,7 @@ export function BugBountyProgramPage(){
                 <div className="row mb-4">
                         <div className="col-12">
                         <h3 className="mb-2">What can you earn?</h3>
-                        <p>All bugs will be evaluated according to the CVSS scoring scale and rewarded accordingly. The CVSS levels are:</p>
+                        <p>All bugs will be evaluated according to their severity and rewarded accordingly. </p>
                         </div>
                         </div>
                         <div className="row">
@@ -28,36 +28,25 @@ export function BugBountyProgramPage(){
                             <thead>
                                 <tr>
                                 <th>Severity</th>
-                                <th>CVSS Score</th>
                                 <th>Reward</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                 <td>Critical</td>
-                                <td>9.0-10</td>
-                                <td>500-1000 Flux</td>
-                         
+                                <td> up to 10000 Flux</td>
                                 </tr>
                                 <tr>
                                 <td>High</td>
-                                <td>7.0-8.9</td>
-                                <td>250-500 Flux</td>
+                                <td>up to 1000 Flux</td>
                                 </tr>
                                 <tr>
                                 <td>Medium</td>
-                                <td>4.0-6.9</td>
-                                <td>150-500 Flux</td>
+                                <td>up to 500 Flux</td>
                                 </tr>
                                 <tr>
                                     <td>Low</td>
-                                    <td>0.1-3.9</td>
-                                    <td>50 Flux</td>
-                                </tr>
-                                <tr>
-                                    <td>None</td>
-                                    <td>0</td>
-                                    <td>10 Flux</td>
+                                    <td>up to 100 Flux</td>
                                 </tr>
                             </tbody>
                             </Table>
@@ -90,9 +79,10 @@ export function BugBountyProgramPage(){
                                 <li>For website related issues: No data is removed from the website upon discovery.</li>
                                 <li>The Flux Blockchain and nodes: Any and all exploits be confined to a private testnet or regtest for validation purposes. Any code modifications carried out to run exploits need to be disclosed along with the effects for full validation.</li>
                                 <li>For the FluxOS distributed operating system, any and all exploits are confined to their own nodes for validation purposes. Should additional nodes be required to fully validate more serious exploits, the Flux team will assist with a private testnet.</li>
-                                <li>Submissions can only be made to <a href="#">security@runonflux.io</a> or via direct message to a developer on Discord in either case using the attached <a href="#">PGP keys</a> for encryption is a requirement.</li>
+                                <li>Submissions can only be made to <a href="#">security@runonflux.com</a> using the attached <a href="#">PGP keys</a> for encryption is a requirement.</li>
                                 <li>Include an email for responses in your report.</li>
                                 <li>Adhere to timeframes laid out in initial confirmation of report emails.</li>
+                                <li>We do have a no-reply policy on improper submissions, none severity issues and spam.</li>
                             </ul>
                         </div>
                     </div>
@@ -110,14 +100,7 @@ export function BugBountyProgramPage(){
                                 <li>Injection flaws such as SQL, noSQL, Mongodb or OS injection that tricks command interpreter into executing unintended commands without proper authorization.</li>
                                 <li>Broken authentication/session management that allows compromise of passwords, keys or session tokens.</li>
                                 <li>Sensitive data exposure due to improper protection of data via insecure API or flaw in cryptography implementation.</li>
-                                <li>Cross-Site Request Forgery (CSRF) for sensitive functions in a privileged context.</li>
-                                <li>Remote Code Execution (RCE).</li>
-                                <li>Insecure DIRECT OBJECT REFERENCES.</li>
-                                <li>Privilege ESCALATION.</li>
-                                <li>Directory TRAVERSAL.</li>
-                                <li>Open REDIRECTS.</li>
-                                <li>Spoofing enablement.</li>
-                               
+                                <li>Weak or missing access controls enable attackers to gain unauthorized access to restricted resources or perform actions that should be prohibited based on their permissions.</li>
                             </ul>
                         </div>
                     </div>
@@ -133,6 +116,7 @@ export function BugBountyProgramPage(){
                                 <li>Domains hosted by third parties (e.g.: Github, Gitlab, etc).</li>
                                 <li>Subdomains operated by third parties (e.g: info.runonflux.io).</li>
                                 <li>Any Flux branded services operated by third parties.</li>
+                                <li>Any applications running on FluxOS *.app.runonflux.io and *.app2.runonflux.io</li>
                             </ul>
                         </div>
                     </div>
@@ -140,7 +124,7 @@ export function BugBountyProgramPage(){
                     <div className="row mb-4">
                         <div className="col-12">
                             <h3 className="mb-2">How to report a bug</h3>
-                            <p>Send an email using the below <a href="#">PGP keys</a> to <a href="#">security@runonflux.io</a> and no other email address. Failing to use the attached <a href="#">PGP keys</a> for the bug report will invalidate any security issues higher than level 2 on the CVSS scale.</p>
+                            <p>Send an email using the below <a href="#">PGP keys</a> to <a href="#">security@runonflux.com</a> and no other email address. Failing to use the attached <a href="#">PGP keys</a> for the bug report will invalidate any security issues higher than level 2 on the CVSS scale.</p>
                         </div>
                     </div>
 
@@ -149,7 +133,7 @@ export function BugBountyProgramPage(){
                         <ul>
                             <li>Write up a report on your findings.</li>
                             <li>PGP Encrypt the report with keys from URL.</li>
-                            <li>Within 24 hours you will have an acknowledgement.</li>
+                            <li>Within 24 hours you will have an acknowledgement if your reported submission is valid and adheres to responsible disclosure policy.</li>
                             <li>Adhere to timeline and additional information requests from the Flux team outlined in the acknowledgement email.</li>
                             <li>Discuss publication times and names.</li>
                             <li>Collect bounty.</li>
