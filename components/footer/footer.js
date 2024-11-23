@@ -42,7 +42,7 @@ export function Footer(){
                             <a href="https://www.linkedin.com/company/influxtechnology/mycompany/" target="_blank" rel="noreferrer"><Image alt="icon" src={image10}/></a>
                             <a href="https://www.twitch.tv/runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image11}/></a>
                             <a href="https://www.instagram.com/runonflux_official/" target="_blank" rel="noreferrer"><Image alt="icon" src={image12}/></a>
-                            <a href="https://www.tiktok.com/@flux_runonflux" target="_blank" rel="noreferrer"><Image alt="icon" src={image13}/></a>
+                            <a href="https://www.tiktok.com/@runonflux_official" target="_blank" rel="noreferrer"><Image alt="icon" src={image13}/></a>
                             </div>
                             <a href="mailto:info@runonflux.com?subject=Contact%20Flux!" className={styles.btn}>Contact us!</a><br/>
                             <a href="https://support.runonflux.io/" className={styles.btn}>Support Center</a>
