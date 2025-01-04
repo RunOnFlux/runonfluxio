@@ -111,12 +111,6 @@ module.exports = {
         basePath: false
       },
       {
-        source: '/cypherPunk2024',
-        destination: ' https://cypherpunk2024.com/',
-        permanent: false,
-        basePath: false
-      },
-      {
         source: '/fluxStore',
         destination: 'https://gotflux.store/',
         permanent: false,

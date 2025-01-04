@@ -483,18 +483,8 @@ export function NavBar(){
                         </div>
                         </Link>
                        
-                    </NavDropdown.Item>
-                   
-                    <NavDropdown.Item>
-                        <Link href={'/cypherPunk2024'} eventKey={28} className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                      Cypherpunk 2024
-                        <br/>
-                        {/* <div className={styles.sublink}>Help us grow the Flux project and contribute <br/>to the foundation funds.</div> */}
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
+                    </NavDropdown.Item>               
+
                     <NavDropdown.Item>
                         <Link href={'/support'} eventKey={29} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
@@ -945,17 +935,7 @@ export function NavBar(){
                         </Link>
                        
                     </NavDropdown.Item>
-                   
-                    <NavDropdown.Item eventKey="58">
-                        <Link href={'/cypherPunk2024'}  className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                      Cypherpunk 2024
-                        <br/>
-                        {/* <div className={styles.sublink}>Help us grow the Flux project and contribute <br/>to the foundation funds.</div> */}
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
+
                     <NavDropdown.Item eventKey="59">
                         <Link href={'/support'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
