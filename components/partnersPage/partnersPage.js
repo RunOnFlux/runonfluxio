@@ -2,7 +2,7 @@
 import React from "react";
 import styles from "./index.module.css";
 import Image from "next/image";
-import partner1 from "../../public/images/partners/partner15.svg"
+import partner1 from "../../public/images/partners/partner1.svg"
 import partner2 from "../../public/images/partners/partner2.svg";
 import partner3 from "../../public/images/partners/partner3.svg";
 // import partner4 from "../../public/images/partners/partner4.png";
@@ -16,7 +16,7 @@ import partner11 from "../../public/images/partners/partner11.svg"
 import partner12 from "../../public/images/partners/partner12.svg"
 import partner13 from "../../public/images/partners/partner13.svg"
 import partner14 from "../../public/images/partners/partner14.svg"
-import partner15 from "../../public/images/partners/partner15.svg"
+// import partner15 from "../../public/images/partners/partner15.svg"
 import partner16 from "../../public/images/partners/partner16.svg"
 import partner17 from "../../public/images/partners/partner17.svg"
 import partner18 from "../../public/images/partners/partner18.svg"
@@ -51,7 +51,7 @@ export function PartnersPage(){
                         <h4>Partners and teams that work with Flux</h4>
                         <h5>FluxOS is a revolutionary second-layer operating system application that allows hardened Dockerized apps to run on Flux’s fully decentralized computational network.</h5>  
                     </div>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col mb-5">
                             <div className={styles.card}>
                                 <div className="row">
@@ -66,7 +66,7 @@ export function PartnersPage(){
                                 </div>
                             </div>
                         </div> 
-                    </div>
+                    </div> */}
 
                     <div className="row">
                         <div className="col mb-5">
