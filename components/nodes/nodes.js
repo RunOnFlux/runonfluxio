@@ -279,7 +279,7 @@ export function Node() {
                     <div className="col-md-6">
                         <h3>Titan <span>Nodes</span></h3>
                         <p>The minimum collateral requirement for the base FluxNode tier may not be feasible for all participants. In such scenarios, alternative support mechanisms such as the Titan modulus have been developed to provide viable options for network participation.</p>
-                        <p>The Titan nodes will enable users to pool their resources to run enterprise-level hardware, and in doing so, exposing them to a new customer set.
+                        <p>The Titan Nodes managed by the Flux team enables users to pool their resources to run enterprise-level hardware, and in doing so, exposing them to a new customer set. From the user's standpoint, Titan Nodes are similar to staking - no need to set up a node; just lock the collateral for a certain period with a few clicks, and get rewarded.
                         </p>
                     </div>
                     <div className="col-md-6">
