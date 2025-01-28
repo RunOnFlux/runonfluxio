@@ -58,7 +58,6 @@ export function NavBar0(){
                         <div className="col-md-11">
                             <ul>
                                 <li> <a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper <Image alt="img" src={target}/></a></li>
-                                <li> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki<Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">FluxStore <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://sspwallet.io/" target="_blank" rel="noreferrer">SSP Wallet <Image alt="img" src={target}/></a></li>
@@ -199,6 +198,16 @@ export function NavBar0(){
                         </Link>
                        
                     </NavDropdown.Item>
+                    <NavDropdown.Item >
+                      <Link href={'/fluxrunner'} className={styles.link} eventKey="6"> 
+                      <div style={{textDecoration: "none", color: "inherit"}}>
+                        FluxRunner
+                     <br/>
+                     <div className={styles.sublink}>A simple way to purchase and interact with wordpress sites</div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
 
                     <NavDropdown.Item >
                       <Link href={'/zelcore'} className={styles.link} eventKey="6"> 
@@ -296,15 +305,6 @@ export function NavBar0(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'/documentation'} eventKey={13} className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Documentation <br/>
-                        <div className={styles.sublink}>Read the Flux docs and get building on Flux today.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
                         <Link href={'/blockExplorer'} eventKey={14} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Block Explorer
@@ -360,15 +360,6 @@ export function NavBar0(){
                       </div>
                     
                       </Link> 
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        <Link href={'/fluxCloud'} eventKey={17} className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
-                        FluxCloud Products
-                        <br/>
-                        <div className={styles.sublink}>Discover how to launch an app on the Flux network.</div>
-                        </div>
-                        </Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item>
                         <Link href={'/guides'} eventKey={18} className={styles.link} >
@@ -746,15 +737,6 @@ export function NavBar0(){
                         </Link>
                        
                     </NavDropdown.Item>
-                    <NavDropdown.Item eventKey="43">
-                        <Link href={'/documentation'}  className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit"}}>
-                       Documentation <br/>
-                        <div className={styles.sublink}>Read the Flux docs and get building on <br/> Flux today.</div>
-                        </div>
-                        </Link>
-                       
-                    </NavDropdown.Item>
                     <NavDropdown.Item eventKey="44">
                         <Link href={'/blockExplorer'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
@@ -808,17 +790,6 @@ export function NavBar0(){
                       </div>
                     
                       </Link> 
-                    </NavDropdown.Item>
-
-                      <NavDropdown.Item eventKey="47">
-                        <Link href={'/fluxCloud'}  className={styles.link} >
-                        <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}}>
-                         FluxCloud Products
-                        <br/>
-                        <div className={styles.sublink}>Discover how to launch an app on the <br/>Flux network.</div>
-                        </div>
-                        </Link>
-                       
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="5151">
@@ -958,7 +929,6 @@ export function NavBar0(){
                 <div className="container">
                     <div className="row text-center">
                                 <div className={styles.topNavLink}> <a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></div>
-                                <div className={styles.topNavLink}> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki</a></div>
                                 <div className={styles.topNavLink}> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">Flux Store </a></div>
                                 <div className={styles.topNavLink}> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></div>
                                 <div className={styles.topNavLink}> <a href="https://support.runonflux.io/" target="_blank" rel="noreferrer">Support</a></div>

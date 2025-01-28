@@ -121,7 +121,7 @@ export function HomePage(){
       const hasModalBeenShown = sessionStorage.getItem('hasModalBeenShown');
   
       if (!hasModalBeenShown) {
-        setShowModal(true);
+        setShowModal(false);
         // Set a flag in sessionStorage indicating that the modal has been shown
         sessionStorage.setItem('hasModalBeenShown', 'true');
       }
@@ -397,7 +397,7 @@ export function HomePage(){
                             <h3><span>FluxCloud </span><br/>
                                 Estimated Cost</h3>
                                 <p>The FluxCloud assures next generation pricing, today! The Customer only pays for selected computer specifications in regards to their personal demand.</p>
-                                <a href="https://jetpack2.app.runonflux.io/hello.html#cost-calculator" rel="noreferrer" target="_blank">Cost Calculator</a>
+                                <a href="https://cloud.runonflux.io/cost_calculator" rel="noreferrer" target="_blank">Cost Calculator</a>
                         </div>
                         <div className="col-lg-6 col-md-6">
                             <div className={styles.cost}>

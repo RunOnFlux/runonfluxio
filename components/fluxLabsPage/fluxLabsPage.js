@@ -207,7 +207,7 @@ export function FluxLabsPage(){
                                <a rel="noreferrer" href="https://dashboard.fluxrun.dev/" target="_blank">  <Image alt="logo" src={logo31}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
-                               <a rel="noreferrer" href="https://bmoblockchain.us/" target="_blank">  <Image alt="logo" src={logo32}/></a>
+                               <a rel="noreferrer" href="https://chainsavvy.io/shop/" target="_blank">  <Image alt="logo" src={logo32}/></a>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-4 col-6">
                                <a rel="noreferrer" href="https://techfleet.org/" target="_blank">  <Image alt="logo" src={logo33}/></a>

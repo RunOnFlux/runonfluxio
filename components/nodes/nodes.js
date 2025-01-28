@@ -360,7 +360,7 @@ export function Node() {
                                 
                                     <div className={styles.button}>
                                   
-                                    <a className={styles.btn1} href="https://bmoblockchain.us/shop/">Buy Now</a>
+                                    <a className={styles.btn1} href="https://chainsavvy.io/shop/">Buy Now</a>
                                     </div>
                                 </div>
                                 </div>
@@ -399,7 +399,7 @@ export function Node() {
                     <div className={styles.hardwareCard}>
                             {/* <div className={styles.cardHeader}>
                             <h6>BMO</h6>
-                        <a className={styles.btn1} href="https://bmoblockchain.us/shop/">Buy Now</a>
+                        <a className={styles.btn1} href="https://chainsavvy.io/shop/">Buy Now</a>
                             </div> */}
                         <p>
                         BMO Advanced Managed Services (BAMS) is a one stop solution. With expertise in design, implementation, optimization, troubleshooting and the documentation of various projects around blockchain ecosystem.{" "}
@@ -447,7 +447,7 @@ export function Node() {
                     <div className={styles.hardwareCard}>
                             {/* <div className={styles.cardHeader}>
                             <h6>BMO</h6>
-                        <a className={styles.btn1} href="https://bmoblockchain.us/shop/">Buy Now</a>
+                        <a className={styles.btn1} href="https://chainsavvy.io/shop/">Buy Now</a>
                             </div> */}
                         <p>
                         BMO Advanced Managed Services (BAMS) is a one stop solution. With expertise in design, implementation, optimization, troubleshooting and the documentation of various projects around blockchain ecosystem.{" "}

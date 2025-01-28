@@ -56,6 +56,7 @@ export function Footer(){
                             <li><Link href="/fluxDapps">DApps</Link></li>
                             <li><Link href="/nodes">FluxNodes</Link></li>
                             <li><Link href="/flux">Flux</Link></li>
+                            <li><a href="https://fluxrunner.com/" target="_blank" rel="noreferrer">FluxRunner</a></li>
                             <li><a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></li>
                             <li><a href="https://sspwallet.io/" target="_blank" rel="noreferrer">SSP Wallet</a></li>
                             <li><a href="/dashboard">Dashboard</a></li>
@@ -70,7 +71,6 @@ export function Footer(){
                             <li><a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></li>
                             <li><Link href="/roadmap"> Roadmap</Link></li>
                             <li><Link href="/team"> Team</Link></li>
-                            <li><a href="/documentation" target="_blank" rel="noreferrer"> Documentation</a></li>
                             <li><Link href="/partners"> Partners</Link></li>
                             <li><a href="https://explorer.runonflux.com/" target="_blank" rel="noreferrer"> Block Explorer</a></li>
                         </ul>

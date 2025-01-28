@@ -17,27 +17,58 @@ export function RoadMapPage(){
                     <div className="row">
                         <div className={styles.timeline}>
                             <ul>
-                                <li>
-                                    <div className={styles.content}>
-                                        <h3>New App Specs</h3>
-                                        <p>-New Application Specification V8</p>
+                                <li><div className={styles.content}>
+                                        <h3>FluxAI</h3>
+                                        <p>FluxCHAT</p>
+                                        <p>FluxONE Image Generation</p>
+                                        <p>FluxINTEL Document Intelligence</p>
+                                        <p>Enterprise API V1</p>
+                                        <p>FluxAI Refferals and Affiliate Support</p>
                                     </div>
+                                    
                                     <div className={styles.time}>
-                                        <h4>Q2 2025</h4>
+                                        <h4>2025</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                <div className={styles.content}>
+                                        <h3>FluxEdge</h3>
+                                        <p>External S3 compatible storage support</p>
+                                        <p>Rest API V1</p>
+                                        <p>Multiple Disk Support</p>
+                                        <p>Machine Reviews and Rating System</p>
+                                        <p>Premium Machines</p>
+                                        <p>Distributed AI Training Use Cases</p>
+                                        <p>Distributed AI Training Use Cases</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div className={styles.content}>
-                                        <h3>Zelcore, Arcane</h3>
-                                        <p>-Zelcore Taproot Support</p>
-                                        <p>-SSP Fiat Onboarding</p>
-                                        <p>-FluxAI Bot trained on Flux data</p>
-                                        <p>-New FluxNode Hardware Requirements With Increased Storage</p>
-                                        <p>-Project Arcane</p>
-                                        <p>-Cypherpunk Miami 2.0</p>
+                                        <h3>FluxCloud</h3>
+                                        <p>ArcaneOS: Custom FluxNode Operating System</p>
+                                        <p>Progressive FluxNode Rewards</p>
+                                        <p>New Application Specification V8</p>
+                                        <p>New Flux Ecosystem Website and SEO improvements</p>
+                                        <p>FluxGaming Product Launch</p>
                                     </div>
-                                    <div className={styles.time}>
-                                        <h4>Q1 2025</h4>
+                                </li>
+                                <li>
+                                    <div className={styles.content}>
+                                        <h3>Zelcore</h3>
+                                        <p>Taproot Support</p>
+                                        <p>Browser Extension</p>
+                                        <p>Security Audit</p>
+                                        <p>Additional Blockchain Support</p>
+                                        <p>UI/UX Improvements</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className={styles.content}>
+                                        <h3>SSP Wallet</h3>
+                                        <p>Fiat Onboarding</p>
+                                        <p>3rd Party Swaps</p>
+                                        <p>Security Audit</p>
+                                        <p>Enterprise : Multi-signature, multi-asset wallet for Enterprises</p>
                                     </div>
                                 </li>
                                 <li>

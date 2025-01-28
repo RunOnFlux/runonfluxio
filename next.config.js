@@ -55,6 +55,12 @@ module.exports = {
         destination: 'https://fluxai.app/',
         permanent: false,
         basePath: false
+      },
+      {
+        source: '/fluxrunner',
+        destination: 'https://fluxrunner.com/',
+        permanent: false,
+        basePath: false
       },    
       {
         source: '/zelcore',
@@ -80,12 +86,6 @@ module.exports = {
         permanent: false,
         basePath: false
       },  
-      {
-        source: '/documentation',
-        destination: 'https://wiki.runonflux.com/',
-        permanent: false,
-        basePath: false
-      },
       {
         source: '/blockExplorer',
         destination: 'https://explorer.runonflux.com/',
