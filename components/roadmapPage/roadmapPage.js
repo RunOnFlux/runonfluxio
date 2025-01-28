@@ -19,11 +19,11 @@ export function RoadMapPage(){
                             <ul>
                                 <li><div className={styles.content}>
                                         <h3>FluxAI</h3>
-                                        <p>FluxCHAT</p>
+                                        <p>FluxGPT</p>
                                         <p>FluxONE Image Generation</p>
                                         <p>FluxINTEL Document Intelligence</p>
-                                        <p>Enterprise API V1</p>
-                                        <p>FluxAI Refferals and Affiliate Support</p>
+                                        <p>Flux Enterprise AI</p>
+                                        <p>FluxAI Referrals and Affiliate Support</p>
                                     </div>
                                     
                                     <div className={styles.time}>
@@ -33,7 +33,7 @@ export function RoadMapPage(){
                                 <li>
                                 <div className={styles.content}>
                                         <h3>FluxEdge</h3>
-                                        <p>External S3 compatible storage support</p>
+                                        <p>External S3 Compatible Storage Support</p>
                                         <p>Rest API V1</p>
                                         <p>Multiple Disk Support</p>
                                         <p>Machine Reviews and Rating System</p>
@@ -48,7 +48,7 @@ export function RoadMapPage(){
                                         <p>ArcaneOS: Custom FluxNode Operating System</p>
                                         <p>Progressive FluxNode Rewards</p>
                                         <p>New Application Specification V8</p>
-                                        <p>New Flux Ecosystem Website and SEO improvements</p>
+                                        <p>New Flux Ecosystem Website and SEO Improvements</p>
                                         <p>FluxGaming Product Launch</p>
                                     </div>
                                 </li>
@@ -68,7 +68,7 @@ export function RoadMapPage(){
                                         <p>Fiat Onboarding</p>
                                         <p>3rd Party Swaps</p>
                                         <p>Security Audit</p>
-                                        <p>Enterprise : Multi-signature, multi-asset wallet for Enterprises</p>
+                                        <p>Enterprise : Multi-signature, Multi-asset Wallet for Enterprises</p>
                                     </div>
                                 </li>
                                 <li>
