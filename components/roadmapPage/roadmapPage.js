@@ -39,7 +39,6 @@ export function RoadMapPage(){
                                         <p>Machine Reviews and Rating System</p>
                                         <p>Premium Machines</p>
                                         <p>Distributed AI Training Use Cases</p>
-                                        <p>Distributed AI Training Use Cases</p>
                                     </div>
                                 </li>
                                 <li>
