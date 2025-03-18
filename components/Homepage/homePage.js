@@ -496,7 +496,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Run Droplet</h5>
                                 <h6>Make use of the secure, and battle proven technology of Docker Hub containers to deploy applications in a decentralized manner.</h6>
-                                <a href="https://jetpack2.app.runonflux.io/#/launch/details" target="_blank" rel="noreferrer">Launch Now</a>
+                                <a href="https://cloud.runonflux.io/launch" target="_blank" rel="noreferrer">Launch Now</a>
                             </div>
                         </div>
                     </div>
@@ -510,7 +510,7 @@ export function HomePage(){
                                 </div>
                                 <h5>Run Droplet</h5>
                                 <h6>Make use of the secure, and battle proven technology of Docker Hub containers to deploy applications in a decentralized manner.</h6>
-                                <a href="https://jetpack2.app.runonflux.io/#/launch/details" target="_blank" rel="noreferrer">Launch Now</a>
+                                <a href="https://cloud.runonflux.io/launch" target="_blank" rel="noreferrer">Launch Now</a>
                             </div>
                             
                         </div>

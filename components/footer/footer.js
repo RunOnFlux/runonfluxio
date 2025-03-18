@@ -78,7 +78,7 @@ export function Footer(){
                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 mb-5">
                         <h5>DEVELOPERS</h5>
                         <ul>
-                        <li><a href="https://jetpack2.app.runonflux.io/hello.html" target="_blank" rel="noreferrer">App</a></li>
+                            <li><a href="https://cloud.runonflux.io/" target="_blank" rel="noreferrer">App</a></li>
                             <li><Link href="/node" target="_blank" rel="noreferrer"> Fluxnode Startup Guide</Link></li>
                             <li><Link href="/guides"> Guides / Helpdesk</Link></li>
                             <li><a href="https://fluxofficial.medium.com/earn-more-with-fractus-cumulus-store-more-flux-earned-cbeac46bc9e7" target="_blank" rel="noreferrer">Fractus</a></li>
