@@ -50,12 +50,12 @@ export default function Arcane() {
               open it in a new tab
             </a>.
           </p>
-          <div style={{ marginTop: '30px' }}>
+          <div style={{ marginTop: '30px', }}>
             <iframe
               src="/pdfs/flux-arcane-install-guide.pdf"
               width="100%"
               height="900px"
-              style={{ border: '1px solid #ccc', borderRadius: '8px' }}
+              style={{ border: '1px solid #ccc', borderRadius: '8px', }}
             />
           </div>
         </div>

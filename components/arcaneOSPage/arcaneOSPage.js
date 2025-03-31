@@ -4,7 +4,6 @@ import styles from './index.module.css';
 
 const ArcaneOSPage = () => {
   return (
-    <div className={styles.section2}>
       <div className="container">
         <h3>What is Flux Arcane OS?</h3>
         <p>
@@ -60,7 +59,6 @@ const ArcaneOSPage = () => {
           </li>
         </ol>
       </div>
-    </div>
   );
 };
 

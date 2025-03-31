@@ -18,11 +18,21 @@
     text-align: left;
     font-weight: bold;
     margin-bottom: 10px;
-    
     }
   
     .section1 h1 span{
       color: #2B61D1;
+    }
+    
+    .section1 h3{
+      margin: 0.1em auto 0em 0px;
+      font-family: Montserrat, sans-serif;
+      color: var(--text-white);
+      font-size: 2.7em;
+      line-height: 1.1em;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 10px;
     }
     
     .section1 p{
@@ -30,11 +40,42 @@
       /* margin-bottom: 60px !important; */
       padding-top: 0em;
       font-family: 'Montserrat', sans-serif;
-      color: #fff;
+      color: var(--CardText4);
       font-size: 1em;
       line-height: 1.5;
       font-weight: 400;
       text-align: left;
+    }
+
+    .section1 ol{
+      list-style-type: none; 
+      padding-left: 0; 
+    }
+    .section1 ol li{
+      counter-increment: list-counter; 
+      margin-bottom: 10px; 
+      font-size: 15px;
+      color: var(--CardText4);
+    }
+    .section1 ol li span{
+      font-size: 18px;
+      font-family: 'Montserrat';
+      font-weight: 600;
+      color: var(--text-white);
+    }
+    .section1 ol li p{
+      margin-left: 35px;
+      font-size: 15px;
+      font-family: 'Montserrat';
+      color: var(--CardText4);
+    }
+    .section1 ol li::before{
+      content: counter(list-counter); 
+      background-color: #2b61d1;
+      color: var(--CardText4);
+      padding: 5px 10px; 
+      border-radius: 100%; 
+      margin-right: 10px; 
     }
     .btn1{
       /* border: 2px solid var(--text-blue); */
@@ -89,6 +130,10 @@
     .section2{
         margin-top: 100px;
     }
+
+    .section2 p{
+      color: var(--CardText);
+  }
 
     .section2 h3{
         margin: 0.1em auto 0em 0px;
@@ -146,12 +191,8 @@
         padding: 5px 10px; 
         border-radius: 100%; 
         margin-right: 10px; 
-
       }
 
-      .section2 p {
-        color: #fff; 
-      }
       .techStackList{
         margin-top: 30px;
       }
