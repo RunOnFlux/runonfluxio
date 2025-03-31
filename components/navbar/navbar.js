@@ -174,6 +174,16 @@ export function NavBar(){
                       </Link> 
                     </NavDropdown.Item>
 
+                    <NavDropdown.Item>
+                     <Link href={'/arcaneOS'} className={styles.link}  > 
+                      <div style={{textDecoration: "none", color: "inherit"}} >
+                    ArcaneOS<br/>
+                    <div className={styles.sublink}>ArcaneOS our secure Operating System for FluxCloud</div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
+
                     <NavDropdown.Item >
                       <Link href={'/parallelMining'} className={styles.link} eventKey="5"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
@@ -605,6 +615,16 @@ export function NavBar(){
                       <div style={{textDecoration: "none", color: "inherit"}} >
                     FluxOS<br/>
                     <div className={styles.sublink}>FluxOS powers FluxCloud, providing seamless integration.</div>
+                      </div>
+                    
+                      </Link> 
+                    </NavDropdown.Item>
+
+                    <NavDropdown.Item>
+                     <Link href={'/arcaneOS'} className={styles.link} > 
+                      <div style={{textDecoration: "none", color: "inherit"}} >
+                    ArcaneOS<br/>
+                    <div className={styles.sublink}>ArcaneOS our secure Operating System for FluxCloud</div>
                       </div>
                     
                       </Link> 
