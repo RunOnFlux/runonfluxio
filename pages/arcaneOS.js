@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { useEffect } from 'react';
 import ArcaneOSPage from '../components/arcaneOSPage/arcaneOSPage';
 import { NavBar4 } from '../components/navbar/navbar4';
 import styles from '../components/arcaneOSPage/index.module.css';
@@ -37,8 +36,9 @@ export default function Arcane() {
             </button>
           </div>
         </div>
-        <ArcaneOSPage />
-      </div>     
+      </div>
+
+      <ArcaneOSPage />
 
       {/* Embedded Install Guide */}
       <div id="arcane-install-guide" className={styles.section2}>
@@ -50,7 +50,7 @@ export default function Arcane() {
               open it in a new tab
             </a>.
           </p>
-          <div style={{ marginTop: '30px', }}>
+          <div style={{ marginTop: '30px', marginBottom: '80px' }}>
             <iframe
               src="/pdfs/flux-arcane-install-guide.pdf"
               width="100%"

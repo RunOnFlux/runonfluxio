@@ -1,5 +1,6 @@
 .section1{
     margin-top: -90px;
+    padding-bottom: 100px;
     padding-top: 200px;
     background-image:url("../../public/images/fluxosHeader\ Background.svg");
     background-color: var(--headerBackground); 
@@ -30,7 +31,7 @@
       color: var(--text-white);
       font-size: 2.7em;
       line-height: 1.1em;
-      text-align: center;
+      text-align: left;
       font-weight: bold;
       margin-bottom: 10px;
     }
@@ -99,19 +100,15 @@
     }
     
     .btn2{
-        display: inline-block;
-      /* background: var(--text-blue); */
+      display: inline-block;
       padding: 15px 30px;
-      /* border-radius: 10px; */
       color: var(--text-white) !important;
       text-decoration: none;
-      margin-right: 15px;
-      margin-left: 0px;
       width: 250px;
       text-align: center;
       background: #2B61D1;
-      box-shadow: 0px 3.17664px 15.8832px 1.58832px rgba(0, 0, 0, 0.1);
       border-radius: 100px;
+      border: none !important;
       font-size: 14px;
       transition: all .2s ease-in-out;
     }
@@ -128,7 +125,7 @@
     }
 
     .section2{
-        margin-top: 100px;
+        margin-top: 80px;
     }
 
     .section2 p{
@@ -232,7 +229,6 @@
       .fluxcloud img{
         width: 100%;
         height: auto;
-       
       }
 
       .section4{
@@ -355,42 +351,17 @@
         background-position: center center;
         background-repeat: no-repeat;
         width: 100%;
-        height: 70rem;
+        height: auto;
       }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @media all and (min-width: 992px){
-        .section1 p{
-          width: 80%;
-        }
-        .section3 p{
-            width: 60%;
-            margin:auto;
-          }
+      .section1 p{
+        width: 80%;
+      }
+      .section3 p{
+        width: 60%;
+        margin:auto;
+      }
     }
 
 
@@ -510,7 +481,6 @@
         margin-top: -90px;
         padding-top: 200px;
         background-image:url("../../public/images/fluxos-mobile-header.svg");
-        height:100vh;
         width:100%;
         background-size:cover;
         background-position:center;
@@ -634,7 +604,7 @@
         margin-top: -90px;
         padding-top: 200px;
         background-image:url("../../public/images/fluxos-mobile-header.svg");
-        height:100vh;
+        height:auto;
         width:100%;
         background-size:cover;
         background-position:center;
@@ -694,7 +664,7 @@
       }
       .fluxcloud img{
         width: 100%;
-        height: 100%;
+        height: auto;
       }
 
       .section4 p{
@@ -758,7 +728,7 @@
             margin-bottom: 10px;
            }
            .section1{
-            height: 130vh;
+            height: auto;
         }
     }
 

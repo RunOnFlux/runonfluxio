@@ -4,10 +4,11 @@ import styles from './index.module.css';
 
 const ArcaneOSPage = () => {
   return (
-      <div className="container">
-        <h3>What is Flux Arcane OS?</h3>
-        <p>
-          Arcane is a full operating system based on Ubuntu 24.04, developed by Influx Technologies Limited to enhance security and privacy in the Flux Cloud network. It also serves as a foundation for future products.
+      <div className={styles.section2}>
+        <div className="container">
+          <h3>What is Flux Arcane OS?</h3>
+          <p>
+            Arcane is a full operating system based on Ubuntu 24.04, developed by Influx Technologies Limited to enhance security and privacy in the Flux Cloud network. It also serves as a foundation for future products.
         </p>
 
         <h3>Key Features</h3>
@@ -59,6 +60,7 @@ const ArcaneOSPage = () => {
           </li>
         </ol>
       </div>
+    </div>
   );
 };
 
