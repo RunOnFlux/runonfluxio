@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./index.module.css";
-import dopex from "../../public/images/marketplace/Logos/dopex>stryke.svg"
+import dopex from "../../public/images/marketplace/Logos/dopexstryke.svg"
 import gmx from "../../public/images/marketplace/Logos/gmx.svg"
 import liquidity from "../../public/images/marketplace/Logos/liquity.svg"
 import osmosis from "../../public/images/marketplace/Logos/osmosis.svg"
