@@ -53,9 +53,9 @@ const ArcaneOSPage = () => {
               Arcane OS is updated via complete image releases, ensuring consistent software versions across the network. Node operators don’t need to manage OS updates themselves.
             </p>
           </li>
-          <li><span>Flux Gravity Integration</span>
+          <li><span>FluxOS Gravity Integration</span>
             <p>
-              Formerly FluxOS, Flux Gravity is the decentralized orchestrator. Arcane enhances it by removing manual app placement, supporting encrypted specs, and reducing attack surfaces.
+              FluxOS Gravity is the decentralized orchestrator. Arcane enhances it by removing manual app placement, supporting encrypted specs, and reducing attack surfaces.
             </p>
           </li>
         </ol>
