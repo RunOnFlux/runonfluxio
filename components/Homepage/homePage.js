@@ -70,9 +70,9 @@ export function HomePage(){
                   ssd += bm.ssd;
                   hdd += bm.hdd;
                 } else if (node.tier === "CUMULUS") {
-                  vcores += 2;
-                  ram += 4;
-                  hdd += 50;
+                  vcores += 4;
+                  ram += 8;
+                  hdd += 220;
                 } else if (
                   node.tier === "NIMBUS" &&
                   node.benchmark &&
@@ -84,9 +84,9 @@ export function HomePage(){
                   ssd += bm.ssd;
                   hdd += bm.hdd;
                 } else if (node.tier === "NIMBUS") {
-                  vcores += 4;
-                  ram += 8;
-                  ssd += 150;
+                  vcores += 8;
+                  ram += 32;
+                  ssd += 440;
                 } else if (
                   node.tier === "STRATUS" &&
                   node.benchmark &&
@@ -98,9 +98,9 @@ export function HomePage(){
                   ssd += bm.ssd;
                   hdd += bm.hdd;
                 } else if (node.tier === "STRATUS") {
-                  vcores += 8;
-                  ram += 32;
-                  ssd += 600;
+                  vcores += 16;
+                  ram += 64;
+                  ssd += 880;
                 }
               });
             
